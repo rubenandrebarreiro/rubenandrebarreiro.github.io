@@ -11,7 +11,7 @@ active: About
 <a href="/ruben-andre-barreiro-resume.pdf">Download Resume</a>
 
 <hr/>
-
+&nbsp;
 <h2 id="greetings">Greetings!</h2>
 
 <hr/>
