@@ -25,7 +25,7 @@ active: About Me
 .buttonDocument {border-radius: 20px;}
 </style>
 
-<h2 id="biography">Biography</h2>
+<h2 id="biography"><i>Biography</i></h2>
 <hr/>
 
 <p>Hi everyone, nice to meet you! 😀</p>
@@ -57,7 +57,7 @@ active: About Me
 <hr/>
 <br>
 
-<h2 id="interests">Interests</h2>
+<h2 id="interests"><i>Interests</i></h2>
 <hr/>
 
 <p> </p>
@@ -74,7 +74,7 @@ I am still learning how to cook exquisite dishes though…-->
 <hr/>
 <br>
 
-<h2 id="projects">Projects</h2>
+<h2 id="projects"><i>Projects</i></h2>
 <hr/>
 
 
