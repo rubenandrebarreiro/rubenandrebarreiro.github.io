@@ -36,10 +36,20 @@ active: About Me
 
 <p>I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal. 📍 🌍</p>
  
-<p>I studied a <a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA - FCT/UNL)</a>, between 2013 and 2018, with a Final Approval Grade of 14,96). 👨‍🎓 🎓</p>
+<p>I studied a <a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA - FCT/UNL)</a>, between 2013 and 2018. 👨‍🎓 🎓</p>
     
-<p>During the BSc, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/">Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</a>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> (Final Approval Grade - 17).
-    <br> - This project, had also the colaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>. </p>
+<p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/">Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</a>, in the context of Edge Computing, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a>.
+    <br>
+    &nbsp;&nbsp;- This project, had also the colaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;
+    <br>
+    &nbsp;&nbsp;- I worked in the Services' section of the Hyrax Project, most preciselly, developing a data structure (DiCE), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing closer to the users; 
+    <br>
+    &nbsp;&nbsp;- Documents of NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge), in 2018:
+    &nbsp;&nbsp;&nbsp;&nbsp;&#9679;<a href="/hyrax-dice-article-paper.pdf"> LaTeX Article/Paper</a>;
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&#9679;<a href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;
+    </p>
+    
 
 <a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📋</b></button></a>
 
