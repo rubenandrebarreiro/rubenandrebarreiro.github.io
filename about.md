@@ -83,6 +83,16 @@ I am still learning how to cook exquisite dishes though…-->
 <ul>
   <li>This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</li>
   <li>I worked in the Services' section of the <i>Hyrax Project</i>, most preciselly, developing a data structure (<i>DiCE</i>), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing and information services closer to the final users;</li>
+  <li>Abstract of <i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i>:
+    <ul>
+        Edge Computing proposes the shifting of (some) computing tasks from centralized Cloud services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may ooad or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to churn. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates churn efficiently;
+    </ul>
+  </li>
+  <li>Keywords of <i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i>:
+    <ul>
+        Edge/Fog Computing, Distributed Computing, Mobile Computing, Network Computation of Mobile Devices at the Edge, Mobile Devices Replication, Replicate Data Structures, Eventual Consistency;
+    </ul>
+  </li>
   <li>
       Documents of <i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i>, in 2018:
       <ul>
