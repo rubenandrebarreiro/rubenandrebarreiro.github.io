@@ -30,7 +30,7 @@ active: About Me
 
 <p>Hi everyone, greetings! 😀</p>
 
-<p>My name is Rúben André Barreiro and I'm Computer Science Engineer and IT/IS Programmer/Technician! 👨‍💻 💻</p>
+<p>My name is Rúben André Barreiro. And I'm Computer Science Engineer and IT/IS Programmer/Technician! 👨‍💻 💻</p>
 
 <p>I'm 25 years old. The 90's are the best generation ever, right?! 🎂 🎈</p>
 
