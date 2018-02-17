@@ -80,14 +80,3 @@ I am still learning how to cook exquisite dishes though…-->
       </ul>
   </li>
 </ul>
-
-
-
-    
-    &nbsp;&nbsp;<p>- I worked in the Services' section of the Hyrax Project, most preciselly, developing a data structure (DiCE), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing closer to the users;</p>
-    <br>
-    &nbsp;&nbsp;<p>- Documents of NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge), in 2018:</p>
-    <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&#9679;<a href="/hyrax-dice-article-paper.pdf"> LaTeX Article/Paper</a>;
-    <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&#9679;<a href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;
