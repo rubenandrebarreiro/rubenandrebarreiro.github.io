@@ -28,7 +28,7 @@ active: About Me
 <h2 id="biography">Biography</h2>
 <hr/>
 
-<p>Hi everyone, greetings! 😀</p>
+<p>Hi everyone, nice to meet you! 😀</p>
 
 <p>My name is Rúben André Barreiro. And I'm Computer Science Engineer and IT/IS Programmer/Technician! 👨‍💻 💻</p>
 
