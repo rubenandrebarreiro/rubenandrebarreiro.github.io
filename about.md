@@ -54,6 +54,11 @@ active: About Me
 
 <a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📋</b></button></a>
 
+<br>
+<br>
+<br>
+<h2 id="projects">Projects</h2>
+<hr/>
 <!--I am a tech enthusiast! I absolutely love to program - and most computer-related topics.
 I like to solve puzzles and riddles. I also play the piano every once in a while.
 I am still learning how to cook exquisite dishes though…-->
