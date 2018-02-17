@@ -70,7 +70,7 @@ I am still learning how to cook exquisite dishes though…-->
 
 <br>
 <hr/>
-<center><font size="6">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
