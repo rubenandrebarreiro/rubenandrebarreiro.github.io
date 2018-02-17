@@ -22,7 +22,7 @@ active: About Me
     cursor: pointer;
 }
 
-.buttonResume {border-radius: 20px;}
+.buttonDocument {border-radius: 20px;}
 </style>
 
 <h2 id="biography">Biography</h2>
@@ -46,8 +46,8 @@ active: About Me
 </p>
 
 
-<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📝</b></button></a>
-<a href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonResume"><b>Download CV 📋</b></button></a>
+<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
+<a href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
 
 <br>
 <hr/>
