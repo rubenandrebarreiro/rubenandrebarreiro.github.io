@@ -12,7 +12,6 @@ active: About
 
 <hr/>
 <h2 id="greetings">Greetings! 😁</h2>
-
 <hr/>
 
 <p>My name is Rúben André Barreiro! I'm 25 years old. I was born in Lisbon, Portugal. I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal.</p>
