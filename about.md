@@ -46,8 +46,26 @@ active: About Me
 <hr/>
 <br>
 
+<h2 id="interests">Interests</h2>
+<hr/>
+
+<p>I have </p>
+
+<!--I am a tech enthusiast! I absolutely love to program - and most computer-related topics.
+I like to solve puzzles and riddles. I also play the piano every once in a while.
+I am still learning how to cook exquisite dishes though…-->
+
+<!--Feel free to ask me out for a coffee! 😉-->
+
+<br>
+<hr/>
+<center>*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</center>
+<hr/>
+<br>
+
 <h2 id="projects">Projects</h2>
 <hr/>
+
 
 <p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/">Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</a>, in the context of Edge Computing, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a>:
     <br>
@@ -61,8 +79,3 @@ active: About Me
     <br>
     &nbsp;&nbsp;&nbsp;&nbsp;&#9679;<a href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;
     </p>
-<!--I am a tech enthusiast! I absolutely love to program - and most computer-related topics.
-I like to solve puzzles and riddles. I also play the piano every once in a while.
-I am still learning how to cook exquisite dishes though…-->
-
-<!--Feel free to ask me out for a coffee! 😉-->
