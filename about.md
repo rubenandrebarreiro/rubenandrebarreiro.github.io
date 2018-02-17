@@ -10,7 +10,7 @@ active: About
 
 <style>
 .button {
-    background-color: #EEEEEE; /* Light Grey */
+    background-color: #DDDDDD; /* Light Grey */
     border: none;
     color: white;
     padding: 20px;
@@ -25,7 +25,7 @@ active: About
 .buttonResume {border-radius: 20px;}
 </style>
 
-<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume">Download Resume</button></a>
+<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume</b></button></a>
 
 <hr/>
 <h2 id="greetings">Biography</h2>
