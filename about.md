@@ -12,7 +12,7 @@ active: About
 
 <hr/>
 &nbsp;
-<h2 id="greetings">Greetings!</h2>
+<h2 id="greetings">Greetings! 😁</h2>
 
 <hr/>
 
