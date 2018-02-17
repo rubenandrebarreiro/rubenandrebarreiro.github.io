@@ -53,7 +53,7 @@ active: About Me
 
 <br>
 <hr/>
-<center>*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -85,7 +85,7 @@ I am still learning how to cook exquisite dishes though…-->
 
 <br>
 <hr/>
-<center>*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -119,7 +119,7 @@ I am still learning how to cook exquisite dishes though…-->
 
 <br>
 <hr/>
-<center>*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
