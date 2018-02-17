@@ -37,8 +37,12 @@ active: About Me
 <p>I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal. 📍 🌍</p>
 
 <br>
+<p>My academic journey, until the moment, are: 👨‍🎓 🎓
+    <ul>
+        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc Degree in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
+    </ul>
+</p>
 
-<p>I studied a <a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA - FCT/UNL)</a>, between 2013 and 2018. 👨‍🎓 🎓</p>
 
 <a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📋</b></button></a>
 
