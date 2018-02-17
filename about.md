@@ -1,10 +1,10 @@
 ---
 bg: "owl.jpg"
 layout: page
-title: "About"
+title: "About Me"
 crawlertitle: "Rúben André Barreiro's Blog - About Me"
 permalink: /about/
-summary: "About Me: Biography, Interests, Goals and Publications"
+summary: "About Me: <br>Biography, Interests, Goals and Publications"
 active: About Me
 ---
 
