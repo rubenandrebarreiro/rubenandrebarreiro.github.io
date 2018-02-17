@@ -81,14 +81,14 @@ active: About Me
         Programming Language APIs covered:
         <ul>
             <li>
-                WebGL, OpenGL, REST, SOAP, JSON, MongoDB, Apache ZooKeeper, Apache Kafka & Google Protobuffers;
+                WebGL, OpenGL, REST, SOAP, JSON, MongoDB, Apache ZooKeeper, Apache Kafka and Google Protobuffers;
             </li>
         </ul>
         
         Frameworks and IDEs covered:
         <ul>
             <li>
-                Eclipse IDE, Oracle APEX (Oracle Application Express), Sublime Text, Brackets, Atom, Docker & Android Studio;
+                Eclipse IDE, Oracle APEX (Oracle Application Express), Sublime Text, Brackets, Atom, Docker and Android Studio;
             </li>
         </ul>
         
