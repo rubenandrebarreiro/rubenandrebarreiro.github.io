@@ -10,7 +10,7 @@ active: About
 
 <style>
 .button {
-    background-color: #DDDDDD; /* Light Grey */
+    background-color: #CCCCCC; /* Light Grey */
     border: none;
     color: white;
     padding: 20px;
