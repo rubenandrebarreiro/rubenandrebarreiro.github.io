@@ -42,7 +42,7 @@ active: About Me
 
 <br>
 <hr/>
-<center>***</center>
+<center>*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</center>
 <hr/>
 <br>
 
