@@ -44,7 +44,7 @@ active: About Me
 <hr/>
 <hr/>
 <br>
-<br>
+
 <h2 id="projects">Projects</h2>
 <hr/>
 
