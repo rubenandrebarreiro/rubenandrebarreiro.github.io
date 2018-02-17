@@ -42,6 +42,7 @@ active: About Me
 
 <br>
 <hr/>
+<center>***</center>
 <hr/>
 <br>
 
