@@ -58,7 +58,7 @@ active: About Me
 <br>
 
 
-<h2 id="programming-languages-skills"><i>Programming Languages and Skills</i></h2>
+<h2 id="programming-languages-skills"><i>Programming Languages, Hard & Soft Skills</i></h2>
 <hr/>
 
 <p>BSc Degree focused in Computer Science and Engineering (FCT NOVA - FCT/UNL), between 2013 and 2018:</p>
