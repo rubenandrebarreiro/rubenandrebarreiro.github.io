@@ -61,7 +61,7 @@ active: About Me
 <h2 id="programming-languages-skills"><i>Programming Languages and Skills</i></h2>
 <hr/>
 
-<p>BSc Degree focused in Computer Science and Engineering (FCT NOVA):</p>
+<p>BSc Degree focused in Computer Science and Engineering (FCT NOVA - FCT/UNL):</p>
 <ul>
     <li>
         Subjects and areas covered:
