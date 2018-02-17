@@ -39,11 +39,11 @@ active: About Me
 
 <p>I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal. 📍 🌍</p>
 
-<p>I attended a Professional Course of Technician of Programming and Management of Computer Systems at Escola Secundária do Monte de Caparica, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
+<p>I attended a Professional Course of Technician of Programming and Management of Computer Systems at Escola Secundária do Monte de Caparica, in Almada, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
 <p>My current academic journey at universities/colleges, until the moment, are: 👨‍🎓 🎓
     <ul>
-        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc Degree in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
+        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc Degree in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (Caparica/Almada Campus at FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
     </ul>
 </p>
 
