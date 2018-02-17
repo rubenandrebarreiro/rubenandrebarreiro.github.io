@@ -57,16 +57,50 @@ active: About Me
 <hr/>
 <br>
 
-<h2 id="interests"><i>Interests</i></h2>
+
+<h2 id="programming-languages-skills"><i>Programming Languages and Skills</i></h2>
 <hr/>
+
+<p>BSc Degree focused in Computer Science and Engineering (FCT NOVA):</p>
+<ul>
+    <li>
+        Subjects and areas covered:
+        <ul>
+            <li></li>
+        </ul>
+    </li>
+</ul>
+
+
+Subjects and areas covered:
+- Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;
+
+Programming Languages covered:
+- Java, C, Assembly, OCaml, HTML, JavaScript, CSS, Oracle SQL, Datalog, XML, Prolog (STRIPS), Unified Modelling Language (UML), Object Constraint Language (OCL) & Android;
+
+Programming Language APIs covered:
+- WebGL, OpenGL, REST, SOAP, JSON, MongoDB, Apache ZooKeeper, Apache Kafka & Google Protobuffers;
+
+Frameworks and IDEs covered:
+- Eclipse IDE, Oracle APEX (Oracle Application Express), Sublime Text, Brackets, Atom, Docker & Android Studio;
+
+Papers/articles' build skills covered:
+- LaTeX;
 
 <p> </p>
 
-<!--I am a tech enthusiast! I absolutely love to program - and most computer-related topics.
-I like to solve puzzles and riddles. I also play the piano every once in a while.
-I am still learning how to cook exquisite dishes though…-->
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
 
-<!--Feel free to ask me out for a coffee! 😉-->
+
+<h2 id="interests"><i>Interests</i></h2>
+<hr/>
+
+<p>I'm addicted to technoligies and Informatics. I love to programming and coding! I also have a big interest in design, photography, multimedia, poetry</p>
+
 
 <br>
 <hr/>
