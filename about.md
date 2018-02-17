@@ -46,7 +46,7 @@ active: About Me
 </p>
 
 
-<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📋</b></button></a>
+<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📝</b></button></a>
 <a href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonResume"><b>Download CV 📋</b></button></a>
 
 <br>
