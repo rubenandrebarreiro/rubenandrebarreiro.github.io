@@ -30,16 +30,16 @@ active: About Me
 
 <p>Hi everyone, nice to meet you! 😀</p>
 
-<p>My name is Rúben André Barreiro. And I'm Computer Science Engineer and IT/IS Programmer/Technician! 👨‍💻 💻</p>
+<p>My name is <b>Rúben André Barreiro</b>. And I'm Computer Science Engineer and IT/IS Programmer/Technician! 👨‍💻 💻</p>
 
 <p>I'm 25 years old (The 90's are the best generation ever, believe it!). 🎂 🎈</p>
 
-<p>I was born in Lisbon, Portugal, at November 19, 1992. 👶 🚼 </p>
-<p>Yes, I'm Scorpio (The same Zodiac Sign of Bill Gates. It's a good omen, right?). 🦂 ♏ </p>
+<p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
+<p>Yes, I'm Scorpio (The same Zodiac Sign of Bill Gates. It's a good omen, right?)! 🦂 ♏ </p>
 
-<p>I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal. 📍 🌍</p>
+<p>I lived in <b>Loures</b> and <b>Almada</b>, in <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
-<p>I attended a Professional Course of Technician of Programming and Management of Computer Systems at Escola Secundária do Monte de Caparica, in Almada, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
+<p>I attended a Professional Course of Technician of Programming and Management of Computer Systems at <b>Escola Secundária do Monte de Caparica, in Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
 <p>My current academic journey at universities/colleges, until the moment, are: 👨‍🎓 🎓
     <ul>
