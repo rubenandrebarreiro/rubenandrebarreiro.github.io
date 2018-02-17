@@ -4,7 +4,7 @@ layout: page
 title: "About Me"
 crawlertitle: "Rúben André Barreiro's Blog - About Me"
 permalink: /about/
-summary: "<b>About Me:</b> <br>Biography, Interests, Projects, Goals and Publications"
+summary: "<b>About Me:</b> <br>Biography, Interests, Goals, Projects and Publications"
 active: About Me
 ---
 
