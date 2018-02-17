@@ -8,7 +8,24 @@ summary: "About Me"
 active: About
 ---
 
-<a href="/ruben-andre-barreiro-resume.pdf">Download Resume</a>
+<style>
+.button {
+    background-color: #EEEEEE; /* Light Grey */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonResume {border-radius: 20px;}
+</style>
+
+<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume">Download Resume</button></a>
 
 <hr/>
 <h2 id="greetings">Biography</h2>
