@@ -10,15 +10,15 @@ active: About
 
 <a href="/ruben-andre-barreiro-resume.pdf">Download Resume</a>
 
-<hr />
+<hr/>
 
 <h2 id="greetings">Greetings!</h2>
 
-<hr />
+<hr/>
 
-My name is Rúben André Barreiro! I'm 25 years old. I was born in Lisbon, Portugal. But I am currently living in Almada, Portugal.
-
-I'm studying a BSc in Computer Science and Engineering at the Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA), where I also done a scholarship research and development project, in Hyrax Project, representing NOVA-LINCS (Departamento de Informática da Nova's Labs). This project, had also the colaboration of Faculdade de Ciências da Universidade do Porto (INESC TEC/CRACS) and Carnegie Mellon University's Computer Science School.
+<p>My name is Rúben André Barreiro! I'm 25 years old. I was born in Lisbon, Portugal. I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal.</p>
+ 
+I studied a <a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA / FCT/UNL)</a>, where I also did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/">Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</a>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a>. This project, had also the colaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>.
 
 <!--I am a tech enthusiast! I absolutely love to program - and most computer-related topics.
 I like to solve puzzles and riddles. I also play the piano every once in a while.
