@@ -35,7 +35,9 @@ active: About Me
 <p>I was born in Lisbon, Portugal, at November 19, 1992. 👶</p>
 
 <p>I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal. 📍 🌍</p>
- 
+
+<br>
+
 <p>I studied a <a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA - FCT/UNL)</a>, between 2013 and 2018. 👨‍🎓 🎓</p>
 
 <a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📋</b></button></a>
