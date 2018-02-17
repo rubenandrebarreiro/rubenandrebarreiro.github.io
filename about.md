@@ -74,6 +74,21 @@ I am still learning how to cook exquisite dishes though…-->
 <hr/>
 <br>
 
+<h2 id="goals"><i>Goals</i></h2>
+<hr/>
+
+<p> </p>
+
+
+
+
+
+<br>
+<hr/>
+<center>*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</center>
+<hr/>
+<br>
+
 <h2 id="projects"><i>Projects</i></h2>
 <hr/>
 
@@ -101,3 +116,9 @@ I am still learning how to cook exquisite dishes though…-->
       </ul>
   </li>
 </ul>
+
+
+<h2 id="publications"><i>Publications</i></h2>
+<hr/>
+
+<p> </p>
