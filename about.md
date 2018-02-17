@@ -101,7 +101,7 @@ active: About Me
     </li>
 </ul>
 
-<p>Other Skills:</p>
+<p>Other skills:</p>
 
 
 <br>
