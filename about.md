@@ -49,9 +49,9 @@ active: About Me
 <h2 id="projects">Projects</h2>
 <hr/>
 
-<p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/">Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</a>, in the context of Edge Computing, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a>.
+<p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/">Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</a>, in the context of Edge Computing, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a>:
     <br>
-    &nbsp;&nbsp;<p>- This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</p>
+    &#09;<p>- This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</p>
     <br>
     &nbsp;&nbsp;<p>- I worked in the Services' section of the Hyrax Project, most preciselly, developing a data structure (DiCE), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing closer to the users;</p>
     <br>
