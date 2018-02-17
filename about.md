@@ -117,6 +117,11 @@ I am still learning how to cook exquisite dishes though…-->
   </li>
 </ul>
 
+<br>
+<hr/>
+<center>*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</center>
+<hr/>
+<br>
 
 <h2 id="publications"><i>Publications</i></h2>
 <hr/>
