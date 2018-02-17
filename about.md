@@ -30,7 +30,7 @@ active: About Me
 
 <p>Hi everyone, nice to meet you! 😀</p>
 
-<p>My name is <b>Rúben André Barreiro</b>. And I'm Computer Science Engineer and IT/IS Programmer/Technician! 👨‍💻 💻</p>
+<p>My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
 
 <p>I'm 25 years old (The 90's are the best generation ever, believe it!). 🎂 🎈</p>
 
@@ -39,11 +39,11 @@ active: About Me
 
 <p>I lived in <b>Loures</b> and <b>Almada</b>, in <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
-<p>I attended a Professional Course of Technician of Programming and Management of Computer Systems at <b>Escola Secundária do Monte de Caparica, in Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
+<p>I attended a Professional Course of Technician of Programming and Management of Computer Systems at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
 <p>My current academic journey at universities/colleges, until the moment, are: 👨‍🎓 🎓
     <ul>
-        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc Degree in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (Caparica/Almada Campus at FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
+        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree in Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus at FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
     </ul>
 </p>
 
