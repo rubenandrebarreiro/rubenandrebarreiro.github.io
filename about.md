@@ -30,7 +30,7 @@ active: About Me
 
 <p>Hi! My name is Rúben André Barreiro! 😀</p>
 
-<p>I'm 25 years old. 90's are the best generation ever, right?! 🎂 🎈</p>
+<p>I'm 25 years old. The 90's are the best generation ever, right?! 🎂 🎈</p>
 
 <p>I was born in Lisbon, Portugal, at November 19, 1992. 👶</p>
 
