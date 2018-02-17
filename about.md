@@ -34,7 +34,7 @@ active: About Me
 
 <p>I'm 25 years old (The 90's are the best generation ever, believe it!). 🎂 🎈</p>
 
-<p>I was born in Lisbon, Portugal, at November 19, 1992. 👶 </p>
+<p>I was born in Lisbon, Portugal, at November 19, 1992. 👶 🚼 </p>
 <p>Yes, I'm Scorpio (The same Zodiac Sign of Bill Gates. It's a good omen, right?). 🦂 ♏ </p>
 
 <p>I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal. 📍 🌍</p>
