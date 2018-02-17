@@ -37,7 +37,15 @@ active: About Me
 <p>I lived in Loures and Almada, in Portugal. But I'm currently living in Porto, Portugal. 📍 🌍</p>
  
 <p>I studied a <a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica">BSc in Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (FCT NOVA - FCT/UNL)</a>, between 2013 and 2018. 👨‍🎓 🎓</p>
-    
+
+<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📋</b></button></a>
+
+<br>
+<br>
+<br>
+<h2 id="projects">Projects</h2>
+<hr/>
+
 <p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/">Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</a>, in the context of Edge Computing, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a>.
     <br>
     &nbsp;&nbsp;<p>- This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</p>
@@ -50,15 +58,6 @@ active: About Me
     <br>
     &nbsp;&nbsp;&nbsp;&nbsp;&#9679;<a href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;
     </p>
-    
-
-<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonResume"><b>Download Resume 📋</b></button></a>
-
-<br>
-<br>
-<br>
-<h2 id="projects">Projects</h2>
-<hr/>
 <!--I am a tech enthusiast! I absolutely love to program - and most computer-related topics.
 I like to solve puzzles and riddles. I also play the piano every once in a while.
 I am still learning how to cook exquisite dishes though…-->
