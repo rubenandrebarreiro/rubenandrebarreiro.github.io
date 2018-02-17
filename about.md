@@ -2,11 +2,19 @@
 bg: "owl.jpg"
 layout: page
 title: "About"
-crawlertitle: "Why and how this blog was created"
+crawlertitle: "Rúben André Barreiro's Blog - About Me"
 permalink: /about/
-summary: "About this blog"
-active: about
+summary: "About Me"
+active: About
 ---
+
+<a href="/henrique-ferrolho-resume.pdf">Download Resume</a>
+
+<hr />
+
+<h2 id="greetings">Greetings!</h2>
+
+<hr />
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
