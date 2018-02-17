@@ -66,28 +66,41 @@ active: About Me
     <li>
         Subjects and areas covered:
         <ul>
-            <li></li>
+            <li>
+                Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;
+            </li>
+        </ul>
+        
+        Programming Languages covered:
+        <ul>
+            <li>
+                Java, C, Assembly, OCaml, HTML, JavaScript, CSS, Oracle SQL, Datalog, XML, Prolog (STRIPS), Unified Modelling Language (UML), Object Constraint Language (OCL) and Android;
+            </li>
+        </ul>
+
+        Programming Language APIs covered:
+        <ul>
+            <li>
+                WebGL, OpenGL, REST, SOAP, JSON, MongoDB, Apache ZooKeeper, Apache Kafka & Google Protobuffers;
+            </li>
+        </ul>
+        
+        Frameworks and IDEs covered:
+        <ul>
+            <li>
+                Eclipse IDE, Oracle APEX (Oracle Application Express), Sublime Text, Brackets, Atom, Docker & Android Studio;
+            </li>
+        </ul>
+        
+        Papers/articles' build skills covered:
+        <ul>
+            <li>
+                LaTeX;
+            </li>
         </ul>
     </li>
 </ul>
 
-
-Subjects and areas covered:
-- Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;
-
-Programming Languages covered:
-- Java, C, Assembly, OCaml, HTML, JavaScript, CSS, Oracle SQL, Datalog, XML, Prolog (STRIPS), Unified Modelling Language (UML), Object Constraint Language (OCL) & Android;
-
-Programming Language APIs covered:
-- WebGL, OpenGL, REST, SOAP, JSON, MongoDB, Apache ZooKeeper, Apache Kafka & Google Protobuffers;
-
-Frameworks and IDEs covered:
-- Eclipse IDE, Oracle APEX (Oracle Application Express), Sublime Text, Brackets, Atom, Docker & Android Studio;
-
-Papers/articles' build skills covered:
-- LaTeX;
-
-<p> </p>
 
 <br>
 <hr/>
