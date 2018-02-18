@@ -72,6 +72,10 @@ active: My Contacts
     <br>
     <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:30px;color:orange"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
     <br>
+    <a href="https://badnewz-lifestyle.tumblr.com/"><i class="fa fa-tumblr" style="font-size:30px;color:indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://badnewz-lifestyle.tumblr.com/">YouTube</a></font>
+    <br>
+    <a href="https://www.pinterest.pt/ruben_badnewz/"><i class="fa fa-pinterest" style="font-size:30px;color:FireBrick"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.pinterest.pt/ruben_badnewz/">Instagram</a></font>
+    <br>
    
     
     <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram w3-hover-text-orange"></i></a>
