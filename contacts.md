@@ -125,7 +125,7 @@ active: My Contacts
     
         <font size = "1">&nbsp;|&nbsp;</font>
         
-        <i class="fa fa-skype" style="font-size:20px;color:DeepSkyBlue"></i><font size = "1">&nbsp;&nbsp;Snapchat - rubenbarreiro92</font>
+        <i class="fa fa-skype" style="font-size:20px;color:DeepSkyBlue"></i><font size = "1">&nbsp;&nbsp;Snapchat - ruben.barreiro.92</font>
     </center>
 </div>
 
