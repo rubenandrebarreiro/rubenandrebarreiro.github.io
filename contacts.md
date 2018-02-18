@@ -60,13 +60,13 @@ active: My Contacts
 <hr/>
         
 <div class="w3-container w3-xlarge w3-padding">
-    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">&nbsp;&nbsp;Facebook - Personal Account</font></a>
+    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/rubenandrebarreiro">Facebook - Personal Account</a></font>
     <br>
-    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">&nbsp;&nbsp;Facebook - BadNewz Lifestyle's Page</font></a>
+    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/badnewz.lifestyle">Facebook - BadNewz Lifestyle's Page</a></font>
     <br>
-    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official "></i><font size = "2">Facebook - Personal Account</font></a>
-    <br>
-    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official"></i><font size = "2">Facebook - BadNewz Lifestyle's Page</font></a>
+   
+   
+    
     <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram w3-hover-text-orange"></i></a>
     <i class="fa fa-snapchat w3-hover-text-yellow"></i>
     <i class="fa fa-pinterest-p w3-hover-text-red"></i>
