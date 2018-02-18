@@ -75,6 +75,10 @@ active: My Contacts
         
         <a href="https://www.twitter.com/ruben_badnewz/"><i class="fa fa-twitter" style="font-size:20px;color:Cyan"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.twitter.com/ruben_badnewz/">Twitter</a></font>
         
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="someText"><i class="fa fa-github" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">GitHub</a></font>
+        
         <br>
         
         <a href="someLink"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size = "1">&nbsp;&nbsp;<a href="someLink">Wordpress</a></font>
@@ -103,9 +107,6 @@ active: My Contacts
         
         <a href="someText"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">500px</a></font>
         
-        <font size = "1">&nbsp;|&nbsp;</font>
-        
-        <a href="someText"><i class="fa fa-github" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">GitHub</a></font>
     </center>
 </div>
 
