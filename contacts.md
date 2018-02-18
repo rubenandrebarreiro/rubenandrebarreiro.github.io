@@ -70,7 +70,7 @@ active: My Contacts
     <br>
     <a href="someLink"><i class="fa fa-youtube" style="font-size:30px;color:red"></i></a><font size = "2">&nbsp;&nbsp;<a href="someLink">YouTube</a></font>
     <br>
-    <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:30px;color:red"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
+    <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:30px;color:orange"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
     <br>
    
     
