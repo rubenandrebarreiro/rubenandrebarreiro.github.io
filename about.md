@@ -70,28 +70,32 @@ active: About Me
                 Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;
             </li>
         </ul>
-        
+    </li>
+    <li>
         Programming Languages covered:
         <ul>
             <li>
                 Java, C, Assembly, OCaml, HTML, JavaScript, CSS, Oracle SQL, Datalog, XML, Prolog (STRIPS), Unified Modelling Language (UML), Object Constraint Language (OCL) and Android;
             </li>
         </ul>
-
+    </li>
+    <li>
         Programming Language APIs covered:
         <ul>
             <li>
                 WebGL, OpenGL, REST, SOAP, JSON, MongoDB, Apache ZooKeeper, Apache Kafka and Google Protobuffers;
             </li>
         </ul>
-        
+    </li>
+    <li>
         Frameworks and IDEs covered:
         <ul>
             <li>
                 Eclipse IDE, Oracle APEX (Oracle Application Express), Sublime Text, Brackets, Atom, Docker and Android Studio;
             </li>
         </ul>
-        
+    </li>
+    <li>
         Papers/articles' build skills covered:
         <ul>
             <li>
