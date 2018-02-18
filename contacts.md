@@ -64,7 +64,7 @@ active: My Contacts
     <br>
     <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/badnewz.lifestyle">Facebook - BadNewz Lifestyle</a></font>
     <br>
-    <a href="https://www.linkedin.com/in/rubenandrebarreiro/"><i class="fa fa-linkedin" style="font-size:30px;color:cyan"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rubenandrebarreiro/">LinkedIn</a></font>
+    <a href="https://www.linkedin.com/in/rubenandrebarreiro/"><i class="fa fa-linkedin" style="font-size:30px;color:DodgerBlue"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rubenandrebarreiro/">LinkedIn</a></font>
     <br>
     <a href="https://www.twitter.com/ruben_badnewz/"><i class="fa fa-twitter" style="font-size:30px;color:cyan"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.twitter.com/ruben_badnewz/">Twitter</a></font>
     <br>
