@@ -45,8 +45,18 @@ active: About Me
 
 </style>
 
-<link rel="shortcut-icon" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMjkuNzY1LDUwLjMxOWg2Ljc0NFYzMy45OThoNC40OTlsMC41OTYtNS42MjRoLTUuMDk1ICBsMC4wMDctMi44MTVjMC0xLjQ2NywwLjE0LTIuMjUzLDIuMjQ0LTIuMjUzaDIuODEydi01LjYyNWgtNC41Yy01LjQwNSwwLTcuMzA3LDIuNzI5LTcuMzA3LDcuMzE2djMuMzc3aC0zLjM2OXY1LjYyNWgzLjM2OVY1MC4zMTl6ICAgTTMzLjUsMWwyOC4xNDYsMTYuMjV2MzIuNUwzMy41LDY2TDUuMzU0LDQ5Ljc1di0zMi41TDMzLjUsMXoiIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiMwMTAxMDE7Ii8+PC9zdmc+" type="image/x-icon"> Facebook
+<nav class="cover-navigation navigation--social">
+    <ul class="navigation">
 
+    <!-- Facebook -->
+    <li class="navigation__item">
+        <a href="http://fb.me/rubenandrebarreiro" title="Rúben André Barreiro on Facebook" target="_blank" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGhlaWdodD0iNjdweCIgaWQ9IkxheWVyXzEiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY3IDY3OyIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjcgNjciIHdpZHRoPSI2N3B4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48cGF0aCBkPSJNMjkuNzY1LDUwLjMxOWg2Ljc0NFYzMy45OThoNC40OTlsMC41OTYtNS42MjRoLTUuMDk1ICBsMC4wMDctMi44MTVjMC0xLjQ2NywwLjE0LTIuMjUzLDIuMjQ0LTIuMjUzaDIuODEydi01LjYyNWgtNC41Yy01LjQwNSwwLTcuMzA3LDIuNzI5LTcuMzA3LDcuMzE2djMuMzc3aC0zLjM2OXY1LjYyNWgzLjM2OVY1MC4zMTl6ICAgTTMzLjUsMWwyOC4xNDYsMTYuMjV2MzIuNUwzMy41LDY2TDUuMzU0LDQ5Ljc1di0zMi41TDMzLjUsMXoiIHN0eWxlPSJmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiMwMTAxMDE7Ii8+PC9zdmc+">
+            <i class="icon icon-social-facebook"></i>
+            <span class="label">Facebook</span>
+        </a>
+    </li>
+    </ul>
+</nav>
 
 <h2 id="biography"><i>Biography</i></h2>
 <hr/>
