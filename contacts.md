@@ -60,23 +60,26 @@ active: My Contacts
 <hr/>
         
 <div class="w3-container w3-xlarge w3-padding">
-    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/rubenandrebarreiro">Facebook - Rúben André Barreiro</a></font>
+    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:Indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/rubenandrebarreiro">Facebook - Rúben André Barreiro</a></font>
     <br>
-    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/badnewz.lifestyle">Facebook - BadNewz Lifestyle</a></font>
+    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:Indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/badnewz.lifestyle">Facebook - BadNewz Lifestyle</a></font>
     <br>
     <a href="https://www.linkedin.com/in/rubenandrebarreiro/"><i class="fa fa-linkedin" style="font-size:30px;color:RoyalBlue"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rubenandrebarreiro/">LinkedIn</a></font>
     <br>
-    <a href="https://www.twitter.com/ruben_badnewz/"><i class="fa fa-twitter" style="font-size:30px;color:cyan"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.twitter.com/ruben_badnewz/">Twitter</a></font>
+    <a href="https://www.twitter.com/ruben_badnewz/"><i class="fa fa-twitter" style="font-size:30px;color:Cyan"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.twitter.com/ruben_badnewz/">Twitter</a></font>
     <br>
-    <a href="someLink"><i class="fa fa-youtube" style="font-size:30px;color:red"></i></a><font size = "2">&nbsp;&nbsp;<a href="someLink">YouTube</a></font>
+    <a href="someLink"><i class="fa fa-youtube" style="font-size:30px;color:Red"></i></a><font size = "2">&nbsp;&nbsp;<a href="someLink">YouTube</a></font>
     <br>
-    <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:30px;color:orange"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
+    <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:30px;color:Orange"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
     <br>
     <a href="https://badnewz-lifestyle.tumblr.com/"><i class="fa fa-tumblr" style="font-size:30px;color:MidnightBlue"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://badnewz-lifestyle.tumblr.com/">Tumblr</a></font>
     <br>
     <a href="https://www.pinterest.pt/ruben_badnewz/"><i class="fa fa-pinterest" style="font-size:30px;color:FireBrick"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.pinterest.pt/ruben_badnewz/">Pinterest</a></font>
     <br>
-   
+    <a href="someText"><i class="fa fa-flickr" style="font-size:30px;color:Purple"></i></a><font size = "2">&nbsp;&nbsp;<a href="someText">Flickr</a></font>
+    <br>
+    <a href="someText"><i class="fa fa-500px" style="font-size:30px;color:Black"></i></a><font size = "2">&nbsp;&nbsp;<a href="someText">500px</a></font>
+    <br>
     
     <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram w3-hover-text-orange"></i></a>
     <i class="fa fa-snapchat w3-hover-text-yellow"></i>
