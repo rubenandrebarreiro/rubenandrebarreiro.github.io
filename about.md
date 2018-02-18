@@ -4,7 +4,7 @@ layout: page
 title: "About Me"
 crawlertitle: "Rúben André Barreiro's Blog - About Me"
 permalink: /about/
-summary: "<b>About Me:</b> <br>Biography, Programming Language & Skills, Interests, Goals, Projects and Publications"
+summary: "<b>About Me:</b> <br>Biography, Programming Languages, Hard & Soft Skills, Interests, Goals, Projects and Publications"
 active: About Me
 ---
 
@@ -35,7 +35,7 @@ active: About Me
 <p>I'm 25 years old (The 90's are the best generation ever, believe it!). 🎂 🎈</p>
 
 <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
-<p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of Bill Gates. It's a good omen, right?)! 🦂 ♏ </p>
+<p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of <b>Bill Gates</b>. It's a good omen, right?)! 🦂 ♏ </p>
 
 <p>My grandfather was brazilian, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
@@ -141,7 +141,11 @@ active: About Me
 </ul>
 
 <p>Other skills:</p>
-
+<ul>
+    <li>
+        
+    </li>
+</ul>
 
 <br>
 <hr/>
