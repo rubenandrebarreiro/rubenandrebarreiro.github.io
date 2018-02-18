@@ -37,7 +37,7 @@ active: About Me
     <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
     <p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of <b>Bill Gates</b>. It's a good omen, right?)! 🦂 ♏ </p>
 
-    <p>My grandfather was brazilian, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
+    <p>My grandfather was Brazilian, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
     <p>I lived in <b>Loures</b> and <b>Almada</b>, in <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
