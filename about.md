@@ -26,7 +26,7 @@ active: About Me
 </style>
 
 
-<a href="http://fb.me/henriqueferrolho" title="henriqueferrolho on Facebook" target="_blank">
+<a href="http://fb.me/rubenandrebarreiro" title="Rúben André Barreiro on Facebook" target="_blank">
     <i class="icon icon-social-facebook"></i>
     <span class="label">Facebook</span>
 </a>
