@@ -59,7 +59,7 @@ active: My Contacts
 <h2 id="social"><i>My Social Networks</i></h2>
 <hr/>
         
-
+<div>
     <table border="0">
       <tr>
         <td>
@@ -78,7 +78,7 @@ active: My Contacts
         </td>
       </tr>
     </table>
-
+</div>
 
 <div class="w3-container w3-xlarge w3-padding">
     <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:Indigo"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.facebook.com/rubenandrebarreiro">Facebook - Rúben André Barreiro</a></font>
