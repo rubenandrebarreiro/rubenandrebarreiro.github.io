@@ -39,6 +39,10 @@ active: About Me
     display: inline-block; width: 25.8%;
 }
 
+.icon-social-facebook:before {
+	content: "\f1c4";
+}
+
 </style>
 
 
