@@ -60,10 +60,18 @@ h6 { font-size: .6em; }
 }
 
 .heading {
-  font-size: 2em;
+  font-size: 1.8em;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
+  margin: .67em 0;
+  a:link, a:hover, a:focus, a:visited {
+    color: #fff;
+  }
+}
+
+.sectiondescription {
+  font-size: .8em;
   margin: .67em 0;
   a:link, a:hover, a:focus, a:visited {
     color: #fff;

@@ -32,7 +32,6 @@
       <hr/>
         
       <div class="heading">
-
         {% if page.tags %}
           {% for tag in page.tags %}
             <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
@@ -41,15 +40,16 @@
           {{ page.title }}
         {% endif %}
         <hr/>
-
       </div>
-
-      <p>
-        {% if page.summary %}
-          {{ page.summary }}
-        {% endif %}
-      </p>
-
+    
+      <div class="sectiondescription">
+          <p>
+            {% if page.summary %}
+              {{ page.summary }}
+            {% endif %}
+          </p>  
+      </div>
+      
     </div>
 
   </div>
