@@ -32,7 +32,7 @@ active: My Contacts
 
     <h3>Rúben André Barreiro</h3>
     
-    <font size="2">
+    <font size="2"><b>
         ♏ 90's | 🎂 25 years | 🏠 From Lisbon, PT | 📍 Living in Oporto, PT
         <br>
         🎓 BSc @ FCT NOVA, PT
@@ -42,5 +42,5 @@ active: My Contacts
         💼 Entrepreneur | 👥 Influencer | 💡 Promoter | 👔 Fashioner
         <br>
         ✏️ Designer | 📸 Photographer | 🎥 Producer | 🏋️ Athlete | 🚶 Model
-    </font>
+    </b></font>
 </center>
