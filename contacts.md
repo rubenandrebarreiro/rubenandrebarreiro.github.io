@@ -26,7 +26,9 @@ active: My Contacts
 <h2 id="contacts"><i>My Contacts</i></h2>
 <hr/>
 
+<center>
 <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">
 
 <h3>Rúben André Barreiro</h3>
 
+</center>
