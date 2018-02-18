@@ -68,7 +68,7 @@ active: About Me
 <h2 id="programming-languages-skills"><i>Programming Languages, Hard & Soft Skills</i></h2>
 <hr/>
 
-<p>Skills learned at the BSc Degree focused in Computer Science and Engineering (FCT NOVA - FCT/UNL), between 2013 and 2018:</p>
+<p>Skills learned at the Professional Course of Technician of Programming and Management of Computer Systems (Escola Secundária do Monte de Caparica), between 2009 and 2012:</p>
 <ul>
     <li>
         Subjects and areas covered:
