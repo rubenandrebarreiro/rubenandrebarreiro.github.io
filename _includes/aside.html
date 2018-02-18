@@ -8,46 +8,20 @@
     <div class="cover-text">
         <div class="heading">
             
-            <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="160" width="160">
-            <br>
+            
             {% if page.tags %}
             {% for tag in page.tags %}
-            <div class="heading">
               <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
-            </div>
             {% endfor %}
             {% else %}
                 Rúben André Barreiro
                 {{ page.title }}
             {% endif %}
-            <br>
-
-            <p>
-                <font size="2">
-                    ♏ 90's | 🏠 From Lisbon, PT | 📍 Living in Oporto, PT | 🎓 BSc @ FCT NOVA
-                  <br>
-                    💻 Computer Science Engineer | 👨‍💻 IT/IS Programmer & Technician | 
-                  <br>
-                    💼 Entrepreneur | 👥 Influencer | 💡 Promoter | 👔 Fashioner 
-                  <br>
-                    ✏️ Designer | 📸 Photographer | 🎥 Producer | 🏋️ Athlete 
-                  <br>
-                    🚶 Model | 🤴 Lifestyle | ✈️ Travel Enthusiast | 😂 Humorist | 🎵 Music Addicted
-                </font>
-            </p>
             
-            <hr/>
+            {% if page.summary %}
+                {{ page.summary }}
+            {% endif %}
             
-            <br>
-            
-            <p>
-                <font size="2">
-                    {% if page.summary %}
-                      {{ page.summary }}
-                    {% endif %}
-                </font>
-            </p>
-
             <hr/>
 
             <br>
