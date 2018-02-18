@@ -26,11 +26,17 @@ active: About Me
 </style>
 
 
-<a href="http://fb.me/rubenandrebarreiro" title="Rúben André Barreiro on Facebook" target="_blank">
-    <i class="icon icon-social-facebook"></i>
-    <span class="label">Facebook</span>
-</a>
-              
+<nav class="cover-navigation navigation--social">
+    <ul class="navigation">
+
+    <!-- Facebook -->
+    <li class="navigation__item">
+        <a href="http://fb.me/henriqueferrolho" title="henriqueferrolho on Facebook" target="_blank">
+            <i class="icon icon-social-facebook"></i>
+            <span class="label">Facebook</span>
+        </a>
+    </li>
+</nav>
 
 <h2 id="biography"><i>Biography</i></h2>
 <hr/>
