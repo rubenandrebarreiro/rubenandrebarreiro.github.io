@@ -77,6 +77,10 @@ active: My Contacts
         
         <br>
         
+        <a href="someLink"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size = "1">&nbsp;&nbsp;<a href="someLink">Wordpress</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
         <a href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size = "1">&nbsp;&nbsp;<a href="someLink">YouTube</a></font>
         
         <font size = "1">&nbsp;|&nbsp;</font>
@@ -98,6 +102,10 @@ active: My Contacts
         <font size = "1">&nbsp;|&nbsp;</font>
         
         <a href="someText"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">500px</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="someText"><i class="fa fa-github" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">GitHub</a></font>
     </center>
 </div>
 
@@ -113,8 +121,11 @@ active: My Contacts
 <div class="w3-container w3-xlarge w3-padding">
     <center>
         <i class="fa fa-snapchat" style="font-size:20px;color:Yellow"></i><font size = "1">&nbsp;&nbsp;Snapchat - ruben.badnewz</font>
+    
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <i class="fa fa-skype" style="font-size:20px;color:DeepSkyBlue"></i><font size = "1">&nbsp;&nbsp;Snapchat - rubenbarreiro92</font>
     </center>
-    <i class="fa fa-github w3-hover-text-black"></i>
 </div>
 
 <br>
