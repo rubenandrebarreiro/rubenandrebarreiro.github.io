@@ -89,7 +89,7 @@ active: My Contacts
         
         <font size = "1">&nbsp;|&nbsp;</font>
          
-        <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:20px;color:Orange"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
+        <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:20px;color:OrangeRed"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
          
         <br>
         
