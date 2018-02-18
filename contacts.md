@@ -60,9 +60,10 @@ active: My Contacts
 <hr/>
         
 <div class="w3-container w3-xlarge w3-padding">
-    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">Facebook - Personal Account</font></a>
-    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">Facebook - BadNewz Lifestyle's Page</font></a>
-    
+    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">&nbsp;&nbsp;Facebook - Personal Account</font></a>
+    <br>
+    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">&nbsp;&nbsp;Facebook - BadNewz Lifestyle's Page</font></a>
+    <br>
     <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official "></i><font size = "2">Facebook - Personal Account</font></a>
     <br>
     <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official"></i><font size = "2">Facebook - BadNewz Lifestyle's Page</font></a>
