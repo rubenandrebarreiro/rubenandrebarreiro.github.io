@@ -5,20 +5,25 @@
 {% endif %}
 
   <div class="cover">
-
+    <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="160" width="160">
+    <br>
+        
     <div class="cover-text">
-      <div class="heading">
-
         {% if page.tags %}
           {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
+          <div class="heading">
+              <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
+          </div>
           {% endfor %}
         {% else %}
-          <br>
-          <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="160" width="160">
-          <br>
+        <div class="heading">
           Rúben André Barreiro
-          <br>
+            
+          {{ page.title }}
+        {% endif %}
+     
+        <br>
+        
         </div>
         
         <p>
@@ -39,8 +44,6 @@
         <br>
           
         <div class="heading">
-            {{ page.title }}
-            {% endif %}
         </div>
 
       </div>
