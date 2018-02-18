@@ -7,6 +7,11 @@ permalink: /about/
 summary: "<b>About Me:</b> <br>Biography, Programming Languages, Hard & Soft Skills, Interests, Goals, Projects and Publications"
 active: About Me
 
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <div class="w3-container w3-xlarge w3-padding">
     <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official w3-hover-text-indigo"></i></a>
     <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram w3-hover-text-purple"></i></a>
@@ -53,13 +58,6 @@ active: About Me
 }
 
 </style>
-
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
 
 <h2 id="biography"><i>Biography</i></h2>
 <hr/>
