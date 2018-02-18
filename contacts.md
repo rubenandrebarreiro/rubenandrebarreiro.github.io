@@ -27,7 +27,7 @@ active: My Contacts
 <hr/>
 
 <center>
-<img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">
+<img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="160" width="160">
 
 <h3>Rúben André Barreiro</h3>
 
