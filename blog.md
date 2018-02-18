@@ -22,5 +22,3 @@ active: My Blog
     cursor: pointer;
 }
 </style>
-
-</center>
