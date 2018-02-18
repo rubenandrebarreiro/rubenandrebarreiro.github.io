@@ -38,8 +38,19 @@ h4 { font-size: 1em; }
 h5 { font-size: .8em; }
 h6 { font-size: .6em; }
 
-.heading {
+.myname {
   font-size: 2.3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: .67em 0;
+  a:link, a:hover, a:focus, a:visited {
+    color: #fff;
+  }
+}
+
+.heading {
+  font-size: 2em;
   text-transform: uppercase;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
