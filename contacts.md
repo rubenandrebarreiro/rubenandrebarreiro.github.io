@@ -23,7 +23,7 @@ active: My Contacts
 }
 </style>
 
-<h2 id="contacts"><i>My Contacts</i></h2>
+<h2 id="myinfo"><i>My Info</i></h2>
 <hr/>
 
 <center>
@@ -44,3 +44,12 @@ active: My Contacts
         ✏️ Designer | 📸 Photographer | 🎥 Producer | 🏋️ Athlete | 🚶 Model
     </b></font>
 </center>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<h2 id="mycontacts"><i>My Contacts</i></h2>
+<hr/>
