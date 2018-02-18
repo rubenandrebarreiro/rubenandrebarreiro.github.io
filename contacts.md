@@ -60,7 +60,7 @@ active: My Contacts
 <hr/>
         
 <div>
-    <table border="0">
+    <table cellpadding="0" cellspacing="0" border="0">
       <tr>
         <td>
             <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:Indigo"></i></a>
