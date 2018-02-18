@@ -89,12 +89,15 @@ active: My Contacts
         
         <font size = "1">&nbsp;|&nbsp;</font>
         
-        <a href="https://www.pinterest.pt/ruben_badnewz/"><i class="fa fa-pinterest" style="font-size:30px;color:FireBrick"></i></a><font size = "2">&nbsp;&nbsp;<a href="https://www.pinterest.pt/ruben_badnewz/">Pinterest</a></font>
-        <br>
-        <a href="someText"><i class="fa fa-flickr" style="font-size:30px;color:Purple"></i></a><font size = "2">&nbsp;&nbsp;<a href="someText">Flickr</a></font>
-        <br>
-        <a href="someText"><i class="fa fa-500px" style="font-size:30px;color:Black"></i></a><font size = "2">&nbsp;&nbsp;<a href="someText">500px</a></font>
-        <br>
+        <a href="https://www.pinterest.pt/ruben_badnewz/"><i class="fa fa-pinterest" style="font-size:20px;color:FireBrick"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.pinterest.pt/ruben_badnewz/">Pinterest</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="someText"><i class="fa fa-flickr" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">Flickr</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="someText"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">500px</a></font>
     </center>
     
     
