@@ -49,6 +49,17 @@ h6 { font-size: .6em; }
   }
 }
 
+.shortbio {
+  font-size: .5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: .67em 0;
+  a:link, a:hover, a:focus, a:visited {
+    color: #fff;
+  }
+}
+
 .heading {
   font-size: 2em;
   text-transform: uppercase;
