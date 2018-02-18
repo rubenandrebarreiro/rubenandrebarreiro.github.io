@@ -58,6 +58,7 @@ active: About Me
 <a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
 <a href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
 
+
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
@@ -143,9 +144,10 @@ active: About Me
 <p>Other skills:</p>
 <ul>
     <li>
-        
+        Adobe Creative Cloud Tools & Microsoft Office Tools;
     </li>
 </ul>
+
 
 <br>
 <hr/>
@@ -157,7 +159,7 @@ active: About Me
 <h2 id="interests"><i>Interests</i></h2>
 <hr/>
 
-<p>I'm addicted to technologies and informatics. I love to programming and coding! I also have a big interest in design, photography, multimedia, fashion, marketing, business and poetry.</p>
+<p>I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
 
 
 <br>
@@ -165,14 +167,12 @@ active: About Me
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
+
 
 <h2 id="goals"><i>Goals</i></h2>
 <hr/>
 
-<p> </p>
-
-
-
+<p> <!-- SOME TEXT HERE --> </p>
 
 
 <br>
@@ -181,18 +181,80 @@ active: About Me
 <hr/>
 <br>
 
+
 <h2 id="projects"><i>Projects</i></h2>
 <hr/>
-
 
 <p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
 
 <ul>
   <li>This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</li>
+  <li>Websites/Links:</li>
+  <ul>
+    <li>
+    1) Project's Website:
+        <ul>
+            <li>
+                <a href="https://hyrax.dcc.fc.up.pt/">https://hyrax.dcc.fc.up.pt/</a>;
+            </li>
+        </ul>
+    </li>
+    <li>
+    2) Universities' Websites:
+        <ul>
+            <li>
+                <a href="https://www.fct.unl.pt/">https://www.fct.unl.pt/</a>;
+            </li>
+            <li>
+                <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">https://sigarra.up.pt/fcup/pt/web_page.inicial</a>;
+            </li>
+            <li>
+                <a href="https://www.fc.up.pt/fcup/index.php">https://www.fc.up.pt/fcup/index.php</a>;
+            </li>
+            <li>
+                <a href="https://www.cmu.edu/">https://www.cmu.edu/</a>;
+            </li>
+        </ul>
+    </li>
+    <li>
+    3) Universities' Laboratories' Websites:
+        <ul>
+            <li>
+                <a href="http://nova-lincs.di.fct.unl.pt/">http://nova-lincs.di.fct.unl.pt/</a>;
+            </li>
+            <li>
+                <a href="https://cracs.fc.up.pt/">https://cracs.fc.up.pt/</a>;
+            </li>
+            <li>
+                <a href="http://www.cmuportugal.org/">http://www.cmuportugal.org/</a>;
+            </li>
+        </ul>
+    </li>  
+    <li>
+    4) Academic, Industrial and Funding Partners' Websites:
+        <ul>
+            <li>
+                <a href="http://www.geolink.pt/index.html">http://www.geolink.pt/index.html</a>;
+            </li>
+            <li>
+                <a href="http://www.yinzcam.com/">http://www.yinzcam.com/</a>;
+            </li>
+            <li>
+                <a href="https://www.wavecom.pt/">https://www.wavecom.pt/</a>;
+            </li>
+            <li>
+                <a href="https://www.it.pt/">https://www.it.pt/</a>;
+            </li>
+            <li>
+                <a href="https://www.fct.pt/index.phtml.pt">https://www.fct.pt/index.phtml.pt</a>;
+            </li>
+        </ul>
+    </li>
+  </ul>        
   <li>I worked in the Services' section of the <i>Hyrax Project</i>, most preciselly, developing a data structure (<i>DiCE</i>), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing and information services closer to the final users;</li>
   <li><i>Abstract</i>:
     <ul>
-        <li>Edge Computing proposes the shifting of (some) computing tasks from centralized Cloud services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may ooad or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to churn. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates churn efficiently;</li>
+        <li>Edge Computing proposes the shifting of (some) computing tasks from centralized Cloud services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may offload or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to churn. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates churn efficiently;</li>
     </ul>
   </li>
   <li><i>Keywords</i>:
@@ -209,13 +271,15 @@ active: About Me
   </li>
 </ul>
 
+
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
+
 <h2 id="publications"><i>Publications</i></h2>
 <hr/>
 
-<p> </p>
+<p> <!-- SOME TEXT HERE --> </p>
