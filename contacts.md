@@ -149,5 +149,17 @@ active: My Contacts
         <font size = "1">&nbsp;|&nbsp;</font>
         
         <a href="mailto:ruben.barreiro.92@yahoo.com"><i class="fa fa-yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.barreiro.92@yahoo.com">ruben.barreiro.92@yahoo.com</a></font>
+        
+        <br>
+        
+        <a href="mailto:ruben.badnewz@outlook.com"><i class="fa fa-envelope" style="font-size:20px;color:RoyalBlue"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.badnewz@outlook.com">ruben.badnewz@outlook.com</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="mailto:ruben.badnewz@gmail.com"><i class="fa fa-google" style="font-size:20px;color:FireBrick"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.badnewz@gmail.com">ruben.badnewz@gmail.com</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="mailto:ruben.badnewz@yahoo.com"><i class="fa fa-yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.badnewz@yahoo.com">ruben.badnewz@yahoo.com</a></font>
     </center>
 </div>
