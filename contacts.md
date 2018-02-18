@@ -60,9 +60,9 @@ active: My Contacts
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
         
 <div class="w3-container w3-xlarge w3-padding">
-    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official"></i><font size = "2">Facebook - Personal Account</font></a>
+    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fab fa-facebook-official"></i><font size = "2">Facebook - Personal Account</font></a>
     <br>
-    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official"></i><font size = "2">Facebook - BadNewz Lifestyle's Page</font></a>
+    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fab fa-facebook-official"></i><font size = "2">Facebook - BadNewz Lifestyle's Page</font></a>
     <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram w3-hover-text-orange"></i></a>
     <i class="fa fa-snapchat w3-hover-text-yellow"></i>
     <i class="fa fa-pinterest-p w3-hover-text-red"></i>
