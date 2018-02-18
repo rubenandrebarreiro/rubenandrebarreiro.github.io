@@ -62,11 +62,11 @@ active: My Contacts
 <div class="w3-container w3-xlarge w3-padding">
     <center>
         <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:20px;color:Indigo"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.facebook.com/rubenandrebarreiro">Facebook - Rúben André Barreiro</a></font>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <font size = "1">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
         <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:20px;color:Indigo"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.facebook.com/badnewz.lifestyle">Facebook - BadNewz Lifestyle</a></font>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <font size = "1">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
         <a href="https://www.linkedin.com/in/rubenandrebarreiro/"><i class="fa fa-linkedin" style="font-size:20px;color:RoyalBlue"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rubenandrebarreiro/">LinkedIn</a></font>
-        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <font size = "1">&nbsp;&nbsp;|&nbsp;&nbsp;</font>
         <a href="https://www.twitter.com/ruben_badnewz/"><i class="fa fa-twitter" style="font-size:20px;color:Cyan"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.twitter.com/ruben_badnewz/">Twitter</a></font>
         <br>
         <a href="someLink"><i class="fa fa-youtube" style="font-size:30px;color:Red"></i></a><font size = "2">&nbsp;&nbsp;<a href="someLink">YouTube</a></font>
