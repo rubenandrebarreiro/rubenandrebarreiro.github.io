@@ -37,6 +37,8 @@ active: About Me
 <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
 <p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of Bill Gates. It's a good omen, right?)! 🦂 ♏ </p>
 
+<p>My grandfather was brazilian, so I'm a Portuguese Soul with Brazilian Roots! 🇵🇹 🇧🇷</p>
+
 <p>I lived in <b>Loures</b> and <b>Almada</b>, in <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
 <p>I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
