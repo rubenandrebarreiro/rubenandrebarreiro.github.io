@@ -41,7 +41,7 @@ active: About Me
 
 <p>I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
-<p>My current academic journey at universities/colleges, until the moment, are: 👨‍🎓 🎓
+<p>My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
     <ul>
         <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus at FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
     </ul>
@@ -118,7 +118,7 @@ active: About Me
 <h2 id="interests"><i>Interests</i></h2>
 <hr/>
 
-<p>I'm addicted to technoligies and Informatics. I love to programming and coding! I also have a big interest in design, photography, multimedia, poetry</p>
+<p>I'm addicted to technoligies and informatics. I love to programming and coding! I also have a big interest in design, photography, multimedia, fashion, marketing, business and poetry.</p>
 
 
 <br>
