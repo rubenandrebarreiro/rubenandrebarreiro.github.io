@@ -6,6 +6,8 @@ crawlertitle: "Rúben André Barreiro's Blog - About Me"
 permalink: /about/
 summary: "<b>About Me:</b> <br>Biography, Programming Languages, Hard & Soft Skills, Interests, Goals, Projects and Publications"
 active: About Me
+<link rel="shortcut icon" type="image/png" href="www.facebook.com">
+<link href="data:image/x-icon;base64,YourBase64StringHere" rel="icon" type="image/x-icon" />
 ---
 
 <style>
