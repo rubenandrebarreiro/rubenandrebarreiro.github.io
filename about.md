@@ -1,6 +1,6 @@
 ---
 bg: "owl.jpg"
-layout: page
+layout: default
 title: "About Me"
 crawlertitle: "Rúben André Barreiro's Blog - About Me"
 permalink: /about/
