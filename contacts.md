@@ -27,8 +27,18 @@ active: My Contacts
 <hr/>
 
 <center>
-<img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="160" width="160">
 
-<h3>Rúben André Barreiro</h3>
+    <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="160" width="160">
+
+    <h3>Rúben André Barreiro</h3>
+    <p>♏ 90's | 🎂 25 years | 🏠 From Lisbon, PT | 📍 Living in Oporto, PT</p>
+    <br>
+    <p>🎓 BSc @ FCT NOVA, PT</p>
+    <br>
+    <p>💻 Computer Science Engineer | 👨‍💻 IT/IS Programmer & Technician</p>
+    <br>
+    <p>💼 Entrepreneur | 👥 Influencer | 💡 Promoter | 👔 Fashioner</p>
+    <br>
+    <p>✏️ Designer | 📸 Photographer | 🎥 Producer | 🏋️ Athlete | 🚶 Model</p>
 
 </center>
