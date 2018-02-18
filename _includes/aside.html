@@ -4,49 +4,30 @@
   <aside class="sidebar" role="note" style="background-image: url({{ site.images | relative_url }}/bg.svg)">
 {% endif %}
 
-  <div class="cover">    
+  <div class="cover">
+
     <div class="cover-text">
-        <div class="heading">
-            
-            
-            {% if page.tags %}
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
-            {% endfor %}
-            {% else %}
-                Rúben André Barreiro
-                {{ page.title }}
-            {% endif %}
-            
-            {% if page.summary %}
-                {{ page.summary }}
-            {% endif %}
-            
-            <hr/>
+      <div class="heading">
 
-            <br>
+        {% if page.tags %}
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/posts/#{{ tag | downcase }}">{{ tag | downcase }}</a>
+          {% endfor %}
+        {% else %}
+          {{ page.title }}
+        {% endif %}
 
-            Social
-            
-            <hr/>
+      </div>
 
-            <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-        
-            <div class="w3-container w3-xlarge w3-padding">
-                <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official w3-hover-text-indigo"></i></a>
-                <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram w3-hover-text-purple"></i></a>
-                <i class="fa fa-snapchat w3-hover-text-yellow"></i>
-                <i class="fa fa-pinterest-p w3-hover-text-red"></i>
-                <i class="fa fa-twitter w3-hover-text-light-blue"></i>
-                <i class="fa fa-linkedin w3-hover-text-indigo"></i>
-            </div>
-        
-            <hr/>
-            
-        </div>
+      <p>
+        {% if page.summary %}
+          {{ page.summary }}
+        {% endif %}
+      </p>
+
     </div>
-</div>
-      
-<div id="switcher"></div>
 
+  </div>
+
+  <div id="switcher"></div>
 </aside>
