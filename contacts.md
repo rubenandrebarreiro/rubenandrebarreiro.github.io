@@ -81,11 +81,9 @@ active: My Contacts
     <a href="someText"><i class="fa fa-500px" style="font-size:30px;color:Black"></i></a><font size = "2">&nbsp;&nbsp;<a href="someText">500px</a></font>
     <br>
     
-    <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram w3-hover-text-orange"></i></a>
+    
+    
     <i class="fa fa-snapchat w3-hover-text-yellow"></i>
-    <i class="fa fa-pinterest-p w3-hover-text-red"></i>
-    <i class="fa fa-twitter w3-hover-text-light-blue"></i>
-    <i class="fa fa-linkedin w3-hover-text-blue"></i>
     <i class="fa fa-github w3-hover-text-black"></i>
     <i class="fa fa-envelope w3-hover-text-grey"></i>
 </div>
