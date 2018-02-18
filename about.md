@@ -21,8 +21,24 @@ active: About Me
     margin: 4px 2px;
     cursor: pointer;
 }
+    
+.navigation--social {
+	margin-top: 5px;
+	margin-left: 0;
+}
 
-.buttonDocument {border-radius: 20px;}
+.buttonDocument {
+    border-radius: 20px;
+}
+
+.cover-navigation.navigation--social {
+    padding-top: 5px;
+}
+
+.cover-navigation.navigation--social .navigation li {
+    display: inline-block; width: 25.8%;
+}
+
 </style>
 
 
@@ -31,7 +47,7 @@ active: About Me
 
     <!-- Facebook -->
     <li class="navigation__item">
-        <a href="http://fb.me/henriqueferrolho" title="henriqueferrolho on Facebook" target="_blank">
+        <a href="http://fb.me/rubenandrebarreiro" title="Rúben André Barreiro on Facebook" target="_blank">
             <i class="icon icon-social-facebook"></i>
             <span class="label">Facebook</span>
         </a>
