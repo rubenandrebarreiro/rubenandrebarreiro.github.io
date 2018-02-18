@@ -125,7 +125,7 @@ active: About Me
 <h2 id="interests"><i>Interests</i></h2>
 <hr/>
 
-<p>I'm addicted to technoligies and informatics. I love to programming and coding! I also have a big interest in design, photography, multimedia, fashion, marketing, business and poetry.</p>
+<p>I'm addicted to technologies and informatics. I love to programming and coding! I also have a big interest in design, photography, multimedia, fashion, marketing, business and poetry.</p>
 
 
 <br>
