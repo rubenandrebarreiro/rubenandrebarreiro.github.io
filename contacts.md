@@ -75,13 +75,13 @@ active: My Contacts
         
         <a href="https://www.twitter.com/ruben_badnewz/"><i class="fa fa-twitter" style="font-size:20px;color:Cyan"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.twitter.com/ruben_badnewz/">Twitter</a></font>
         
-        <font size = "1">&nbsp;|&nbsp;</font>
-        
-        <a href="someText"><i class="fa fa-github" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">GitHub</a></font>
-        
         <br>
         
         <a href="someLink"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size = "1">&nbsp;&nbsp;<a href="someLink">Wordpress</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="someText"><i class="fa fa-github" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">GitHub</a></font>
         
         <font size = "1">&nbsp;|&nbsp;</font>
         
@@ -90,9 +90,9 @@ active: My Contacts
         <font size = "1">&nbsp;|&nbsp;</font>
          
         <a href="https://www.instagram.com/ruben.badnewz/"><i class="fa fa-instagram" style="font-size:20px;color:Orange"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/">Instagram</a></font>
-        
-        <font size = "1">&nbsp;|&nbsp;</font>
          
+        <br>
+        
         <a href="https://badnewz-lifestyle.tumblr.com/"><i class="fa fa-tumblr" style="font-size:20px;color:MidnightBlue"></i></a><font size = "1">&nbsp;&nbsp;<a href="https://badnewz-lifestyle.tumblr.com/">Tumblr</a></font>
         
         <font size = "1">&nbsp;|&nbsp;</font>
