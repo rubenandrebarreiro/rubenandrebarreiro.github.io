@@ -21,58 +21,42 @@ active: About Me
     margin: 4px 2px;
     cursor: pointer;
 }
-    
-.navigation--social {
-	margin-top: 5px;
-	margin-left: 0;
-}
-
-.buttonDocument {
-    border-radius: 20px;
-}
-
-.cover-navigation.navigation--social {
-    padding-top: 5px;
-}
-
-.cover-navigation.navigation--social .navigation li {
-    display: inline-block; width: 25.8%;
-}
-
-.icon-social-facebook:before {
-	content: "\f1c4";
-}
-
 </style>
 
 <h2 id="biography"><i>Biography</i></h2>
 <hr/>
 
-<p>Hi everyone, nice to meet you! 😀</p>
+<text
 
-<p>My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
+<p align="justify">
+    
+    <p>Hi everyone, nice to meet you! 😀</p>
 
-<p>I'm 25 years old (The 90's are the best generation ever, believe it!). 🎂 🎈</p>
+    <p>My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
 
-<p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
-<p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of <b>Bill Gates</b>. It's a good omen, right?)! 🦂 ♏ </p>
+    <p>I'm 25 years old (The 90's are the best generation ever, believe it!). 🎂 🎈</p>
 
-<p>My grandfather was brazilian, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
+    <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
+    <p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of <b>Bill Gates</b>. It's a good omen, right?)! 🦂 ♏ </p>
 
-<p>I lived in <b>Loures</b> and <b>Almada</b>, in <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
+    <p>My grandfather was brazilian, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
-<p>I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
+    <p>I lived in <b>Loures</b> and <b>Almada</b>, in <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
-<p>My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
-    <ul>
-        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus at FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
-    </ul>
-</p>
+    <p>I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
-<br>
+    <p>My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
+        <ul>
+            <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus at FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
+        </ul>
+    </p>
 
-<p>
-    "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <b>Charlie Chaplin</b>
+    <br>
+
+    <p>
+        "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <b>Charlie Chaplin</b>
+    </p>
+
 </p>
 
 <a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
