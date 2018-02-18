@@ -26,8 +26,6 @@ active: About Me
 <h2 id="biography"><i>Biography</i></h2>
 <hr/>
 
-<text
-
 <p align="justify">
     
     <p>Hi everyone, nice to meet you! 😀</p>
