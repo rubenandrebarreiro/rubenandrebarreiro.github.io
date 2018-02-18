@@ -56,7 +56,7 @@ active: My Contacts
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
-<h2 id="social"><i>My Social Networks</i></h2>
+<h2 id="socialnetworks"><i>My Social Networks</i></h2>
 <hr/>
         
 <div class="w3-container w3-xlarge w3-padding">
@@ -99,9 +99,43 @@ active: My Contacts
         
         <a href="someText"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size = "1">&nbsp;&nbsp;<a href="someText">500px</a></font>
     </center>
-    
-    
-    <i class="fa fa-snapchat w3-hover-text-yellow"></i>
+</div>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<h2 id="othersociallinksusernames"><i>Other Social Links/Usernames</i></h2>
+<hr/>
+
+<div class="w3-container w3-xlarge w3-padding">
+    <center>
+        <i class="fa fa-snapchat" style="font-size:20px;color:Yellow"></i><font size = "1">&nbsp;&nbsp;Snapchat - ruben.badnewz</font>
+    </center>
     <i class="fa fa-github w3-hover-text-black"></i>
-    <i class="fa fa-envelope w3-hover-text-grey"></i>
+</div>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<h2 id="emails"><i>My E-mails</i></h2>
+<hr/>
+
+<div>
+    <center>
+        <a href="mailto:ruben.barreiro.92@outlook.com"><i class="fa fa-envelope" style="font-size:20px;color:RoyalBlue"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.barreiro.92@outlook.com">ruben.barreiro.92@outlook.com</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="mailto:ruben.barreiro.92@gmail.com"><i class="fa fa-google" style="font-size:20px;color:FireBrick"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.barreiro.92@gmail.com">ruben.barreiro.92@gmail.com</a></font>
+        
+        <font size = "1">&nbsp;|&nbsp;</font>
+        
+        <a href="mailto:ruben.barreiro.92@yahoo.com"><i class="fa fa-yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.barreiro.92@yahoo.com">ruben.barreiro.92@yahoo.com</a></font>
+    </center>
 </div>
