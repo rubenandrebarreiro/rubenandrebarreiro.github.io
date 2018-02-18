@@ -74,6 +74,34 @@ active: About Me
         Subjects and areas covered:
         <ul>
             <li>
+                Operative Systems and Architectures, Databases, Basic Notions of Computer Networks, Web Design & Web Forms and Users' Data Validations;
+            </li>
+        </ul>
+    </li>
+    <li>
+        Programming Languages covered:
+        <ul>
+            <li>
+                Pascal, VisualBasic, C++, HTML, JavaScript, CSS, MySQL & PHP;
+            </li>
+        </ul>
+    </li>
+    <li>
+        Frameworks and IDEs covered:
+        <ul>
+            <li>
+                Free Pascal, Turbo Pascal & Notepad++;   
+            </li>
+        </ul>
+    </li>
+</ul>
+
+<p>Skills learned at the BSc Degree focused in Computer Science and Engineering (FCT NOVA - FCT/UNL), between 2013 and 2018:</p>
+<ul>
+    <li>
+        Subjects and areas covered:
+        <ul>
+            <li>
                 Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;
             </li>
         </ul>
