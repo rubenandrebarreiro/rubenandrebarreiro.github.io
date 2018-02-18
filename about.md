@@ -36,6 +36,7 @@ active: About Me
             <span class="label">Facebook</span>
         </a>
     </li>
+    </ul>
 </nav>
 
 <h2 id="biography"><i>Biography</i></h2>
