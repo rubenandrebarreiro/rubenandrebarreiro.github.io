@@ -51,16 +51,17 @@ active: My Contacts
 <hr/>
 <br>
 
-<h2 id="mycontacts"><i>My Contacts</i></h2>
-<hr/>
-
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<h2 id="social"><i>My Social Networks</i></h2>
+<hr/>
         
 <div class="w3-container w3-xlarge w3-padding">
-    <i class="fa fa-500px" style="font-size:48px;color:red"></i>
+    <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">Facebook - Personal Account</font></a>
+    <a href="https://www.facebook.com/badnewz.lifestyle"><i class="fa fa-facebook-official" style="font-size:30px;color:indigo"></i><font size = "2">Facebook - BadNewz Lifestyle's Page</font></a>
     
     <a href="https://www.facebook.com/rubenandrebarreiro"><i class="fa fa-facebook-official "></i><font size = "2">Facebook - Personal Account</font></a>
     <br>
