@@ -1474,7 +1474,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>Escola Secundária do Monte de Caparica</b>), between 2009 and 2012:</p>
+<p align="justify">1) Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>Escola Secundária do Monte de Caparica</b>), between 2009 and 2012:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
@@ -1502,7 +1502,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify">Skills learned at the <b>BSc Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
+<p align="justify">2) Skills learned at the <b>BSc Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
@@ -1546,7 +1546,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify">Other skills:</p>
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i> Other skills:</p>
 <ul>
     <li>
         <p align="justify"><b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;</p>
