@@ -284,7 +284,7 @@ active: About Me
     <i>Interests</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-heart fa-stack-1x fa-beat"></i>
+        <i class="fa fa-heart fa-stack-0.8x fa-beat"></i>
     </span>
 </h2>
 <hr/>
