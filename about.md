@@ -181,7 +181,7 @@ active: About Me
         </ul>
     </li>
     <li>
-        Frameworks and IDEs covered:
+        Frameworks, GUIs and IDEs covered:
         <ul>
             <li>
                 <b>Free Pascal</b>, <b>Turbo Pascal</b>, <b>Notepad++</b> and <b>WampServer</b>;   
