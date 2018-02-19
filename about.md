@@ -1445,7 +1445,7 @@ active: About Me
         </div>
 
     
-    <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
+    <h5 class="loadingSuspensionPoints"><i>Chasing and conquering all my dreams<span>.</span><span>.</span><span>.</span></i></h5>
 </center>
 
 <br>
