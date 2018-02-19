@@ -462,7 +462,7 @@ active: About Me
     <i>Projects</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-briefcase fa-stack-1x faa-burst"></i>
+        <i class="fa fa-briefcase fa-stack-1x fa-burst"></i>
     </span>
 </h2>
 <hr/>
