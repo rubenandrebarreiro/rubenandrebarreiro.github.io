@@ -61,51 +61,51 @@ active: My Contacts
         
 <div class="w3-container w3-xlarge w3-padding">
     <center>
-        <a href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro on Facebook"><i class="fa fa-facebook-official" title="Rúben André Barreiro on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro on Facebook">Facebook - Rúben André Barreiro</a></font>
+        <a target="_blank" href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro on Facebook"><i class="fa fa-facebook-official" title="Rúben André Barreiro on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro on Facebook">Facebook - Rúben André Barreiro</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook"><i class="fa fa-facebook-official" title="BadNewz Lifestyle on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook">Facebook - BadNewz Lifestyle</a></font>
+        <a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook"><i class="fa fa-facebook-official" title="BadNewz Lifestyle on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook">Facebook - BadNewz Lifestyle</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn"><i class="fa fa-linkedin" title="Rúben André Barreiro on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn">LinkedIn</a></font>
+        <a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn"><i class="fa fa-linkedin" title="Rúben André Barreiro on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn">LinkedIn</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter"><i class="fa fa-twitter" title="Rúben André Barreiro (BadNewz) on Twitter" style="font-size:20px;color:Cyan"></i></a><font size="1">&nbsp;&nbsp;<a href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter">Twitter</a></font>
+        <a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter"><i class="fa fa-twitter" title="Rúben André Barreiro (BadNewz) on Twitter" style="font-size:20px;color:Cyan"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter">Twitter</a></font>
         
         <br>
         
-        <a href="someLink"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a href="someLink">Wordpress</a></font>
+        <a target="_blank" href="someLink"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">Wordpress</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub"><i class="fa fa-github" title="Rúben André Barreiro on GitHub" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub">GitHub</a></font>
+        <a target="_blank" href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub"><i class="fa fa-github" title="Rúben André Barreiro on GitHub" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub">GitHub</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size="1">&nbsp;&nbsp;<a href="someLink">YouTube</a></font>
+        <a target="_blank" href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">YouTube</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
          
-        <a href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram"><i class="fa fa-instagram" title="Rúben André Barreiro (BadNewz) on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram">Instagram</a></font>
+        <a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram"><i class="fa fa-instagram" title="Rúben André Barreiro (BadNewz) on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram">Instagram</a></font>
          
         <br>
         
-        <a href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr"><i class="fa fa-tumblr" title="BadNewz Lifestyle on Tumblr" style="font-size:20px;color:MidnightBlue"></i></a><font size="1">&nbsp;&nbsp;<a href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr">Tumblr</a></font>
+        <a target="_blank" href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr"><i class="fa fa-tumblr" title="BadNewz Lifestyle on Tumblr" style="font-size:20px;color:MidnightBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr">Tumblr</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="https://www.pinterest.pt/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest"><i class="fa fa-pinterest" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a href="https://www.pinterest.pt/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest">Pinterest</a></font>
+        <a target="_blank" href="https://www.pinterest.pt/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest"><i class="fa fa-pinterest" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.pinterest.pt/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest">Pinterest</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="someText"><i class="fa fa-flickr" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a href="someText">Flickr</a></font>
+        <a target="_blank" href="someText"><i class="fa fa-flickr" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someText">Flickr</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="someText"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a href="someText">500px</a></font>
+        <a target="_blank" href="someText"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someText">500px</a></font>
         
     </center>
 </div>
@@ -144,7 +144,7 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="mailto:ruben.barreiro.92@gmail.com" title="ruben.barreiro.92 on Gmail"><i class="fa fa-google" title="ruben.barreiro.92 on Gmail" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a href="mailto:ruben.barreiro.92@gmail.com" title="ruben.barreiro.92 on Gmail">ruben.barreiro.92@gmail.com</a></font>
+        <a target="_blank" href="mailto:ruben.barreiro.92@gmail.com" title="ruben.barreiro.92 on Gmail"><i class="fa fa-google" title="ruben.barreiro.92 on Gmail" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.barreiro.92@gmail.com" title="ruben.barreiro.92 on Gmail">ruben.barreiro.92@gmail.com</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
