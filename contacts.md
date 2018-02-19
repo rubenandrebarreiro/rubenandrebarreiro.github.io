@@ -115,7 +115,7 @@ active: My Contacts
                   a.innerHTML = "&#xf252;";
                 }, 1000);
               setTimeout(function () {
-                  a.innerHTML = "&#xf253;";
+                  a.innerHTML = "&#xf251;";
                 }, 2000);
             }
             hourglass();
