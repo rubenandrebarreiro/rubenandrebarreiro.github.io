@@ -1098,8 +1098,8 @@ active: About Me
   }
 
   50% {
-    -webkit-transform: scale(1.4);
-    transform: scale(1.4);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
     opacity: 0;
   }
 
@@ -1114,9 +1114,9 @@ active: About Me
   }
 
   50% {
-    -webkit-transform: scale(1.4);
-    -ms-transform: scale(1.4);
-    transform: scale(1.4);
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
     opacity: 0;
   }
 
