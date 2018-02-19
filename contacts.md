@@ -138,7 +138,7 @@ active: My Contacts
 <h2 id="emails"><i>My E-mails</i></h2>
 <hr/>
 
-<div>
+<div id="emails" class="w3-container w3-xlarge w3-padding">
     <center>
         <a target="_blank" href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook"><i class="fa fa-envelope" title="ruben.barreiro.92 on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook">ruben.barreiro.92@outlook.com</a></font>
         
