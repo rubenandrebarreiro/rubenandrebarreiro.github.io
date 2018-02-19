@@ -1175,7 +1175,7 @@ active: About Me
 <br>
     
 <center>
-    <span class="fa-stack faa-spin">
+    <span class="fa-stack faa-spin animated">
         <i class="fa fa-spinner"></i>
     </span>
 
