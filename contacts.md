@@ -59,7 +59,7 @@ active: My Contacts
     <br>
     
     <span class="fa-stack fa-spin">
-    <div id="loadingEngineer" class="fa" style="font-size:40px"></div>
+    <div id="loadingEngineer" class="fa" style="font-size:30px"></div>
         <script>
             function hourglass() {
               var a;
