@@ -86,19 +86,19 @@ active: About Me
     transform:scale(0.8);
   }
   30% {
-    transform:scale(0.8);
+    transform:scale(1);
   }
   35% {
-    transform:scale(1);
+    transform:scale(0.8);
   }
   50% {
-    transform:scale(0.8);
-  }
-  55% {
     transform:scale(1);
   }
-  70% {
+  55% {
     transform:scale(0.8);
+  }
+  70% {
+    transform:scale(1);
   }
 }
 </style>
