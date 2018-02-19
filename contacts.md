@@ -140,7 +140,7 @@ active: My Contacts
 
 <div>
     <center>
-        <a href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook"><i class="fa fa-envelope" title="ruben.barreiro.92 on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook">ruben.barreiro.92@outlook.com</a></font>
+        <a target="_blank" href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook"><i class="fa fa-envelope" title="ruben.barreiro.92 on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook">ruben.barreiro.92@outlook.com</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
@@ -148,18 +148,18 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="mailto:ruben.barreiro.92@yahoo.com" title="ruben.barreiro.92 on Yahoo"><i class="fa fa-yahoo" title="ruben.barreiro.92 on Yahoo" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a href="mailto:ruben.barreiro.92@yahoo.com" title="ruben.barreiro.92 on Yahoo">ruben.barreiro.92@yahoo.com</a></font>
+        <a target="_blank" href="mailto:ruben.barreiro.92@yahoo.com" title="ruben.barreiro.92 on Yahoo"><i class="fa fa-yahoo" title="ruben.barreiro.92 on Yahoo" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.barreiro.92@yahoo.com" title="ruben.barreiro.92 on Yahoo">ruben.barreiro.92@yahoo.com</a></font>
         
         <br>
         
-        <a href="mailto:ruben.badnewz@outlook.com" title="ruben.badnewz on Outlook"><i class="fa fa-envelope" title="ruben.badnewz on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a href="mailto:ruben.badnewz@outlook.com" title="ruben.badnewz on Outlook">ruben.badnewz@outlook.com</a></font>
+        <a target="_blank" href="mailto:ruben.badnewz@outlook.com" title="ruben.badnewz on Outlook"><i class="fa fa-envelope" title="ruben.badnewz on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.badnewz@outlook.com" title="ruben.badnewz on Outlook">ruben.badnewz@outlook.com</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="mailto:ruben.badnewz@gmail.com" title="ruben.badnewz on Gmail"><i class="fa fa-google" title="ruben.badnewz on Gmail" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a href="mailto:ruben.badnewz@gmail.com" title="ruben.badnewz on Gmail">ruben.badnewz@gmail.com</a></font>
+        <a target="_blank" href="mailto:ruben.badnewz@gmail.com" title="ruben.badnewz on Gmail"><i class="fa fa-google" title="ruben.badnewz on Gmail" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.badnewz@gmail.com" title="ruben.badnewz on Gmail">ruben.badnewz@gmail.com</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a href="mailto:ruben.badnewz@yahoo.com" title="ruben.badnewz on Yahoo"><i class="fa fa-yahoo" title="ruben.badnewz on Yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a href="mailto:ruben.badnewz@yahoo.com" title="ruben.badnewz on Yahoo">ruben.badnewz@yahoo.com</a></font>
+        <a target="_blank" href="mailto:ruben.badnewz@yahoo.com" title="ruben.badnewz on Yahoo"><i class="fa fa-yahoo" title="ruben.badnewz on Yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.badnewz@yahoo.com" title="ruben.badnewz on Yahoo">ruben.badnewz@yahoo.com</a></font>
     </center>
 </div>
