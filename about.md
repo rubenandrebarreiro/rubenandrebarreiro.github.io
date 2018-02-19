@@ -110,7 +110,6 @@ active: About Me
 
     <br>
     <br>
-    <br>
     
     <center>
     <span class="fa-stack fa-spin">
