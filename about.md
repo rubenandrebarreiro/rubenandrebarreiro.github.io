@@ -45,7 +45,9 @@ active: About Me
 
     <p>I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> grew up too and started playing futsal, before play football!). When I'm <b>20 years old</b>, I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
-    <p>I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
+    <p>I did a lot of sports in my life because it's something that I'm addicted to. I did swimming, when I was a kid, between 1998 and 2002, at <b>S.F.U.A.P</b> (<b>Sociedade Filarmónica União Artística Piedense</b>), in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>. I did football at <b>Monte de Caparica Atlético Clube</b>, in <b>Monte de Caparica</b>, <b>Almada</b>, in 2010, where I played as goalkeeper. I did weight training at some gyms, like <b>Girassus Club</b>, in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>, in 2008, <b>Ginásio Transformers</b>, in the center of <b>Almada</b>, in 2011 and <b>Ginásio Super Olímpia</b>, in <b>Laranjeiro</b>, <b>Almada</b>, in 2015.</p>
+    
+    <p>Related to my education, I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
     <p>My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
         <ul>
