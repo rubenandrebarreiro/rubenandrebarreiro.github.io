@@ -21,6 +21,53 @@ active: My Contacts
     margin: 4px 2px;
     cursor: pointer;
 }
+    
+.loadingSuspensionPoints span {
+  font-size: 50px;
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation-duration: 1.4s;
+          animation-duration: 1.4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.loadingSuspensionPoints span:nth-child(2) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+.loadingSuspensionPoints span:nth-child(3) {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
@@ -59,11 +106,11 @@ active: My Contacts
     <br>
     
     <span class="fa-stack fa-spin">
-    <div id="loadingEngineer" class="fa" style="font-size:30px"></div>
+    <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
         <script>
             function hourglass() {
               var a;
-              a = document.getElementById("loadingEngineer");
+              a = document.getElementById("loadingHourGlass");
               a.innerHTML = "&#xf251;";
               setTimeout(function () {
                   a.innerHTML = "&#xf252;";
@@ -77,7 +124,8 @@ active: My Contacts
         </script>
     </span>
     
-    <h5><i>Loading the greatest Computer Science Engineer of all time...</i></h5>
+    <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
+
 </center>
 
 <br>
