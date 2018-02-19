@@ -27,7 +27,13 @@ active: About Me
 }
 </style>
 
-<h2 id="biography"><i>Biography</i></h2>
+<h2 id="biography">
+    <i>Biography</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-user fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <text align="justify">
@@ -76,7 +82,13 @@ active: About Me
 <br>
 
 
-<h2 id="programming-languages-skills"><i>Programming Languages, Hard & Soft Skills</i></h2>
+<h2 id="programming-languages-skills">
+    <i>Programming Languages, Hard & Soft Skills</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-code fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <p>Skills learned at the Professional Course of Technician of Programming and Management of Computer Systems (Escola Secundária do Monte de Caparica), between 2009 and 2012:</p>
@@ -166,7 +178,13 @@ active: About Me
 <br>
 
 
-<h2 id="interests"><i>Interests</i></h2>
+<h2 id="interests">
+    <i>Interests</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-heart fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <p>I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
@@ -179,7 +197,13 @@ active: About Me
 <br>
 
 
-<h2 id="goals"><i>Goals</i></h2>
+<h2 id="goals">
+    <i>Goals</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-check fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <p> <!-- SOME TEXT HERE --> </p>
@@ -192,7 +216,13 @@ active: About Me
 <br>
 
 
-<h2 id="projects"><i>Projects</i></h2>
+<h2 id="projects">
+    <i>Projects</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-folder-open fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
@@ -289,7 +319,13 @@ active: About Me
 <br>
 
 
-<h2 id="publications"><i>Publications</i></h2>
+<h2 id="publications">
+    <i>Publications</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-books fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <p> <!-- SOME TEXT HERE --> </p>
