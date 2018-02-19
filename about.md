@@ -1156,11 +1156,11 @@ active: About Me
 
 <p align="justify">Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because <b>Scorpio</b> have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
     
-<p align="justify">But it's same Zodiac Sign of <a target="_blank" href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Pel%C3%A9"><b>Pelé</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Diego_Maradona"><b>Diego Maradona</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Marco_van_Basten"><b>Marco van Basten</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> and <a target="_blank" href="https://en.wikipedia.org/wiki/Pablo_Picasso"><b>Pablo Picasso</b></a>. And all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
+<p align="justify">But it's same Zodiac Sign of <a target="_blank" href="https://en.wikipedia.org/wiki/Bill_Gates"><b><i>Bill Gates</i></b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Pel%C3%A9"><b><i>Pelé</i></b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Diego_Maradona"><b><i>Diego Maradona</i></b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Marco_van_Basten"><b><i>Marco van Basten</i></b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b><i>Luís Figo</i></b></a> and <a target="_blank" href="https://en.wikipedia.org/wiki/Pablo_Picasso"><b><i>Pablo Picasso</i></b></a>. And all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
 
 <p align="justify">My grandfather was <b>Brazilian</b>, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
-<p align="justify">I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <a target="_blank" href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> grew up too and started playing futsal, before play football!). When I'm <b>20 years old</b>, I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
+<p align="justify">I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <a target="_blank" href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b><i>Luís Figo</i></b></a> grew up too and started playing futsal, before play football!). When I'm <b>20 years old</b>, I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
 <p align="justify">I did a lot of sports in my life because it's something that I'm addicted to. I did swimming, when I was kid, between 1998 and 2002, at <b>S. F. U. A. P.</b> (<b>Sociedade Filarmónica União Artística Piedense</b>), in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>. I did football at <b>Monte de Caparica Atlético Clube</b>, in <b>Monte de Caparica</b>, <b>Almada</b>, in 2010, where I played as goalkeeper. I did weight training at some gyms, like <b>Girassus Club</b>, in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>, in 2008, <b>Ginásio Transformers</b>, in the center of <b>Almada</b>, in 2011 and <b>Ginásio Super Olímpia</b>, in <b>Laranjeiro</b>, <b>Almada</b>, in 2015. 🏋️ ⚽</p>
     
@@ -1171,7 +1171,6 @@ active: About Me
     <li><p align="justify"><a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</p></li>
 </ul>
 
-<br>
 <br>
     
 <center>
@@ -1185,11 +1184,11 @@ active: About Me
 <br>
 
 <p align="justify">
-    "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <b>Charlie Chaplin</b>
+    "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <a target="_blank" href="https://en.wikipedia.org/wiki/Charlie_Chaplin"><b><i>Charlie Chaplin</i></b></a>
 </p>
 
-<a target="_blank" href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
-<a target="_blank" href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Resume" href="/docs/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae" href="/docs/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
 
 
 <br>
@@ -1208,7 +1207,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">Skills learned at the Professional Course of Technician of Programming and Management of Computer Systems (Escola Secundária do Monte de Caparica), between 2009 and 2012:</p>
+<p align="justify">Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>Escola Secundária do Monte de Caparica</b>), between 2009 and 2012:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
@@ -1236,7 +1235,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify">Skills learned at the BSc Degree focused in Computer Science and Engineering (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018:</p>
+<p align="justify">Skills learned at the <b>BSc Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
@@ -1342,10 +1341,10 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a target="_blank" href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <a target="_blank" href="http://docentes.fct.unl.pt/p161/"><b>Prof. Hervé Paulino</b></a>:</p>
+<p align="justify">During the <b>BSc Degree</b>, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a target="_blank" href="http://hyrax.dcc.fc.up.pt/"><b><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></b></a>, in the context of <b><i>Edge Computing</i></b>, representing <a target="_blank" href="http://nova-lincs.di.fct.unl.pt/"><b>NOVA-LINCS</b> (<b>Departamento de Informática da Nova's Labs</b>)</a> and with the supervision of <a target="_blank" href="http://docentes.fct.unl.pt/p161/"><b><i>Prof. Hervé Paulino</i></b></a>:</p>
 
 <ul>
-  <li><p align="justify">This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</p></li>
+    <li><p align="justify">This project, had also the collaboration of <a target="_blank" href="https://sigarra.up.pt/fcup/pt/web_page.inicial"><b>Faculdade de Ciências da Universidade do Porto</b></a> (<a target="_blank" href="https://www.inesctec.pt/en"><b>INESC TEC</b></a>/<a target="_blank" href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7"><b>CRACS - Centro de Sistemas de Computação Avançada</b></a>) and <a target="_blank" href="https://www.scs.cmu.edu/"><b>Carnegie Mellon University's School of Computer Science</b></a>;</p></li>
   <li><p align="justify">Websites/Links:</p></li>
   <ul>
     <li>
@@ -1408,19 +1407,19 @@ active: About Me
         </ul>
     </li>
   </ul>        
-  <li><p align="justify">I worked in the Services' section of the <i>Hyrax Project</i>, most preciselly, developing a data structure (<i>DiCE</i>), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing and information services closer to the final users;</p></li>
-  <li><p align="justify"><i>Abstract</i>:</p>
+  <li><p align="justify">I worked in the Services' section of the <b><i>Hyrax Project</i></b>, most preciselly, developing a data structure (for <b><i>DiCE</i></b> section), to be replicated for <i>Mobile</i> and <i>Handheld Devices</i>, in a notion of collaborative network, using <i>Crowdsourcing</i> features and shifting all the data processing and information services closer to the final users;</p></li>
+  <li><p align="justify"><b><i>Abstract</i></b>:</p>
     <ul>
-        <li><p align="justify">Edge Computing proposes the shifting of (some) computing tasks from centralized Cloud services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may offload or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to churn. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates churn efficiently;</p></li>
+        <li><p align="justify"><b><i>Edge Computing</i></b> proposes the shifting of (some) computing tasks from centralized <b><i>Cloud</i></b> services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may offload or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to <b><i>Churn</i></b>. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates churn efficiently;</p></li>
     </ul>
   </li>
-  <li><p align="justify"><i>Keywords</i>:</p>
+  <li><p align="justify"><b><i>Keywords</i></b>:</p>
     <ul>
         <li><p align="justify">Edge/Fog Computing, Distributed Computing, Mobile Computing, Network Computation of Mobile Devices at the Edge, Mobile Devices Replication, Replicate Data Structures, Eventual Consistency;</p></li>
     </ul>
   </li>
   <li>
-      <p align="justify">Documents of <i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i>, in 2018:</p>
+      <p align="justify">Documents of <b><i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i></b>, in 2018:</p>
       <ul>
         <li><p align="justify"><a target="_blank" href="/hyrax-dice-article-paper.pdf"> LaTeX Article/Paper</a>;</p></li>
         <li><p align="justify"><a target="_blank" href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
