@@ -21,7 +21,8 @@ active: My Contacts
     margin: 4px 2px;
     cursor: pointer;
 }
-    
+
+
 .loadingSuspensionPoints span {
   -webkit-animation-name: blink;
           animation-name: blink;
@@ -101,6 +102,7 @@ active: My Contacts
         ✏️ Designer | 📸 Photographer | 🎥 Producer | 🏋️ Athlete | 🚶 Model
     </b></font>
     
+    <br>
     <br>
     <br>
     
