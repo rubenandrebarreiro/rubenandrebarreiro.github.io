@@ -77,28 +77,28 @@ active: About Me
 
 @keyframes fa-beat {
   0% {
-    transform:scale(1);
+    transform:scale(0.8);
   }
   5% {
-    transform:scale(1.25);
+    transform:scale(1);
   }
   20% {
-    transform:scale(1);
+    transform:scale(0.8);
   }
   30% {
-    transform:scale(1);
+    transform:scale(0.8);
   }
   35% {
-    transform:scale(1.25);
+    transform:scale(1);
   }
   50% {
-    transform:scale(1);
+    transform:scale(0.8);
   }
   55% {
-    transform:scale(1.25);
+    transform:scale(1);
   }
   70% {
-    transform:scale(1);
+    transform:scale(0.8);
   }
 }
 </style>
