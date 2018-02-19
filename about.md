@@ -199,31 +199,31 @@ active: About Me
         opacity: 1;
     }
     10% {
-        opacity: 0.1;
+        opacity: 0.25;
     }
     20% {
-        opacity: 0.2;
+        opacity: 0.25;
     }
     30% {
-        opacity: 0.3;
+        opacity: 0.25;
     }
     40% {
-        opacity: 0.4;
+        opacity: 0.5;
     }
     50% {
         opacity: 0.5;
     }
     60% {
-        opacity: 0.6;
+        opacity: 0.5;
     }
     70% {
-        opacity: 0.7;
+        opacity: 0.75;
     }
     80% {
-        opacity: 0.8;
+        opacity: 0.75;
     }
     90% {
-        opacity: 0.9;
+        opacity: 0.75;
     }
     100% {
         opacity: 0;
