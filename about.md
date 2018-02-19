@@ -1415,7 +1415,7 @@ active: About Me
     
 <center>
 
-    <div id="walkingAndroid" style="height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
+    <div id="walkingAndroid" style="height: 30vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
             <div class="androidLogo">
                 <div class="androidHead">
                     <div></div>
@@ -1444,11 +1444,7 @@ active: About Me
             </div>
         </div>
 
-    <!--
-    <span class="fa-stack fa-spin">
-        <i class="fa fa-spinner" style="font-size:30px"></i>
-    </span>-->
-
+    
     <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
 </center>
 
