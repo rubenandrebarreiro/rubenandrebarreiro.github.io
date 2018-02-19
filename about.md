@@ -70,6 +70,37 @@ active: About Me
     opacity: .2;
   }
 }
+
+.fa-beat {
+  animation:fa-beat 5s ease infinite;
+}
+
+@keyframes fa-beat {
+  0% {
+    transform:scale(1);
+  }
+  5% {
+    transform:scale(1.25);
+  }
+  20% {
+    transform:scale(1);
+  }
+  30% {
+    transform:scale(1);
+  }
+  35% {
+    transform:scale(1.25);
+  }
+  50% {
+    transform:scale(1);
+  }
+  55% {
+    transform:scale(1.25);
+  }
+  70% {
+    transform:scale(1);
+  }
+}
 </style>
 
 <h2 id="biography">
@@ -253,7 +284,7 @@ active: About Me
     <i>Interests</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-heart fa-stack-1x fa-spin"></i>
+        <i class="fa fa-heart fa-4x fa-beat"></i>
     </span>
 </h2>
 <hr/>
