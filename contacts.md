@@ -119,15 +119,17 @@ active: My Contacts
 <h2 id="othersociallinksusernames"><i>Other Social Links/Usernames</i></h2>
 <hr/>
 
-<div class="w3-container w3-xlarge w3-padding">
-    <center>
-        <i class="fa fa-snapchat" title="Rúben André Barreiro (BadNewz) on Snapchat" style="font-size:20px;color:Yellow"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro (BadNewz) on Snapchat">Snapchat - ruben.badnewz</a></font>
-    
-        <font size="1">&nbsp;|&nbsp;</font>
-        
-        <i class="fa fa-skype" title="Rúben André Barreiro on Skype" style="font-size:20px;color:DeepSkyBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Skype">Skype - ruben.barreiro.92</a></font>
-    </center>
-</div>
+<a href="#">
+    <div id="othersociallinksusernames" class="w3-container w3-xlarge w3-padding">
+        <center>
+            <i class="fa fa-snapchat" title="Rúben André Barreiro (BadNewz) on Snapchat" style="font-size:20px;color:Yellow"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro (BadNewz) on Snapchat">Snapchat - ruben.badnewz</a></font>
+
+            <font size="1">&nbsp;|&nbsp;</font>
+
+            <i class="fa fa-skype" title="Rúben André Barreiro on Skype" style="font-size:20px;color:DeepSkyBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Skype">Skype - ruben.barreiro.92</a></font>
+        </center>
+    </div>
+</a>
 
 <br>
 <hr/>
