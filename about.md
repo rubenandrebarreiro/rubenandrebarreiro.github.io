@@ -1156,11 +1156,11 @@ active: About Me
 
 <p align="justify">Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because <b>Scorpio</b> have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
     
-<p align="justify">But it's same Zodiac Sign of <a href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Pel%C3%A9"><b>Pelé</b></a>, <a href="https://en.wikipedia.org/wiki/Diego_Maradona"><b>Diego Maradona</b></a>, <a href="https://en.wikipedia.org/wiki/Marco_van_Basten"><b>Marco van Basten</b></a>, <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> and <a href="https://en.wikipedia.org/wiki/Pablo_Picasso"><b>Pablo Picasso</b></a>. And all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
+<p align="justify">But it's same Zodiac Sign of <a target="_blank" href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Pel%C3%A9"><b>Pelé</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Diego_Maradona"><b>Diego Maradona</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Marco_van_Basten"><b>Marco van Basten</b></a>, <a target="_blank" href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> and <a target="_blank" href="https://en.wikipedia.org/wiki/Pablo_Picasso"><b>Pablo Picasso</b></a>. And all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
 
 <p align="justify">My grandfather was <b>Brazilian</b>, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
-<p align="justify">I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> grew up too and started playing futsal, before play football!). When I'm <b>20 years old</b>, I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
+<p align="justify">I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <a target="_blank" href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> grew up too and started playing futsal, before play football!). When I'm <b>20 years old</b>, I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
 <p align="justify">I did a lot of sports in my life because it's something that I'm addicted to. I did swimming, when I was kid, between 1998 and 2002, at <b>S. F. U. A. P.</b> (<b>Sociedade Filarmónica União Artística Piedense</b>), in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>. I did football at <b>Monte de Caparica Atlético Clube</b>, in <b>Monte de Caparica</b>, <b>Almada</b>, in 2010, where I played as goalkeeper. I did weight training at some gyms, like <b>Girassus Club</b>, in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>, in 2008, <b>Ginásio Transformers</b>, in the center of <b>Almada</b>, in 2011 and <b>Ginásio Super Olímpia</b>, in <b>Laranjeiro</b>, <b>Almada</b>, in 2015.</p>
     
@@ -1168,7 +1168,7 @@ active: About Me
 
 <p align="justify">My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
     <ul>
-        <li><p align="justify"><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</p></li>
+        <li><p align="justify"><a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</p></li>
     </ul>
 </p>
 
@@ -1204,8 +1204,8 @@ active: About Me
     "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <b>Charlie Chaplin</b>
 </p>
 
-<a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
-<a href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
+<a target="_blank" href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
+<a target="_blank" href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
 
 
 <br>
@@ -1358,7 +1358,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
+<p align="justify">During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a target="_blank" href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
 
 <ul>
   <li><p align="justify">This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</p></li>
@@ -1368,7 +1368,7 @@ active: About Me
     <p align="justify">1) Project's Website:</p>
         <ul>
             <li>
-                <p align="justify"><a href="https://hyrax.dcc.fc.up.pt/">https://hyrax.dcc.fc.up.pt/</a>;</p>
+                <p align="justify"><a target="_blank" href="https://hyrax.dcc.fc.up.pt/">https://hyrax.dcc.fc.up.pt/</a>;</p>
             </li>
         </ul>
     </li>
@@ -1376,16 +1376,16 @@ active: About Me
     <p align="justify">2) Universities' Websites:</p>
         <ul>
             <li>
-                <p align="justify"><a href="https://www.fct.unl.pt/">https://www.fct.unl.pt/</a>;</p>
+                <p align="justify"><a target="_blank" href="https://www.fct.unl.pt/">https://www.fct.unl.pt/</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">https://sigarra.up.pt/fcup/pt/web_page.inicial</a>;</p>
+                <p align="justify"><a target="_blank" href="https://sigarra.up.pt/fcup/pt/web_page.inicial">https://sigarra.up.pt/fcup/pt/web_page.inicial</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="https://www.fc.up.pt/fcup/index.php">https://www.fc.up.pt/fcup/index.php</a>;</p>
+                <p align="justify"><a target="_blank" href="https://www.fc.up.pt/fcup/index.php">https://www.fc.up.pt/fcup/index.php</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="https://www.cmu.edu/">https://www.cmu.edu/</a>;</p>
+                <p align="justify"><a target="_blank" href="https://www.cmu.edu/">https://www.cmu.edu/</a>;</p>
             </li>
         </ul>
     </li>
@@ -1393,13 +1393,13 @@ active: About Me
         <p align="justify">3) Universities' Laboratories' Websites:</p>
         <ul>
             <li>
-                <p align="justify"><a href="http://nova-lincs.di.fct.unl.pt/">http://nova-lincs.di.fct.unl.pt/</a>;</p>
+                <p align="justify"><a target="_blank" href="http://nova-lincs.di.fct.unl.pt/">http://nova-lincs.di.fct.unl.pt/</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="https://cracs.fc.up.pt/">https://cracs.fc.up.pt/</a>;</p>
+                <p align="justify"><a target="_blank" href="https://cracs.fc.up.pt/">https://cracs.fc.up.pt/</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="http://www.cmuportugal.org/">http://www.cmuportugal.org/</a>;</p>
+                <p align="justify"><a target="_blank" href="http://www.cmuportugal.org/">http://www.cmuportugal.org/</a>;</p>
             </li>
         </ul>
     </li>  
@@ -1407,19 +1407,19 @@ active: About Me
         <p align="justify">4) Academic, Industrial and Funding Partners' Websites:</p>
         <ul>
             <li>
-                <p align="justify"><a href="http://www.geolink.pt/index.html">http://www.geolink.pt/index.html</a>;</p>
+                <p align="justify"><a target="_blank" href="http://www.geolink.pt/index.html">http://www.geolink.pt/index.html</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="http://www.yinzcam.com/">http://www.yinzcam.com/</a>;</p>
+                <p align="justify"><a target="_blank" href="http://www.yinzcam.com/">http://www.yinzcam.com/</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="https://www.wavecom.pt/">https://www.wavecom.pt/</a>;</p>
+                <p align="justify"><a target="_blank" href="https://www.wavecom.pt/">https://www.wavecom.pt/</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="https://www.it.pt/">https://www.it.pt/</a>;</p>
+                <p align="justify"><a target="_blank" href="https://www.it.pt/">https://www.it.pt/</a>;</p>
             </li>
             <li>
-                <p align="justify"><a href="https://www.fct.pt/index.phtml.pt">https://www.fct.pt/index.phtml.pt</a>;</p>
+                <p align="justify"><a target="_blank" href="https://www.fct.pt/index.phtml.pt">https://www.fct.pt/index.phtml.pt</a>;</p>
             </li>
         </ul>
     </li>
@@ -1438,8 +1438,8 @@ active: About Me
   <li>
       <p align="justify">Documents of <i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i>, in 2018:</p>
       <ul>
-        <li><p align="justify"><a href="/hyrax-dice-article-paper.pdf"> LaTeX Article/Paper</a>;</p></li>
-        <li><p align="justify"><a href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
+        <li><p align="justify"><a target="_blank" href="/hyrax-dice-article-paper.pdf"> LaTeX Article/Paper</a>;</p></li>
+        <li><p align="justify"><a target="_blank" href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
       </ul>
   </li>
 </ul>
