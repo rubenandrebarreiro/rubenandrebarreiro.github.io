@@ -1502,7 +1502,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Skills learned at the <b>BSc Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;Skills learned at the <b>BSc Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
