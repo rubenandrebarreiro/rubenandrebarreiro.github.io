@@ -23,7 +23,7 @@ active: My Contacts
 }
 </style>
 
-<h2 id="myinfo"><i>My Info</i><i class="fa fa-circle-thin fa-stack-2x></i><i class="fa fa-info fa-stack-1x"></i></h2>
+<h2 id="myinfo"><i>My Info</i><i class="fa fa-circle-thin fa-stack-2x"></i><i class="fa fa-info fa-stack-1x"></i></h2>
 <hr/>
 
 <center>
