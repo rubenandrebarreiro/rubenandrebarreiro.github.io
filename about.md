@@ -39,7 +39,7 @@ active: About Me
 
     <p>My grandfather was <b>Brazilian</b>, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
-    <p>I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, also in <b>Portugal</b>. I live, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <b>Luís Figo</b> grew up too!), before I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
+    <p>I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, also in <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <b>Luís Figo</b> grew up too!), before I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
     <p>I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
