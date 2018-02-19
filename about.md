@@ -1408,7 +1408,7 @@ active: About Me
 
 <p align="justify">My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓</p>
 <ul>
-    <li><p align="justify"><a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018;</p></li>
+    <li><p align="justify"><a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
 </ul>
 
 <br>
