@@ -1175,23 +1175,8 @@ active: About Me
 <br>
     
 <center>
-    <span class="fa-stack fa-spin">
-    <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
-        <script>
-            function hourglass() {
-              var a;
-              a = document.getElementById("loadingHourGlass");
-              a.innerHTML = "&#xf251;";
-              setTimeout(function () {
-                  a.innerHTML = "&#xf252;";
-                }, 1000);
-              setTimeout(function () {
-                  a.innerHTML = "&#xf253;";
-                }, 2000);
-            }
-            hourglass();
-            setInterval(hourglass, 3000);
-        </script>
+    <span class="fa-stack faa-spin">
+        <i class="fa fa-spinner"></i>
     </span>
 
     <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
