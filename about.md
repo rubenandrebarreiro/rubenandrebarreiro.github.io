@@ -1141,42 +1141,41 @@ active: About Me
     <i>Biography</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-user fa-stack-1x faa-shake animated"></i>
+        <i class="fa fa-user fa-stack-1x faa-vertical animated"></i>
     </span>
 </h2>
 <hr/>
 
-<text align="justify">
+<p align="justify">Hi everyone, nice to meet you! 😀</p>
+
+<p align="justify">My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
+
+<p align="justify">I'm <b>25 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
+
+<p align="justify">I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
+
+<p align="justify">Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because <b>Scorpio</b> have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
     
-    <p align="justify">Hi everyone, nice to meet you! 😀</p>
+<p align="justify">But it's same Zodiac Sign of <a href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>, <a href="https://en.wikipedia.org/wiki/Pel%C3%A9"><b>Pelé</b></a>, <a href="https://en.wikipedia.org/wiki/Diego_Maradona"><b>Diego Maradona</b></a>, <a href="https://en.wikipedia.org/wiki/Marco_van_Basten"><b>Marco van Basten</b></a>, <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> and <a href="https://en.wikipedia.org/wiki/Pablo_Picasso"><b>Pablo Picasso</b></a>. And all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
 
-    <p align="justify">My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
+<p align="justify">My grandfather was <b>Brazilian</b>, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
-    <p align="justify">I'm <b>25 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
+<p align="justify">I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> grew up too and started playing futsal, before play football!). When I'm <b>20 years old</b>, I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
 
-    <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
-    <p>Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because <b>Scorpio</b> have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
+<p align="justify">I did a lot of sports in my life because it's something that I'm addicted to. I did swimming, when I was kid, between 1998 and 2002, at <b>S. F. U. A. P.</b> (<b>Sociedade Filarmónica União Artística Piedense</b>), in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>. I did football at <b>Monte de Caparica Atlético Clube</b>, in <b>Monte de Caparica</b>, <b>Almada</b>, in 2010, where I played as goalkeeper. I did weight training at some gyms, like <b>Girassus Club</b>, in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>, in 2008, <b>Ginásio Transformers</b>, in the center of <b>Almada</b>, in 2011 and <b>Ginásio Super Olímpia</b>, in <b>Laranjeiro</b>, <b>Almada</b>, in 2015.</p>
     
-    <p>But it's same Zodiac Sign of <a href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>, <a href="https://en.wikipedia.org/wiki/Pel%C3%A9"><b>Pelé</b></a>, <a href="https://en.wikipedia.org/wiki/Diego_Maradona"><b>Diego Maradona</b></a>, <a href="https://en.wikipedia.org/wiki/Marco_van_Basten"><b>Marco van Basten</b></a>, <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> and <a href="https://en.wikipedia.org/wiki/Pablo_Picasso"><b>Pablo Picasso</b></a>. And all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
+<p align="justify">Related to my education, I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
-    <p>My grandfather was <b>Brazilian</b>, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
+<p align="justify">My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
+    <ul>
+        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
+    </ul>
+</p>
 
-    <p>I lived in <b>Loures</b>, in <b>Portugal</b>, when I was baby, for my very first year of life. After that, I moved to <b>Almada</b>, <b>Portugal</b>. I lived, most preciselly, in a small neighborhood called <b>Barrocas</b>, where I spent my entire childhood and part of my adolescence (The same neighborhood where <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> grew up too and started playing futsal, before play football!). When I'm <b>20 years old</b>, I moved to <b>Monte de Caparica</b>, also in <b>Almada</b>, <b>Portugal</b>. But I'm currently living in <b>Porto</b>, <b>Portugal</b>. 📍 🌍</p>
-
-    <p>I did a lot of sports in my life because it's something that I'm addicted to. I did swimming, when I was kid, between 1998 and 2002, at <b>S. F. U. A. P.</b> (<b>Sociedade Filarmónica União Artística Piedense</b>), in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>. I did football at <b>Monte de Caparica Atlético Clube</b>, in <b>Monte de Caparica</b>, <b>Almada</b>, in 2010, where I played as goalkeeper. I did weight training at some gyms, like <b>Girassus Club</b>, in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>, in 2008, <b>Ginásio Transformers</b>, in the center of <b>Almada</b>, in 2011 and <b>Ginásio Super Olímpia</b>, in <b>Laranjeiro</b>, <b>Almada</b>, in 2015.</p>
+<br>
+<br>
     
-    <p>Related to my education, I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>Escola Secundária do Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
-
-    <p>My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
-        <ul>
-            <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
-        </ul>
-    </p>
-
-    <br>
-    <br>
-    
-    <center>
+<center>
     <span class="fa-stack fa-spin">
     <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
         <script>
@@ -1195,17 +1194,15 @@ active: About Me
             setInterval(hourglass, 3000);
         </script>
     </span>
-    
+
     <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
-    </center>
+</center>
 
-    <br>
+<br>
 
-    <p>
-        "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <b>Charlie Chaplin</b>
-    </p>
-
-</text>
+<p align="justify">
+    "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <b>Charlie Chaplin</b>
+</p>
 
 <a href="/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
 <a href="/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
@@ -1227,7 +1224,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p>Skills learned at the Professional Course of Technician of Programming and Management of Computer Systems (Escola Secundária do Monte de Caparica), between 2009 and 2012:</p>
+<p align="justify">Skills learned at the Professional Course of Technician of Programming and Management of Computer Systems (Escola Secundária do Monte de Caparica), between 2009 and 2012:</p>
 <ul>
     <li>
         Subjects and areas covered:
@@ -1255,7 +1252,7 @@ active: About Me
     </li>
 </ul>
 
-<p>Skills learned at the BSc Degree focused in Computer Science and Engineering (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018:</p>
+<p align="justify">Skills learned at the BSc Degree focused in Computer Science and Engineering (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018:</p>
 <ul>
     <li>
         Subjects and areas covered:
@@ -1299,7 +1296,7 @@ active: About Me
     </li>
 </ul>
 
-<p>Other skills:</p>
+<p align="justify">Other skills:</p>
 <ul>
     <li>
         <b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;
@@ -1323,7 +1320,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p>I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
+<p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
 
 
 <br>
@@ -1342,7 +1339,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p> <!-- SOME TEXT HERE --> </p>
+<p align="justify"> <!-- SOME TEXT HERE --> </p>
 
 
 <br>
@@ -1361,7 +1358,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p>During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
+<p align="justify">During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
 
 <ul>
   <li>This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</li>
@@ -1464,4 +1461,4 @@ active: About Me
 </h2>
 <hr/>
 
-<p> <!-- SOME TEXT HERE --> </p>
+<p align="justify"> <!-- SOME TEXT HERE --> </p>
