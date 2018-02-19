@@ -115,14 +115,11 @@ active: My Contacts
                   a.innerHTML = "&#xf252;";
                 }, 1000);
               setTimeout(function () {
-                  a.innerHTML = "&#xf251;";
+                  a.innerHTML = "&#xf253;";
                 }, 2000);
-                setTimeout(function () {
-                  a.innerHTML = "&#xf251;";
-                }, 3000);
             }
             hourglass();
-            setInterval(hourglass, 4000);
+            setInterval(hourglass, 3000);
         </script>
     </span>
     

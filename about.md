@@ -1176,7 +1176,7 @@ active: About Me
     
 <center>
     <span class="fa-stack fa-spin">
-        <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
+        <div id="loadingSpinner" class="fa" style="font-size:30px"></div>
         <i class="fa fa-spinner"></i>
     </span>
 
