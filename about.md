@@ -1098,8 +1098,8 @@ active: About Me
   }
 
   50% {
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
     opacity: 0;
   }
 
@@ -1114,9 +1114,9 @@ active: About Me
   }
 
   50% {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
     opacity: 0;
   }
 
@@ -1222,7 +1222,7 @@ active: About Me
     <i>Programming Languages, Hard & Soft Skills</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-code fa-stack-1x fa-bounce"></i>
+        <i class="fa fa-code fa-stack-1x faa-float animated"></i>
     </span>
 </h2>
 <hr/>
@@ -1337,7 +1337,7 @@ active: About Me
     <i>Goals/Accomplishments</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-check fa-stack-1x fa-spin"></i>
+        <i class="fa fa-check fa-stack-1x faa-horizontal animated"></i>
     </span>
 </h2>
 <hr/>
@@ -1356,7 +1356,7 @@ active: About Me
     <i>Projects</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-briefcase fa-stack-1x faa-burst animated"></i>
+        <i class="fa fa-briefcase fa-stack-1x faa-wrench animated"></i>
     </span>
 </h2>
 <hr/>
@@ -1459,7 +1459,7 @@ active: About Me
     <i>Publications</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-book fa-stack-1x fa-spin"></i>
+        <i class="fa fa-book fa-stack-1x faa-ring animated"></i>
     </span>
 </h2>
 <hr/>
