@@ -176,7 +176,7 @@ active: About Me
         Programming Languages covered:
         <ul>
             <li>
-                Pascal, VisualBasic, C++, HTML, JavaScript, CSS, MySQL & PHP;
+                <b>Pascal</b>, <b>VisualBasic</b>, <b>C++</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>MySQL</b> & <b>PHP</b>;
             </li>
         </ul>
     </li>
@@ -184,7 +184,7 @@ active: About Me
         Frameworks and IDEs covered:
         <ul>
             <li>
-                Free Pascal, Turbo Pascal & Notepad++;   
+                <b>Free Pascal</b>, <b>Turbo Pascal</b>, <b>Notepad++</b> and <b>WampServer</b>;   
             </li>
         </ul>
     </li>
@@ -204,7 +204,7 @@ active: About Me
         Programming Languages covered:
         <ul>
             <li>
-                Java, C, Assembly, OCaml, HTML, JavaScript, CSS, Oracle SQL, Datalog, XML, Prolog (STRIPS), Unified Modelling Language (UML), Object Constraint Language (OCL) and Android;
+                <b>Java</b>, <b>C</b>, <b>Assembly</b>, <b>OCaml</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Oracle SQL</b>, <b>Datalog</b>, <b>XML</b>, <b>Prolog (STRIPS)</b>, <b>Unified Modelling Language (UML)</b>, <b>Object Constraint Language (OCL)</b> and <b>Android</b>;
             </li>
         </ul>
     </li>
@@ -212,7 +212,7 @@ active: About Me
         Programming Language APIs covered:
         <ul>
             <li>
-                WebGL, OpenGL, REST, SOAP, JSON, MongoDB, Apache ZooKeeper, Apache Kafka and Google Protobuffers;
+                <b>WebGL</b>, <b>OpenGL</b>, <b>REST</b>, <b>SOAP</b>, <b>JSON</b>, <b>MongoDB</b>, <b>Apache ZooKeeper</b>, <b>Apache Kafka</b> and <b>Google Protobuffers</b>;
             </li>
         </ul>
     </li>
@@ -220,7 +220,7 @@ active: About Me
         Frameworks and IDEs covered:
         <ul>
             <li>
-                Eclipse IDE, Oracle APEX (Oracle Application Express), Sublime Text, Brackets, Atom, Docker and Android Studio;
+                <b>Eclipse IDE</b>, <b>Oracle APEX (Oracle Application Express)</b>, <b>Sublime Text</b>, <b>Brackets</b>, <b>Atom</b>, <b>Docker</b>,<b>Android Studio IDE</b>, <b>Sourcetree GUI</b> and <b>GitHub Desktop GUI</b>;
             </li>
         </ul>
     </li>
@@ -228,7 +228,7 @@ active: About Me
         Papers/articles' build skills covered:
         <ul>
             <li>
-                LaTeX;
+                <b>LaTeX</b>;
             </li>
         </ul>
     </li>
@@ -237,7 +237,7 @@ active: About Me
 <p>Other skills:</p>
 <ul>
     <li>
-        Adobe Creative Cloud Tools & Microsoft Office Tools;
+        <b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;
     </li>
 </ul>
 
