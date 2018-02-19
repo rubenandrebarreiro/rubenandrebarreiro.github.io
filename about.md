@@ -1546,7 +1546,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Other skills:</p>
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;&nbsp;Other skills:</p>
 <ul>
     <li>
         <p align="justify"><b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;</p>
