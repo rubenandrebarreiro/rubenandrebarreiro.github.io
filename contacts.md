@@ -117,9 +117,12 @@ active: My Contacts
               setTimeout(function () {
                   a.innerHTML = "&#xf251;";
                 }, 2000);
+                setTimeout(function () {
+                  a.innerHTML = "&#xf251;";
+                }, 3000);
             }
             hourglass();
-            setInterval(hourglass, 3000);
+            setInterval(hourglass, 4000);
         </script>
     </span>
     
