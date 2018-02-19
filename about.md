@@ -25,6 +25,51 @@ active: About Me
 .buttonDocument {
     border-radius: 12px;
 }
+
+.loadingSuspensionPoints span {
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.loadingSuspensionPoints span:nth-child(2) {
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
+}
+
+.loadingSuspensionPoints span:nth-child(3) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: .2;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .2;
+  }
+}
 </style>
 
 <h2 id="biography">
@@ -62,6 +107,31 @@ active: About Me
             <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
         </ul>
     </p>
+
+    <br>
+    <br>
+    <br>
+    
+    <span class="fa-stack fa-spin">
+    <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
+        <script>
+            function hourglass() {
+              var a;
+              a = document.getElementById("loadingHourGlass");
+              a.innerHTML = "&#xf251;";
+              setTimeout(function () {
+                  a.innerHTML = "&#xf252;";
+                }, 1000);
+              setTimeout(function () {
+                  a.innerHTML = "&#xf253;";
+                }, 2000);
+            }
+            hourglass();
+            setInterval(hourglass, 3000);
+        </script>
+    </span>
+    
+    <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
 
     <br>
 

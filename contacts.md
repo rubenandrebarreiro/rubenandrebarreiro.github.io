@@ -22,7 +22,6 @@ active: My Contacts
     cursor: pointer;
 }
 
-
 .loadingSuspensionPoints span {
   -webkit-animation-name: blink;
           animation-name: blink;
@@ -67,7 +66,6 @@ active: My Contacts
     opacity: .2;
   }
 }
-
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
