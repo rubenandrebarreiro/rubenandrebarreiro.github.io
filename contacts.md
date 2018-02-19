@@ -62,7 +62,13 @@ active: My Contacts
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
-<h2 id="socialnetworks"><i>My Social Networks</i></h2>
+<h2 id="socialnetworks">
+    <i>My Social Networks</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-users fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
         
 <div class="w3-container w3-xlarge w3-padding">
@@ -122,7 +128,13 @@ active: My Contacts
 <hr/>
 <br>
 
-<h2 id="othersociallinksusernames"><i>Other Social Links/Usernames</i></h2>
+<h2 id="othersociallinksusernames">
+    <i>Other Social Links/Usernames</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-comments fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <div id="othersociallinksusernames" class="w3-container w3-xlarge w3-padding">
@@ -141,7 +153,13 @@ active: My Contacts
 <hr/>
 <br>
 
-<h2 id="emails"><i>My E-mails</i></h2>
+<h2 id="emails">
+    <i>My E-mails</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-at fa-stack-1x fa-spin"></i>
+    </span>
+</h2>
 <hr/>
 
 <div id="emails" class="w3-container w3-xlarge w3-padding">
