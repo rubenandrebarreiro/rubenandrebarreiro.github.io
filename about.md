@@ -207,14 +207,26 @@ active: About Me
     30% {
         opacity: 1;
     }
+    35% {
+        opacity: 0.125;
+    }
     40% {
         opacity: 0.25;
+    }
+    45% {
+        opacity: 0.375;
     }
     50% {
         opacity: 0.5;
     }
+    55% {
+        opacity: 0.625;
+    }
     60% {
         opacity: 0.75;
+    }
+    65% {
+        opacity: 0.875;
     }
     70% {
         opacity: 0;
