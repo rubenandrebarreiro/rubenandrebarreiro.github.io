@@ -1141,18 +1141,18 @@ active: About Me
     <i>Biography</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-user fa-stack-1x faa-beat"></i>
+        <i class="fa fa-user fa-stack-1x faa-shake animated"></i>
     </span>
 </h2>
 <hr/>
 
 <text align="justify">
     
-    <p>Hi everyone, nice to meet you! 😀</p>
+    <p align="justify">Hi everyone, nice to meet you! 😀</p>
 
-    <p>My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
+    <p align="justify">My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
 
-    <p>I'm <b>25 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
+    <p align="justify">I'm <b>25 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
 
     <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
     <p>Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because <b>Scorpio</b> have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
