@@ -32,7 +32,7 @@ active: About Me
 
     <p>My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
 
-    <p>I'm 25 years old (The 90's are the best generation ever, believe it!). 🎂 🎈</p>
+    <p>I'm <b>25 years</b> old (The <b>90's</b> are the best generation ever, believe it!). 🎂 🎈</p>
 
     <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
     <p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of <b>Bill Gates</b>. It's a good omen, right?)! 🦂 ♏ </p>
