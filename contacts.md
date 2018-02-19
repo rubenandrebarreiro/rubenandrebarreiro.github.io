@@ -90,6 +90,10 @@ active: My Contacts
         <font size="1">&nbsp;|&nbsp;</font>
          
         <a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram"><i class="fa fa-instagram" title="Rúben André Barreiro (BadNewz) on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram">Instagram</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+         
+        <a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram"><i class="fa fa-vsco" title="Rúben André Barreiro (BadNewz) on Instagram" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram">Instagram</a></font>
          
         <br>
         
@@ -101,11 +105,11 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="someText"><i class="fa fa-flickr" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someText">Flickr</a></font>
+        <a target="_blank" href="someLink"><i class="fa fa-flickr" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">Flickr</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="someText"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someText">500px</a></font>
+        <a target="_blank" href="someLink"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">500px</a></font>
         
     </center>
 </div>
