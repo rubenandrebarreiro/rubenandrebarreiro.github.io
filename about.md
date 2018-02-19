@@ -112,6 +112,7 @@ active: About Me
     <br>
     <br>
     
+    <center>
     <span class="fa-stack fa-spin">
     <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
         <script>
@@ -132,6 +133,7 @@ active: About Me
     </span>
     
     <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
+    </center>
 
     <br>
 
