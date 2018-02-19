@@ -1357,7 +1357,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a target="_blank" href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
+<p align="justify">During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a target="_blank" href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <a target="_blank" href="http://docentes.fct.unl.pt/p161/"><b>Prof. Hervé Paulino</b></a>:</p>
 
 <ul>
   <li><p align="justify">This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</p></li>
