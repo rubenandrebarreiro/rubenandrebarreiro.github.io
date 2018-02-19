@@ -21,6 +21,10 @@ active: About Me
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.buttonDocument {
+    border-radius: 2px;
+}
 </style>
 
 <h2 id="biography"><i>Biography</i></h2>
