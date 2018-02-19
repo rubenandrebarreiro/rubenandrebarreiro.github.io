@@ -23,7 +23,6 @@ active: My Contacts
 }
     
 .loadingSuspensionPoints span {
-  font-size: 50px;
   -webkit-animation-name: blink;
           animation-name: blink;
   -webkit-animation-duration: 1.4s;
