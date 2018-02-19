@@ -1415,7 +1415,7 @@ active: About Me
     
 <center>
 
-    <div id="walkingAndroid" style="height: 30vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
+    <div id="walkingAndroid" style="height: 20vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
             <div class="androidLogo">
                 <div class="androidHead">
                     <div></div>
