@@ -35,12 +35,12 @@ active: My Contacts
 
 .loadingSuspensionPoints span:nth-child(2) {
   -webkit-animation-delay: .4s;
-          animation-delay: .4s;
+          animation-delay: 1.6s;
 }
 
 .loadingSuspensionPoints span:nth-child(3) {
   -webkit-animation-delay: .8s;
-          animation-delay: .8s;
+          animation-delay: 1.6s;
 }
 
 @-webkit-keyframes blink {
