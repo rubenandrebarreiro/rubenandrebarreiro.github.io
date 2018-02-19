@@ -4,7 +4,7 @@ layout: default
 title: "About Me"
 crawlertitle: "Rúben André Barreiro's Blog - About Me"
 permalink: /about/
-summary: "Biography, Programming Languages, Hard & Soft Skills, Interests, Goals, Projects and Publications"
+summary: "Biography, Programming Languages, Hard & Soft Skills, Interests, Goals/Accomplishments, Projects and Publications"
 active: About Me
 ---
 
@@ -197,8 +197,8 @@ active: About Me
 <br>
 
 
-<h2 id="goals">
-    <i>Goals</i>
+<h2 id="goalsAccomplishments">
+    <i>Goals/Accomplishments</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-check fa-stack-1x fa-spin"></i>
