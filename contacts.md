@@ -23,7 +23,7 @@ active: My Contacts
 }
 </style>
 
-<h2 id="myinfo"><i>My Info</i></h2>&nbsp;<i class="fa fa-info" title="ruben.badnewz on Snapchat" style="font-size:40px;color:Black"></i>
+<h2 id="myinfo"><i>My Info</i>&nbsp;<i class="fa fa-info" title="ruben.badnewz on Snapchat" style="font-size:40px;color:Black"></i></h2>
 <hr/>
 
 <center>
