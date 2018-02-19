@@ -61,7 +61,7 @@ active: My Contacts
         
 <div class="w3-container w3-xlarge w3-padding">
     <center>
-        <a target="_blank" href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro on Facebook"><i class="fa fa-facebook-official" title="Rúben André Barreiro on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro on Facebook">Facebook - Rúben André Barreiro</a></font>
+        <a target="_blank" href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro (BadNewz) on Facebook"><i class="fa fa-facebook-official" title="Rúben André Barreiro on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/rubenandrebarreiro" title="Rúben André Barreiro on Facebook">Facebook - Rúben André Barreiro</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
@@ -97,7 +97,7 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="https://www.pinterest.pt/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest"><i class="fa fa-pinterest" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.pinterest.pt/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest">Pinterest</a></font>
+        <a target="_blank" href="https://www.pinterest.com/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest"><i class="fa fa-pinterest" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.pinterest.com/ruben_badnewz/" title="Rúben BadNewz (BadNewz Lifestyle) on Pinterest">Pinterest</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
