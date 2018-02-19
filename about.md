@@ -107,7 +107,7 @@ active: About Me
     <i>Biography</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-user fa-stack-1x fa-spin"></i>
+        <i class="fa fa-user fa-stack-1x fa-beat"></i>
     </span>
 </h2>
 <hr/>
@@ -322,7 +322,7 @@ active: About Me
     <i>Projects</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-briefcase fa-stack-1x fa-spin"></i>
+        <i class="fa fa-briefcase fa-stack-1x fa-beat"></i>
     </span>
 </h2>
 <hr/>

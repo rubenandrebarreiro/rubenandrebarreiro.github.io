@@ -137,7 +137,7 @@ active: My Contacts
     <i>My Social Networks</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-users fa-stack-1x fa-spin"></i>
+        <i class="fa fa-users fa-stack-1x fa-beat"></i>
     </span>
 </h2>
 <hr/>
@@ -228,7 +228,7 @@ active: My Contacts
     <i>My E-mails</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-at fa-stack-1x fa-spin"></i>
+        <i class="fa fa-at fa-stack-1x fa-beat"></i>
     </span>
 </h2>
 <hr/>
