@@ -23,7 +23,7 @@ active: About Me
 }
 
 .buttonDocument {
-    border-radius: 2px;
+    border-radius: 12px;
 }
 </style>
 
