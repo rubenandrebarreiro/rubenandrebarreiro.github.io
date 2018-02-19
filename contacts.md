@@ -105,7 +105,7 @@ active: My Contacts
     <br>
     
     <span class="fa-stack fa-spin">
-    <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
+        <div id="loadingHourGlass" class="fa" style="font-size:30px"></div>
         <script>
             function hourglass() {
               var a;
