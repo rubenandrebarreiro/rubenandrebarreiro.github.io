@@ -1135,6 +1135,180 @@ active: About Me
  
  
  
+ 
+$time: .9s
+	
+.androidHead
+	position: relative
+	height: 80px
+	width: 160px
+	background: #a4c639
+	border-top-left-radius: 100px
+	border-top-right-radius: 100px
+	div:first-child, div:nth-child(2)
+		position: absolute
+		height: 7px
+		width: 30px
+		border-radius: 20px
+		background: #a4c639
+	div:first-child
+		left: 15px
+		transform: rotate(50deg)
+	div:nth-child(2)
+		transform: rotate(-50deg)
+		left: 116px
+	div:nth-child(3)
+		position: relative
+		div
+			position: absolute
+			height: 15px
+			width: 15px
+			background: #FFF
+			border-radius: 50%
+			top: 35px
+			&:first-child
+				left: 40px
+			&:nth-child(2)
+				left: 107px
+
+.androidBody
+	position: relative
+	width: 160px
+	height: 130px
+	background: #a4c639
+	margin-top: 5px
+	border-bottom-left-radius: 20px
+	border-bottom-right-radius: 20px
+	div
+		position: absolute
+		width: 35px
+		height: 110px
+		border-radius: 30px
+		background: #a4c639
+	div:first-child
+		left: -40px
+		transform-origin: top
+		animation: arm-l $time infinite
+		animation-delay: $time/2
+	div:nth-child(2)
+		left: 165px
+		transform-origin: top
+		animation: arm-r $time infinite
+	div:nth-child(3), div:nth-child(4)
+		top: 75px
+	div:nth-child(3)
+		animation: legup-l $time infinite
+		animation-delay: $time/2
+		left: 32px
+	div:nth-child(4)
+		animation: legup-r $time infinite
+		left: 96px
+
+.androidShadow
+	margin-top: -72px
+	z-index: -2
+	height: 30px
+	width: 160px
+	background: #eee
+	border-radius: 50%
+	animation: shadow $time/2 infinite
+	display: flex
+	justify-content: space-between
+	div
+		height: 15px
+		width: 40px
+		background: #eee
+		border-radius: 50%
+		&:first-child
+			margin: 8px -25px
+		&:last-child
+			margin: 8px -25px
+
+.androidFootsteps
+	display: flex
+	div
+		height: 15px
+		width: 30px
+		background: darken(#eee, 7%)
+		border-radius: 50%
+		margin: 51px 20px
+		z-index: -1
+		&:first-child
+			animation: footsteps-l $time infinite
+			animation-delay: $time/2
+		&:last-child
+			animation: footsteps-r $time infinite
+	
+//------------------------------------------
+// 	Animations
+//------------------------------------------
+
+.logo
+	animation: bobble $time/2 infinite
+
+@keyframes shadow
+	50%
+		transform: scale(.96)
+
+@keyframes footsteps-l
+	0%
+		opacity: 0
+	50%
+		opacity: 1
+	100%
+		opacity: 0
+		transform: translate(6px,-5px)
+
+@keyframes footsteps-r
+	0%
+		opacity: 0
+	50%
+		opacity: 1
+	100%
+		opacity: 0
+		transform: translate(-6px,-5px)
+		
+
+@keyframes bobble
+	0%
+		transform: translateY(-2px)
+	70%
+		transform: translateY(2px)
+	100%
+		transform: translateY(-2px)
+
+@keyframes legup-l
+	0%
+		transform: translate(4px, -5px)
+	30%
+		transform: translate(-4px, 7px)
+	100%
+		transform: translate(4px, -5px)
+
+@keyframes legup-r
+	0%
+		transform: translate(-4px, -5px)
+	30%
+		transform: translate(4px, 7px)
+	100%
+		transform: translate(-4px, -5px)
+
+@keyframes arm-l
+	0%
+		transform: rotate(7deg)
+	60%
+		transform: rotate(-5deg)
+	100%
+		transform: rotate(7deg)
+
+@keyframes arm-r
+	0%
+		transform: rotate(-7deg)
+	60%
+		transform: rotate(5deg)
+	100%
+		transform: rotate(-7deg) 
+ 
 </style>
 
 <h2 id="biography">
@@ -1174,9 +1348,41 @@ active: About Me
 <br>
     
 <center>
+
+<div id="walkingAndroid" style="font-size:30px">
+    <div class="logo">
+        <div class="androidHead">
+            <div></div>
+            <div></div>
+            <div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    
+        <div class="androidBody">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="androidFootsteps">
+        <div></div>
+        <div></div>
+    </div>
+    
+    <div class="androidShadow">
+        <div></div>
+        <div></div>
+    </div>
+</div>
+
+    <!--
     <span class="fa-stack fa-spin">
         <i class="fa fa-spinner" style="font-size:30px"></i>
-    </span>
+    </span>-->
 
     <h5 class="loadingSuspensionPoints"><i>Loading the greatest Computer Science Engineer of all time<span>.</span><span>.</span><span>.</span></i></h5>
 </center>
