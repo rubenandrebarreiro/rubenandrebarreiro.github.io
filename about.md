@@ -1168,7 +1168,7 @@ active: About Me
 
 <p align="justify">My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓
     <ul>
-        <li><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</li>
+        <li><p align="justify"><a href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (Caparica/Almada Campus, FCT NOVA - FCT/UNL)</a>, between 2013 and 2018;</p></li>
     </ul>
 </p>
 
@@ -1227,26 +1227,26 @@ active: About Me
 <p align="justify">Skills learned at the Professional Course of Technician of Programming and Management of Computer Systems (Escola Secundária do Monte de Caparica), between 2009 and 2012:</p>
 <ul>
     <li>
-        Subjects and areas covered:
+        <p align="justify">Subjects and areas covered:</p>
         <ul>
             <li>
-                Operative Systems and Architectures, Databases, Basic Notions of Computer Networks, Web Design & Web Forms and Users' Data Validations;
+                <p align="justify">Operative Systems and Architectures, Databases, Basic Notions of Computer Networks, Web Design & Web Forms and Users' Data Validations;</p>
             </li>
         </ul>
     </li>
     <li>
-        Programming Languages covered:
+        <p align="justify">Programming Languages covered:</p>
         <ul>
             <li>
-                <b>Pascal</b>, <b>VisualBasic</b>, <b>C++</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>MySQL</b> & <b>PHP</b>;
+                <p align="justify"><b>Pascal</b>, <b>VisualBasic</b>, <b>C++</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>MySQL</b> & <b>PHP</b>;</p>
             </li>
         </ul>
     </li>
     <li>
-        Frameworks, GUIs and IDEs covered:
+        <p align="justify">Frameworks, GUIs and IDEs covered:</p>
         <ul>
             <li>
-                <b>Free Pascal</b>, <b>Turbo Pascal</b>, <b>Notepad++</b> and <b>WampServer</b>;   
+                <p align="justify"><b>Free Pascal</b>, <b>Turbo Pascal</b>, <b>Notepad++</b> and <b>WampServer</b>;</p>  
             </li>
         </ul>
     </li>
@@ -1255,42 +1255,42 @@ active: About Me
 <p align="justify">Skills learned at the BSc Degree focused in Computer Science and Engineering (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018:</p>
 <ul>
     <li>
-        Subjects and areas covered:
+        <p align="justify">Subjects and areas covered:</p>
         <ul>
             <li>
-                Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;
+                <p align="justify">Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;</p>
             </li>
         </ul>
     </li>
     <li>
-        Programming Languages covered:
+        <p align="justify">Programming Languages covered:</p>
         <ul>
             <li>
-                <b>Java</b>, <b>C</b>, <b>Assembly</b>, <b>OCaml</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Oracle SQL</b>, <b>Datalog</b>, <b>XML</b>, <b>Prolog (STRIPS)</b>, <b>Unified Modelling Language (UML)</b>, <b>Object Constraint Language (OCL)</b> and <b>Android</b>;
+                <p align="justify"><b>Java</b>, <b>C</b>, <b>Assembly</b>, <b>OCaml</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Oracle SQL</b>, <b>Datalog</b>, <b>XML</b>, <b>Prolog (STRIPS)</b>, <b>Unified Modelling Language (UML)</b>, <b>Object Constraint Language (OCL)</b> and <b>Android</b>;</p>
             </li>
         </ul>
     </li>
     <li>
-        Programming Language APIs covered:
+        <p align="justify">Programming Language APIs covered:</p>
         <ul>
             <li>
-                <b>WebGL</b>, <b>OpenGL</b>, <b>REST</b>, <b>SOAP</b>, <b>JSON</b>, <b>MongoDB</b>, <b>Apache ZooKeeper</b>, <b>Apache Kafka</b> and <b>Google Protobuffers</b>;
+                <p align="justify"><b>WebGL</b>, <b>OpenGL</b>, <b>REST</b>, <b>SOAP</b>, <b>JSON</b>, <b>MongoDB</b>, <b>Apache ZooKeeper</b>, <b>Apache Kafka</b> and <b>Google Protobuffers</b>;</p>
             </li>
         </ul>
     </li>
     <li>
-        Frameworks, GUIs and IDEs covered:
+        <p align="justify">Frameworks, GUIs and IDEs covered:</p>
         <ul>
             <li>
-                <b>Eclipse IDE</b>, <b>Oracle APEX (Oracle Application Express)</b>, <b>Sublime Text</b>, <b>Brackets</b>, <b>Atom</b>, <b>Docker</b>,<b>Android Studio IDE</b>, <b>Sourcetree GUI</b> and <b>GitHub Desktop GUI</b>;
+                <p align="justify"><b>Eclipse IDE</b>, <b>Oracle APEX (Oracle Application Express)</b>, <b>Sublime Text</b>, <b>Brackets</b>, <b>Atom</b>, <b>Docker</b>,<b>Android Studio IDE</b>, <b>Sourcetree GUI</b> and <b>GitHub Desktop GUI</b>;</p>
             </li>
         </ul>
     </li>
     <li>
-        Papers/articles' build skills covered:
+        <p align="justify">Papers/articles' build skills covered:</p>
         <ul>
             <li>
-                <b>LaTeX</b>;
+                <p align="justify"><b>LaTeX</b>;</p>
             </li>
         </ul>
     </li>
@@ -1299,7 +1299,7 @@ active: About Me
 <p align="justify">Other skills:</p>
 <ul>
     <li>
-        <b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;
+        <p align="justify"><b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;</p>
     </li>
 </ul>
 
@@ -1361,85 +1361,85 @@ active: About Me
 <p align="justify">During the BSc, most specifically, between 2017 and 2018, I did a scholarship research and development project, in <a href="http://hyrax.dcc.fc.up.pt/"><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds)</i></a>, in the context of <i>Edge Computing</i>, representing <a href="http://nova-lincs.di.fct.unl.pt/">NOVA-LINCS (Departamento de Informática da Nova's Labs)</a> and with the supervision of <b>Prof. Hervé Paulino</b>:</p>
 
 <ul>
-  <li>This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</li>
-  <li>Websites/Links:</li>
+  <li><p align="justify">This project, had also the collaboration of <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">Faculdade de Ciências da Universidade do Porto</a> (<a href="https://www.inesctec.pt/en">INESC TEC</a>/<a href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7">CRACS - Centro de Sistemas de Computação Avançada</a>) and <a href="https://www.scs.cmu.edu/">Carnegie Mellon University's School of Computer Science</a>;</p></li>
+  <li><p align="justify">Websites/Links:</p></li>
   <ul>
     <li>
-    1) Project's Website:
+    <p align="justify">1) Project's Website:</p>
         <ul>
             <li>
-                <a href="https://hyrax.dcc.fc.up.pt/">https://hyrax.dcc.fc.up.pt/</a>;
+                <p align="justify"><a href="https://hyrax.dcc.fc.up.pt/">https://hyrax.dcc.fc.up.pt/</a>;</p>
             </li>
         </ul>
     </li>
     <li>
-    2) Universities' Websites:
+    <p align="justify">2) Universities' Websites:</p>
         <ul>
             <li>
-                <a href="https://www.fct.unl.pt/">https://www.fct.unl.pt/</a>;
+                <p align="justify"><a href="https://www.fct.unl.pt/">https://www.fct.unl.pt/</a>;</p>
             </li>
             <li>
-                <a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">https://sigarra.up.pt/fcup/pt/web_page.inicial</a>;
+                <p align="justify"><a href="https://sigarra.up.pt/fcup/pt/web_page.inicial">https://sigarra.up.pt/fcup/pt/web_page.inicial</a>;</p>
             </li>
             <li>
-                <a href="https://www.fc.up.pt/fcup/index.php">https://www.fc.up.pt/fcup/index.php</a>;
+                <p align="justify"><a href="https://www.fc.up.pt/fcup/index.php">https://www.fc.up.pt/fcup/index.php</a>;</p>
             </li>
             <li>
-                <a href="https://www.cmu.edu/">https://www.cmu.edu/</a>;
+                <p align="justify"><a href="https://www.cmu.edu/">https://www.cmu.edu/</a>;</p>
             </li>
         </ul>
     </li>
     <li>
-    3) Universities' Laboratories' Websites:
+        <p align="justify">3) Universities' Laboratories' Websites:</p>
         <ul>
             <li>
-                <a href="http://nova-lincs.di.fct.unl.pt/">http://nova-lincs.di.fct.unl.pt/</a>;
+                <p align="justify"><a href="http://nova-lincs.di.fct.unl.pt/">http://nova-lincs.di.fct.unl.pt/</a>;</p>
             </li>
             <li>
-                <a href="https://cracs.fc.up.pt/">https://cracs.fc.up.pt/</a>;
+                <p align="justify"><a href="https://cracs.fc.up.pt/">https://cracs.fc.up.pt/</a>;</p>
             </li>
             <li>
-                <a href="http://www.cmuportugal.org/">http://www.cmuportugal.org/</a>;
+                <p align="justify"><a href="http://www.cmuportugal.org/">http://www.cmuportugal.org/</a>;</p>
             </li>
         </ul>
     </li>  
     <li>
-    4) Academic, Industrial and Funding Partners' Websites:
+        <p align="justify">4) Academic, Industrial and Funding Partners' Websites:</p>
         <ul>
             <li>
-                <a href="http://www.geolink.pt/index.html">http://www.geolink.pt/index.html</a>;
+                <p align="justify"><a href="http://www.geolink.pt/index.html">http://www.geolink.pt/index.html</a>;</p>
             </li>
             <li>
-                <a href="http://www.yinzcam.com/">http://www.yinzcam.com/</a>;
+                <p align="justify"><a href="http://www.yinzcam.com/">http://www.yinzcam.com/</a>;</p>
             </li>
             <li>
-                <a href="https://www.wavecom.pt/">https://www.wavecom.pt/</a>;
+                <p align="justify"><a href="https://www.wavecom.pt/">https://www.wavecom.pt/</a>;</p>
             </li>
             <li>
-                <a href="https://www.it.pt/">https://www.it.pt/</a>;
+                <p align="justify"><a href="https://www.it.pt/">https://www.it.pt/</a>;</p>
             </li>
             <li>
-                <a href="https://www.fct.pt/index.phtml.pt">https://www.fct.pt/index.phtml.pt</a>;
+                <p align="justify"><a href="https://www.fct.pt/index.phtml.pt">https://www.fct.pt/index.phtml.pt</a>;</p>
             </li>
         </ul>
     </li>
   </ul>        
-  <li>I worked in the Services' section of the <i>Hyrax Project</i>, most preciselly, developing a data structure (<i>DiCE</i>), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing and information services closer to the final users;</li>
-  <li><i>Abstract</i>:
+  <li><p align="justify">I worked in the Services' section of the <i>Hyrax Project</i>, most preciselly, developing a data structure (<i>DiCE</i>), to be replicated for Mobile and Handheld Devices, in a notion of collaborative network, using <i>crowdsourcing</i> features and shifting all the data processing and information services closer to the final users;</p></li>
+  <li><p align="justify"><i>Abstract</i>:</p>
     <ul>
-        <li>Edge Computing proposes the shifting of (some) computing tasks from centralized Cloud services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may offload or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to churn. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates churn efficiently;</li>
+        <li><p align="justify">Edge Computing proposes the shifting of (some) computing tasks from centralized Cloud services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may offload or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to churn. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates churn efficiently;</p></li>
     </ul>
   </li>
-  <li><i>Keywords</i>:
+  <li><p align="justify"><i>Keywords</i>:</p>
     <ul>
-        <li>Edge/Fog Computing, Distributed Computing, Mobile Computing, Network Computation of Mobile Devices at the Edge, Mobile Devices Replication, Replicate Data Structures, Eventual Consistency;</li>
+        <li><p align="justify">Edge/Fog Computing, Distributed Computing, Mobile Computing, Network Computation of Mobile Devices at the Edge, Mobile Devices Replication, Replicate Data Structures, Eventual Consistency;</p></li>
     </ul>
   </li>
   <li>
-      Documents of <i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i>, in 2018:
+      <p align="justify">Documents of <i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i>, in 2018:</p>
       <ul>
-        <li><a href="/hyrax-dice-article-paper.pdf"> LaTeX Article/Paper</a>;</li>
-        <li><a href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;</li>
+        <li><p align="justify"><a href="/hyrax-dice-article-paper.pdf"> LaTeX Article/Paper</a>;</p></li>
+        <li><p align="justify"><a href="/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
       </ul>
   </li>
 </ul>
