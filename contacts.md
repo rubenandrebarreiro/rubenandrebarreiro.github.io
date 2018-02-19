@@ -62,7 +62,7 @@ active: My Contacts
         <script>
             function hourglass() {
               var a;
-              a = document.getElementById("div1");
+              a = document.getElementById("loadingEngineer");
               a.innerHTML = "&#xf251;";
               setTimeout(function () {
                   a.innerHTML = "&#xf252;";
