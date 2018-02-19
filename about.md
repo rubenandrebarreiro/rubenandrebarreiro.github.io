@@ -1136,178 +1136,244 @@ active: About Me
  
  
  
-$time: .9s
-	
-.androidHead
-	position: relative
-	height: 80px
-	width: 160px
-	background: #a4c639
-	border-top-left-radius: 100px
-	border-top-right-radius: 100px
-	div:first-child, div:nth-child(2)
-		position: absolute
-		height: 7px
-		width: 30px
-		border-radius: 20px
-		background: #a4c639
-	div:first-child
-		left: 15px
-		transform: rotate(50deg)
-	div:nth-child(2)
-		transform: rotate(-50deg)
-		left: 116px
-	div:nth-child(3)
-		position: relative
-		div
-			position: absolute
-			height: 15px
-			width: 15px
-			background: #FFF
-			border-radius: 50%
-			top: 35px
-			&:first-child
-				left: 40px
-			&:nth-child(2)
-				left: 107px
+.androidHead {
+  position: relative;
+  height: 40px;
+  width: 80px;
+  background: #a4c639;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
 
-.androidBody
-	position: relative
-	width: 160px
-	height: 130px
-	background: #a4c639
-	margin-top: 5px
-	border-bottom-left-radius: 20px
-	border-bottom-right-radius: 20px
-	div
-		position: absolute
-		width: 35px
-		height: 110px
-		border-radius: 30px
-		background: #a4c639
-	div:first-child
-		left: -40px
-		transform-origin: top
-		animation: arm-l $time infinite
-		animation-delay: $time/2
-	div:nth-child(2)
-		left: 165px
-		transform-origin: top
-		animation: arm-r $time infinite
-	div:nth-child(3), div:nth-child(4)
-		top: 75px
-	div:nth-child(3)
-		animation: legup-l $time infinite
-		animation-delay: $time/2
-		left: 32px
-	div:nth-child(4)
-		animation: legup-r $time infinite
-		left: 96px
+.androidHead div:first-child, .androidHead div:nth-child(2) {
+  position: absolute;
+  height: 3.5px;
+  width: 15px;
+  border-radius: 10px;
+  background: #a4c639;
+}
+    
+.androidHead div:first-child {
+  left: 7.5px;
+  transform: rotate(50deg);
+}
+    
+.androidHead div:nth-child(2) {
+  transform: rotate(-50deg);
+  left: 58px;
+}
+    
+.androidHead div:nth-child(3) {
+  position: relative;
+}
+    
+.androidHead div:nth-child(3) div {
+  position: absolute;
+  height: 7.5px;
+  width: 7.5px;
+  background: #FFF;
+  border-radius: 50%;
+  top: 17.5px;
+}
+    
+.androidHead div:nth-child(3) div:first-child {
+  left: 20px;
+}
+    
+.androidHead div:nth-child(3) div:nth-child(2) {
+  left: 53.5px;
+}
 
-.androidShadow
-	margin-top: -72px
-	z-index: -2
-	height: 30px
-	width: 160px
-	background: #eee
-	border-radius: 50%
-	animation: shadow $time/2 infinite
-	display: flex
-	justify-content: space-between
-	div
-		height: 15px
-		width: 40px
-		background: #eee
-		border-radius: 50%
-		&:first-child
-			margin: 8px -25px
-		&:last-child
-			margin: 8px -25px
+.androidBody {
+  position: relative;
+  width: 80px;
+  height: 65px;
+  background: #a4c639;
+  margin-top: 2.5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+    
+.androidBody div {
+  position: absolute;
+  width: 17.5px;
+  height: 55px;
+  border-radius: 15px;
+  background: #a4c639;
+}
+    
+.androidBody div:first-child {
+  left: -20px;
+  transform-origin: top;
+  animation: arm-l 0.9s infinite;
+  animation-delay: 0.45s;
+}
+    
+.androidBody div:nth-child(2) {
+  left: 82.5px;
+  transform-origin: top;
+  animation: arm-r 0.9s infinite;
+}
+    
+.androidBody div:nth-child(3), .androidBody div:nth-child(4) {
+  top: 32.5px;
+}
+    
+.androidBody div:nth-child(3) {
+  animation: legup-l 0.9s infinite;
+  animation-delay: 0.45s;
+  left: 16px;
+}
+    
+.androidBody div:nth-child(4) {
+  animation: legup-r 0.9s infinite;
+  left: 48px;
+}
 
-.androidFootsteps
-	display: flex
-	div
-		height: 15px
-		width: 30px
-		background: darken(#eee, 7%)
-		border-radius: 50%
-		margin: 51px 20px
-		z-index: -1
-		&:first-child
-			animation: footsteps-l $time infinite
-			animation-delay: $time/2
-		&:last-child
-			animation: footsteps-r $time infinite
-	
-//------------------------------------------
-// 	Animations
-//------------------------------------------
+.androidShadow {
+  margin-top: -36px;
+  z-index: -2;
+  height: 15px;
+  width: 80px;
+  background: #eee;
+  border-radius: 50%;
+  animation: androidShadow 0.45s infinite;
+  display: flex;
+  justify-content: space-between;
+}
+    
+.androidShadow div {
+  height: 7.5px;
+  width: 20px;
+  background: #eee;
+  border-radius: 50%;
+}
+    
+.androidShadow div:first-child {
+  margin: 4px -12.5px;
+}
+    
+.androidShadow div:last-child {
+  margin: 4px -12.5px;
+}
 
-.logo
-	animation: bobble $time/2 infinite
+.androidFootsteps {
+  display: flex;
+}
+    
+.androidFootsteps div {
+  height: 7.5px;
+  width: 15px;
+  background: gainsboro;
+  border-radius: 50%;
+  margin: 25.5px 10px;
+  z-index: -1;
+}
+    
+.androidFootsteps div:first-child {
+  animation: footsteps-l 0.9s infinite;
+  animation-delay: 0.45s;
+}
+    
+.androidFootsteps div:last-child {
+  animation: footsteps-r 0.9s infinite;
+}
 
-@keyframes shadow
-	50%
-		transform: scale(.96)
+.androidLogo {
+  animation: bobble 0.45s infinite;
+}
 
-@keyframes footsteps-l
-	0%
-		opacity: 0
-	50%
-		opacity: 1
-	100%
-		opacity: 0
-		transform: translate(6px,-5px)
-
-@keyframes footsteps-r
-	0%
-		opacity: 0
-	50%
-		opacity: 1
-	100%
-		opacity: 0
-		transform: translate(-6px,-5px)
-		
-
-@keyframes bobble
-	0%
-		transform: translateY(-2px)
-	70%
-		transform: translateY(2px)
-	100%
-		transform: translateY(-2px)
-
-@keyframes legup-l
-	0%
-		transform: translate(4px, -5px)
-	30%
-		transform: translate(-4px, 7px)
-	100%
-		transform: translate(4px, -5px)
-
-@keyframes legup-r
-	0%
-		transform: translate(-4px, -5px)
-	30%
-		transform: translate(4px, 7px)
-	100%
-		transform: translate(-4px, -5px)
-
-@keyframes arm-l
-	0%
-		transform: rotate(7deg)
-	60%
-		transform: rotate(-5deg)
-	100%
-		transform: rotate(7deg)
-
-@keyframes arm-r
-	0%
-		transform: rotate(-7deg)
-	60%
-		transform: rotate(5deg)
-	100%
-		transform: rotate(-7deg) 
+@keyframes androidShadow {
+  50% {
+    transform: scale(0.96);
+  }
+}
+    
+@keyframes footsteps-l {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(3px, -2.5px);
+  }
+}
+    
+@keyframes footsteps-r {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-3px, -2.5px);
+  }
+}
+    
+@keyframes bobble {
+  0% {
+    transform: translateY(-1px);
+  }
+  70% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(-1px);
+  }
+}
+    
+@keyframes legup-l {
+  0% {
+    transform: translate(2px, -2.5px);
+  }
+  30% {
+    transform: translate(-2px, 3.5px);
+  }
+  100% {
+    transform: translate(2px, -2.5px);
+  }
+}
+    
+@keyframes legup-r {
+  0% {
+    transform: translate(-2px, -2.5px);
+  }
+  30% {
+    transform: translate(2px, 3.5px);
+  }
+  100% {
+    transform: translate(-2px, -2.5px);
+  }
+}
+    
+@keyframes arm-l {
+  0% {
+    transform: rotate(7deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+    
+@keyframes arm-r {
+  0% {
+    transform: rotate(-7deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
+}
  
 </style>
 
@@ -1349,35 +1415,34 @@ $time: .9s
     
 <center>
 
-<div id="walkingAndroid" style="font-size:30px">
-    <div class="logo">
-        <div class="androidHead">
-            <div></div>
-            <div></div>
-            <div>
-                <div></div>
-                <div></div>
+    <div id="walkingAndroid" style="height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
+            <div class="androidLogo">
+                <div class="androidHead">
+                    <div></div>
+                    <div></div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="androidBody">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="androidFootsteps">
+               <div></div>
+               <div></div>
+            </div>
+
+            <div class="androidShadow">
+               <div></div>
+               <div></div>
             </div>
         </div>
-    
-        <div class="androidBody">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
-
-    <div class="androidFootsteps">
-        <div></div>
-        <div></div>
-    </div>
-    
-    <div class="androidShadow">
-        <div></div>
-        <div></div>
-    </div>
-</div>
 
     <!--
     <span class="fa-stack fa-spin">

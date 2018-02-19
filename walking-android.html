@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+    <title>Walking Android</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<style>
+.androidHead {
+  position: relative;
+  height: 40px;
+  width: 80px;
+  background: #a4c639;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.androidHead div:first-child, .androidHead div:nth-child(2) {
+  position: absolute;
+  height: 3.5px;
+  width: 15px;
+  border-radius: 10px;
+  background: #a4c639;
+}
+    
+.androidHead div:first-child {
+  left: 7.5px;
+  transform: rotate(50deg);
+}
+    
+.androidHead div:nth-child(2) {
+  transform: rotate(-50deg);
+  left: 58px;
+}
+    
+.androidHead div:nth-child(3) {
+  position: relative;
+}
+    
+.androidHead div:nth-child(3) div {
+  position: absolute;
+  height: 7.5px;
+  width: 7.5px;
+  background: #FFF;
+  border-radius: 50%;
+  top: 17.5px;
+}
+    
+.androidHead div:nth-child(3) div:first-child {
+  left: 20px;
+}
+    
+.androidHead div:nth-child(3) div:nth-child(2) {
+  left: 53.5px;
+}
+
+.androidBody {
+  position: relative;
+  width: 80px;
+  height: 65px;
+  background: #a4c639;
+  margin-top: 2.5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+    
+.androidBody div {
+  position: absolute;
+  width: 17.5px;
+  height: 55px;
+  border-radius: 15px;
+  background: #a4c639;
+}
+    
+.androidBody div:first-child {
+  left: -20px;
+  transform-origin: top;
+  animation: arm-l 0.9s infinite;
+  animation-delay: 0.45s;
+}
+    
+.androidBody div:nth-child(2) {
+  left: 82.5px;
+  transform-origin: top;
+  animation: arm-r 0.9s infinite;
+}
+    
+.androidBody div:nth-child(3), .androidBody div:nth-child(4) {
+  top: 32.5px;
+}
+    
+.androidBody div:nth-child(3) {
+  animation: legup-l 0.9s infinite;
+  animation-delay: 0.45s;
+  left: 16px;
+}
+    
+.androidBody div:nth-child(4) {
+  animation: legup-r 0.9s infinite;
+  left: 48px;
+}
+
+.androidShadow {
+  margin-top: -36px;
+  z-index: -2;
+  height: 15px;
+  width: 80px;
+  background: #eee;
+  border-radius: 50%;
+  animation: androidShadow 0.45s infinite;
+  display: flex;
+  justify-content: space-between;
+}
+    
+.androidShadow div {
+  height: 7.5px;
+  width: 20px;
+  background: #eee;
+  border-radius: 50%;
+}
+    
+.androidShadow div:first-child {
+  margin: 4px -12.5px;
+}
+    
+.androidShadow div:last-child {
+  margin: 4px -12.5px;
+}
+
+.androidFootsteps {
+  display: flex;
+}
+    
+.androidFootsteps div {
+  height: 7.5px;
+  width: 15px;
+  background: gainsboro;
+  border-radius: 50%;
+  margin: 25.5px 10px;
+  z-index: -1;
+}
+    
+.androidFootsteps div:first-child {
+  animation: footsteps-l 0.9s infinite;
+  animation-delay: 0.45s;
+}
+    
+.androidFootsteps div:last-child {
+  animation: footsteps-r 0.9s infinite;
+}
+
+.androidLogo {
+  animation: bobble 0.45s infinite;
+}
+
+@keyframes androidShadow {
+  50% {
+    transform: scale(0.96);
+  }
+}
+    
+@keyframes footsteps-l {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(3px, -2.5px);
+  }
+}
+    
+@keyframes footsteps-r {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-3px, -2.5px);
+  }
+}
+    
+@keyframes bobble {
+  0% {
+    transform: translateY(-1px);
+  }
+  70% {
+    transform: translateY(1px);
+  }
+  100% {
+    transform: translateY(-1px);
+  }
+}
+    
+@keyframes legup-l {
+  0% {
+    transform: translate(2px, -2.5px);
+  }
+  30% {
+    transform: translate(-2px, 3.5px);
+  }
+  100% {
+    transform: translate(2px, -2.5px);
+  }
+}
+    
+@keyframes legup-r {
+  0% {
+    transform: translate(-2px, -2.5px);
+  }
+  30% {
+    transform: translate(2px, 3.5px);
+  }
+  100% {
+    transform: translate(-2px, -2.5px);
+  }
+}
+    
+@keyframes arm-l {
+  0% {
+    transform: rotate(7deg);
+  }
+  60% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(7deg);
+  }
+}
+    
+@keyframes arm-r {
+  0% {
+    transform: rotate(-7deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(-7deg);
+  }
+}
+</style>
+
+    
+    <center>
+        <div id="walkingAndroid" style="height: 50vh; display: flex; flex-direction: column; justify-content: center; align-items: center">
+            <div class="androidLogo">
+                <div class="androidHead">
+                    <div></div>
+                    <div></div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="androidBody">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+
+            <div class="androidFootsteps">
+               <div></div>
+               <div></div>
+            </div>
+
+            <div class="androidShadow">
+               <div></div>
+               <div></div>
+            </div>
+        </div>
+    </center>
+</html>
