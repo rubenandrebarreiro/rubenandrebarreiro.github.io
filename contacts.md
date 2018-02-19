@@ -76,8 +76,6 @@ active: My Contacts
         </script>
     </span>
     
-    <br>
-    
     <h5><i>Loading the best Computer Science Engineer of all time...</i></h5>
 </center>
 
