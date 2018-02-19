@@ -36,10 +36,12 @@ active: About Me
 
     <p>My name is <b>Rúben André Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
 
-    <p>I'm <b>25 years old</b> (The <b>90's</b> are the best generation ever, believe it!). 🎂 🎈</p>
+    <p>I'm <b>25 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
 
     <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
-    <p>Yes, I'm <b>Scorpio</b> (The same Zodiac Sign of <a href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>. It's a good omen, right?)! 🦂 ♏ </p>
+    <p>Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because Scorpio have a huge bad reputation, in the horoscope! 😂 🤣</p>
+    
+    <p>But it's same Zodiac Sign of <a href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>, Pelé, Maradona, Van Basten, Luís Figo, Martin Luther King and Pablo Picasso, and all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
 
     <p>My grandfather was <b>Brazilian</b>, so I'm a <b>Portuguese Soul with Brazilian Roots</b>! 🇵🇹 🇧🇷</p>
 
