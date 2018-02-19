@@ -145,6 +145,22 @@ active: About Me
     70% { top: -0.3em; }
     100% { top: 0; }
 }
+
+.fa-blink {
+   -webkit-animation: fa-blink .75s linear infinite;
+   -moz-animation: fa-blink .75s linear infinite;
+   -ms-animation: fa-blink .75s linear infinite;
+   -o-animation: fa-blink .75s linear infinite;
+   animation: fa-blink .75s linear infinite;
+}
+
+@keyframes fa-blink {
+     0% { opacity: 1; }
+     25% { opacity: 0.25; }
+     50% { opacity: 0.5; }
+     75% { opacity: 0.75; }
+     100% { opacity: 0; }
+ }
 </style>
 
 <h2 id="biography">
@@ -366,7 +382,7 @@ active: About Me
     <i>Projects</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-briefcase fa-stack-1x fa-beat"></i>
+        <i class="fa fa-briefcase fa-stack-1x fa-blink"></i>
     </span>
 </h2>
 <hr/>
