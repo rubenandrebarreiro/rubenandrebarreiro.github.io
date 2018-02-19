@@ -39,7 +39,7 @@ active: About Me
     <p>I'm <b>25 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
 
     <p>I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
-    <p>Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because Scorpio have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
+    <p>Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because <b>Scorpio</b> have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
     
     <p>But it's same Zodiac Sign of <a href="https://en.wikipedia.org/wiki/Bill_Gates"><b>Bill Gates</b></a>, <a href="https://en.wikipedia.org/wiki/Pel%C3%A9"><b>Pelé</b></a>, <a href="https://en.wikipedia.org/wiki/Diego_Maradona"><b>Diego Maradona</b></a>, <a href="https://en.wikipedia.org/wiki/Marco_van_Basten"><b>Marco van Basten</b></a>, <a href="https://en.wikipedia.org/wiki/Lu%C3%ADs_Figo"><b>Luís Figo</b></a> and <a href="https://en.wikipedia.org/wiki/Pablo_Picasso"><b>Pablo Picasso</b></a>. And all of them accomplished a lot in life! So, it's a good omen, right?! 🦂 ♏ </p>
 
