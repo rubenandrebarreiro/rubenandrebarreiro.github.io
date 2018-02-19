@@ -49,6 +49,30 @@ active: My Contacts
         <br>
         ✏️ Designer | 📸 Photographer | 🎥 Producer | 🏋️ Athlete | 🚶 Model
     </b></font>
+    
+    <br>
+    
+    <div id="loadingEngineer" class="fa">
+        <span class="fa-stack fa-spin">
+            <script>
+                function hourglass() {
+                  var a;
+                  a = document.getElementById("div1");
+                  a.innerHTML = "&#xf251;";
+                  setTimeout(function () {
+                      a.innerHTML = "&#xf252;";
+                    }, 1000);
+                  setTimeout(function () {
+                      a.innerHTML = "&#xf253;";
+                    }, 2000);
+                }
+                hourglass();
+                setInterval(hourglass, 3000);
+            </script>
+        </span>
+        <br>
+        <h4><i>Loading the best Computer Science Engineer of all time...</i></h4>
+    </div>
 </center>
 
 <br>
