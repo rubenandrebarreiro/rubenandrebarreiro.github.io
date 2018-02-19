@@ -217,7 +217,7 @@ active: About Me
         </ul>
     </li>
     <li>
-        Frameworks and IDEs covered:
+        Frameworks, GUIs and IDEs covered:
         <ul>
             <li>
                 <b>Eclipse IDE</b>, <b>Oracle APEX (Oracle Application Express)</b>, <b>Sublime Text</b>, <b>Brackets</b>, <b>Atom</b>, <b>Docker</b>,<b>Android Studio IDE</b>, <b>Sourcetree GUI</b> and <b>GitHub Desktop GUI</b>;
