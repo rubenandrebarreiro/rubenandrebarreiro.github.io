@@ -1306,7 +1306,7 @@ active: About Me
     <i>Interests</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-heart fa-stack-1x faa-pulse"></i>
+        <i class="fa fa-heart fa-stack-1x faa-pulse animated"></i>
     </span>
 </h2>
 <hr/>
