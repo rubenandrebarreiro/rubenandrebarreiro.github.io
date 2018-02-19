@@ -25,8 +25,8 @@ active: My Contacts
 .loadingSuspensionPoints span {
   -webkit-animation-name: blink;
           animation-name: blink;
-  -webkit-animation-duration: 1.4s;
-          animation-duration: 1.4s;
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   -webkit-animation-fill-mode: both;
@@ -34,13 +34,13 @@ active: My Contacts
 }
 
 .loadingSuspensionPoints span:nth-child(2) {
-  -webkit-animation-delay: .2s;
-          animation-delay: .2s;
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
 }
 
 .loadingSuspensionPoints span:nth-child(3) {
-  -webkit-animation-delay: .4s;
-          animation-delay: .4s;
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
 }
 
 @-webkit-keyframes blink {
