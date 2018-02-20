@@ -13,7 +13,7 @@ Hi everyone! I'm here to share some creative ideas to the loving ones celebrate 
 
 The Valentine's Day it's a desirable day for the most of the couples, to celebrate and tell to the loved soulmate how important are in their lives (Although, I think that Valentine's Day should be every day...)! 🤔
 
-And in important dates in a life of a couple, some people don't know what to offer to their pairs. But, remember, sometimes the smallest gifts are the most rewarding. After all, the details make the difference! 😉
+And in important dates in a life of a couple, some people don't know what to offer to their pairs. But, remember, sometimes the smallest gifts are the most rewarding. After all, the small details make the difference! 😉
 
 [![LinkAndZeldaAnimation]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)
 
