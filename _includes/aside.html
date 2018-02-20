@@ -13,17 +13,22 @@
         var directory = path.substring(path.indexOf('/'), path.lastIndexOf('/'));  
         
         var directories = directory.split('/');
-        var isPost = false;
+        var isMainTab = true;
           
         if(directories.length == 3) {
-            alert('tem tamanho 3');
-            isPost = true;
+            isMainTab = false;
         }
         
+        if(isMainTab) {
+            <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">    
+        }
+        else {
+            <img src="../../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">
+        } 
       </script>  
         
-      <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">
-        
+    <!--  <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">
+        -->
       <div class="myname">
           Rúben André Barreiro
       </div>
