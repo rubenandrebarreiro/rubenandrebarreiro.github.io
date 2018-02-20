@@ -15,7 +15,7 @@ The Valentine's Day it's a desirable day for the most of the couples, to celebra
 
 And in important dates in a life of a couple, some people don't know what to offer to their pairs. But, remember, sometimes the smallest gifts are the most rewarding. After all, the details make the difference! 😉
 
-[({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)
+[![Link_&_Zelda_Animation_1]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)
 
 
 
