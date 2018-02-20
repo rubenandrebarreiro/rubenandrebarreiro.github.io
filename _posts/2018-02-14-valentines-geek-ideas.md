@@ -1,6 +1,6 @@
 ---
 bg: "tools.jpg"
-layout: post
+layout: default
 title:  "28 Geek Card Ideas That Will Make Your Valentine's Day Perfect!"
 crawlertitle: "28 Geek Valentine's Cards"
 summary: "Some Geek Valentine's Card Ideas To Make Your Soulmate's Heart Melt!"
