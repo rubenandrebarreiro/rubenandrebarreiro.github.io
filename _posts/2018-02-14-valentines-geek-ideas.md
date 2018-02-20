@@ -7,7 +7,7 @@ summary: "Some Geek Valentine's Card Ideas To Make Your Soulmate's Heart Melt!"
 date:   2018-02-14 11:26:47 +0000
 categories: posts
 tags: ['valentines','love','geek ideas','cards','soulmate']
-author: Rúben André Barreiro (BadNewz)
+author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
 Hi everyone! I'm here to share some creative ideas to the loving ones celebrate the Valentine's Day in an original way! 😊
 
@@ -17,20 +17,13 @@ And in important dates in a life of a couple, some people don't know what to off
 
 [![LinkAndZeldaAnimation]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)
 
+So, enough of talking... There's some creative, original and geeky Valentine's Cards that will make your Valentine's Day be perfect! 😍
+
+## `Valentine Card` #1
+[![ValentineCard1]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_1.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_1.jpg)
 
 
 
-## `let` Declarations
+I hope you enjoyed these Valentine's Card to offer and share with your soulmates! 💝
 
-However, we can now create declarations that are bound to any block, called (unsurprisingly) *block scoping*. This means all we need is a pair of `{ .. }` to create a scope. Instead of using var, which always declares variables attached to the enclosing function (or global, if top level) scope, use `let`:
-
-{% highlight js %}
-var a = 2;
-
-{
-    let a = 3;
-    console.log( a );   // 3
-}
-
-console.log( a );       // 2
-{% endhighlight %}
+Bye-bye, see you soon. Until the next time! 😘
