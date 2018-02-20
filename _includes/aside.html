@@ -7,7 +7,8 @@
   <div class="cover">
     
     <div class="cover-text">
-      <img id="protrait2D">
+      <img id="protrait2D" type="image" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">
+        
       <script>
         var path = document.location.pathname;
         var directory = path.substring(path.indexOf('/'), path.lastIndexOf('/'));  
@@ -29,14 +30,9 @@
         }
           
         var protrait2DElem = document.getElementById("protrait2D");
-        alert(protrait2DElem);  
         
         protrait2DElem.src = protrait2DPathSrc;
-          
-        alert(protrait2DElem.src);
-      </script>  
-        
-      <img id="protrait2D"> <!-- type="image" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">-->
+      </script>
     
       <div class="myname">
           Rúben André Barreiro
