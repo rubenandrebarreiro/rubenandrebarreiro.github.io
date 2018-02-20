@@ -1,6 +1,6 @@
 ---
 bg: "tools.jpg"
-layout: default
+layout: post
 title:  "28 Geek Card Ideas That Will Make Your Valentine's Day Perfect!"
 crawlertitle: "28 Geek Valentine's Cards"
 summary: "Some Geek Valentine's Card Ideas To Make Your Soulmate's Heart Melt!"
@@ -15,7 +15,7 @@ The Valentine's Day it's a desirable day for the most of the couples, to celebra
 
 And in important dates in a life of a couple, some people don't know what to offer to their pairs. But, remember, sometimes the smallest gifts are the most rewarding. After all, the details make the difference! 😉
 
-[![Link_&amp;_Zelda_Animation_1]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&amp;_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&amp;_Zelda_Animation_1.gif)
+[![Link_&amp;__Zelda_Animation_1]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link__&amp;__Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link__&amp;_Zelda_Animation_1.gif)
 
 
 
