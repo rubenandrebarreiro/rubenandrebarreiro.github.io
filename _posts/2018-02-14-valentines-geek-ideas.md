@@ -135,7 +135,7 @@ I hope you enjoyed these Valentine's Card to offer and share with your soulmates
 
 Bye-bye, see you soon. Until the next time! 😘
 <br>
-
+<br>
 <i>
     - Rúben André Barreiro,
     <br>
