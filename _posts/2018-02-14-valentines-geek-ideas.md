@@ -6,7 +6,7 @@ crawlertitle: "28 Geeky Valentine's Cards"
 summary: "Some Creative, Original And Geeky Valentine's Cards That Will Make Your Valentine's Day Be Perfect And Will Make Your Soulmate's Heart Melt!"
 date:   2018-02-14 11:26:47 +0000
 categories: posts
-tags: ['valentine's day','love','geeky ideas','romantic cards','soulmate']
+tags: ['valentine&apos;s day','love','geeky ideas','romantic cards','soulmate']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
 Hi everyone! I'm here to share some creative ideas to the loving ones celebrate the Valentine's Day in an original way! 😊
