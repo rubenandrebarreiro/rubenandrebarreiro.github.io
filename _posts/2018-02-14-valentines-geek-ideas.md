@@ -139,6 +139,6 @@ Bye-bye, see you soon. Until the next time! 😘
 <i>
     - Rúben André Barreiro,
     <br>
-    &nbsp;&nbsp;
+    &nbsp;
     February 14, 2018.
 </i>
