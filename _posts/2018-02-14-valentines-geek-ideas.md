@@ -134,3 +134,6 @@ So, enough of talking... There's some creative, original and geeky Valentine's C
 I hope you enjoyed these Valentine's Card to offer and share with your soulmates! 💝
 
 Bye-bye, see you soon. Until the next time! 😘
+
+- <i>Rúben André Barreiro,
+    February 14, 2018.</i>
