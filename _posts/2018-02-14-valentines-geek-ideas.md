@@ -136,5 +136,9 @@ I hope you enjoyed these Valentine's Card to offer and share with your soulmates
 Bye-bye, see you soon. Until the next time! 😘
 <br>
 
-<i>- Rúben André Barreiro,<br>
-    February 14, 2018.</i>
+<i>
+    - Rúben André Barreiro,
+    <br>
+    &nbsp;&nbsp;
+    February 14, 2018.
+</i>
