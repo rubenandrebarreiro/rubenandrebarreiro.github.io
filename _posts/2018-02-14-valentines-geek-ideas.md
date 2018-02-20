@@ -4,7 +4,7 @@ layout: post
 title:  "28 Geek Card Ideas That Will Make Your Valentine's Day Perfect!"
 crawlertitle: "28 Geek Valentine's Cards"
 summary: "Some Geek Valentine's Card Ideas To Make Your Soulmate's Heart Melt!"
-date:   2017-06-29 11:26:47 +0000
+date:   2018-02-14 11:26:47 +0000
 categories: posts
 tags: ['valentines','love','geek ideas','cards','soulmate']
 author: Rúben André Barreiro (BadNewz)
