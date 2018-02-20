@@ -22,83 +22,110 @@ So, enough of talking... There's some creative, original and geeky Valentine's C
 ## `Valentine's Card` #1
 [![ValentinesCard1]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_1.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_1.jpg)
 
+
 ## `Valentine's Card` #2
 [![ValentinesCard2]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_2.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_2.jpg)
+
 
 ## `Valentine's Card` #3
 [![ValentinesCard3]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_3.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_3.jpg)
 
+
 ## `Valentine's Card` #4
 [![ValentinesCard4]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_4.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_4.jpg)
+
 
 ## `Valentine's Card` #5
 [![ValentinesCard5]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_5.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_5.jpg)
 
+
 ## `Valentine's Card` #6
 [![ValentinesCard6]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_6.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_6.jpg)
+
 
 ## `Valentine's Card` #7
 [![ValentinesCard7]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_7.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_7.jpg)
 
+
 ## `Valentine's Card` #8
 [![ValentinesCard8]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_8.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_8.jpg)
+
 
 ## `Valentine's Card` #9
 [![ValentinesCard9]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_9.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_9.jpg)
 
+
 ## `Valentine's Card` #10
 [![ValentinesCard10]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_10.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_10.jpg)
+
 
 ## `Valentine's Card` #11
 [![ValentinesCard11]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_11.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_11.jpg)
 
+
 ## `Valentine's Card` #12
 [![ValentinesCard12]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_12.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_12.jpg)
+
 
 ## `Valentine's Card` #13
 [![ValentinesCard13]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_13.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_13.jpg)
 
+
 ## `Valentine's Card` #14
 [![ValentinesCard14]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_14.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_14.jpg)
+
 
 ## `Valentine's Card` #15
 [![ValentinesCard15]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_15.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_15.jpg)
 
+
 ## `Valentine's Card` #16
 [![ValentinesCard16]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_16.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_16.jpg)
+
 
 ## `Valentine's Card` #17
 [![ValentinesCard17]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_17.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_17.jpg)
 
+
 ## `Valentine's Card` #18
 [![ValentinesCard18]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_18.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_18.jpg)
+
 
 ## `Valentine's Card` #19
 [![ValentinesCard19]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_19.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_19.jpg)
 
+
 ## `Valentine's Card` #20
 [![ValentinesCard20]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_20.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_20.jpg)
+
 
 ## `Valentine's Card` #21
 [![ValentinesCard21]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_21.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_21.jpg)
 
+
 ## `Valentine's Card` #22
 [![ValentinesCard22]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_22.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_22.jpg)
+
 
 ## `Valentine's Card` #23
 [![ValentinesCard23]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_23.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_23.jpg)
 
+
 ## `Valentine's Card` #24
 [![ValentinesCard24]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_24.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_24.jpg)
+
 
 ## `Valentine's Card` #25
 [![ValentinesCard25]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_25.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_25.jpg)
 
+
 ## `Valentine's Card` #26
 [![ValentinesCard26]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_26.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_26.jpg)
 
+
 ## `Valentine's Card` #27
 [![ValentinesCard27]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_27.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_27.jpg)
+
 
 ## `Valentine's Card` #28
 [![ValentinesCard28]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_28.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_28.jpg)
