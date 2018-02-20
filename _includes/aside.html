@@ -12,11 +12,15 @@
         var path = document.location.pathname;
         var directory = path.substring(path.indexOf('/'), path.lastIndexOf('/'));  
         
-        alert(directory.split('/')[0]);
+        var directories = directory.split('/');
+        var isPost = false;
           
-        var assetsImagesPortrait2DDirectory="../../assets/images/Protrait_2D_1.png"
+        if(directories.size == 3) {
+            alert("tem tamanho 3");
+            isPost = true;
+        }
         
-      </script>
+      </script>  
         
       <img src="../assets/images/Protrait_2D_1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="120" width="120">
         
