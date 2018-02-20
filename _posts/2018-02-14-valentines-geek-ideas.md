@@ -9,20 +9,16 @@ categories: posts
 tags: ['valentines','love','geek ideas','cards','soulmate']
 author: Rúben André Barreiro (BadNewz)
 ---
-Hi everyone! 😊
+Hi everyone! I'm here to share some creative ideas to the loving ones celebrate the Valentine's Day in an original way! 😊
+
 The Valentine's Day it's a desirable day for the most of the couples, to celebrate and tell to the loved soulmate how important are in their lives (Although, I think that Valentine's Day should be every day...)! 🤔
 
 And in important dates in a life of a couple, some people don't know what to offer to their pairs. But, remember, sometimes the smallest gifts are the most rewarding. After all, the details make the difference! 😉
 
-[![railroad]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)
+[![Link_&_Zelda_Animation_1]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)
 
 
 
-
-
-[![railroad]({{ site.images | relative_url }}/rails.jpg)]({{ site.images | relative_url }}/rails.jpg)
-
-If you've already read all those titles and you feel pretty comfortable with the topics they cover, it's time we dive into the evolution of JS to explore all the changes coming not only soon but farther over the horizon.
 
 ## `let` Declarations
 
