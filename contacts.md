@@ -1577,5 +1577,17 @@ active: My Contacts
         <font size="1">&nbsp;|&nbsp;</font>
         
         <a target="_blank" href="mailto:ruben.badnewz@yahoo.com" title="ruben.badnewz on Yahoo"><i class="fa fa-yahoo" title="ruben.badnewz on Yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.badnewz@yahoo.com" title="ruben.badnewz on Yahoo">ruben.badnewz@yahoo.com</a></font>
+        
+        <br>
+        
+        <a target="_blank" href="mailto:badnewz.lifestyle@outlook.com" title="badnewz.lifestyle on Outlook"><i class="fa fa-envelope" title="badnewz.lifestyle on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:badnewz.lifestyle@outlook.com" title="badnewz.lifestyle on Outlook">badnewz.lifestyle@outlook.com</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="mailto:badnewz.lifestyle@gmail.com" title="badnewz.lifestyle on Gmail"><i class="fa fa-google" title="badnewz.lifestyle on Gmail" style="font-size:20px;color:FireBrick"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:badnewz.lifestyle@gmail.com" title="badnewz.lifestyle on Gmail">badnewz.lifestyle@gmail.com</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="mailto:badnewz.lifestyle@yahoo.com" title="badnewz.lifestyle on Yahoo"><i class="fa fa-yahoo" title="badnewz.lifestyle on Yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a target="_blank" href="mailto:badnewz.lifestyle@yahoo.com" title="badnewz.lifestyle on Yahoo">badnewz.lifestyle@yahoo.com</a></font>
     </center>
 </div>
