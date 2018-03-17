@@ -1395,7 +1395,7 @@ active: About Me
 <br>
 
 [![ChildhoodPhoto2]({{ site.images | relative_url }}/childhood/childhood2.jpg)]({{ site.images | relative_url }}/childhood/childhood2.jpg)
-<p style="font-size:20px"><i>Myself's Portrait at 1996</i></p>
+<p style="font-size:10px"><i>Myself's Portrait at 1996</i></p>
 
 <br>
 
