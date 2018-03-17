@@ -1397,8 +1397,6 @@ active: About Me
 [![ChildhoodPhoto2]({{ site.images | relative_url }}/childhood/childhood2.jpg)]({{ site.images | relative_url }}/childhood/childhood2.jpg)
 <p style="font-size:10px"><i>Myself's Portrait at 1996</i></p>
 
-<br>
-
 <p align="justify">I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
 
 <p align="justify">Yes, I'm <b>Scorpio</b>. Usually, this is something about me that scares the people because <b>Scorpio</b> have a huge bad reputation, it seems we are the villains, following the horoscope! 😂 🔮</p>
