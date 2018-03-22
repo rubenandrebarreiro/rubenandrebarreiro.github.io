@@ -47,12 +47,12 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <br>
 
 <i>João Felipe Araújo</i>
+<br>
 
 <br>
 <hr>
 <br>
 
-<br>
 <br>
 
 <i>
