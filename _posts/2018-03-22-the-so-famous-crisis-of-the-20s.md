@@ -13,9 +13,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 [![DrivingSunsetCoupleClassicVintageSportsCar]({{ site.images | relative_url }}/the_so_famous_crisis_of_the_20s/Driving_Sunset_Couple_Classic_Vintage_Sports_Car_1.jpg)]({{ site.images | relative_url }}/the_so_famous_crisis_of_the_20s/Driving_Sunset_Couple_Classic_Vintage_Sports_Car_1.gif)
 
-<br>
 <hr>
-<br>
 
 <p align="justify">Suddenly, you realize that your cycle of true friendships is smaller than you imagined, and the most of them are the same people you kept from your childhood, because how more we grow older, it's hardest to trust in someone.</p>
 
