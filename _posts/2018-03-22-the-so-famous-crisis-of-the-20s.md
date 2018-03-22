@@ -26,6 +26,9 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">A thousand of questions and few certainties... But, at the end of everything, you realize you are still yourself... Better than you was a day and much smaller than you will be tomorrow!</p>
 
+<br>
+<br>
+
 <p align="justify">By: João Filipe Araújo</p>
 
 <br>
@@ -42,7 +45,12 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">Mil questões e poucas certezas... Mas, no final de tudo, tu percebes tu ainda és tu mesmo... Melhor do que foste um dia e bem menor do que serás amanhã!</p>
 
+<br>
+<br>
+
 <p align="justify">Por: João Filipe Araújo</p>
+
+<br>
 
 <br>
 <hr>
