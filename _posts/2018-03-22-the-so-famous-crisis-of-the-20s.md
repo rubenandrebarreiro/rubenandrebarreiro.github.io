@@ -9,7 +9,7 @@ categories: posts
 tags: ['poems','texts', 'reflections', life', 'destiny', 'dreams','plans','conquers']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
-<p align="justify">The So Famous Crisis Of The 20s / A Tão Famosa Crise Dos 20 e Poucos Anos...</p>
+<p align="justify">The so famous crisis of the 20s / A tão famosa crise dos 20 e poucos anos...</p>
 
 [![DrivingSunsetCoupleClassicVintageSportsCar]({{ site.images | relative_url }}/the_so_famous_crisis_of_the_20s/Driving_Sunset_Couple_Classic_Vintage_Sports_Car_1.jpg)]({{ site.images | relative_url }}/the_so_famous_crisis_of_the_20s/Driving_Sunset_Couple_Classic_Vintage_Sports_Car_1.gif)
 
