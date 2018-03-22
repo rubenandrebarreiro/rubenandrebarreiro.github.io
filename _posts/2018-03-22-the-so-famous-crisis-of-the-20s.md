@@ -49,7 +49,9 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <i>João Felipe Araújo</i>
 
 <br>
+<hr>
 <br>
+
 <br>
 <br>
 
