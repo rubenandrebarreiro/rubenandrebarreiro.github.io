@@ -41,9 +41,9 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <p align="justify">Mil questões e poucas certezas... Mas, no final de tudo, tu percebes tu ainda és tu mesmo... Melhor do que foste um dia e bem menor do que serás amanhã!</p>
 
 <br>
-<hr>
-<br>
 
+<br>
+<hr>
 <br>
 
 <i>João Felipe Araújo</i>
