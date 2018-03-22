@@ -6,7 +6,7 @@ crawlertitle: "The So Famous Crisis Of The 20s"
 summary: "A Poem From João Filipe Araújo!"
 date:   2018-03-22 14:04:28 +0000
 categories: posts
-tags: ['poems','texts', 'reflections', life', 'destiny', 'dreams','plans','conquers']
+tags: ['poems','texts','reflections','life','destiny','dreams','plans','conquers']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
 <p align="justify">The so famous crisis of the 20s / A tão famosa crise dos 20 e poucos anos...</p>
