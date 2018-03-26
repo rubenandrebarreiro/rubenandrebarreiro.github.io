@@ -1637,6 +1637,7 @@ active: My Projects
     <p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
     
     <br>
+    <br>
     
     <img src="/projects/webgl/imgs/rotative-shapes.jpg" alt="Rotative Shapes using WebGL (FCT NOVA - October 2017)" height="400" width="600">
 <hr/>
