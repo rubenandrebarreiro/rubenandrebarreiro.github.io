@@ -1641,4 +1641,13 @@ active: My Projects
 [![RotativeShapes]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)
 <p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
 
+<b>Instructions:</b>
+<font size="2">
+    <br>
+        - Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
+    <br>
+        - Choose the current Shape's color, by adjusting the colors' factors. And choose also the current geometric Shape in use, the option to allow Blur Edges or, even the current direction (Clock Direction or the opposite) of the Shape;
+    <br>
+</font>    
+
 <hr/>
