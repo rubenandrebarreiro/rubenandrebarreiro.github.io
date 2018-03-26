@@ -1147,11 +1147,11 @@ active: My Projects
 
 .circle-icon {
     background: #000000;
-    width: 100px;
-    height: 100px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     text-align: center;
-    line-height: 100px;
+    line-height: 50px;
     vertical-align: middle;
     padding: 30px;
 }
