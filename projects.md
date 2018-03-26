@@ -1145,15 +1145,444 @@ active: My Projects
   animation: burst 3s infinite linear;
 }
 
-.circle-icon {
-    background: #0F0000;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 13px;
-    vertical-align: middle;
-    padding: 12px;
+.icon-Seal_New_University_of_Lisbon .path1:before {
+  content: "\e900";
+  color: #308041;
+}
+.icon-Seal_New_University_of_Lisbon .path2:before {
+  content: "\e901";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path3:before {
+  content: "\e902";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path4:before {
+  content: "\e903";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path5:before {
+  content: "\e904";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path6:before {
+  content: "\e905";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path7:before {
+  content: "\e906";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path8:before {
+  content: "\e907";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path9:before {
+  content: "\e908";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path10:before {
+  content: "\e909";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path11:before {
+  content: "\e90a";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path12:before {
+  content: "\e90b";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path13:before {
+  content: "\e90c";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path14:before {
+  content: "\e90d";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path15:before {
+  content: "\e90e";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path16:before {
+  content: "\e90f";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path17:before {
+  content: "\e910";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path18:before {
+  content: "\e911";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path19:before {
+  content: "\e912";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path20:before {
+  content: "\e913";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path21:before {
+  content: "\e914";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path22:before {
+  content: "\e915";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path23:before {
+  content: "\e916";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path24:before {
+  content: "\e917";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path25:before {
+  content: "\e918";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path26:before {
+  content: "\e919";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path27:before {
+  content: "\e91a";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path28:before {
+  content: "\e91b";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path29:before {
+  content: "\e91c";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path30:before {
+  content: "\e91d";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path31:before {
+  content: "\e91e";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path32:before {
+  content: "\e91f";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path33:before {
+  content: "\e920";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path34:before {
+  content: "\e921";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path35:before {
+  content: "\e922";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path36:before {
+  content: "\e923";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path37:before {
+  content: "\e924";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path38:before {
+  content: "\e925";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path39:before {
+  content: "\e926";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path40:before {
+  content: "\e927";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path41:before {
+  content: "\e928";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path42:before {
+  content: "\e929";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path43:before {
+  content: "\e92a";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path44:before {
+  content: "\e92b";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path45:before {
+  content: "\e92c";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path46:before {
+  content: "\e92d";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path47:before {
+  content: "\e92e";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path48:before {
+  content: "\e92f";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path49:before {
+  content: "\e930";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path50:before {
+  content: "\e931";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path51:before {
+  content: "\e932";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path52:before {
+  content: "\e933";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path53:before {
+  content: "\e934";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path54:before {
+  content: "\e935";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path55:before {
+  content: "\e936";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path56:before {
+  content: "\e937";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path57:before {
+  content: "\e938";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path58:before {
+  content: "\e939";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path59:before {
+  content: "\e93a";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path60:before {
+  content: "\e93b";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path61:before {
+  content: "\e93c";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path62:before {
+  content: "\e93d";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path63:before {
+  content: "\e93e";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path64:before {
+  content: "\e93f";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path65:before {
+  content: "\e940";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path66:before {
+  content: "\e941";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path67:before {
+  content: "\e942";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path68:before {
+  content: "\e943";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path69:before {
+  content: "\e944";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path70:before {
+  content: "\e945";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path71:before {
+  content: "\e946";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path72:before {
+  content: "\e947";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path73:before {
+  content: "\e948";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path74:before {
+  content: "\e949";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path75:before {
+  content: "\e94a";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path76:before {
+  content: "\e94b";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path77:before {
+  content: "\e94c";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path78:before {
+  content: "\e94d";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path79:before {
+  content: "\e94e";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path80:before {
+  content: "\e94f";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path81:before {
+  content: "\e950";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path82:before {
+  content: "\e951";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path83:before {
+  content: "\e952";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path84:before {
+  content: "\e953";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path85:before {
+  content: "\e954";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path86:before {
+  content: "\e955";
+  color: #fff;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path87:before {
+  content: "\e956";
+  color: #308041;
+  margin-left: -1em;
+}
+.icon-Seal_New_University_of_Lisbon .path88:before {
+  content: "\e957";
+  color: #308041;
+  margin-left: -1em;
 }
 
 </style>
@@ -1175,7 +1604,7 @@ active: My Projects
 <hr/>
 
 <div id="emails" class="w3-container w3-xlarge w3-padding">
-    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="icon-javascript-alt circle-icon" title="Rotative Shapes using WebGL" style="color:Yellow"></i></a><font size="4">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a></font>
+    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="icon-Seal_New_University_of_Lisbon" title="Rotative Shapes using WebGL" style="color:Yellow"></i></a><font size="4">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a></font>
     <br>    
     <p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
 <hr/>
