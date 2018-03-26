@@ -1638,8 +1638,8 @@ active: My Projects
     
     <br>
     <br>
-    
-    [![RotativeShapes]({{ site.images | relative_url }}/projects/rotative-shapes.jpg)]({{ site.images | relative_url }}/projects/rotative-shapes.jpg)
+      
+    [![RotativeShapes]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)
     <p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
     
 <hr/>
