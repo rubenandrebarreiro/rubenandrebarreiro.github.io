@@ -1616,7 +1616,7 @@ active: My Projects
     
     
     
-    <i class="icon-javascript-alt" style="color:Tomato" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)"></i>
+    <i class="icon-javascript-alt" style="color:Gold" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)"></i>
 </font>
 
 <font size="4">
