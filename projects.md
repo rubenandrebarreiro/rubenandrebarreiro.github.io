@@ -1163,8 +1163,8 @@ active: My Projects
 <hr/>
 
 <div id="emails" class="w3-container w3-xlarge w3-padding">
-    <center>
-        <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="fa fa-envelope" title="Rotative Shapes using WebGL" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL</a></font>
-    </center>
+    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="fa fa-envelope" title="Rotative Shapes using WebGL" style="color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a></font>
+    <br>    
+    <font size="2">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. And allows to create multiple shapes, in the different colors, by clicking in the canvas of the Browser! </a></font>
 <hr/>
 </div>
