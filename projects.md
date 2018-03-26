@@ -1637,17 +1637,19 @@ active: My Projects
 </font>   
 
 <p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
-    
-[![RotativeShapes]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)
-<p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
 
 <b>Instructions:</b>
 <font size="2">
-    <br>
-        - Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
-    <br>
-        - Choose the current Shape's color, by adjusting the colors' factors. And choose also the current geometric Shape in use, the option to allow Blur Edges or, even the current direction (Clock Direction or the opposite) of the Shape;
-    <br>
+    <p align="justify">
+        <br>
+            - Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
+        <br>
+            - Choose the current Shape's color, by adjusting the colors' factors. And choose also the current geometric Shape in use, the option to allow Blur Edges or, even the current direction (Clock Direction or the opposite) of the Shape;
+        <br>
+    </p>
 </font>    
+
+[![RotativeShapes]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)
+<p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
 
 <hr/>
