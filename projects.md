@@ -1639,6 +1639,8 @@ active: My Projects
     <br>
     <br>
     
-    <img src="/projects/webgl/imgs/rotative-shapes.jpg" alt="Rotative Shapes using WebGL (FCT NOVA - October 2017)" height="400" width="600">
+    [![RotativeShapes]({{ site.images | relative_url }}/projects/rotative-shapes.jpg)]({{ site.images | relative_url }}/projects/rotative-shapes.jpg)
+    <p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
+    
 <hr/>
 </div>
