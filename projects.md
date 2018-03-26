@@ -1144,6 +1144,10 @@ active: My Projects
   -webkit-animation: burst 3s infinite linear;
   animation: burst 3s infinite linear;
 }
+
+.icon-javascript-alt {
+  background: black;
+}
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
