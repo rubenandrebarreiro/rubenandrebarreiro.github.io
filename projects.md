@@ -4,8 +4,8 @@ layout: default
 title: "Projects"
 crawlertitle: "Rúben André Barreiro's Blog - Projects"
 permalink: /projects/
-summary: "My Personal Contacts"
-active: My Contacts
+summary: "My Personal Academic Projects"
+active: My Projects
 ---
 
 <style>
