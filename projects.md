@@ -1150,7 +1150,7 @@ active: My Projects
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-
+<link rel="stylesheet" href="./font-mfizz-2.4.1/font-mfizz.css">
 
 
 <h2 id="emails">
@@ -1163,7 +1163,7 @@ active: My Projects
 <hr/>
 
 <div id="emails" class="w3-container w3-xlarge w3-padding">
-    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="fa fa-html" title="Rotative Shapes using WebGL" style="color:Yellow"></i></a><font size="4">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a></font>
+    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="icon-js-square" title="Rotative Shapes using WebGL" style="color:Yellow"></i></a><font size="4">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a></font>
     <br>    
     <p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
 <hr/>
