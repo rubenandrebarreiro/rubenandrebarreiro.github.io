@@ -1638,8 +1638,6 @@ active: My Projects
     
     <br>
     
-    <center>
-    <img src="/projects/webgl/imgs/TEXT.jpg" alt="Rotative Shapes using WebGL (FCT NOVA - October 2017)" height="400" width="600">
-    </center>
+    <img src="/projects/webgl/imgs/rotative-shapes.jpg" alt="Rotative Shapes using WebGL (FCT NOVA - October 2017)" height="400" width="600">
 <hr/>
 </div>
