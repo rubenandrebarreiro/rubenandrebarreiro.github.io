@@ -1587,6 +1587,27 @@ active: My Projects
   margin-left: -1em;
 }
 
+
+.icon-fct-unl .path1:before {
+  content: "\e958";
+  color: #fefefe;
+}
+.icon-fct-unl .path2:before {
+  content: "\e959";
+  color: #426bbc;
+  margin-left: -1em;
+}
+.icon-fct-unl .path3:before {
+  content: "\e95a";
+  color: #5abccd;
+  margin-left: -1em;
+}
+.icon-fct-unl .path4:before {
+  content: "\e95b";
+  color: #7bbc00;
+  margin-left: -1em;
+}
+
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
@@ -1606,7 +1627,7 @@ active: My Projects
 <hr/>
 
 <div id="emails" class="w3-container w3-xlarge w3-padding">
-    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><span class="icon-new-university-lisbon"><span class="path1" title="Rotative Shapes using WebGL"></span></span></a><font size="4">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a></font>
+    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><span class="icon-fct-unl"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span></a><font size="4">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a></font>
     <br>    
     <p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
 <hr/>
