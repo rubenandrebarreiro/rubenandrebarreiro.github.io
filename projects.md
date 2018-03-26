@@ -1149,7 +1149,7 @@ active: My Projects
     background: #000000;
     width: 30px;
     height: 30px;
-    border-radius: 50%;
+    border-radius: 30%;
     text-align: center;
     line-height: 30px;
     vertical-align: middle;
