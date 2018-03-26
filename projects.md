@@ -1164,7 +1164,7 @@ active: My Contacts
 
 <div id="emails" class="w3-container w3-xlarge w3-padding">
     <center>
-        <a target="_blank" href="/_projects/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="fa fa-envelope" title="ruben.barreiro.92 on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="/_projects/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL</a></font>
+        <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL"><i class="fa fa-envelope" title="ruben.barreiro.92 on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">Rotative Shapes using WebGL</a></font>
     </center>
 <hr/>
 </div>
