@@ -1146,7 +1146,7 @@ active: My Projects
 }
 
 .icon-javascript-alt {
-  background: black;
+  background-color: black;
 }
 </style>
 
