@@ -1153,7 +1153,7 @@ active: My Projects
     text-align: center;
     line-height: 30px;
     vertical-align: middle;
-    padding: 10px;
+    padding: 30px;
 }
 
 </style>
