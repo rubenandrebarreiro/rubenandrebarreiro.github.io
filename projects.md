@@ -1700,14 +1700,24 @@ active: My Projects
 
 <b>Instructions:</b>
 <font size="2">
-    <p align="justify">
-            a) <b>Up arrow (↑)</b> key to move up the helicopter;
+    <p align="justify"> 
+            a) <b><i>'Q'</i></b> and <b><i>'W'</i></b> keys to rotate the <b>Robot's</b> arm;
         <br>
-            b) <b>Down arrow (↓)</b> key to move down the helicopter;
+            b) <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b>Robot's</b> upper joint;
         <br>
-            c) <b>Left arrow (←)</b> key to make a circular move for the helicopter;
+            c) <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b>Robot's</b> lower joint;
         <br>
-            d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
+            d) <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b>Robot's</b> claws;
+        <br>
+            e) <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b>Robot's</b> hand;
+        <br>
+            f) <b><i>Left Arrow (←)</i></b> key to move the <b>Robot</b> to the left;
+        <br>
+            g) <b><i>Right Arrow (→)</i></b> key to move the <b>Robot</b> to the right;
+        <br>
+            h) <b><i>Up Arrow (↑)</i></b> key to move the <b>Robot</b> forward;
+        <br>
+            i) <b><i>Down Arrow (↓)</i></b> key to move <b>Robot</b> backward;
     </p>
 </font>    
 
