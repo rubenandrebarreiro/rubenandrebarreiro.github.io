@@ -1628,9 +1628,11 @@ active: My Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
+            a) Use 'Q' and 'A' keys dive/emerge. Use click/drag/release in the canvas to move center point;
         <br>
-            b) Choose the current Shape's color, by adjusting the colors' factors. And choose also the current Geometric Shape in use, the option to allow <i>Blur Edges</i> or, even the current direction (<i>Clock Direction</i> or the opposite) of the Geometric Shape;
+            b) Choose the current <i>Fractal's Set</i> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
+        <br>
+            c) Choose also the current factor to the scale of the current <i>Fractal</i> in use;
     </p>
 </font>    
 
