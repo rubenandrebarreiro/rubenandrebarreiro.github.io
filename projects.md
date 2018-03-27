@@ -1706,21 +1706,15 @@ active: My Projects
     <p align="justify"> 
             a) <b><i>'Q'</i></b> and <b><i>'W'</i></b> keys to rotate the <b>Robot's</b> arm;
         <br>
-            b) <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b>Robot's</b> upper joint;
+            b) <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b>Robot's</b> upper joint. And <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b>Robot's</b> lower joint;
         <br>
-            c) <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b>Robot's</b> lower joint;
+            c) <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b>Robot's</b> claws;
         <br>
-            d) <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b>Robot's</b> claws;
+            d) <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b>Robot's</b> hand;
         <br>
-            e) <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b>Robot's</b> hand;
+            e) <b><i>Left Arrow (←)</i></b> key to move the <b>Robot</b> to the left. And <b><i>Right Arrow (→)</i></b> key to move the <b>Robot</b> to the right;
         <br>
-            f) <b><i>Left Arrow (←)</i></b> key to move the <b>Robot</b> to the left;
-        <br>
-            g) <b><i>Right Arrow (→)</i></b> key to move the <b>Robot</b> to the right;
-        <br>
-            h) <b><i>Up Arrow (↑)</i></b> key to move the <b>Robot</b> forward;
-        <br>
-            i) <b><i>Down Arrow (↓)</i></b> key to move <b>Robot</b> backward;
+            f) <b><i>Up Arrow (↑)</i></b> key to move the <b>Robot</b> forward. And <b><i>Down Arrow (↓)</i></b> key to move <b>Robot</b> backward;
         <br>
             j) Choose the pretended <b>Angles Factors</b> (<b><i>Theta</i></b> and <b><i>Gamma</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
     </p>
