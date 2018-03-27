@@ -1621,7 +1621,7 @@ active: My Projects
     <a target="_blank" href="/projects/webgl/fractals_mandelbrot_julia/fractals.html" title="Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/fractals_mandelbrot_julia/fractals.html" title="Fractas with Mandelbrot and Julia sets, using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to see Fractals' structures with multiple scales and, using some of the both Benoit Mandelbrot and Gaston Julia's sets! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/fractals_mandelbrot_julia/fractals.html" title="Fractas with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to see Fractals' structures with multiple scales and, using some of the both Benoit Mandelbrot and Gaston Julia's sets! </a></font></p>
 
 <br>
 
@@ -1636,8 +1636,8 @@ active: My Projects
     </p>
 </font>    
 
-[![RotativeShapes]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)
-<p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
+[![RotativeShapes]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)
+<p style="font-size:11px"><i>Fractas with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</i></p>
 
 <br>
 <hr/>
@@ -1657,7 +1657,7 @@ active: My Projects
     <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
 
 <br>
 
