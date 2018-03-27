@@ -1528,7 +1528,7 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-       
+        <i class="fab fa-discord" title="Rúben André Barreiro on Discord" style="font-size:20px;color:CornflowerBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - rubenbarreiro92</a></font>
     </center>
 </div>
 
