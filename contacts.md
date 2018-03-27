@@ -255,27 +255,6 @@ active: My Contacts
     }
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  @-webkit-keyframes wrench {
   0% {
     -webkit-transform: rotate(-12deg);
@@ -1392,8 +1371,7 @@ active: My Contacts
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/brands.css" integrity="sha384-IiIL1/ODJBRTrDTFk/pW8j0DUI5/z9m1KYsTm/RjZTNV8RHLGZXkUDwgRRbbQ+Jh" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
 <h2 id="myinfo">
@@ -1491,6 +1469,14 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
+        <a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow"><i class="fa fa-stack-overflow" title="Rúben André Barreiro on Stack Overflow" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow">Stack Overflow</a></font>
+
+        <font size="1">&nbsp;|&nbsp;</font>
+
+        <a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate"><i class="ai ai-researchgate w3-hover-text-teal" title="Rúben André Barreiro on ResearchGate" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate">ResearchGate</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
         <a target="_blank" href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">YouTube</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
@@ -1545,7 +1531,11 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <i class="fab fa-discord" title="Rúben André Barreiro on Discord" style="font-size:20px;color:CornflowerBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - ruben.barreiro.92</a></font>
+        <style type="text/css">
+            @import url("https://use.fontawesome.com/releases/v5.0.8/css/all.css"); 
+        
+            <i class="fab fa-discord" title="Rúben André Barreiro on Discord" style="font-size:20px;color:CornflowerBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - ruben.barreiro.92</a></font>
+        </style>
     </center>
 </div>
 
