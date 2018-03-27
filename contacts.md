@@ -1392,6 +1392,8 @@ active: My Contacts
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/brands.css" integrity="sha384-IiIL1/ODJBRTrDTFk/pW8j0DUI5/z9m1KYsTm/RjZTNV8RHLGZXkUDwgRRbbQ+Jh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
 <h2 id="myinfo">
@@ -1542,8 +1544,6 @@ active: My Contacts
         <i class="fa fa-twitch" title="Rúben André Barreiro on Twitch" style="font-size:20px;color:Purple"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Twitch">Twitch - rubenbarreiro92</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
-        
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
         
         <i class="fab fa-discord" title="Rúben André Barreiro on Discord" style="font-size:20px;color:CornflowerBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - ruben.barreiro.92</a></font>
     </center>
