@@ -1362,13 +1362,16 @@ active: My Contacts
     transform: rotate(-7deg);
   }
 }
+
+.icon-discord:before {
+  content: "\e900";
+  color: #7289da;
+}
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" integrity="sha384-3AB7yXWz4OeoZcPbieVW64vVXEwADiYyAEhwilzWsLw+9FgqpyjjStpPnpBO8o8S" crossorigin="anonymous">
-
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 
 <h2 id="myinfo">
@@ -1527,6 +1530,8 @@ active: My Contacts
         <i class="fa fa-twitch" title="Rúben André Barreiro on Twitch" style="font-size:20px;color:Purple"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Twitch">Twitch - rubenbarreiro92</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
+        
+        <span class="icon-discord"></span>
         
         <i class="fab fa-discord" title="Rúben André Barreiro on Discord" style="font-size:20px;color:CornflowerBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - rubenbarreiro92</a></font>
     </center>
