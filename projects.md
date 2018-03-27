@@ -1628,7 +1628,7 @@ active: My Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) Use 'Q' and 'A' keys dive/emerge. Use click/drag/release in the canvas to move center point;
+            a) Use <b><i>'Q'</i></b> and <b><i>'A'</i></b> keys dive/emerge. Use click/drag/release in the canvas to move center point;
         <br>
             b) Choose the current <b><i>Fractal's Set</i></b> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
         <br>
