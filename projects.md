@@ -1587,6 +1587,15 @@ active: My Projects
   margin-left: -1em;
 }
 
+.icon-discord:before {
+  content: "\e900";
+  color: #7289da;
+}
+
+.icon-vsco:before {
+  content: "\e901";
+}
+
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
