@@ -1367,6 +1367,10 @@ active: My Contacts
   content: "\e900";
   color: #7289da;
 }
+
+.icon-vsco:before {
+  content: "\e901";
+}
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
@@ -1532,7 +1536,7 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <span class="icon-discord" style="font-size:20px"></span><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - rubenbarreiro92</a></font>
+        <span class="icon-discord" title="Rúben André Barreiro on Discord" style="font-size:20px"></span><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - rubenbarreiro92</a></font>
     </center>
 </div>
 
