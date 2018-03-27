@@ -1630,9 +1630,9 @@ active: My Projects
     <p align="justify">
             a) Use 'Q' and 'A' keys dive/emerge. Use click/drag/release in the canvas to move center point;
         <br>
-            b) Choose the current <i>Fractal's Set</i> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
+            b) Choose the current <b><i>Fractal's Set</i></b> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
         <br>
-            c) Choose also the current factor to the scale of the current <i>Fractal</i> in use;
+            c) Choose also the current factor to the scale of the current <b><i>Fractal</i></b> in use;
     </p>
 </font>    
 
