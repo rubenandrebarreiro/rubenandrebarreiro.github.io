@@ -1473,7 +1473,7 @@ active: My Contacts
 
         <font size="1">&nbsp;|&nbsp;</font>
 
-        <a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate"><i class="ai ai-researchgate w3-hover-text-teal" title="Rúben André Barreiro on ResearchGate" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate">ResearchGate</a></font>
+        <a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate"><i class="ai ai-researchgate" title="Rúben André Barreiro on ResearchGate" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate">ResearchGate</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
