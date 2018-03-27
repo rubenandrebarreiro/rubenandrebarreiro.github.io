@@ -1378,7 +1378,7 @@ active: My Contacts
 <h2 id="myinfo">
     <i>My Info</i>
     <span class="fa-stack">
-        <i class="far fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-info fa-stack-1x faa-vertical animated"></i>
     </span>
 </h2>
