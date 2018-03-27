@@ -1683,18 +1683,18 @@ active: My Projects
 <br>
 
 <font size="5">
-    <span class="icon-new-university-lisbon" title="3D Object Modelation Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">
+    <span class="icon-new-university-lisbon" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">
         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span><span class="path23"></span><span class="path24"></span><span class="path25"></span><span class="path26"></span><span class="path27"></span><span class="path28"></span><span class="path29"></span><span class="path30"></span><span class="path31"></span><span class="path32"></span><span class="path33"></span><span class="path34"></span><span class="path35"></span><span class="path36"></span><span class="path37"></span><span class="path38"></span><span class="path39"></span><span class="path40"></span><span class="path41"></span><span class="path42"></span><span class="path43"></span><span class="path44"></span><span class="path45"></span><span class="path46"></span><span class="path47"></span><span class="path48"></span><span class="path49"></span><span class="path50"></span><span class="path51"></span><span class="path52"></span><span class="path53"></span><span class="path54"></span><span class="path55"></span><span class="path56"></span><span class="path57"></span><span class="path58"></span><span class="path59"></span><span class="path60"></span><span class="path61"></span><span class="path62"></span><span class="path63"></span><span class="path64"></span><span class="path65"></span><span class="path66"></span><span class="path67"></span><span class="path68"></span><span class="path69"></span><span class="path70"></span><span class="path71"></span><span class="path72"></span><span class="path73"></span><span class="path74"></span><span class="path75"></span><span class="path76"></span><span class="path77"></span><span class="path78"></span><span class="path79"></span><span class="path80"></span><span class="path81"></span><span class="path82"></span><span class="path83"></span><span class="path84"></span><span class="path85"></span><span class="path86"></span><span class="path87"></span><span class="path88"></span>
     </span>
     
-    <i class="icon-javascript-alt" style="color:Gold" title="3D Object Modelation Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)"></i>
+    <i class="icon-javascript-alt" style="color:Gold" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)"></i>
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">3D Object Modelation Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</a>
+    <a target="_blank" href="/projects/webgl/3d_object_modelling_robot/modelling_demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to drive and manipulate an Industrial Automated Robot, all using 3D Modelation and 3D Objects. The Robot can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the Robot are always performed using the keyboard!</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelling_robot/modelling_demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to drive and manipulate an Industrial Automated Robot, all using 3D Modelling and 3D Objects. The Robot can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the Robot are always performed using the keyboard!</a></font></p>
 
 <br>
 
@@ -1711,8 +1711,8 @@ active: My Projects
     </p>
 </font>    
 
-[![3DObjectModelationRobot]({{ site.images | relative_url }}/projects/3dobjectmodelationrobot.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodelationrobot.jpg)
-<p style="font-size:11px"><i>3D Object Modelation Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</i></p>
+[![3DObjectModellingRobot]({{ site.images | relative_url }}/projects/3dobjectmodellingrobot.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodellingrobot.jpg)
+<p style="font-size:11px"><i>3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</i></p>
 
 <br>
 <hr/>
@@ -1755,18 +1755,18 @@ active: My Projects
 <br>
 
 <font size="5">
-    <span class="icon-new-university-lisbon" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">
+    <span class="icon-new-university-lisbon" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">
         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span><span class="path23"></span><span class="path24"></span><span class="path25"></span><span class="path26"></span><span class="path27"></span><span class="path28"></span><span class="path29"></span><span class="path30"></span><span class="path31"></span><span class="path32"></span><span class="path33"></span><span class="path34"></span><span class="path35"></span><span class="path36"></span><span class="path37"></span><span class="path38"></span><span class="path39"></span><span class="path40"></span><span class="path41"></span><span class="path42"></span><span class="path43"></span><span class="path44"></span><span class="path45"></span><span class="path46"></span><span class="path47"></span><span class="path48"></span><span class="path49"></span><span class="path50"></span><span class="path51"></span><span class="path52"></span><span class="path53"></span><span class="path54"></span><span class="path55"></span><span class="path56"></span><span class="path57"></span><span class="path58"></span><span class="path59"></span><span class="path60"></span><span class="path61"></span><span class="path62"></span><span class="path63"></span><span class="path64"></span><span class="path65"></span><span class="path66"></span><span class="path67"></span><span class="path68"></span><span class="path69"></span><span class="path70"></span><span class="path71"></span><span class="path72"></span><span class="path73"></span><span class="path74"></span><span class="path75"></span><span class="path76"></span><span class="path77"></span><span class="path78"></span><span class="path79"></span><span class="path80"></span><span class="path81"></span><span class="path82"></span><span class="path83"></span><span class="path84"></span><span class="path85"></span><span class="path86"></span><span class="path87"></span><span class="path88"></span>
     </span>
     
-    <i class="icon-javascript-alt" style="color:Gold" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)"></i>
+    <i class="icon-javascript-alt" style="color:Gold" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)"></i>
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</a>
+    <a target="_blank" href="/projects/webgl/3d_object_modelling_helicopter/modelling_demo.html" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to drive a flying Helicopter above a city, all using 3D Modelation and 3D Objects. The Helicopter it's drived using the keyboard and you can see all the action of multiple angles, using an Axonometric Projection! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelling_helicopter/modelling_demo.html" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to drive a flying Helicopter above a city, all using 3D Modelling and 3D Objects. The Helicopter it's drived using the keyboard and you can see all the action of multiple angles, using an Axonometric Projection! </a></font></p>
 
 <br>
 
@@ -1783,5 +1783,5 @@ active: My Projects
     </p>
 </font>    
 
-[![3DObjectModelationHelicopter]({{ site.images | relative_url }}/projects/3dobjectmodelationhelicopter.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodelationhelicopter.jpg)
-<p style="font-size:11px"><i>3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</i></p>
+[![3DObjectModellingHelicopter]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)
+<p style="font-size:11px"><i>3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</i></p>
