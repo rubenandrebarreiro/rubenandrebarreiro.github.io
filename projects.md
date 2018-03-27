@@ -1725,18 +1725,22 @@ active: My Projects
     <a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows drive a flying Helicopter above a city, all using 3D Modelation and Objects, using the keyboard and seeing all the action of multiple angles, using an Axonometric Projection! </a></font></p>
 
 <br>
 
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
+            a) <b>Up arrow (↑)</b> key to move up the helicopter;
         <br>
-            b) Choose the current Shape's color, by adjusting the colors' factors. And choose also the current Geometric Shape in use, the option to allow <i>Blur Edges</i> or, even the current direction (<i>Clock Direction</i> or the opposite) of the Geometric Shape;
+            b) <b>Down arrow (↓)</b> key to move down the helicopter;
+        <br>
+            c) <b>Left arrow (←)</b> key to make a circular move for the helicopter;
+        <br>
+            d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
     </p>
 </font>    
 
-[![RotativeShapes]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)
-<p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
+[![3DObjectModelationHelicopter]({{ site.images | relative_url }}/projects/3dobjectmodelationhelicopter.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodelationhelicopter.jpg)
+<p style="font-size:11px"><i>3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</i></p>
