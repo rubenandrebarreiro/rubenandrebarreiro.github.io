@@ -1124,8 +1124,6 @@ active: My Projects
   animation: burst 3s infinite linear;
 }
 
-
-
 .icon-new-university-lisbon .path1:before {
   content: "\e900";
   color: #308041;
