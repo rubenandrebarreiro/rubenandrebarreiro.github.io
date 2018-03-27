@@ -1718,6 +1718,8 @@ active: My Projects
             h) <b><i>Up Arrow (↑)</i></b> key to move the <b>Robot</b> forward;
         <br>
             i) <b><i>Down Arrow (↓)</i></b> key to move <b>Robot</b> backward;
+        <br>
+            j) Choose the pretended <b>Angles Factors</b> (<b><i>Theta;</i></b> and <b><i>Gamma</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
     </p>
 </font>    
 
@@ -1783,11 +1785,11 @@ active: My Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) <b>Up arrow (↑)</b> key to move up the Helicopter;
+            a) <b>Up arrow (↑)</b> key to move up the <b>Helicopter</b>;
         <br>
-            b) <b>Down arrow (↓)</b> key to move down the Helicopter;
+            b) <b>Down arrow (↓)</b> key to move down the <b>Helicopter</b>;
         <br>
-            c) <b>Left arrow (←)</b> key to make a circular move for the Helicopter;
+            c) <b>Left arrow (←)</b> key to make a circular move for the <b>Helicopter</b>;
         <br>
             d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
     </p>
