@@ -1631,11 +1631,11 @@ active: My Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) Use <b><i>'Q'</i></b> and <b><i>'A'</i></b> keys dive/emerge. Use click/drag/release in the canvas to move center point;
+            a) Use <b><i>'Q'</i></b> and <b><i>'A'</i></b> keys dive/emerge. Use <b><i>click/drag/release</i></b> in the canvas to move center point;
         <br>
             b) Choose the current <b><i>Fractal's Set</i></b> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
         <br>
-            c) Choose also the current factor to the scale of the current <b><i>Fractal</i></b> in use;
+            c) Choose also the current <i>Factor</i> to the <i>Scale</i> of the current <b><i>Fractal</i></b> in use;
     </p>
 </font>    
 
