@@ -1783,11 +1783,11 @@ active: My Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) <b>Up arrow (↑)</b> key to move up the helicopter;
+            a) <b>Up arrow (↑)</b> key to move up the Helicopter;
         <br>
-            b) <b>Down arrow (↓)</b> key to move down the helicopter;
+            b) <b>Down arrow (↓)</b> key to move down the Helicopter;
         <br>
-            c) <b>Left arrow (←)</b> key to make a circular move for the helicopter;
+            c) <b>Left arrow (←)</b> key to make a circular move for the Helicopter;
         <br>
             d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
     </p>
