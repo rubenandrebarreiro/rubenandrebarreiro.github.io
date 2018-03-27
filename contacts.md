@@ -1536,6 +1536,14 @@ active: My Contacts
         <font size="1">&nbsp;|&nbsp;</font>
         
         <i class="fa fa-skype" title="Rúben André Barreiro on Skype" style="font-size:20px;color:DeepSkyBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Skype">Skype - ruben.barreiro.92</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <i class="fa fa-twitch" title="Rúben André Barreiro on Twitch" style="font-size:20px;color:Purple"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Twitch">Twitch - rubenbarreiro92</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <i class="fa fa-discord" title="Rúben André Barreiro on Discord" style="font-size:20px;color:Black"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - ruben.barreiro.92</a></font>
     </center>
 </div>
 
