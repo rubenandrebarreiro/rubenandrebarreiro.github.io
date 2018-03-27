@@ -1593,7 +1593,7 @@ active: My Projects
 }
 
 .icon-vsco:before {
-  content: "\e901";
+  content: "\e95c";
 }
 
 </style>
