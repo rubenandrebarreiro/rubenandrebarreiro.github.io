@@ -62,7 +62,7 @@
         }
 </script>
     
-<script type="text/javascript" src="Fractals.js"></script>
+<script type="text/javascript" src="fractals.js"></script>
 <script type="text/javascript" src="../Common/webgl-utils.js"></script>
 <script type="text/javascript" src="../Common/initShaders.js"></script>
 <script type="text/javascript" src="../Common/MV.js"></script>
@@ -71,11 +71,24 @@
     
 <body>
     <title>Fractals - Benoit Mandelbrot & Gaston Julia</title>
-    Use 'Q' and 'A' keys dive/emerge. Use click/drag/release to move center point.
+    
     <br>
     <canvas id="gl-canvas" width="512" height="512">
         Oops... your browser doesn't support the HTML5 canvas element"
     </canvas>
+   
+    <h2>Authors: <u><i>R&uacute;ben Andr&eacute; Barreiro</i></u> - no. 42648 and <u><i>Daniel Pimenta</i></u> - no. 45404</h2>
+    <h3>Computer Science and Engineering MSc <i>(FCT/UNL)</i></h3>
+    <h4>Computer Graphics and Interfaces - Lab Work 1</h4>
+    
+    <b>Instructions:</b>
+    <font size="1.5">
+        <br>
+            - Use 'Q' and 'A' keys dive/emerge. Use click/drag/release in the canvas to move center point;
+        <br>
+            - Choose the current Fractal's Set in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>. And choose also the current factor to the scale of the current Fractal in use;
+        <br>
+    
     <br>
     Factor: <input id="factor" type="range" min="0.00" max="2.00" step="0.01" value="1.0">
     Fractal type: <select id="fractal">
