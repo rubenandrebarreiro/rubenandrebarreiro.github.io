@@ -1636,8 +1636,7 @@ active: My Projects
     </p>
 </font>    
 
-[![FractalsMandelbrotJulia]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)
-<p style="font-size:11px"><i>Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</i></p>
+
 
 <br>
 <hr/>
