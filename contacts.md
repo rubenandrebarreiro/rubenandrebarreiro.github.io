@@ -1560,7 +1560,7 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="mailto:ruben.barreiro.92@yahoo.com" title="ruben.barreiro.92 on Yahoo"><i class="fa fa-yahoo" title="ruben.barreiro.92 on Yahoo" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.barreiro.92@yahoo.com" title="ruben.barreiro.92 on Yahoo">ruben.barreiro.92@yahoo.com</a></font>
+        <a target="_blank" href="mailto:rubenbarreiro92@yahoo.com" title="rubenbarreiro92 on Yahoo"><i class="fa fa-yahoo" title="rubenbarreiro92 on Yahoo" style="font-size:20px;color:Purple"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:rubenbarreiro92@yahoo.com" title="rubenbarreiro92 on Yahoo">rubenbarreiro92@yahoo.com</a></font>
         
         <br>
         
