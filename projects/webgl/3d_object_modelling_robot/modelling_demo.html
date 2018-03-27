@@ -103,45 +103,79 @@ void main() {
 
 </head>
 <body id ="mainbody">
-  <title>Modelling Demo</title>
-    <h2>Modelling Demo - WebGL</h2>
+  <title>3D Modelling Demo - Industrial Automated Robot</title>
     <div>
         <div id="container" style="display: inline-block">
             <canvas id="gl-canvas" width="512" height="512"> Oops... your browser doesn't support the HTML5 canvas element"
             </canvas>
             &nbsp&nbsp&nbsp&nbsp
         </div>
-        <div id="intructions" style="display: inline-block; vertical-align: top">
-           <h2>Instructions:</h2>
-            <p>&nbsp&nbsp- <b>Q</b> and <b>W</b> keys to rotate the arm
+        <div id="authorsInstructions" style="display: inline-block; vertical-align: top">
+            <h2>Authors:</h2>
+            <h4>
+                &nbsp;-&nbsp;<u><i>R&uacute;ben Andr&eacute; Barreiro</i></u> - no. 42648
+                <br>
+                &nbsp;-&nbsp;<u><i>Daniel Pimenta</i></u> - no. 45404
+            </h4>
+            
+            <h2>Instructions:</h2>
+            <h5>
+            <p>&nbsp&nbsp- <b><i>'Q'</i></b> and <b><i>'W'</i></b> keys to rotate the <b>Robot's</b> arm;
             </p>
-            <p>&nbsp&nbsp- <b>A</b> and <b>S</b> keys to rotate upper joint
+            <p>&nbsp&nbsp- <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b>Robot's</b> upper joint;
             </p>
-            <p>&nbsp&nbsp- <b>Z</b> and <b>X</b> keys to rotate lower joint
+            <p>&nbsp&nbsp- <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b>Robot's</b> lower joint;
             </p>
-            <p>&nbsp&nbsp- <b>O</b> and <b>P</b> keys to move the claws
+            <p>&nbsp&nbsp- <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b>Robot's</b> claws;
             </p>
-            <p>&nbsp&nbsp- <b>K</b> and <b>L</b> keys to rotate the hand
+            <p>&nbsp&nbsp- <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b>Robot's</b> hand;
             </p>
-            <p>&nbsp&nbsp- <b>Left Arrow (←)</b> key to move robot to the left
+            <p>&nbsp&nbsp- <b><i>Left Arrow (←)</i></b> key to move the <b>Robot</b> to the left;
             </p>
-            <p>&nbsp&nbsp- <b>Right Arrow (→)</b> key to move robot to the right
+            <p>&nbsp&nbsp- <b><i>Right Arrow (→)</i></b> key to move the <b>Robot</b> to the right;
             </p>
-            <p>&nbsp&nbsp- <b>Up Arrow (↑)</b> key to move robot forward
+            <p>&nbsp&nbsp- <b><i>Up Arrow (↑)</i></b> key to move the <b>Robot</b> forward;
             </p>
-            <p>&nbsp&nbsp- <b>Down Arrow (↓)</b> key to move robot backward
+            <p>&nbsp&nbsp- <b><i>Down Arrow (↓)</i></b> key to move <b>Robot</b> backward;
             </p>
+            </h5>
+            
+            <br>
+            
+            <div id="projection" style="display: inline-block">
+                &nbsp&nbsp <b>Axonometric Projection:</b> &nbsp&nbsp
+                </br>
+                &nbsp&nbsp Gamma angle &nbsp&nbsp<input id="gamma" type="range" min="0" max="90" step="1" value="19.4205368891236">
+                </br>
+                &nbsp&nbsp Theta angle &nbsp&nbsp<input id="theta" type="range" min="0" max="360" step="1" value="339.731932804673">
+            </div>
+            <div id="rendermode" style="display: inline-block">
+            &nbsp&nbsp <b>Render Mode:</b>
+            </br>
+            &nbsp&nbsp <select id="render">
+                        <option> Filled
+                        <option> Wire Frame
+                       </select>
+            </br></br></br>
+            </div>
         </div>
     </div>
+
+    <div id="info" style="display: inline-block">
+        <h3>Computer Science and Engineering MSc <i>(FCT/UNL)</i></h3>
+        <h4>Computer Graphics and Interfaces - Lab Work 3</h4>
+    </div>
+
+    <!--
     <div id="projection" style="display: inline-block">
-            &nbsp&nbsp <b>Projection</b> &nbsp&nbsp
+            &nbsp&nbsp <b>Axonometric Projection:</b> &nbsp&nbsp
             </br>
             &nbsp&nbsp Gamma angle &nbsp&nbsp<input id="gamma" type="range" min="0" max="90" step="1" value="19.4205368891236">
             </br>
             &nbsp&nbsp Theta angle &nbsp&nbsp<input id="theta" type="range" min="0" max="360" step="1" value="339.731932804673">
     </div>
     <div id="rendermode" style="display: inline-block">
-            &nbsp&nbsp <b>Render mode</b>
+            &nbsp&nbsp <b>Render Mode:</b>
             </br>
             &nbsp&nbsp <select id="render">
                         <option> Filled
@@ -149,6 +183,6 @@ void main() {
                     </select>
             </br></br></br>
     </div>
-           
+        -->   
 </body>
 </html>
