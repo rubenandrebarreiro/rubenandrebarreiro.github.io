@@ -1636,7 +1636,7 @@ active: My Projects
     </p>
 </font>    
 
-[![RotativeShapes]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)
+[![FractalsMandelbrotJulia]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)]({{ site.images | relative_url }}/projects/fractalsmandelbrotjulia.jpg)
 <p style="font-size:11px"><i>Fractas with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</i></p>
 
 <br>
