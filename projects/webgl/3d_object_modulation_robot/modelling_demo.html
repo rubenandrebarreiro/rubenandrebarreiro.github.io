@@ -1,0 +1,154 @@
+<!-- TP3 Modelling demo - CGI 1st semester 2016-2017 
+     42648 Ruben Barreiro r.barreiro@campus.fct.unl.pt
+     45404 Daniel Pimenta d.pimenta@campus.fct.unl.pt -->
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<script id="vertex-shader-2" type="x-shader/x-vertex">
+const vec4 lightPosition = vec4(0.0, 0.0, 10.0, 1.0);    // in WC
+
+attribute vec4 vPosition;   // vertex position in modelling coordinates
+attribute vec4 vNormal;     // vertex normal in modelling coordinates
+
+uniform mat4 mView;         // view transformation matrix (for points)
+uniform mat4 mViewVectors;  // view transformation matrix (for vectors)
+uniform mat4 mModelView;    // model-view transformation (for points)
+uniform mat4 mNormals;      // model-view transformation (for vectors/normals)
+
+uniform mat4 mProjection;   // projection matrix
+
+varying vec3 fNormal;       // normal vector in camera space (to be interpolated)
+varying vec3 fLight;
+varying vec3 fViewer;
+
+void main(){
+    // compute position in camera frame
+    vec3 posC = (mModelView * vPosition).xyz;
+    
+    // compute normal in camera frame
+    fNormal = (mNormals * vNormal).xyz;
+
+    // compute light vector in camera frame
+    if(lightPosition.w == 0.0) 
+        fLight = normalize((mViewVectors * lightPosition).xyz);
+    else 
+        fLight = normalize((mView*lightPosition).xyz - posC);
+    
+    // Compute the view vector
+    // fViewer = -fPosition; // Perspective projection
+    fViewer = vec3(0,0,1); // Parallel projection only
+
+    // Compute vertex position in clip coordinates (as usual)
+    gl_Position = mProjection * mModelView * vPosition;
+
+    // make correction for left handed system of clip space
+    //gl_Position.z = -gl_Position.z;
+}
+</script>
+<script id="fragment-shader-2" type="x-shader/x-fragment">
+precision mediump float;
+
+varying vec3 fPosition;
+varying vec3 fNormal;
+
+uniform vec3 color;
+const float shininess = 60.0;
+
+const vec3 lightAmb = vec3(0.2, 0.2, 0.2);
+const vec3 lightDif = vec3(0.5, 0.5, 0.5);
+const vec3 lightSpe = vec3(1.0, 1.0, 1.0);
+
+vec3 ambientColor = lightAmb * color;
+vec3 diffuseColor = lightDif * color;
+vec3 specularColor = lightSpe * vec3(1.0, 1.0, 1.0);
+
+varying vec3 fLight;
+varying vec3 fViewer;
+
+void main() {
+
+    vec3 L = normalize(fLight);
+    vec3 V = normalize(fViewer);
+    vec3 N = normalize(fNormal);
+   
+    // Compute the halfway vector for Phong-Blinn model
+    vec3 H = normalize(L+V);
+
+    // compute diffuse reflection, don't let the vertex be illuminated from behind...
+    float diffuseFactor = max( dot(L,N), 0.0 );
+    vec3 diffuse = diffuseFactor * diffuseColor;
+
+    // compute specular reflection
+    float specularFactor = pow(max(dot(N,H), 0.0), shininess);
+    vec3 specular = specularFactor * specularColor;
+
+    // specular reflection should be 0 if normal is pointing away from light source
+    if( dot(L,N) < 0.0 ) {
+        specular = vec3(0.0, 0.0, 0.0);
+    }
+
+    // add all 3 components from the illumination model (ambient, diffuse and specular)
+    gl_FragColor = vec4(ambientColor + diffuse + specular, 1.0);
+}
+</script>
+<script type="text/javascript" src="../Common/webgl-utils.js"></script>
+<script type="text/javascript" src="../Common/initShaders.js"></script>
+<script type="text/javascript" src="../Common/MV.js"></script>
+<script type="text/javascript" src="cube.js"></script>
+<script type="text/javascript" src="sphere.js"></script>
+<script type="text/javascript" src="cylinder.js"></script>
+<script type="text/javascript" src="modelling_demo.js"></script>
+
+</head>
+<body id ="mainbody">
+  <title>Modelling Demo</title>
+    <h2>Modelling Demo - WebGL</h2>
+    <div>
+        <div id="container" style="display: inline-block">
+            <canvas id="gl-canvas" width="512" height="512"> Oops... your browser doesn't support the HTML5 canvas element"
+            </canvas>
+            &nbsp&nbsp&nbsp&nbsp
+        </div>
+        <div id="intructions" style="display: inline-block; vertical-align: top">
+           <h2>Instructions:</h2>
+            <p>&nbsp&nbsp- <b>Q</b> and <b>W</b> keys to rotate the arm
+            </p>
+            <p>&nbsp&nbsp- <b>A</b> and <b>S</b> keys to rotate upper joint
+            </p>
+            <p>&nbsp&nbsp- <b>Z</b> and <b>X</b> keys to rotate lower joint
+            </p>
+            <p>&nbsp&nbsp- <b>O</b> and <b>P</b> keys to move the claws
+            </p>
+            <p>&nbsp&nbsp- <b>K</b> and <b>L</b> keys to rotate the hand
+            </p>
+            <p>&nbsp&nbsp- <b>Left Arrow (←)</b> key to move robot to the left
+            </p>
+            <p>&nbsp&nbsp- <b>Right Arrow (→)</b> key to move robot to the right
+            </p>
+            <p>&nbsp&nbsp- <b>Up Arrow (↑)</b> key to move robot forward
+            </p>
+            <p>&nbsp&nbsp- <b>Down Arrow (↓)</b> key to move robot backward
+            </p>
+        </div>
+    </div>
+    <div id="projection" style="display: inline-block">
+            &nbsp&nbsp <b>Projection</b> &nbsp&nbsp
+            </br>
+            &nbsp&nbsp Gamma angle &nbsp&nbsp<input id="gamma" type="range" min="0" max="90" step="1" value="19.4205368891236">
+            </br>
+            &nbsp&nbsp Theta angle &nbsp&nbsp<input id="theta" type="range" min="0" max="360" step="1" value="339.731932804673">
+    </div>
+    <div id="rendermode" style="display: inline-block">
+            &nbsp&nbsp <b>Render mode</b>
+            </br>
+            &nbsp&nbsp <select id="render">
+                        <option> Filled
+                        <option> Wire Frame
+                    </select>
+            </br></br></br>
+    </div>
+           
+</body>
+</html>
