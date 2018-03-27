@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="object_viewer.css">
+        
+        <script id="vertex-shader-1" type="x-shader/x-vertex">
+        attribute vec4 vPosition;
+        attribute vec4 vColor;
+        attribute vec3 vNormal;
+        uniform mat4 mProjection;
+        uniform mat4 mModelView;
+        uniform mat4 mNormals;
+        uniform float red;
+        uniform float green;
+        uniform float blue;
+        varying vec4 fColor;
+        
+        void main(){
+            gl_Position = mProjection * mModelView * vPosition;
+            float r = max(red, vPosition.x);
+            float g = max(green, vPosition.y);
+            float b = max(blue, vPosition.z);
+            fColor = vec4(r,g,b,1.0);
+        }
+        </script>
+        
+        <script id="fragment-shader-1" type="x-shader/x-fragment">
+        precision mediump float;
+        varying vec4 fColor;
+    
+        void main() {
+           gl_FragColor = fColor;
+        }
+        </script>  
+        
+        <script id="vertex-shader-2" type="x-shader/x-vertex"></script>
+        <script id="fragment-shader-2" type="x-shader/x-fragment"></script>
+        <script type="text/javascript" src="../Common/webgl-utils.js"></script>
+        <script type="text/javascript" src="../Common/initShaders.js"></script>
+        <script type="text/javascript" src="../Common/MV.js"></script>
+        <script type="text/javascript" src="../Common/sphere.js"></script>
+        <script type="text/javascript" src="../Common/cube.js"></script>
+        <script type="text/javascript" src="object_viewer.js"></script> 
+        <script type="text/javascript" src="quadPyramid.js"></script>
+        <script type="text/javascript" src="torus.js"></script>         
+    </head>
+    <body>
+       <div id="singlepagecontainer">
+            <div id="interfacearea">
+                <h1>&nbsp&nbsp&nbsp&nbsp&nbsp CGI - Object Viewer</h1>
+                <div id="objects"> 
+                    &nbsp&nbsp <b>Object</b> &nbsp&nbsp
+                    </br> 
+                    </br>
+                    &nbsp&nbsp <select id="obj">
+                        <option> Cube
+                        <option> Sphere
+                        <option> Quadrangular Pyramid
+                        <option> Torus
+                    </select>
+                    </br>
+                    &nbsp&nbsp Wire <input type="checkbox" id="wireDraw">
+                </div> 
+                </br> 
+                </br> 
+                </br>
+                <div id="projections"> 
+                    &nbsp&nbsp <b>Projection</b> &nbsp&nbsp
+                    </br> 
+                    </br>
+                    &nbsp&nbsp <select id="prj">
+                        <option>Oblique
+                        <option>Axonometric
+                        <option>Perspective
+                    </select>
+                </div>
+                <div id="obliquePrj">
+                    &nbsp&nbsp Foreshorten Ratio &nbsp&nbsp<input id="fRatio" type="range" min="0.0" max="1.0" step="0.05" value="1.0">
+                    </br>
+                    &nbsp&nbsp Angle &nbsp&nbsp<input id="oblAngle" type="range" min="0" max="360" step="0.01" value="45">
+                    </br> 
+                    </br>
+                    </br>
+                </div>
+                <div id="axonometricPrj">
+                    &nbsp&nbsp Gamma angle &nbsp&nbsp<input id="axoGamma" type="range" min="0" max="360" step="1" value="19.4205368891236">
+                    </br>
+                    &nbsp&nbsp Theta angle &nbsp&nbsp<input id="axoTheta" type="range" min="0" max="360" step="1" value="339.731932804673">
+                    </br>
+                    </br>
+                    </br>
+                </div>
+                <div id="perspectivePrj">
+                    &nbsp&nbsp Vanishing point &nbsp&nbsp<input id="persPoint" type="range" min="1.0" max="10.0" step="0.05" value="5.0">
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                </div>
+                <div id="colors">
+                    &nbsp&nbsp <b>Color</b>
+                    </br>
+                    &nbsp&nbsp Red factor &nbsp&nbsp<input id="redFactor" type="range" min="0.0" max="1.0" step="0.05" value="0.0">
+                    </br>
+                    &nbsp&nbsp Green factor &nbsp&nbsp<input id="greenFactor" type="range" min="0.0" max="1.0" step="0.05" value="0.0">
+                    </br>
+                    &nbsp&nbsp Blue factor &nbsp&nbsp<input id="blueFactor" type="range" min="0.0" max="1.0" step="0.05" value="0.0">
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                </div>
+                <div id="shaders">
+                    &nbsp&nbsp <b>Shaders</b>
+                    </br>
+                    </br>
+                    <div> &nbsp&nbsp Vertex &nbsp&nbsp<input type="file" id="vertex"></div>   
+                    </br>
+                    <div> &nbsp&nbsp Fragment &nbsp&nbsp<input type="file" id="fragment"></div>
+                    </br>
+                    <div> &nbsp&nbsp <input type="button" id="loadBtn" value="Load shaders">
+                          &nbsp&nbsp <input type="button" id="unloadBtn" value="Unload shaders">
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="viewarea">
+                <canvas id="gl-canvas">
+                    Oops... your browser doesn't support the HTML5 canvas element"
+                </canvas>      
+            </div>
+        </div>
+        
+    </body>
+</html>
+

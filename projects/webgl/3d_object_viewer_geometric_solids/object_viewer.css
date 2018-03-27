@@ -1,0 +1,29 @@
+html, body, #singlepagecontainer {
+    width: 100%;
+    min-height: 100%;
+    height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+#viewarea
+{
+	width: 67%;
+	min-height: 100%; /* I had only this */
+	height: 100%;     /* Insted of this... oops */
+	background-color: yellow;
+    float: right;
+}
+
+#gl-canvas
+{
+    width: 100%;
+    height: 100%;
+}
+
+#interfacearea
+{
+    width: 33%;
+    height: 100%;
+    float: left;
+}
