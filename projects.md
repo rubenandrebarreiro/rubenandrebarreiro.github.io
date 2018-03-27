@@ -1719,7 +1719,7 @@ active: My Projects
         <br>
             i) <b><i>Down Arrow (↓)</i></b> key to move <b>Robot</b> backward;
         <br>
-            j) Choose the pretended <b>Angles Factors</b> (<b><i>Theta;</i></b> and <b><i>Gamma</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
+            j) Choose the pretended <b>Angles Factors</b> (<b><i>Theta</i></b> and <b><i>Gamma</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
     </p>
 </font>    
 
