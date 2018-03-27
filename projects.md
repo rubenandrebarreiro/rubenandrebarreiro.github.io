@@ -1635,7 +1635,7 @@ active: My Projects
         <br>
             b) Choose the current <b><i>Fractal's Set</i></b> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
         <br>
-            c) Choose also the current <i>Factor</i> to the <i>Scale</i> of the current <b><i>Fractal</i></b> in use; llpl
+            c) Choose also the current <i>Factor</i> to the <i>Scale</i> of the current <b><i>Fractal</i></b> in use;
     </p>
 </font>    
 
