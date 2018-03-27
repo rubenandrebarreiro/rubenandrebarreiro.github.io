@@ -1725,7 +1725,7 @@ active: My Projects
     <a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows drive a flying Helicopter above a city, all using 3D Modelation and Objects, using the keyboard and seeing all the action of multiple angles, using an Axonometric Projection! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelation_helicopter/modelling_demo.html" title="3D Object Modelation Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to drive a flying Helicopter above a city, all using 3D Modelation and 3D Objects. The Helicopter it's drived using the keyboard and you can see all the action of multiple angles, using an Axonometric Projection! </a></font></p>
 
 <br>
 
