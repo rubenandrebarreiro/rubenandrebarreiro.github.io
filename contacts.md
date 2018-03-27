@@ -1531,11 +1531,7 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <style type="text/css">
-            @import url("https://use.fontawesome.com/releases/v5.0.8/css/all.css"); 
-        
-            <i class="fab fa-discord" title="Rúben André Barreiro on Discord" style="font-size:20px;color:CornflowerBlue"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro on Discord">Discord - ruben.barreiro.92</a></font>
-        </style>
+       
     </center>
 </div>
 
