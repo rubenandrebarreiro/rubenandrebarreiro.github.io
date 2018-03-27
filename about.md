@@ -242,27 +242,6 @@ active: About Me
     }
  }
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  @-webkit-keyframes wrench {
   0% {
     -webkit-transform: rotate(-12deg);
@@ -1131,11 +1110,7 @@ active: About Me
   -webkit-animation: burst 3s infinite linear;
   animation: burst 3s infinite linear;
 }
- 
- 
- 
- 
- 
+
 .androidHead {
   position: relative;
   height: 40px;
