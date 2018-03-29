@@ -1482,11 +1482,11 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">YouTube</a></font>
+        <a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram"><i class="fa fa-instagram" title="Rúben André Barreiro (BadNewz) on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram">Instagram</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
          
-        <a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram"><i class="fa fa-instagram" title="Rúben André Barreiro (BadNewz) on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram">Instagram</a></font>
+        <a target="_blank" href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">YouTube</a></font>
         
         <br>
         
