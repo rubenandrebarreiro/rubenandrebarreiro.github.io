@@ -1506,10 +1506,10 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
                 
-        <a target="_blank" href="someLink" style="text-decoration: none;color:Black">
+        <a target="_blank" href="someLink" style="text-decoration: none;font-size:20px;color:Black">
             <span class="icon-vsco" title="Rúben André Barreiro on VSCO" style="font-size:20px"></span>
         </a>
-        <a target="_blank" href="someLink">VSCO</a>
+        <font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">VSCO</a></font>
         
     </center>
 </div>
