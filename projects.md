@@ -1661,7 +1661,7 @@ active: My Projects
     <a target="_blank" href="/projects/webgl/3d_object_viewer_geometric_solids/object_viewer.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)</a>
 </font>
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_viewer_geometric_solids/object_viewer.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_viewer_geometric_solids/object_viewer.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to visualize multiple 3D Geometric Solids, viewed by multiple projections and angles. The application allows also, see the Geometric Solids in multiple colors and drawed in white Wired Lines in the canvas of the Browser! </a></font></p>
 
 <br>
 
