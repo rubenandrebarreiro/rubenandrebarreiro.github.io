@@ -1509,7 +1509,7 @@ active: My Contacts
         <a target="_blank" href="someLink" style="text-decoration: none;font-size:20px;color:Black">
             <span class="icon-vsco" title="Rúben André Barreiro on VSCO" style="font-size:20px"></span>
         </a>
-        <font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">VSCO</a></font>
+        <font size="1">&nbsp;<a target="_blank" href="someLink">VSCO</a></font>
         
     </center>
 </div>
