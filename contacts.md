@@ -1508,8 +1508,8 @@ active: My Contacts
                 
         <a target="_blank" href="someLink" style="text-decoration: none;color:Black">
             <span class="icon-vsco" title="Rúben André Barreiro on VSCO" style="font-size:20px"></span>
-            VSCO
         </a>
+        <a target="_blank" href="someLink">VSCO</a>
         
     </center>
 </div>
