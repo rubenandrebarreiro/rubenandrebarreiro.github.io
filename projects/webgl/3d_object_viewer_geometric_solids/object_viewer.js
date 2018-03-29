@@ -13,11 +13,27 @@ var redFactorLoc;
 var greenFactorLoc;
 var blueFactorLoc;
 
+var zBufferElem, backFaceCullingElem;
+
+var zBufferInUse = true;
+
 window.onload = function init() {
     // Get the canvas
     canvas = document.getElementById("gl-canvas");
     gl = WebGLUtils.setupWebGL(canvas);
     if (!gl) { alert("WebGL isn't available"); }
+    
+    // Initial Visibility Depth Control In Use
+    zBufferInUse = true;
+    backFaceCullingInUse = true;
+    var zBufferControl = document.getElementById('zBuffer');
+    zBufferControl.checked = true;
+    gl.enable(gl.DEPTH_TEST);
+    
+    var backFaceCullingControl = document.getElementById('backFaceCulling');
+    backFaceCullingControl.checked = true;
+    gl.enable(gl.CULL_FACE);
+    gl.cullFace(gl.BACK);
     
     gl.clearColor(0.3, 0.3, 0.3, 1.0);
     canvas.width = canvas.clientWidth;
@@ -37,16 +53,25 @@ window.onload = function init() {
     blueFactorLoc = gl.getUniformLocation(program, "blue");
 
     // Initialize objects
-    sphereInit(gl);
     cubeInit(gl);
+    sphereInit(gl);
     quadPyramidInit(gl);
     torusInit(gl);
+    coneInit(gl);
+    cylinderInit(gl);
     
     // Set event listeners
     handleWindowResize();
     handleWireChange();
     handleProjectionChange();
     handleColorFactor();
+    
+    zBufferElem = document.getElementById("zBuffer");
+    backFaceCullingElem = document.getElementById("backFaceCulling");
+    
+    zBufferElem.addEventListener("input", handleZBufferChange);
+    backFaceCullingElem.addEventListener("input", handleBackFaceCullingChange);
+    
     document.getElementById("vertex").onchange = load_file;
     document.getElementById("fragment").onchange = load_file;
     document.getElementById("loadBtn").onclick = function() { load_shaders(2); };  // wrapped on anonymous function to avoid onload call
@@ -55,8 +80,6 @@ window.onload = function init() {
     // Initialize matrices (mProjection initialized on windowResize event)
     mModelView = mat4();
     mNormals = transpose(inverse(mModelView));
-    
-    gl.enable(gl.DEPTH_TEST); 
     
     render();
 }
@@ -88,6 +111,30 @@ function handleWireChange()
         gl.uniform1f(blueFactorLoc, document.getElementById("blueFactor").value = v);
     };
 }
+
+function handleZBufferChange(e) {
+    if(this.checked) {
+        zBufferInUse = true;
+        gl.enable(gl.DEPTH_TEST);
+    }
+    else {
+        zBufferInUse = false;
+        gl.disable(gl.DEPTH_TEST);
+    }
+}
+
+function handleBackFaceCullingChange(e) {
+    if(this.checked) {
+        backFaceCullingInUse = true;
+        gl.enable(gl.CULL_FACE);
+        gl.cullFace(gl.BACK);
+    }
+    else {
+        backFaceCullingInUse = false;
+        gl.disable(gl.CULL_FACE);
+    }
+}
+
 
 function handleProjectionChange() 
 {
@@ -146,6 +193,16 @@ function drawObject()
                  torusDrawWireFrame(gl, program);
             else torusDrawFilled(gl, program);
             break;
+        case 4:
+            if (wired) 
+                 coneDrawWireFrame(gl, program);
+            else coneDrawFilled(gl, program);
+            break;
+        case 5:
+            if (wired) 
+                 cylinderDrawWireFrame(gl, program);
+            else cylinderDrawFilled(gl, program);
+            break;
         default:
             break;
     }
@@ -153,8 +210,12 @@ function drawObject()
 
 function render() 
 {
-    gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
-
+    if(zBufferInUse) {
+        gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+    }
+    else {
+        gl.clear(gl.COLOR_BUFFER_BIT);
+    }
     gl.uniformMatrix4fv(mProjectionLoc, false, flatten(mProjection));
     
     var ViewEnum = {
