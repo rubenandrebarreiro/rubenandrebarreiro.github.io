@@ -1676,7 +1676,7 @@ active: My Projects
         <br>
         d) Choose a custom color for the <i><b>3D Geometric Solid</b></i> in use, by adjusting the colors' factors;
         <br>
-        e) Upload custom <i>Vertex/Fragment Shaders</i>, to see the <i><b>3D Geometric Solid</b></i> in use, painted and iluminated in other ways;
+        e) Upload custom <i>Vertex/Fragment Shaders</i>, to see the <i><b>3D Geometric Solid</b></i> in use, painted and iluminated, in other ways;
     </p>
 </font>
 
