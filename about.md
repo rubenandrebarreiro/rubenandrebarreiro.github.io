@@ -1791,6 +1791,27 @@ active: About Me
   margin-left: -1em;
 }
 
+
+.icon-fct-unl .path1:before {
+  content: "\e958";
+  color: #fefefe;
+}
+.icon-fct-unl .path2:before {
+  content: "\e959";
+  color: #426bbc;
+  margin-left: -1em;
+}
+.icon-fct-unl .path3:before {
+  content: "\e95a";
+  color: #5abccd;
+  margin-left: -1em;
+}
+.icon-fct-unl .path4:before {
+  content: "\e95b";
+  color: #7bbc00;
+  margin-left: -1em;
+}
+
 </style>
 
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
@@ -1835,6 +1856,9 @@ active: About Me
     <li><p align="justify"><font size="3">
     <span class="icon-new-university-lisbon" title="Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018">
         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span><span class="path23"></span><span class="path24"></span><span class="path25"></span><span class="path26"></span><span class="path27"></span><span class="path28"></span><span class="path29"></span><span class="path30"></span><span class="path31"></span><span class="path32"></span><span class="path33"></span><span class="path34"></span><span class="path35"></span><span class="path36"></span><span class="path37"></span><span class="path38"></span><span class="path39"></span><span class="path40"></span><span class="path41"></span><span class="path42"></span><span class="path43"></span><span class="path44"></span><span class="path45"></span><span class="path46"></span><span class="path47"></span><span class="path48"></span><span class="path49"></span><span class="path50"></span><span class="path51"></span><span class="path52"></span><span class="path53"></span><span class="path54"></span><span class="path55"></span><span class="path56"></span><span class="path57"></span><span class="path58"></span><span class="path59"></span><span class="path60"></span><span class="path61"></span><span class="path62"></span><span class="path63"></span><span class="path64"></span><span class="path65"></span><span class="path66"></span><span class="path67"></span><span class="path68"></span><span class="path69"></span><span class="path70"></span><span class="path71"></span><span class="path72"></span><span class="path73"></span><span class="path74"></span><span class="path75"></span><span class="path76"></span><span class="path77"></span><span class="path78"></span><span class="path79"></span><span class="path80"></span><span class="path81"></span><span class="path82"></span><span class="path83"></span><span class="path84"></span><span class="path85"></span><span class="path86"></span><span class="path87"></span><span class="path88"></span>
+    </span>
+    <span class="icon-fct-unl" title="Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018">
+        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
     </span>
 </font>
 <a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica" title="Computer Science and Engineering at Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018"><b>BSc Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
