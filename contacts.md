@@ -1504,6 +1504,13 @@ active: My Contacts
         
         <a target="_blank" href="someLink"><i class="fa fa-500px" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">500px</a></font>
         
+        <font size="1">&nbsp;|&nbsp;</font>
+                
+        <a target="_blank" href="someLink" style="text-decoration: none;color:Black">
+            <span class="icon-vsco" title="Rúben André Barreiro on VSCO" style="font-size:20px"></span>
+            VSCO
+        </a>
+        
     </center>
 </div>
 
