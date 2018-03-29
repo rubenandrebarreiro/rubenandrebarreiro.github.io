@@ -1670,7 +1670,7 @@ active: My Projects
     <p align="justify">
         a) Choose the pretended <i>Visualization Options</i> (<i>Wired Draw</i>, or <i>Z-Buffer/Depth Test Method</i> and <i>Back Face Culling</i> for <i>Visibility Depth Control</i>) for the current <i><b>3D Geometric Solid</b></i> in use;
         <br>
-        b) Choose the current <i><b>3D Geometric Solid</b></i> in use from the available (<i>Cube</i>, <i>Sphere</i>, <i>Quandragular Pyramid</i>, <i>Torus</i>, <i>Cone</i> and <i>Cylinder</i>);
+        b) Choose the current <i><b>3D Geometric Solid</b></i> in use from the available (<i>Cube</i>, <i>Sphere</i>, <i>Quadrangular Pyramid</i>, <i>Torus</i>, <i>Cone</i> and <i>Cylinder</i>);
         <br>
         c) Choose the current projection in use from the available (<i>Oblique</i>, <i>Axonometric</i> and <i>Perspective</i>) and their settings/adjustments;
         <br>
