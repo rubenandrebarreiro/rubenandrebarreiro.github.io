@@ -1507,7 +1507,7 @@ active: My Contacts
         <font size="1">&nbsp;|&nbsp;</font>
                 
         <a target="_blank" href="http://vsco.co/ruben-badnewz/" style="text-decoration: none;font-size:20px;color:Black">
-            <span class="icon-vsco" title="Rúben André Barreiro on VSCO" style="font-size:20px"></span>
+            <span class="icon-vsco" title="Rúben André Barreiro (BadNewz Lifestyle) on VSCO" style="font-size:20px"></span>
         </a>
         <font size="1">&nbsp;<a target="_blank" href="http://vsco.co/ruben-badnewz/">VSCO</a></font>
         
