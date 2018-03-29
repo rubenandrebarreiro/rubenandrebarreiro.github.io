@@ -1661,16 +1661,22 @@ active: My Projects
     <a target="_blank" href="/projects/webgl/3d_object_viewer_geometric_solids/object_viewer.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)</a>
 </font>
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_viewer_geometric_solids/object_viewer.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to visualize multiple 3D Geometric Solids, viewed by multiple projections and angles. The application allows also, see the 3D Geometric Solids in multiple colors, drawed in white Wired lines and even, painted and iluminated by custom Vertex/Fragment Shaders that the user can upload, all this in the canvas of the Browser! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_viewer_geometric_solids/object_viewer.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to visualize multiple 3D Geometric Solids, viewed by multiple projections and angles. The application allows also, see the 3D Geometric Solids in multiple colors, drawed in white Wired lines and even, painted and iluminated by custom Vertex/Fragment Shaders that the user can upload to the application, all this in the canvas of the Browser! </a></font></p>
 
 <br>
 
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
+        a) Choose the pretended <i>Visualization Options</i> (<i>Wired Draw</i>, or <i>Z-Buffer/Depth Test Method</i> and <i>Back Face Culling</i> for <i>Visibility Depth Control</i>) for the current <i><b>3D Geometric Solid</b></i> in use;
         <br>
-            b) Choose the current Shape's color, by adjusting the colors' factors. And choose also the current Geometric Shape in use, the option to allow <i>Blur Edges</i> or, even the current direction (<i>Clock Direction</i> or the opposite) of the Geometric Shape;
+        b) Choose the current <i><b>3D Geometric Solid</b></i> in use from the available (<i>Cube</i>, <i>Sphere</i>, <i>Quandragular Pyramid</i>, <i>Torus</i>, <i>Cone</i> and <i>Cylinder</i>);
+        <br>
+        c) Choose the current projection in use from the available (<i>Oblique</i>, <i>Axonometric</i> and <i>Perspective</i>) and their settings/adjustments;
+        <br>
+        d) Choose a custom color for the <i><b>3D Geometric Solid</b></i> in use, by adjusting the colors' factors;
+        <br>
+        e) Upload custom <i>Vertex/Fragment Shaders</i>, to see the <i><b>3D Geometric Solid</b></i> in use, painted and iluminated in other ways;
     </p>
 </font>
 
