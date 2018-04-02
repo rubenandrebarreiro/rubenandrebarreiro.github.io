@@ -1482,13 +1482,17 @@ active: My Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
+        <a target="_blank" href="https://www.reddit.com/user/ruben_barreiro_92" title="Rúben André Barreiro (BadNewz) on Reddit"><i class="fa fa-reddit" title="Rúben André Barreiro (BadNewz) on Reddit" style="font-size:20px;color:Gray"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.reddit.com/user/ruben_barreiro_92" title="Rúben André Barreiro (BadNewz) on Reddit">Reddit</a></font>
+        
+        <br>
+        
         <a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram"><i class="fa fa-instagram" title="Rúben André Barreiro (BadNewz) on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/ruben.badnewz/" title="Rúben André Barreiro (BadNewz) on Instagram">Instagram</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
          
         <a target="_blank" href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">YouTube</a></font>
         
-        <br>
+        <font size="1">&nbsp;|&nbsp;</font>
         
         <a target="_blank" href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr"><i class="fa fa-tumblr" title="BadNewz Lifestyle on Tumblr" style="font-size:20px;color:MidnightBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr">Tumblr</a></font>
         
