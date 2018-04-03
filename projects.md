@@ -1821,85 +1821,85 @@ active: My Projects
 <p align="justify"><font size="2"><a target="_blank" href="/projects/research/hyrax-dice/presentation/hyrax-dice-presentation.html" title="Hyrax Project [DiCE - Distributed Collaborative Computing at the Edge] (FCT NOVA/NOVA-LINCS - between February 2017 and January 2018)">A 3rd year's scientific research and development project, of the BSc degree made in FCT NOVA, done between February 2017 and January 2018. This project it's called <b><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds).</i></b></a> This project it's based in the context of <b><i>Edge Computing</i></b>. I did this scientific research and development project, representing <a target="_blank" href="http://nova-lincs.di.fct.unl.pt/"><b>NOVA-LINCS</b> (<b>Departamento de Informática da Nova's Labs</b>)</a> and under the supervision of <a target="_blank" href="http://docentes.fct.unl.pt/p161/"><b><i>Prof. Hervé Paulino</i></b>.</a></font></p>
 
 <ul>
-    <li><p align="justify">This project, had also the collaboration of <a target="_blank" href="https://sigarra.up.pt/fcup/pt/web_page.inicial"><b>Faculdade de Ciências da Universidade do Porto</b></a> (<a target="_blank" href="https://www.inesctec.pt/en"><b>INESC TEC</b></a>/<a target="_blank" href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7"><b>CRACS - Centro de Sistemas de Computação Avançada</b></a>) and <a target="_blank" href="https://www.scs.cmu.edu/"><b>Carnegie Mellon University's School of Computer Science</b></a>;</p></li>
+    <li><p align="justify"><font size="2">This project, had also the collaboration of <a target="_blank" href="https://sigarra.up.pt/fcup/pt/web_page.inicial"><b>Faculdade de Ciências da Universidade do Porto</b></a> (<a target="_blank" href="https://www.inesctec.pt/en"><b>INESC TEC</b></a>/<a target="_blank" href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7"><b>CRACS - Centro de Sistemas de Computação Avançada</b></a>) and <a target="_blank" href="https://www.scs.cmu.edu/"><b>Carnegie Mellon University's School of Computer Science</b></a>;</font></p></li>
   <li><p align="justify">Websites/Links:</p></li>
   <ul>
     <li>
-    <p align="justify">1) Project's Website:</p>
+        <p align="justify"><font size="2">1) Project's Website:</font></p>
         <ul>
             <li>
-                <p align="justify"><a target="_blank" href="https://hyrax.dcc.fc.up.pt/">https://hyrax.dcc.fc.up.pt/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://hyrax.dcc.fc.up.pt/">https://hyrax.dcc.fc.up.pt/</a>;</font></p>
             </li>
         </ul>
     </li>
     <li>
-    <p align="justify">2) Universities' Websites:</p>
+        <p align="justify"><font size="2">2) Universities' Websites:</font></p>
         <ul>
             <li>
-                <p align="justify"><a target="_blank" href="https://www.fct.unl.pt/">https://www.fct.unl.pt/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://www.fct.unl.pt/">https://www.fct.unl.pt/</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="https://sigarra.up.pt/fcup/pt/web_page.inicial">https://sigarra.up.pt/fcup/pt/web_page.inicial</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://sigarra.up.pt/fcup/pt/web_page.inicial">https://sigarra.up.pt/fcup/pt/web_page.inicial</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="https://www.fc.up.pt/fcup/index.php">https://www.fc.up.pt/fcup/index.php</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://www.fc.up.pt/fcup/index.php">https://www.fc.up.pt/fcup/index.php</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="https://www.cmu.edu/">https://www.cmu.edu/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://www.cmu.edu/">https://www.cmu.edu/</a>;</font></p>
             </li>
         </ul>
     </li>
     <li>
-        <p align="justify">3) Universities' Laboratories' Websites:</p>
+        <p align="justify"><font size="2">3) Universities' Laboratories' Websites:</font></p>
         <ul>
             <li>
-                <p align="justify"><a target="_blank" href="http://nova-lincs.di.fct.unl.pt/">http://nova-lincs.di.fct.unl.pt/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="http://nova-lincs.di.fct.unl.pt/">http://nova-lincs.di.fct.unl.pt/</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="https://cracs.fc.up.pt/">https://cracs.fc.up.pt/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://cracs.fc.up.pt/">https://cracs.fc.up.pt/</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="http://www.cmuportugal.org/">http://www.cmuportugal.org/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="http://www.cmuportugal.org/">http://www.cmuportugal.org/</a>;</font></p>
             </li>
         </ul>
     </li>  
     <li>
-        <p align="justify">4) Academic, Industrial and Funding Partners' Websites:</p>
+        <p align="justify"><font size="2">4) Academic, Industrial and Funding Partners' Websites:</font></p>
         <ul>
             <li>
-                <p align="justify"><a target="_blank" href="http://www.geolink.pt/index.html">http://www.geolink.pt/index.html</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="http://www.geolink.pt/index.html">http://www.geolink.pt/index.html</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="http://www.yinzcam.com/">http://www.yinzcam.com/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="http://www.yinzcam.com/">http://www.yinzcam.com/</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="https://www.wavecom.pt/">https://www.wavecom.pt/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://www.wavecom.pt/">https://www.wavecom.pt/</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="https://www.it.pt/">https://www.it.pt/</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://www.it.pt/">https://www.it.pt/</a>;</font></p>
             </li>
             <li>
-                <p align="justify"><a target="_blank" href="https://www.fct.pt/index.phtml.pt">https://www.fct.pt/index.phtml.pt</a>;</p>
+                <p align="justify"><font size="2"><a target="_blank" href="https://www.fct.pt/index.phtml.pt">https://www.fct.pt/index.phtml.pt</a>;</font></p>
             </li>
         </ul>
     </li>
   </ul>        
-    <li><p align="justify">I worked in the Services' section of the <b><i>Hyrax Project</i></b>, most preciselly, developing a data structure (for <b><i>DiCE</i></b> section), to be replicated for <b><i>Mobile</i></b> and <b><i>Handheld Devices</i></b>, in a notion of collaborative network, using <b><i>Crowd-Sourcing</i></b> features and shifting all the data processing and information services closer to the final users;</p></li>
-  <li><p align="justify"><b><i>Abstract</i></b>:</p>
+  <li><p align="justify"><font size="2">I worked in the Services' section of the <b><i>Hyrax Project</i></b>, most preciselly, developing a data structure (for <b><i>DiCE</i></b> section), to be replicated for <b><i>Mobile</i></b> and <b><i>Handheld Devices</i></b>, in a notion of collaborative network, using <b><i>Crowd-Sourcing</i></b> features and shifting all the data processing and information services closer to the final users;</font></p></li>
+  <li><p align="justify"><font size="2"><b><i>Abstract</i></b>:</font></p>
     <ul>
-        <li><p align="justify"><b><i>Edge Computing</i></b> proposes the shifting of (some) computing tasks from centralized <b><i>Cloud</i></b> services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may offload or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to <b><i>Churn</i></b>. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates <b><i>Churn</i></b> efficiently;</p></li>
+        <li><p align="justify"><font size="2"><b><i>Edge Computing</i></b> proposes the shifting of (some) computing tasks from centralized <b><i>Cloud</i></b> services to closer to the user, taking advantage of the computing and storage power of personal computers and hand-held devices. Accordingly, computation will be typically performed collaboratively by multiple nodes, which, depending on their current load, may offload or take computation to/from their peers. Moreover, nodes may dynamically join or leave the network, forcing the system to be resilient to <b><i>Churn</i></b>. This paper presents a system for collaborative distributed computing in a network of heterogeneous nodes. The system builds on a replicated, distributed and eventually consistent queue of tasks, that requires little coordination. We evaluate our proposal in the context of mobile computing, demonstrating that our solution scales linearly and tolerates <b><i>Churn</i></b> efficiently;</font></p></li>
     </ul>
   </li>
-  <li><p align="justify"><b><i>Keywords</i></b>:</p>
+  <li><p align="justify"><font size="2"><b><i>Keywords</i></b>:</font></p>
     <ul>
-        <li><p align="justify">Edge/Fog Computing, Distributed Computing, Mobile Computing, Network Computation of Mobile Devices at the Edge, Mobile Devices Replication, Replicate Data Structures, Eventual Consistency;</p></li>
+        <li><p align="justify"><font size="2">Edge/Fog Computing, Distributed Computing, Mobile Computing, Network Computation of Mobile Devices at the Edge, Mobile Devices Replication, Replicate Data Structures, Eventual Consistency;</font></p></li>
     </ul>
   </li>
   <li>
-      <p align="justify">Documents of <b><i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i></b>, in 2018:</p>
+      <p align="justify"><font size="2">Documents of <b><i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i></b>, in 2018:</font></p>
       <ul>
-        <li><p align="justify"><a target="_blank" href="/projects/research/hyrax-dice/report-article/hyrax-dice-report-article.pdf"> LaTeX Article/Paper (Portuguese Version)</a>;</p></li>
-        <li><p align="justify"><a target="_blank" href="/projects/research/hyrax-dice/presentation/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
+          <li><p align="justify"><font size="2"><a target="_blank" href="/projects/research/hyrax-dice/report-article/hyrax-dice-report-article.pdf"> LaTeX Article/Paper (Portuguese Version)</a>;</font></p></li>
+          <li><p align="justify"><font size="2"><a target="_blank" href="/projects/research/hyrax-dice/presentation/hyrax-dice-presentation.pdf"> Final Presentation</a>;</font></p></li>
       </ul>
   </li>
 </ul>
