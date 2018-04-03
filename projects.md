@@ -1897,7 +1897,7 @@ active: My Projects
   <li>
       <p align="justify">Documents of <b><i>NOVA-LINCS' Hyrax Project (DiCE - Distributive Collaborative Computing at the Edge)</i></b>, in 2018:</p>
       <ul>
-        <li><p align="justify"><a target="_blank" href="/projects/research/hyrax-dice/report-article/hyrax-dice-report-article.pdf"> LaTeX Article/Paper</a>;</p></li>
+        <li><p align="justify"><a target="_blank" href="/projects/research/hyrax-dice/report-article/hyrax-dice-report-article.pdf"> LaTeX Article/Paper (Portuguese Version)</a>;</p></li>
         <li><p align="justify"><a target="_blank" href="/projects/research/hyrax-dice/presentation/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
       </ul>
   </li>
