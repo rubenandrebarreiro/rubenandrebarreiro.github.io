@@ -1819,7 +1819,7 @@ active: My Projects
 </font>   
 
 <p align="justify"><font size="2"><a target="_blank" href="/projects/research/hyrax-dice/presentation/hyrax-dice-presentation.html" title="Hyrax Project [DiCE - Distributed Collaborative Computing at the Edge] (FCT NOVA - between February 2017 and January 2018)">A 3rd year's scientific research and development project, of the BSc degree made in FCT NOVA, done between February 2017 and January 2018. This project it's called <b><i>Hyrax Project (Crowd-Sourcing Mobile Devices to Develop Edge Clouds).</i></b></a> This project it's based in the context of <b><i>Edge Computing</i></b>. I did this scientific research and development project, representing <a target="_blank" href="http://nova-lincs.di.fct.unl.pt/"><b>NOVA-LINCS</b> (<b>Departamento de Informática da Nova's Labs</b>)</a> and with the supervision of <a target="_blank" href="http://docentes.fct.unl.pt/p161/"><b><i>Prof. Hervé Paulino</i></b>.
-<ul>
+<!--<ul>
     <li><p align="justify">This project, had also the collaboration of <a target="_blank" href="https://sigarra.up.pt/fcup/pt/web_page.inicial"><b>Faculdade de Ciências da Universidade do Porto</b></a> (<a target="_blank" href="https://www.inesctec.pt/en"><b>INESC TEC</b></a>/<a target="_blank" href="https://www.inesctec.pt/en/centres/advanced-computing-systems-7"><b>CRACS - Centro de Sistemas de Computação Avançada</b></a>) and <a target="_blank" href="https://www.scs.cmu.edu/"><b>Carnegie Mellon University's School of Computer Science</b></a>;</p></li>
   <li><p align="justify">Websites/Links:</p></li>
   <ul>
@@ -1901,7 +1901,7 @@ active: My Projects
         <li><p align="justify"><a target="_blank" href="/projects/research/hyrax-dice/presentation/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
       </ul>
   </li>
-</ul>
+</ul>-->
 
-[![3DObjectModellingHelicopter]({{ site.images | relative_url }}/projects/hyraxprojectbanner.jpg)]({{ site.images | relative_url }}/projects/hyraxprojectbanner.jpg)
-<p style="font-size:11px"><i>3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</i></p>
+[![HyraxProjectBanner]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)
+<p style="font-size:11px"><i>Hyrax Project (DiCE - Distributed Collaborative Computing at the Edge) (FCT NOVA - between February 2017 and January 2018)</i></p>
