@@ -1903,5 +1903,5 @@ active: My Projects
   </li>
 </ul>
 
-[![HyraxProjectBanner]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)
-<p style="font-size:11px"><i>Hyrax Project (DiCE - Distributed Collaborative Computing at the Edge) (FCT NOVA - between February 2017 and January 2018)</i></p>
+[![3DObjectModellingHelicopter]({{ site.images | relative_url }}/projects/hyraxprojectbanner.jpg)]({{ site.images | relative_url }}/projects/hyraxprojectbanner.jpg)
+<p style="font-size:11px"><i>3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</i></p>
