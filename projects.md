@@ -1607,7 +1607,7 @@ active: My Projects
     <i>My Projects</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-briefcase fa-stack-1x faa-vertical animated"></i>
+        <i class="fa fa-briefcase fa-stack-1x faa-wrench animated"></i>
     </span>
 </h2>
 <hr/>
