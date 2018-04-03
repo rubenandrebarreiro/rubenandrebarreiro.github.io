@@ -1901,5 +1901,6 @@ active: My Projects
         <li><p align="justify"><a target="_blank" href="/projects/research/hyrax-dice/presentation/hyrax-dice-presentation.pdf"> Final Presentation</a>;</p></li>
       </ul>
   </li>
+    
 [![HyraxProjectBanner]({{ site.images | relative_url }}/projects/hyraxprojectbanner.jpg)]({{ site.images | relative_url }}/projects/hyraxprojectbanner.jpg)
 <p style="font-size:11px"><i>Hyrax Project [DiCE - Distributed Collaborative Computing at the Edge] (FCT NOVA - between February 2017 and January 2018)</i></p>
