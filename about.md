@@ -1907,7 +1907,7 @@ active: About Me
     "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <a target="_blank" href="https://en.wikipedia.org/wiki/Charlie_Chaplin"><b><i>Charlie Chaplin</i></b></a>
 </p>
 
-<a target="_blank" title="Download Rúben André Barreiro's Resume" href="/documents/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resume 📝</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Resume" href="/documents/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Resumé 📝</b></button></a>
 <a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae" href="/docs/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
 
 
