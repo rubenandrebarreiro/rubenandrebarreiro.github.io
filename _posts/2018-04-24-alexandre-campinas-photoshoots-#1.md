@@ -106,10 +106,6 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 [![AlexandreCampinas15April2018Photoshoots19]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)
 <br>
 
-## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#20
-[![AlexandreCampinas15April2018Photoshoots20]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_20.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_20.jpg)
-<br>
-
 <p align="justify">By: Alexandre Campinas Photography</p>
 
 <br>
