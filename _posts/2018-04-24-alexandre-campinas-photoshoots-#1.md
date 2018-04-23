@@ -26,7 +26,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">During the photosession, it was little difficult to me, because it was my first time and initially, I didn't feel so comfortable (And perhaps, little shy) posing in the front of the camera. But was told me to relax and don't think too much about that. So I tried to keep calm, relaxed and pretend to be the most natural possible for the camera's len.</p>
 
-<p align="justify">As the camera shoots some flashes, I'm started to gain some self confidence, enjoying each posing that I was making and everything starts to go fine. The final results are awesome and I loved too much the experience. For me was my first photosession and modeling experience, but don't will be the last, for sure! And for some of you, that want to start some project in the modeling area ou simply want to do something new, just by curiosity, I advise you to try it, you wouldn't regret, trust me!</p>
+<p align="justify">As the camera shoots some flashes, I'm started to gain some self confidence, enjoying each posing that I was making and everything starts to go fine. The final results are awesome and I loved too much the experience. For me was my first photosession and modeling experience, but don't will be the last, for sure! And for some of you, that want to start some project in the modeling area or simply want to do something new, just by curiosity, I advise you to try it, you wouldn't regret, trust me!</p>
 
 <p align="justify">The final results of the photossession are the following:</p>
 
