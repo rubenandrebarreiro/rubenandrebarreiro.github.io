@@ -30,7 +30,10 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">The final results of the photossession are the following:</p>
 
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set`#1
+[![ValentinesCard1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)
 <br>
+
 
 <p align="justify">By: Alexandre Campinas Photography</p>
 
