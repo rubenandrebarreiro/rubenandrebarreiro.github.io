@@ -1,15 +1,15 @@
 ---
 bg: "photo4.jpg"
 layout: post
-title:  "Alexandre Campinas Photoshoots #1 (15/04/2018):"
+title:  "Alexandre Campinas Photoshoots #1 (15/04/2018)"
 crawlertitle: "Alexandre Campinas Photoshoots #1"
 summary: "Studio Photoshoots by Alexandre Campinas Photography!"
-date:   2018-03-22 14:04:28 +0000
+date:   2018-04-24 12:20:53 +0000
 categories: posts
 tags: ['photoshoots','photography','modeling','fashion','style','brands','clothing','blogging']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
-<p align="justify">Alexandre Campinas Photoshoots #1 (15/04/2018):</p>
+<p align="justify">Hello again everyone! I'm here to share with you, my first studio photoshoots. It was an amazing experience and for me an I hope repeat it in the future! 😍</p>
 
 [![AlexandreCampinasPhotoshootsBanner1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/Alexandre_Campinas_Photoshoots_Banner_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/Alexandre_Campinas_Photoshoots_Banner_1.jpg)
 
