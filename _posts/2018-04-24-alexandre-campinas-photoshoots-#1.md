@@ -36,7 +36,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <br>
 
-<p align="justify">I will also share with you, the contacts of the photographer:</p>
+<p align="justify">PS - I will also share with you, the contacts of the photographer:</p>
 
 <br>
 
