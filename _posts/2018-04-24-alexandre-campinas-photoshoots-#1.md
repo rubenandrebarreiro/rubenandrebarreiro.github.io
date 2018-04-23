@@ -9,7 +9,7 @@ categories: posts
 tags: ['photoshoots','photography','modeling','fashion','style','brands','clothing','blogging']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
-<p align="justify">Hello again everyone! I'm here to share with you, my first studio photoshoots. It was an amazing experience and for me an I hope repeat it in the future! 😍</p>
+<p align="justify">Hello again everybody! I'm here to share with you, my first studio photoshoots. It was an amazing experience and for me an I hope repeat it in the future! 😍</p>
 
 [![AlexandreCampinasPhotoshootsBanner1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/Alexandre_Campinas_Photoshoots_Banner_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/Alexandre_Campinas_Photoshoots_Banner_1.jpg)
 
