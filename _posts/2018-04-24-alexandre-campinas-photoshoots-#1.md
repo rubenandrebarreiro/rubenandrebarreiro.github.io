@@ -30,10 +30,85 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">The final results of the photossession are the following:</p>
 
-## `Alexandre Campinas Photoshoots (15/04/2018) - Set`#1
-[![ValentinesCard1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#1
+[![AlexandreCampinas15April2018Photoshoots1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)
 <br>
 
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#2
+[![AlexandreCampinas15April2018Photoshoots2]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_2.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_2.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#3
+[![AlexandreCampinas15April2018Photoshoots3]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_3.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_3.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#4
+[![AlexandreCampinas15April2018Photoshoots4]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_4.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_4.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#5
+[![AlexandreCampinas15April2018Photoshoots5]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_5.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_5.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#6
+[![AlexandreCampinas15April2018Photoshoots6]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_6.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_6.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#7
+[![AlexandreCampinas15April2018Photoshoots7]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_7.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_7.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#8
+[![AlexandreCampinas15April2018Photoshoots8]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_8.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_8.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#9
+[![AlexandreCampinas15April2018Photoshoots9]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_9.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_9.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#10
+[![AlexandreCampinas15April2018Photoshoots10]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_10.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_10.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#11
+[![AlexandreCampinas15April2018Photoshoots11]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_11.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_11.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#12
+[![AlexandreCampinas15April2018Photoshoots12]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_12.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_12.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#13
+[![AlexandreCampinas15April2018Photoshoots13]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_13.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_13.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#14
+[![AlexandreCampinas15April2018Photoshoots14]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_14.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_14.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#15
+[![AlexandreCampinas15April2018Photoshoots15]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_15.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_15.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#16
+[![AlexandreCampinas15April2018Photoshoots16]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_16.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_16.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#17
+[![AlexandreCampinas15April2018Photoshoots17]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_17.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_17.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#18
+[![AlexandreCampinas15April2018Photoshoots18]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_18.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_18.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#19
+[![AlexandreCampinas15April2018Photoshoots19]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)
+<br>
+
+## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#20
+[![AlexandreCampinas15April2018Photoshoots20]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_20.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_20.jpg)
+<br>
 
 <p align="justify">By: Alexandre Campinas Photography</p>
 
