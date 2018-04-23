@@ -16,19 +16,31 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <hr>
 <br>
 
-<p align="justify">Suddenly, you realize that your cycle of true friendships is smaller than you imagined, and the most of them are the same people you kept from your childhood, because how more we grow older, it's hardest to trust in someone.</p>
+<p align="justify"></p>
 
-<p align="justify">You look to the side and see that the people who passed in your life are already married, working, with the family constituted... They took other paths! And all of them for far away from you...</p>
+<p align="justify">This is something that I was thinking for a long time and it's something that I always want to try. As I have some ideas and ambitions in fashion area, and I always loved photography, I decided to do some photoshoots in studio... (Because it was too much cold outside!!! 😅)</p>
 
-<p align="justify">When someone ask you about have children, the first thing that comes to your mind is that you don't even have pacience to care about yourself, so you will have even less pacience to care about a child. You ask yourself, "How can I be over 20 and still have pimples?". You look at the mirror, realize that the time has passed and that your appearance has changed. Not much... However, sometimes it will seem that yes.</p>
+<p align="justify">I'm starting a blogger lifestyle, so I needed some photos to publish in my social networks' pages. The first step was to choose the clothes for the photoshoots. For me that was too easy because I'm so interested in fashion world and I'm always aware to the new trendings and looks!</p>
 
-<p align="justify">The weight of what you still need is very important. It becomes difficult to organize the time for your friends ("Let's date out a day of these?"). Work, college, dating... The crowds seem increasingly boring to you and your room more and more comforting. You realize that all the trips you planned, are not yet done... And you still be happy when you found some coins in the pockets of your pants!</p>
+<p align="justify">The second step was to choose if the photosession would be made in the exterior or in the studio. I choose to do it in the studio, because as the main idea it's to advertise some fashion brands and styles, and currently, it's taking place the spring season (and it was cold and raining that day), I decided to use their Spring collections in the studio.</p>
 
-<p align="justify">A thousand of questions and few certainties... But, at the end of everything, you realize you are still yourself... Better than you was a day and much smaller than you will be tomorrow!</p>
+<p align="justify">During the photosession, it was little difficult to me because it was my first time and initially, I didn't feel so confortable posing in the front of the camera. But was told me to relax and don't think too much about that. So I tried to keep calm, relaxed and to be most natural possible for the camera's len.</p>
+
+<p align="justify">As the camera shoots some flashes, I'm started to gain some self confidence, enjoying each posing that I was making and everything starts to go fine. The final results are awesome and I loved too much the experience. For me was my first photosession and modeling experience, but don't will be the last, for sure! And for some of you, that want to start some project in the modeling area, I advise you to try it, You wouldn't regret, trust me!</p>
+
+<p align="justify">The final results of the photossession are the following:</p>
 
 <br>
 
-<p align="justify">By: João Filipe Araújo</p>
+<p align="justify">By: Alexandre Campinas Photography</p>
+
+<br>
+
+<p align="justify">I will also share with you, the contacts of the photographer:</p>
+
+<br>
+
+<p align="justify">CONTACTS</p>
 
 <br>
 
@@ -36,5 +48,5 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
     - Rúben André Barreiro,
     <br>
     &nbsp;
-    March 22, 2018.
+    April 24, 2018.
 </i>
