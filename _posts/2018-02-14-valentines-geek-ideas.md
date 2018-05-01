@@ -2,7 +2,7 @@
 bg: "photo4.jpg"
 layout: post
 title:  "28 Geeky Valentine's Card Ideas That Will Make Your Valentine's Day Perfect!"
-crawlertitle: "28 Geeky Valentine's Cards"
+crawlertitle: "Rúben André Barreiro's Blog - 28 Geeky Valentine's Cards"
 summary: "Some Creative, Original And Geeky Valentine's Cards That Will Make Your Valentine's Day Be Perfect And Will Make Your Soulmate's Heart Melt!"
 date:   2018-02-14 11:26:47 +0000
 categories: posts

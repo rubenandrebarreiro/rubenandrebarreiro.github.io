@@ -3,9 +3,9 @@ bg: "photo4.jpg"
 layout: page
 permalink: /posts/
 title: "Archive"
-crawlertitle: "All articles"
-summary: "Posts about jekyll"
-active: archive
+crawlertitle: "Rúben André Barreiro's Blog - All Posts"
+summary: "All My Posts"
+active: Archive
 ---
 
 {% for tag in site.tags %}
