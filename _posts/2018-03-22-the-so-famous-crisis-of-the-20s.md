@@ -2,7 +2,7 @@
 bg: "photo4.jpg"
 layout: post
 title:  "The So Famous Crisis Of The 20s / A Tão Famosa Crise Dos 20 e Poucos Anos"
-crawlertitle: "The So Famous Crisis Of The 20s"
+crawlertitle: "Rúben André Barreiro's Blog - The So Famous Crisis Of The 20s"
 summary: "A Poem From João Filipe Araújo!"
 date:   2018-03-22 14:04:28 +0000
 categories: posts
