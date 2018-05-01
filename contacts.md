@@ -1,11 +1,11 @@
 ---
 bg: "photo2.jpg"
 layout: default
-title: "My Contacts"
+title: "Contacts"
 crawlertitle: "Rúben André Barreiro's Blog - My Contacts"
 permalink: /contacts/
 summary: "My Personal Contacts"
-active: My Contacts
+active: Contacts
 ---
 
 <style>
