@@ -1466,7 +1466,7 @@ active: Contacts
         
         <br>
         
-        <a target="_blank" href="someLink"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">Wordpress</a></font>
+        <a target="_blank" href="https://badnewz-lifestyle.com/"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.com/">Wordpress</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         

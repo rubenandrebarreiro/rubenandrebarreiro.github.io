@@ -2,7 +2,7 @@
 bg: "photo2.jpg"
 layout: default
 title: "Projects"
-crawlertitle: "Rúben André Barreiro's Blog - Projects"
+crawlertitle: "Rúben André Barreiro's Blog - My Projects"
 permalink: /projects/
 summary: "My Personal Academic Projects"
 active: Projects
