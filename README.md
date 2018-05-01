@@ -71,3 +71,5 @@ If your blog is not in the root directory, you can include images with a relativ
 Build for production:
 
 `JEKYLL_ENV=production jekyll build`
+
+![Logo](http://francky.me/images/quora001.png)
