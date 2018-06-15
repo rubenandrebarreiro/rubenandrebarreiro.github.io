@@ -110,7 +110,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <br>
 
-<p align="justify">P.S.: - I will also share with you, the contacts of the photographer:</p>
+<p align="justify">P.S.: - I will also share with you, the contacts of the photographer.</p>
 
 <br>
 
