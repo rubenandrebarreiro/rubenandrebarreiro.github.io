@@ -114,7 +114,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <br>
 
-<p align="justify">CONTACTS:</p>
+<b><p align="justify">CONTACTS:</p></b>
 <p align="justify">Website: <a target="_blank" href="http://www.alexandrecampinas.pt/">http://www.alexandrecampinas.pt/</a></p>
 <p align="justify">Facebook: <a target="_blank" href="https://www.facebook.com/alexandre.campinas.photography/">https://www.facebook.com/alexandre.campinas.photography/</a></p>
 <p align="justify">Instagram: <a target="_blank"
