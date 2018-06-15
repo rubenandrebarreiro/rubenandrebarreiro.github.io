@@ -114,7 +114,9 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <br>
 
-<p align="justify">CONTACTS</p>
+<p align="justify">CONTACTS:</p>
+<p align=""><a href="http://www.alexandrecampinas.pt">http://www.alexandrecampinas.pt</a></p>
+
 
 <br>
 
