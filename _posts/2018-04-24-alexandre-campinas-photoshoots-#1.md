@@ -106,6 +106,14 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 [![AlexandreCampinas15April2018Photoshoots19]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)
 <br>
 
+<p align="justify">From the highlights of the photosession, was choosed 42 final photos, 40 photos with basic editions (light, contrast, hue and saturation) and 2 with special editions (removal of face imperfections, acne and blemishes, per example).</p>
+
+<p align="justify">Posteriorly, as I have some photo edition skills, I also made some personal photo editions on the final photos.</p>
+
+<p align="justify">The final result from the photos collection of photosession, was the following:</p>
+
+
+
 <p align="justify">By: Alexandre Campinas Photography</p>
 
 <br>
