@@ -110,7 +110,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">Posteriorly, as I have some photo edition skills, I also made some personal photo editions on the final photos.</p>
 
-<p align="justify">The final result from the photos collection of photosession, was the following:</p>
+<p align="justify">The final result from the photos' collection of photosession, was the following:</p>
 
 
 
