@@ -57,7 +57,6 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <p align="justify"><i>- "Vem, dá-me a tua mão. Chega aqui, perto de mim e deixa-me cantar baixinho: Se eu pudesse eu queria outra vez, mãe... Começar tudo, tudo de novo…"</i></p>
 
 <br>
-<br>
 
 <p align="justify">Por: Fabíola Simões (Adaptado)</p>
 
