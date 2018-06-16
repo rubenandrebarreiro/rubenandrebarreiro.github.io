@@ -1,5 +1,5 @@
 ---
-bg: "photo4.jpg"
+bg: "photo19.jpg"
 layout: post
 title:  "Alexandre Campinas Photoshoots #1"
 crawlertitle: "Rúben André Barreiro's Blog - Alexandre Campinas Photoshoots #1"
