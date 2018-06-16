@@ -16,15 +16,27 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <hr>
 <br>
 
-<p align="justify">Suddenly, you realize that your cycle of true friendships is smaller than you imagined, and the most of them are the same people you kept from your childhood, because how more we grow older, it's hardest to trust in someone.</p>
+<p align="justify">One of the sweetest memories of my childhood is the voice of my mother in the church lobby we used to attend, enlivening the catechism children with their usual songs. She was the coordinator of the catechists, and although I resented the narrow possibility of having her alone, I was proud to see her so dynamic, cheerful and confident.</p>
 
-<p align="justify">You look to the side and see that the people who passed in your life are already married, working, with the family constituted... They took other paths! And all of them for far away from you...</p>
+<p align="justify">The years passed and we changed parish, city and life. I grew up, matured and farewell. But every once in a while I hear the familiar tune, and I see my mother again in her mid-thirties, gesturing and begging to sing more enthusiastically. From time to time I anticipate the longing that I will have one day and I am moved to remember the independent, safe and very loving woman that she still is.</p>
 
-<p align="justify">When someone ask you about have children, the first thing that comes to your mind is that you don't even have pacience to care about yourself, so you will have even less pacience to care about a child. You ask yourself, "How can I be over 20 and still have pimples?". You look at the mirror, realize that the time has passed and that your appearance has changed. Not much... However, sometimes it will seem that yes.</p>
+<p align="justify">The biggest nostalgia we'll ever feel in our lives is our mother's longing. For life has incomprehensible ways, and everything is arranged in the lap of a mother. In a word sweet or even bitter, like coffee without sugar. But still, in the certainty that soon, everything will be all right.</p>
 
-<p align="justify">The weight of what you still need is very important. It becomes difficult to organize the time for your friends ("Let's date out a day of these?"). Work, college, dating... The crowds seem increasingly boring to you and your room more and more comforting. You realize that all the trips you planned, are not yet done... And you still be happy when you found some coins in the pockets of your pants!</p>
+<p align="justify">To miss our mothers is to miss ourselves. For a mother is a reminder. Mother teaches us that even if life walks, that we get good or bad experiences, that we stiffen with the tumbles and fissures, yet there will always be a song inside us reminding us that life does not have to be hard to teach us something, that love and tolerance are also effective ways for us to grow and learn.</p>
 
-<p align="justify">A thousand of questions and few certainties... But, at the end of everything, you realize you are still yourself... Better than you was a day and much smaller than you will be tomorrow!</p>
+<p align="justify">Mother is the voice that does not come out within us, even though we have accumulated a lot of time throughout our life, money in the bank, many studies and specializations. For behind every air-conditioned cabinet and every knot in the tie, there is a woman who has already scolded us, ordered us to shave the plate, and reminded us to take our coat before we left.</p>
+
+<p align="justify">Mother is a partner at the right times and also in the uncertain times. It is shoulder in regrets and constructive criticism in the wrong choices. Mother is censorship and also tenderness, smell of affection and reminder of "swallows crying", abundant intuition and ceaseless prayer.</p>
+
+<p align="justify">As we remember our mothers, we remember who we were. For the construction and lapidation of our existence is confused with ancient sounds calling at the gate, the smell of familiar perfume sprinkled on the wrists, the recollection of cleaning the bed and taking off our feet from the sofa, whistling in tune, washed clothing and delicacy in the form of care.</p>
+
+<p align="justify">There is no greater nostalgia than the mother's longing. For the mother changes her house, but she does not leave us. Mother changes state, but does not turn off. Mother realizes that her son has grown, but does not give up. Mother stamps passport, but does not leave close.</p>
+
+<p align="justify">The time my mother sang in the catechesis was in the past, along with my eight years of age and many memories. Today, after so much ground, many hits and mistakes, separations and restarts, losses and gains, she thrilled us singing in the choir of the Military Circle of the city that she chose to live in. I anticipate the longing that I will feel, absorbing every shake of the present and trying to repeat with my son, the construction of memories, just as she did with me and my brothers. I know it will be my greatest longing, the lack that I will feel every day, and so I insist on feeling grateful and supported by his soft voice, his tight embrace, his sweet smell and his tender kiss.</p>
+
+<p align="justify">Today I would like to dedicate a song from my childhood. It's all so far away, but the chorus still echoes in my ears:</p>
+
+<p align="justify">"Come, give me your hand. Come here, close to me and let me sing softly: If I could, I wanted to do it again, Mother ... Start everything, all over again..."</p>
 
 <br>
 
