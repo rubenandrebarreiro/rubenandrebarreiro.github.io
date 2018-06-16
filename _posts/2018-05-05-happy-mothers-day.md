@@ -2,14 +2,14 @@
 bg: "photo24.jpg"
 layout: post
 title:  "Happy Mother's Day / Feliz Dia da Mãe"
-crawlertitle: "The biggest longing we will feel it's when we miss our mothers... Because then, we miss ourselves!  / A maior saudade que nós vamos sentir na vida é a saudade da mãe… Pois, é saudade de nós mesmos!"
-summary: "Poem from a Son to her Mother"
+crawlertitle: "Rúben André Barreiro's Blog - The biggest longing we will feel it's when we miss our mothers... Because then, we miss ourselves! Happy Mother's Day!"
+summary: "A Poem From Fabíola Simões!"
 date:   2018-05-05 21:37:23 +0000
 categories: posts
 tags: ['poems','mother','mum','son','longings','life','love','blogging']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
-<p align="justify">Hello again everybody! I'm here to share with you, my first studio photoshoots. It was an amazing experience and for me and I hope repeat it in the future! 😍</p>
+<p align="justify">Happy Mother's Day! / Feliz Dia da Mãe!</p>
 
 [![MotherAndSon1]({{ site.images | relative_url }}/happy_mothers_day/Mother_And_Son_1.jpg)]({{ site.images | relative_url }}/happy_mothers_day/Mother_And_Son_1.jpg)
 
