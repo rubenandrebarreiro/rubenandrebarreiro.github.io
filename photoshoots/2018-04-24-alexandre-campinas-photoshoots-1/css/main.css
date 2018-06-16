@@ -99,6 +99,17 @@
         right: 0;
     }
 
+    #loader-wrapper .loader-section.section-loading {
+        display: block;
+        position: relative;
+        left: 46.5%;
+        top: 65%;
+        width: 150px;
+        height: 150px;
+        margin: -75px 0 0 -75px;
+        border: 3px solid transparent;
+    }
+
     /* Loaded */
     .loaded #loader-wrapper .loader-section.section-left {
         -webkit-transform: translateX(-100%);  /* Chrome, Opera 15+, Safari 3.1+ */
