@@ -28,7 +28,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <br>
 
-<p align="justify">By: João Filipe Araújo</p>
+<p align="justify">By: Fabíola Simões (Adapted)</p>
 
 <br>
 <hr>
