@@ -1,7 +1,7 @@
 ---
 bg: "photo4.jpg"
 layout: post
-title:  "Alexandre Campinas Photoshoots #1 (15/04/2018)"
+title:  "Alexandre Campinas Photoshoots #1"
 crawlertitle: "Rúben André Barreiro's Blog - Alexandre Campinas Photoshoots #1"
 summary: "Studio Photoshoots by Alexandre Campinas Photography!"
 date:   2018-04-24 12:20:53 +0000
