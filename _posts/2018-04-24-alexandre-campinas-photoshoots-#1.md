@@ -110,7 +110,10 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">Posteriorly, as I have some photo edition skills, I also made some personal photo editions on the final photos.</p>
 
+<br>
+
 <p align="justify">The final result from the photos' collection of photosession, was the following:</p>
+
 <p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-alexandre-campinas-photoshoots-1/highlights.html">- Spring Photosession 2018 - by Alexandre Campinas Photography</a></p>
 
 <br>
