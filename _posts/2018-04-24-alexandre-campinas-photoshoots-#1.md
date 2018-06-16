@@ -106,15 +106,15 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 [![AlexandreCampinas15April2018Photoshoots19]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)
 <br>
 
-<p align="justify">From the highlights of the photosession, was choosed 42 final photos, 40 photos with basic editions (light, contrast, hue and saturation) and 2 with special editions (removal of face imperfections, acne and blemishes, per example).</p>
+<p align="justify">From the highlights of the photosession, was choosed <b>42 final photos</b>, 40 photos with <i><u>basic editions</u></i> (<i><b>light, contrast, hue and saturation</b></i>) and 2 with <i><u>special editions</u></i> (<i><b>removal of face imperfections, acne and blemishes</b></i>, per example).</p>
 
 <p align="justify">Posteriorly, as I have some photo edition skills, I also made some personal photo editions on the final photos.</p>
 
 <br>
 
-<p align="justify">The final result from the photos' collection of photosession, was the following:</p>
+<p align="justify"><b>The final result from the photos' collection of photosession, was the following:</b></p>
 
-<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-alexandre-campinas-photoshoots-1/highlights.html">- Spring Photosession 2018 - by Alexandre Campinas Photography</a></p>
+<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-alexandre-campinas-photoshoots-1/highlights.html"><b><i>- Spring Photosession 2018 - by Alexandre Campinas Photography</i></b></a></p>
 
 <br>
 
