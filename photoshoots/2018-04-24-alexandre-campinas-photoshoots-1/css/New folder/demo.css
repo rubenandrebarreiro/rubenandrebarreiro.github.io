@@ -82,7 +82,7 @@ pre{
 }
 .inner{
 	padding:10px;
-	background:transparent url(../images/black.png) repeat top left;
+	background:transparent url(../imgs/black.png) repeat top left;
 }
 
 .more ul{
@@ -134,10 +134,10 @@ pre{
 	padding: 2px 18px 2px 9px;
 }
 .snippet span.down{
-	background: #000 url(../images/arrow.png) no-repeat 98% 50%;
+	background: #000 url(../imgs/arrow.png) no-repeat 98% 50%;
 }
 .snippet span.up{
-	background: #000 url(../images/arrow_up.png) no-repeat 98% 50%;
+	background: #000 url(../imgs/arrow_up.png) no-repeat 98% 50%;
 }
 .snippet pre{
 	display:none;
@@ -151,10 +151,10 @@ pre{
 	cursor:pointer;
 }
 .hide{
-	background:transparent url(../images/hide.png) no-repeat center center;
+	background:transparent url(../imgs/hide.png) no-repeat center center;
 }
 .show{
-	background:transparent url(../images/show.png) no-repeat center center;
+	background:transparent url(../imgs/show.png) no-repeat center center;
 }
 .loadmore{
 	display:none;
