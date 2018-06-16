@@ -28,7 +28,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">As the camera shoots some flashes, I'm started to gain some self confidence, enjoying each posing that I was making and everything starts to go fine. The final results are awesome and I loved too much the experience. For me was my first photosession and modeling experience, but don't will be the last, for sure! And for some of you, that want to start some project in the modeling area or simply want to do something new, just by curiosity, I advise you to try it, you wouldn't regret, trust me!</p>
 
-<p align="justify">The highlights of the photosession are the following, resulting in a total of 284 photos without any edition:</p>
+<p align="justify"><b>The highlights of the photosession are the following, resulting in a total of 284 photos without any edition:</b></p>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#1
 [![AlexandreCampinas15April2018Photoshoots1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)
