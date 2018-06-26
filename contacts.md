@@ -1397,7 +1397,7 @@ active: Contacts
     <font size="2"><b>
         ♏ 90's | 🎂 25 years | 🏠 From Lisbon, PT | 📍 Living in Oporto, PT
         <br>
-        🎓 BSc @ FCT NOVA, PT
+        🎓 BSc @ FCT NOVA, PT | 🎓 MSc @ FEUP, PT
         <br>
         💻 Computer Science Engineer | 👨‍💻 IT/IS Programmer & Technician
         <br>
