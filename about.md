@@ -1813,7 +1813,7 @@ active: About Me
 }
 
 .icon-university-porto:before {
-  content: "\e95e";
+  content: "\e95d";
 }
 
 </style>
