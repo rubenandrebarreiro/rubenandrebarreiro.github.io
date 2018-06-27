@@ -1875,7 +1875,7 @@ active: About Me
 	 <li><p align="justify"><font size="4">
     <span class="icon-university-porto" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
     </span>
-    <font size="3">
+    <font size="2">
     <span class="icon-feup" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"></span>
     </font>
 </font>
