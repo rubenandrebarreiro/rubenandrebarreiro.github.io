@@ -1870,16 +1870,16 @@ active: About Me
         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
     </span>
 </font>        
-<a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica" title="Computer Science and Engineering at Faculty of Sciences and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2018 and 2020"><b>BSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Sciences and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
+<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="Computer Science and Engineering at Faculty of Sciences and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2018 and 2020"><b>BSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Sciences and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
 
 	 <li><p align="justify"><font size="4">
-    <span class="icon-university-porto" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
+    <span class="icon-university-porto" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
     </span>
     <font size="1">
-    <span class="icon-feup" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"></span>
+    <span class="icon-feup" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"></span>
     </font>
 </font>
-<a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
+<a target="_blank" href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Informatics and Computation Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
 </ul>
 
 <br>
