@@ -1868,7 +1868,7 @@ active: About Me
 <a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica" title="Computer Science and Engineering at Faculty of Sciences and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2018 and 2020"><b>BSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Sciences and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
 
 	 <li><p align="justify"><font size="5">
-    <span class="icon-university-porto" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"></span>
+    <span class="icon-university-porto" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
     </span>
     <span class="icon-fct-unl" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
