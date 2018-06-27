@@ -1875,11 +1875,9 @@ active: About Me
 	 <li><p align="justify"><font size="4">
     <span class="icon-university-porto" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
     </span>
-    &nbsp;
     <font size="1">
     <span class="icon-feup" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"></span>
     </font>
-    &nbsp;
 </font>
 <a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
 </ul>
