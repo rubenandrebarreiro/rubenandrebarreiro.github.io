@@ -1816,6 +1816,281 @@ active: About Me
   content: "\e95d";
 }
 
+.icon-feup .path1:before {
+  content: "\e95e";
+  color: #a63621;
+}
+.icon-feup .path2:before {
+  content: "\e95f";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path3:before {
+  content: "\e960";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path4:before {
+  content: "\e961";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path5:before {
+  content: "\e962";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path6:before {
+  content: "\e963";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path7:before {
+  content: "\e964";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path8:before {
+  content: "\e965";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path9:before {
+  content: "\e966";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path10:before {
+  content: "\e967";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path11:before {
+  content: "\e968";
+  color: #ae4430;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path12:before {
+  content: "\e969";
+  color: #b85b4a;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path13:before {
+  content: "\e96a";
+  color: #b85b4a;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path14:before {
+  content: "\e96b";
+  color: #b85b4a;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path15:before {
+  content: "\e96c";
+  color: #b85b4a;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path16:before {
+  content: "\e96d";
+  color: #b85b4a;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path17:before {
+  content: "\e96e";
+  color: #b85b4a;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path18:before {
+  content: "\e96f";
+  color: #bd6757;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path19:before {
+  content: "\e970";
+  color: #bd6757;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path20:before {
+  content: "\e971";
+  color: #bd6757;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path21:before {
+  content: "\e972";
+  color: #bd6757;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path22:before {
+  content: "\e973";
+  color: #bd6757;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path23:before {
+  content: "\e974";
+  color: #bd6757;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path24:before {
+  content: "\e975";
+  color: #c07162;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path25:before {
+  content: "\e976";
+  color: #c07162;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path26:before {
+  content: "\e977";
+  color: #c07162;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path27:before {
+  content: "\e978";
+  color: #c07162;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path28:before {
+  content: "\e979";
+  color: #c07162;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path29:before {
+  content: "\e97a";
+  color: #c07162;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path30:before {
+  content: "\e97b";
+  color: #c77d70;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path31:before {
+  content: "\e97c";
+  color: #c77d70;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path32:before {
+  content: "\e97d";
+  color: #c77d70;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path33:before {
+  content: "\e97e";
+  color: #c77d70;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path34:before {
+  content: "\e97f";
+  color: #c77d70;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path35:before {
+  content: "\e980";
+  color: #c77d70;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path36:before {
+  content: "\e981";
+  color: #ddb4ac;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path37:before {
+  content: "\e982";
+  color: #ddb4ac;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path38:before {
+  content: "\e983";
+  color: #ddb4ac;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path39:before {
+  content: "\e984";
+  color: #ddb4ac;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path40:before {
+  content: "\e985";
+  color: #ddb4ac;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path41:before {
+  content: "\e986";
+  color: #e6c4bd;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path42:before {
+  content: "\e987";
+  color: #e6c4bd;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path43:before {
+  content: "\e988";
+  color: #e6c4bd;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path44:before {
+  content: "\e989";
+  color: #e6c4bd;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path45:before {
+  content: "\e98a";
+  color: #e6c4bd;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path46:before {
+  content: "\e98b";
+  color: #ecd2ce;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path47:before {
+  content: "\e98c";
+  color: #ecd2ce;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path48:before {
+  content: "\e98d";
+  color: #ecd2ce;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path49:before {
+  content: "\e98e";
+  color: #ecd2ce;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path50:before {
+  content: "\e98f";
+  color: #ecd2ce;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path51:before {
+  content: "\e990";
+  color: #fefefe;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path52:before {
+  content: "\e991";
+  color: #fefefe;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path53:before {
+  content: "\e992";
+  color: #fefefe;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path54:before {
+  content: "\e993";
+  color: #fefefe;
+  margin-left: -2.845703125em;
+}
+.icon-feup .path55:before {
+  content: "\e994";
+  color: #fefefe;
+  margin-left: -2.845703125em;
+}
+
 </style>
 
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
@@ -1870,8 +2145,8 @@ active: About Me
 	 <li><p align="justify"><font size="5">
     <span class="icon-university-porto" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
     </span>
-    <span class="icon-fct-unl" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
-        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+    <span class="icon-feup" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020">
+        <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span><span class="path23"></span><span class="path24"></span><span class="path25"></span><span class="path26"></span><span class="path27"></span><span class="path28"></span><span class="path29"></span><span class="path30"></span><span class="path31"></span><span class="path32"></span><span class="path33"></span><span class="path34"></span><span class="path35"></span><span class="path36"></span><span class="path37"></span><span class="path38"></span><span class="path39"></span><span class="path40"></span><span class="path41"></span><span class="path42"></span><span class="path43"></span><span class="path44"></span><span class="path45"></span><span class="path46"></span><span class="path47"></span><span class="path48"></span><span class="path49"></span><span class="path50"></span><span class="path51"></span><span class="path52"></span><span class="path53"></span><span class="path54"></span><span class="path55"></span>
     </span>
 </font>
 <a target="_blank" href="https://www.fct.unl.pt/ensino/curso/mestrado-integrado-em-engenharia-informatica" title="Computer Science and Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
