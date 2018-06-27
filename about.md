@@ -1881,6 +1881,7 @@ active: About Me
     </font>
 </font>
 <a target="_blank" href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Informatics and Computation Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
+<li>(projects' screenshots, diploma, transcript)</li>
 </ul>
 
 <br>
