@@ -1858,7 +1858,7 @@ active: About Me
 
 <p align="justify">I did a lot of sports in my life because it's something that I'm addicted to. I did swimming, when I was kid, between 1998 and 2002, at <b>S. F. U. A. P.</b> (<b>Sociedade Filarmónica União Artística Piedense</b>), in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>. I did soccer at <b>Monte de Caparica Atlético Clube</b>, in <b>Monte de Caparica</b>, <b>Almada</b>, in 2010, where I played as goalkeeper. I did weight training at some gyms, like <b>Girassus Club</b>, in <b>Barrocas</b>/<b>Cova da Piedade</b>, <b>Almada</b>, in 2008, <b>Ginásio Transformers</b>, in the center of <b>Almada</b>, in 2011 and <b>Ginásio Super Olímpia</b>, in <b>Laranjeiro</b>, <b>Almada</b>, in 2015. 🏋️ ⚽</p>
     
-<p align="justify">Related to my education, I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>High School of Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012. After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
+<p align="justify">Related to my education, I attended a <b>Professional Course of Technician of Programming and Management of Computer Systems</b> at <b>High School of Monte de Caparica</b>, in <b>Almada</b>, between 2009 and 2012 (projects' screenshots, final project's screenshots, certification, diploma). After that, I decided to keep learning and got enter into the universities/colleges' world! 🤓 📚 </p>
 
 <p align="justify">My current academic journey at universities/colleges, until the moment, is: 👨‍🎓 🎓</p>
 <ul>
