@@ -1883,7 +1883,7 @@ active: About Me
 <a target="_blank" href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Informatics and Computation Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
     <ul>
         <li>
-            <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook - FEUP</a>
+            <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook</a>
             
             <font size="1">&nbsp;|&nbsp;</font>
         
@@ -1892,6 +1892,14 @@ active: About Me
             <font size="1">&nbsp;|&nbsp;</font>
 
             <a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter"><i class="fa fa-twitter" title="FEUP on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter">Twitter</a>
+
+            <font size="1">&nbsp;|&nbsp;</font>
+
+            <a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub"><i class="fa fa-github" title="FEUP on GitHub" style="font-size:20px;color:Black"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub">GitHub</a>
+
+            <font size="1">&nbsp;|&nbsp;</font>
+
+            <a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram"><i class="fa fa-instagram" title="FEUP on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram">Instagram</a>
 
             <br>
             
