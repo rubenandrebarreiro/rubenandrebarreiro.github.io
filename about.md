@@ -1873,19 +1873,19 @@ active: About Me
 <a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="Computer Science and Engineering at Faculty of Sciences and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2018 and 2020"><b>BSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Sciences and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
     <ul>
         <li>
-            <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook</a>
+            <a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
             
             <font size="3">&nbsp;|&nbsp;</font>
         
-            <a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn">LinkedIn</a>
+            <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
 
             <font size="3">&nbsp;|&nbsp;</font>
 
-            <a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter"><i class="fa fa-twitter" title="FEUP on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter">Twitter</a>
+            <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
 
             <font size="3">&nbsp;|&nbsp;</font>
 
-            <a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram"><i class="fa fa-instagram" title="FEUP on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram">Instagram</a>
+            <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
 
         </li>
     
