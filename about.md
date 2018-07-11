@@ -1883,17 +1883,17 @@ active: About Me
 <a target="_blank" href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Informatics and Computation Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
     <ul>
         <li>
-            <a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook"><i class="fa fa-facebook-official" title="BadNewz Lifestyle on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook">Facebook - BadNewz Lifestyle</a></font>
+            <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook - FEUP</a>
             
             <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn"><i class="fa fa-linkedin" title="Rúben André Barreiro on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn">LinkedIn</a></font>
-        
-        <font size="1">&nbsp;|&nbsp;</font>
-        
-        <a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter"><i class="fa fa-twitter" title="Rúben André Barreiro (BadNewz) on Twitter" style="font-size:20px;color:Cyan"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter">Twitter</a></font>
-        
-        <br>
+            <a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn">LinkedIn</a>
+
+            <font size="1">&nbsp;|&nbsp;</font>
+
+            <a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter"><i class="fa fa-twitter" title="FEUP on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter">Twitter</a>
+
+            <br>
             
         </li>
         
