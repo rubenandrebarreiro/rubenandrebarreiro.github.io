@@ -1395,9 +1395,9 @@ active: Contacts
     <h3>Rúben André Barreiro</h3>
     
     <font size="2"><b>
-        ♏ 90's | 🎂 25 years | 🏠 From Lisbon, PT | 📍 Living in Oporto, PT
+        ♏ 90's | 🎂 25 years | 🏠 From Lisbon, PT | 📍 Living in Porto, PT
         <br>
-        🎓 BSc @ FCT NOVA, PT | 🎓 MSc @ FEUP, PT
+        🎓 BSc. @ FCT NOVA, PT | 🎓 MSc. @ FEUP, PT
         <br>
         💻 Computer Science Engineer | 👨‍💻 IT/IS Programmer & Technician
         <br>

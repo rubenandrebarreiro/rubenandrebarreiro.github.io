@@ -1881,7 +1881,24 @@ active: About Me
     </font>
 </font>
 <a target="_blank" href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Informatics and Computation Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
-<ul><li>(projects' screenshots, Master's thesis, diploma, transcript)</li></ul>
+    <ul>
+        <li>
+            <a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook"><i class="fa fa-facebook-official" title="BadNewz Lifestyle on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook">Facebook - BadNewz Lifestyle</a></font>
+            
+            <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn"><i class="fa fa-linkedin" title="Rúben André Barreiro on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn">LinkedIn</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter"><i class="fa fa-twitter" title="Rúben André Barreiro (BadNewz) on Twitter" style="font-size:20px;color:Cyan"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter">Twitter</a></font>
+        
+        <br>
+            
+        </li>
+        
+        <li>(Projects' Screenshots, Master's Thesis, Diploma, Transcript)</li>
+    </ul>
 </ul>
 
 <br>
@@ -1975,7 +1992,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;Skills learned at the <b>BSc Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;Skills learned at the <b>BSc. Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
