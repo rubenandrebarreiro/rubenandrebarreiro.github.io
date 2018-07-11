@@ -1885,10 +1885,6 @@ active: About Me
 
             <font size="1">&nbsp;|&nbsp;</font>
 
-            <a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub"><i class="fa fa-github" title="FEUP on GitHub" style="font-size:20px;color:Black"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub">GitHub</a>
-
-            <font size="1">&nbsp;|&nbsp;</font>
-
             <a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram"><i class="fa fa-instagram" title="FEUP on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram">Instagram</a>
 
             <br>
