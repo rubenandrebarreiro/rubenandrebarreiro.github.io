@@ -1877,10 +1877,10 @@ active: About Me
     <span class="icon-university-porto" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (P&oacute;lo Universit&aacute;rio - Paranhos/Porto Campus, FEUP), between 2018 and 2020">
     </span>
     <font size="1">
-    <span class="icon-feup" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (Paranhos/Porto Campus, FEUP), between 2018 and 2020"></span>
+    <span class="icon-feup" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (P&oacute;lo Universit&aacute;rio - Paranhos/Porto Campus, FEUP), between 2018 and 2020"></span>
     </font>
 </font>
-<a target="_blank" href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (P&oacute;lo Universit&aacute;rio - Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Informatics and Computation Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
+<a target="_blank" href="https://sigarra.up.pt/feup/en/CUR_GERAL.CUR_VIEW?pv_curso_id=742" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (P&oacute;lo Universit&aacute;rio - Paranhos/Porto Campus, FEUP), between 2018 and 2020"><b>MSc. Degree</b> in <b>Informatics and Computation Engineering</b> at <b>Faculty of Engineering of University of Porto</b> (<b>P&oacute;lo Universit&aacute;rio - Paranhos/Porto Campus, FEUP</b>)</a>, between 2018 and 2020; ✔️</p></li>
     <ul>
         <li>
             <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook</a>
