@@ -1871,7 +1871,32 @@ active: About Me
     </span>
 </font>        
 <a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="Computer Science and Engineering at Faculty of Sciences and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2018 and 2020"><b>BSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Sciences and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
-    <ul><li>(projects' screenshots, Scientific Research project, diploma, transcript)</li></ul>
+    <ul>
+        <li>
+            <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook</a>
+            
+            <font size="1">&nbsp;|&nbsp;</font>
+        
+            <a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn">LinkedIn</a>
+
+            <font size="1">&nbsp;|&nbsp;</font>
+
+            <a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter"><i class="fa fa-twitter" title="FEUP on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter">Twitter</a>
+
+            <font size="1">&nbsp;|&nbsp;</font>
+
+            <a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub"><i class="fa fa-github" title="FEUP on GitHub" style="font-size:20px;color:Black"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub">GitHub</a>
+
+            <font size="1">&nbsp;|&nbsp;</font>
+
+            <a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram"><i class="fa fa-instagram" title="FEUP on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram">Instagram</a>
+
+            <br>
+            
+        </li>
+    
+        <li>(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)</li>
+    </ul>
 
 	 <li><p align="justify"><font size="4">
     <span class="icon-university-porto" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (P&oacute;lo Universit&aacute;rio - Paranhos/Porto Campus, FEUP), between 2018 and 2020">
