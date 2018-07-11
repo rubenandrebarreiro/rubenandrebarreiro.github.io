@@ -1922,7 +1922,7 @@ active: About Me
             
         </li>
         
-        <li>(Projects' Screenshots, Master's Thesis, Diploma, Transcript)</li>
+        <li>(Projects' Screenshots, Scientific Research Project, Master's Thesis, Diploma, Transcript)</li>
     </ul>
 </ul>
 
