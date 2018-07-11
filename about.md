@@ -1879,16 +1879,14 @@ active: About Me
         
             <a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn">LinkedIn</a>
 
-            <font size="1">&nbsp;|&nbsp;</font>
+            <font size="3">&nbsp;|&nbsp;</font>
 
             <a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter"><i class="fa fa-twitter" title="FEUP on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter">Twitter</a>
 
-            <font size="1">&nbsp;|&nbsp;</font>
+            <font size="3">&nbsp;|&nbsp;</font>
 
             <a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram"><i class="fa fa-instagram" title="FEUP on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram">Instagram</a>
 
-            <br>
-            
         </li>
     
         <li>(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)</li>
@@ -1906,23 +1904,21 @@ active: About Me
         <li>
             <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook</a>
             
-            <font size="1">&nbsp;|&nbsp;</font>
+            <font size="3">&nbsp;|&nbsp;</font>
         
             <a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn">LinkedIn</a>
 
-            <font size="1">&nbsp;|&nbsp;</font>
+            <font size="3">&nbsp;|&nbsp;</font>
 
             <a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter"><i class="fa fa-twitter" title="FEUP on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/feup_porto/" title="FEUP on Twitter">Twitter</a>
 
-            <font size="1">&nbsp;|&nbsp;</font>
+            <font size="3">&nbsp;|&nbsp;</font>
 
             <a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub"><i class="fa fa-github" title="FEUP on GitHub" style="font-size:20px;color:Black"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://github.com/FEUP/" title="FEUP on GitHub">GitHub</a>
 
-            <font size="1">&nbsp;|&nbsp;</font>
+            <font size="3">&nbsp;|&nbsp;</font>
 
             <a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram"><i class="fa fa-instagram" title="FEUP on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/feup_porto/" title="FEUP on Instagram">Instagram</a>
-
-            <br>
             
         </li>
         
