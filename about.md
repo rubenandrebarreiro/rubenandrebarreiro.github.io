@@ -1875,7 +1875,7 @@ active: About Me
         <li>
             <a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook"><i class="fa fa-facebook-official" title="FEUP on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/paginafeup/" title="FEUP on Facebook">Facebook</a>
             
-            <font size="1">&nbsp;|&nbsp;</font>
+            <font size="2">&nbsp;|&nbsp;</font>
         
             <a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/feup/" title="Faculdade de Engenharia da Universidade do Porto on LinkedIn">LinkedIn</a>
 
