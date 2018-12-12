@@ -1,4 +1,4 @@
-# Rúben André Letra Barreiro's Portfolio
+# Rúben André Letra Barreiro | Portfolio
 
 A **web-based portfolio** designed and developed to illustrate some of **my academic and professional works**.
 
