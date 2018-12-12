@@ -1839,7 +1839,7 @@ active: About Me
 
 <p align="justify">My name is <b>Rúben André Letra Barreiro</b>. And I'm <b>Computer Science Engineer</b> and <b>IT/IS Programmer/Technician</b>! 👨‍💻 💻</p>
 
-<p align="justify">I'm <b>25 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
+<p align="justify">I'm <b>26 years old</b>. The <b>90's</b> are the best generation ever, believe it! 🎂 🎈</p>
 
 <br>
 
