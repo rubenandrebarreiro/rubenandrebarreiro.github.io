@@ -6,8 +6,8 @@ Here will be shown some of **my academic and professional works**, as some of **
 
 Brief description about important information which will be addressed in this portfolio:
 
-- Academic projects developed during my **Integrated Master (BSc. and MSc.) degree at FCT NOVA**;
-- Scientific research projects developed during my **Integrated Master (BSc. and MSc.) degree at FCT NOVA**;
+- Academic projects developed during my **Integrated Master (BSc. and MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/) and [FEUP](https://sigarra.up.pt/feup/pt/web_page.inicial)**;
+- Scientific research projects developed during my **Integrated Master (BSc. and MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/) and [FEUP](https://sigarra.up.pt/feup/pt/web_page.inicial)**;
 - **Hard skills** and **soft skills** learned, as also, all the **full competences**, acquired during my academic process;
 - Personal **photography's works**;
 - Personal **modeling photoshoot's works**;
