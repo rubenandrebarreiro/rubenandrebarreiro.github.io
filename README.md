@@ -1,73 +1,31 @@
-## Voyager
+# Rúben André Letra Barreiro's Portfolio
 
-Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
+A **web-based portfolio** designed and developed to illustrate some of **my academic and professional works**.
 
-### Feathures:
+Here will be shown some of **my academic and professional works**, as some of **my photography and modeling photoshoot's works**, among many others.
 
-All HTML files are compressed (see `_layouts/compress.html`).
+Brief description about important information which will be addressed in this portfolio:
 
-**Post**
+- Academic projects developed during my **Integrated Master (BSc. and MSc.) degree at FCT NOVA**;
+- Scientific research projects developed during my **Integrated Master (BSc. and MSc.) degree at FCT NOVA**;
+- **Hard skills** and **soft skills** learned, as also, all the **full competences**, acquired during my academic process;
+- Personal **photography's works**;
+- Personal **modeling photoshoot's works**;
 
-All post settings can be changed. Example:
+Finally, will be described some of my personal story's background and some curiosities about it.
 
-```
----
-layout: post
-bg: '2016/background.jpg'
-title: "Post Heading"
-crawlertitle: "page title"
-summary: "post description"
-date: 2016-06-29
-tags : ['front-end']
-slug: post-url
-author: "Author"
-categories: posts
----
-```
 
-`bg` is a path to background of your article. By default backgrounds are placed in the `assets/images` directory.
+_Thank you very much,_
+<br>
+_Kind regards!_
 
-**Page**
+**_Rúben André Letra Barreiro_**
 
-If page contains `active` tag, it will be show on site menu.
+## Contacts
 
-```
----
-layout: page
-title: "About"
-permalink: /about/
-active: about
----
-```
+* **Personal e-mails:** [ruben.barreiro.92@outlook.com](mailto:ruben.barreiro.92@outlook.com) | [ruben.barreiro.92@gmail.com](mailto:ruben.barreiro.92@gmail.com) | [rubenbarreiro92@yahoo.com](mailto:rubenbarreiro92@yahoo.com)
+* **Mobile phone:** +351 911 097 424
 
-**Archive**
+###### Notes
 
-Archive page is sorting posts by tags. No more than one tag in one post.
-
-Good:
-
-```
-tags : ['front-end']
-```
-
-Bad:
-
-```
-tags : ['front-end', 'jekyll']
-```
-
-Don't forget to change `_config.yml`.
-
-**Relative paths**
-
-If your blog is not in the root directory, you can include images with a relative path. For example:
-
-```
-![my_image]({{ site.images | relative_url }}/image.jpg)
-```
-
-## Production environment
-
-Build for production:
-
-`JEKYLL_ENV=production jekyll build`
+- Inspired in a Jekyll theme. Demo: <http://redvi.github.io/voyager>
