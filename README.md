@@ -13,7 +13,7 @@ Brief description about important information which will be addressed in this po
 - Personal **modeling photoshoot's works**;
 
 Finally, will be described some of my personal story's background and some curiosities about it.
-
+I hope you enjoy it!
 
 _Thank you very much,_
 <br>
