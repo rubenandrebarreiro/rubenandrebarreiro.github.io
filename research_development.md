@@ -8,16 +8,6 @@ summary: "Research & Development"
 active: Research & Development
 ---
 
----
-bg: "photo18.jpg"
-layout: default
-title: "Projects"
-crawlertitle: "Rúben André Barreiro's Blog - My Projects"
-permalink: /projects/
-summary: "My Personal Academic Projects"
-active: Projects
----
-
 <style>
 .button {
     background-color: #CCCCCC; /* Medium Grey */
@@ -1618,23 +1608,6 @@ active: Projects
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-briefcase fa-stack-1x faa-search animated"></i>
-    </span>
-</h2>
-<hr/>
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<link rel="stylesheet" href="/font-mfizz/font-mfizz.css">
-<link rel="stylesheet" href="/apps-brands-social-icons/style.css">
-<link rel="stylesheet" href="/projects/colleges-universities-icons/style.css">
-
-<h2 id="emails">
-    <i>My Projects</i>
-    <span class="fa-stack">
-        <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-briefcase fa-stack-1x faa-wrench animated"></i>
     </span>
 </h2>
 <hr/>
