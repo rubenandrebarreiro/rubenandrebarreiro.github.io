@@ -1,11 +1,11 @@
 ---
 bg: "photo18.jpg"
 layout: default
-title: "Research & Development"
+title: "R&D"
 crawlertitle: "Rúben André Barreiro's Blog - My Research & Development Projects"
 permalink: /research_development/
 summary: "Research & Development"
-active: R&D
+active: Research & Development
 ---
 
 <style>
