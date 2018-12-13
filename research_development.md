@@ -5,7 +5,7 @@ title: "Research & Development"
 crawlertitle: "Rúben André Barreiro's Blog - My Research & Development Projects"
 permalink: /research_development/
 summary: "Research & Development"
-active: Research & Development
+active: R&D
 ---
 
 <style>
