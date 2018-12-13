@@ -8,5 +8,5 @@ summary: "My Photoshoot's Works"
 active: Photoshoots
 ---
 
-<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-alexandre-campinas-photoshoots-1/highlights.html">- Spring Photosession 2018 - by Alexandre Campinas Photography (on April 08, 2018)</a></p>
-<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-09-17-david-oliveira-photoshoots-1/highlights.html">- Summer Photosession 2018 - by David Oliveira Photography (on September 17, 2018)</a></p>
+<p align="justify"><a href="../../photoshoots/2018-04-24-alexandre-campinas-photoshoots-1/highlights.html">- Spring Photosession 2018 - by Alexandre Campinas Photography (on April 08, 2018)</a></p>
+<p align="justify"><a href="../../photoshoots/2018-09-17-david-oliveira-photoshoots-1/highlights.html">- Summer Photosession 2018 - by David Oliveira Photography (on September 17, 2018)</a></p>
