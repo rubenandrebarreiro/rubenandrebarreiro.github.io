@@ -8,7 +8,68 @@ summary: "Research & Development"
 active: Research & Development
 ---
 
+---
+bg: "photo18.jpg"
+layout: default
+title: "Projects"
+crawlertitle: "Rúben André Barreiro's Blog - My Projects"
+permalink: /projects/
+summary: "My Personal Academic Projects"
+active: Projects
+---
+
 <style>
+.button {
+    background-color: #CCCCCC; /* Medium Grey */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #CCCCCC; /* Medium Grey */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonDocument {
+    border-radius: 12px;
+}
+
+.loadingSuspensionPoints span {
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation-duration: 2.4s;
+          animation-duration: 2.4s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.loadingSuspensionPoints span:nth-child(2) {
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
+}
+
+.loadingSuspensionPoints span:nth-child(3) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
+}
+
 @-webkit-keyframes blink {
   0% {
     opacity: .2;
@@ -1543,6 +1604,23 @@ active: Research & Development
 }
 
 </style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="/font-mfizz/font-mfizz.css">
+<link rel="stylesheet" href="/apps-brands-social-icons/style.css">
+<link rel="stylesheet" href="/projects/colleges-universities-icons/style.css">
+
+<h2 id="emails">
+    <i>Research and Development Projects</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-briefcase fa-stack-1x faa-search animated"></i>
+    </span>
+</h2>
+<hr/>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
