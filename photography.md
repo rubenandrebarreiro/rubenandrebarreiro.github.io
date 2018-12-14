@@ -1844,6 +1844,8 @@ active: Photography
 
 <hr/>
 
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<!--<a href="">-->Coming soon...<!--</a>-->;</p>
+
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
@@ -1856,4 +1858,4 @@ active: Photography
 
 <hr/>
 
-<p align="justify">Coming soon...</p>
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<!--<a href="">-->Coming soon...<!--</a>-->;</p>
