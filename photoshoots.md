@@ -1822,6 +1822,12 @@ active: Photoshoots
 
 </style>
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/v4-shims.css">
+
 <h2 id="photoshoots_photosessions_title">
     <i>Personal Photoshoots/Photosessions Works</i>
     <span class="fa-stack">
@@ -1833,7 +1839,7 @@ active: Photoshoots
 <hr/>
 
 <h3 id="photoshoot_year_title">
-    <i class="fa fa-calendar-alt fa-stack-1x faa-pulse animated">2018</i>
+    <i class="fas fa-calendar-alt fa-stack-1x faa-pulse animated">2018</i>
 </h3>
 
 <hr/>
@@ -1849,7 +1855,7 @@ active: Photoshoots
 <br>
 
 <h3 id="photoshoot_year_title">
-    <i class="fa fa-calendar-alt fa-stack-1x faa-pulse animated">2019</i>
+    <i class="fas fa-calendar-alt fa-stack-1x faa-pulse animated">2019</i>
 </h3>
 
 <hr/>
