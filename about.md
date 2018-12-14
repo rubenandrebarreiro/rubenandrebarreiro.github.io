@@ -2087,7 +2087,7 @@ active: About Me
 
 <p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
 
-<p align="justify">In <b>Computer Science</b>, <b>IT/IS</b> and <b>Informatics</b> area, I personally, have a huge interest in <b><i>Web Design</i></b>, <b><i>2D/3D Graphics &amp; Interfaces</i></b>, <b><i>Computer Networks</i></b>, <b><i>Distributed Systems</i></b>, <b><i>Edge &amp; Fog Computing</i></b>, <b><i>Cloud Computing</i></b>, <b><i>Internet &amp; Computer Network's Security</i></b>, <b><i>Artificial Intelligence</i></b>, <b><i>Machine Learning</i></b>, <b><i>Data Mining &amp; Modelling</i></b> and <b><i>Autonomous &amp; Intelligent Agents</i></b>.
+<p align="justify">In <b>Computer Science</b>, <b>IT/IS</b> and <b>Informatics</b> area, I personally, have a huge interest in <b><i>Web Design</i></b>, <b><i>2D/3D Graphics &amp; Interfaces</i></b>, <b><i>Computer Networks</i></b>, <b><i>Distributed Systems</i></b>, <b><i>Edge &amp; Fog Computing</i></b>, <b><i>Cloud Computing</i></b>, <b><i>Internet &amp; Computer Network's Security</i></b>, <b><i>Artificial Intelligence</i></b>, <b><i>Machine Learning</i></b>, <b><i>Data Mining &amp; Modelling</i></b>, <b><i>Autonomous &amp; Intelligent Agents</i></b> and <b><i>Games &amp; Simulation</i></b>.
 
 <br>
 <hr/>
