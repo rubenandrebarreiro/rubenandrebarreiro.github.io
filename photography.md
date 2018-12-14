@@ -1839,7 +1839,7 @@ active: Photography
 <hr/>
 
 <h4 id="photography_year_title">
-    <i class="fas fa-calendar-alt"></i>2019
+    <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;2019
 </h4>
 
 <hr/>
