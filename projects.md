@@ -1605,7 +1605,7 @@ active: Projects
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
 <link rel="stylesheet" href="/projects/colleges-universities-icons/style.css">
 
-<h2 id="emails">
+<h2 id="academic_projects_works_title">
     <i>My Academic Projects/Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
