@@ -1379,7 +1379,7 @@ active: Contacts
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
 
-<h2 id="myinfo">
+<h2 id="myinfo_title">
     <i>My Info</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -1439,7 +1439,7 @@ active: Contacts
 <hr/>
 <br>
 
-<h2 id="socialnetworks">
+<h2 id="social_networks_title">
     <i>My Social Networks</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -1524,7 +1524,7 @@ active: Contacts
 <hr/>
 <br>
 
-<h2 id="othersociallinksusernames">
+<h2 id="other_social_links_usernames_title">
     <i>Other Social Links/Usernames</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -1533,7 +1533,7 @@ active: Contacts
 </h2>
 <hr/>
 
-<div id="othersociallinksusernames" class="w3-container w3-xlarge w3-padding">
+<div id="other_social_links_usernames_content" class="w3-container w3-xlarge w3-padding">
     <center>
         <i class="fa fa-snapchat" title="Rúben André Barreiro (BadNewz) on Snapchat" style="font-size:20px;color:Yellow"></i><font size="1">&nbsp;&nbsp;<a title="Rúben André Barreiro (BadNewz) on Snapchat">Snapchat - ruben.badnewz</a></font>
     
@@ -1557,7 +1557,7 @@ active: Contacts
 <hr/>
 <br>
 
-<h2 id="emails">
+<h2 id="emails_title">
     <i>My E-mails</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -1566,7 +1566,7 @@ active: Contacts
 </h2>
 <hr/>
 
-<div id="emails" class="w3-container w3-xlarge w3-padding">
+<div id="emails_content" class="w3-container w3-xlarge w3-padding">
     <center>
         <a target="_blank" href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook"><i class="fa fa-envelope" title="ruben.barreiro.92 on Outlook" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="mailto:ruben.barreiro.92@outlook.com" title="ruben.barreiro.92 on Outlook">ruben.barreiro.92@outlook.com</a></font>
         

@@ -1826,7 +1826,7 @@ active: About Me
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
 <link rel="stylesheet" href="/projects/colleges-universities-icons/style.css">
 
-<h2 id="biography">
+<h2 id="biography_title">
     <i>Biography</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -1980,7 +1980,7 @@ active: About Me
 <br>
 
 
-<h2 id="programming-languages-skills">
+<h2 id="programming_languages_skills_title">
     <i>Programming Languages, Hard & Soft Skills</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -2076,7 +2076,7 @@ active: About Me
 <br>
 
 
-<h2 id="interests">
+<h2 id="interests_title">
     <i>Interests</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -2087,6 +2087,7 @@ active: About Me
 
 <p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
 
+<p align="justify">In <b>computer science</b>, <b>IT/IS</b> and <b>informatics</b> area, I personally, have a huge interest in <b><i>2D/3D Graphics and Interfaces</i></b>, <b><i>Computer Networks</i></b>, <b><i>Distributed Systems</i></b>, <b><i>Cloud Computing</i></b>, <b><i>Internet and Computer Network's Security</i></b>, <b><i>Artificial Intelligence</i></b>, <b><i>Machine Learning</i></b>, <b><i>Data Mining and Modelling</i></b> and <b><i>Autonomous and Intelligent Agents</i></b>.
 
 <br>
 <hr/>
@@ -2095,7 +2096,7 @@ active: About Me
 <br>
 
 
-<h2 id="goalsAccomplishments">
+<h2 id="goals_accomplishments_title">
     <i>Goals/Accomplishments</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -2114,7 +2115,7 @@ active: About Me
 <br>
 
 
-<h2 id="publications">
+<h2 id="publications_title">
     <i>Publications</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
