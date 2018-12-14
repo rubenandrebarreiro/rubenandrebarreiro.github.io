@@ -1383,7 +1383,7 @@ active: Contacts
     <i>My Info</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fas fa-info fa-stack-1x faa-vertical animated"></i>
+        <i class="fa fa-info fa-stack-1x faa-vertical animated"></i>
     </span>
 </h2>
 <hr/>
@@ -1443,7 +1443,7 @@ active: Contacts
     <i>My Social Networks</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fas fa-users fa-stack-1x faa-horizontal animated"></i>
+        <i class="fa fa-users fa-stack-1x faa-horizontal animated"></i>
     </span>
 </h2>
 <hr/>
@@ -1527,8 +1527,8 @@ active: Contacts
 <h2 id="othersociallinksusernames">
     <i>Other Social Links/Usernames</i>
     <span class="fa-stack">
-        <i class="fas fa-circle-thin fa-stack-2x"></i>
-        <i class="fas fa-comments fa-stack-1x faa-float animated"></i>
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-comments fa-stack-1x faa-float animated"></i>
     </span>
 </h2>
 <hr/>
@@ -1561,7 +1561,7 @@ active: Contacts
     <i>My E-mails</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fas fa-at fa-stack-1x faa-pulse animated"></i>
+        <i class="fa fa-at fa-stack-1x faa-pulse animated"></i>
     </span>
 </h2>
 <hr/>

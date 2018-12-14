@@ -1814,7 +1814,7 @@ active: Projects
     <i>My Personal Projects and Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fas fa-hand-paper fa-stack-1x faa-shake animated"></i>
+        <i class="fas fa-hand fa-stack-1x faa-shake animated"></i>
     </span>
 </h2>
 <hr/>
