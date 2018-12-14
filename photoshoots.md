@@ -8,7 +8,7 @@ summary: "My Photoshoot's Works"
 active: Photoshoots
 ---
 
-<<style>
+<style>
 .button {
     background-color: #CCCCCC; /* Medium Grey */
     border: none;
