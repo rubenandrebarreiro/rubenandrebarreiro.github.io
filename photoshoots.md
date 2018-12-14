@@ -1833,7 +1833,7 @@ active: Photoshoots
 <hr/>
 
 <h3 id="photoshoot_year_title">
-    <i>2018</i>
+    <i class="fa fa-calendar-alt fa-stack-1x faa-pulse animated">2018</i>
 </h3>
 
 <hr/>
@@ -1849,7 +1849,7 @@ active: Photoshoots
 <br>
 
 <h3 id="photoshoot_year_title">
-    <i>2019</i>
+    <i class="fa fa-calendar-alt fa-stack-1x faa-pulse animated">2019</i>
 </h3>
 
 <hr/>
