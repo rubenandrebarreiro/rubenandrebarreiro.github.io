@@ -2071,6 +2071,8 @@ active: About Me
 </ul>
 
 
+<a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Download Full Competences Document 📋</b></button></a>
+
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
