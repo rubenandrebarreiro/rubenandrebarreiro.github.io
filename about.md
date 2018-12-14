@@ -1969,9 +1969,10 @@ active: About Me
     "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <a target="_blank" href="https://en.wikipedia.org/wiki/Charlie_Chaplin"><b><i>Charlie Chaplin</i></b></a>
 </p>
 
-<a target="_blank" title="Download Rúben André Barreiro's Résumé" href="/docs/ruben-andre-barreiro-resume.pdf"><button class="button buttonDocument"><b>Download Résumé 📝</b></button></a>
-<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae" href="/docs/ruben-andre-barreiro-CV.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae 📋</b></button></a>
-
+<a target="_blank" title="Download Rúben André Barreiro's Résumé #1 made in NovoResumé" href="/docs/ruben-andre-barreiro-resume-1.pdf"><button class="button buttonDocument"><b>Download Résumé #1 📝</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Résumé #2" href="/docs/ruben-andre-barreiro-resume-2.pdf"><button class="button buttonDocument"><b>Download Résumé #2 📝</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in LaTeX" href="/docs/ruben-andre-barreiro-CV-1.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae #1 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in EuroPass" href="/docs/ruben-andre-barreiro-CV-2.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae #2 📋</b></button></a>
 
 <br>
 <hr/>
@@ -2087,7 +2088,7 @@ active: About Me
 
 <p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
 
-<p align="justify">In <b>Computer Science</b>, <b>IT/IS</b> and <b>Informatics</b> area, I personally, have a huge interest in <b><i><u>Web Design</u></i></b>, <b><i><u>2D/3D Graphics &amp; Interfaces</u></i></b>, <b><i><u>Computer Networks</u></i></b>, <b><i><u>Distributed Systems</u></i></b>, <b><i><u>Edge &amp; Fog Computing</u></i></b>, <b><i><u>Cloud Computing</u></i></b>, <b><i><u>Internet &amp; Computer Network's Security</u></i></b>, <b><i><u>Artificial Intelligence</u></i></b>, <b><i><u>Machine Learning</u></i></b>, <b><i><u>Data Mining &amp; Modelling</u></i></b>, <b><i><u>Autonomous &amp; Intelligent Agents</u></i></b> and <b><i><u>Games &amp; Simulation</u></i></b>.
+<p align="justify">In <b>Computer Science and Engineering</b>, <b>IT/IS</b> and <b>Informatics</b> area, I personally, have a huge interest in <b><i><u>Web Design</u></i></b>, <b><i><u>2D/3D Graphics &amp; Interfaces</u></i></b>, <b><i><u>Computer Networks</u></i></b>, <b><i><u>Distributed Systems</u></i></b>, <b><i><u>Edge &amp; Fog Computing</u></i></b>, <b><i><u>Cloud Computing</u></i></b>, <b><i><u>Internet &amp; Computer Network's Security</u></i></b>, <b><i><u>Artificial Intelligence</u></i></b>, <b><i><u>Machine Learning</u></i></b>, <b><i><u>Data Mining &amp; Modelling</u></i></b>, <b><i><u>Autonomous &amp; Intelligent Agents</u></i></b> and <b><i><u>Games &amp; Simulation</u></i></b>.
 
 <br>
 <hr/>
