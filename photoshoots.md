@@ -1827,7 +1827,7 @@ active: Photoshoots
     <i>Personal Photoshoots/Photosessions Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-camera fa-stack-1x faa-float animated"></i>
+        <i class="fa fa-camera fa-stack-1x faa-flash animated"></i>
     </span>
 </h2>
 <hr/>
