@@ -1971,9 +1971,7 @@ active: About Me
 
 <a target="_blank" title="Download Rúben André Barreiro's Résumé #1 made in NovoResumé" href="/docs/ruben-andre-barreiro-resume-1.pdf"><button class="button buttonDocument"><b>Download Résumé #1 📝</b></button></a>
 <a target="_blank" title="Download Rúben André Barreiro's Résumé #2" href="/docs/ruben-andre-barreiro-resume-2.pdf"><button class="button buttonDocument"><b>Download Résumé #2 📝</b></button></a>
-
 <br>
-
 <a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in LaTeX" href="/docs/ruben-andre-barreiro-CV-1.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae #1 📋</b></button></a>
 <a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in EuroPass" href="/docs/ruben-andre-barreiro-CV-2.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae #2 📋</b></button></a>
 
