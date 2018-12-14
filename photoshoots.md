@@ -1838,9 +1838,9 @@ active: Photoshoots
 
 <hr/>
 
-<h3 id="photoshoot_year_title">
+<h4 id="photoshoot_year_title">
     <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;2018
-</h3>
+</h4>
 
 <hr/>
 
@@ -1854,9 +1854,9 @@ active: Photoshoots
 <hr/>
 <br>
 
-<h3 id="photoshoot_year_title">
+<h4 id="photoshoot_year_title">
     <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;2019
-</h3>
+</h4>
 
 <hr/>
 
