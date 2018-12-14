@@ -1838,6 +1838,18 @@ active: Photography
 
 <hr/>
 
+<h4 id="photoshoot_year_title">
+    <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;2018
+</h4>
+
+<hr/>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
 <h4 id="photography_year_title">
     <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;2019
 </h4>
