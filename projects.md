@@ -1811,7 +1811,7 @@ active: Projects
 
 
 <h2 id="emails">
-    <i>My Personal Projects and Works</i>
+    <i>My Personal and Self-Made Projects and Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fas fa-hand-paper fa-stack-1x faa-shake animated"></i>
