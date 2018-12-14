@@ -1604,7 +1604,7 @@ active: Projects
 <link rel="stylesheet" href="/projects/colleges-universities-icons/style.css">
 
 <h2 id="emails">
-    <i>My Projects</i>
+    <i>My Academic Projects and Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-briefcase fa-stack-1x faa-wrench animated"></i>
@@ -1799,3 +1799,28 @@ active: Projects
 
 [![3DObjectModellingHelicopter]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)
 <p style="font-size:11px"><i>3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</i></p>
+
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+
+<h2 id="emails">
+    <i>My Personal Projects and Works</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-hand-paper fa-stack-1x faa-shake animated"></i>
+    </span>
+</h2>
+<hr/>
+
+Coming soon...
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
