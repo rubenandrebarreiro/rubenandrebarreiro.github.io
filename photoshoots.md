@@ -1791,7 +1791,6 @@ active: Photoshoots
   margin-left: -1em;
 }
 
-
 .icon-fct-unl .path1:before {
   content: "\e958";
   color: #fefefe;
@@ -1834,7 +1833,7 @@ active: Photoshoots
 <hr/>
 
 <h3 id="photoshoot_year_title">
-    <i>2008</i>
+    <i>2018</i>
 </h3>
 
 <hr/>
@@ -1850,7 +1849,9 @@ active: Photoshoots
 <br>
 
 <h3 id="photoshoot_year_title">
-    <i>2008</i>
+    <i>2019</i>
 </h3>
 
 <hr/>
+
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<!--<a href="">-->Coming soon...<!--</a>-->;</p>
