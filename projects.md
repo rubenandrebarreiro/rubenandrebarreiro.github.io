@@ -1598,6 +1598,8 @@ active: Projects
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/v4-shims.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" href="/font-mfizz/font-mfizz.css">
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
@@ -1812,7 +1814,7 @@ active: Projects
     <i>My Personal Projects and Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fas fa-hand fa-stack-1x faa-shake animated"></i>
+        <i class="fas fa-hand-paper fa-stack-1x faa-shake animated"></i>
     </span>
 </h2>
 <hr/>
