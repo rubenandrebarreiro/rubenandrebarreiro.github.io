@@ -1838,9 +1838,9 @@ active: Photography
 
 <hr/>
 
-<h3 id="photography_year_title">
+<h4 id="photography_year_title">
     <i align="left" class="fas fa-calendar-alt fa-stack-1x faa-pulse animated"></i>2019
-</h3>
+</h4>
 
 <hr/>
 
