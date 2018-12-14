@@ -1606,7 +1606,7 @@ active: Projects
 <link rel="stylesheet" href="/projects/colleges-universities-icons/style.css">
 
 <h2 id="emails">
-    <i>My Academic Projects and Works</i>
+    <i>My Academic Projects/Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-briefcase fa-stack-1x faa-wrench animated"></i>
@@ -1811,7 +1811,7 @@ active: Projects
 
 
 <h2 id="emails">
-    <i>My Personal and Self-Made Projects and Works</i>
+    <i>My Personal and Self-Made Projects/Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fas fa-hand-paper fa-stack-1x faa-shake animated"></i>
