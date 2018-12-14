@@ -1830,7 +1830,7 @@ active: About Me
     <i>Biography</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-user fa-stack-1x faa-vertical animated"></i>
+        <i class="fas fa-user fa-stack-1x faa-vertical animated"></i>
     </span>
 </h2>
 <hr/>
@@ -1984,12 +1984,12 @@ active: About Me
     <i>Programming Languages, Hard & Soft Skills</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-code fa-stack-1x faa-float animated"></i>
+        <i class="fas fa-code fa-stack-1x faa-float animated"></i>
     </span>
 </h2>
 <hr/>
 
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>High School of Monte de Caparica</b>), between 2009 and 2012:</p>
+<p align="justify"><i class="fas fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>High School of Monte de Caparica</b>), between 2009 and 2012:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
@@ -2017,7 +2017,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;Skills learned at the <b>BSc. Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
+<p align="justify"><i class="fas fa-caret-right faa-horizontal animated"></i>&nbsp;Skills learned at the <b>BSc. Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
 <ul>
     <li>
         <p align="justify">Subjects and areas covered:</p>
@@ -2061,7 +2061,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;&nbsp;Other skills:</p>
+<p align="justify"><i class="fas fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;&nbsp;Other skills:</p>
 <ul>
     <li>
         <p align="justify"><b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;</p>
@@ -2080,7 +2080,7 @@ active: About Me
     <i>Interests</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-heart fa-stack-1x faa-pulse animated"></i>
+        <i class="fas fa-heart fa-stack-1x faa-pulse animated"></i>
     </span>
 </h2>
 <hr/>
@@ -2099,7 +2099,7 @@ active: About Me
     <i>Goals/Accomplishments</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-check fa-stack-1x faa-horizontal animated"></i>
+        <i class="fas fa-check fa-stack-1x faa-horizontal animated"></i>
     </span>
 </h2>
 <hr/>
@@ -2118,7 +2118,7 @@ active: About Me
     <i>Publications</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-book fa-stack-1x faa-ring animated"></i>
+        <i class="fas fa-book fa-stack-1x faa-ring animated"></i>
     </span>
 </h2>
 <hr/>
