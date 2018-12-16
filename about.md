@@ -2727,7 +2727,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
+<p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>enterprise's management</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
 
 <p align="justify">In <b>Computer Science and Engineering</b>, <b>IT/IS</b> and <b>Informatics</b> area, I personally, have a huge interest in <b><i><u>Web Design</u></i></b>, <b><i><u>2D/3D Graphics &amp; Interfaces</u></i></b>, <b><i><u>Computer Networks</u></i></b>, <b><i><u>Distributed Systems</u></i></b>, <b><i><u>Cloud Computing</u></i></b>, <b><i><u>Edge &amp; Fog Computing</u></i></b>, <b><i><u>Internet &amp; Computer Network's Security</u></i></b>, <b><i><u>Artificial Intelligence</u></i></b>, <b><i><u>Machine Learning</u></i></b>, <b><i><u>Data Mining &amp; Modelling</u></i></b>, <b><i><u>Autonomous &amp; Intelligent Agents</u></i></b> and <b><i><u>Games &amp; Simulation</u></i></b>.
 
