@@ -1992,20 +1992,22 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">
-<b><u>Notes:</u></b>
-	<ul>
-		<li>
-			Classifications in <b>interval between 1 (minimum) and 5 (maximum) points</b>;
-		</li>
-		<li>
-			Graphic caption with ★ and ☆ symbols: <b>★ symbol for 1 point and ☆ symbol for 0 points</b>;
-		</li>
-		<li>
-			<b>The total classification for each hard skill it’s the total sum of all ★ symbols, between 1 (minimum) and 5 (maximum)</b>;
-		</li>
-	</ul>
-</p>
+<font size="2">
+	<p align="justify">
+		<b><u>Notes:</u></b>
+		<ul>
+			<li>
+				Classifications in <b>interval between 1 (minimum) and 5 (maximum) points</b>;
+			</li>
+			<li>
+				Graphic caption with ★ and ☆ symbols: <b>★ symbol for 1 point and ☆ symbol for 0 points</b>;
+			</li>
+			<li>
+				<b>The total classification for each hard skill it’s the total sum of all ★ symbols, between 1 (minimum) and 5 (maximum)</b>;
+			</li>
+		</ul>
+	</p>
+</font>
 
 <h3 id="hard_skills">
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Hard skills:</u></i></p>
