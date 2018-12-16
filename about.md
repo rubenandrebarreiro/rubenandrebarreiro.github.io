@@ -2725,11 +2725,11 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-exclamation-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Critical thinking:</u></i></p>
+		<p align="justify"><i class="fas fa-exclamation-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Critical thinking:</b></i></p>
 		<ul>
 			<li>
 				<p align="justify">
-					<i><u>Adaptable</u></i>, <i><u>artistic sense</u></i>, <i><u>creativity</u></i>, <i><u>critical observer</u></i>, <i><u>design sense</u></i>, <i><u>desire to learn</u></i>, <i><u>flexible</u></i>, <i><u>innovative</u></i>, <i><u>logical thinking</u></i>, <i><u>problem solving</u></i>, <i><u>research</u></i>, <i><u>resourceful</u></i>, <i><u>thinking outside the box</u></i>, <i><u>tolerant of change and uncertainty</u></i>, <i><u>troubleshooting</u></i>, <i><u>value education</u></i> & <i><u>willingness to learn</u></i>;
+					<i><u>Adaptable</u></i>, <i><u>artistic sense</u></i>, <i><u>creativity</u></i>, <i><u>critical observer</u></i>, <i><u>design sense</u></i>, <i><u>desire to learn</u></i>, <i><u>flexible</u></i>, <i><u>innovative</u></i>, <i><u>logical thinking</u></i>, <i><u>problem solving</u></i>, <i><u>research</u></i>, <i><u>resourceful</u></i>, <i><u>thinking outside the box</u></i>, <i><u>tolerant of change & uncertainty</u></i>, <i><u>troubleshooting</u></i>, <i><u>value education</u></i> and <i><u>willingness to learn</u></i>;
 				</p>
 			</li>
 		</ul>
@@ -2739,7 +2739,7 @@ active: About Me
 		<ul>
 			<li>
 				<p align="justify">
-					<i><u>Deal-making</u></i>, <i><u>decision making</u></i>, <i><u>delegation</u></i>, <i><u>inspiring</u></i>, <i><u>management</u></i>, <i><u>mentoring</u></i>, <i><u>motivating</u></i>, <i><u>successful coaching</u></i>, <i><u>supervising</u></i> & <i><u>talent management</u></i>;
+					<i><u>Deal-making</u></i>, <i><u>decision making</u></i>, <i><u>delegation</u></i>, <i><u>inspiring</u></i>, <i><u>management</u></i>, <i><u>mentoring</u></i>, <i><u>motivating</u></i>, <i><u>successful coaching</u></i>, <i><u>supervising</u></i> and <i><u>talent management</u></i>;
 				</p>
 			</li>
 		</ul>
@@ -2749,7 +2749,7 @@ active: About Me
 		<ul>
 			<li>
 				<p align="justify">				
-					<i><u>Confident</u></i>, <i><u>cooperative</u></i>, <i><u>courteous</u></i>, <i><u>energetic</u></i>, <i><u>enthusiastic</u></i>, <i><u>friendly</u></i>, <i><u>high energy</u></i>, <i><u>honest</u></i>, <i><u>patient</u></i>, <i><u>respectable</u></i>, <i><u>respectful</u></i> & <i><u>sense of humor</u></i>;
+					<i><u>Confident</u></i>, <i><u>cooperative</u></i>, <i><u>courteous</u></i>, <i><u>energetic</u></i>, <i><u>enthusiastic</u></i>, <i><u>friendly</u></i>, <i><u>high energy</u></i>, <i><u>honest</u></i>, <i><u>patient</u></i>, <i><u>respectable</u></i>, <i><u>respectful</u></i> and <i><u>sense of humor</u></i>;
 				</p>
 			</li>
 		</ul>
@@ -2759,7 +2759,7 @@ active: About Me
 		<ul>
 			<li>
 				<p align="justify">
-					<i><u>Accept feedback</u></i>, <i><u>collaborative</u></i>, <i><u>customer service</u></i>, <i><u>dealing with difficult situations</u></i>, <i><u>empathetic</u></i>, <i><u>dealing with difficult personalities</u></i>, <i><u>intercultural competence</u></i>, <i><u>interpersonal skills</u></i>, <i><u>influential</u></i>, <i><u>networking</u></i>, <i><u>social skills</u></i> & <i><u>team player</u></i>; 
+					<i><u>Accept feedback</u></i>, <i><u>collaborative</u></i>, <i><u>customer service</u></i>, <i><u>dealing with difficult situations</u></i>, <i><u>empathetic</u></i>, <i><u>dealing with difficult personalities</u></i>, <i><u>intercultural competence</u></i>, <i><u>interpersonal skills</u></i>, <i><u>influential</u></i>, <i><u>networking</u></i>, <i><u>social skills</u></i> and <i><u>team player</u></i>; 
 				</p>
 			</li>
 		</ul>
@@ -2769,7 +2769,7 @@ active: About Me
 		<ul>
 			<li>
 				<p align="justify">
-					<i><u>Attentive</u></i>, <i><u>competitive</u></i>, <i><u>dedicated</u></i>, <i><u>dependable</u></i>, <i><u>following direction</u></i>, <i><u>independent</u></i>, <i><u>making deadlines</u></i>, <i><u>motivated</u></i>, <i><u>multitasking</u></i>, <i><u>perseverant</u></i>, <i><u>persistent</u></i>, <i><u>planning</u></i>, <i><u>reliable</u></i>, <i><u>resilient</u></i>, <i><u>results-oriented</u></i>, <i><u>self-directed</u></i>, <i><u>self-monitoring</u></i>, <i><u>self-supervising</u></i>, <i><u>strategic planning</u></i>, <i><u>time management</u></i>, <i><u>trainable</u></i> & <i><u>working well under pressure</u></i>;
+					<i><u>Attentive</u></i>, <i><u>competitive</u></i>, <i><u>dedicated</u></i>, <i><u>dependable</u></i>, <i><u>following direction</u></i>, <i><u>independent</u></i>, <i><u>making deadlines</u></i>, <i><u>motivated</u></i>, <i><u>multitasking</u></i>, <i><u>perseverant</u></i>, <i><u>persistent</u></i>, <i><u>planning</u></i>, <i><u>reliable</u></i>, <i><u>resilient</u></i>, <i><u>results-oriented</u></i>, <i><u>self-directed</u></i>, <i><u>self-monitoring</u></i>, <i><u>self-supervising</u></i>, <i><u>strategic planning</u></i>, <i><u>time management</u></i>, <i><u>trainable</u></i> and <i><u>working well under pressure</u></i>;
 				</p>
 			</li>
 		</ul>
