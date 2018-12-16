@@ -2718,7 +2718,9 @@ active: About Me
 		<p align="justify"><i class="fa fa-comments faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Communication skills:</u></i></p>
 		<ul>
 			<li>
-				<i>Able to listen</i>, <i>listening</i>, <i>nonverbal communication</i>, <i>persuation</i>, <i>reading body language</i>, <i>storytelling</i>, <i>visual communication</i>, <i>writing reports and proposals</i> and <i>writing skills</i>;
+				<p align="justify">
+					<i>Able to listen</i>, <i>listening</i>, <i>nonverbal communication</i>, <i>persuation</i>, <i>reading body language</i>, <i>storytelling</i>, <i>visual communication</i>, <i>writing reports and proposals</i> and <i>writing skills</i>;
+				</p>
 			</li>
 		</ul>
 	</li>
@@ -2726,7 +2728,9 @@ active: About Me
 		<p align="justify"><i class="fas fa-exclamation-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Critical thinking:</u></i></p>
 		<ul>
 			<li>
-				<i>Adaptable</i>, <i>artistic sense</i>, <i>creativity</i>, <i>critical observer</i>, <i>design sense</i>, <i>desire to learn</i>, <i>flexible</i>, <i>innovative</i>, <i>logical thinking</i>, <i>problem solving</i>, <i>research</i>, <i>resourceful</i>, <i>thinking outside the box</i>, <i>tolerant of change and uncertainty</i>, <i>troubleshooting</i>, <i>value education</i> and <i>willingness to learn</i>;
+				<p align="justify">
+					<i>Adaptable</i>, <i>artistic sense</i>, <i>creativity</i>, <i>critical observer</i>, <i>design sense</i>, <i>desire to learn</i>, <i>flexible</i>, <i>innovative</i>, <i>logical thinking</i>, <i>problem solving</i>, <i>research</i>, <i>resourceful</i>, <i>thinking outside the box</i>, <i>tolerant of change and uncertainty</i>, <i>troubleshooting</i>, <i>value education</i> and <i>willingness to learn</i>;
+				</p>
 			</li>
 		</ul>
 	</li>
@@ -2734,7 +2738,9 @@ active: About Me
 		<p align="justify"><i class="fas fa-fist-raised faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Leadership:</u></i></p>
 		<ul>
 			<li>
-				<i>Deal-making</i>, <i>decision making</i>, <i>delegation</i>, <i>inspiring</i>, <i>management</i>, <i>mentoring</i>, <i>motivating</i>, <i>successful coaching</i>, <i>supervising</i> and <i>talent management</i>;
+				<p align="justify">
+					<i>Deal-making</i>, <i>decision making</i>, <i>delegation</i>, <i>inspiring</i>, <i>management</i>, <i>mentoring</i>, <i>motivating</i>, <i>successful coaching</i>, <i>supervising</i> and <i>talent management</i>;
+				</p>
 			</li>
 		</ul>
 	</li>
@@ -2742,7 +2748,9 @@ active: About Me
 		<p align="justify"><i class="fas fa-hand-peace faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Positive attitude:</u></i></p>
 		<ul>
 			<li>
-				<i>Confident</i>, <i>cooperative</i>, <i>courteous</i>, <i>energetic</i>, <i>enthusiastic</i>, <i>friendly</i>, <i>high energy</i>, <i>honest</i>, <i>patient</i>, <i>respectable</i>, <i>respectful</i> and <i>sense of humor</i>;
+				<p align="justify">				
+					<i>Confident</i>, <i>cooperative</i>, <i>courteous</i>, <i>energetic</i>, <i>enthusiastic</i>, <i>friendly</i>, <i>high energy</i>, <i>honest</i>, <i>patient</i>, <i>respectable</i>, <i>respectful</i> and <i>sense of humor</i>;
+				</p>
 			</li>
 		</ul>
 	</li>
@@ -2750,7 +2758,9 @@ active: About Me
 		<p align="justify"><i class="fas fa-hand-holding-heart faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Teamwork:</u></i></p>
 		<ul>
 			<li>
-				<i>Accept feedback</i>, <i>collaborative</i>, <i>customer service</i>, <i>dealing with difficult situations</i>, <i>empathetic</i>, <i>dealing with difficult personalities</i>, <i>intercultural competence</i>, <i>interpersonal skills</i>, <i>influential</i>, <i>networking</i>, <i>social skills</i> and <i>team player</i>; 
+				<p align="justify">
+					<i>Accept feedback</i>, <i>collaborative</i>, <i>customer service</i>, <i>dealing with difficult situations</i>, <i>empathetic</i>, <i>dealing with difficult personalities</i>, <i>intercultural competence</i>, <i>interpersonal skills</i>, <i>influential</i>, <i>networking</i>, <i>social skills</i> and <i>team player</i>; 
+				</p>
 			</li>
 		</ul>
 	</li>
@@ -2758,7 +2768,9 @@ active: About Me
 		<p align="justify"><i class="fas fa-handshake faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Work ethic:</u></i></p>
 		<ul>
 			<li>
-				<i>Attentive</i>, <i>competitive</i>, <i>dedicated</i>, <i>dependable</i>, <i>following direction</i>, <i>independent</i>, <i>making deadlines</i>, <i>motivated</i>, <i>multitasking</i>, <i>perseverant</i>, <i>persistent</i>, <i>planning</i>, <i>reliable</i>, <i>resilient</i>, <i>results-oriented</i>, <i>self-directed</i>, <i>self-monitoring</i>, <i>self-supervising</i>, <i>strategic planning</i>, <i>time management</i>, <i>trainable</i> and <i>working well under pressure</i>;
+				<p align="justify">
+					<i>Attentive</i>, <i>competitive</i>, <i>dedicated</i>, <i>dependable</i>, <i>following direction</i>, <i>independent</i>, <i>making deadlines</i>, <i>motivated</i>, <i>multitasking</i>, <i>perseverant</i>, <i>persistent</i>, <i>planning</i>, <i>reliable</i>, <i>resilient</i>, <i>results-oriented</i>, <i>self-directed</i>, <i>self-monitoring</i>, <i>self-supervising</i>, <i>strategic planning</i>, <i>time management</i>, <i>trainable</i> and <i>working well under pressure</i>;
+				</p>
 			</li>
 		</ul>
 	</li>
