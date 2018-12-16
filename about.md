@@ -2081,8 +2081,9 @@ active: About Me
 					</li>
 				</ul>
 			</li>
+			
 			<li>
-				 <i class="fa fa-code fa-stack-1x"></i><p align="justify">Programming languages:</p>
+				 <p align="justify"><i class="fa fa-code fa-stack-1x"></i>&nbsp;&nbsp;Programming languages:</p>
         			<ul>
 					<li>
 						<u>Object-oriented languages</u>:
@@ -2240,12 +2241,12 @@ active: About Me
 						</ul>
 					</li>
 				</u>
-			<li>
 			</li>
-		</ul>
-    </li>
-</ul>
-
+			
+			
+		</u>
+	</li>
+</ul>	
 
 <!--
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>High School of Monte de Caparica</b>), between 2009 and 2012:</p>
