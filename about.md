@@ -2479,6 +2479,14 @@ active: About Me
 							</li>
 						</ul>
 					</li>
+					<li>
+						<u>Synthesis and analysis of hardware design languages designs:</u>
+						<ul>
+							<li>
+								<i>Xilinx ISE</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
 				</ul>
 			</li>
 			<li>
