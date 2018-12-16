@@ -2252,6 +2252,12 @@ active: About Me
 	</li>
 </ul>	
 
+<br>
+<br>
+
+<a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
+
+
 <!--
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>High School of Monte de Caparica</b>), between 2009 and 2012:</p>
 <ul>
@@ -2332,8 +2338,6 @@ active: About Me
     </li>
 </ul>
 -->
-
-<a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
 
 <br>
 <hr/>
