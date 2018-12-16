@@ -2240,11 +2240,10 @@ active: About Me
 							</li>
 						</ul>
 					</li>
-				</u>
+				</ul>
 			</li>
 			
-			
-		</u>
+		</ul>
 	</li>
 </ul>	
 
