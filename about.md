@@ -2735,7 +2735,7 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-fist-raised faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Leadership:</u></i></p>
+		<p align="justify"><i class="fas fa-fist-raised faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Leadership:</b></i></p>
 		<ul>
 			<li>
 				<p align="justify">
@@ -2745,7 +2745,7 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-hand-peace faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Positive attitude:</u></i></p>
+		<p align="justify"><i class="fas fa-hand-peace faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Positive attitude:</b></i></p>
 		<ul>
 			<li>
 				<p align="justify">				
@@ -2755,7 +2755,7 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-hand-holding-heart faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Teamwork:</u></i></p>
+		<p align="justify"><i class="fas fa-hand-holding-heart faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Teamwork:</b></i></p>
 		<ul>
 			<li>
 				<p align="justify">
@@ -2765,7 +2765,7 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-handshake faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Work ethic:</u></i></p>
+		<p align="justify"><i class="fas fa-handshake faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Work ethic:</b></i></p>
 		<ul>
 			<li>
 				<p align="justify">
