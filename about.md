@@ -2373,7 +2373,345 @@ active: About Me
 				</ul>
 			</li>
 			
+			<li>
+				 <p align="justify"><i class="fas fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;IDEs:</p>
+        			<ul>
+					<li>
+						<i>Turbo Pascal</i>
+					</li>
+					<li>
+						<i>Microsoft Visual Studio</i>
+					</li>
+					<li>
+						<i>Eclipse IDE</i>
+					</li>
+					<li>
+						<i>IntelliJ IDEA</i>
+					</li>
+					<li>
+						<i>Android Studio</i>
+					</li>
+					<li>
+						<i>Unity3D</i>
+					</li>		
+				</ul>
+			</li>
 			
+			<li>
+				 <p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;Compilers:</p>
+        			<ul>
+					<li>
+						<i>Free Pascal</i>
+					</li>
+				</ul>
+			</li>
+			
+				
+			<li>
+				 <p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;Text editors:</p>
+        			<ul>
+					<li>
+						<i>Notepad++</i>
+					</li>
+					<li>
+						<i>Atom</i>
+					</li>
+					<li>
+						<i>Brackets</i>
+					</li>
+					<li>
+						<i>SublimeText</i>
+					</li>
+				</ul>
+			</li>
+			
+			
+			<li>
+				 <p align="justify"><i class="fas fa-table faa-horizontal animated"></i>&nbsp;&nbsp;PL/SQL editors:</p>
+        			<ul>
+					<li>
+						<i>Oracle SQL developer</i>
+					</li>
+				</ul>
+			</li>
+			
+			
+			
+			<li>
+				 <p align="justify"><i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;Database development environment:</p>
+        			<ul>
+					<li>
+						<i>Oracle APEX (Oracle Application Express)</i>
+					</li>
+				</ul>
+			</li>
+			
+			
+			<li>
+				 <p align="justify"><i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;Software platforms:</p>
+        			<ul>
+					<li>
+						<u>Virtualization:</u>
+						<ul>
+							<li>
+								<u>Hardware (hypervisors):</u>
+								<ul>
+									<li>
+										<u>Independent:</u>
+										<ul>
+											<li>
+												<i>Oracle VM VirtualBox</i>
+											</li>
+											<li>
+												<i>QEMU (Quick Emulator)</i>
+											</li>
+											<li>
+												<i>VMware Workstation</i>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<u>Operative system level:</u>
+									<ul>
+										<li>
+											<u>Application containers:</u>
+											<ul>
+												<li>
+													<i>Docker</i>
+												</li>
+											</ul>
+										</li>
+									</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Data science:</u>
+						<ul>
+							<li>
+								<i>RapidMiner</i>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>UML tools:</u>
+						<ul>
+							<li>
+								<i>StarUML</i>
+							</li>
+							<li>
+								<i>Modelio Open Source</i>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+
+			<li>
+				 <p align="justify"><i class="fas fa-code-branch faa-horizontal animated"></i>&nbsp;&nbsp;Version-control systems:</p>
+        			<ul>
+					<li>
+						<u>Web-based hosting services:</u>
+						<ul>
+							<li>
+								<i>Atlassian Bitbucket</i>
+							</li>
+							<li>
+								<i>GitHub</i>
+							</li>
+							<li>
+								<i>GitLab</i>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Git clients:</u>
+						<ul>
+							<li>
+								<i>Atlassian Sourcetree</i>
+							</li>
+							<li>
+								<i>GitHub Desktop</i>
+							</li>
+							<li>
+								<i>GitKraken</i>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Branching models for Git:</u>
+						<ul>
+							<li>
+								<i>GitFlow</i>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>
+				 <p align="justify"><i class="fas fa-file-code faa-horizontal animated"></i>&nbsp;&nbsp;Others:</p>
+        			<ul>
+					<li>
+						<u>JavaScript's file formats:</u>
+						<ul>
+							<li>
+								<i>JSON (JavaScript Object Notation)</i>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Client side web development techniques:</u>
+						<ul>
+							<li>
+								<i>AJAX (Asynchronous JavaScript and XML)</i>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Serializing structured data formats:</u>
+						<ul>
+							<li>
+								<i>Google Protocol Buffers</i>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>
+				 <p align="justify"><i class="fas fa-tv faa-horizontal animated"></i>&nbsp;&nbsp;Computer operating systems:</p>
+        			<ul>
+					<li>
+						<u><i>Linux:</i></u>
+						<ul>
+							<li>
+								<i>Ubuntu LTS</u>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<i>Microsoft Windows</i>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	
+	<li>
+	<p align="justify"><i class="fas fa-palette faa-horizontal animated"></i>&nbsp;&nbsp;<b>Arts:</b></p>
+        <ul>
+			<li>
+				<p align="justify"><i class="fas fa-paint-brush faa-horizontal animated"></i>&nbsp;&nbsp;Graphic design and photography:</p>
+        			<ul>
+					<li>
+						<u><i>Adobe Creative Cloud:</i></u>
+						<ul>
+							<li>
+								<i>Adobe Illustrator CC</u>
+							</li>
+							<li>
+								<i>Adobe Photoshop CC</u>
+							</li>
+							<li>
+								<i>Adobe Lightroom CC</u>
+							</li>
+							<li>
+								<i>Adobe Lightroom Classic CC</u>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p align="justify"><i class="fas fa-tape faa-horizontal animated"></i>&nbsp;&nbsp;Video editing:</p>
+        			<ul>
+					<li>
+						<u><i>Adobe Creative Cloud:</i></u>
+						<ul>
+							<li>
+								<i>Adobe After Effects CC</u>
+							</li>
+							<li>
+								<i>Adobe Premiere Pro CC</u>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p align="justify"><i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;Web development:</p>
+        			<ul>
+					<li>
+						<u><i>Adobe Creative Cloud:</i></u>
+						<ul>
+							<li>
+								<i>Adobe Dreamweaver CC</u>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	
+	<li>
+	<p align="justify"><i class="fas fa-window faa-horizontal animated"></i>&nbsp;&nbsp;<b>Basics:</b></p>
+        <ul>
+			<li>
+				<p align="justify"><i class="fas fa-container-storage faa-horizontal animated"></i>&nbsp;&nbsp;Databases:</p>
+        			<ul>
+					<li>
+						<u><i>Microsoft Office:</i></u>
+						<ul>
+							<li>
+								<i>Microsoft Access</u>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p align="justify"><i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;Documents:</p>
+        			<ul>
+					<li>
+						<u><i>Microsoft Office:</i></u>
+						<ul>
+							<li>
+								<i>Microsoft Word</u>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p align="justify"><i class="fas fa-presentation faa-horizontal animated"></i>&nbsp;&nbsp;Presentations:</p>
+        			<ul>
+					<li>
+						<u><i>Microsoft Office:</i></u>
+						<ul>
+							<li>
+								<i>Microsoft Powerpoint</u>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p align="justify"><i class="fas fa-file-spreadsheet faa-horizontal animated"></i>&nbsp;&nbsp;Spreadsheets:</p>
+        			<ul>
+					<li>
+						<u><i>Microsoft Office:</i></u>
+						<ul>
+							<li>
+								<i>Microsoft Excel</u>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
 		</ul>
 	</li>
 </ul>	
