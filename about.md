@@ -1823,6 +1823,11 @@ active: About Me
 
 </style>
 
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/v4-shims.css">
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
 <link rel="stylesheet" href="/projects/colleges-universities-icons/style.css">
 
@@ -2015,10 +2020,10 @@ active: About Me
 
 <ul>
 	<li>
-		<p align="justify"><i class="fa fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>IT/IS & Computer Engineering:</b></p>
+		<p align="justify"><i class="fas fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>IT/IS & Computer Engineering:</b></p>
         <ul>
 			<li>
-				<p align="justify"><i class="fa fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;Subjects and areas domained:</p>
+				<p align="justify"><i class="fa fas-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;Subjects and areas domained:</p>
         			<ul>
 					<li>
 						<u>Imperative programming</u>;
