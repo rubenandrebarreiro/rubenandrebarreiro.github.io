@@ -2482,7 +2482,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-box-open faa-horizontal animated"></i>&nbsp;&nbsp;Software stack:</p>
+				<p align="justify"><i class="fas fa-box-open faa-horizontal animated"></i>&nbsp;&nbsp;Software stacks:</p>
         			<ul>
 					<li>
 						<u>WampServer</u> ★★☆☆☆
@@ -2490,7 +2490,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-lock faa-horizontal animated"></i>&nbsp;&nbsp;Software stack:</p>
+				<p align="justify"><i class="fas fa-lock faa-horizontal animated"></i>&nbsp;&nbsp;Administration tools:</p>
         			<ul>
 					<li>
 						<u>phpMyAdmin</u> ★★☆☆☆
