@@ -2408,7 +2408,7 @@ active: About Me
 			
 				
 			<li>
-				 <p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;Text editors:</p>
+				 <p align="justify"><i class="fas fa-pencil-alt faa-horizontal animated"></i>&nbsp;&nbsp;Text editors:</p>
         			<ul>
 					<li>
 						<i>Notepad++</i>
@@ -2588,7 +2588,7 @@ active: About Me
 						<u><i>Linux:</i></u>
 						<ul>
 							<li>
-								<i>Ubuntu LTS</u>
+								<i>Ubuntu LTS</i>
 							</li>
 						</ul>
 					</li>
