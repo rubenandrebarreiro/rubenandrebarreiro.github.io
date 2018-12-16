@@ -1969,12 +1969,12 @@ active: About Me
     "<i>Life is a play that does not allow testing. So, sing, cry, dance, laugh and live intensely, before the curtain closes and the piece ends with no applause.</i>" - <a target="_blank" href="https://en.wikipedia.org/wiki/Charlie_Chaplin"><b><i>Charlie Chaplin</i></b></a>
 </p>
 
-<a target="_blank" title="Download Rúben André Barreiro's Résumé #1 made in NovoResumé" href="/docs/ruben-andre-barreiro-resume-1.pdf"><button class="button buttonDocument"><b>Download Résumé #1 📝</b></button></a>
-<a target="_blank" title="Download Rúben André Barreiro's Résumé #2 in Microsoft Word" href="/docs/ruben-andre-barreiro-resume-2.pdf"><button class="button buttonDocument"><b>Download Résumé #2 📝</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Résumé #1 made in NovoResumé" href="/docs/ruben-andre-barreiro-resume-1.pdf"><button class="button buttonDocument"><b>Résumé #1 📝</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Résumé #2 in Microsoft Word" href="/docs/ruben-andre-barreiro-resume-2.pdf"><button class="button buttonDocument"><b>Résumé #2 📝</b></button></a>
 <br>
-<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in LaTeX" href="/docs/ruben-andre-barreiro-CV-1.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae #1 📋</b></button></a>
-<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #2 made in NovoResumé" href="/docs/ruben-andre-barreiro-CV-2.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae #2 📋</b></button></a>
-<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #3 made in EuroPass" href="/docs/ruben-andre-barreiro-CV-3.pdf"><button class="button buttonDocument"><b>Download Curriculum Vitae #3 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in LaTeX" href="/docs/ruben-andre-barreiro-CV-1.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #1 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #2 made in NovoResumé" href="/docs/ruben-andre-barreiro-CV-2.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #2 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #3 made in EuroPass" href="/docs/ruben-andre-barreiro-CV-3.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #3 📋</b></button></a>
 
 <br>
 <hr/>
