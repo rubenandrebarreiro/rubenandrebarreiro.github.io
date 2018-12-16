@@ -2806,7 +2806,7 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-hand-rock-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Leadership:</u></i></p>
+		<p align="justify"><i class="fas fa-fist-raised faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Leadership:</u></i></p>
 		<ul>
 			<li>
 				Deal-making
