@@ -2083,7 +2083,7 @@ active: About Me
 			</li>
 			
 			<li>
-				 <p align="justify"><i class="fa fa-code fa-stack-1x"></i>&nbsp;&nbsp;Programming languages:</p>
+				 <p align="justify"><i class="fa fa-code faa-horizontal animated"></i>&nbsp;&nbsp;Programming languages:</p>
         			<ul>
 					<li>
 						<u>Object-oriented languages</u>:
