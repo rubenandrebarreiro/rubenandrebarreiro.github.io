@@ -2023,7 +2023,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>IT/IS & Computer Engineering:</b></p>
         <ul>
 			<li>
-				<p align="justify"><i class="fa fas-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;Subjects and areas domained:</p>
+				<p align="justify"><i class="fas fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;Subjects and areas domained:</p>
         			<ul>
 					<li>
 						<u>Imperative programming</u>;
