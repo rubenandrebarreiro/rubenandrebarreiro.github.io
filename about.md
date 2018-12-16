@@ -2716,6 +2716,12 @@ active: About Me
 	</li>
 </ul>	
 
+<h3 id="soft_skills">
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Soft skills:</u></i></p>
+</h3>
+
+<p align="justify">Coming soon...</p>
+
 <br>
 
 <a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
