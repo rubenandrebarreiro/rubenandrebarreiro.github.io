@@ -2374,7 +2374,7 @@ active: About Me
 			</li>
 			
 			<li>
-				 <p align="justify"><i class="fas fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;IDEs:</p>
+				 <p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;IDEs:</p>
         			<ul>
 					<li>
 						<i>Turbo Pascal</i>
@@ -2427,7 +2427,7 @@ active: About Me
 			
 			
 			<li>
-				 <p align="justify"><i class="fas fa-table faa-horizontal animated"></i>&nbsp;&nbsp;PL/SQL editors:</p>
+				 <p align="justify"><i class="fas fa-box faa-horizontal animated"></i>&nbsp;&nbsp;PL/SQL editors:</p>
         			<ul>
 					<li>
 						<i>Oracle SQL developer</i>
@@ -2582,7 +2582,7 @@ active: About Me
 			</li>
 			
 			<li>
-				 <p align="justify"><i class="fas fa-tv faa-horizontal animated"></i>&nbsp;&nbsp;Computer operating systems:</p>
+				 <p align="justify"><i class="fas fa-desktop faa-horizontal animated"></i>&nbsp;&nbsp;Computer operating systems:</p>
         			<ul>
 					<li>
 						<u><i>Linux:</i></u>
@@ -2658,10 +2658,10 @@ active: About Me
 	</li>
 	
 	<li>
-	<p align="justify"><i class="fa fa-window faa-horizontal animated"></i>&nbsp;&nbsp;<b>Basics:</b></p>
+	<p align="justify"><i class="fas fa-window-restore faa-horizontal animated"></i>&nbsp;&nbsp;<b>Basics:</b></p>
         <ul>
 			<li>
-				<p align="justify"><i class="fa fa-container-storage faa-horizontal animated"></i>&nbsp;&nbsp;Databases:</p>
+				<p align="justify"><i class="fas fa-warehouse faa-horizontal animated"></i>&nbsp;&nbsp;Databases:</p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
@@ -2687,7 +2687,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fa fa-presentation faa-horizontal animated"></i>&nbsp;&nbsp;Presentations:</p>
+				<p align="justify"><i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;Presentations:</p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
@@ -2700,7 +2700,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fa fa-file-spreadsheet faa-horizontal animated"></i>&nbsp;&nbsp;Spreadsheets:</p>
+				<p align="justify"><i class="fa fa-table faa-horizontal animated"></i>&nbsp;&nbsp;Spreadsheets:</p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
