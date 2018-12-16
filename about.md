@@ -2248,6 +2248,132 @@ active: About Me
 				</ul>
 			</li>
 			
+			<li>
+				 <p align="justify"><i class="fas fa-cog faa-horizontal animated"></i>&nbsp;&nbsp;APIs:</p>
+        			<ul>
+					<li>
+						<u>JavaScript APIs</u>:
+						<ul>
+							<li>
+								<u>2D and 3D programming</u>
+								<ul>
+									<li>
+										<i>WebGL</i> ★★★☆☆
+									</li>
+								</ul>								
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Cross-platform APIs</u>:
+						<ul>
+							<li>
+								<u>2D and 3D programming</u>
+								<ul>
+									<li>
+										<i>OpenGL</i> ★☆☆☆☆
+									</li>
+								</ul>								
+							</li>
+							<li>
+								<u>Document-oriented databases</u>
+								<ul>
+									<li>
+										<i>MongoDB</i> ★★★☆☆
+									</li>
+								</ul>								
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Centralized services for distributed systems</u>:
+						<ul>
+							<li>
+								<i>Apache ZooKeeper</i> ★★☆☆☆
+							</li>
+						</ul>												
+					</li>
+					<li>
+						<u>Open-source streams-processing</u>:
+						<ul>
+							<li>
+								<i>Apache Kafka</i> ★☆☆☆☆
+							</li>
+						</ul>												
+					</li>
+					<li>
+						<u>Web services</u>:
+						<ul>
+							<li>
+								<i>REST (Representational State Transfer)</i> ★★☆☆☆
+							</li>
+							<li>
+								<i>SOAP (Simple Object Access Protocol)</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>
+				 <p align="justify"><i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;Run-time environments:</p>
+        			<ul>
+					<li>
+						<u>JavaScript cross-platforms</u>:
+						<ul>
+							<li>
+								<i>Node.js</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>
+				 <p align="justify"><i class="fas fa-drafting-compass faa-horizontal animated"></i>&nbsp;&nbsp;Run-time environments:</p>
+        			<ul>
+					<li>
+						<u>Intelligent multi-agent systems</u>:
+						<ul>
+							<li>
+								<i>JADE (Java Agent Development Framework)</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Applications and inversion of control container</u>:
+						<ul>
+							<li>
+								<i>Spring Framework</i> ★☆☆☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>JavaScript-based open-source front-end web applications</u>:
+						<ul>
+							<li>
+								<i>AngularJS (Angular.js)</i> ★☆☆☆☆
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>
+				 <p align="justify"><i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;Game engines:</p>
+        			<ul>
+					<li>
+						<u>Cross-platform</u>:
+						<ul>
+							<li>
+								<i>Unity</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			
 		</ul>
 	</li>
 </ul>	
