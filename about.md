@@ -1992,6 +1992,21 @@ active: About Me
 </h2>
 <hr/>
 
+<p align="justify">
+<b><u>Notes:</u></b>
+	<ul>
+		<li>
+			Classifications in <b>interval between 1 (minimum) and 5 (maximum) points</b>;
+		</li>
+		<li>
+			Graphic caption with ★ and ☆ symbols: <b>★ symbol for 1 point and ☆ symbol for 0 points</b>;
+		</li>
+		<li>
+			<b>The total classification for each hard skill it’s the total sum of all ★ symbols, between 1 (minimum) and 5 (maximum)</b>;
+		</li>
+	</ul>
+</p>
+
 <h3 id="hard_skills">
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Hard skills:</u></i></p>
 </h3>
@@ -2063,6 +2078,165 @@ active: About Me
 						<u>Intelligent multi-agent systems</u>;
 					</li>
 				</ul>
+				<p align="justify">Programming languages:</p>
+        			<ul>
+					<li>
+						<u>Object-oriented languages</u>:
+						<ul>
+							<li>
+								<i>Java</i> ★★★★☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Imperative languages</u>:
+						<ul>
+							<li>
+								<i>Pascal</i> ★★★★☆
+							</li>
+							<li>
+								<i>C</i> ★★★☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Multi-paradigm languages</u>:
+						<ul>
+							<li>
+								<i>Visual Basic .NET</i> ★★☆☆☆
+							</li>
+							<li>
+								<i>C++</i> ★☆☆☆☆
+							</li>
+							<li>
+								<i>OCaml (Objective Caml)</i> ★★★☆☆
+							</li>
+							<li>
+								<i>C# (CSharp)</i> ★★☆☆☆								
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Low-level languages</u>:
+						<ul>
+							<li>
+								<i>Assembly</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Markup languages</u>:
+						<ul>
+							<li>
+								<i>HTML (Hypertext Markup Language)</i> ★★★★☆
+							</li>
+							<li>
+								<i>XML (Extensible Markup Language)</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Interpreted languages</u>:
+						<ul>
+							<li>
+								<i>JavaScript</i> ★★★☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Style sheet languages</u>:
+						<ul>
+							<li>
+								<i>CSS (Cascade Style Sheet)</i> ★★★☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Object-relational database languages</u>:
+						<ul>
+							<li>
+								<i>MySQL</i> ★★★★☆
+							</li>
+							<li>
+								<i>Oracle SQL</i> ★★★★☆
+							</li>
+							<li>
+								<i>PostgreSQL</i> ★★★★☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Server-side scripting languages</u>:
+						<ul>
+							<li>
+								<i>PHP (PHP: Hypertext Preprocessor)</i> ★★★☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Software modelling languages</u>:
+						<ul>
+							<li>
+								<i>UML (Unified Modelling Language)</i> ★★★★☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Declarative languages for software modelling</u>:
+						<ul>
+							<li>
+								<i>OCL (Object Constraint Language)</i> ★★★☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Formal modelling and specification languages</u>:
+						<ul>
+							<li>
+								<i>VDM++ (Vienna Development Method ++)</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Declarative specification languages</u>:
+						<ul>
+							<li>
+								<i>Alloy</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Declarative logic languages</u>:
+						<ul>
+							<li>
+								<i>Datalog</i> ★★☆☆☆
+							</li>
+							<li>
+								<i>Prolog</i> ★★★☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Mobile development languages</u>:
+						<ul>
+							<li>
+								<i>Android</i> ★★☆☆☆
+							</li>
+							<li>
+								<i>IOS</i> ★☆☆☆☆
+							</li>
+						</ul>
+					</li>
+					<li>
+						<u>Preparation languages for documents, papers and articles</u>:
+						<ul>
+							<li>
+								<i>LaTeX</i> ★★☆☆☆
+							</li>
+						</ul>
+					</li>
+				</u>
+				
 			</li>
 		</ul>
     </li>
