@@ -2726,7 +2726,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-exclamation-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Critical thinking:</u></i></p>
 		<ul>
 			<li>
-				<i>Adaptable</i>, <i>artistic sense</i>, <i>creativity</i>, <i>critical observer</i>, <i>critical thinking</i>, <i>design sense</i>, <i>desire to learn</i>, <i>flexible</i>, <i>innovative</i>, <i>logical thinking</i>, <i>problem solving</i>, <i>research</i>, <i>resourceful</i>, <i>thinking outside the box</i>, <i>tolerant of change and uncertainty</i>, <i>troubleshooting</i>, <i>value education</i> and <i>willingness to learn</i>;
+				<i>Adaptable</i>, <i>artistic sense</i>, <i>creativity</i>, <i>critical observer</i>, <i>design sense</i>, <i>desire to learn</i>, <i>flexible</i>, <i>innovative</i>, <i>logical thinking</i>, <i>problem solving</i>, <i>research</i>, <i>resourceful</i>, <i>thinking outside the box</i>, <i>tolerant of change and uncertainty</i>, <i>troubleshooting</i>, <i>value education</i> and <i>willingness to learn</i>;
 			</li>
 		</ul>
 	</li>
@@ -2734,7 +2734,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-fist-raised faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Leadership:</u></i></p>
 		<ul>
 			<li>
-				<i>Deal-making</i>, <i>decision making</i>, <i>delegation</i>, <i>inspiring</i>, <i>management</i>, <i>mentoring</i>, <i>motivating</i>, <i>successful coaching</i>, <i>supervising</i> and <i>talent management;
+				<i>Deal-making</i>, <i>decision making</i>, <i>delegation</i>, <i>inspiring</i>, <i>management</i>, <i>mentoring</i>, <i>motivating</i>, <i>successful coaching</i>, <i>supervising</i> and <i>talent management</i>;
 			</li>
 		</ul>
 	</li>
