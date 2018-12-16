@@ -1983,15 +1983,93 @@ active: About Me
 <br>
 
 
-<h2 id="programming_languages_skills_title">
-    <i>Programming Languages, Hard & Soft Skills</i>
+<h2 id="full_competences_title">
+    <i>Full Academic and Professional Competences</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-code fa-stack-1x faa-float animated"></i>
+        <i class="fa fa-wrench fa-stack-1x faa-float animated"></i>
     </span>
 </h2>
 <hr/>
 
+<h3 id="hard_skills">
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Hard skills:</u></i></p>
+</h3>
+
+<ul>
+	<li>
+        <p align="justify">IT/IS & Computer Engineering:</p>
+        <ul>
+			<li>
+				<p align="justify">Subjects and areas domained:</p>
+        			<ul>
+					<li>
+						Imperative programming;
+					</li>
+					<li>
+						Object-oriented programming;
+					</li>
+					<li>
+						Operative systems & architectures;
+					</li>
+					<li>
+						Data structures;
+					</li>
+					<li>
+						Object-relational databases;
+					</li>
+					<li>
+						Logic programming;
+					</li>
+					<li>
+						Computer networks;
+					</li>
+					<li>
+						Computer graphics & 2D/3D interfaces;
+					</li>
+					<li>
+						Artificial intelligence;
+					</li>
+					<li>
+						Searching algorithms;
+					</li>
+					<li>
+						Genetic algorithms;
+					</li>
+					<li>
+						Autonomous problem solvers:
+						<ul>
+							<li>
+								STRIPS;
+							</li>
+						</ul>
+					</li>
+					<li>
+						Modelling and design of software;
+					</li>
+					<li>
+						Graphs algorithms;
+					</li>
+					<li>
+						Distributed systems;
+					</li>
+					<li>
+						Multi-threading;
+					</li>
+					<li>
+						Edge & Fog computing;
+					</li>
+					<li>
+						Intelligent multi-agent systems;
+					</li>
+				</ul>
+			</li>
+		</ul>
+    </li>
+</ul>
+
+
+<!--
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>High School of Monte de Caparica</b>), between 2009 and 2012:</p>
 <ul>
     <li>
@@ -2070,7 +2148,7 @@ active: About Me
         <p align="justify"><b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;</p>
     </li>
 </ul>
-
+-->
 
 <a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
 
