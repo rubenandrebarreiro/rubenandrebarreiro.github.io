@@ -2652,7 +2652,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Access</i> ★★★★☆
+								<i>Microsoft Access</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
@@ -2691,7 +2691,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Excel</i> ★★★★☆
+								<i>Microsoft Excel</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
