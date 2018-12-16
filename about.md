@@ -2713,7 +2713,11 @@ active: About Me
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Soft skills:</u></i></p>
 </h3>
 
-<p align="justify">Coming soon...</p>
+<ul>
+	<li>
+		<p align="justify">Coming soon...</p>
+	</li>
+</ul>
 
 <br>
 
