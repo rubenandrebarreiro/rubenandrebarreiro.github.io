@@ -2658,10 +2658,10 @@ active: About Me
 	</li>
 	
 	<li>
-	<p align="justify"><i class="fas fa-window faa-horizontal animated"></i>&nbsp;&nbsp;<b>Basics:</b></p>
+	<p align="justify"><i class="fa fa-window faa-horizontal animated"></i>&nbsp;&nbsp;<b>Basics:</b></p>
         <ul>
 			<li>
-				<p align="justify"><i class="fas fa-container-storage faa-horizontal animated"></i>&nbsp;&nbsp;Databases:</p>
+				<p align="justify"><i class="fa fa-container-storage faa-horizontal animated"></i>&nbsp;&nbsp;Databases:</p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
@@ -2687,7 +2687,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-presentation faa-horizontal animated"></i>&nbsp;&nbsp;Presentations:</p>
+				<p align="justify"><i class="fa fa-presentation faa-horizontal animated"></i>&nbsp;&nbsp;Presentations:</p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
@@ -2700,7 +2700,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-file-spreadsheet faa-horizontal animated"></i>&nbsp;&nbsp;Spreadsheets:</p>
+				<p align="justify"><i class="fa fa-file-spreadsheet faa-horizontal animated"></i>&nbsp;&nbsp;Spreadsheets:</p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
