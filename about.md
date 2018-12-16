@@ -2023,7 +2023,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>1) IT/IS & Computer Engineering:</b></p>
         <ul>
 			<li>
-				<p align="justify"><i class="fas fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;Subjects and areas domained:</p>
+				<p align="justify"><i class="fas fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;<b>Subjects and areas domained:</b></p>
         			<ul>
 					<li>
 						<u>Imperative programming</u>;
@@ -2087,7 +2087,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fa fa-code faa-horizontal animated"></i>&nbsp;&nbsp;Programming languages:</p>
+				 <p align="justify"><i class="fa fa-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Programming languages:</b></p>
         			<ul>
 					<li>
 						<u>Object-oriented languages</u>:
@@ -2247,7 +2247,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-cog faa-horizontal animated"></i>&nbsp;&nbsp;APIs:</p>
+				<p align="justify"><i class="fas fa-cog faa-horizontal animated"></i>&nbsp;&nbsp;<b>APIs:</b></p>
         			<ul>
 					<li>
 						<u>JavaScript APIs</u>:
@@ -2313,7 +2313,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;Run-time environments:</p>
+				<p align="justify"><i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;<b>Run-time environments:</b></p>
         			<ul>
 					<li>
 						<u>JavaScript cross-platforms</u>:
@@ -2326,7 +2326,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-drafting-compass faa-horizontal animated"></i>&nbsp;&nbsp;Run-time environments:</p>
+				<p align="justify"><i class="fas fa-drafting-compass faa-horizontal animated"></i>&nbsp;&nbsp;<b>Frameworks:</b></p>
         			<ul>
 					<li>
 						<u>Intelligent multi-agent systems</u>:
@@ -2355,7 +2355,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;Game engines:</p>
+				<p align="justify"><i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;<b>Game engines:</b></p>
         			<ul>
 					<li>
 						<u>Cross-platform</u>:
@@ -2368,7 +2368,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;IDEs:</p>
+				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs:</b></p>
         			<ul>
 					<li>
 						<i>Turbo Pascal</i> ★★★★☆
@@ -2391,7 +2391,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;Compilers:</p>
+				<p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;<b>Compilers:</b></p>
         			<ul>
 					<li>
 						<i>Free Pascal</i> ★★★★☆
@@ -2399,7 +2399,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-pencil-alt faa-horizontal animated"></i>&nbsp;&nbsp;Text editors:</p>
+				<p align="justify"><i class="fas fa-pencil-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b>Text editors:</b></p>
         			<ul>
 					<li>
 						<i>Notepad++</i> ★★★★☆
@@ -2416,7 +2416,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-box faa-horizontal animated"></i>&nbsp;&nbsp;PL/SQL editors:</p>
+				<p align="justify"><i class="fas fa-box faa-horizontal animated"></i>&nbsp;&nbsp;<b>PL/SQL editors:</b></p>
         			<ul>
 					<li>
 						<i>Oracle SQL developer</i> ★★☆☆☆
@@ -2424,7 +2424,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;Database development environment:</p>
+				<p align="justify"><i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;<b>Database development environment:</b></p>
         			<ul>
 					<li>
 						<i>Oracle APEX (Oracle Application Express)</i> ★★★☆☆
@@ -2432,7 +2432,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-archive faa-horizontal animated"></i>&nbsp;&nbsp;Software platforms:</p>
+				<p align="justify"><i class="fas fa-archive faa-horizontal animated"></i>&nbsp;&nbsp;<b>Software platforms:</b></p>
         			<ul>
 					<li>
 						<u>Virtualization:</u>
@@ -2490,7 +2490,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-box-open faa-horizontal animated"></i>&nbsp;&nbsp;Software stacks:</p>
+				<p align="justify"><i class="fas fa-box-open faa-horizontal animated"></i>&nbsp;&nbsp;<b>Software stacks:</b></p>
         			<ul>
 					<li>
 						<u>WampServer</u> ★★☆☆☆
@@ -2498,7 +2498,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-lock faa-horizontal animated"></i>&nbsp;&nbsp;Administration tools:</p>
+				<p align="justify"><i class="fas fa-lock faa-horizontal animated"></i>&nbsp;&nbsp;<b>Administration tools:</b></p>
         			<ul>
 					<li>
 						<u>phpMyAdmin</u> ★★☆☆☆
@@ -2506,7 +2506,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-code-branch faa-horizontal animated"></i>&nbsp;&nbsp;Version-control systems:</p>
+				<p align="justify"><i class="fas fa-code-branch faa-horizontal animated"></i>&nbsp;&nbsp;<b>Version-control systems:</b></p>
     				<ul>
 					<li>
 						<u>Web-based hosting services:</u>
@@ -2547,7 +2547,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-file-code faa-horizontal animated"></i>&nbsp;&nbsp;Others:</p>
+				<p align="justify"><i class="fas fa-file-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Others:</b></p>
         			<ul>
 					<li>
 						<u>JavaScript's file formats:</u>
@@ -2576,7 +2576,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fas fa-desktop faa-horizontal animated"></i>&nbsp;&nbsp;Computer operating systems:</p>
+				<p align="justify"><i class="fas fa-desktop faa-horizontal animated"></i>&nbsp;&nbsp;<b>Computer operating systems:</b></p>
         			<ul>
 					<li>
 						<u><i>Linux:</i></u>
@@ -2597,7 +2597,7 @@ active: About Me
 	<p align="justify"><i class="fas fa-palette faa-horizontal animated"></i>&nbsp;&nbsp;<b>2) Arts:</b></p>
         <ul>
 			<li>
-				<p align="justify"><i class="fas fa-paint-brush faa-horizontal animated"></i>&nbsp;&nbsp;Graphic design and photography:</p>
+				<p align="justify"><i class="fas fa-paint-brush faa-horizontal animated"></i>&nbsp;&nbsp;<b>Graphic design and photography:</b></p>
         			<ul>
 					<li>
 						<u><i>Adobe Creative Cloud:</i></u>
@@ -2619,7 +2619,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-tape faa-horizontal animated"></i>&nbsp;&nbsp;Video editing:</p>
+				<p align="justify"><i class="fas fa-tape faa-horizontal animated"></i>&nbsp;&nbsp;<b>Video editing:</b></p>
         			<ul>
 					<li>
 						<u><i>Adobe Creative Cloud:</i></u>
@@ -2635,7 +2635,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;Web development:</p>
+				<p align="justify"><i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<b>Web development:</b></p>
         			<ul>
 					<li>
 						<u><i>Adobe Creative Cloud:</i></u>
@@ -2654,7 +2654,7 @@ active: About Me
 	<p align="justify"><i class="fas fa-window-restore faa-horizontal animated"></i>&nbsp;&nbsp;<b>3) Basics:</b></p>
         <ul>
 			<li>
-				<p align="justify"><i class="fas fa-warehouse faa-horizontal animated"></i>&nbsp;&nbsp;Databases:</p>
+				<p align="justify"><i class="fas fa-warehouse faa-horizontal animated"></i>&nbsp;&nbsp;<b>Databases:</b></p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
@@ -2667,7 +2667,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;Documents:</p>
+				<p align="justify"><i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b>Documents:</b></p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
@@ -2680,7 +2680,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;Presentations:</p>
+				<p align="justify"><i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<b>Presentations:</b></p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
@@ -2693,7 +2693,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fa fa-table faa-horizontal animated"></i>&nbsp;&nbsp;Spreadsheets:</p>
+				<p align="justify"><i class="fa fa-table faa-horizontal animated"></i>&nbsp;&nbsp;<b>Spreadsheets:</b></p>
         			<ul>
 					<li>
 						<u><i>Microsoft Office:</i></u>
