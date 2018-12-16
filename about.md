@@ -2715,7 +2715,283 @@ active: About Me
 
 <ul>
 	<li>
-		<p align="justify">Coming soon...</p>
+		<p align="justify"><i class="fa fa-comments faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Communication skills:</u></i></p>
+		<ul>
+			<li>
+				Able to listen
+			</li>
+			<li>
+				Listening
+			</li>
+			<li>
+				Nonverbal communication
+			</li>
+			<li>
+				Persuation
+			</li>
+			<li>
+				Reading body language
+			</li>
+			<li>
+				Storytelling
+			</li>
+			<li>
+				Visual communication
+			</li>
+			<li>
+				Writing reports and proposals
+			</li>
+			<li>
+				Writing skills
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p align="justify"><i class="fas fa-exclamation-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Critical thinking:</u></i></p>
+		<ul>
+			<li>
+				Adaptable
+			</li>
+			<li>
+				Artistic sense
+			</li>
+			<li>
+				Creativity
+			</li>
+			<li>
+				Critical observer
+			</li>
+			<li>
+				Critical thinking
+			</li>
+			<li>
+				Design sense
+			</li>
+			<li>
+				Desire to learn
+			</li>
+			<li>
+				Flexible
+			</li>
+			<li>
+				Innovative
+			</li>
+			<li>
+				Logical thinking
+			</li>
+			<li>
+				Problem solving
+			</li>
+			<li>
+				Research
+			</li>
+			<li>
+				Resourceful
+			</li>
+			<li>
+				Thinking outside the box
+			</li>
+			<li>
+				Tolerant of change and uncertainty
+			</li>
+			<li>
+				Troubleshooting
+			</li>
+			<li>
+				Value education
+			</li>
+			<li>
+				Willingness to learn
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p align="justify"><i class="fas fa-hand-rock-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Leadership:</u></i></p>
+		<ul>
+			<li>
+				Deal-making
+			</li>
+			<li>
+				Decision making
+			</li>
+			<li>
+				Delegation
+			</li>
+			<li>
+				Inspiring
+			</li>
+			<li>
+				Management
+			</li>
+			<li>
+				Mentoring
+			</li>
+			<li>
+				Motivating
+			</li>
+			<li>
+				Successful coaching
+			</li>
+			<li>
+				Supervising
+			</li>
+			<li>
+				Talent management
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p align="justify"><i class="fas fa-hand-peace faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Positive attitude:</u></i></p>
+		<ul>
+			<li>
+				Confident
+			</li>
+			<li>
+				Cooperative
+			</li>
+			<li>
+				Courteous
+			</li>
+			<li>
+				Energetic
+			</li>
+			<li>
+				Enthusiastic
+			</li>
+			<li>
+				Friendly
+			</li>
+			<li>
+				High energy
+			</li>
+			<li>
+				Honest
+			</li>
+			<li>
+				Patient
+			</li>
+			<li>
+				Respectable
+			</li>
+			<li>
+				Respectful
+			</li>
+			<li>
+				Sense of humor
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p align="justify"><i class="fas fa-hand-holding-heart faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Teamwork:</u></i></p>
+		<ul>
+			<li>
+				Accept feedback
+			</li>
+			<li>
+				Collaborative
+			</li>
+			<li>
+				Customer service
+			</li>
+			<li>
+				Dealing with difficult situations
+			</li>
+			<li>
+				Empathetic
+			</li>
+			<li>
+				Dealing with difficult personalities
+			</li>
+			<li>
+				Intercultural competence
+			</li>
+			<li>
+				Interpersonal skills
+			</li>
+			<li>
+				Influential
+			</li>
+			<li>
+				Networking
+			</li>
+			<li>
+				Social skills
+			</li>
+			<li>
+				Team player
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p align="justify"><i class="fas fa-handshake faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Work ethic:</u></i></p>
+		<ul>
+			<li>
+				Attentive
+			</li>
+			<li>
+				Competitive
+			</li>
+			<li>
+				Dedicated
+			</li>
+			<li>
+				Dependable
+			</li>
+			<li>
+				Following direction
+			</li>
+			<li>
+				Independent
+			</li>
+			<li>
+				Making deadlines
+			</li>
+			<li>
+				Motivated
+			</li>
+			<li>
+				Multitasking
+			</li>
+			<li>
+				Perseverant
+			</li>
+			<li>
+				Persistent
+			</li>
+			<li>
+				Planning
+			</li>
+			<li>
+				Reliable
+			</li>
+			<li>
+				Resilient
+			</li>
+			<li>
+				Results-oriented
+			</li>
+			<li>
+				Self-directed
+			</li>
+			<li>
+				Self-monitoring
+			</li>
+			<li>
+				Self-supervising
+			</li>
+			<li>
+				Strategic planning
+			</li>
+			<li>
+				Time management
+			</li>
+			<li>
+				Trainable
+			</li>
+			<li>
+				Working well under pressure
+			</li>
+		</ul>
 	</li>
 </ul>
 
