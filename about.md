@@ -2593,7 +2593,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i>Microsoft Windows</i>
+						<u><i>Microsoft Windows</i></u>
 					</li>
 				</ul>
 			</li>
