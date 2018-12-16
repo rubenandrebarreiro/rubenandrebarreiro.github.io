@@ -1998,69 +1998,69 @@ active: About Me
 
 <ul>
 	<li>
-        <p align="justify">IT/IS & Computer Engineering:</p>
+        <p align="justify"><b>IT/IS & Computer Engineering:</b></p>
         <ul>
 			<li>
 				<p align="justify">Subjects and areas domained:</p>
         			<ul>
 					<li>
-						Imperative programming;
+						<u>Imperative programming</u>;
 					</li>
 					<li>
-						Object-oriented programming;
+						<u>Object-oriented programming</u>;
 					</li>
 					<li>
-						Operative systems & architectures;
+						<u>Operative systems & architectures</u>;
 					</li>
 					<li>
-						Data structures;
+						<u>Data structures</u>;
 					</li>
 					<li>
-						Object-relational databases;
+						<u>Object-relational databases</u>;
 					</li>
 					<li>
-						Logic programming;
+						<u>Logic programming</u>;
 					</li>
 					<li>
-						Computer networks;
+						<u>Computer networks</u>;
 					</li>
 					<li>
-						Computer graphics & 2D/3D interfaces;
+						<u>Computer graphics & 2D/3D interfaces</u>;
 					</li>
 					<li>
-						Artificial intelligence;
+						<u>Artificial intelligence</u>;
 					</li>
 					<li>
-						Searching algorithms;
+						<u>Searching algorithms</u>;
 					</li>
 					<li>
-						Genetic algorithms;
+						<u>Genetic algorithms</u>;
 					</li>
 					<li>
-						Autonomous problem solvers:
+						<u>Autonomous problem solvers</u>:
 						<ul>
 							<li>
-								STRIPS;
+								<u><i>STRIPS</i></u>;
 							</li>
 						</ul>
 					</li>
 					<li>
-						Modelling and design of software;
+						<u>Modelling and design of software</u>;
 					</li>
 					<li>
-						Graphs algorithms;
+						<u>Graphs algorithms</u>;
 					</li>
 					<li>
-						Distributed systems;
+						<u>Distributed systems</u>;
 					</li>
 					<li>
-						Multi-threading;
+						<u>Multi-threading</u>;
 					</li>
 					<li>
-						Edge & Fog computing;
+						<u>Edge & Fog computing</u>;
 					</li>
 					<li>
-						Intelligent multi-agent systems;
+						<u>Intelligent multi-agent systems</u>;
 					</li>
 				</ul>
 			</li>
