@@ -2253,7 +2253,6 @@ active: About Me
 </ul>	
 
 <br>
-<br>
 
 <a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
 
