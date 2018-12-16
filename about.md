@@ -2086,7 +2086,6 @@ active: About Me
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fa fa-code faa-horizontal animated"></i>&nbsp;&nbsp;Programming languages:</p>
         			<ul>
@@ -2247,7 +2246,6 @@ active: About Me
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-cog faa-horizontal animated"></i>&nbsp;&nbsp;APIs:</p>
         			<ul>
@@ -2314,7 +2312,6 @@ active: About Me
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;Run-time environments:</p>
         			<ul>
@@ -2328,7 +2325,6 @@ active: About Me
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-drafting-compass faa-horizontal animated"></i>&nbsp;&nbsp;Run-time environments:</p>
         			<ul>
@@ -2358,7 +2354,6 @@ active: About Me
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;Game engines:</p>
         			<ul>
@@ -2372,81 +2367,70 @@ active: About Me
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;IDEs:</p>
         			<ul>
 					<li>
-						<i>Turbo Pascal</i>
+						<i>Turbo Pascal</i> ★★★★☆
 					</li>
 					<li>
-						<i>Microsoft Visual Studio</i>
+						<i>Microsoft Visual Studio</i> ★★☆☆☆
 					</li>
 					<li>
-						<i>Eclipse IDE</i>
+						<i>Eclipse IDE</i> ★★★★☆
 					</li>
 					<li>
-						<i>IntelliJ IDEA</i>
+						<i>IntelliJ IDEA</i> ★★☆☆☆
 					</li>
 					<li>
-						<i>Android Studio</i>
+						<i>Android Studio</i> ★★☆☆☆
 					</li>
 					<li>
-						<i>Unity3D</i>
+						<i>Unity3D</i> ★★☆☆☆
 					</li>		
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;Compilers:</p>
         			<ul>
 					<li>
-						<i>Free Pascal</i>
+						<i>Free Pascal</i> ★★★★☆
 					</li>
 				</ul>
 			</li>
-			
-				
 			<li>
 				 <p align="justify"><i class="fas fa-pencil-alt faa-horizontal animated"></i>&nbsp;&nbsp;Text editors:</p>
         			<ul>
 					<li>
-						<i>Notepad++</i>
+						<i>Notepad++</i> ★★★★☆
 					</li>
 					<li>
-						<i>Atom</i>
+						<i>Atom</i> ★★★★☆
 					</li>
 					<li>
-						<i>Brackets</i>
+						<i>Brackets</i> ★★★★☆
 					</li>
 					<li>
-						<i>SublimeText</i>
+						<i>SublimeText</i> ★★★★☆
 					</li>
 				</ul>
 			</li>
-			
-			
 			<li>
 				 <p align="justify"><i class="fas fa-box faa-horizontal animated"></i>&nbsp;&nbsp;PL/SQL editors:</p>
         			<ul>
 					<li>
-						<i>Oracle SQL developer</i>
+						<i>Oracle SQL developer</i> ★★☆☆☆
 					</li>
 				</ul>
 			</li>
-			
-			
-			
 			<li>
 				 <p align="justify"><i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;Database development environment:</p>
         			<ul>
 					<li>
-						<i>Oracle APEX (Oracle Application Express)</i>
+						<i>Oracle APEX (Oracle Application Express)</i> ★★★☆☆
 					</li>
 				</ul>
 			</li>
-			
-			
 			<li>
 				 <p align="justify"><i class="fas fa-archive faa-horizontal animated"></i>&nbsp;&nbsp;Software platforms:</p>
         			<ul>
@@ -2460,13 +2444,13 @@ active: About Me
 										<u>Independent:</u>
 										<ul>
 											<li>
-												<i>Oracle VM VirtualBox</i>
+												<i>Oracle VM VirtualBox</i> ★★★☆☆
 											</li>
 											<li>
-												<i>QEMU (Quick Emulator)</i>
+												<i>QEMU (Quick Emulator)</i> ★☆☆☆☆
 											</li>
 											<li>
-												<i>VMware Workstation</i>
+												<i>VMware Workstation</i> ★★☆☆☆
 											</li>
 										</ul>
 									</li>
@@ -2479,7 +2463,7 @@ active: About Me
 											<u>Application containers:</u>
 											<ul>
 												<li>
-													<i>Docker</i>
+													<i>Docker</i> ★☆☆☆☆
 												</li>
 											</ul>
 										</li>
@@ -2491,38 +2475,42 @@ active: About Me
 						<u>Data science:</u>
 						<ul>
 							<li>
-								<i>RapidMiner</i>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<u>UML tools:</u>
-						<ul>
-							<li>
-								<i>StarUML</i>
-							</li>
-							<li>
-								<i>Modelio Open Source</i>
+								<i>RapidMiner</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
 				</ul>
 			</li>
-
 			<li>
-				 <p align="justify"><i class="fas fa-code-branch faa-horizontal animated"></i>&nbsp;&nbsp;Version-control systems:</p>
+				<p align="justify"><i class="fas fa-box-open faa-horizontal animated"></i>&nbsp;&nbsp;Software stack:</p>
         			<ul>
+					<li>
+						<u>WampServer</u> ★★☆☆☆
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p align="justify"><i class="fas fa-lock faa-horizontal animated"></i>&nbsp;&nbsp;Software stack:</p>
+        			<ul>
+					<li>
+						<u>phpMyAdmin</u> ★★☆☆☆
+					</li>
+				</ul>
+			</li>
+			<li>
+				<p align="justify"><i class="fas fa-code-branch faa-horizontal animated"></i>&nbsp;&nbsp;Version-control systems:</p>
+    				<ul>
 					<li>
 						<u>Web-based hosting services:</u>
 						<ul>
 							<li>
-								<i>Atlassian Bitbucket</i>
+								<i>Atlassian Bitbucket</i> ★★★☆☆
 							</li>
 							<li>
-								<i>GitHub</i>
+								<i>GitHub</i> ★★★☆☆
 							</li>
 							<li>
-								<i>GitLab</i>
+								<i>GitLab</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
@@ -2530,13 +2518,13 @@ active: About Me
 						<u>Git clients:</u>
 						<ul>
 							<li>
-								<i>Atlassian Sourcetree</i>
+								<i>Atlassian Sourcetree</i> ★★★☆☆
 							</li>
 							<li>
-								<i>GitHub Desktop</i>
+								<i>GitHub Desktop</i> ★★★☆☆
 							</li>
 							<li>
-								<i>GitKraken</i>
+								<i>GitKraken</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
@@ -2544,13 +2532,12 @@ active: About Me
 						<u>Branching models for Git:</u>
 						<ul>
 							<li>
-								<i>GitFlow</i>
+								<i>GitFlow</i> ★★☆☆☆
 							</li>
 						</ul>
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-file-code faa-horizontal animated"></i>&nbsp;&nbsp;Others:</p>
         			<ul>
@@ -2558,7 +2545,7 @@ active: About Me
 						<u>JavaScript's file formats:</u>
 						<ul>
 							<li>
-								<i>JSON (JavaScript Object Notation)</i>
+								<i>JSON (JavaScript Object Notation)</i> ★★★★☆
 							</li>
 						</ul>
 					</li>
@@ -2566,7 +2553,7 @@ active: About Me
 						<u>Client side web development techniques:</u>
 						<ul>
 							<li>
-								<i>AJAX (Asynchronous JavaScript and XML)</i>
+								<i>AJAX (Asynchronous JavaScript and XML)</i> ★★☆☆☆
 							</li>
 						</ul>
 					</li>
@@ -2574,13 +2561,12 @@ active: About Me
 						<u>Serializing structured data formats:</u>
 						<ul>
 							<li>
-								<i>Google Protocol Buffers</i>
+								<i>Google Protocol Buffers</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
 				</ul>
 			</li>
-			
 			<li>
 				 <p align="justify"><i class="fas fa-desktop faa-horizontal animated"></i>&nbsp;&nbsp;Computer operating systems:</p>
         			<ul>
@@ -2588,18 +2574,17 @@ active: About Me
 						<u><i>Linux:</i></u>
 						<ul>
 							<li>
-								<i>Ubuntu LTS</i>
+								<i>Ubuntu LTS</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
 					<li>
-						<u><i>Microsoft Windows</i></u>
+						<u><i>Microsoft Windows</i></u> ★★★☆☆
 					</li>
 				</ul>
 			</li>
 		</ul>
-	</li>
-	
+	</li>	
 	<li>
 	<p align="justify"><i class="fas fa-palette faa-horizontal animated"></i>&nbsp;&nbsp;<b>2) Arts:</b></p>
         <ul>
@@ -2610,16 +2595,16 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe Illustrator CC</i>
+								<i>Adobe Illustrator CC</i> ★★★★☆
 							</li>
 							<li>
-								<i>Adobe Photoshop CC</i>
+								<i>Adobe Photoshop CC</i> ★★★★☆
 							</li>
 							<li>
-								<i>Adobe Lightroom CC</i>
+								<i>Adobe Lightroom CC</i> ★★★☆☆
 							</li>
 							<li>
-								<i>Adobe Lightroom Classic CC</i>
+								<i>Adobe Lightroom Classic CC</i> ★★★☆☆
 							</li>
 						</ul>
 					</li>
@@ -2632,10 +2617,10 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe After Effects CC</i>
+								<i>Adobe After Effects CC</i> ★★☆☆☆
 							</li>
 							<li>
-								<i>Adobe Premiere Pro CC</i>
+								<i>Adobe Premiere Pro CC</i> ★★☆☆☆
 							</li>
 						</ul>
 					</li>
@@ -2648,7 +2633,7 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe Dreamweaver CC</i>
+								<i>Adobe Dreamweaver CC</i> ★★☆☆☆
 							</li>
 						</ul>
 					</li>
@@ -2667,7 +2652,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Access</i>
+								<i>Microsoft Access</i> ★★★★☆
 							</li>
 						</ul>
 					</li>
@@ -2680,7 +2665,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Word</i>
+								<i>Microsoft Word</i> ★★★★☆
 							</li>
 						</ul>
 					</li>
@@ -2693,7 +2678,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Powerpoint</i>
+								<i>Microsoft Powerpoint</i> ★★★★☆
 							</li>
 						</ul>
 					</li>
@@ -2706,7 +2691,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Excel</i>
+								<i>Microsoft Excel</i> ★★★★☆
 							</li>
 						</ul>
 					</li>
@@ -2725,88 +2710,6 @@ active: About Me
 <br>
 
 <a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
-
-
-<!--
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;Skills learned at the <b>Professional Course of Technician of Programming and Management of Computer Systems</b> (<b>High School of Monte de Caparica</b>), between 2009 and 2012:</p>
-<ul>
-    <li>
-        <p align="justify">Subjects and areas covered:</p>
-        <ul>
-            <li>
-                <p align="justify">Operative Systems and Architectures, Databases, Basic Notions of Computer Networks, Web Design & Web Forms and Users' Data Validations;</p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p align="justify">Programming Languages covered:</p>
-        <ul>
-            <li>
-                <p align="justify"><b>Pascal</b>, <b>VisualBasic</b>, <b>C++</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>MySQL</b> & <b>PHP</b>;</p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p align="justify">Frameworks, GUIs and IDEs covered:</p>
-        <ul>
-            <li>
-                <p align="justify"><b>Free Pascal</b>, <b>Turbo Pascal</b>, <b>Notepad++</b> and <b>WampServer</b>;</p>  
-            </li>
-        </ul>
-    </li>
-</ul>
-
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;Skills learned at the <b>BSc. Degree</b> focused in <b>Computer Science and Engineering</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>), between 2013 and 2018:</p>
-<ul>
-    <li>
-        <p align="justify">Subjects and areas covered:</p>
-        <ul>
-            <li>
-                <p align="justify">Object Oriented Programming, Operative Systems & Architectures, Data Structures, Databases, Logic Programming, Computer Networks, Computer Graphics & 3D Interfaces, Artificial Intelligence, Searching Algorithms, Genetic Algorithms, Modelling and Design of Programming Languages, Graphs Algorithms, Distributed Systems, Basic Notions of Internet Security and Multi-Threading;</p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p align="justify">Programming Languages covered:</p>
-        <ul>
-            <li>
-                <p align="justify"><b>Java</b>, <b>C</b>, <b>Assembly</b>, <b>OCaml</b>, <b>HTML</b>, <b>JavaScript</b>, <b>CSS</b>, <b>Oracle SQL</b>, <b>Datalog</b>, <b>XML</b>, <b>Prolog (STRIPS)</b>, <b>Unified Modelling Language (UML)</b>, <b>Object Constraint Language (OCL)</b> and <b>Android</b>;</p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p align="justify">Programming Language APIs covered:</p>
-        <ul>
-            <li>
-                <p align="justify"><b>WebGL</b>, <b>OpenGL</b>, <b>REST</b>, <b>SOAP</b>, <b>JSON</b>, <b>MongoDB</b>, <b>Apache ZooKeeper</b>, <b>Apache Kafka</b> and <b>Google Protobuffers</b>;</p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p align="justify">Frameworks, GUIs and IDEs covered:</p>
-        <ul>
-            <li>
-                <p align="justify"><b>Eclipse IDE</b>, <b>Oracle APEX (Oracle Application Express)</b>, <b>Sublime Text</b>, <b>Brackets</b>, <b>Atom</b>, <b>Docker</b>,<b>Android Studio IDE</b>, <b>Sourcetree GUI</b> and <b>GitHub Desktop GUI</b>;</p>
-            </li>
-        </ul>
-    </li>
-    <li>
-        <p align="justify">Papers/articles' build skills covered:</p>
-        <ul>
-            <li>
-                <p align="justify"><b>LaTeX</b>;</p>
-            </li>
-        </ul>
-    </li>
-</ul>
-
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;&nbsp;Other skills:</p>
-<ul>
-    <li>
-        <p align="justify"><b>Adobe Creative Cloud Tools</b> & <b>Microsoft Office Tools</b>;</p>
-    </li>
-</ul>
--->
 
 <br>
 <hr/>
