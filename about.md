@@ -2020,7 +2020,7 @@ active: About Me
 
 <ul>
 	<li>
-		<p align="justify"><i class="fas fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>IT/IS & Computer Engineering:</b></p>
+		<p align="justify"><i class="fas fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>1) IT/IS & Computer Engineering:</b></p>
         <ul>
 			<li>
 				<p align="justify"><i class="fas fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;Subjects and areas domained:</p>
@@ -2601,7 +2601,7 @@ active: About Me
 	</li>
 	
 	<li>
-	<p align="justify"><i class="fas fa-palette faa-horizontal animated"></i>&nbsp;&nbsp;<b>Arts:</b></p>
+	<p align="justify"><i class="fas fa-palette faa-horizontal animated"></i>&nbsp;&nbsp;<b>2) Arts:</b></p>
         <ul>
 			<li>
 				<p align="justify"><i class="fas fa-paint-brush faa-horizontal animated"></i>&nbsp;&nbsp;Graphic design and photography:</p>
@@ -2658,7 +2658,7 @@ active: About Me
 	</li>
 	
 	<li>
-	<p align="justify"><i class="fas fa-window-restore faa-horizontal animated"></i>&nbsp;&nbsp;<b>Basics:</b></p>
+	<p align="justify"><i class="fas fa-window-restore faa-horizontal animated"></i>&nbsp;&nbsp;<b>3) Basics:</b></p>
         <ul>
 			<li>
 				<p align="justify"><i class="fas fa-warehouse faa-horizontal animated"></i>&nbsp;&nbsp;Databases:</p>
