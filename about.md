@@ -2718,31 +2718,7 @@ active: About Me
 		<p align="justify"><i class="fa fa-comments faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Communication skills:</u></i></p>
 		<ul>
 			<li>
-				Able to listen
-			</li>
-			<li>
-				Listening
-			</li>
-			<li>
-				Nonverbal communication
-			</li>
-			<li>
-				Persuation
-			</li>
-			<li>
-				Reading body language
-			</li>
-			<li>
-				Storytelling
-			</li>
-			<li>
-				Visual communication
-			</li>
-			<li>
-				Writing reports and proposals
-			</li>
-			<li>
-				Writing skills
+				<i>Able to listen</i>, <i>listening</i>, <i>nonverbal communication</i>, <i>persuation</i>, <i>reading body language</i>, <i>storytelling</i>, <i>visual communication</i>, <i>writing reports and proposals</i> and <i>writing skills</i>;
 			</li>
 		</ul>
 	</li>
@@ -2750,58 +2726,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-exclamation-triangle faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Critical thinking:</u></i></p>
 		<ul>
 			<li>
-				Adaptable
-			</li>
-			<li>
-				Artistic sense
-			</li>
-			<li>
-				Creativity
-			</li>
-			<li>
-				Critical observer
-			</li>
-			<li>
-				Critical thinking
-			</li>
-			<li>
-				Design sense
-			</li>
-			<li>
-				Desire to learn
-			</li>
-			<li>
-				Flexible
-			</li>
-			<li>
-				Innovative
-			</li>
-			<li>
-				Logical thinking
-			</li>
-			<li>
-				Problem solving
-			</li>
-			<li>
-				Research
-			</li>
-			<li>
-				Resourceful
-			</li>
-			<li>
-				Thinking outside the box
-			</li>
-			<li>
-				Tolerant of change and uncertainty
-			</li>
-			<li>
-				Troubleshooting
-			</li>
-			<li>
-				Value education
-			</li>
-			<li>
-				Willingness to learn
+				<i>Adaptable</i>, <i>artistic sense</i>, <i>creativity</i>, <i>critical observer</i>, <i>critical thinking</i>, <i>design sense</i>, <i>desire to learn</i>, <i>flexible</i>, <i>innovative</i>, <i>logical thinking</i>, <i>problem solving</i>, <i>research</i>, <i>resourceful</i>, <i>thinking outside the box</i>, <i>tolerant of change and uncertainty</i>, <i>troubleshooting</i>, <i>value education</i> and <i>willingness to learn</i>;
 			</li>
 		</ul>
 	</li>
@@ -2809,34 +2734,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-fist-raised faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Leadership:</u></i></p>
 		<ul>
 			<li>
-				Deal-making
-			</li>
-			<li>
-				Decision making
-			</li>
-			<li>
-				Delegation
-			</li>
-			<li>
-				Inspiring
-			</li>
-			<li>
-				Management
-			</li>
-			<li>
-				Mentoring
-			</li>
-			<li>
-				Motivating
-			</li>
-			<li>
-				Successful coaching
-			</li>
-			<li>
-				Supervising
-			</li>
-			<li>
-				Talent management
+				<i>Deal-making</i>, <i>decision making</i>, <i>delegation</i>, <i>inspiring</i>, <i>management</i>, <i>mentoring</i>, <i>motivating</i>, <i>successful coaching</i>, <i>supervising</i> and <i>talent management;
 			</li>
 		</ul>
 	</li>
@@ -2844,40 +2742,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-hand-peace faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Positive attitude:</u></i></p>
 		<ul>
 			<li>
-				Confident
-			</li>
-			<li>
-				Cooperative
-			</li>
-			<li>
-				Courteous
-			</li>
-			<li>
-				Energetic
-			</li>
-			<li>
-				Enthusiastic
-			</li>
-			<li>
-				Friendly
-			</li>
-			<li>
-				High energy
-			</li>
-			<li>
-				Honest
-			</li>
-			<li>
-				Patient
-			</li>
-			<li>
-				Respectable
-			</li>
-			<li>
-				Respectful
-			</li>
-			<li>
-				Sense of humor
+				<i>Confident</i>, <i>cooperative</i>, <i>courteous</i>, <i>energetic</i>, <i>enthusiastic</i>, <i>friendly</i>, <i>high energy</i>, <i>honest</i>, <i>patient</i>, <i>respectable</i>, <i>respectful</i> and <i>sense of humor</i>;
 			</li>
 		</ul>
 	</li>
@@ -2885,40 +2750,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-hand-holding-heart faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Teamwork:</u></i></p>
 		<ul>
 			<li>
-				Accept feedback
-			</li>
-			<li>
-				Collaborative
-			</li>
-			<li>
-				Customer service
-			</li>
-			<li>
-				Dealing with difficult situations
-			</li>
-			<li>
-				Empathetic
-			</li>
-			<li>
-				Dealing with difficult personalities
-			</li>
-			<li>
-				Intercultural competence
-			</li>
-			<li>
-				Interpersonal skills
-			</li>
-			<li>
-				Influential
-			</li>
-			<li>
-				Networking
-			</li>
-			<li>
-				Social skills
-			</li>
-			<li>
-				Team player
+				<i>Accept feedback</i>, <i>collaborative</i>, <i>customer service</i>, <i>dealing with difficult situations</i>, <i>empathetic</i>, <i>dealing with difficult personalities</i>, <i>intercultural competence</i>, <i>interpersonal skills</i>, <i>influential</i>, <i>networking</i>, <i>social skills</i> and <i>team player</i>; 
 			</li>
 		</ul>
 	</li>
@@ -2926,70 +2758,7 @@ active: About Me
 		<p align="justify"><i class="fas fa-handshake faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Work ethic:</u></i></p>
 		<ul>
 			<li>
-				Attentive
-			</li>
-			<li>
-				Competitive
-			</li>
-			<li>
-				Dedicated
-			</li>
-			<li>
-				Dependable
-			</li>
-			<li>
-				Following direction
-			</li>
-			<li>
-				Independent
-			</li>
-			<li>
-				Making deadlines
-			</li>
-			<li>
-				Motivated
-			</li>
-			<li>
-				Multitasking
-			</li>
-			<li>
-				Perseverant
-			</li>
-			<li>
-				Persistent
-			</li>
-			<li>
-				Planning
-			</li>
-			<li>
-				Reliable
-			</li>
-			<li>
-				Resilient
-			</li>
-			<li>
-				Results-oriented
-			</li>
-			<li>
-				Self-directed
-			</li>
-			<li>
-				Self-monitoring
-			</li>
-			<li>
-				Self-supervising
-			</li>
-			<li>
-				Strategic planning
-			</li>
-			<li>
-				Time management
-			</li>
-			<li>
-				Trainable
-			</li>
-			<li>
-				Working well under pressure
+				<i>Attentive</i>, <i>competitive</i>, <i>dedicated</i>, <i>dependable</i>, <i>following direction</i>, <i>independent</i>, <i>making deadlines</i>, <i>motivated</i>, <i>multitasking</i>, <i>perseverant</i>, <i>persistent</i>, <i>planning</i>, <i>reliable</i>, <i>resilient</i>, <i>results-oriented</i>, <i>self-directed</i>, <i>self-monitoring</i>, <i>self-supervising</i>, <i>strategic planning</i>, <i>time management</i>, <i>trainable</i> and <i>working well under pressure</i>;
 			</li>
 		</ul>
 	</li>
