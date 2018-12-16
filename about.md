@@ -2015,7 +2015,7 @@ active: About Me
 
 <ul>
 	<li>
-        <p align="justify"><b>IT/IS & Computer Engineering:</b></p>
+		<p align="justify"><i class="fa fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;IT/IS & Computer Engineering:</p>
         <ul>
 			<li>
 				<p align="justify">Subjects and areas domained:</p>
