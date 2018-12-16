@@ -2082,7 +2082,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify">Programming languages:</p>
+				 <i class="fa fa-code fa-stack-1x"></i><p align="justify">Programming languages:</p>
         			<ul>
 					<li>
 						<u>Object-oriented languages</u>:
@@ -2240,7 +2240,7 @@ active: About Me
 						</ul>
 					</li>
 				</u>
-				
+			<li>
 			</li>
 		</ul>
     </li>
