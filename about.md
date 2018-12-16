@@ -2448,7 +2448,7 @@ active: About Me
 			
 			
 			<li>
-				 <p align="justify"><i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;Software platforms:</p>
+				 <p align="justify"><i class="fas fa-archive faa-horizontal animated"></i>&nbsp;&nbsp;Software platforms:</p>
         			<ul>
 					<li>
 						<u>Virtualization:</u>
@@ -2610,16 +2610,16 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe Illustrator CC</u>
+								<i>Adobe Illustrator CC</i>
 							</li>
 							<li>
-								<i>Adobe Photoshop CC</u>
+								<i>Adobe Photoshop CC</i>
 							</li>
 							<li>
-								<i>Adobe Lightroom CC</u>
+								<i>Adobe Lightroom CC</i>
 							</li>
 							<li>
-								<i>Adobe Lightroom Classic CC</u>
+								<i>Adobe Lightroom Classic CC</i>
 							</li>
 						</ul>
 					</li>
@@ -2632,10 +2632,10 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe After Effects CC</u>
+								<i>Adobe After Effects CC</i>
 							</li>
 							<li>
-								<i>Adobe Premiere Pro CC</u>
+								<i>Adobe Premiere Pro CC</i>
 							</li>
 						</ul>
 					</li>
@@ -2648,7 +2648,7 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe Dreamweaver CC</u>
+								<i>Adobe Dreamweaver CC</i>
 							</li>
 						</ul>
 					</li>
@@ -2667,7 +2667,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Access</u>
+								<i>Microsoft Access</i>
 							</li>
 						</ul>
 					</li>
@@ -2680,7 +2680,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Word</u>
+								<i>Microsoft Word</i>
 							</li>
 						</ul>
 					</li>
@@ -2693,7 +2693,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Powerpoint</u>
+								<i>Microsoft Powerpoint</i>
 							</li>
 						</ul>
 					</li>
@@ -2706,7 +2706,7 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Excel</u>
+								<i>Microsoft Excel</i>
 							</li>
 						</ul>
 					</li>
