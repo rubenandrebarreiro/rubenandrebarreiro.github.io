@@ -2018,7 +2018,7 @@ active: About Me
 		<p align="justify"><i class="fa fa-laptop-code faa-horizontal animated"></i>&nbsp;&nbsp;IT/IS & Computer Engineering:</p>
         <ul>
 			<li>
-				<p align="justify">Subjects and areas domained:</p>
+				<p align="justify"><i class="fa fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;Subjects and areas domained:</p>
         			<ul>
 					<li>
 						<u>Imperative programming</u>;
