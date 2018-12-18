@@ -1875,7 +1875,7 @@ active: About Me
         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
     </span>
 </font>        
-<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2018 and 2020"><b>BSc. Degree</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
+<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2018 and 2020"><b>Integrated Master (BSc. & MSc. Bologna Degree)</b> in <b>Computer Science and Engineering</b> at <b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>, between 2013 and 2018; ✔️</p></li>
     <ul>
         <li>
             <a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
