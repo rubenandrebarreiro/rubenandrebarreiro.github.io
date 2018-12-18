@@ -1975,6 +1975,7 @@ active: About Me
 </p>
 
 <br>
+<br>
 
 <a target="_blank" title="Download Rúben André Barreiro's Résumé #1 made in NovoResumé" href="/docs/ruben-andre-barreiro-resume-1.pdf"><button class="button buttonDocument"><b>Résumé #1 📝</b></button></a>
 <a target="_blank" title="Download Rúben André Barreiro's Résumé #2 made in Microsoft Word" href="/docs/ruben-andre-barreiro-resume-2.pdf"><button class="button buttonDocument"><b>Résumé #2 📝</b></button></a>
