@@ -1897,7 +1897,7 @@ active: About Me
         <li>(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)</li>
     </ul>
 
-	 <li><p align="justify"><font size="4">
+<!--	 <li><p align="justify"><font size="4">
     <span class="icon-university-porto" title="Informatics and Computation Engineering at Faculty of Engineering of University of Porto (P&oacute;lo Universit&aacute;rio - Paranhos/Porto, FEUP), between 2018 and 2020">
     </span>
     <font size="1">
@@ -1929,7 +1929,7 @@ active: About Me
         
         <li>(Projects' Screenshots, Scientific Research Project, Master's Thesis, Diploma, Transcript)</li>
     </ul>
-</ul>
+</ul>-->
 
 <br>
     
@@ -2648,8 +2648,7 @@ active: About Me
 				</ul>
 			</li>
 		</ul>
-	</li>
-	
+	</li>	
 	<li>
 	<p align="justify"><i class="fas fa-window-restore faa-horizontal animated"></i>&nbsp;&nbsp;<b>3) Basics:</b></p>
         <ul>
