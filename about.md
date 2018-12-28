@@ -1883,29 +1883,29 @@ active: About Me
 		<br>
 		<b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
 		<br>
-		between 2013 and 2018; ✔️</p></li>
-	    	<ul>
-	    		<li>
-		    		<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
-		            
-		        <font size="3">&nbsp;|&nbsp;</font>
-		        
-		        <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
-
-		         <font size="3">&nbsp;|&nbsp;</font>
-
-		        <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
-
-		        <font size="3">&nbsp;|&nbsp;</font>
-
-		        <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
-	        </li>
-	    
-	        <li>
-				(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)
-			</li>
-		</ul>
+		between 2013 and 2018; ✔️</p>
 	</li>
+	<ul>
+		<li>
+			<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
+		            
+		    <font size="3">&nbsp;|&nbsp;</font>
+		        
+		    <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
+
+		    <font size="3">&nbsp;|&nbsp;</font>
+
+		    <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
+
+		    <font size="3">&nbsp;|&nbsp;</font>
+
+		    <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
+		</li>
+	    
+	    <li>
+			(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)
+		</li>
+	</ul>
 	
     <li>
 		<p align="justify">
@@ -1923,30 +1923,30 @@ active: About Me
 		<br>
 		<b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
 		<br>
-		between 2019 and 2020;️</p></li>
-	    	<ul>
-	    		<li>
-		    		<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
-		            
-		        <font size="3">&nbsp;|&nbsp;</font>
-		        
-		        <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
-
-		         <font size="3">&nbsp;|&nbsp;</font>
-
-		        <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
-
-		        <font size="3">&nbsp;|&nbsp;</font>
-
-		        <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
-	        </li>
-	    
-	        <li>
-				(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)
-			</li>
-		</ul>
+		between 2019 and 2020;️</p>
 	</li>
+	<ul>
+  		<li>
+	    		<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
+	            
+	        <font size="3">&nbsp;|&nbsp;</font>
+	        
+	        <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
 
+	         <font size="3">&nbsp;|&nbsp;</font>
+
+	        <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
+
+	        <font size="3">&nbsp;|&nbsp;</font>
+
+	        <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
+        </li>
+	    
+	   <li>
+	   		(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)
+		</li>
+	</ul>
+	
 </ul>
 
 <br>
