@@ -2097,14 +2097,6 @@ between 2013 and 2018; ✔️</p></li>
 				 <p align="justify"><i class="fa fa-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Programming languages:</b></p>
         			<ul>
 					<li>
-						<u>Object-oriented languages</u>:
-						<ul>
-							<li>
-								<i>Java</i> ★★★★☆
-							</li>
-						</ul>
-					</li>
-					<li>
 						<u>Imperative languages</u>:
 						<ul>
 							<li>
@@ -2125,10 +2117,16 @@ between 2013 and 2018; ✔️</p></li>
 								<i>C++</i> ★☆☆☆☆
 							</li>
 							<li>
+								<i>Java</i> ★★★★☆
+							</li>
+							<li>
 								<i>OCaml (Objective Caml)</i> ★★★☆☆
 							</li>
 							<li>
 								<i>C# (CSharp)</i> ★★☆☆☆								
+							</li>
+							<li>
+								<i>Python</i> ★☆☆☆☆								
 							</li>
 						</ul>
 					</li>
