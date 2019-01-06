@@ -1701,10 +1701,10 @@ active: Projects
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/3d_object_modelling_robot/modelling_demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</a>
+    <a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelling_robot/modelling_demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to move and manipulate an Industrial Automated Robot, all using 3D Modelling and 3D Objects. The Robot can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the Robot are always performed using the keyboard and you can see all the action of multiple angles, using an Axonometric Projection!</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to move and manipulate an Industrial Automated Robot, all using 3D Modelling and 3D Objects. The Robot can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the Robot are always performed using the keyboard and you can see all the action of multiple angles, using an Axonometric Projection!</a></font></p>
 
 <br>
 
@@ -1727,7 +1727,7 @@ active: Projects
     </p>
 </font>    
 
-[![3DObjectModellingRobot]({{ site.images | relative_url }}/projects/3dobjectmodellingrobot.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodellingrobot.jpg)
+[![3DObjectModellingRobot]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)
 <p style="font-size:11px"><i>3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</i></p>
 
 <br>
@@ -1745,10 +1745,10 @@ active: Projects
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a>
+    <a target="_blank" href="/projects/webgl/2d-rotative-shapes/2d-rotative-shapes.html" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)">Rotative Shapes using WebGL (FCT NOVA - October 2017)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/rotative_shapes/rotative_shapes.html" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/2d-rotative-shapes/2d-rotative-shapes.html" title="Rotative Shapes using WebGL (FCT NOVA - October 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the Browser! </a></font></p>
 
 <br>
 
@@ -1761,7 +1761,7 @@ active: Projects
     </p>
 </font>    
 
-[![RotativeShapes]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)]({{ site.images | relative_url }}/projects/rotativeshapes.jpg)
+[![RotativeShapes]({{ site.images | relative_url }}/projects/2d-rotative-shapes-01.jpg)]({{ site.images | relative_url }}/projects/2d-rotative-shapes-01.jpg)
 <p style="font-size:11px"><i>Rotative Shapes using WebGL (FCT NOVA - October 2017)</i></p>
 
 <br>
@@ -1779,10 +1779,10 @@ active: Projects
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/3d_object_modelling_helicopter/modelling_demo.html" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</a>
+    <a target="_blank" href="/projects/webgl/3d-object-modelling-helicopter/3d-object-modelling-helicopter-demo.html" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d_object_modelling_helicopter/modelling_demo.html" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to drive a flying Helicopter above a city, all using 3D Modelling and 3D Objects. The Helicopter it's drived using the keyboard and you can see all the action of multiple angles, using an Axonometric Projection! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-modelling-helicopter/3d-object-modelling-helicopter-demo.html" title="3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to drive a flying Helicopter above a city, all using 3D Modelling and 3D Objects. The Helicopter it's drived using the keyboard and you can see all the action of multiple angles, using an Axonometric Projection! </a></font></p>
 
 <br>
 
@@ -1799,7 +1799,7 @@ active: Projects
     </p>
 </font>    
 
-[![3DObjectModellingHelicopter]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)]({{ site.images | relative_url }}/projects/3dobjectmodellinghelicopter.jpg)
+[![3DObjectModellingHelicopter]({{ site.images | relative_url }}/projects/3d-object-modelling-helicopter-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-modelling-helicopter-01.jpg)
 <p style="font-size:11px"><i>3D Object Modelling Demo for a flying Helicopter, using WebGL (FCT NOVA - December 2017)</i></p>
 
 
