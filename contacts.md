@@ -1487,9 +1487,6 @@ active: Contacts
         <font size="1">&nbsp;|&nbsp;</font>
         
         <a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow"><i class="fa fa-stack-overflow" title="Rúben André Barreiro on Stack Overflow" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow">Stack Overflow</a></font>
-
-        <font size="1">&nbsp;|&nbsp;</font>
-        
     </center>
 </div>
 
@@ -1515,9 +1512,41 @@ active: Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
+        <a target="_blank" href="https://www.facebook.com/ruben.badnewz" title="Rúben BadNewz on Facebook"><i class="fa fa-facebook-official" title="Rúben BadNewz on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/ruben.badnewz" title="Rúben BadNewz on Facebook">Facebook - Rúben BadNewz</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
         <a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook"><i class="fa fa-facebook-official" title="BadNewz Lifestyle on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook">Facebook - BadNewz Lifestyle</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.facebook.com/badnewz.streetwear.clothing" title="BadNewz Streetwear Clothing on Facebook"><i class="fa fa-facebook-official" title="BadNewz Streetwear Clothing on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.streetwear.clothing" title="BadNewz Streetwear Clothing on Facebook">Facebook - BadNewz Streetwear Clothing</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.facebook.com/badnewz.suits.co" title="BadNewz Suits & Co. on Facebook"><i class="fa fa-facebook-official" title="BadNewz Suits & Co. on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.suits.co" title="BadNewz Suits & Co. on Facebook">Facebook - BadNewz Suits & Co.</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.facebook.com/badnewz.photo.lab" title="BadNewz Photo Lab on Facebook"><i class="fa fa-facebook-official" title="BadNewz Photo Lab on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.photo.lab" title="BadNewz Photo Lab on Facebook">Facebook - BadNewz Photo Lab</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.facebook.com/badnewz.productions" title="BadNewz Productions on Facebook"><i class="fa fa-facebook-official" title="BadNewz Productions on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.productions" title="BadNewz Productions on Facebook">Facebook - BadNewz Productions</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.facebook.com/badnewz.liquor" title="BadNewz Liquor on Facebook"><i class="fa fa-facebook-official" title="BadNewz Liquor on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.liquor" title="BadNewz Liquor on Facebook">Facebook - BadNewz Liquor</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.facebook.com/badnewz.fitness.sport" title="BadNewz Fitness & Sport on Facebook"><i class="fa fa-facebook-official" title="BadNewz Fitness & Sport on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.fitness.sport" title="BadNewz Fitness & Sport on Facebook">Facebook - BadNewz Fitness & Sport</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.facebook.com/badnewz.fragances" title="BadNewz Fragances on Facebook"><i class="fa fa-facebook-official" title="BadNewz Fragances on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.fragances" title="BadNewz Fragances on Facebook">Facebook - BadNewz Fragances</a></font>
+        
+        <br>
         
         <a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter"><i class="fa fa-twitter" title="Rúben André Barreiro (BadNewz) on Twitter" style="font-size:20px;color:Cyan"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter">Twitter</a></font>
         
