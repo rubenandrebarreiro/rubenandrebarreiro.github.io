@@ -1,5 +1,5 @@
 ---
-bg: "photo38.jpg"
+bg: "photo-38.jpg"
 layout: default
 title: "Contacts"
 crawlertitle: "Rúben André Barreiro's Portfolio/Blog - My Contacts"

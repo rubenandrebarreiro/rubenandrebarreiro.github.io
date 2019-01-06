@@ -1,5 +1,5 @@
 ---
-bg: "photo43.jpg"
+bg: "photo-43.jpg"
 layout: default
 title: "R&D"
 crawlertitle: "Rúben André Barreiro's Portfolio/Blog - My Research & Development Projects"
@@ -1710,5 +1710,5 @@ active: Research & Development
   </li>
 </ul>
 
-[![HyraxProjectBanner]({{ site.images | relative_url }}/research-development/hyraxprojectbanner.jpg)]({{ site.images | relative_url }}/research-development/hyraxprojectbanner.jpg)
+[![HyraxProjectBanner]({{ site.images | relative_url }}/research-development/hyrax-project-banner.jpg)]({{ site.images | relative_url }}/research-development/hyrax-project-banner.jpg)
 <p style="font-size:11px"><i>Hyrax Project [DiCE - Distributed Collaborative Computing at the Edge] (FCT NOVA/NOVA-LINCS - between February 2017 and January 2018)</i></p>

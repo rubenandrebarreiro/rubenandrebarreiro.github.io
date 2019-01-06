@@ -1,5 +1,5 @@
 ---
-bg: "photo22.jpg"
+bg: "photo-22.jpg"
 layout: post
 title:  "28 Geeky Valentine's Card Ideas That Will Make Your Valentine's Day Perfect!"
 crawlertitle: "Rúben André Barreiro's Blog - 28 Geeky Valentine's Cards"

@@ -1,5 +1,5 @@
 ---
-bg: "photo25.jpg"
+bg: "photo-25.jpg"
 layout: post
 title:  "The So Famous Crisis Of The 20s / A Tão Famosa Crise Dos 20 e Poucos Anos"
 crawlertitle: "Rúben André Barreiro's Blog - The So Famous Crisis Of The 20s"
