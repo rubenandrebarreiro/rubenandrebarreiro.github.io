@@ -11,7 +11,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
 <p align="justify">Hello again everybody! I'm here to share with you, my <i><u>first studio photoshoots</u></i>. It was an amazing experience and for me and I hope repeat it in the future! 😍</p>
 
-[![AlexandreCampinasPhotoshootsBanner1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/Alexandre_Campinas_Photoshoots_Banner_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/Alexandre_Campinas_Photoshoots_Banner_1.jpg)
+[![AlexandreCampinasPhotoshootsBanner1]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/alexandre-campinas-photoshoots-banner-1.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/alexandre-campinas-photoshoots-banner-1.jpg)
 
 <hr>
 <br>
@@ -31,79 +31,79 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <p align="justify"><b>The highlights of the photosession are the following, resulting in a total of 284 photos without any edition:</b></p>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#1
-[![AlexandreCampinas15April2018Photoshoots1]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_1.jpg)
+[![AlexandreCampinas15April2018Photoshoots1]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-01.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-01.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#2
-[![AlexandreCampinas15April2018Photoshoots2]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_2.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_2.jpg)
+[![AlexandreCampinas15April2018Photoshoots2]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-02.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-02.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#3
-[![AlexandreCampinas15April2018Photoshoots3]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_3.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_3.jpg)
+[![AlexandreCampinas15April2018Photoshoots3]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-03.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-03.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#4
-[![AlexandreCampinas15April2018Photoshoots4]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_4.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_4.jpg)
+[![AlexandreCampinas15April2018Photoshoots4]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-04.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-04.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#5
-[![AlexandreCampinas15April2018Photoshoots5]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_5.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_5.jpg)
+[![AlexandreCampinas15April2018Photoshoots5]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-05.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-05.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#6
-[![AlexandreCampinas15April2018Photoshoots6]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_6.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_6.jpg)
+[![AlexandreCampinas15April2018Photoshoots6]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-06.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-06.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#7
-[![AlexandreCampinas15April2018Photoshoots7]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_7.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_7.jpg)
+[![AlexandreCampinas15April2018Photoshoots7]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-07.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-07.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#8
-[![AlexandreCampinas15April2018Photoshoots8]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_8.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_8.jpg)
+[![AlexandreCampinas15April2018Photoshoots8]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-08.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-08.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#9
-[![AlexandreCampinas15April2018Photoshoots9]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_9.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_9.jpg)
+[![AlexandreCampinas15April2018Photoshoots9]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-09.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-09.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#10
-[![AlexandreCampinas15April2018Photoshoots10]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_10.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_10.jpg)
+[![AlexandreCampinas15April2018Photoshoots10]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-10.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-10.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#11
-[![AlexandreCampinas15April2018Photoshoots11]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_11.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_11.jpg)
+[![AlexandreCampinas15April2018Photoshoots11]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-11.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-11.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#12
-[![AlexandreCampinas15April2018Photoshoots12]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_12.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_12.jpg)
+[![AlexandreCampinas15April2018Photoshoots12]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-12.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-12.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#13
-[![AlexandreCampinas15April2018Photoshoots13]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_13.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_13.jpg)
+[![AlexandreCampinas15April2018Photoshoots13]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-13.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-13.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#14
-[![AlexandreCampinas15April2018Photoshoots14]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_14.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_14.jpg)
+[![AlexandreCampinas15April2018Photoshoots14]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-14.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-14.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#15
-[![AlexandreCampinas15April2018Photoshoots15]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_15.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_15.jpg)
+[![AlexandreCampinas15April2018Photoshoots15]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-15.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-15.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#16
-[![AlexandreCampinas15April2018Photoshoots16]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_16.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_16.jpg)
+[![AlexandreCampinas15April2018Photoshoots16]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-16.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-16.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#17
-[![AlexandreCampinas15April2018Photoshoots17]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_17.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_17.jpg)
+[![AlexandreCampinas15April2018Photoshoots17]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-17.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-17.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#18
-[![AlexandreCampinas15April2018Photoshoots18]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_18.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_18.jpg)
+[![AlexandreCampinas15April2018Photoshoots18]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-18.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-18.jpg)
 <br>
 
 ## `Alexandre Campinas Photoshoots (15/04/2018) - Set `#19
-[![AlexandreCampinas15April2018Photoshoots19]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)]({{ site.images | relative_url }}/alexandre_campinas_photoshoots_1/photoshoots_19.jpg)
+[![AlexandreCampinas15April2018Photoshoots19]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-19.jpg)]({{ site.images | relative_url }}/alexandre-campinas-photoshoots-01/photoshoots-19.jpg)
 <br>
 
 <p align="justify">From the highlights of the photosession, was choosed <b>42 final photos</b>, 40 photos with <i><u>basic editions</u></i> (<i><b>light, contrast, hue and saturation</b></i>) and 2 with <i><u>special editions</u></i> (<i><b>removal of face imperfections, acne and blemishes</b></i>, per example).</p>
