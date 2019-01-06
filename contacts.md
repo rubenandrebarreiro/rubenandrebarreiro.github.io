@@ -1570,11 +1570,11 @@ active: Contacts
         
         <a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram"><i class="fa fa-instagram" title="BadNewz Productions on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram">Instagram - BadNewz Productions</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram"><i class="fa fa-instagram" title="BadNewz Liquor on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram">Instagram - BadNewz Liquor</a></font>
         
-        <br>
+        <font size="1">&nbsp;|&nbsp;</font>
         
         <a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram"><i class="fa fa-instagram" title="BadNewz Fitness & Sport on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram">Instagram - BadNewz Fitness & Sport</a></font>
         
