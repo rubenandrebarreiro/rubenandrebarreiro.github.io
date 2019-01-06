@@ -1588,7 +1588,7 @@ active: Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="https://badnewz-lifestyle.com/"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.com/">Wordpress</a></font>
+        <a target="_blank" href="https://badnewz-lifestyle.com/" title="BadNewz Lifestyle on Wordpress"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.com/">Wordpress - BadNewz Lifestyle</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
