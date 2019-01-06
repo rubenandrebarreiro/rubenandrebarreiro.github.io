@@ -1440,7 +1440,68 @@ active: Contacts
 <br>
 
 <h2 id="social_networks_title">
-    <i>My Social Networks</i>
+    <i>My Academic and Professional Networks</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-tools fa-stack-1x faa-ring animated"></i>
+    </span>
+</h2>
+<hr/>
+
+<div class="w3-container w3-xlarge w3-padding">
+    <center>
+        <a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn"><i class="fa fa-linkedin" title="Rúben André Barreiro on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn">LinkedIn</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub"><i class="fa fa-github" title="Rúben André Barreiro on GitHub" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub">GitHub</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://gitlab.com/rubenandrebarreiro" title="Rúben André Barreiro on GitLab"><i class="fa fa-gitlab" title="Rúben André Barreiro on GitLab" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://gitlab.com/rubenandrebarreiro" title="Rúben André Barreiro on GitLab">GitLab</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://bitbucket.org/rubenandrebarreiro/" title="Rúben André Barreiro on Atlassian Bitbucket"><i class="fa fa-bitbucket" title="Rúben André Barreiro on Atlassian Bitbucket" style="font-size:20px;color:Blue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://bitbucket.org/rubenandrebarreiro/" title="Rúben André Barreiro on Atlassian Bitbucket">Atlassian Bitbucket</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://utaustinportugal.academia.edu/rubenandrebarreiro/" title="Rúben André Barreiro on Academia"><i class="ai ai-academia" title="Rúben André Barreiro on Academia" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://utaustinportugal.academia.edu/rubenandrebarreiro/" title="Rúben André Barreiro on Academia">Academia</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://mathoverflow.net/users/134256/r%C3%BAben-andr%C3%A9-barreiro" title="Rúben André Barreiro on MathOverflow"><i class="ai ai-mathoverflow" title="Rúben André Barreiro on MathOverflow" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://mathoverflow.net/users/134256/r%C3%BAben-andr%C3%A9-barreiro" title="Rúben André Barreiro on MathOverflow">MathOverflow</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.mendeley.com/profiles/ruben-andre-barreiro/" title="Rúben André Barreiro on Mendeley"><i class="ai ai-mendeley" title="Rúben André Barreiro on Mendeley" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.mendeley.com/profiles/ruben-andre-barreiro/" title="Rúben André Barreiro on Mendeley">Mendeley</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCID"><i class="ai ai-orcid" title="Rúben André Barreiro on ORCID" style="font-size:20px;color:Lime"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCID">ORCID</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate"><i class="ai ai-researchgate" title="Rúben André Barreiro on ResearchGate" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate">ResearchGate</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow"><i class="fa fa-stack-overflow" title="Rúben André Barreiro on Stack Overflow" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow">Stack Overflow</a></font>
+
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+    </center>
+</div>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+
+<h2 id="social_networks_title">
+    <i>My Social and Personal Networks</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-users fa-stack-1x faa-horizontal animated"></i>
@@ -1458,27 +1519,11 @@ active: Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn"><i class="fa fa-linkedin" title="Rúben André Barreiro on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/in/rubenandrebarreiro/" title="Rúben André Barreiro on LinkedIn">LinkedIn</a></font>
-        
-        <font size="1">&nbsp;|&nbsp;</font>
-        
         <a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter"><i class="fa fa-twitter" title="Rúben André Barreiro (BadNewz) on Twitter" style="font-size:20px;color:Cyan"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter">Twitter</a></font>
         
         <br>
         
         <a target="_blank" href="https://badnewz-lifestyle.com/"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.com/">Wordpress</a></font>
-        
-        <font size="1">&nbsp;|&nbsp;</font>
-        
-        <a target="_blank" href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub"><i class="fa fa-github" title="Rúben André Barreiro on GitHub" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://github.com/rubenandrebarreiro" title="Rúben André Barreiro on GitHub">GitHub</a></font>
-        
-        <font size="1">&nbsp;|&nbsp;</font>
-        
-        <a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow"><i class="fa fa-stack-overflow" title="Rúben André Barreiro on Stack Overflow" style="font-size:20px;color:Orange"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://stackoverflow.com/story/rubenandrebarreiro" title="Rúben André Barreiro on Stack Overflow">Stack Overflow</a></font>
-
-        <font size="1">&nbsp;|&nbsp;</font>
-
-        <a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate"><i class="ai ai-researchgate" title="Rúben André Barreiro on ResearchGate" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate">ResearchGate</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
