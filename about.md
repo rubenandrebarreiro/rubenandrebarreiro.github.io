@@ -2176,7 +2176,7 @@ active: About Me
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
                                 <i>C# (CSharp)</i>
