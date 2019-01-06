@@ -1846,7 +1846,7 @@ active: Photoshoots
 
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../../photoshoots/2018-04-24-alexandre-campinas-photoshoots-01/highlights.html">Spring Photosession 2018 - by Alexandre Campinas Photography (on April 08, 2018)</a>;</p>
 
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../../photoshoots/2018-09-17-david-oliveira-photoshoots-01/highlights.html">Summer Photosession 2018 - by David Oliveira Photos (on September 17, 2018)</a>;</p>
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../../photoshoots/2018-09-17-david-oliveira-photoshoots-01/highlights.html">Summer Photosession 2018 - by David Oliveira Fotografia (on September 17, 2018)</a>;</p>
 
 <br>
 <hr/>
