@@ -1562,7 +1562,7 @@ active: Contacts
         
         <a target="_blank" href="https://www.instagram.com/badnewz.suits.co/" title="BadNewz Suits & Co. on Instagram"><i class="fa fa-instagram" title="BadNewz Suits & Co. on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.suits.co/" title="BadNewz Suits & Co. on Instagram">Instagram - BadNewz Suits & Co.</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://www.instagram.com/badnewz.photo.lab/" title="BadNewz Photo Lab on Instagram"><i class="fa fa-instagram" title="BadNewz Photo Lab on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.photo.lab/" title="BadNewz Photo Lab on Instagram">Instagram - BadNewz Photo Lab</a></font>
         
@@ -1570,13 +1570,23 @@ active: Contacts
         
         <a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram"><i class="fa fa-instagram" title="BadNewz Productions on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram">Instagram - BadNewz Productions</a></font>
         
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram"><i class="fa fa-instagram" title="BadNewz Liquor on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram">Instagram - BadNewz Liquor</a></font>
+        
         <br>
         
+        <a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram"><i class="fa fa-instagram" title="BadNewz Fitness & Sport on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram">Instagram - BadNewz Fitness & Sport</a></font>
         
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.instagram.com/badnewz.fragances/" title="BadNewz Fragances on Instagram"><i class="fa fa-instagram" title="BadNewz Fragances on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.fragances/" title="BadNewz Fragances on Instagram">Instagram - BadNewz Fragances</a></font>
+        
+        <br>
         
         <a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter"><i class="fa fa-twitter" title="Rúben André Barreiro (BadNewz) on Twitter" style="font-size:20px;color:Cyan"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.twitter.com/ruben_badnewz/" title="Rúben André Barreiro (BadNewz) on Twitter">Twitter</a></font>
         
-        <br>
+        <font size="1">&nbsp;|&nbsp;</font>
         
         <a target="_blank" href="https://badnewz-lifestyle.com/"><i class="fa fa-wordpress" style="font-size:20px;color:DodgerBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.com/">Wordpress</a></font>
         
@@ -1588,7 +1598,7 @@ active: Contacts
          
         <a target="_blank" href="someLink"><i class="fa fa-youtube" style="font-size:20px;color:Red"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="someLink">YouTube</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr"><i class="fa fa-tumblr" title="BadNewz Lifestyle on Tumblr" style="font-size:20px;color:MidnightBlue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://badnewz-lifestyle.tumblr.com/" title="BadNewz Lifestyle on Tumblr">Tumblr</a></font>
         
