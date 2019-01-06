@@ -17,9 +17,7 @@ var cPos = -1;
 var scale = 1.0;
 
 window.onload = function init() {
-    
-    console.log("test");
-    
+
     canvas = document.getElementById("gl-canvas");
     gl = WebGLUtils.setupWebGL(canvas);
     if (!gl)
@@ -78,14 +76,16 @@ function render() {
 }
 
 // Handle zoom of fractal image
-function handleZoom() {
+function handleZoom(e) {
+    var keyCode = (event)? event.keyCode : e.which;
+    
     scale = 1.0;
     setScale();
     
     window.addEventListener("keydown", zoom);
     
     function zoom() {
-        var key = String.fromCharCode(event.keyCode);
+        var key = String.fromCharCode(keyCode);
         switch (key) {
             case "Q": 
                 scale *= 1.04; break;
@@ -103,29 +103,30 @@ function handleZoom() {
 }
 
 // Handle drag of fractal image
-function handleDrag() {
+function handleDrag(e) {
     var startDragCoordinates = null;
     var dragging = false;
     var dx = 0.0;
     var dy = 0.0;
     var center = { x: 0.0, y: 0.0 };
-
+    
     setCenter(center.x, center.y);
     
     canvas.addEventListener("mousedown", startDrag);
     canvas.addEventListener("mousemove", drag);
     window.addEventListener("mouseup", stopDrag);
     
-    function startDrag() {
+    function startDrag(e) {
         if (!dragging) {
-            startDragCoordinates = screenToWorldCoord(event.x, event.y);
+            startDragCoordinates = (event)? screenToWorldCoord(event.x, event.y) : screenToWorldCoord(e.clientX, e.clientY);
 	        dragging = true;
         }
     }
     
-    function drag() {
+    function drag(e) {
         if (dragging) {
-            var currentCoordinates = screenToWorldCoord(event.x, event.y);
+            var currentCoordinates = (event)?screenToWorldCoord(event.x, event.y) : screenToWorldCoord(e.clientX, e.clientY);
+            
             dx = startDragCoordinates.worldX - currentCoordinates.worldX;
             dy = startDragCoordinates.worldY - currentCoordinates.worldY;
 
