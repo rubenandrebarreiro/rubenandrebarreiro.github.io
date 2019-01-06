@@ -1526,7 +1526,7 @@ active: Contacts
         
         <a target="_blank" href="https://www.facebook.com/badnewz.suits.co" title="BadNewz Suits & Co. on Facebook"><i class="fa fa-facebook-official" title="BadNewz Suits & Co. on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.suits.co" title="BadNewz Suits & Co. on Facebook">Facebook - BadNewz Suits & Co.</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://www.facebook.com/badnewz.photo.lab" title="BadNewz Photo Lab on Facebook"><i class="fa fa-facebook-official" title="BadNewz Photo Lab on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.photo.lab" title="BadNewz Photo Lab on Facebook">Facebook - BadNewz Photo Lab</a></font>
         
