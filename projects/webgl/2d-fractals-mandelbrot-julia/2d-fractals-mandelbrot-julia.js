@@ -77,7 +77,7 @@ function render() {
 
 // Handle zoom of fractal image
 function handleZoom(e) {
-    var keyCode = (event)? event.keyCode : e.which;
+    var keyCode = (window.event)? event.keyCode : e.which;
     
     scale = 1.0;
     setScale();
@@ -118,14 +118,14 @@ function handleDrag(e) {
     
     function startDrag(e) {
         if (!dragging) {
-            startDragCoordinates = (event)? screenToWorldCoord(event.x, event.y) : screenToWorldCoord(e.clientX, e.clientY);
+            startDragCoordinates = (window.event)? screenToWorldCoord(event.x, event.y) : screenToWorldCoord(e.clientX, e.clientY);
 	        dragging = true;
         }
     }
     
     function drag(e) {
         if (dragging) {
-            var currentCoordinates = (event)?screenToWorldCoord(event.x, event.y) : screenToWorldCoord(e.clientX, e.clientY);
+            var currentCoordinates = (window.event)?screenToWorldCoord(event.x, event.y) : screenToWorldCoord(e.clientX, e.clientY);
             
             dx = startDragCoordinates.worldX - currentCoordinates.worldX;
             dy = startDragCoordinates.worldY - currentCoordinates.worldY;
