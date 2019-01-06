@@ -1443,7 +1443,7 @@ active: Contacts
     <i>My Academic and Professional Networks</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-tools fa-stack-1x faa-ring animated"></i>
+        <i class="fas fa-tools fa-stack-1x faa-ring animated"></i>
     </span>
 </h2>
 <hr/>
