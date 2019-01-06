@@ -1534,7 +1534,7 @@ active: Contacts
         
         <a target="_blank" href="https://www.facebook.com/badnewz.productions" title="BadNewz Productions on Facebook"><i class="fa fa-facebook-official" title="BadNewz Productions on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.productions" title="BadNewz Productions on Facebook">Facebook - BadNewz Productions</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://www.facebook.com/badnewz.liquor" title="BadNewz Liquor on Facebook"><i class="fa fa-facebook-official" title="BadNewz Liquor on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.liquor" title="BadNewz Liquor on Facebook">Facebook - BadNewz Liquor</a></font>
         
