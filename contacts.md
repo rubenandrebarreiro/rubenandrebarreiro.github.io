@@ -1554,7 +1554,7 @@ active: Contacts
         
         <a target="_blank" href="https://www.instagram.com/badnewz.lifestyle/" title="BadNewz Lifestyle on Instagram"><i class="fa fa-instagram" title="BadNewz Lifestyle on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.lifestyle/" title="BadNewz Lifestyle on Instagram">Instagram - BadNewz Lifestyle</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://www.instagram.com/badnewz.streetwear.clothing/" title="BadNewz Streetwear Clothing on Instagram"><i class="fa fa-instagram" title="BadNewz Streetwear Clothing on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.streetwear.clothing/" title="BadNewz Streetwear Clothing on Instagram">Instagram - BadNewz Streetwear Clothing</a></font>
         
@@ -1563,6 +1563,12 @@ active: Contacts
         <a target="_blank" href="https://www.instagram.com/badnewz.suits.co/" title="BadNewz Suits & Co. on Instagram"><i class="fa fa-instagram" title="BadNewz Suits & Co. on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.suits.co/" title="BadNewz Suits & Co. on Instagram">Instagram - BadNewz Suits & Co.</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.instagram.com/badnewz.photo.lab/" title="BadNewz Photo Lab on Instagram"><i class="fa fa-instagram" title="BadNewz Photo Lab on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.photo.lab/" title="BadNewz Photo Lab on Instagram">Instagram - BadNewz Photo Lab</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram"><i class="fa fa-instagram" title="BadNewz Productions on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram">Instagram - BadNewz Productions</a></font>
         
         <br>
         
