@@ -18,7 +18,7 @@ var scale = 1.0;
 
 window.onload = function init() {
     
-    alert("test");
+    console.log("test");
     
     canvas = document.getElementById("gl-canvas");
     gl = WebGLUtils.setupWebGL(canvas);
