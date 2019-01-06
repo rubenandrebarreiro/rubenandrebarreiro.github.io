@@ -15,24 +15,24 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">And in important dates in a life of a couple, some people don't know what to offer to their pairs. But, remember, sometimes the smallest gifts are the most rewarding. After all, the small details make the difference! 😉</p>
 
-[![LinkAndZeldaAnimation]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek_valentines_ideas/animations/Link_&_Zelda_Animation_1.gif)
+[![LinkAndZeldaAnimation]({{ site.images | relative_url }}/geek-valentines-ideas/animations/Link_&_Zelda_Animation_1.gif)]({{ site.images | relative_url }}/geek-valentines-ideas/animations/Link_&_Zelda_Animation_1.gif)
 
 <p align="justify">So, enough of talking... There's some creative, original and geeky Valentine's Cards that will make your Valentine's Day be perfect and will make your soulmate's heart melt! 😍</p>
 
 ## `Valentine's Card` #1
-[![ValentinesCard1]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_1.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_1.jpg)
+[![ValentinesCard1]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_1.jpg)]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_1.jpg)
 <br>
 
 ## `Valentine's Card` #2
-[![ValentinesCard2]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_2.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_2.jpg)
+[![ValentinesCard2]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_2.jpg)]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_2.jpg)
 <br>
 
 ## `Valentine's Card` #3
-[![ValentinesCard3]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_3.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_3.jpg)
+[![ValentinesCard3]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_3.jpg)]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_3.jpg)
 <br>
 
 ## `Valentine's Card` #4
-[![ValentinesCard4]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_4.jpg)]({{ site.images | relative_url }}/geek_valentines_ideas/cards/Img_4.jpg)
+[![ValentinesCard4]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_4.jpg)]({{ site.images | relative_url }}/geek-valentines-ideas/cards/Img_4.jpg)
 <br>
 
 ## `Valentine's Card` #5
