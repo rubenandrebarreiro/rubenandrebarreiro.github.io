@@ -1,9 +1,9 @@
 ---
-bg: "photo14.jpg"
+bg: "photo36.jpg"
 layout: page
 permalink: /posts/
 title: "Archive"
-crawlertitle: "Rúben André Barreiro's Blog - All Posts"
+crawlertitle: "Rúben André Barreiro's Portfolio/Blog - All Posts"
 summary: "All My Posts"
 active: Archive
 ---

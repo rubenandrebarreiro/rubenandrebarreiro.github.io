@@ -1,8 +1,8 @@
 ---
-bg: "photo16.jpg"
+bg: "photo41.jpg"
 layout: default
 title: "Photography"
-crawlertitle: "Rúben André Barreiro's Blog - My Photography's Works"
+crawlertitle: "Rúben André Barreiro's Portfolio/Blog - My Photography's Works"
 permalink: /photography/
 summary: "My Photography's Works"
 active: Photography

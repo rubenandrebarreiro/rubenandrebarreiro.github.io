@@ -1,8 +1,8 @@
 ---
-bg: "photo13.jpg"
+bg: "photo40.jpg"
 layout: default
 title: "About Me"
-crawlertitle: "Rúben André Barreiro's Blog - About Me"
+crawlertitle: "Rúben André Barreiro's Portfolio/Blog - About Me"
 permalink: /about/
 summary: "Biography, Programming Languages, Hard & Soft Skills, Interests, Goals/Accomplishments, Projects and Publications"
 active: About Me
