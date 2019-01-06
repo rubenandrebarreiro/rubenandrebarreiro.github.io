@@ -1397,7 +1397,7 @@ active: Contacts
     <font size="2"><b>
         ♏ 90's | 🎂 26 years | 🏠 From Lisbon, PT | 📍 Living in Almada, PT
         <br>
-        🎓 Integrated Master (BSc. and MSc. bologna degree) @ FCT NOVA
+        🎓 Integrated Master (BSc. and MSc. Bologna Degree) @ FCT NOVA
         <br>
         💻 Computer Science Engineer | 👨‍💻 IT/IS Programmer & Technician
         <br>
