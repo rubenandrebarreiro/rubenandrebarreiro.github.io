@@ -56,7 +56,7 @@ window.onload = function init() {
     scalePos = gl.getUniformLocation(program, "scale");
     
     
-    handleFractalType();
+    handleFractalType(); 
     
     handleFactor();
     
