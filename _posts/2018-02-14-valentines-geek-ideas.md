@@ -24,7 +24,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <br>
 
 ## `Valentine's Card` #2
-[![ValentinesCard2]({{ site.images | relative_url }}/geek-valentines-ideas/cards/img_02.jpg)]({{ site.images | relative_url }}/geek-valentines-ideas/cards/img-02.jpg)
+[![ValentinesCard2]({{ site.images | relative_url }}/geek-valentines-ideas/cards/img-02.jpg)]({{ site.images | relative_url }}/geek-valentines-ideas/cards/img-02.jpg)
 <br>
 
 ## `Valentine's Card` #3
