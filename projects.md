@@ -1623,7 +1623,7 @@ active: Projects
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/fractals_mandelbrot_julia/fractals.html" title="Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</a>
+    <a target="_blank" href="/projects/webgl/2d-fractals-mandelbrot-julia/2d-fractals-mandelbrot-julia.html" title="Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</a>
 </font>   
 
 <p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/2d-fractals-mandelbrot-julia/2d-fractals-mandelbrot-julia.html" title="Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">A 3rd year's project, of the BSc degree made in FCT NOVA, in the subject of Computer Graphics and Interfaces. This project was built using HTML, CSS, JavaScript and WebGL. The application allows to see Fractals' structures with multiple scales and, using some of the both Benoit Mandelbrot and Gaston Julia's sets! </a></font></p>
@@ -1641,7 +1641,7 @@ active: Projects
     </p>
 </font>    
 
-[![FractalsMandelbrotJulia]({{ site.images | relative_url }}/projects/2d-fractals-mandelbrot-julia-01.jpg)]({{ site.images | relative_url }}/projects/2d-fractals-mandelbrot-julia-01.jpg)
+[![2DFractalsMandelbrotJulia]({{ site.images | relative_url }}/projects/2d-fractals-mandelbrot-julia-01.jpg)]({{ site.images | relative_url }}/projects/2d-fractals-mandelbrot-julia-01.jpg)
 <p style="font-size:11px"><i>Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</i></p>
 
 <br>
