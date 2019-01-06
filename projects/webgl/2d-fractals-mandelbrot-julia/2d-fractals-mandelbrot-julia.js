@@ -17,7 +17,9 @@ var cPos = -1;
 var scale = 1.0;
 
 window.onload = function init() {
-
+    
+    console.log("WebGL isn't available");
+    
     canvas = document.getElementById("gl-canvas");
     gl = WebGLUtils.setupWebGL(canvas);
     if (!gl)
