@@ -76,16 +76,16 @@ function render() {
 }
 
 // Handle zoom of fractal image
-function handleZoom(e) {
-    var keyCode = (window.event)? event.keyCode : e.which;
-    
+function handleZoom() {
     scale = 1.0;
     setScale();
     
     window.addEventListener("keydown", zoom);
     
-    function zoom() {
+    function zoom(e) {
+        var keyCode = (window.event)? event.keyCode : e.which;
         var key = String.fromCharCode(keyCode);
+        
         switch (key) {
             case "Q": 
                 scale *= 1.04; break;
@@ -103,7 +103,7 @@ function handleZoom(e) {
 }
 
 // Handle drag of fractal image
-function handleDrag(e) {
+function handleDrag() {
     var startDragCoordinates = null;
     var dragging = false;
     var dx = 0.0;
