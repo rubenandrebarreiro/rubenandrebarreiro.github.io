@@ -1518,7 +1518,7 @@ active: Contacts
         
         <a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook"><i class="fa fa-facebook-official" title="BadNewz Lifestyle on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.lifestyle" title="BadNewz Lifestyle on Facebook">Facebook - BadNewz Lifestyle</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://www.facebook.com/badnewz.streetwear.clothing" title="BadNewz Streetwear Clothing on Facebook"><i class="fa fa-facebook-official" title="BadNewz Streetwear Clothing on Facebook" style="font-size:20px;color:Indigo"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/badnewz.streetwear.clothing" title="BadNewz Streetwear Clothing on Facebook">Facebook - BadNewz Streetwear Clothing</a></font>
         
