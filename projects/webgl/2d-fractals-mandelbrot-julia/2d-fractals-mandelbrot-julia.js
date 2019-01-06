@@ -1,6 +1,6 @@
-// Computação Gráfica e Interfaces 2016-2017
+// Computer Graphics and Interfaces 2016-2017
 
-// Trabalho Prático 1 - Fractal - Conjuntos de Mandelbrot e Julia
+// Lab Work 1 - Fractals - Sets of Mandelbrot and Julia
 
 // 45404 Daniel Pimenta d.pimenta@campus.fct.unl.pt
 // 42648 Ruben Barreiro r.barreiro@campus.fct.unl.pt
