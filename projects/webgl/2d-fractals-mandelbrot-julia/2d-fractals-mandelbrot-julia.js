@@ -59,10 +59,6 @@ window.onload = function init() {
     handleFractalType(); 
     
     handleFactor();
-    
-    //handleDrag();
-    
-    //handleZoom();
 
 
     render();
