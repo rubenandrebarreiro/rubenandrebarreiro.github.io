@@ -9,6 +9,10 @@ active: About Me
 ---
 
 <style>
+.checked {
+  color: orange;
+}
+    
 .button {
     background-color: #CCCCCC; /* Medium Grey */
     border: none;
@@ -2122,7 +2126,12 @@ active: About Me
 						<u>Imperative languages</u>:
 						<ul>
 							<li>
-								<i>Pascal</i> ★★★★☆
+								<i>Pascal</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
 								<i>C</i> ★★★☆☆
