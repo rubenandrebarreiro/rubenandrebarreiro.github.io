@@ -1464,7 +1464,7 @@ active: Contacts
         
         <a target="_blank" href="https://bitbucket.org/rubenandrebarreiro/" title="Rúben André Barreiro on Atlassian Bitbucket"><i class="fa fa-bitbucket" title="Rúben André Barreiro on Atlassian Bitbucket" style="font-size:20px;color:Blue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://bitbucket.org/rubenandrebarreiro/" title="Rúben André Barreiro on Atlassian Bitbucket">Atlassian Bitbucket</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br>
         
         <a target="_blank" href="https://utaustinportugal.academia.edu/rubenandrebarreiro/" title="Rúben André Barreiro on Academia"><i class="ai ai-academia" title="Rúben André Barreiro on Academia" style="font-size:20px;color:Black"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://utaustinportugal.academia.edu/rubenandrebarreiro/" title="Rúben André Barreiro on Academia">Academia</a></font>
         
