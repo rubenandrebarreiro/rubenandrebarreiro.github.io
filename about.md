@@ -2130,11 +2130,16 @@ active: About Me
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>C</i> ★★★☆☆
+								<i>C</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2142,22 +2147,52 @@ active: About Me
 						<u>Multi-paradigm languages</u>:
 						<ul>
 							<li>
-								<i>Visual Basic .NET</i> ★★☆☆☆
+								<i>Visual Basic .NET</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>C++</i> ★☆☆☆☆
+								<i>C++</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Java</i> ★★★★☆
+								<i>Java</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>OCaml (Objective Caml)</i> ★★★☆☆
+								<i>OCaml (Objective Caml)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span
 							</li>
 							<li>
-								<i>C# (CSharp)</i> ★★☆☆☆								
+                                <i>C# (CSharp)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Python</i> ★☆☆☆☆								
+								<i>Python</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2165,7 +2200,12 @@ active: About Me
 						<u>Low-level languages</u>:
 						<ul>
 							<li>
-								<i>Assembly</i> ★★☆☆☆
+								<i>Assembly</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2173,10 +2213,20 @@ active: About Me
 						<u>Markup languages</u>:
 						<ul>
 							<li>
-								<i>HTML (Hypertext Markup Language)</i> ★★★★☆
+								<i>HTML (Hypertext Markup Language)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>XML (Extensible Markup Language)</i> ★★☆☆☆
+								<i>XML (Extensible Markup Language)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2184,7 +2234,12 @@ active: About Me
 						<u>Interpreted languages</u>:
 						<ul>
 							<li>
-								<i>JavaScript</i> ★★★☆☆
+								<i>JavaScript</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2192,7 +2247,12 @@ active: About Me
 						<u>Style sheet languages</u>:
 						<ul>
 							<li>
-								<i>CSS (Cascade Style Sheet)</i> ★★★☆☆
+								<i>CSS (Cascade Style Sheet)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2200,13 +2260,28 @@ active: About Me
 						<u>Object-relational database languages</u>:
 						<ul>
 							<li>
-								<i>MySQL</i> ★★★★☆
+								<i>MySQL</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Oracle SQL</i> ★★★★☆
+								<i>Oracle SQL</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>PostgreSQL</i> ★★★★☆
+								<i>PostgreSQL</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2214,7 +2289,12 @@ active: About Me
 						<u>Server-side scripting languages</u>:
 						<ul>
 							<li>
-								<i>PHP (PHP: Hypertext Preprocessor)</i> ★★★☆☆
+								<i>PHP (PHP: Hypertext Preprocessor)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2222,7 +2302,12 @@ active: About Me
 						<u>Software modelling languages</u>:
 						<ul>
 							<li>
-								<i>UML (Unified Modelling Language)</i> ★★★★☆
+								<i>UML (Unified Modelling Language)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2230,7 +2315,12 @@ active: About Me
 						<u>Declarative languages for software modelling</u>:
 						<ul>
 							<li>
-								<i>OCL (Object Constraint Language)</i> ★★★☆☆
+								<i>OCL (Object Constraint Language)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2238,7 +2328,12 @@ active: About Me
 						<u>Formal modelling and specification languages</u>:
 						<ul>
 							<li>
-								<i>VDM++ (Vienna Development Method ++)</i> ★★☆☆☆
+								<i>VDM++ (Vienna Development Method ++)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2246,7 +2341,12 @@ active: About Me
 						<u>Declarative specification languages</u>:
 						<ul>
 							<li>
-								<i>Alloy</i> ★★☆☆☆
+								<i>Alloy</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2254,10 +2354,20 @@ active: About Me
 						<u>Declarative logic languages</u>:
 						<ul>
 							<li>
-								<i>Datalog</i> ★★☆☆☆
+								<i>Datalog</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Prolog</i> ★★★☆☆
+								<i>Prolog</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2265,10 +2375,20 @@ active: About Me
 						<u>Mobile development languages</u>:
 						<ul>
 							<li>
-								<i>Android</i> ★★☆☆☆
+								<i>Android</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>IOS</i> ★☆☆☆☆
+								<i>IOS</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2276,7 +2396,12 @@ active: About Me
 						<u>Preparation languages for documents, papers and articles</u>:
 						<ul>
 							<li>
-								<i>LaTeX</i> ★★☆☆☆
+								<i>LaTeX</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2292,7 +2417,12 @@ active: About Me
 								<u>2D and 3D programming</u>
 								<ul>
 									<li>
-										<i>WebGL</i> ★★★☆☆
+										<i>WebGL</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
 									</li>
 								</ul>								
 							</li>
@@ -2305,7 +2435,12 @@ active: About Me
 								<u>2D and 3D programming</u>
 								<ul>
 									<li>
-										<i>OpenGL</i> ★☆☆☆☆
+										<i>OpenGL</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
 									</li>
 								</ul>								
 							</li>
@@ -2313,7 +2448,12 @@ active: About Me
 								<u>Document-oriented databases</u>
 								<ul>
 									<li>
-										<i>MongoDB</i> ★★★☆☆
+										<i>MongoDB</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
 									</li>
 								</ul>								
 							</li>
@@ -2323,7 +2463,12 @@ active: About Me
 						<u>Centralized services for distributed systems</u>:
 						<ul>
 							<li>
-								<i>Apache ZooKeeper</i> ★★☆☆☆
+								<i>Apache ZooKeeper</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>												
 					</li>
@@ -2331,7 +2476,12 @@ active: About Me
 						<u>Open-source streams-processing</u>:
 						<ul>
 							<li>
-								<i>Apache Kafka</i> ★☆☆☆☆
+								<i>Apache Kafka</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>												
 					</li>
@@ -2339,10 +2489,20 @@ active: About Me
 						<u>Web services</u>:
 						<ul>
 							<li>
-								<i>REST (Representational State Transfer)</i> ★★☆☆☆
+								<i>REST (Representational State Transfer)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>SOAP (Simple Object Access Protocol)</i> ★★☆☆☆
+								<i>SOAP (Simple Object Access Protocol)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2355,7 +2515,12 @@ active: About Me
 						<u>JavaScript cross-platforms</u>:
 						<ul>
 							<li>
-								<i>Node.js</i> ★★☆☆☆
+								<i>Node.js</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2368,7 +2533,12 @@ active: About Me
 						<u>Intelligent multi-agent systems</u>:
 						<ul>
 							<li>
-								<i>JADE (Java Agent Development Framework)</i> ★★☆☆☆
+								<i>JADE (Java Agent Development Framework)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2376,7 +2546,12 @@ active: About Me
 						<u>Applications and inversion of control container</u>:
 						<ul>
 							<li>
-								<i>Spring Framework</i> ★☆☆☆☆
+								<i>Spring Framework</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2384,7 +2559,12 @@ active: About Me
 						<u>JavaScript-based open-source front-end web applications</u>:
 						<ul>
 							<li>
-								<i>AngularJS (Angular.js)</i> ★☆☆☆☆
+								<i>AngularJS (Angular.js)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2397,7 +2577,12 @@ active: About Me
 						<u>Cross-platform</u>:
 						<ul>
 							<li>
-								<i>Unity</i> ★★☆☆☆
+								<i>Unity</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2407,22 +2592,52 @@ active: About Me
 				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs:</b></p>
         			<ul>
 					<li>
-						<i>Turbo Pascal</i> ★★★★☆
+						<i>Turbo Pascal</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>Microsoft Visual Studio</i> ★★☆☆☆
+						<i>Microsoft Visual Studio</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>Eclipse IDE</i> ★★★★☆
+						<i>Eclipse IDE</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>IntelliJ IDEA</i> ★★☆☆☆
+                        <i>IntelliJ IDEA</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>Android Studio</i> ★★☆☆☆
+						<i>Android Studio</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>Unity3D</i> ★★☆☆☆
+						<i>Unity3D</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>		
 				</ul>
 			</li>
@@ -2430,7 +2645,12 @@ active: About Me
 				<p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;<b>Compilers:</b></p>
         			<ul>
 					<li>
-						<i>Free Pascal</i> ★★★★☆
+						<i>Free Pascal</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
@@ -2438,16 +2658,36 @@ active: About Me
 				<p align="justify"><i class="fas fa-pencil-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b>Text editors:</b></p>
         			<ul>
 					<li>
-						<i>Notepad++</i> ★★★★☆
+						<i>Notepad++</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>Atom</i> ★★★★☆
+						<i>Atom</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>Brackets</i> ★★★★☆
+						<i>Brackets</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>SublimeText</i> ★★★★☆
+						<i>SublimeText</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
@@ -2455,7 +2695,12 @@ active: About Me
 				<p align="justify"><i class="fas fa-box faa-horizontal animated"></i>&nbsp;&nbsp;<b>PL/SQL editors:</b></p>
         			<ul>
 					<li>
-						<i>Oracle SQL developer</i> ★★☆☆☆
+						<i>Oracle SQL Developer</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
@@ -2463,7 +2708,12 @@ active: About Me
 				<p align="justify"><i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;<b>Database development environment:</b></p>
         			<ul>
 					<li>
-						<i>Oracle APEX (Oracle Application Express)</i> ★★★☆☆
+						<i>Oracle APEX (Oracle Application Express)</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
@@ -2480,13 +2730,28 @@ active: About Me
 										<u>Independent:</u>
 										<ul>
 											<li>
-												<i>Oracle VM VirtualBox</i> ★★★☆☆
+												<i>Oracle VM VirtualBox</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
 											</li>
 											<li>
-												<i>QEMU (Quick Emulator)</i> ★☆☆☆☆
+												<i>QEMU (Quick Emulator)</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
 											</li>
 											<li>
-												<i>VMware Workstation</i> ★★☆☆☆
+												<i>VMware Workstation</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
 											</li>
 										</ul>
 									</li>
@@ -2499,7 +2764,12 @@ active: About Me
 											<u>Application containers:</u>
 											<ul>
 												<li>
-													<i>Docker</i> ★☆☆☆☆
+													<i>Docker</i>
+                                                    <span class="fa fa-star checked"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
+                                                    <span class="fa fa-star"></span>
 												</li>
 											</ul>
 										</li>
@@ -2511,7 +2781,12 @@ active: About Me
 						<u>Data science:</u>
 						<ul>
 							<li>
-								<i>RapidMiner</i> ★★★☆☆
+								<i>RapidMiner</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2519,7 +2794,12 @@ active: About Me
 						<u>Synthesis and analysis of hardware design languages designs:</u>
 						<ul>
 							<li>
-								<i>Xilinx ISE</i> ★★☆☆☆
+								<i>Xilinx ISE</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2529,7 +2809,12 @@ active: About Me
 				<p align="justify"><i class="fas fa-box-open faa-horizontal animated"></i>&nbsp;&nbsp;<b>Software stacks:</b></p>
         			<ul>
 					<li>
-						<u>WampServer</u> ★★☆☆☆
+						<u>WampServer</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
@@ -2537,7 +2822,12 @@ active: About Me
 				<p align="justify"><i class="fas fa-lock faa-horizontal animated"></i>&nbsp;&nbsp;<b>Administration tools:</b></p>
         			<ul>
 					<li>
-						<u>phpMyAdmin</u> ★★☆☆☆
+						<u>phpMyAdmin</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
@@ -2548,13 +2838,28 @@ active: About Me
 						<u>Web-based hosting services:</u>
 						<ul>
 							<li>
-								<i>Atlassian Bitbucket</i> ★★★☆☆
+								<i>Atlassian Bitbucket</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>GitHub</i> ★★★☆☆
+								<i>GitHub</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>GitLab</i> ★★★☆☆
+								<i>GitLab</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2562,13 +2867,28 @@ active: About Me
 						<u>Git clients:</u>
 						<ul>
 							<li>
-								<i>Atlassian Sourcetree</i> ★★★☆☆
+								<i>Atlassian Sourcetree</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>GitHub Desktop</i> ★★★☆☆
+								<i>GitHub Desktop</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>GitKraken</i> ★★★☆☆
+								<i>GitKraken</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2576,7 +2896,12 @@ active: About Me
 						<u>Branching models for Git:</u>
 						<ul>
 							<li>
-								<i>GitFlow</i> ★★☆☆☆
+								<i>GitFlow</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2589,7 +2914,12 @@ active: About Me
 						<u>JavaScript's file formats:</u>
 						<ul>
 							<li>
-								<i>JSON (JavaScript Object Notation)</i> ★★★★☆
+								<i>JSON (JavaScript Object Notation)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2597,7 +2927,12 @@ active: About Me
 						<u>Client side web development techniques:</u>
 						<ul>
 							<li>
-								<i>AJAX (Asynchronous JavaScript and XML)</i> ★★☆☆☆
+								<i>AJAX (Asynchronous JavaScript and XML)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2605,7 +2940,12 @@ active: About Me
 						<u>Serializing structured data formats:</u>
 						<ul>
 							<li>
-								<i>Google Protocol Buffers</i> ★★★☆☆
+								<i>Google Protocol Buffers</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2618,12 +2958,22 @@ active: About Me
 						<u><i>Linux:</i></u>
 						<ul>
 							<li>
-								<i>Ubuntu LTS</i> ★★★☆☆
+								<i>Ubuntu LTS</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<u><i>Microsoft Windows</i></u> ★★★☆☆
+						<u><i>Microsoft Windows</i></u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
@@ -2639,16 +2989,36 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe Illustrator CC</i> ★★★★☆
+								<i>Adobe Illustrator CC</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Adobe Photoshop CC</i> ★★★★☆
+								<i>Adobe Photoshop CC</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Adobe Lightroom CC</i> ★★★☆☆
+								<i>Adobe Lightroom CC</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Adobe Lightroom Classic CC</i> ★★★☆☆
+								<i>Adobe Lightroom Classic CC</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2661,10 +3031,20 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe After Effects CC</i> ★★☆☆☆
+								<i>Adobe After Effects CC</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>Adobe Premiere Pro CC</i> ★★☆☆☆
+								<i>Adobe Premiere Pro CC</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2677,7 +3057,12 @@ active: About Me
 						<u><i>Adobe Creative Cloud:</i></u>
 						<ul>
 							<li>
-								<i>Adobe Dreamweaver CC</i> ★★☆☆☆
+								<i>Adobe Dreamweaver CC</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2695,7 +3080,12 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Access</i> ★★★☆☆
+								<i>Microsoft Access</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2708,7 +3098,12 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Word</i> ★★★★☆
+								<i>Microsoft Word</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2721,7 +3116,12 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Powerpoint</i> ★★★★☆
+								<i>Microsoft Powerpoint</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
@@ -2734,7 +3134,12 @@ active: About Me
 						<u><i>Microsoft Office:</i></u>
 						<ul>
 							<li>
-								<i>Microsoft Excel</i> ★★★☆☆
+								<i>Microsoft Excel</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
