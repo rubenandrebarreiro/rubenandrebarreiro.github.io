@@ -60,9 +60,9 @@ window.onload = function init() {
     
     handleFactor();
     
-    //handleDrag();
+    handleDrag();
     
-    //handleZoom();
+    handleZoom();
 
 
     render();
