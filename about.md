@@ -1852,7 +1852,7 @@ active: About Me
 
 <br>
 
-[![ChildhoodPhoto2]({{ site.images | relative_url }}/childhood/childhood2.jpg)]({{ site.images | relative_url }}/childhood/childhood2.jpg)
+[![ChildhoodPhoto2]({{ site.images | relative_url }}/childhood/childhood-2.jpg)]({{ site.images | relative_url }}/childhood/childhood-2.jpg)
 <p style="font-size:11px"><i>Myself's Portrait at 1996</i></p>
 
 <p align="justify">I was born in <b>Lisbon</b>, <b>Portugal</b>, at November 19, 1992. 👶 🚼 </p>
@@ -3218,7 +3218,7 @@ active: About Me
 
 <br>
 
-<a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Full Competences made in Microsoft Powerpoint" href="/docs/ruben-andre-barreiro-full-competences-1.pdf"><button class="button buttonDocument"><b>Full Competences Document 📑</b></button></a>
 
 <br>
 <hr/>
