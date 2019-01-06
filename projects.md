@@ -1727,7 +1727,7 @@ active: Projects
     </p>
 </font>    
 
-[![3DObjectModellingRobot]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)
+[![3DObjectModellingRobotHand]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)
 <p style="font-size:11px"><i>3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</i></p>
 
 <br>
