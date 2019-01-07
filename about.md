@@ -3562,7 +3562,7 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-hand-holding-heart faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Teamwork:</b></i></p>
+		<p align="justify"><i class="fas fa-handshake faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Teamwork:</b></i></p>
 		<ul>
 			<li>
 				<p align="justify">
@@ -3572,7 +3572,7 @@ active: About Me
 		</ul>
 	</li>
 	<li>
-		<p align="justify"><i class="fas fa-handshake faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Work ethic:</b></i></p>
+		<p align="justify"><i class="fas fa-hand-holding-heart faa-horizontal animated"></i>&nbsp;&nbsp;<i><b>Work ethic:</b></i></p>
 		<ul>
 			<li>
 				<p align="justify">
