@@ -2120,10 +2120,10 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				 <p align="justify"><i class="fa fa-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Programming languages:</b></p>
+				 <p align="justify"><i class="fas fa-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Programming languages:</b></p>
         			<ul>
 					<li>
-						<u>Imperative languages</u>:
+						<i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;<u>Imperative languages</u>:
 						<ul>
 							<li>
 								<i>Pascal</i>
@@ -2144,7 +2144,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Multi-paradigm languages</u>:
+						<i class="fas fa-codepen faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm languages</u>:
 						<ul>
 							<li>
 								<i>Visual Basic .NET</i>
@@ -2221,7 +2221,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <u>Multi-paradigm numerical computing environment</u>:
+                        <i class="fas fa-sort-numeric-up faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm numerical computing environment</u>:
 						<ul>
 							<li>
 								<i>MATLAB (Matrix Laboratory)</i>
@@ -2234,7 +2234,7 @@ active: About Me
 						</ul>
                     </li>
 					<li>
-						<u>Low-level languages</u>:
+						<i class="fas fa-microchip faa-horizontal animated"></i>&nbsp;&nbsp;<u>Low-level languages</u>:
 						<ul>
 							<li>
 								<i>Assembly</i>
@@ -2247,7 +2247,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Markup languages</u>:
+						<i class="fas fa-passport animated"></i>&nbsp;&nbsp;<u>Markup languages</u>:
 						<ul>
 							<li>
 								<i>HTML (Hypertext Markup Language)</i>
@@ -2268,7 +2268,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Interpreted languages</u>:
+						<i class="fas fa-hand-pointer animated"></i>&nbsp;&nbsp;<u>Interpreted languages</u>:
 						<ul>
 							<li>
 								<i>JavaScript</i>
@@ -2281,7 +2281,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Style sheet languages</u>:
+						<i class="fab fa-sketch faa-horizontal animated"></i>&nbsp;&nbsp;<u>Style sheet languages</u>:
 						<ul>
 							<li>
 								<i>CSS (Cascade Style Sheet)</i>
@@ -2294,7 +2294,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Object-relational database languages</u>:
+						<i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;<u>Object-relational database languages</u>:
 						<ul>
 							<li>
 								<i>MySQL</i>
@@ -2323,7 +2323,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Server-side scripting languages</u>:
+						<i class="fas fa-server faa-horizontal animated"></i>&nbsp;&nbsp;<u>Server-side scripting languages</u>:
 						<ul>
 							<li>
 								<i>PHP (PHP: Hypertext Preprocessor)</i>
@@ -2336,7 +2336,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Software modelling languages</u>:
+						<i class="fas fa-ruler-combined faa-horizontal animated"></i>&nbsp;&nbsp;<u>Software modelling languages</u>:
 						<ul>
 							<li>
 								<i>UML (Unified Modelling Language)</i>
@@ -2349,7 +2349,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Declarative languages for software modelling</u>:
+						<i class="fas fa-ruler faa-horizontal animated"></i>&nbsp;&nbsp;<u>Declarative languages for software modelling</u>:
 						<ul>
 							<li>
 								<i>OCL (Object Constraint Language)</i>
@@ -2362,7 +2362,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Formal modelling and specification languages</u>:
+						<i class="fas fa-pencil-ruler faa-horizontal animated"></i>&nbsp;&nbsp;<u>Formal modelling and specification languages</u>:
 						<ul>
 							<li>
 								<i>VDM++ (Vienna Development Method ++)</i>
@@ -2375,7 +2375,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Declarative specification languages</u>:
+						<i class="fas fa-ruler-vertical faa-horizontal animated"></i>&nbsp;&nbsp;<u>Declarative specification languages</u>:
 						<ul>
 							<li>
 								<i>Alloy</i>
@@ -2388,7 +2388,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Declarative logic languages</u>:
+						<i class="fas fa-cube faa-horizontal animated"></i>&nbsp;&nbsp;<u>Declarative logic languages</u>:
 						<ul>
 							<li>
 								<i>Datalog</i>
@@ -2409,7 +2409,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Mobile development languages</u>:
+						<i class="fas fa-mobile-alt faa-horizontal animated"></i>&nbsp;&nbsp;<u>Mobile development languages</u>:
 						<ul>
 							<li>
 								<i>Android</i>
@@ -2430,7 +2430,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Preparation languages for documents, papers and articles</u>:
+						<i class="fas fa-newspaper faa-horizontal animated"></i>&nbsp;&nbsp;<u>Preparation languages for documents, papers and articles</u>:
 						<ul>
 							<li>
 								<i>LaTeX</i>
@@ -2513,7 +2513,7 @@ active: About Me
                         <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Cross-platform libraries</u>:
                         <ul>
                             <li>
-                                <i class="fas fa-vr-cardboard faa-horizontal animated"></i>&nbsp;&nbsp;<u>Real-time computer vision libraries</u>:
+                                <i class="fas fa-eye faa-horizontal animated"></i>&nbsp;&nbsp;<u>Real-time computer vision libraries</u>:
                                 <ul>
                                     <li>
                                         <i>OpenCV (Open Source Computer Vision)</i>
@@ -3392,7 +3392,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-tape faa-horizontal animated"></i>&nbsp;&nbsp;<b>Video editing:</b></p>
+				<p align="justify"><i class="fas fa-video faa-horizontal animated"></i>&nbsp;&nbsp;<b>Video editing:</b></p>
         			<ul>
 					<li>
 						<i class="fab fa-adobe faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Adobe Creative Cloud</i></u>:
