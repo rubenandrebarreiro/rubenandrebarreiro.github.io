@@ -2997,7 +2997,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-archive faa-horizontal animated"></i>&nbsp;&nbsp;<b>Software platforms:</b></p>
         			<ul>
 					<li>
-						<u>Virtualization</u>:
+						<i class="fas fa-boxes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Virtualization</u>:
 						<ul>
 							<li>
 								<u>Hardware (hypervisors)</u>:
@@ -3034,10 +3034,10 @@ active: About Me
 								</ul>
 							</li>
 							<li>
-								<u>Operative system level</u>:
+								<i class="fas fa-pointer faa-horizontal animated"></i>&nbsp;&nbsp;<u>Operative system level</u>:
 									<ul>
 										<li>
-											<u>Application containers</u>:
+											<i class="fas fa-box faa-horizontal animated"></i>&nbsp;&nbsp;<u>Application containers</u>:
 											<ul>
 												<li>
 													<i>Docker</i>
@@ -3054,7 +3054,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Data science</u>:
+						<i class="fas fa-chart-bar faa-horizontal animated"></i>&nbsp;&nbsp;<u>Data science</u>:
 						<ul>
 							<li>
 								<i>RapidMiner</i>
@@ -3067,7 +3067,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Synthesis and analysis of hardware design languages designs</u>:
+						<i class="fas fa-microchip faa-horizontal animated"></i>&nbsp;&nbsp;<u>Synthesis and analysis of hardware design languages designs</u>:
 						<ul>
 							<li>
 								<i>Xilinx ISE</i>
@@ -3340,7 +3340,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fab fa-windows faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft Windows</i></u>
+						<i class="fab fa-windows faa-horizontal animated"></i>&nbsp;&nbsp;<i>Microsoft Windows</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
