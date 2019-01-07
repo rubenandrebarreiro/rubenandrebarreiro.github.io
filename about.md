@@ -3244,7 +3244,7 @@ active: About Me
                                         <ul>
                                             <li>
                                                 <i>ASP.NET</i>
-                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span> 
                                                 <span class="fa fa-star"></span>
                                                 <span class="fa fa-star"></span>
                                                 <span class="fa fa-star"></span>
