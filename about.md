@@ -3242,7 +3242,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <u><i>.NET</i> libraries & frameworks</u>:
+                        <i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft .NET</i> libraries & frameworks</u>:
                         <ul>
                             <li>
                                 <i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web frameworks</u>:
@@ -3283,7 +3283,7 @@ active: About Me
                         </ul>
                     </li>
 					<li>
-						<u>Client-side web development techniques</u>:
+						<i class="fas fa-user faa-horizontal animated"></i>&nbsp;&nbsp;<u>Client-side web development techniques</u>:
 						<ul>
 							<li>
 								<i>AJAX (Asynchronous JavaScript and XML)</i>
