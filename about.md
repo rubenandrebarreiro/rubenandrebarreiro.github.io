@@ -2388,7 +2388,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fas fa-cube faa-horizontal animated"></i>&nbsp;&nbsp;<u>Declarative logic languages</u>:
+						<i class="fas fa-brain faa-horizontal animated"></i>&nbsp;&nbsp;<u>Declarative logic languages</u>:
 						<ul>
 							<li>
 								<i>Datalog</i>
