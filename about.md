@@ -3314,7 +3314,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-desktop faa-horizontal animated"></i>&nbsp;&nbsp;<b>Computer operating systems:</b></p>
         			<ul>
 					<li>
-						<u><i>Linux</i></u>:
+						<i class="fab fa-linux faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Linux</i></u>:
 						<ul>
 							<li>
 								<i>Ubuntu LTS</i>
@@ -3335,7 +3335,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u><i>Microsoft Windows</i></u>
+						<i class="fab fa-windows faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft Windows</i></u>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
