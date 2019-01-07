@@ -3202,6 +3202,14 @@ active: About Me
                     <li>
 						<u><i>JavaScript</i>'s libraries</u>:
 						<ul>
+                            <li>
+								<i>Bacon.js</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
 							<li>
 								<i>jQuery</i>
                                 <span class="fa fa-star checked"></span>
