@@ -2762,7 +2762,14 @@ active: About Me
                         <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>Microsoft Visual Studio</i>
+                        <u>Microsoft Visual Studio</u>:
+                        <ul>
+                            <li>
+                            </li>
+                        </ul>
+						
+                        
+                        <i></i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star"></span>
@@ -2771,6 +2778,14 @@ active: About Me
 					</li>
 					<li>
 						<i>Eclipse IDE</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+					</li>
+					<li>
+						<i>NetBeans IDE</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -3218,7 +3233,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <u>Server-side open-source web development frameworks:</u>
+                        <u>Server-side open-source web development frameworks</u>:
                         <ul>
                             <li>
                                 <i>ASP.NET</i>
@@ -3231,7 +3246,7 @@ active: About Me
                         </ul>
                     </li>        
 					<li>
-						<u>Client-side web development techniques:</u>
+						<u>Client-side web development techniques</u>:
 						<ul>
 							<li>
 								<i>AJAX (Asynchronous JavaScript and XML)</i>
@@ -3244,7 +3259,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Serializing structured data formats:</u>
+						<u>Serializing structured data formats</u>:
 						<ul>
 							<li>
 								<i>Google Protocol Buffers</i>
@@ -3262,7 +3277,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-desktop faa-horizontal animated"></i>&nbsp;&nbsp;<b>Computer operating systems:</b></p>
         			<ul>
 					<li>
-						<u><i>Linux:</i></u>
+						<u><i>Linux</i></u>:
 						<ul>
 							<li>
 								<i>Ubuntu LTS</i>
@@ -3293,7 +3308,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-paint-brush faa-horizontal animated"></i>&nbsp;&nbsp;<b>Graphic design and photography:</b></p>
         			<ul>
 					<li>
-						<u><i>Adobe Creative Cloud:</i></u>
+						<u><i>Adobe Creative Cloud</i></u>:
 						<ul>
 							<li>
 								<i>Adobe Illustrator CC</i>
@@ -3335,7 +3350,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-tape faa-horizontal animated"></i>&nbsp;&nbsp;<b>Video editing:</b></p>
         			<ul>
 					<li>
-						<u><i>Adobe Creative Cloud:</i></u>
+						<u><i>Adobe Creative Cloud</i></u>:
 						<ul>
 							<li>
 								<i>Adobe After Effects CC</i>
@@ -3361,7 +3376,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<b>Web development:</b></p>
         			<ul>
 					<li>
-						<u><i>Adobe Creative Cloud:</i></u>
+						<u><i>Adobe Creative Cloud</i></u>:
 						<ul>
 							<li>
 								<i>Adobe Dreamweaver CC</i>
@@ -3384,7 +3399,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-warehouse faa-horizontal animated"></i>&nbsp;&nbsp;<b>Databases:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office:</i></u>
+						<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Access</i>
@@ -3402,7 +3417,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b>Documents:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office:</i></u>
+						<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Word</i>
@@ -3420,7 +3435,7 @@ active: About Me
 				<p align="justify"><i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<b>Presentations:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office:</i></u>
+						<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Powerpoint</i>
@@ -3438,7 +3453,7 @@ active: About Me
 				<p align="justify"><i class="fa fa-table faa-horizontal animated"></i>&nbsp;&nbsp;<b>Spreadsheets:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office:</i></u>
+						<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Excel</i>
