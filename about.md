@@ -1951,11 +1951,11 @@ active: About Me
         </li>
 	    
 	   <li>
-	   		(Projects' Screenshots, Scientific Research Project, Diploma, Transcript)
+	   		(Projects' Screenshots, Scientific Research Project, Diploma, Transcript, Master's Thesis)
 		</li>
 		
 		<li>
-			Final Global Points Average - 15 of 20
+			Final Global Points Average - 10 of 20
 		</li>
 	</ul>
 	
