@@ -2144,7 +2144,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fas fa-codepen faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm languages</u>:
+						<i class="fab fa-codepen faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm languages</u>:
 						<ul>
 							<li>
 								<i>Visual Basic .NET</i>
@@ -2247,7 +2247,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fas fa-passport animated"></i>&nbsp;&nbsp;<u>Markup languages</u>:
+						<i class="fas fa-passport faa-horizontal animated"></i>&nbsp;&nbsp;<u>Markup languages</u>:
 						<ul>
 							<li>
 								<i>HTML (Hypertext Markup Language)</i>
@@ -2268,7 +2268,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fas fa-hand-pointer animated"></i>&nbsp;&nbsp;<u>Interpreted languages</u>:
+						<i class="fas fa-hand-pointer faa-horizontal animated"></i>&nbsp;&nbsp;<u>Interpreted languages</u>:
 						<ul>
 							<li>
 								<i>JavaScript</i>
