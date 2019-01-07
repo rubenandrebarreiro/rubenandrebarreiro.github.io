@@ -2510,10 +2510,10 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <u>Cross-platform libraries</u>:
+                        <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Cross-platform libraries</u>:
                         <ul>
                             <li>
-                                <u>Real-time computer vision libraries</u>:
+                                <i class="fas fa-glasses faa-horizontal animated"></i>&nbsp;&nbsp;<u>Real-time computer vision libraries</u>:
                                 <ul>
                                     <li>
                                         <i>OpenCV (Open Source Computer Vision)</i>
@@ -2619,7 +2619,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;<b>Run-time environments:</b></p>
         			<ul>
 					<li>
-						<u>JavaScript cross-platforms</u>:
+						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u>JavaScript cross-platforms</u>:
 						<ul>
 							<li>
 								<i>Node.js</i>
@@ -3200,7 +3200,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-						<u><i>JavaScript</i>'s libraries</u>:
+						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>JavaScript</i>'s libraries</u>:
 						<ul>
                             <li>
 								<i>Bacon.js</i>
@@ -3227,7 +3227,7 @@ active: About Me
                                 <span class="fa fa-star"></span>
 							</li>
                             <li>
-                                <u>Web cross-browser creation and displaying of animated 3D computer graphics</u>:
+                                <i class="fas fa-dice-d8 faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web cross-browser creation and displaying of animated 3D computer graphics</u>:
                                 <ul>
                                     <li>
                                         <i>Three.js</i>
