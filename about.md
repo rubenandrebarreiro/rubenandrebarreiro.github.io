@@ -2420,6 +2420,9 @@ active: About Me
 					</li>
 				</ul>
 			</li>
+            <li>
+            </li>
+                <p align="justify"><i class="fas fa-robot faa-horizontal animated"></i>&nbsp;&nbsp;<b>Robotics middleware:</b>
 			<li>
 				<p align="justify"><i class="fas fa-cog faa-horizontal animated"></i>&nbsp;&nbsp;<b>APIs:</b></p>
         			<ul>
@@ -2427,7 +2430,7 @@ active: About Me
 						<u>JavaScript APIs</u>:
 						<ul>
 							<li>
-								<u>2D and 3D programming</u>
+								<u>2D and 3D programming</u>:
 								<ul>
 									<li>
 										<i>WebGL</i>
@@ -2445,7 +2448,7 @@ active: About Me
 						<u>Cross-platform APIs</u>:
 						<ul>
 							<li>
-								<u>2D and 3D programming</u>
+								<u>2D and 3D programming</u>:
 								<ul>
 									<li>
 										<i>OpenGL</i>
@@ -2458,7 +2461,7 @@ active: About Me
 								</ul>							
 							</li>
 							<li>
-								<u>Document-oriented databases</u>
+								<u>Document-oriented databases</u>:
 								<ul>
 									<li>
 										<i>MongoDB</i>
@@ -2476,12 +2479,17 @@ active: About Me
                         <u>Cross-platform libraries:</u>
                         <ul>
                             <li>
-                                <i>OpenCV</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                                <u>Real-time computer vision libraries</u>:
+                                <ul>
+                                    <li>
+                                        <i>OpenCV (Open Source Computer Vision)</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <u>Open-source software graphics libraries</u>:
@@ -3039,7 +3047,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-file-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Others:</b></p>
         			<ul>
 					<li>
-						<u>JavaScript's file formats:</u>
+						<u>JavaScript's file formats</u>:
 						<ul>
 							<li>
 								<i>JSON (JavaScript Object Notation)</i>
@@ -3052,7 +3060,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-						<u>JavaScript's libraries:</u>
+						<u>JavaScript's libraries</u>:
 						<ul>
 							<li>
 								<i>jQuery</i>
@@ -3070,6 +3078,19 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
+                            <li>
+                                <u>Web cross-browser creation and displaying of animated 3D computer graphics</u>:
+                                <ul>
+                                    <li>
+                                        <i>Three.js</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                </ul>
+                            </li>
 						</ul>
 					</li>
                     <li>
