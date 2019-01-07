@@ -2736,7 +2736,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs & programming tools:</b></p>
         			<ul>
 					<li>
-						<i>Turbo Pascal</i>
+						<i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;<i>Turbo Pascal</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -2744,36 +2744,7 @@ active: About Me
                         <span class="fa fa-star"></span>
 					</li>
 					<li>
-                        <u><i>Microsoft Visual Studio</i></u>:
-                        <ul>
-                            <li>
-                                <i>Microsoft Visual Code</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </li>
-                            <li>
-                                <i>Xamarin for Visual Studio</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </li>
-                            <li>
-                                <i>Unity3D</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                            </li>	
-                        </ul>
-					</li>
-					<li>
-						<i>Eclipse IDE</i>
+						<i class="fab fa-codepen faa-horizontal animated"></i>&nbsp;&nbsp;<i>Eclipse IDE</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -2781,7 +2752,7 @@ active: About Me
                         <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<i>NetBeans IDE</i>
+						<i class="fab fa-codepen faa-horizontal animated"></i>&nbsp;&nbsp;<i>NetBeans IDE</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -2789,7 +2760,7 @@ active: About Me
                         <span class="fa fa-star"></span>
 					</li>
 					<li>
-                        <u><i>Jet Brains</i></u>:
+                        <i class="fab fa-codepen faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Jet Brains</i></u>:
                         <ul>
                             <li>
                                 <i>App Code</i>
@@ -2879,6 +2850,35 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
                             </li>
+                        </ul>
+					</li>
+                    <li>
+                        <i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft Visual Studio</i></u>:
+                        <ul>
+                            <li>
+                                <i>Microsoft Visual Code</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>Xamarin for Visual Studio</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>Unity3D</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>	
                         </ul>
 					</li>
 					<li>
