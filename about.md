@@ -3000,10 +3000,10 @@ active: About Me
 						<i class="fas fa-boxes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Virtualization</u>:
 						<ul>
 							<li>
-								<u>Hardware (hypervisors)</u>:
+								<i class="fas fa-microchip faa-horizontal animated"></i>&nbsp;&nbsp;<u>Hardware (hypervisors)</u>:
 								<ul>
 									<li>
-										<u>Independent</u>:
+										<i class="fas fa-cube faa-horizontal animated"></i>&nbsp;&nbsp;<u>Independent</u>:
 										<ul>
 											<li>
 												<i>Oracle VM VirtualBox</i>
@@ -3034,7 +3034,7 @@ active: About Me
 								</ul>
 							</li>
 							<li>
-								<i class="fas fa-pointer faa-horizontal animated"></i>&nbsp;&nbsp;<u>Operative system level</u>:
+								<i class="fas fa-mouse-pointer faa-horizontal animated"></i>&nbsp;&nbsp;<u>Operative system level</u>:
 									<ul>
 										<li>
 											<i class="fas fa-box faa-horizontal animated"></i>&nbsp;&nbsp;<u>Application containers</u>:
