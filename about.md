@@ -3187,7 +3187,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-file-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Others:</b></p>
         			<ul>
 					<li>
-						<u><i>JavaScript</i>'s file formats</u>:
+						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>JavaScript</i>'s file formats</u>:
 						<ul>
 							<li>
 								<i>JSON (JavaScript Object Notation)</i>
