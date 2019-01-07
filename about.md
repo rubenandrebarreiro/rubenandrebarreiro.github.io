@@ -2733,24 +2733,6 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;<b>Game engines:</b></p>
-        			<ul>
-					<li>
-						<u>Cross-platform</u>:
-						<ul>
-							<li>
-								<i>Unity</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
 				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs & programming tools:</b></p>
         			<ul>
 					<li>
@@ -3252,18 +3234,46 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <u>Server-side open-source web development frameworks</u>:
+                        <u><i>.NET</i> libraries & frameworks</u>:
                         <ul>
                             <li>
-                                <i>ASP.NET</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
+                                <p align="justify"><i class="fas fa-browser faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web frameworks</u>:</p>
+                                <ul>
+                                    <li>
+                                        <p align="justify"><i class="fas fa-server faa-horizontal animated"></i>&nbsp;&nbsp;><u>Server-side open-source web development frameworks</u>:</p>
+                                        <ul>
+                                            <li>
+                                                <i>ASP.NET</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <p align="justify"><i class="fas fa-dice-d20 faa-horizontal animated"></i>&nbsp;&nbsp;<u>3D graphics</u>:</p>
+                                <ul>
+                                    <li>
+                                        <p align="justify"><i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;<u>Game engines</u>:</p>
+                                        <ul>
+                                            <li>
+                                                <i>Unity</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
                             </li>
                         </ul>
-                    </li>        
+                    </li>
 					<li>
 						<u>Client-side web development techniques</u>:
 						<ul>
