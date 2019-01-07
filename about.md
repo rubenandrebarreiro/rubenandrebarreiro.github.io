@@ -2196,6 +2196,19 @@ active: About Me
 							</li>
 						</ul>
 					</li>
+                    <li>
+                        <u>Multi-paradigm numerical computing environment</u>:
+						<ul>
+							<li>
+								<i>MATLAB (Matrix Laboratory)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+						</ul>
+                    </li>
 					<li>
 						<u>Low-level languages</u>:
 						<ul>
@@ -2470,6 +2483,32 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
                             </li>
+                            <li>
+                                <u>Open-source software graphics libraries</u>:
+                                <ul>
+                                    <li>
+                                        <i>Mesa3D (Mesa 3D Graphics Library)</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <u>Open-source computer tracking libraries for creation of augmented reality applications</u>:
+                                <ul>
+                                    <li>
+                                        <i>ARToolKit</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     <li>
@@ -2631,7 +2670,7 @@ active: About Me
 				</ul>
 			</li>
             <li>
-				<p align="justify"><i class="fas fa-mobile faa-horizontal animated"></i>&nbsp;&nbsp;<b>Mobile application development frameworks:</b></p>
+				<p align="justify"><i class="fas fa-mobile-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b>Mobile application development frameworks:</b></p>
                 <ul>
 					<li>
 						<i>Apache Cordova</i>
@@ -2648,7 +2687,6 @@ active: About Me
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
-					</li>
 					</li>
 				</ul>
 			</li>
