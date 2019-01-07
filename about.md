@@ -3111,7 +3111,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-code-branch faa-horizontal animated"></i>&nbsp;&nbsp;<b>Version-control systems:</b></p>
     				<ul>
 					<li>
-						<u>Web-based hosting services</u>:
+                        <i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web-based hosting services</u>:
 						<ul>
 							<li>
 								<i>Atlassian Bitbucket</i>
@@ -3140,7 +3140,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u><i>Git</i> clients</u>:
+                        <i class="fab fa-git-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Git</i> clients</u>:
 						<ul>
 							<li>
 								<i>Atlassian Sourcetree</i>
@@ -3169,7 +3169,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Branching models for <i>Git</i></u>:
+						<i class="fab fa-git faa-horizontal animated"></i>&nbsp;&nbsp;<u>Branching models for <i>Git</i></u>:
 						<ul>
 							<li>
 								<i>GitFlow</i>
