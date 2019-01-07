@@ -2479,10 +2479,10 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Cross-platform APIs</u>:
+						<i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Cross-platform APIs</u>:
 						<ul>
 							<li>
-								<u>2D and 3D programming</u>:
+								<i class="fas fa-dice-d6 faa-horizontal animated"></i>&nbsp;&nbsp;<u>2D and 3D programming</u>:
 								<ul>
 									<li>
 										<i>OpenGL</i>
@@ -2495,7 +2495,7 @@ active: About Me
 								</ul>							
 							</li>
 							<li>
-								<u>Document-oriented databases</u>:
+								<i class="fas fa-file-signature faa-horizontal animated"></i>&nbsp;&nbsp;<u>Document-oriented databases</u>:
 								<ul>
 									<li>
 										<i>MongoDB</i>
@@ -2513,7 +2513,7 @@ active: About Me
                         <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Cross-platform libraries</u>:
                         <ul>
                             <li>
-                                <i class="fas fa-glasses faa-horizontal animated"></i>&nbsp;&nbsp;<u>Real-time computer vision libraries</u>:
+                                <i class="fas fa-vr-cardboard faa-horizontal animated"></i>&nbsp;&nbsp;<u>Real-time computer vision libraries</u>:
                                 <ul>
                                     <li>
                                         <i>OpenCV (Open Source Computer Vision)</i>
@@ -2526,7 +2526,7 @@ active: About Me
                                 </ul>
                             </li>
                             <li>
-                                <u>Open-source software graphics libraries</u>:
+                                <i class="fas fa-dice-d6 faa-horizontal animated"></i>&nbsp;&nbsp;<u>Open-source software graphics libraries</u>:
                                 <ul>
                                     <li>
                                         <i>Mesa3D (Mesa 3D Graphics Library)</i>
@@ -2554,7 +2554,7 @@ active: About Me
                         </ul>
                     </li>
                     <li>
-                        <u>Heterogeneous computing APIs</u>:
+                        <i class="fas fa-microchip faa-horizontal animated"></i>&nbsp;&nbsp;<u>Heterogeneous computing APIs</u>:
                         <ul>
                             <li>
                                 <i>OpenCL (Open Computing Language)</i>
@@ -2567,7 +2567,7 @@ active: About Me
                         </ul>
                     </li>
                     <li>
-						<u>Centralized services for distributed systems</u>:
+						<i class="fas fa-cloud faa-horizontal animated"></i>&nbsp;&nbsp;<u>Centralized services for distributed systems</u>:
 						<ul>
 							<li>
 								<i>Apache ZooKeeper</i>
@@ -2580,7 +2580,7 @@ active: About Me
 						</ul>												
 					</li>
 					<li>
-						<u>Open-source streams-processing</u>:
+						<i class="fas fa-stream faa-horizontal animated"></i>&nbsp;&nbsp;<u>Open-source streams-processing</u>:
 						<ul>
 							<li>
 								<i>Apache Kafka</i>
@@ -2593,7 +2593,7 @@ active: About Me
 						</ul>												
 					</li>
 					<li>
-						<u>Web services</u>:
+						<i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web services</u>:
 						<ul>
 							<li>
 								<i>REST (Representational State Transfer)</i>
