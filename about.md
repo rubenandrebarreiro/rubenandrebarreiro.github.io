@@ -3245,10 +3245,10 @@ active: About Me
                         <u><i>.NET</i> libraries & frameworks</u>:
                         <ul>
                             <li>
-                                <p align="justify"><i class="fas fa-browser faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web frameworks</u>:</p>
+                                <i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web frameworks</u>:
                                 <ul>
                                     <li>
-                                        <p align="justify"><i class="fas fa-server faa-horizontal animated"></i>&nbsp;&nbsp;><u>Server-side open-source web development frameworks</u>:</p>
+                                        <i class="fas fa-server faa-horizontal animated"></i>&nbsp;&nbsp;<u>Server-side open-source web development frameworks</u>:
                                         <ul>
                                             <li>
                                                 <i>ASP.NET</i>
@@ -3263,10 +3263,10 @@ active: About Me
                                 </ul>
                             </li>
                             <li>
-                                <p align="justify"><i class="fas fa-dice-d20 faa-horizontal animated"></i>&nbsp;&nbsp;<u>3D graphics</u>:</p>
+                                <i class="fas fa-dice-d20 faa-horizontal animated"></i>&nbsp;&nbsp;<u>3D graphics</u>:
                                 <ul>
                                     <li>
-                                        <p align="justify"><i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;<u>Game engines</u>:</p>
+                                        <i class="fas fa-gamepad faa-horizontal animated"></i>&nbsp;&nbsp;<u>Game engines</u>:
                                         <ul>
                                             <li>
                                                 <i>Unity</i>
