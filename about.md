@@ -2268,7 +2268,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fas fa-hand-pointer faa-horizontal animated"></i>&nbsp;&nbsp;<u>Interpreted languages</u>:
+						<i class="fas fa-cube faa-horizontal animated"></i>&nbsp;&nbsp;<u>Interpreted languages</u>:
 						<ul>
 							<li>
 								<i>JavaScript</i>
