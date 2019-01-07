@@ -3395,10 +3395,10 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-                        <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Serialization</u>:
+                        <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Serializing structured data formats</u>:
                         <ul>
                             <li>
-                                <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u>Google serializing structured data formats</u>:
+                                <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u>Google</u>:
 						        <ul>
                                     <li>
                                         <i>Google Protocol Buffers</i>
