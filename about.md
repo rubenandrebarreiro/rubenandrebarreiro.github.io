@@ -2762,19 +2762,33 @@ active: About Me
                         <span class="fa fa-star"></span>
 					</li>
 					<li>
-                        <u>Microsoft Visual Studio</u>:
+                        <u><i>Microsoft Visual Studio</i></u>:
                         <ul>
                             <li>
+                                <i>Microsoft Visual Code</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
                             </li>
+                            <li>
+                                <i>Xamarin for Visual Studio</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>Unity3D</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>	
                         </ul>
-						
-                        
-                        <i></i>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
 					</li>
 					<li>
 						<i>Eclipse IDE</i>
@@ -2897,15 +2911,7 @@ active: About Me
                                 <span class="fa fa-star"></span>
                             </li>
                         </ul>
-					</li>
-					<li>
-						<i>Unity3D</i>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-					</li>		
+					</li>	
 				</ul>
 			</li>
 			<li>
@@ -3033,10 +3039,10 @@ active: About Me
 								</ul>
 							</li>
 							<li>
-								<u>Operative system level:</u>
+								<u>Operative system level</u>:
 									<ul>
 										<li>
-											<u>Application containers:</u>
+											<u>Application containers</u>:
 											<ul>
 												<li>
 													<i>Docker</i>
