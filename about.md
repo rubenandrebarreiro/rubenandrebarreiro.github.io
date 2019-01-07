@@ -2186,7 +2186,15 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
-							<li>
+                            <li>
+								<i>TypeScript</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+                            <li>
 								<i>Python</i>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
@@ -2194,6 +2202,14 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
+                            <li>
+                            	<i>Go (Golang)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
                             <li>
 								<i>Ruby</i>
                                 <span class="fa fa-star checked"></span>
@@ -2323,6 +2339,19 @@ active: About Me
 						</ul>
 					</li>
 					<li>
+						<i class="fas fa-question faa-horizontal animated"></i>&nbsp;&nbsp;<u>Query and functional programming languages</u>:
+						<ul>
+							<li>
+								<i>XQuery (XML Query)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+						</ul>
+					</li>
+                    <li>
 						<i class="fas fa-server faa-horizontal animated"></i>&nbsp;&nbsp;<u>Server-side scripting languages</u>:
 						<ul>
 							<li>
@@ -2495,7 +2524,7 @@ active: About Me
 								</ul>							
 							</li>
 							<li>
-								<i class="fas fa-file-signature faa-horizontal animated"></i>&nbsp;&nbsp;<u>Document-oriented databases</u>:
+								<i class="fas fa-file-signature faa-horizontal animated"></i>&nbsp;&nbsp;<u>Document-oriented databases (NoSQL)</u>:
 								<ul>
 									<li>
 										<i>MongoDB</i>
@@ -2662,6 +2691,19 @@ active: About Me
 							</li>
 						</ul>
 					</li>
+                    <li>
+                        <i class="fas fa-sitemap faa-horizontal animated"></i>&nbsp;&nbsp;<u>Object-relational mapping tool</u>:
+						<ul>
+							<li>
+								<i>Hibernate ORM</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+						</ul>
+                    </li>
 					<li>
 						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u>JavaScript-based open-source framework for front-end web applications</u>:
 						<ul>
@@ -3066,6 +3108,19 @@ active: About Me
 							</li>
 						</ul>
 					</li>
+                    <li>
+                        <i class="fas fa-network-wired faa-horizontal animated"></i>&nbsp;&nbsp;<u>IoT & Cloud platforms for creating, deploying and managing connected products</u>:
+                        <ul>
+                            <li>
+								<i>Atmosphere</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+                        </ul>
+                    </li>
 					<li>
 						<i class="fas fa-microchip faa-horizontal animated"></i>&nbsp;&nbsp;<u>Synthesis and analysis of hardware design languages designs</u>:
 						<ul>
@@ -3203,25 +3258,38 @@ active: About Me
 						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>JavaScript</i>'s libraries</u>:
 						<ul>
                             <li>
-								<i>Bacon.js</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-							</li>
+                                <i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u>Functional reactive programming</u>:
+                                <ul>
+                                    <li>
+                                        <i>Bacon.js</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li>
+                                        <i>Meteor (MeteorJS)</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                    <li>
+                                        <i>React (React.js/ReactJS)</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>   
+                                    </li>
+                                </ul>
+                            </li>
 							<li>
 								<i>jQuery</i>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-							</li>
-                            <li>
-								<i>React (React.js/ReactJS)</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
@@ -3242,6 +3310,24 @@ active: About Me
 						</ul>
 					</li>
                     <li>
+                        <i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>AJAX</i> frameworks</u>:
+                        <ul>
+                            <li>
+                                <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Google</i></u>:
+                                <ul>
+                                    <li>
+                                        <i>Google Web Toolkit (GWT/GWT Web Toolkit)</i>
+                                        <span class="fa fa-star checked"></span> 
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>   
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
                         <i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft .NET</i> libraries & frameworks</u>:
                         <ul>
                             <li>
@@ -3252,6 +3338,19 @@ active: About Me
                                         <ul>
                                             <li>
                                                 <i>ASP.NET</i>
+                                                <span class="fa fa-star checked"></span> 
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-sitemap faa-horizontal animated"></i>&nbsp;&nbsp;<u>Object-relational mapping</u>:
+                                        <ul>
+                                            <li>
+                                                <i>LINQ (Language Integrated Query)</i>
                                                 <span class="fa fa-star checked"></span> 
                                                 <span class="fa fa-star"></span>
                                                 <span class="fa fa-star"></span>
