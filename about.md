@@ -2637,7 +2637,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-drafting-compass faa-horizontal animated"></i>&nbsp;&nbsp;<b>Frameworks:</b></p>
         			<ul>
 					<li>
-						<u>Intelligent multi-agent systems</u>:
+						<i class="fas fa-brain faa-horizontal animated"></i>&nbsp;&nbsp;<u>Intelligent multi-agent systems</u>:
 						<ul>
 							<li>
 								<i>JADE (Java Agent Development Framework)</i>
@@ -2650,7 +2650,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Applications and inversion of control container</u>:
+						<i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Applications and inversion of control container</u>:
 						<ul>
 							<li>
 								<i>Spring Framework</i>
@@ -2663,7 +2663,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>JavaScript-based open-source framework for front-end web applications</u>:
+						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u>JavaScript-based open-source framework for front-end web applications</u>:
 						<ul>
 							<li>
 								<i>AngularJS (Angular.js)</i>
@@ -2684,7 +2684,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-						<u>PHP-based open-source framework for web applications</u>:
+						<i class="fab fa-php faa-horizontal animated"></i>&nbsp;&nbsp;<u>PHP-based open-source framework for web applications</u>:
 						<ul>
                             <li>
 								<i>Laravel</i>
