@@ -2751,7 +2751,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs & Programming Tools:</b></p>
+				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs & programming tools:</b></p>
         			<ul>
 					<li>
 						<i>Turbo Pascal</i>
@@ -2981,13 +2981,13 @@ active: About Me
 				<p align="justify"><i class="fas fa-archive faa-horizontal animated"></i>&nbsp;&nbsp;<b>Software platforms:</b></p>
         			<ul>
 					<li>
-						<u>Virtualization:</u>
+						<u>Virtualization</u>:
 						<ul>
 							<li>
-								<u>Hardware (hypervisors):</u>
+								<u>Hardware (hypervisors)</u>:
 								<ul>
 									<li>
-										<u>Independent:</u>
+										<u>Independent</u>:
 										<ul>
 											<li>
 												<i>Oracle VM VirtualBox</i>
@@ -3038,7 +3038,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Data science:</u>
+						<u>Data science</u>:
 						<ul>
 							<li>
 								<i>RapidMiner</i>
@@ -3051,7 +3051,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Synthesis and analysis of hardware design languages designs:</u>
+						<u>Synthesis and analysis of hardware design languages designs</u>:
 						<ul>
 							<li>
 								<i>Xilinx ISE</i>
@@ -3095,7 +3095,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-code-branch faa-horizontal animated"></i>&nbsp;&nbsp;<b>Version-control systems:</b></p>
     				<ul>
 					<li>
-						<u>Web-based hosting services:</u>
+						<u>Web-based hosting services</u>:
 						<ul>
 							<li>
 								<i>Atlassian Bitbucket</i>
@@ -3124,7 +3124,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Git clients:</u>
+						<u>Git clients</u>:
 						<ul>
 							<li>
 								<i>Atlassian Sourcetree</i>
@@ -3153,7 +3153,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Branching models for Git:</u>
+						<u>Branching models for Git</u>:
 						<ul>
 							<li>
 								<i>GitFlow</i>
