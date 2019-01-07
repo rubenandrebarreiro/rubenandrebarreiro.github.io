@@ -2539,7 +2539,7 @@ active: About Me
                                 </ul>
                             </li>
                             <li>
-                                <u>Open-source computer tracking libraries for creation of augmented reality applications</u>:
+                                <i class="fas fa-vr-cardboard faa-horizontal animated"></i>&nbsp;&nbsp;<u>Open-source computer tracking libraries for creation of augmented reality applications</u>:
                                 <ul>
                                     <li>
                                         <i>ARToolKit</i>
@@ -2882,7 +2882,7 @@ active: About Me
                         </ul>
 					</li>
 					<li>
-                        <u><i>Google</i></u>:
+                        <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Google</i></u>:
                         <ul>
                             <li>
                                 <i>Android Studio</i>
@@ -2895,7 +2895,7 @@ active: About Me
                         </ul>
 					</li>
                     <li>
-                        <u><i>Apple</i></u>:
+                        <i class="fab fa-apple faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Apple</i></u>:
                         <ul>
                             <li>
                                 <i>Xcode</i>
