@@ -2313,7 +2313,7 @@ active: About Me
 						<i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;<u>Object-relational database languages</u>:
 						<ul>
                             <li>
-                                <i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Microsoft:</u></i>
+                                <i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft</i></u>:
                                 <ul>
                                     <li>
                                         <i>Microsoft SQL Server</i>
@@ -3271,7 +3271,7 @@ active: About Me
 						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>JavaScript</i>'s libraries</u>:
 						<ul>
                             <li>
-                                <i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u>Functional reactive programming</u>:
+                                <i class="fas fa-atom faa-horizontal animated"></i>&nbsp;&nbsp;<u><u>Functional reactive programming</u>:
                                 <ul>
                                     <li>
                                         <i>Bacon.js</i>
@@ -3299,16 +3299,8 @@ active: About Me
                                     </li>
                                 </ul>
                             </li>
-							<li>
-								<i>jQuery</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-							</li>
                             <li>
-                                <i class="fas fa-dice-d8 faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web cross-browser creation and displaying of animated 3D computer graphics</u>:
+                                <i class="fas fa-dice-d6 faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web cross-browser creation and displaying of animated 3D computer graphics</u>:
                                 <ul>
                                     <li>
                                         <i>Three.js</i>
@@ -3320,10 +3312,18 @@ active: About Me
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+								<i>jQuery</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
 						</ul>
 					</li>
                     <li>
-                        <i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>AJAX</i> frameworks</u>:
+                        <i class="fas fa-tools faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>AJAX</i> frameworks</u>:
                         <ul>
                             <li>
                                 <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Google</i></u>:
