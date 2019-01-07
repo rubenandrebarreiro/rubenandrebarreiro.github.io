@@ -2461,10 +2461,10 @@ active: About Me
 				<p align="justify"><i class="fas fa-cog faa-horizontal animated"></i>&nbsp;&nbsp;<b>APIs:</b></p>
         			<ul>
 					<li>
-						<u>JavaScript APIs</u>:
+						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>JavaScript</i> APIs</u>:
 						<ul>
 							<li>
-								<u>2D and 3D programming</u>:
+								<i class="fas fa-dice-d6 faa-horizontal animated"></i>&nbsp;&nbsp;<u>2D and 3D programming</u>:
 								<ul>
 									<li>
 										<i>WebGL</i>
