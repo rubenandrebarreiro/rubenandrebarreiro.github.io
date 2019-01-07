@@ -2793,7 +2793,7 @@ active: About Me
                         <span class="fa fa-star"></span>
 					</li>
 					<li>
-                        <u>Jet Brains</u>:
+                        <u><i>Jet Brains</i></u>:
                         <ul>
                             <li>
                                 <i>App Code</i>
@@ -2886,7 +2886,7 @@ active: About Me
                         </ul>
 					</li>
 					<li>
-                        <u>Google</u>:
+                        <u><i>Google</i></u>:
                         <ul>
                             <li>
                                 <i>Android Studio</i>
@@ -3139,7 +3139,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Git clients</u>:
+						<u><i>Git</i> clients</u>:
 						<ul>
 							<li>
 								<i>Atlassian Sourcetree</i>
@@ -3168,7 +3168,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Branching models for Git</u>:
+						<u>Branching models for <i>Git</i></u>:
 						<ul>
 							<li>
 								<i>GitFlow</i>
@@ -3186,7 +3186,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-file-code faa-horizontal animated"></i>&nbsp;&nbsp;<b>Others:</b></p>
         			<ul>
 					<li>
-						<u>JavaScript's file formats</u>:
+						<u><i>JavaScript</i>'s file formats</u>:
 						<ul>
 							<li>
 								<i>JSON (JavaScript Object Notation)</i>
@@ -3199,7 +3199,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-						<u>JavaScript's libraries</u>:
+						<u><i>JavaScript</i>'s libraries</u>:
 						<ul>
 							<li>
 								<i>jQuery</i>
@@ -3284,6 +3284,14 @@ active: About Me
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+                            <li>
+								<i>Linux Mint</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
