@@ -2697,7 +2697,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-						<i class="fas fa-window-maximize faa-horizontal animated"></i>&nbsp;&nbsp;<u>Open-source front-end framework for developint websites and web applications</u>:
+						<i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<u>Open-source front-end framework for developint websites and web applications</u>:
 						<ul>
                             <li>
 								<i>Bootstrap</i>
