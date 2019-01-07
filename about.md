@@ -2383,7 +2383,7 @@ active: About Me
                                 <span class="fa fa-star"></span>
 							</li>
 							<li>
-								<i>IOS</i>
+								<i>iOS</i>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
@@ -2442,7 +2442,7 @@ active: About Me
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
 									</li>
-								</ul>								
+								</ul>							
 							</li>
 							<li>
 								<u>Document-oriented databases</u>
@@ -2455,11 +2455,37 @@ active: About Me
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
 									</li>
-								</ul>								
+								</ul>							
 							</li>
 						</ul>
 					</li>
-					<li>
+                    <li>
+                        <u>Cross-platform libraries:</u>
+                        <ul>
+                            <li>
+                                <i>OpenCV</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <u>Heterogeneous computing APIs:</u>
+                        <ul>
+                            <li>
+                                <i>OpenCL (Open Computing Language)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
 						<u>Centralized services for distributed systems</u>:
 						<ul>
 							<li>
@@ -2556,10 +2582,31 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>JavaScript-based open-source front-end web applications</u>:
+						<u>JavaScript-based open-source framework for front-end web applications</u>:
 						<ul>
 							<li>
 								<i>AngularJS (Angular.js)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+							<li>
+								<i>Vue.js (Vue)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+						</ul>
+					</li>
+                    <li>
+						<u>PHP-based open-source framework for web applications</u>:
+						<ul>
+                            <li>
+								<i>Laravel</i>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
@@ -2580,6 +2627,28 @@ active: About Me
                                 <span class="fa fa-star"></span>
 							</li>
 						</ul>
+					</li>
+				</ul>
+			</li>
+            <li>
+				<p align="justify"><i class="fas fa-mobile faa-horizontal animated"></i>&nbsp;&nbsp;<b>Mobile application development frameworks:</b></p>
+                <ul>
+					<li>
+						<i>Apache Cordova</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+					</li>
+					<li>
+						<i>Ionic</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+					</li>
 					</li>
 				</ul>
 			</li>
@@ -2655,14 +2724,22 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;<b>Compilers:</b></p>
-        			<ul>
+				<p align="justify"><i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;<b>Assemblers & Compilers:</b></p>
+                <ul>
 					<li>
 						<i>Free Pascal</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+					</li>
+                    <li>
+						<i>Jasmin</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
                         <span class="fa fa-star"></span>
 					</li>
 				</ul>
@@ -2936,8 +3013,42 @@ active: About Me
 							</li>
 						</ul>
 					</li>
+                    <li>
+						<u>JavaScript's libraries:</u>
+						<ul>
+							<li>
+								<i>jQuery</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+                            <li>
+								<i>React (React.js/ReactJS)</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+						</ul>
+					</li>
+                    <li>
+                        <u>Server-side open-source web development frameworks:</u>
+                        <ul>
+                            <li>
+                                <i>ASP.NET</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                        </ul>
+                    </li>        
 					<li>
-						<u>Client side web development techniques:</u>
+						<u>Client-side web development techniques:</u>
 						<ul>
 							<li>
 								<i>AJAX (Asynchronous JavaScript and XML)</i>
