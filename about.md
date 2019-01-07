@@ -3353,7 +3353,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-paint-brush faa-horizontal animated"></i>&nbsp;&nbsp;<b>Graphic design and photography:</b></p>
         			<ul>
 					<li>
-						<u><i>Adobe Creative Cloud</i></u>:
+						<i class="fab fa-adobe faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Adobe Creative Cloud</i></u>:
 						<ul>
 							<li>
 								<i>Adobe Illustrator CC</i>
@@ -3395,7 +3395,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-tape faa-horizontal animated"></i>&nbsp;&nbsp;<b>Video editing:</b></p>
         			<ul>
 					<li>
-						<u><i>Adobe Creative Cloud</i></u>:
+						<i class="fab fa-adobe faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Adobe Creative Cloud</i></u>:
 						<ul>
 							<li>
 								<i>Adobe After Effects CC</i>
@@ -3421,7 +3421,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-globe faa-horizontal animated"></i>&nbsp;&nbsp;<b>Web development:</b></p>
         			<ul>
 					<li>
-						<u><i>Adobe Creative Cloud</i></u>:
+						<i class="fab fa-adobe faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Adobe Creative Cloud</i></u>:
 						<ul>
 							<li>
 								<i>Adobe Dreamweaver CC</i>
@@ -3444,7 +3444,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-warehouse faa-horizontal animated"></i>&nbsp;&nbsp;<b>Databases:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office</i></u>:
+						<i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Access</i>
@@ -3462,7 +3462,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b>Documents:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office</i></u>:
+						<i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Word</i>
@@ -3480,7 +3480,7 @@ active: About Me
 				<p align="justify"><i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<b>Presentations:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office</i></u>:
+						<i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Powerpoint</i>
@@ -3498,7 +3498,7 @@ active: About Me
 				<p align="justify"><i class="fa fa-table faa-horizontal animated"></i>&nbsp;&nbsp;<b>Spreadsheets:</b></p>
         			<ul>
 					<li>
-						<u><i>Microsoft Office</i></u>:
+						<i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Microsoft Office</i></u>:
 						<ul>
 							<li>
 								<i>Microsoft Excel</i>
