@@ -2312,6 +2312,19 @@ active: About Me
 					<li>
 						<i class="fas fa-database faa-horizontal animated"></i>&nbsp;&nbsp;<u>Object-relational database languages</u>:
 						<ul>
+                            <li>
+                                <i class="fab fa-microsoft faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Microsoft:</u></i>
+                                <ul>
+                                    <li>
+                                        <i>Microsoft SQL Server</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                </ul>
+                            </li>
 							<li>
 								<i>MySQL</i>
                                 <span class="fa fa-star checked"></span>
