@@ -3271,7 +3271,7 @@ active: About Me
 						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>JavaScript</i>'s libraries</u>:
 						<ul>
                             <li>
-                                <i class="fas fa-atom faa-horizontal animated"></i>&nbsp;&nbsp;<u><u>Functional reactive programming</u>:
+                                <i class="fas fa-atom faa-horizontal animated"></i>&nbsp;&nbsp;<u>Functional reactive programming</u>:
                                 <ul>
                                     <li>
                                         <i>Bacon.js</i>
