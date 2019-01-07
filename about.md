@@ -2194,6 +2194,30 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
+                            <li>
+								<i>Ruby</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+                            <li>
+								<i>Lisp</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+                            <li>
+								<i>Scala</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
 						</ul>
 					</li>
                     <li>
@@ -2421,8 +2445,18 @@ active: About Me
 				</ul>
 			</li>
             <li>
+                <p align="justify"><i class="fas fa-robot faa-horizontal animated"></i>&nbsp;&nbsp;<b>Robotics middleware:</b></p>
+                <ul>
+                    <li>
+                        <i>ROS (Robot Operating System)</i>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                    </li>
+                </ul>
             </li>
-                <p align="justify"><i class="fas fa-robot faa-horizontal animated"></i>&nbsp;&nbsp;<b>Robotics middleware:</b>
 			<li>
 				<p align="justify"><i class="fas fa-cog faa-horizontal animated"></i>&nbsp;&nbsp;<b>APIs:</b></p>
         			<ul>
@@ -2476,7 +2510,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <u>Cross-platform libraries:</u>
+                        <u>Cross-platform libraries</u>:
                         <ul>
                             <li>
                                 <u>Real-time computer vision libraries</u>:
@@ -2520,7 +2554,7 @@ active: About Me
                         </ul>
                     </li>
                     <li>
-                        <u>Heterogeneous computing APIs:</u>
+                        <u>Heterogeneous computing APIs</u>:
                         <ul>
                             <li>
                                 <i>OpenCL (Open Computing Language)</i>
@@ -2717,7 +2751,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs:</b></p>
+				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs & Programming Tools:</b></p>
         			<ul>
 					<li>
 						<i>Turbo Pascal</i>
@@ -2744,20 +2778,110 @@ active: About Me
                         <span class="fa fa-star"></span>
 					</li>
 					<li>
-                        <i>IntelliJ IDEA</i>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
+                        <u>Jet Brains</u>:
+                        <ul>
+                            <li>
+                                <i>App Code</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>CLion</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>Datalore</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>DataGrip</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>GoLand</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>IntelliJ IDEA</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>PhpStorm</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>PyCharm</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>Rider</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>RubyMine</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                            <li>
+                                <i>WebStorm</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                        </ul>
 					</li>
 					<li>
-						<i>Android Studio</i>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star checked"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
-                        <span class="fa fa-star"></span>
+                        <u>Google</u>:
+                        <ul>
+                            <li>
+                                <i>Android Studio</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </li>
+                        </ul>
 					</li>
 					<li>
 						<i>Unity3D</i>
