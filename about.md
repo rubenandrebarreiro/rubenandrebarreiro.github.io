@@ -2144,7 +2144,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fab fa-codepen faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm languages</u>:
+						<i class="fas fa-cube faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm languages</u>:
 						<ul>
 							<li>
 								<i>Visual Basic .NET</i>
@@ -2221,7 +2221,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <i class="fas fa-sort-numeric-up faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm numerical computing environment</u>:
+                        <i class="fas fa-chart-area faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm numerical computing environment</u>:
 						<ul>
 							<li>
 								<i>MATLAB (Matrix Laboratory)</i>
@@ -2268,7 +2268,7 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<i class="fas fa-cube faa-horizontal animated"></i>&nbsp;&nbsp;<u>Interpreted languages</u>:
+						<i class="fas fa-hand-pointer faa-horizontal animated"></i>&nbsp;&nbsp;<u>Interpreted languages</u>:
 						<ul>
 							<li>
 								<i>JavaScript</i>
@@ -3085,7 +3085,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-box-open faa-horizontal animated"></i>&nbsp;&nbsp;<b>Software stacks:</b></p>
         			<ul>
 					<li>
-						<u>WampServer</u>
+						<i>WampServer</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star"></span>
@@ -3098,7 +3098,7 @@ active: About Me
 				<p align="justify"><i class="fas fa-lock faa-horizontal animated"></i>&nbsp;&nbsp;<b>Administration tools:</b></p>
         			<ul>
 					<li>
-						<u>phpMyAdmin</u>
+						<i>phpMyAdmin</i>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
                         <span class="fa fa-star checked"></span>
@@ -3296,18 +3296,23 @@ active: About Me
 						</ul>
 					</li>
 					<li>
-						<u>Serializing structured data formats</u>:
-						<ul>
-							<li>
-								<i>Google Protocol Buffers</i>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
-                                <span class="fa fa-star"></span>
-							</li>
-						</ul>
-					</li>
+                        <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Serialization</u>:
+                        <ul>
+                            <li>
+                                <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u>Google serializing structured data formats</u>:
+						        <ul>
+                                    <li>
+                                        <i>Google Protocol Buffers</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+						      </ul>
+                            </li>
+                        </ul>
+                    </li>
 				</ul>
 			</li>
 			<li>
