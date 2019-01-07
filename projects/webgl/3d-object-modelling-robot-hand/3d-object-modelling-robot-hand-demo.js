@@ -28,13 +28,14 @@ var upperJointRotation = -50;  // upper join rotation, keys 'A' and 'S'
 var clawTranslation = 0;       // claws translation,   keys 'O' and 'P'
 var handRotation = 0;          // hand rotation,       keys 'K' and 'L'
 
-function handleKeyboard()
-{
-    window.onkeydown = function() {
+function handleKeyboard() {
+    window.onkeydown = function(e) {
         if (document.activeElement != document.getElementById("mainbody"))
             return;
             
-        var keyCode = event.keyCode;
+        var e = (e || window.event);
+        var keyCode = e.keyCode;
+        
         switch(keyCode) {
             case 37:
                 baseTranslationX = Math.max(-1.25, baseTranslationX-0.05); return;   // 37 = left-arrow  move the base to the left
@@ -47,7 +48,9 @@ function handleKeyboard()
             default:
                 break;
         }
+        
         var keyChar = String.fromCharCode(keyCode);
+        
         switch (keyChar) {
             case "Q":
                 armRotation = (armRotation+3) % 360; break;   // 'q' roda a base em sentido contrario aos ponteiros do relogio
