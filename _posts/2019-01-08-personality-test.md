@@ -96,7 +96,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">O <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo de personalidade INTP</u></i></b></a> é bastante raro, representando apenas três por cento da população, o que definitivamente é uma coisa boa para eles, já que não há nada que eles fiquem mais infelizes do que serem "comuns". <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> se orgulham de sua criatividade e criatividade, sua perspectiva única e intelecto vigoroso. Normalmente conhecido como o filósofo, o arquiteto ou o professor sonhador, <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> foram responsáveis por muitas descobertas científicas ao longo da história.</p>
 
-<h3>A Vida Não Examinada Não Vale a Ser Vivida</h3>
+<h3>A Vida Não Examinada Não Vale a Pena Ser Vivida</h3>
 
 <blockquote>
     <p><a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> são conhecidos por suas teorias brilhantes e lógica implacável - na verdade, eles são considerados os mais logicamente precisos de todos os tipos de personalidade.</p>
