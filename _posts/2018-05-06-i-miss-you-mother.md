@@ -9,6 +9,8 @@ categories: posts
 tags: ['poems','texts','reflections','love','family','mother','son','life']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
+<p align="justify">I miss you mother! / Tenho saudades tuas mãe!</p>
+
 [![MotherAndSonHugging]({{ site.images | relative_url }}/i-miss-you-mother/mother-and-soon-hugging-1.jpg)]({{ site.images | relative_url }}/i-miss-you-mother/mother-and-soon-hugging-1.jpg)
 
 <hr>
