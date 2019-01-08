@@ -16,7 +16,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <hr>
 <br>
 
-<p align="justify">Hello everyone! I will start the course of Entrepreneurship of my Master degree very soon, and before the start of the classes, the Professor advised us to take a <u><b>Personality Test</b> at [16Personalities](https://www.16personalities.com/)</u> to get to know ourselves better, to know our abilities, as well as our strengths and weaknesses. 😄</p>
+<p align="justify">Hello everyone! I will start the course of Entrepreneurship of my Master degree very soon, and before the start of the classes, the Professor advised us to take a <u><b>Personality Test</b> at ![16Personalities](https://www.16personalities.com/)</u> to get to know ourselves better, to know our abilities, as well as our strengths and weaknesses. 😄</p>
 
 <h2>INTP Personality ("The Logician")</h2>
 
