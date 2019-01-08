@@ -20,7 +20,26 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">The results was the following...</p>
 
-<h2>INTP Personality ("The Logician")</h2>
+<p align="justify"><b>Personality type:</b> <a href="https://www.16personalities.com/intp-personality"><u>"The Logician"</u> (INTP-T)</a></p>
+
+<p align="justify"><b>Individual Traits:</b></p>
+<ul>
+    <li>Introverted - 51%</li>
+    <li>Intuitive - 81%</li>
+    <li>Thinking - 69%</li>
+    <li>Prospecting - 51%</li>
+    <li>Turbulent - 74%</li>
+</ul>
+
+<p align="justify"><b>Role:</b> Analyst</p>
+
+<p align="justify"><b>Strategy:</b> Constant Improvement</p>
+
+<br>
+<hr>
+<br>
+
+<h2><a href="https://www.16personalities.com/intp-personality">INTP Personality ("The Logician")</a></h2>
 
 <blockquote>
     <p>Learn from yesterday, live for today, hope for tomorrow. The important thing isn't to stop questioning.</p>
@@ -43,7 +62,26 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">Os resultados foram os seguintes...</p>
 
-<h2>Personalidade INTP ("O Lógico")</h2>
+<p align="justify"><b>Tipo de Personalidade:</b> <a href="https://www.16personalities.com/intp-personality"><u>"O Lógico"</u> (INTP-T)</a></p>
+
+<p align="justify"><b>Traços Individuais:</b></p>
+<ul>
+    <li>Introvertido - 51%</li>
+    <li>Intuítivo - 81%</li>
+    <li>Pensador - 69%</li>
+    <li>Prospecto - 51%</li>
+    <li>Turbulento - 74%</li>
+</ul>
+
+<p align="justify"><b>Função:</b> Analista</p>
+
+<p align="justify"><b>Estratégia:</b> Melhoria e Aperfeiçoamento Constantes</p>
+
+<br>
+<hr>
+<br>
+
+<h2><a href="https://www.16personalities.com/intp-personality">Personalidade INTP ("O Lógico")</a></h2>
 
 <blockquote>
     <p>Aprende com o ontem, vive para o hoje, espera pelo amanhã. O mais importante é não pararmos de nos questionarmos.</p>
