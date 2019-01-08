@@ -16,7 +16,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <hr>
 <br>
 
-<p align="justify">Hello everyone! I will start the course of Entrepreneurship of my Master degree very soon, and before the start of the classes, the Professor advised us to take a <u><b>Personality Test</b> at ![16Personalities](https://www.16personalities.com/)</u> to get to know ourselves better, to know our abilities, as well as our strengths and weaknesses. 😄</p>
+<p align="justify">Hello everyone! I will start the course of Entrepreneurship of my Master degree very soon, and before the start of the classes, the Professor advised us to take a <u><b>Personality Test</b> at <a href="https://www.16personalities.com/">16Personalities</a></u> to get to know ourselves better, to know our abilities, as well as our strengths and weaknesses. 😄</p>
 
 <h2>INTP Personality ("The Logician")</h2>
 
@@ -37,7 +37,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <hr>
 <br>
 
-<p align="justify">Olá pessoal! Vou começar o Unidade Currícular de Empreendedorismo do meu Mestrado muito em breve, e antes do início das aulas, o Professor aconselhou-nos a fazer um <u><b>Teste de Personalidade</b> em [16Personalities] (https://www.16personalities.com/)</u> para nos conhecermos melhor a nós mesmos, conhecermos as nossas capacidades, assim como os nossos pontos fortes e fracos. 😄</p>
+<p align="justify">Olá pessoal! Vou começar o Unidade Currícular de Empreendedorismo do meu Mestrado muito em breve, e antes do início das aulas, o Professor aconselhou-nos a fazer um <u><b>Teste de Personalidade</b> em <a href="https://www.16personalities.com/">16Personalities</a></u> para nos conhecermos melhor a nós mesmos, conhecermos as nossas capacidades, assim como os nossos pontos fortes e fracos. 😄</p>
 
 <h2>Personalidade INTP ("O Lógico")</h2>
 
