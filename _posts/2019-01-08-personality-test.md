@@ -106,6 +106,8 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">Isso pode fazê-los parecer pouco confiáveis, mas na realidade ninguém é mais entusiasta e capaz de identificar um problema, explorando os fatores e detalhes que abrangem o problema e desenvolvendo uma solução única e viável do que os <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> - simplesmente não espere relatórios de progresso pontual. As pessoas que compartilham o <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo de personalidade INTP</u></i></b></a> não estão interessadas em atividades práticas e de manutenção e no dia-a-dia, mas quando encontram um ambiente onde seu potencial e gênio criativos podem ser expressos, não há limite para o tempo e energia que <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> gastar no desenvolvimento de uma solução perspicaz e imparcial.</p>
 
+[![INTPPersonality2]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)
+
 <br>
 <hr>
 <br>
