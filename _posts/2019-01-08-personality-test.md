@@ -16,7 +16,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <hr>
 <br>
 
-<h2><u>Engish</u></h2>
+<h3><u>English</u></h3>
 
 <p align="justify">Hello everyone! I will start the course of Entrepreneurship of my Master degree very soon, and before the start of the classes, the Professor advised us to take a <u><b>Personality Test</b> at <a href="https://www.16personalities.com/">16Personalities</a></u> to get to know ourselves better, to know our abilities, as well as our strengths and weaknesses. 😄</p>
 
@@ -66,11 +66,48 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 [![INTPPersonality2]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)
 
+<h3>Wisdom Begins in Wonder</h3>
+
+<p align="justify">They may appear to drift about in an unending daydream, but <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs’</u></i></b></a> thought process is unceasing, and their minds buzz with ideas from the moment they wake up. This constant thinking can have the effect of making them look pensive and detached, as they are often conducting full-fledged debates in their own heads, but really <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> are quite relaxed and friendly when they are with people they know, or who share their interests. However, this can be replaced by overwhelming shyness when <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTP personalities</u></i></b></a> are among unfamiliar faces, and friendly banter can quickly become combative if they believe their logical conclusions or theories are being criticized.</p>
+
+<p align="justify">When <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> are particularly excited, the conversation can border on incoherence as they try to explain the daisy-chain of logical conclusions that led to the formation of their latest idea. Oftentimes, <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> will opt to simply move on from a topic before it’s ever understood what they were trying to say, rather than try to lay things out in plain terms.</p>
+
+<p align="justify">The reverse can also be true when people explain their thought processes to <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> in terms of subjectivity and feeling. Imagine an immensely complicated clockwork, taking in every fact and idea possible, processing them with a heavy dose of creative reasoning and returning the most logically sound results available – this is how the <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTP</u></i></b></a> mind works, and this type has little tolerance for an emotional monkey-wrench jamming their machines.</p>
+
+<h3>Let Those Who Would Move the World First Move Themselves</h3>
+
+<p align="justify">Further, with Thinking (T) as one of their governing traits, <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> are unlikely to understand emotional complaints at all, and their friends won’t find a bedrock of emotional support in them. People with the <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTP personality type</u></i></b></a> would much rather make a series of logical suggestions for how to resolve the underlying issue, a perspective that is not always welcomed by their Feeling (F) companions. This will likely extend to most social conventions and goals as well, like planning dinners and getting married, as <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> are far more concerned with originality and efficient results.</p>
+
+<p align="justify">The one thing that really holds <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> back is their restless and pervasive fear of failure. <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTP personalities</u></i></b></a> are so prone to reassessing their own thoughts and theories, worrying that they’ve missed some critical piece of the puzzle, that they can stagnate, lost in an intangible world where their thoughts are never truly applied. Overcoming this self-doubt stands as the greatest challenge <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> are likely to face, but the intellectual gifts – big and small – bestowed on the world when they do makes it worth the fight.</p>
+
+<h3>Logicians You May Know</h3>
+
+<ul>
+    <li><b>Bill Gates</b></li>
+    <li><b>Ellen Page</b></li>
+    <li><b>Kristen Stewart</b></li>
+    <li><b>Albert Einstein</b></li>
+    <li><b>Rene Descartes</b></li>
+    <li><b>Blaise Pascal</b></li>
+    <li><b>Isaac Newton</b></li>
+    <li><b>Stanley Crouch</b></li>
+    <li><b>Aemon Targaryen</b> (<i>Game of Thrones</i>)</li>
+    <li><b>Lord Varys</b> (<i>Game of Thrones</i>)</li>
+    <li><b>Neo</b> (<i>The Matrix</i>)</li>
+    <li><b>Alexander Mahone</b> (<i>Prison Break</i>)</li>
+    <li><b>Marshall Flinkman</b> (<i>Alias</i>)</li>
+    <li><b>Chloe O'Brian</b> (<i>24</i>)</li>
+    <li><b>Leslie Winkle</b> (<i>The Big Bang Theory</i>)</li>
+    <li><b>Abed Nadir</b> (<i>Community</i>)</li>
+</ul>
+
+<h1>2. Strengths and Weaknesses</h1>
+
 <br>
 <hr>
 <br>
 
-<h2><u>Português</u></h2>
+<h3><u>Português</u></h3>
 
 <p align="justify">Olá pessoal! Vou começar o Unidade Currícular de Empreendedorismo do meu Mestrado muito em breve, e antes do início das aulas, o Professor aconselhou-nos a fazer um <u><b>Teste de Personalidade</b> em <a href="https://www.16personalities.com/">16Personalities</a></u> para nos conhecermos melhor a nós mesmos, conhecermos as nossas capacidades, assim como os nossos pontos fortes e fracos. 😄</p>
 
@@ -119,6 +156,30 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <p align="justify">Isso pode fazê-los parecer pouco confiáveis, mas na realidade ninguém é mais entusiasta e capaz de identificar um problema, explorando os fatores e detalhes que abrangem o problema e desenvolvendo uma solução única e viável do que os <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> - simplesmente não espere relatórios de progresso pontual. As pessoas que compartilham o <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo de personalidade INTP</u></i></b></a> não estão interessadas em atividades práticas e de manutenção e no dia-a-dia, mas quando encontram um ambiente onde seu potencial e gênio criativos podem ser expressos, não há limite para o tempo e energia que <a href="https://www.16personalities.com/intp-personality"><b><i><u>INTPs</u></i></b></a> gastar no desenvolvimento de uma solução perspicaz e imparcial.</p>
 
 [![INTPPersonality2]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)
+
+
+<h3>Lógicos Que Podes Conhecer</h3>
+
+<ul>
+    <li><b>Bill Gates</b></li>
+    <li><b>Ellen Page</b></li>
+    <li><b>Kristen Stewart</b></li>
+    <li><b>Albert Einstein</b></li>
+    <li><b>Rene Descartes</b></li>
+    <li><b>Blaise Pascal</b></li>
+    <li><b>Isaac Newton</b></li>
+    <li><b>Stanley Crouch</b></li>
+    <li><b>Aemon Targaryen</b> (<i>Game of Thrones</i>)</li>
+    <li><b>Lord Varys</b> (<i>Game of Thrones</i>)</li>
+    <li><b>Neo</b> (<i>The Matrix</i>)</li>
+    <li><b>Alexander Mahone</b> (<i>Prison Break</i>)</li>
+    <li><b>Marshall Flinkman</b> (<i>Alias</i>)</li>
+    <li><b>Chloe O'Brian</b> (<i>24</i>)</li>
+    <li><b>Leslie Winkle</b> (<i>The Big Bang Theory</i>)</li>
+    <li><b>Abed Nadir</b> (<i>Community</i>)</li>
+</ul>
+
+<h1>2. Pontos Fortes e Fracos</h1>
 
 <br>
 <hr>
