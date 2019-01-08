@@ -1,5 +1,5 @@
 ---
-bg: "photo-25.jpg"
+bg: "photo-27.jpg"
 layout: post
 title:  "The So Famous Crisis Of The 20s / A Tão Famosa Crise Dos 20 e Poucos Anos"
 crawlertitle: "Rúben André Barreiro's Blog - The So Famous Crisis Of The 20s"
@@ -40,7 +40,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">Quando alguém te pergunta sobre ter filhos, a primeira coisa que te vem à cabeça é que tu nem consegues ter paciência para cuidar nem de ti mesmo, quanto mais de uma criança. Tu questionas-te:  “Como posso ter mais de 20 anos e ainda ter espinhas?”. Olhas-te ao espelho e percebes que o tempo passou e que a tua aparência mudou. Não muito... No entanto, às vezes vai parecer que sim.</p>
 
-<p align="justify">O peso do que tu ainda ainda precisas conquistar fica muito maior. Torna-se difícil organizar o tempo para os teus amigos (“Vamos marcar um dia destes para sairmos.”)... Trabalho, faculdade, namoro… As multidões parecem-te cada vez mais chatas e o teu quarto cada vez mais reconfortante. Dás-te conta de que todas as viagens  que pensaste em fazer, ainda não se realizaram... E ainda ficas feliz quando achas algumas moedas nos bolsos da calças!
+<p align="justify">O peso do que tu ainda ainda precisas conquistar fica muito maior. Torna-se difícil organizar o tempo para os teus amigos (“Vamos marcar um dia destes para sairmos.”)... Trabalho, faculdade, namoro… As multidões parecem-te cada vez mais chatas e o teu quarto cada vez mais reconfortante. Dás-te conta de que todas as viagens  que pensaste em fazer, ainda não se realizaram... E ainda ficas feliz quando achas algumas moedas nos bolsos da calças!</p>
 
 <p align="justify">Mil questões e poucas certezas... Mas, no final de tudo, tu percebes tu ainda és tu mesmo... Melhor do que foste um dia e bem menor do que serás amanhã!</p>
 
