@@ -6,7 +6,7 @@ crawlertitle: "Rúben André Barreiro's Blog - I Miss You Mother!"
 summary: "A Text From Fabíola Simões!"
 date:   2018-05-06 15:43:29 +0000
 categories: posts
-tags: ['poems','texts','reflections','love','family','mother','son','life']
+tags: ['poems','texts','reflections','love','family','longing','mother','son','life']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
 <p align="justify">I miss you mother! / Tenho saudades tuas mãe!</p>
