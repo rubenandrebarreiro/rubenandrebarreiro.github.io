@@ -59,7 +59,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">Mãe é a voz que não sai de dentro de nós, mesmo que nós tenhamos acumulado tempo que sobre, dinheiro na conta do banco e, muitos cursos e especializações. Pois, por detrás de cada gabinete com ar condicionado e de cada nó de gravata, há uma mulher que já deu raspanetes e broncas, mandou que raspassemos o prato e lembrou-nos de levar o casaco!</p>
 
-<p align="justify">Mãe é parceira nas horas certas e também incertas. É o ombro amigo nos arrependimentos e o sermão construtivo nas escolhas mal feitas. Mãe é censura e também ternura. Mãe é cheiro de afeto e lembrete de “engole o choro”. Mãe é intuição abundante e prece incessante.</p>
+<p align="justify">Mãe é parceira nas horas certas e também incertas. É o ombro amigo nos arrependimentos e o sermão construtivo nas escolhas mal feitas. Mãe é censura e também ternura. Mãe é cheiro de afeto e lembrete de "engole o choro". Mãe é intuição abundante e prece incessante.</p>
 
 <p align="justify">Ao lembrarmos-nos das nossas mães, lembramos-nos de quem fomos. Pois a construção e lapidação de nossa existência confunde-se com sons antigos chamando-nos no portão, cheiro de um conhecido perfume borrifado nos pulsos, lembrança de arrumarmos a cama e tirarmos os pés do sofá, assobio afinado, vestido lavado e delicadeza cuidadosa.</p>
 
