@@ -101,7 +101,11 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
     <li><b>Abed Nadir</b> (<i>Community</i>)</li>
 </ul>
 
+<hr>
+
 <h1>2. Strengths and Weaknesses</h1>
+
+<hr>
 
 <br>
 <hr>
@@ -157,6 +161,19 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 [![INTPPersonality2]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)]({{ site.images | relative_url }}/personality-test/intp-personality-2.jpg)
 
+<h3>A Sabedoria Começa na Maravilha</h3>
+
+<p align="justify">Eles podem parecer vagar num devaneio sem fim, mas o processo de pensamento das pessoas com <a href="https://www.16personalities.com/intp-personality"><b><i><u>personalidade INTP</u></i></b></a> é incessante, e suas mentes fervilham de ideias a partir do momento em que acordam. Esse pensamento constante pode ter o efeito de fazê-los parecerem pensativos e desapegados, já que eles geralmente estão conduzindo debates completos nas suas próprias cabeças, mas na verdade pessoas com <a href="https://www.16personalities.com/intp-personality"><b><i><u>personalidade INTP</u></i></b></a> são bastante relaxadas e amigáveis quando estão com pessoas que conhecem ou que compartilham os seus interesses. No entanto, isso pode ser substituído pela timidez avassaladora quando <a href="https://www.16personalities.com/intp-personality"><b><i><u>personalidades do tipo INTP</u></i></b></a> estão entre rostos desconhecidos, e brincadeiras amigáveis podem rapidamente tornar-se combativas se elas acreditarem que as suas conclusões lógicas ou teorias estão sendo criticadas.</p>
+
+<p align="justify">Quando as pessoas com <a href="https://www.16personalities.com/intp-personality"><b><i><u>personalidade INTP</u></i></b></a> estão particularmente empolgados, a conversa pode-se aproximar da incoerência enquanto tentam explicar a cadeia de conclusões lógicas que levaram à formação da sua ideia mais recente. Muitas vezes, as pessoas com <a href="https://www.16personalities.com/intp-personality"><b><i><u>personalidade do tipo INTP</u></i></b></a> optam por simplesmente seguir adiante num tópico antes de entender o que eles estavam tentando dizer, em vez de tentar estabelecer as coisas em termos simples.</p>
+
+<p align="justify">O inverso também pode ser verdadeiro quando as pessoas explicam os seus processos de pensamento às pessoas do <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo INTP</u></i></b></a> em termos de subjetividade e sentimento. Imagine um relógio imensamente complicado, absorvendo todos os fatos e idéias possíveis, processando-os com uma dose pesada de raciocínio criativo e retornando os resultados mais lógicos disponíveis - é assim que funciona a mente de uma pessoa com <a href="https://www.16personalities.com/intp-personality"><b><i><u>personalidade do tipo INTP</u></i></b></a>, e esse tipo tem pouca tolerância para um macaco emocional que encravam as máquinas.</p>
+
+<h3>Deixe os Que Querem Mover o Mundo em Primeiro Lugar</h3>
+
+<p align="justify">Além disso, com a faceta do Pensador como um dos seus traços mais destacados, é improvável que as pessoas do <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo INTP</u></i></b></a> compreendam as queixas emocionais, e os seus amigos não encontrarão uma base de apoio emocional neles. As pessoas com o <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo de personalidade INTP</u></i></b></a> prefeririam fazer uma série de sugestões lógicas em vez de resolver o problema subjacente, uma perspectiva que nem sempre é bem-vinda pelos seus companheiros com a faceta do Sentimento mais desenvolvida. Isso provavelmente estenderá-se à maioria das convenções e metas sociais, como planear jantares e casar, já que as pessoas do <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo INTP</u></i></b></a> estão muito mais preocupadas com a originalidade e com os resultados eficientes.</p>
+
+<p align="justify">A única coisa que realmente detém as pessoas do tipo INTP é o seu medo inquieto e insaciável do fracasso. As <a href="https://www.16personalities.com/intp-personality"><b><i><u>personalidades do tipo INTP</u></i></b></a> são tão propensas a reavaliar os seus próprios pensamentos e teorias, preocupadas por perderem alguma peça crítica do quebra-cabeças, que podem ficar estagnadas, perdidas num mundo intangível onde os seus pensamentos nunca são realmente aplicados. Superar essa dúvida é o maior desafio que as pessoas do <a href="https://www.16personalities.com/intp-personality"><b><i><u>tipo INTP</u></i></b></a> provavelmente enfrentarão, mas os dotes intelectuais - grandes e pequenos - concedidos ao mundo quando o fazem, valerão a pena.</p>
 
 <h3>Lógicos Que Podes Conhecer</h3>
 
@@ -179,7 +196,11 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
     <li><b>Abed Nadir</b> (<i>Community</i>)</li>
 </ul>
 
+<hr>
+
 <h1>2. Pontos Fortes e Fracos</h1>
+
+<hr>
 
 <br>
 <hr>
