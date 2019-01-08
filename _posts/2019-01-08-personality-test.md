@@ -24,7 +24,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <blockquote>
     <p>Learn from yesterday, live for today, hope for tomorrow. The important thing isn't to stop questioning.</p>
-    <footer>Albert Einstein</footer>
+    <footer><b><i>Albert Einstein</i></b></footer>
 </blockquote>
 
 <p align="justify">The INTP personality type is fairly rare, making up only three percent of the population, which is definitely a good thing for them, as there's nothing they'd be more unhappy about than being "common". INTPs pride themselves on their inventiveness and creativity, their unique perspective and vigorous intellect. Usually known as the philosopher, the architect, or the dreamy professor, INTPs have been responsible for many scientific discoveries throughout history.</p>
@@ -47,7 +47,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <blockquote>
     <p>Aprende com o ontem, vive para o hoje, espera pelo amanhã. O mais importante é não pararmos de nos questionarmos.</p>
-    <footer>Albert Einstein</footer>
+    <footer><b><i>Albert Einstein</i></b></footer>
 </blockquote>
 
 <p align="justify">O tipo de personalidade INTP é bastante raro, representando apenas três por cento da população, o que definitivamente é uma coisa boa para eles, já que não há nada que eles fiquem mais infelizes do que serem "comuns". INTPs se orgulham de sua criatividade e criatividade, sua perspectiva única e intelecto vigoroso. Normalmente conhecido como o filósofo, o arquiteto ou o professor sonhador, INTPs foram responsáveis por muitas descobertas científicas ao longo da história.</p>
