@@ -1,7 +1,7 @@
 ---
 bg: "photo-34.jpg"
 layout: post
-title:  "I Miss You Mother! / Tenho Saudades Tuas Mãe!"
+title:  "I Miss You Mother / Tenho Saudades Tuas Mãe"
 crawlertitle: "Rúben André Barreiro's Blog - I Miss You Mother!"
 summary: "A Text From Fabíola Simões!"
 date:   2018-05-06 15:43:29 +0000
