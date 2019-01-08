@@ -41,6 +41,8 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <h1>1. Introduction</h1>
 
+<hr>
+
 <h2><a href="https://www.16personalities.com/intp-personality">INTP Personality ("The Logician")</a></h2>
 
 <blockquote>
@@ -90,6 +92,8 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <br>
 
 <h1>1. Introdução</h1>
+
+<hr>
 
 <h2><a href="https://www.16personalities.com/intp-personality">Personalidade INTP ("O Lógico")</a></h2>
 
