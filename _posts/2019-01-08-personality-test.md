@@ -9,7 +9,7 @@ categories: posts
 tags: ['test','examination','results','personality','strengths','weaknesses','romantic','relationships','friendships','parenthood','career','paths','workplace','habits']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
-<p align="justify">Personality's Test From 16Personalities / Teste de Personalidade do 16Personalities</p>
+<p align="justify">Personality's Test From <a href="https://www.16personalities.com/">16Personalities</a> / Teste de Personalidade do <a href="https://www.16personalities.com/">16Personalities</a></p>
 
 [![INTPPersonality]({{ site.images | relative_url }}/personality-test/intp-personality-1.jpg)]({{ site.images | relative_url }}/personality-test/intp-personality-1.jpg)
 
