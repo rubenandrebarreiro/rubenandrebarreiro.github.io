@@ -103,6 +103,8 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <hr>
 
+<br>
+
 <h1>2. Strengths and Weaknesses</h1>
 
 <hr>
@@ -197,6 +199,8 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 </ul>
 
 <hr>
+
+<br>
 
 <h1>2. Pontos Fortes e Fracos</h1>
 
