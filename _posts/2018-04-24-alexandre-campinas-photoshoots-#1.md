@@ -125,7 +125,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <p align="justify"><b>Facebook:</b> <a target="_blank" href="https://www.facebook.com/alexandre.campinas.photography/">https://www.facebook.com/alexandre.campinas.photography/</a></p>
 <p align="justify"><b>Instagram:</b> <a target="_blank"
 href="https://www.instagram.com/alexandrecampinasphoto/">https://www.instagram.com/alexandrecampinasphoto/</a></p>
-<p align="justify"><b>E-mail:</b> <a target="_blank" href="mailto:ruben.barreiro.92@gmail.com">photo@alexandrecampinas.pt</a></p>
+<p align="justify"><b>E-mail:</b> <a target="_blank" href="mailto:photo@alexandrecampinas.pt">photo@alexandrecampinas.pt</a></p>
 
 
 <br>

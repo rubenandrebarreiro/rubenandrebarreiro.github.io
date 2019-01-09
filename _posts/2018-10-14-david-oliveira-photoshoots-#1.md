@@ -16,24 +16,19 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <hr>
 <br>
 
-<!--
-<p align="justify">This is something that I was thinking for a long time and it's something that I always want to try. As I have some ideas and ambitions in fashion area, and I always loved <i><u>photography</u></i>, I decided to do some photoshoots in a studio... (<i><u>Because it was too much cold outside!!!</u></i> 😅)</p>-->
+<p align="justify">After my first photoshoots' experience in a studio with <a href="http://alexandrecampinas.pt/">Alexandre Campinas Photography</a>, I decided to repeat all the experience again to continue to do some publicity and advertising to fashion brands. But this time, I decided to make the photography session outside, in order to enjoy the last days of Summer! 😄</p>
 
-<!--<p align="justify"><i><u>I'm starting a blogger and fashion advisor lifestyle</u></i>, so I need some photos to publish in my <i><u>social networks and personal pages</u></i>. The first step was to choose the clothes for the photoshoots. For me that was too easy because <i><u>I'm so interested in fashion world and I'm always aware to the new trendings and looks!</u></i> I decided to bring 5 changes of clothes, to the studio, for this first photosession.</p>-->
+<p align="justify"><i><u>I choosed some new outfits to continue my adventure as a blogger and fashion advisor lifestyle</u></i>. The first step was, as always, to choose the clothes for the photoshoots. As it was summer, I decided to choose more airy outfits and looks. For this outdoor photosession, I decided to bring 5 changes of clothes, as the last time.</p>
 
-<!--
-<p align="justify">The second step was to choose if the photosession would be made in the exterior or in the studio. I choose to do it in the studio, because as the main idea it's to advertise some fashion brands, trendings and styles. And how, currently, it's taking place the spring season (<i><u>And it was cold in that week and was raining that day...</u></i> 😣), I decided to use their <b><i>Spring Collections</i></b> in the studio.</p>-->
+<p align="justify">As the photossession was more targeted to show some Summer outfits, I choose to do the photossesion in exterior, at the evening of the last days of Summer.</p>
 
-<!--
-<p align="justify">During the photosession, it was little difficult to me, because it was my first time and initially, I didn't feel so comfortable (<i><u>And perhaps, little shy</u></i>) posing in the front of the camera. But was told me to relax and don't think too much about that. <i><u>So I tried to keep calm, relaxed and pretend to be the most natural possible for the camera's len.</u></i></p>-->
+<p align="justify">During this photosession, I felt some difficulties again posing in the front of the camera. But the photographer was pretty nice and, always tried to put me comfortable and relaxed!</p>
 
-<!--
-<p align="justify">As the camera shoots some flashes, I'm started to gain some self confidence, enjoying each posing that I was making and everything starts to go fine. <i><u>The final results are awesome and I loved too much the experience.</u></i> For me was <i><u>my first photosession and modeling experience</u></i>, but don't will be the last, for sure! And for some of you, that want to start some project in the modeling area or simply want to do something new, just by curiosity, <i><u>I advise you to try it, you wouldn't regret, trust me!</u></i></p>-->
+<p align="justify">One more time, I enjoyed all the experience and I think everything worked fine. <i><u>The final results are amazing!</u></i></p>
 
-<!--
-<p align="justify"><b>The highlights of the photosession are the following, resulting in a total of 284 photos without any edition:</b></p>-->
+<p align="justify">From the highlights of the photosession, was choosed <b>56 final photos</b> with <i><u>basic editions</u></i> (<i><b>light, contrast, hue and saturation</b></i>).</p>
 
-<p align="justify">Coming soon...</p>
+<p align="justify">The final photos without any special edition was the following:</p>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#1
 [![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-01.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-01.jpg)
@@ -67,35 +62,26 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 [![DavidOliveira17September2018Photoshoots8]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)
 <br>
 
-<!--
-<p align="justify">From the highlights of the photosession, was choosed <b>42 final photos</b>, 40 photos with <i><u>basic editions</u></i> (<i><b>light, contrast, hue and saturation</b></i>) and 2 with <i><u>special editions</u></i> (<i><b>removal of face imperfections, acne and blemishes</b></i>, per example).</p>-->
-
-<!--
-<p align="justify">Posteriorly, as I have some photo edition skills, I also made some personal photo editions on the final photos.</p>-->
+<p align="justify">Posteriorly, as always, I also made some personal photo editions on the final photos.</p>
 
 <br>
 
-<!--
-<p align="justify"><b>The final result from the photos' collection of photosession, was the following:</b></p>-->
+<p align="justify"><b>The final result from the photos' collection of photosession, was the following:</b></p>
 
-<!--
-<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-alexandre-campinas-photoshoots-01/highlights.html"><b><i>- Spring Photosession 2018 - by Alexandre Campinas Photography</i></b></a></p>-->
+<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-david-oliveira-photoshoots-01/highlights.html"><b><i>- Summer Photosession 2018 - by David Oliveira Photography</i></b></a></p>
 
 <br>
 
-<!--
-<p align="justify">I will also share with you, the contacts of the photographer.</p>-->
+<p align="justify">I will also share with you, the contacts of the photographer.</p>
 
 <br>
 
-<!--
 <p align="justify"><b><u>CONTACTS:</u></b></p>
-<p align="justify"><b>Website:</b> <a target="_blank" href="http://www.alexandrecampinas.pt/">http://www.alexandrecampinas.pt/</a></p>
-<p align="justify"><b>Facebook:</b> <a target="_blank" href="https://www.facebook.com/alexandre.campinas.photography/">https://www.facebook.com/alexandre.campinas.photography/</a></p>
+<p align="justify"><b>Website:</b> <a target="_blank" href="http://www.davidmpoliveira.pt/">http://www.davidmpoliveira.pt/</a></p>
+<p align="justify"><b>Facebook:</b> <a target="_blank" href="https://www.facebook.com/davidoliveiraphotos/">https://www.facebook.com/davidoliveiraphotos/</a></p>
 <p align="justify"><b>Instagram:</b> <a target="_blank"
-href="https://www.instagram.com/alexandrecampinasphoto/">https://www.instagram.com/alexandrecampinasphoto/</a></p>
-<p align="justify"><b>E-mail:</b> <a target="_blank" href="mailto:ruben.barreiro.92@gmail.com">photo@alexandrecampinas.pt</a></p>-->
-
+href="https://www.instagram.com/davidoliveiraphotos/">https://www.instagram.com/davidoliveiraphotos/</a></p>
+<p align="justify"><b>E-mail:</b> <a target="_blank" href="mailto:davidmpoliveira@gmail.com">davidmpoliveira@gmail.com</a></p>
 
 <br>
 
