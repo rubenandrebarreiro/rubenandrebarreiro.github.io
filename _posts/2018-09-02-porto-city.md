@@ -3,13 +3,13 @@ bg: "photo-53.jpg"
 layout: post
 title:  "A Travel to Porto, Portugal / Uma Viagem ao Porto, Portugal"
 crawlertitle: "Rúben André Barreiro's Blog - A Travel to Porto, Portugal"
-summary: "A Travel to Porto, Portugal! Knowing and Enjoying the 'Invicta' City!"
+summary: "A Travel to Porto, Portugal! Knowing and Enjoying the City Called 'Invicta'!"
 date:   2018-09-02 20:17:36 +0000
 categories: posts
 tags: ['travel','tourism','destiny','city','country','portugal','north','porto','gaia']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
-<p align="justify">A Travel to Porto, Portugal / Uma Viagem ao Porto, Portugal</p>
+<p align="justify">A Travel to Porto, Portugal... The City Called <i>"Invicta"</i>! / Uma Viagem ao Porto, Portugal... A Cidade Chamada <i>"Invicta"</i>!</p>
 
 [![PortoCity1]({{ site.images | relative_url }}/porto-city/porto-city-1.jpg)]({{ site.images | relative_url }}/porto-city/porto-city-1.jpg)
 
