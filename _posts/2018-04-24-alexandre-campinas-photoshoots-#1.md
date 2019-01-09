@@ -6,7 +6,7 @@ crawlertitle: "Rúben André Barreiro's Blog - Alexandre Campinas Photoshoots #1
 summary: "Studio Photoshoots by Alexandre Campinas Photography!"
 date:   2018-04-24 12:20:53 +0000
 categories: posts
-tags: ['photoshoots','photography','modeling','fashion','style','brands','clothing','blogging']
+tags: ['photoshoots','photography','modeling','fashion','style','brands','clothing','blogging','alexandre','campinas','south','lisbon','feijó']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
 <p align="justify">Hello again everybody! I'm here to share with you, my <a href="../photoshoots/2018-04-24-alexandre-campinas-photoshoots-01/highlights.html"><i><u>1st studio photoshoots</u></i></a>. It was an amazing experience and for me and I hope repeat it in the future! 😍</p>
@@ -15,8 +15,6 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <hr>
 <br>
-
-<p align="justify"></p>
 
 <p align="justify">This is something that I was thinking for a long time and it's something that I always want to try. As I have some ideas and ambitions in fashion area, and I always loved <i><u>photography</u></i>, I decided to do some photoshoots in a studio... (<i><u>Because it was too much cold outside!!!</u></i> 😅)</p>
 
