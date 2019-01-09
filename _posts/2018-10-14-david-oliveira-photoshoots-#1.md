@@ -4,7 +4,7 @@ layout: post
 title:  "David Oliveira Photoshoots #1"
 crawlertitle: "Rúben André Barreiro's Blog - David Oliveira Photoshoots #1"
 summary: "Studio Photoshoots by David Oliveira Fotografia!"
-date:   2018-04-24 12:20:53 +0000
+date:   2018-10-14 16:51:27 +0000
 categories: posts
 tags: ['photoshoots','photography','modeling','fashion','style','brands','clothing','blogging','david','oliveira','north','porto','gaia']
 author: Rúben André Barreiro (BadNewz Lifestyle)
