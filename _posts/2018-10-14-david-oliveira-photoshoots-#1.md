@@ -40,31 +40,31 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 <br>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#2
-[![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-02.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-02.jpg)
+[![DavidOliveira17September2018Photoshoots2]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-02.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-02.jpg)
 <br>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#3
-[![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-03.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-03.jpg)
+[![DavidOliveira17September2018Photoshoots3]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-03.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-03.jpg)
 <br>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#4
-[![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-04.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-04.jpg)
+[![DavidOliveira17September2018Photoshoots4]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-04.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-04.jpg)
 <br>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#5
-[![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-05.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-05.jpg)
+[![DavidOliveira17September2018Photoshoots5]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-05.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-05.jpg)
 <br>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#6
-[![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-06.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-06.jpg)
+[![DavidOliveira17September2018Photoshoots6]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-06.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-06.jpg)
 <br>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#7
-[![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-07.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-07.jpg)
+[![DavidOliveira17September2018Photoshoots7]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-07.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-07.jpg)
 <br>
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#8
-[![DavidOliveira17September2018Photoshoots1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)
+[![DavidOliveira17September2018Photoshoots8]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)
 <br>
 
 <!--
