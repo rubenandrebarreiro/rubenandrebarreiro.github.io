@@ -3,7 +3,7 @@ bg: "photo-53.jpg"
 layout: post
 title:  "A Travel to Porto, Portugal / Uma Viagem ao Porto, Portugal"
 crawlertitle: "Rúben André Barreiro's Blog - A Travel to Porto, Portugal"
-summary: "A Travel to Porto, Portugal! Knowing and Enjoying the "Invicta" City!"
+summary: "A Travel to Porto, Portugal! Knowing and Enjoying the 'Invicta' City!"
 date:   2018-09-02 20:17:36 +0000
 categories: posts
 tags: ['travel','tourism','destiny','city','country','portugal','north','porto','gaia']

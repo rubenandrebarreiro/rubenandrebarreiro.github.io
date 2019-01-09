@@ -9,7 +9,7 @@ categories: posts
 tags: ['photoshoots','photography','modeling','fashion','style','brands','clothing','blogging','david','oliveira','north','porto','gaia']
 author: Rúben André Barreiro (BadNewz Lifestyle)
 ---
-<p align="justify">Hello one more time! I'm here to share with you, my <a href="../photoshoots/2018-09-17-david-oliveira-photoshoots-01/highlights.html"><i><u>2nd studio photoshoots</u></i></a>. This time, because it's summer, I decided to make it in outside/outdoor, with some landscapes of Porto city as background! 😍</p>
+<p align="justify">Hello one more time! I'm here to share with you, my <a href="../photoshoots/2018-09-17-david-oliveira-photoshoots-01/highlights.html"><i><u>2nd studio photoshoots</u></i></a>. This time, because it's summer, I decided to make it outside/outdoor, with some landscapes of Porto city as background! 😍</p>
 
 [![DavidOliveiraPhotoshootsBanner1]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/david-oliveira-photoshoots-banner-1.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/david-oliveira-photoshoots-banner-1.jpg)
 
