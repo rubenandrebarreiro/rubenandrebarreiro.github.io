@@ -18,13 +18,13 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify">After my first photoshoots' experience in a studio with <a href="http://alexandrecampinas.pt/">Alexandre Campinas Photography</a>, I decided to repeat all the experience again to continue to do some publicity and advertising to fashion brands. But this time, I decided to make the photography session outside, in order to enjoy the last days of Summer! 😄</p>
 
-<p align="justify"><i><u>I choosed some new outfits to continue my adventure as a blogger and fashion advisor lifestyle</u></i>. The first step was, as always, to choose the clothes for the photoshoots. As it was summer, I decided to choose more airy outfits and looks. For this outdoor photosession, I decided to bring 5 changes of clothes, as the last time.</p>
+<p align="justify"><i><u>I choosed some new outfits to continue my adventure as a blogger and fashion advisor lifestyle</u></i>. This time, I choosed <a href="http://davidmoliveira.pt/">David Oliveira Fotografia</a> as photographer of this photossession. The first step was, as always, to choose the clothes for the photoshoots. As it was summer, I decided to choose more airy outfits and looks. For this outdoor photosession, I decided to bring 5 changes of clothes, as the last time.</p>
 
 <p align="justify">As the photossession was more targeted to show some Summer outfits, I choose to do the photossesion in exterior, at the evening of the last days of Summer.</p>
 
 <p align="justify">During this photosession, I felt some difficulties again posing in the front of the camera. But the photographer was pretty nice and, always tried to put me comfortable and relaxed!</p>
 
-<p align="justify">One more time, I enjoyed all the experience and I think everything worked fine. <i><u>The final results are amazing!</u></i></p>
+<p align="justify">One more time, I enjoyed all the experience and I think everything worked fine. <i><u>The final results was amazing!</u></i></p>
 
 <p align="justify">From the highlights of the photosession, was choosed <b>56 final photos</b> with <i><u>basic editions</u></i> (<i><b>light, contrast, hue and saturation</b></i>).</p>
 
@@ -56,10 +56,6 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 ## `David Oliveira Photoshoots (17/09/2018) - Set `#7
 [![DavidOliveira17September2018Photoshoots7]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-07.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-07.jpg)
-<br>
-
-## `David Oliveira Photoshoots (17/09/2018) - Set `#8
-[![DavidOliveira17September2018Photoshoots8]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)]({{ site.images | relative_url }}/david-oliveira-photoshoots-01/photoshoots-08.jpg)
 <br>
 
 <p align="justify">Posteriorly, as always, I also made some personal photo editions on the final photos.</p>
