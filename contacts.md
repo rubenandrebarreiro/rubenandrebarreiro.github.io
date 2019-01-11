@@ -1561,6 +1561,18 @@ active: Contacts
         <font size="1">&nbsp;|&nbsp;</font>
         
         <a target="_blank" href="https://www.instagram.com/badnewz.suits.co/" title="BadNewz Suits & Co. on Instagram"><i class="fa fa-instagram" title="BadNewz Suits & Co. on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.suits.co/" title="BadNewz Suits & Co. on Instagram">Instagram - BadNewz Suits & Co.</a></font>
+         
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram"><i class="fa fa-instagram" title="BadNewz Fitness & Sport on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram">Instagram - BadNewz Fitness & Sport</a></font>
+        
+        <br>
+        
+        <a target="_blank" href="https://www.instagram.com/badnewz.fragances/" title="BadNewz Fragances on Instagram"><i class="fa fa-instagram" title="BadNewz Fragances on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.fragances/" title="BadNewz Fragances on Instagram">Instagram - BadNewz Fragances</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram"><i class="fa fa-instagram" title="BadNewz Liquor on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram">Instagram - BadNewz Liquor</a></font> 
         
         <br>
         
@@ -1569,18 +1581,6 @@ active: Contacts
         <font size="1">&nbsp;|&nbsp;</font>
         
         <a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram"><i class="fa fa-instagram" title="BadNewz Productions on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.productions/" title="BadNewz Productions on Instagram">Instagram - BadNewz Productions</a></font>
-        
-        <br>
-        
-        <a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram"><i class="fa fa-instagram" title="BadNewz Liquor on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.liquor/" title="BadNewz Liquor on Instagram">Instagram - BadNewz Liquor</a></font>
-        
-        <font size="1">&nbsp;|&nbsp;</font>
-        
-        <a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram"><i class="fa fa-instagram" title="BadNewz Fitness & Sport on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.fitness.sport/" title="BadNewz Fitness & Sport on Instagram">Instagram - BadNewz Fitness & Sport</a></font>
-        
-        <font size="1">&nbsp;|&nbsp;</font>
-        
-        <a target="_blank" href="https://www.instagram.com/badnewz.fragances/" title="BadNewz Fragances on Instagram"><i class="fa fa-instagram" title="BadNewz Fragances on Instagram" style="font-size:20px;color:OrangeRed"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/badnewz.fragances/" title="BadNewz Fragances on Instagram">Instagram - BadNewz Fragances</a></font>
         
         <br>
         
