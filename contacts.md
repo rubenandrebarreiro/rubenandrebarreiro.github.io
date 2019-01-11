@@ -1392,7 +1392,7 @@ active: Contacts
 
     <img src="../assets/images/protrait-2d-1.png" alt="My Bitmoji-Bitstrip's Protrait in 2D" height="160" width="160">
 
-    <h3>Rúben André Barreiro</h3>
+    <h3><b>Rúben André Barreiro</b></h3>
     
     <font size="2"><b>
         ♏ 90's | 🎂 26 years | 🏠 From Lisbon, PT | 📍 Living in Almada, PT
