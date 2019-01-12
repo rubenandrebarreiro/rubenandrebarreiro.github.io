@@ -2436,7 +2436,7 @@ active: About Me
 								<i>Datalog</i>
                                 <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star checked"></span>
-                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star checked"></span>
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
@@ -3418,7 +3418,7 @@ active: About Me
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star"></span>
                                     </li>
 						      </ul>
