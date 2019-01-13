@@ -1891,7 +1891,7 @@ active: About Me
 	</li>
 	<ul>
 		<li>
-            <font size="1"><b>Social Networks:</b></font>		<ul>
+            <font size="2"><b>Social Networks:</b></font>		<ul>
                 <li>
                     <a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
 
@@ -1911,7 +1911,7 @@ active: About Me
 		</li>
 	    
 	    <li>
-			<font size="3"><b>Click to see detailed information about:</b></font>
+			<font size="2"><b>Click to see detailed information about:</b></font>
             <ul>
                 <li>
                     <i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>
@@ -1926,14 +1926,14 @@ active: About Me
 		</li>
 		
 		<li>
-			<font size="3"><b>Final Global Points Average:</b></font>
+			<font size="2"><b>Final Global Points Average:</b></font>
             <ul>
                 <li>
                     <i class="fas fa-certificate faa-horizontal animated"></i>&nbsp;&nbsp;15 of 20
                 </li>
             </ul>
 		</li>
-	</li>
+	</ul>
 	
     <li>
 		<p align="justify">
