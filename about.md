@@ -1951,7 +1951,7 @@ active: About Me
         </li>
 	    
 	   <li>
-            Click to see: <a href="../degrees/master-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>, <a href="../research-development"><i>Scientific Research Project</i></a>, <a href="../research-development#master-thesis"><i>Master's Thesis<i></a>, <a href="../docs/ruben-andre-barreiro-master-certificate-1.pdf"><i>Master's Certificate (Diploma & Transcript)</i></a>
+            Click to see: <a href="../degrees/master-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>, <a href="../research-development"><i>Scientific Research Project</i></a>, <a href="../research-development#master-thesis"><i>Master's Thesis</i></a>, <a href="../docs/ruben-andre-barreiro-master-certificate-1.pdf"><i>Master's Certificate (Diploma & Transcript)</i></a>
 		</li>
 		
 		<li>
