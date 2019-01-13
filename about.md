@@ -1907,7 +1907,12 @@ active: About Me
 		</li>
 	    
 	    <li>
-			Click to see: <a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>, <a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a>, <a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma & Transcript)</i></a>
+			Click to see:
+            <ul>
+                <li><a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a></li>
+                <li><a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a></li>
+                <li><a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma & Transcript)</i></a></li>
+            </ul> 
 		</li>
 		
 		<li>
