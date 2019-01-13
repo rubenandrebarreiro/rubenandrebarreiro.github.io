@@ -1911,7 +1911,7 @@ active: About Me
 		</li>
 	    
 	    <li>
-			<font size="2"><b>Click to see detailed information about:</b></font>
+			<font size="2"><b>Click to see:</b></font>
             <ul>
                 <li>
                     <i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>
@@ -1920,7 +1920,7 @@ active: About Me
                     <i class="fas fa-search faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a>
                 </li>
                 <li>
-                    <i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma & Transcript)</i></a>
+                    <i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma and Transcript)</i></a>
                 </li>
             </ul> 
 		</li>
@@ -1954,31 +1954,54 @@ active: About Me
 		between 2019 and 2020;️</p>
 	</li>
 	<ul>
-  		<li>
-	    		<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
-	            
-	        <font size="3">&nbsp;|&nbsp;</font>
-	        
-	        <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
+        <li>
+            <font size="2"><b>Social Networks:</b></font>		<ul>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
 
-	         <font size="3">&nbsp;|&nbsp;</font>
+                    <font size="3">&nbsp;|&nbsp;</font>
 
-	        <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
+                    <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
 
-	        <font size="3">&nbsp;|&nbsp;</font>
+                    <font size="3">&nbsp;|&nbsp;</font>
 
-	        <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
-        </li>
+                    <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
+
+                    <font size="3">&nbsp;|&nbsp;</font>
+
+                    <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
+                </li>
+            </ul>
+		</li>
 	    
-	   <li>
-            Click to see: <a href="../degrees/master-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>, <a href="../research-development"><i>Scientific Research Project</i></a>, <a href="../research-development#master-thesis"><i>Master's Thesis</i></a>, <a href="../docs/ruben-andre-barreiro-master-certificate-1.pdf"><i>Master's Certificate (Diploma & Transcript)</i></a>
+	    <li>
+			<font size="2"><b>Click to see:</b></font>
+            <ul>
+                <li>
+                    <i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../degrees/master-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>
+                </li>
+                <li>
+                    <i class="fas fa-search faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../research-development"><i>Scientific Research Project</i></a>
+                </li>
+                <li>
+                    <i class="fas fa-file-signature faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../docs/ruben-andre-barreiro-master-certificate-1.pdf"><i>Master's Thesis</i></a>
+                </li>
+                <li>
+                    <i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../docs/ruben-andre-barreiro-master-certificate-1.pdf"><i>Master's Certificate (Diploma and Transcript)</i></a>
+                </li>
+            </ul> 
 		</li>
 		
 		<li>
-			Final Global Points Average - 10 of 20
+			<font size="2"><b>Final Global Points Average:</b></font>
+            <ul>
+                <li>
+                    <i class="fas fa-certificate faa-horizontal animated"></i>&nbsp;&nbsp;10 of 20
+                </li>
+            </ul>
 		</li>
 	</ul>
-	
+    
 </ul>
 
 <br>
