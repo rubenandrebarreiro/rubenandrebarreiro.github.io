@@ -1834,7 +1834,7 @@ active: Projects
 </h2>
 <hr/>
 
-Coming soon...
+<p align="justify"> Coming soon... </p>
 
 <br>
 <hr/>

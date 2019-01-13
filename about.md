@@ -3740,7 +3740,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify"> <!-- SOME TEXT HERE --> </p>
+<p align="justify"> Coming soon... </p>
 
 
 <br>
@@ -3759,4 +3759,4 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify"> <!-- SOME TEXT HERE --> </p>
+<p align="justify"> Coming soon... </p>
