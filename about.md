@@ -1917,10 +1917,10 @@ active: About Me
                     <i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a>
                 </li>
                 <li>
-                    <i class="fas fa-search faa-horizontal animated"></i>&nbsp;&nbsp;<b><a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a>
+                    <i class="fas fa-search faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a>
                 </li>
                 <li>
-                    <i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b><a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma & Transcript)</i></a>
+                    <i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma & Transcript)</i></a>
                 </li>
             </ul> 
 		</li>
