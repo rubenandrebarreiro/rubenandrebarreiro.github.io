@@ -1883,7 +1883,9 @@ active: About Me
 				</span>
 	    		</span>
 		</font>
-		<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="BSc. in Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018"><b>Bachelor (1st Cycle of Integrated Master - BSc. and MSc. (3+2 years) Bologna Degree)</b> in <b>Computer Science and Engineering</b> at 
+		<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="BSc. in Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018"><b>Bachelor - 1st Cycle of Integrated Master - BSc. and MSc. (3+2 years) Bologna Degree</b> in 
+        <br>
+        <b>Computer Sciences and Engineering</b> at 
 		<br>
 		<b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
 		<br>
@@ -1947,7 +1949,9 @@ active: About Me
 				</span>
 	    		</span>
 		</font>
-		<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="MSc. in Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018"><b>Master (2nd Cycle of Integrated Master - BSc. and MSc. (3+2 years) Bologna Degree)</b> in <b>Computer Science and Engineering</b> at 
+		<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="MSc. in Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018"><b>Master - 2nd Cycle of Integrated Master - BSc. and MSc. (3+2 years) Bologna Degree</b> in 
+        <br>
+        <b>Computer Engineering</b> at 
 		<br>
 		<b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
 		<br>
