@@ -1891,23 +1891,28 @@ active: About Me
 	</li>
 	<ul>
 		<li>
-			<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
-		            
-		    <font size="3">&nbsp;|&nbsp;</font>
-		        
-		    <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
+            <font size="3"><b>Social Networks:</b></font>
+			<ul>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook"><i class="fa fa-facebook-official" title="FCT NOVA on Facebook" style="font-size:20px;color:Indigo"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.facebook.com/fct.nova/" title="FCT NOVA on Facebook">Facebook</a>
 
-		    <font size="3">&nbsp;|&nbsp;</font>
+                    <font size="3">&nbsp;|&nbsp;</font>
 
-		    <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
+                    <a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn"><i class="fa fa-linkedin" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn" style="font-size:20px;color:RoyalBlue"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.linkedin.com/school/faculdade-de-ciencias-e-tecnologia-da-universidade-nova-de-lisboa/" title="Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa - FCT NOVA on LinkedIn">LinkedIn</a>
 
-		    <font size="3">&nbsp;|&nbsp;</font>
+                    <font size="3">&nbsp;|&nbsp;</font>
 
-		    <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
+                    <a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter"><i class="fa fa-twitter" title="FCT NOVA on Twitter" style="font-size:20px;color:Cyan"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://twitter.com/fctnova/" title="FCT NOVA on Twitter">Twitter</a>
+
+                    <font size="3">&nbsp;|&nbsp;</font>
+
+                    <a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram"><i class="fa fa-instagram" title="FCT NOVA on Instagram" style="font-size:20px;color:OrangeRed"></i></a>&nbsp;&nbsp;<a target="_blank" href="https://www.instagram.com/fctnova/" title="FCT NOVA on Instagram">Instagram</a>
+                </li>
+            </ul>
 		</li>
 	    
 	    <li>
-			Click to see:
+			<font size="3"><b>Click to see detailed information about:</b></font>
             <ul>
                 <li><i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a></li>
                 <li><i class="fas fa-search faa-horizontal animated"></i>&nbsp;&nbsp;<b><a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a></li>
@@ -1916,7 +1921,10 @@ active: About Me
 		</li>
 		
 		<li>
-			Final Global Points Average - 15 of 20
+			<font size="3"><b>Final Global Points Average:</b></font>
+            <ul>
+                <li><i class="fas fa-certificate faa-horizontal animated"></i>&nbsp;&nbsp;15 of 20</li>
+            </ul>
 		</li>
 	</ul>
 	
