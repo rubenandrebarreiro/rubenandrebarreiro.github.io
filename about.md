@@ -1885,9 +1885,9 @@ active: About Me
 		</font>
 		<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="BSc. in Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018"><b>Bachelor - 1st Cycle of Integrated Master - BSc. and MSc. (3+2 years) Bologna Degree</b> in 
         <br>
-        <b>Computer Sciences and Engineering</b> at 
-		<br>
-		<b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
+        <b>Computer Sciences and Engineering</b> at <b>Faculty of Science and Technology of New University of Lisbon</b>
+        <br>
+        (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
 		<br>
 		between 2013 and 2018; ✔️</p>
 	</li>
@@ -1951,9 +1951,9 @@ active: About Me
 		</font>
 		<a target="_blank" href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science/" title="MSc. in Computer Science and Engineering at Faculty of Science and Technology of New University of Lisbon (Caparica/Almada Campus, FCT NOVA - FCT/UNL), between 2013 and 2018"><b>Master - 2nd Cycle of Integrated Master - BSc. and MSc. (3+2 years) Bologna Degree</b> in 
         <br>
-        <b>Computer Engineering</b> at 
-		<br>
-		<b>Faculty of Science and Technology of New University of Lisbon</b> (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
+        <b>Computer Engineering</b> at <b>Faculty of Science and Technology of New University of Lisbon</b>
+        <br>
+        (<b>Caparica/Almada Campus, FCT NOVA - FCT/UNL</b>)</a>,
 		<br>
 		between 2019 and 2020;️</p>
 	</li>
