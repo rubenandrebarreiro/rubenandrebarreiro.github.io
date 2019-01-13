@@ -1909,9 +1909,9 @@ active: About Me
 	    <li>
 			Click to see:
             <ul>
-                <li><a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a></li>
-                <li><a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a></li>
-                <li><a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma & Transcript)</i></a></li>
+                <li><i class="fab fa-slideshare faa-horizontal animated"></i>&nbsp;&nbsp;<a href="../degrees/bachelor-projects-screenshots/slideshow.html"><i>Projects' Screenshots</i></a></li>
+                <li><i class="fas fa-search faa-horizontal animated"></i>&nbsp;&nbsp;<b><a href="../research-development#research-development-hyrax-dice-content"><i>Scientific Research Project</i></a></li>
+                <li><i class="fas fa-file-alt faa-horizontal animated"></i>&nbsp;&nbsp;<b><a href="../docs/ruben-andre-barreiro-bachelor-certificate-1.pdf"><i>Bachelor's Certificate (Diploma & Transcript)</i></a></li>
             </ul> 
 		</li>
 		
@@ -2052,7 +2052,7 @@ active: About Me
 	</p>
 </font>
 
-<h3 id="hard_skills">
+<h3 id="hard-skills">
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Hard skills:</u></i></p>
 </h3>
 
