@@ -1713,7 +1713,7 @@ active: Research & Development
           </ul>
       </li>
     </ul>
-
-    [![HyraxProjectBanner]({{ site.images | relative_url }}/research-development/hyrax-project-banner-01.jpg)]({{ site.images | relative_url }}/research-development/hyrax-project-banner-01.jpg)
-    <p style="font-size:11px"><i>Hyrax Project [DiCE - Distributed Collaborative Computing at the Edge] (FCT NOVA/NOVA-LINCS - between February 2017 and January 2018)</i></p>
 </div>
+
+[![HyraxProjectBanner]({{ site.images | relative_url }}/research-development/hyrax-project-banner-01.jpg)]({{ site.images | relative_url }}/research-development/hyrax-project-banner-01.jpg)
+<p style="font-size:11px"><i>Hyrax Project [DiCE - Distributed Collaborative Computing at the Edge] (FCT NOVA/NOVA-LINCS - between February 2017 and January 2018)</i></p>
