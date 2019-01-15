@@ -72,7 +72,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify"><b>The final result from the photos' collection of photosession, was the following:</b></p>
 
-<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-david-oliveira-photoshoots-01/highlights.html"><b><i>- Summer Photosession 2018 - by David Oliveira Photography</i></b></a></p>
+<p align="justify"><a href="https://rubenandrebarreiro.github.io/photoshoots/2018-09-17-david-oliveira-photoshoots-01/highlights.html"><b><i>- Summer Photosession 2018 - by David Oliveira Photography</i></b></a></p>
 
 <br>
 

@@ -112,7 +112,7 @@ author: Rúben André Barreiro (BadNewz Lifestyle)
 
 <p align="justify"><b>The final result from the photos' collection of photosession, was the following:</b></p>
 
-<p align="justify"><a href="../../rubenandrebarreiro.github.io/photoshoots/2018-04-24-alexandre-campinas-photoshoots-01/highlights.html"><b><i>- Spring Photosession 2018 - by Alexandre Campinas Photography</i></b></a></p>
+<p align="justify"><a href="https://rubenandrebarreiro.github.io/photoshoots/2018-04-24-alexandre-campinas-photoshoots-01/highlights.html"><b><i>- Spring Photosession 2018 - by Alexandre Campinas Photography</i></b></a></p>
 
 <br>
 
