@@ -23,14 +23,39 @@
 				margin: 0px;
 			}
 
-			#info {
+			#intro {
 				color:#ffffff;
 				position: absolute;
 				top: 0px; width: 100%;
 				padding: 5px;
 				box-sizing: border-box;
 			}
-
+            
+            #info {
+				color:#ffffff;
+				position: fixed;
+				bottom: 0px; left: 0px;
+				padding: 5px;
+				box-sizing: border-box;
+                text-align: left
+			}
+            
+            #objectName {
+                text-decoration: underline;
+                font-style: italic;
+                font-weight: bold;
+                font-size: 40px;
+            }
+            
+            #objectObservationDataTitle {
+                font-weight: bold;
+                font-size: 20px;
+            }
+            
+            #objectObservationDataContent {
+                font-size: 10px;
+            }
+            
 			a {
 				color: red;
 			}
@@ -38,7 +63,7 @@
 	</head>
 
 	<body>
-		<div id="info">
+		<div id="intro">
             <h1>3D Object's Solar System</h1>
             <h3>with Sun, Planets, Moons, Orbits and Trackball Controls</h3>
             <br/>
@@ -47,12 +72,31 @@
             <br/>
             <h2><b>INSTRUCTIONS:</b></h2>
             MOVE mouse &amp; press LEFT/A: rotate, MIDDLE/S: zoom, RIGHT/D: pan
+            <br>
+            <h3>NOTES:</h3>
+            <b>Just for visualization's purposes:</b>
+            <br/>
+            1) The <u><i>Sun</i></u> and <u><i>Planets</i></u>' radius are using a scale of 10<sup>-3</sup> KMs
+            <br/>
+            2) The <u><i>Planets</i></u>' radius are using a scale of 10<sup>-4</sup> KMs
 		</div>
+        
+        <div id="info">
+            <span id="objectName"></span>
+            <br/>
+            <br/>
+            <span id="objectObservationDataTitle"></span>
+            <br/>
+            <textarea rows="8" cols="100" id="objectObservationDataContent" style="background: transparent; border: 0 none; resize: none; color: white"></textarea>
+        </div>
 
 		<script src="../common/build/three.js"></script>
+        
 		<script src="../common/js/controls/TrackballControls.js"></script>
 
 		<script src="../common/js/WebGL.js"></script>
+        <script src="../common/js/Detector.js"></script>
+        <script src="../common/js/renderers/Projector.js"></script>
 		<script src="../common/js/libs/stats.min.js"></script>
 
 		<script>
@@ -63,6 +107,15 @@
 
 			var camera, controls, solarSystemScene, renderer, stats;
 
+            var projector, mouse = { x: window.innerHeight, y: window.innerWidth };
+            
+            var SUN_INTERSECTED;
+            
+            var MERCURY_INTERSECTED;
+            
+            var loader = new THREE.TextureLoader();
+            loader.setCrossOrigin("");
+            
             const yAxis = new THREE.Vector3(0, 1, 0).normalize();
 
             // Sun Element
@@ -99,9 +152,7 @@
 
 				// Creating the Galaxy's Scene
 				solarSystemScene = new THREE.Scene();
-
-                var loader = new THREE.TextureLoader();
-                loader.setCrossOrigin("");
+                
                 
                 var gridXZ = new THREE.GridHelper(80000, 20, new THREE.Color(0xff0000), new THREE.Color(0xffffff));
                 solarSystemScene.add(gridXZ);
@@ -123,7 +174,7 @@
                 
                 // INFO:
                 // 1) It will be used a size scale of 0.001 kms to determine the size of the planets
-                // 2) It will be used a size scale of 0.000,1 respective orbits
+                // 2) It will be used a size scale of 0.000,1 kms to determine the radius of the planets' orbits
                 // The final size of each planet and their respective orbits will be rounded to the units or to the first decimal, since it's possible
                 
                 // 1) SUN's setup
@@ -139,7 +190,10 @@
                 );
 
                 sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
-
+                
+                sunMesh.textName = "Sun";
+                sunMesh.textObservationDataContent = {a: "- Mean distance from Earth: 1 au ≈ 1.496×108 km (8 min 19 s at light speed)", b: "- Visual brightness (V): −26.74", c: "- Absolute magnitude: 4.83", d: "- Spectral classification: G2V", e: "- Metallicity: Z = 0.0122", f: "- Angular size: 31.6–32.7 minutes of arc", g: "- Adjectives: Solar"};
+                
                 solarSystemScene.add(sunMesh);
                 
                 
@@ -172,6 +226,8 @@
                 
                 mercuryPlanetMesh = new THREE.Mesh(mercuryPlanetGeometry, mercuryPlanetMaterial);            
                 mercuryPlanetMesh.position.z = 5775;
+                
+                mercuryPlanetMesh.name = "Mercury";
                 
                 mercuryPivot = new THREE.Group();
                 
@@ -211,6 +267,12 @@
 				document.body.appendChild(stats.dom);
 
 				window.addEventListener('resize', onWindowResize, false);
+                
+                // Initialize object to perform world/screen calculations
+                projector = new THREE.Projector();
+
+                // When the mouse moves, call the given function
+                document.addEventListener('mousemove', onDocumentMouseMove, false);
 
                 render();
 			}
@@ -226,15 +288,155 @@
 				render();
 			}
             
+            function onDocumentMouseMove(event) {
+                // The following line would stop any other event handler from firing
+                // (such as the mouse's TrackballControls)
+                // event.preventDefault();
+
+                // Update the mouse variable
+                mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+                mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
+            }
+            
 			function animate() {
 			    requestAnimationFrame(animate);
-				    
+				
+                findIntersectionsSun();
+                
+                findIntersectionsMercury();
+                
 				controls.update();
 				
 				stats.update();
 			}
 
-           
+            function findIntersectionsSun() {
+                // Create a Ray with origin at the mouse position
+                // and direction into the scene (camera direction)
+                var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
+                projector.unprojectVector(vector, camera);
+                
+                var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
+
+                // Create an array containing all objects in the scene with which the ray intersects
+                var intersects = ray.intersectObjects(solarSystemScene.children);
+                
+                // SUN_INTERSECTED = the object in the scene currently closest to the camera 
+                // and intersected by the Ray projected from the mouse position 	
+
+                // If there is one (or more) intersections
+                if(intersects.length > 0) {
+                    
+                    // If the closest object intersected is not the currently stored intersection object
+                    if(intersects[0].object != SUN_INTERSECTED) {
+                        // Restore previous intersection object (if it exists) to its original map's texture
+                        if(SUN_INTERSECTED) {
+                            SUN_INTERSECTED.material.needsUpdate = true;
+                            
+                            SUN_INTERSECTED.material.color.setHex(0xffffff);
+                            SUN_INTERSECTED.material.map = SUN_INTERSECTED.mapTexture;
+                        
+                            document.getElementById("objectName").textContent = "";
+                            document.getElementById("objectObservationDataTitle").textContent = "";
+                            document.getElementById("objectObservationDataContent").value = "";
+                        }
+                        
+                        // Store reference to closest object as current intersection object
+                        SUN_INTERSECTED = intersects[0].object;
+                        
+                        // Store color and map's texture of closest object (for later restoration)
+                        SUN_INTERSECTED.mapTexture = SUN_INTERSECTED.material.map;
+                        
+                        // Set a new color for closest object
+                        SUN_INTERSECTED.material.map = null;
+                        SUN_INTERSECTED.material.needsUpdate = true;
+                        
+                        SUN_INTERSECTED.material.color.setHex(0xffff00);
+                        
+                        document.getElementById("objectName").textContent = intersects[0].object.textName;
+                        document.getElementById("objectObservationDataTitle").textContent = "Observation Data:"; 
+                        
+                        var sunObservationData = sunMesh.textObservationDataContent.a + "\n" + sunMesh.textObservationDataContent.b + "\n" + sunMesh.textObservationDataContent.c + "\n" + sunMesh.textObservationDataContent.d + "\n" + sunMesh.textObservationDataContent.e + "\n" + sunMesh.textObservationDataContent.f + "\n" + sunMesh.textObservationDataContent.g;
+                        
+                        document.getElementById("objectObservationDataContent").value = sunObservationData;
+                    }
+                } 
+                else { // There are no intersections
+                    
+                    // Restore previous intersection object (if it exists) to its original map's texture
+                    if(SUN_INTERSECTED) {
+                        SUN_INTERSECTED.material.needsUpdate = true;
+
+                        SUN_INTERSECTED.material.color.setHex(0xffffff);
+                        SUN_INTERSECTED.material.map = SUN_INTERSECTED.mapTexture;
+                        
+                        document.getElementById("objectName").textContent = "";
+                        document.getElementById("objectObservationDataTitle").textContent = "";
+                        document.getElementById("objectObservationDataContent").value = "";
+                    }
+                    
+                    // Remove previous intersection object reference
+                    // by setting current intersection object to "nothing"
+                    SUN_INTERSECTED = null;
+                }
+            }
+            
+            function findIntersectionsMercury() {
+                // Create a Ray with origin at the mouse position
+                // and direction into the scene (camera direction)
+                var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
+                projector.unprojectVector(vector, camera);
+                
+                var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
+
+                // Create an array containing all objects in the scene with which the ray intersects
+                var intersects = ray.intersectObjects(mercuryPivot.children);
+                
+                // MERCURY_INTERSECTED = the object in the scene currently closest to the camera 
+                // and intersected by the Ray projected from the mouse position 	
+
+                // If there is one (or more) intersections
+                if(intersects.length > 0) {
+                    
+                    // If the closest object intersected is not the currently stored intersection object
+                    if(intersects[0].object != MERCURY_INTERSECTED) {
+                        // Restore previous intersection object (if it exists) to its original map's texture
+                        if(MERCURY_INTERSECTED) {
+                            MERCURY_INTERSECTED.material.needsUpdate = true;
+                            MERCURY_INTERSECTED.material.color.setHex(0xffffff);
+                            
+                            MERCURY_INTERSECTED.material.map = MERCURY_INTERSECTED.mapTexture;
+                        }
+                        
+                        // Store reference to closest object as current intersection object
+                        MERCURY_INTERSECTED = intersects[0].object;
+                        
+                        // Store color and map's texture of closest object (for later restoration)
+                        MERCURY_INTERSECTED.mapTexture = MERCURY_INTERSECTED.material.map;
+                        
+                        // Set a new color for closest object
+                        MERCURY_INTERSECTED.material.map = null;
+                        MERCURY_INTERSECTED.material.needsUpdate = true;
+                        
+                        MERCURY_INTERSECTED.material.color.setHex(0xffff00);
+                    }
+                } 
+                else { // There are no intersections
+                    
+                    // Restore previous intersection object (if it exists) to its original map's texture
+                    if(MERCURY_INTERSECTED) {
+                        MERCURY_INTERSECTED.material.needsUpdate = true;
+                        
+                        MERCURY_INTERSECTED.material.color.setHex(0xffffff);
+                        MERCURY_INTERSECTED.material.map = MERCURY_INTERSECTED.mapTexture;
+                    }
+                    
+                    // Remove previous intersection object reference
+                    // by setting current intersection object to "nothing"
+                    MERCURY_INTERSECTED = null;
+                }
+            }
+            
             // Sun and Planets' rotation movements
             function rotationMovements() {
                 var speedRotationSun = 0.0001 * 27;
