@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>3D Object Solar System with Trackball Controls</title>
+		<title>3D Object Planets' Solar System with Trackball Controls</title>
 		<meta charset="utf-8">
         <meta name="author" content="Rúben André Barreiro" />
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -39,7 +39,8 @@
 
 	<body>
 		<div id="info">
-            <h1>3D Solar System</h1>
+            <h1>3D Object's Solar System</h1>
+            <h3>with Sun, Planets, Moons, Orbits and Trackball Controls</h3>
             <br/>
             Made with <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> by <a href="https://rubenandrebarreiro.github.io/" target="_blank" rel="noopener"> Rúben André Barreiro</a>
             <br/>
@@ -60,18 +61,25 @@
                 document.body.appendChild(WEBGL.getWebGLErrorMessage());
 			}
 
-			var camera, controls, scene, renderer, stats, sunMesh;
+			var camera, controls, solarSystemScene, renderer, stats;
 
             const yAxis = new THREE.Vector3(0, 1, 0).normalize();
+
+            // Sun Element
+            var sunMesh;
+            
+            // Mercury's Elements
+            var mercuryOrbitMesh, mercuryPlanetMesh, mercuryPivot;
+
             
 			init();
 			animate();
 
 			function init() {
 
-				camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 60000);
+				camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 100000);
 				camera.position.y = 20;
-                camera.position.z = 30000;
+                camera.position.z = 40000;
                 
 				controls = new THREE.TrackballControls(camera);
 
@@ -89,15 +97,14 @@
 
 				controls.addEventListener('change', render);
 
-				// world
-
-				scene = new THREE.Scene();
+				// Creating the Galaxy's Scene
+				solarSystemScene = new THREE.Scene();
 
                 var loader = new THREE.TextureLoader();
                 loader.setCrossOrigin("");
                 
-                var gridXZ = new THREE.GridHelper(4000, 4000, new THREE.Color(0xff0000), new THREE.Color(0xffffff));
-                //scene.add(gridXZ);
+                var gridXZ = new THREE.GridHelper(80000, 20, new THREE.Color(0xff0000), new THREE.Color(0xffffff));
+                solarSystemScene.add(gridXZ);
 				
                 backgroundTexture = loader.load("imgs/stars-milky-way.jpg",
                     function (texture) {
@@ -108,9 +115,11 @@
                     }
                 );
 
-                scene.background = backgroundTexture;
+                solarSystemScene.background = backgroundTexture;
                 backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
                 backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+                
+                // Adding the elements (Sun, Planets and their respective Orbits and Moons)
                 
                 // INFO:
                 // 1) It will be used a size scale of 0.001 kms to determine the size of the planets
@@ -131,7 +140,7 @@
 
                 sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
 
-                scene.add(sunMesh);
+                solarSystemScene.add(sunMesh);
                 
                 
                 // 2) MERCURY's setup
@@ -146,12 +155,8 @@
                     }
                 );
                 
-                var mercuryOrbitMesh = new THREE.Mesh(mercuryOrbitGeometry, mercuryOrbitMaterial);
-                
+                mercuryOrbitMesh = new THREE.Mesh(mercuryOrbitGeometry, mercuryOrbitMaterial);
                 mercuryOrbitMesh.rotation.x = Math.PI / 2;
-                
-                scene.add(mercuryOrbitMesh);
-                
                 
                 
                 mercuryPlanetTexture = loader.load('imgs/mercury-planet-texture.jpg', function (texture) {});
@@ -165,64 +170,33 @@
                     }
                 );
                 
-                mercuryPlanetMesh = new THREE.Mesh(mercuryPlanetGeometry, mercuryPlanetMaterial);
-                
+                mercuryPlanetMesh = new THREE.Mesh(mercuryPlanetGeometry, mercuryPlanetMaterial);            
                 mercuryPlanetMesh.position.z = 5775;
                 
-                scene.add(mercuryPlanetMesh);
+                mercuryPivot = new THREE.Group();
+                
+                mercuryPivot.add(mercuryOrbitMesh);
+                mercuryPivot.add(mercuryPlanetMesh);
+                
+                mercuryPivot.position.x = -1600;
+                
+                solarSystemScene.add(mercuryPivot);
                 
                 
-                
-                /*loader.load('imgs/sun-texture.jpg', function (texture) {
-                 
-                    var sunGeometry = new THREE.SphereGeometry(20, 40, 40);
-                    var sunMaterial = new THREE.MeshBasicMaterial(
-                        {
-                            map: texture,
-                            overdraw: 0.5
-                        }
-                    );
-                    
-                    var sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
-                    
-                    scene.add(sunMesh);
-                });*/
-                
-                //scene.fog = new THREE.FogExp2( 0xcccccc, 0.002 );
+                // Creating all the solar system's scene's lights
+				var directionalLight1 = new THREE.DirectionalLight(0xffffff);
+				directionalLight1.position.set(1, 1, 1);
+				solarSystemScene.add(directionalLight1);
 
-				/*var geometry = new THREE.CylinderBufferGeometry( 0, 10, 30, 4, 1 );
-				var material = new THREE.MeshPhongMaterial( { color: 0xffffff, flatShading: true } );
+				var directionalLight2 = new THREE.DirectionalLight(0x002288);
+				directionalLight2.position.set(- 1, - 1, - 1);
+				solarSystemScene.add(directionalLight2);
 
-				for ( var i = 0; i < 500; i ++ ) {
+				var ambientLight = new THREE.AmbientLight(0x222222);
+				solarSystemScene.add(ambientLight);
 
-					var mesh = new THREE.Mesh( geometry, material );
-					mesh.position.x = ( Math.random() - 0.5 ) * 1000;
-					mesh.position.y = ( Math.random() - 0.5 ) * 1000;
-					mesh.position.z = ( Math.random() - 0.5 ) * 1000;
-					mesh.updateMatrix();
-					mesh.matrixAutoUpdate = false;
-					scene.add( mesh );
-
-				}*/
-
-                
-
-				// lights
-
-				var light = new THREE.DirectionalLight(0xffffff);
-				light.position.set(1, 1, 1);
-				scene.add(light);
-
-				var light = new THREE.DirectionalLight(0x002288);
-				light.position.set(- 1, - 1, - 1);
-				scene.add(light);
-
-				var light = new THREE.AmbientLight(0x222222);
-				scene.add(light);
-
-
-				// renderer
-
+				
+                // Creating the renderer
 				renderer = new THREE.WebGLRenderer(
                     {
                         antialias: true
@@ -236,12 +210,9 @@
 				stats = new Stats();
 				document.body.appendChild(stats.dom);
 
-				//
-
 				window.addEventListener('resize', onWindowResize, false);
-				//
 
-				render();
+                render();
 			}
 
 			function onWindowResize() {
@@ -256,8 +227,7 @@
 			}
             
 			function animate() {
-			
-                requestAnimationFrame(animate);
+			    requestAnimationFrame(animate);
 				    
 				controls.update();
 				
@@ -265,26 +235,31 @@
 			}
 
            
-  
-            function rotateSun() {
-                var SPEED1 = 0.0001 * 27;
-                var SPEED2 = 0.00001 * 58;
+            // Sun and Planets' rotation movements
+            function rotationMovements() {
+                var speedRotationSun = 0.0001 * 27;
+                var speedRotationMercuryPlanet = 0.00001 * 58;
                 
+                sunMesh.rotation.y += speedRotationSun;
                 
-                sunMesh.rotation.y += SPEED1;
+                mercuryPlanetMesh.rotation.y += speedRotationMercuryPlanet;   
+            }
+            
+            // Planets' translaction movements around the sun
+            function translactionMovements() {
                 
-                mercuryPlanetMesh.rotation.y += SPEED2;
+                // Creating the quarternion for the planet Mercury
+                var quaternionForMercuryPlanet = new THREE.Quaternion();
                 
-                var quaternion = new THREE.Quaternion();
-                quaternion.setFromAxisAngle(yAxis, 0.00005);
-                
-                mercuryPlanetMesh.position.applyQuaternion(quaternion);
+                quaternionForMercuryPlanet.setFromAxisAngle(yAxis, 0.00005);
+                mercuryPlanetMesh.position.applyQuaternion(quaternionForMercuryPlanet);   
             }
             
 			function render() {
                 requestAnimationFrame(render);
-                rotateSun();
-				renderer.render(scene, camera);
+                rotationMovements();
+                translactionMovements();
+				renderer.render(solarSystemScene, camera);
 			}
 		</script>
 	</body>
