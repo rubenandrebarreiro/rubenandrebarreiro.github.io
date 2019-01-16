@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>3D Object Solar System with Trackball Controls</title>
+		<meta charset="utf-8">
+        <meta name="author" content="Rúben André Barreiro" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			html, body {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+			
+			body {
+				color: #000;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+				font-weight: bold;
+
+				background-color: #000000;
+				margin: 0px;
+			}
+
+			#info {
+				color:#ffffff;
+				position: absolute;
+				top: 0px; width: 100%;
+				padding: 5px;
+				box-sizing: border-box;
+			}
+
+			a {
+				color: red;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="info">
+            <h1>3D Solar System</h1>
+            <br/>
+            Made with <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> by <a href="https://rubenandrebarreiro.github.io/" target="_blank" rel="noopener"> Rúben André Barreiro</a>
+            <br/>
+            <br/>
+            <h2><b>INSTRUCTIONS:</b></h2>
+            MOVE mouse &amp; press LEFT/A: rotate, MIDDLE/S: zoom, RIGHT/D: pan
+		</div>
+
+		<script src="../common/build/three.js"></script>
+		<script src="../common/js/controls/TrackballControls.js"></script>
+
+		<script src="../common/js/WebGL.js"></script>
+		<script src="../common/js/libs/stats.min.js"></script>
+
+		<script>
+
+			if(WEBGL.isWebGLAvailable() === false) {
+                document.body.appendChild(WEBGL.getWebGLErrorMessage());
+			}
+
+			var camera, controls, scene, renderer, stats, sunMesh;
+
+            const yAxis = new THREE.Vector3(0, 1, 0).normalize();
+            
+			init();
+			animate();
+
+			function init() {
+
+				camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 30000);
+				camera.position.y = 20;
+                camera.position.z = 30000;
+                
+				controls = new THREE.TrackballControls(camera);
+
+				controls.rotateSpeed = 1.0;
+				controls.zoomSpeed = 1.2;
+				controls.panSpeed = 0.8;
+
+				controls.noZoom = false;
+				controls.noPan = false;
+
+				controls.staticMoving = true;
+				controls.dynamicDampingFactor = 0.3;
+
+				controls.keys = [ 65, 83, 68 ];
+
+				controls.addEventListener('change', render);
+
+				// world
+
+				scene = new THREE.Scene();
+
+                var loader = new THREE.TextureLoader();
+                loader.setCrossOrigin("");
+                
+                var gridXZ = new THREE.GridHelper(4000, 4000, new THREE.Color(0xff0000), new THREE.Color(0xffffff));
+                //scene.add(gridXZ);
+				
+                backgroundTexture = loader.load("imgs/stars-milky-way.jpg",
+                    function (texture) {
+                       var image = texture.image;
+                       var backgroundWidth= image.width;
+                       var backgroundHeight = image.height;
+                       onWindowResize();
+                    }
+                );
+
+                scene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+                
+                // INFO:
+                // 1) It will be used a size scale of 0.001 kms to determine the size of the planets
+                // 2) It will be used a size scale of 0.000,1 respective orbits
+                // The final size of each planet and their respective orbits will be rounded to the units or to the first decimal, since it's possible
+                
+                // 1) SUN's setup
+                sunTexture = loader.load('imgs/sun-texture.jpg', function (texture) {});
+                
+                // The radius of Sun is 695,508 kms (Resolution: [695,508 * 0.01] = 696)
+                var sunGeometry = new THREE.SphereGeometry(696, 40, 40);
+                var sunMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: sunTexture,
+                        overdraw: 0.5
+                    }
+                );
+
+                sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
+
+                scene.add(sunMesh);
+                
+                
+                // 2) MERCURY's setup
+                
+                // The average distance/orbit's radius from the Sun ranging from 46,000,000 kms to 70,000,000 kms
+                // It will be used an average orbit's radius of an interval between 57,500,000 and 58,000,000 (Resolution: [57,500,000 * 0.000,1] = 5,750 and [58,000,000 * 0.000,1] = 5,800)
+                var mercuryOrbitGeometry = new THREE.RingGeometry(5750, 5800, 60);
+                var mercuryOrbitMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        color: 0xffff00,
+                        side: THREE.DoubleSide
+                    }
+                );
+                
+                var mercuryOrbitMesh = new THREE.Mesh(mercuryOrbitGeometry, mercuryOrbitMaterial);
+                
+                mercuryOrbitMesh.rotation.x = Math.PI / 2;
+                
+                scene.add(mercuryOrbitMesh);
+                
+                
+                
+                mercuryPlanetTexture = loader.load('imgs/mercury-planet-texture.jpg', function (texture) {});
+                
+                // The radius of Mercury is 2,440 kms (Resolution: [2,440 * 0.001] = 2)
+                var mercuryPlanetGeometry = new THREE.SphereGeometry(240, 40, 40);
+                var mercuryPlanetMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: mercuryPlanetTexture,
+                        overdraw: 0.5
+                    }
+                );
+                
+                mercuryPlanetMesh = new THREE.Mesh(mercuryPlanetGeometry, mercuryPlanetMaterial);
+                
+                mercuryPlanetMesh.position.z = 5775;
+                
+                scene.add(mercuryPlanetMesh);
+                
+                
+                
+                /*loader.load('imgs/sun-texture.jpg', function (texture) {
+                 
+                    var sunGeometry = new THREE.SphereGeometry(20, 40, 40);
+                    var sunMaterial = new THREE.MeshBasicMaterial(
+                        {
+                            map: texture,
+                            overdraw: 0.5
+                        }
+                    );
+                    
+                    var sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
+                    
+                    scene.add(sunMesh);
+                });*/
+                
+                //scene.fog = new THREE.FogExp2( 0xcccccc, 0.002 );
+
+				/*var geometry = new THREE.CylinderBufferGeometry( 0, 10, 30, 4, 1 );
+				var material = new THREE.MeshPhongMaterial( { color: 0xffffff, flatShading: true } );
+
+				for ( var i = 0; i < 500; i ++ ) {
+
+					var mesh = new THREE.Mesh( geometry, material );
+					mesh.position.x = ( Math.random() - 0.5 ) * 1000;
+					mesh.position.y = ( Math.random() - 0.5 ) * 1000;
+					mesh.position.z = ( Math.random() - 0.5 ) * 1000;
+					mesh.updateMatrix();
+					mesh.matrixAutoUpdate = false;
+					scene.add( mesh );
+
+				}*/
+
+                
+
+				// lights
+
+				var light = new THREE.DirectionalLight(0xffffff);
+				light.position.set(1, 1, 1);
+				scene.add(light);
+
+				var light = new THREE.DirectionalLight(0x002288);
+				light.position.set(- 1, - 1, - 1);
+				scene.add(light);
+
+				var light = new THREE.AmbientLight(0x222222);
+				scene.add(light);
+
+
+				// renderer
+
+				renderer = new THREE.WebGLRenderer(
+                    {
+                        antialias: true
+                    }
+                );
+				
+                renderer.setPixelRatio(window.devicePixelRatio);
+				renderer.setSize(window.innerWidth, window.innerHeight);
+				document.body.appendChild(renderer.domElement);
+
+				stats = new Stats();
+				document.body.appendChild(stats.dom);
+
+				//
+
+				window.addEventListener('resize', onWindowResize, false);
+				//
+
+				render();
+			}
+
+			function onWindowResize() {
+				camera.aspect = window.innerWidth / window.innerHeight;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize(window.innerWidth, window.innerHeight);
+
+				controls.handleResize();
+
+				render();
+			}
+            
+			function animate() {
+			
+                requestAnimationFrame(animate);
+				    
+				controls.update();
+				
+				stats.update();
+			}
+
+           
+  
+            function rotateSun() {
+                var SPEED1 = 0.0001 * 27;
+                var SPEED2 = 0.00001 * 58;
+                
+                
+                sunMesh.rotation.y += SPEED1;
+                
+                mercuryPlanetMesh.rotation.y += SPEED2;
+                
+                var quaternion = new THREE.Quaternion();
+                quaternion.setFromAxisAngle(yAxis, 0.00005);
+                
+                mercuryPlanetMesh.position.applyQuaternion(quaternion);
+            }
+            
+			function render() {
+                requestAnimationFrame(render);
+                rotateSun();
+				renderer.render(scene, camera);
+			}
+		</script>
+	</body>
+</html>
