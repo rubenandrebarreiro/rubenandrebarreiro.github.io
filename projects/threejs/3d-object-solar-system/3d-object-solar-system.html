@@ -64,6 +64,19 @@
                 display: none;
             }
             
+            #optionsAndSettings {
+				color:#ffffff;
+				position: fixed;
+				top: 0px; right: 0px;
+				padding: 5px;
+				box-sizing: border-box;
+                text-align: right
+			}
+            
+            #showAndDisplaySettings, #specificOptions {
+                color: #ffff00;
+            }
+            
 			a {
 				color: red;
 			}
@@ -200,6 +213,51 @@
             </div>
         </div>
 
+        <div id="optionsAndSettings">
+            <h2>Options/Settings:</h2>
+            
+            <h3>Show and display:</h3>
+            <div id="showAndDisplaySettings">
+                <input type="checkbox" name="showXZGrid" value="showXZGrid" checked>XZ Grid
+                <br>
+                <input type="checkbox" name="showAxisArrowHelpers" value="showAxisArrowHelpers">Axis Arrow Helpers
+                <br>
+                <input type="checkbox" name="showPlanetsTextures" value="showPlanetsTextures" checked>Sun's/Planets' Textures
+                <br>
+                <input type="checkbox" name="showPlanetsOrbits" value="showPlanetsOrbits" checked> Planets' Orbits
+                <br>
+                <input type="checkbox" name="showSunAndPlanetsInformations" value="showSunAndPlanetsInformations" checked> Sun's/Planets' Informations
+                <br>
+                <input type="checkbox" name="showPlanetsMoons" value="showPlanetsMoons" checked> Earth's Moon<br>
+                <input type="checkbox" name="showPlanetsMoons" value="showPlanetsMoons" checked> Jupiter's Rings<br>
+            </div>
+            
+            <br>
+            
+            <h3>Specific options:</h3>    
+            <div id="specificOptions">
+                <span style="color: #ffffff">Show Venus's Atmosphere</span>
+                <br/>
+                <input type="radio" name="venusAtmosphere" value="yes" checked> Yes
+                &nbsp;&nbsp;
+                <input type="radio" name="venusAtmosphere" value="no"> No
+                <br/>
+                <span style="color: #ffffff">Select Earth's Daytime</span>
+                <br/>
+                <input type="radio" name="earthDaytime" value="day" checked> Day
+                &nbsp;&nbsp;
+                <input type="radio" name="earthDaytime" value="night"> Night
+                <br/>
+                <span style="color: #ffffff">Show Fictional Planets</span>
+                <br/>
+                <input type="radio" name="showFictionalPlanets" value="yes"> Yes
+                &nbsp;&nbsp;
+                <input type="radio" name="showFictionalPlanets" value="no" checked> No
+                <br/>
+            </div>
+            
+        </div>
+        
 		<script src="../common/build/three.js"></script>
         
 		<script src="../common/js/controls/TrackballControls.js"></script>
