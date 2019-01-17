@@ -39,7 +39,14 @@
         "Angular Diameter": "4.5–13″"
     }],
     "Atmosphere": [{
-        "Surface Pressure": "trace (≲ 0.5 nPa)",
-        "Composition by Volume": "Molecular Oxygen: 42%<br/>Sodium: 29%<br/>Hydrogen: 22%<br/>Helium: 6%<br/>Potassium: 0.5%<br/>Trace amounts of argon, nitrogen, carbon dioxide, water vapor, xenon, krypton and neon"
-    }]
+        "Surface Pressure": "trace (≲ 0.5 nPa)"
+    }],
+    "Composition by Volume": [{
+        "Molecular Oxygen": "42%",
+        "Sodium": "29%",
+        "Hydrogen": "22%",
+        "Helium": "6%",
+        "Potassium": "0.5%",
+        "Others": "Trace amounts of argon, nitrogen, carbon dioxide, water vapor,<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;xenon, krypton and neon"
+    }] 
 }
