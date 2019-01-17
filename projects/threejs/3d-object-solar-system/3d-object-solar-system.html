@@ -84,9 +84,11 @@
             <h3>NOTES:</h3>
             <span style="color: #ffff00"><b>Just for visualization's purposes:</b></span>
             <br/>
-            <span style="color: #ffff00">1) The <u><i>Sun</i></u> and <u><i>Planets</i></u>' radius are using a scale of 10<sup>-3</sup> kms</span>
+            <span style="color: #ffff00">1) The <u><i>Sun</i></u>' radius are using a scale of 10<sup>-2</sup> kms</span>
             <br/>
-            <span style="color: #ffff00">2) The <u><i>Planets</i></u>' radius are using a scale of 10<sup>-4</sup> kms</span>
+            <span style="color: #ffff00">2) The <u><i>Planets</i></u>' radius are using a scale of 10<sup>-1</sup> kms</span>
+            <br/>
+            <span style="color: #ffff00">3) The radius of <u><i>Planets</i></u>' orbits are using a scale of 10<sup>-4</sup> kms</span>
 		</div>
         
         <div id="info">
@@ -295,11 +297,12 @@
                 // Adding the elements (Sun, Planets and their respective Orbits and Moons)
                 
                 // INFO:
-                // 1) It will be used a size scale of 0.001 kms to determine the size of the planets
-                // 2) It will be used a size scale of 0.000,1 kms to determine the radius of the planets' orbits
+                // 1) It will be used a size scale of 0.01 kms to determine the size of the Sun
+                // 2) It will be used a size scale of 0.1 kms to determine the size of the Planets
+                // 3) It will be used a size scale of 0.000,1 kms to determine the radius of the Planets' orbits
                 // The final size of each planet and their respective orbits will be rounded to the units or to the first decimal, since it's possible
                 
-                // 1) SUN's setup
+                // A) SUN's setup
                 sunTexture = loader.load('imgs/sun-texture.jpg', function (texture) {});
                 
                 // The radius of Sun is 695,508 kms (Resolution: [695,508 * 0.01] = 696)
@@ -331,7 +334,7 @@
                 solarSystemScene.add(sunPivot);
                 
                 
-                // 2) MERCURY's setup
+                // B) MERCURY's setup
                 
                 // The average distance/orbit's radius from the Sun ranging from 46,000,000 kms to 70,000,000 kms
                 // It will be used an average orbit's radius of an interval between 57,500,000 and 58,000,000 (Resolution: [57,500,000 * 0.000,1] = 5,750 and [58,000,000 * 0.000,1] = 5,800)
@@ -349,7 +352,7 @@
                 
                 mercuryPlanetTexture = loader.load('imgs/mercury-planet-texture.jpg', function (texture) {});
                 
-                // The radius of Mercury is 2,440 kms (Resolution: [2,440 * 0.001] = 2)
+                // The radius of Mercury is 2,440 kms (Resolution: [2,440 * 0.1] = 240)
                 var mercuryPlanetGeometry = new THREE.SphereGeometry(240, 40, 40);
                 var mercuryPlanetMaterial = new THREE.MeshBasicMaterial(
                     {
