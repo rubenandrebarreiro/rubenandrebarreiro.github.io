@@ -1649,7 +1649,7 @@ active: Projects
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -1693,7 +1693,7 @@ active: Projects
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -1741,7 +1741,7 @@ active: Projects
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -1778,7 +1778,7 @@ active: Projects
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -1820,12 +1820,12 @@ active: Projects
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
 
-<h2 id="emails">
+<h2 id="personal-selfmade-projects-works">
     <i>My Personal and Self-Made Projects/Works</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -1834,10 +1834,38 @@ active: Projects
 </h2>
 <hr/>
 
-<p align="justify"> Coming soon... </p>
+
+<font size="5">
+    <i class="icon-javascript-alt" style="color:Gold" title="3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/projects/threejs/3d-object-solar-system/3d-object-solar-system.html" title="3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)</a>
+</font>   
+
+<p align="justify"><font size="2"><a target="_blank" href="/projects/threejs/3d-object-solar-system/3d-object-solar-system.html" title="3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">A self-made project, using Computer Graphics and 3D Modelling. This project was built using HTML, CSS, JavaScript, WebGL and Three.js. The application gives a vision of our Solar System and all its elements, all using 3D Modelling and 3D Objects. Each element presented (Sun, Planets and Moons) have its respectively information when the mouse hover above of each one!</a></font></p>
+
+<br>
+
+<b>Instructions:</b>
+<font size="2">
+    <p align="justify">
+            a) <b>Up arrow (↑)</b> key to move up the <b>Helicopter</b>;
+        <br>
+            b) <b>Down arrow (↓)</b> key to move down the <b>Helicopter</b>;
+        <br>
+            c) <b>Left arrow (←)</b> key to make a circular move for the <b>Helicopter</b>;
+        <br>
+            d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
+    </p>
+</font>    
+
+[![3DObjectSolarSystem]({{ site.images | relative_url }}/projects/3d-object-solar-system-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-solar-system-01.jpg)
+<p style="font-size:11px"><i>3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)</i></p>
+
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>

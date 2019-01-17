@@ -2063,7 +2063,7 @@ active: About Me
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -3803,7 +3803,7 @@ active: About Me
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -3823,7 +3823,7 @@ active: About Me
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
@@ -3842,7 +3842,7 @@ active: About Me
 
 <br>
 <hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Page/Personal Blog - All rights reserved ***</font></center>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
 
