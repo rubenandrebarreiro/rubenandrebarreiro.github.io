@@ -3318,6 +3318,56 @@ active: About Me
 						<i class="fab fa-js-square faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>JavaScript</i>'s libraries</u>:
 						<ul>
                             <li>
+                                <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Suite of modular libraries and tools which work together to create interactive content on open web technologies</u>:
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>CreateJS</i></u>:
+                                        <ul>
+                                            <li>
+                                                <i>EaselJS</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>        
+                                            </li>
+                                            <li>
+                                                <i>TweenJS</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>        
+                                            </li>
+                                            <li>
+                                                <i>SoundJS</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>        
+                                            </li>
+                                            <li>
+                                                <i>PreloadJS</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>        
+                                            </li>
+                                            <li>
+                                                <i>Zoë</i>
+                                                <span class="fa fa-star checked"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>
+                                                <span class="fa fa-star"></span>        
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
                                 <i class="fas fa-atom faa-horizontal animated"></i>&nbsp;&nbsp;<u>Functional reactive programming</u>:
                                 <ul>
                                     <li>
@@ -3458,7 +3508,7 @@ active: About Me
                         <i class="fas fa-cubes faa-horizontal animated"></i>&nbsp;&nbsp;<u>Serializing structured data formats</u>:
                         <ul>
                             <li>
-                                <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u>Google</u>:
+                                <i class="fab fa-google faa-horizontal animated"></i>&nbsp;&nbsp;<u><i>Google</i></u>:
 						        <ul>
                                     <li>
                                         <i>Google Protocol Buffers</i>
