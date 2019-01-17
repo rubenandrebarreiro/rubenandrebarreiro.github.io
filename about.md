@@ -3402,7 +3402,7 @@ active: About Me
                                     <li>
                                         <i>Three.js</i>
                                         <span class="fa fa-star checked"></span>
-                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star checked"></span>
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
                                         <span class="fa fa-star"></span>
