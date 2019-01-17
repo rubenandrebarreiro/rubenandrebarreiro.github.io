@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"/>
+		<title>3D Object's Pokédex with Pokémons' Demo and Trackball Controls</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				background:#777;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+			}
+
+			#info {
+				position: absolute;
+				top: 0px;
+				width: 100%;
+				color: #ffffff;
+				padding: 5px;
+				font-family:Monospace;
+				font-size:13px;
+				text-align:center;
+			}
+
+			a {
+				color: #ffffff;
+			}
+		</style>
+	</head>
+	<body>
+		<iframe src="audio/silence.mp3" allow="autoplay" style="display:none"></iframe>
+
+		<audio controls autoplay loop hidden>
+  		<source src="audio/pokemon-game-theme-music.mp3" type="audio/mpeg">
+		</audio>
+
+		<div id="container"></div>
+		<div id="info">
+			<h1>3D Object's Pokédex</h1>
+      <h3>with Pokémons' Demo and Trackball Controls</h3>
+      <br/>
+    	<span style="color: #ff0000"> Made with <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> by <a href="https://rubenandrebarreiro.github.io/" target="_blank" rel="noopener"> Rúben André Barreiro</a></span>
+		</div>
+
+		<script src="../common/build/three.js"></script>
+
+		<script src="../common/js/loaders/ColladaLoader.js"></script>
+        <script src="../common/js/loaders/FBXLoader.js"></script>
+		<script src="../common/js/WebGL.js"></script>
+		<script src="../common/js/libs/stats.min.js"></script>
+
+		<script>
+
+			if(WEBGL.isWebGLAvailable() === false) {
+				document.body.appendChild(WEBGL.getWebGLErrorMessage());
+			}
+
+			var container, stats, clock;
+			var camera, pokedexScene, renderer, bulbasaur;
+
+			var pokemonDemoPivot;
+
+			var loader = new THREE.TextureLoader();
+      loader.setCrossOrigin("");
+
+			init();
+			animate();
+
+			function init() {
+				container = document.getElementById('container');
+
+				camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 0.1, 2000);
+				camera.position.set(1, 6, 15);
+				camera.lookAt(0, 4, 0);
+
+				pokedexScene = new THREE.Scene();
+
+				backgroundTexture = loader.load("imgs/background.jpg",
+        	function (texture) {
+          	var image = texture.image;
+            var backgroundWidth= image.width;
+            var backgroundHeight = image.height;
+            onWindowResize();
+          }
+        );
+
+        pokedexScene.background = backgroundTexture;
+        backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+        backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+				clock = new THREE.Clock();
+
+				pokemonDemoPivot = new THREE.Group();
+
+				grassTexture2 = loader.load('imgs/textures/grass-texture-2.jpg', function (texture) {});
+
+				var floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+				var floorCircleMaterial = new THREE.MeshBasicMaterial(
+					{
+						map: grassTexture2,
+            overdraw: 0.5
+					}
+				);
+
+				var floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+
+
+				pokemonDemoPivot.add(floorCircle);
+
+				floorCircle.rotation.x = -Math.PI / 2;
+				floorCircle.position.y = 0;
+
+				// Loading manager
+				var loadingManager = new THREE.LoadingManager(
+					function() {
+						pokemonDemoPivot.add(bulbasaur);
+					}
+				);
+
+				// Collada loader
+				var colladaLoader = new THREE.ColladaLoader(loadingManager);
+				colladaLoader.load('models/collada/0025/pikachu-f.dae',
+					function(collada) {
+						bulbasaur = collada.scene;
+					}
+				);
+
+                /*var fbxLoader = new THREE.FBXLoader();
+				fbxLoader.load( 'models/fbx/0025/pikachu-m.fbx', function ( object ) {
+
+					mixer = new THREE.AnimationMixer( object );
+
+					var action = mixer.clipAction( object.animations[ 0 ] );
+					action.play();
+
+					object.traverse( function ( child ) {
+
+						if ( child.isMesh ) {
+
+							child.castShadow = true;
+							child.receiveShadow = true;
+
+						}
+
+					} );
+
+					pokemonDemoPivot.add( object );
+
+				} );*/
+
+                
+				pokedexScene.add(pokemonDemoPivot);
+
+				//
+				var ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+				pokedexScene.add(ambientLight);
+
+				var directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+				directionalLight.position.set(1, 1, 0).normalize();
+				pokedexScene.add(directionalLight);
+
+				//
+				renderer = new THREE.WebGLRenderer();
+				renderer.setPixelRatio(window.devicePixelRatio);
+				renderer.setSize(window.innerWidth, window.innerHeight);
+				container.appendChild(renderer.domElement);
+
+				//
+				stats = new Stats();
+				container.appendChild(stats.dom);
+
+				//
+				window.addEventListener('resize', onWindowResize, false);
+			}
+
+			function onWindowResize() {
+				camera.aspect = window.innerWidth/window.innerHeight;
+				camera.updateProjectionMatrix();
+
+				renderer.setSize(window.innerWidth, window.innerHeight);
+			}
+
+			function animate() {
+				requestAnimationFrame(animate);
+				render();
+
+				stats.update();
+			}
+
+			function render() {
+				var delta = clock.getDelta();
+
+				if(pokemonDemoPivot !== undefined) {
+					pokemonDemoPivot.rotation.y += delta * 0.5;
+				}
+
+				renderer.render(pokedexScene, camera);
+			}
+		</script>
+	</body>
+</html>
