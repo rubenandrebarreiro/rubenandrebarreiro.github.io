@@ -34,7 +34,7 @@
             #info {
 				color:#ffffff;
 				position: fixed;
-				bottom: 0px; left: 0px;
+				top: 0px; left: 0px;
 				padding: 5px;
 				box-sizing: border-box;
                 text-align: left
@@ -47,13 +47,20 @@
                 font-size: 40px;
             }
             
-            #objectObservationDataTitle {
-                font-weight: bold;
-                font-size: 20px;
+            #objectDataInfo1, #objectDataInfo2, #objectDataInfo3, #objectDataInfo4, #objectDataInfo5, #objectDataInfo6, #objectDataInfo7, #objectDataInfo8, #objectDataInfo9, #objectDataInfo10, #objectDataInfo11, #objectDataInfo12 {
+                display: none;
             }
             
-            #objectObservationDataContent {
+            #objectDataTitle1, #objectDataTitle2, #objectDataTitle3, #objectDataTitle4, #objectDataTitle5, #objectDataTitle6, #objectDataTitle7, #objectDataTitle8, #objectDataTitle9, #objectDataTitle10, #objectDataTitle11, #objectDataTitle12 {
+                font-weight: bold;
+                font-size: 20px;
+                display: none;
+            }
+            
+            #objectDataContent1, #objectDataContent2, #objectDataContent3, #objectDataContent4, #objectDataContent5, #objectDataContent6, #objectDataContent7, #objectDataContent8, #objectDataContent9, #objectDataContent10, #objectDataContent11, #objectDataContent12 {
+                color: #ffff00;
                 font-size: 10px;
+                display: none;
             }
             
 			a {
@@ -67,27 +74,127 @@
             <h1>3D Object's Solar System</h1>
             <h3>with Sun, Planets, Moons, Orbits and Trackball Controls</h3>
             <br/>
-            Made with <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> by <a href="https://rubenandrebarreiro.github.io/" target="_blank" rel="noopener"> Rúben André Barreiro</a>
+            <span style="color: #ffff00"> Made with <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> by <a href="https://rubenandrebarreiro.github.io/" target="_blank" rel="noopener"> Rúben André Barreiro</a></span>
             <br/>
             <br/>
             <h2><b>INSTRUCTIONS:</b></h2>
-            MOVE mouse &amp; press LEFT/A: rotate, MIDDLE/S: zoom, RIGHT/D: pan
+            <span style="color: #ffff00">MOVE mouse &amp; press LEFT/A: rotate, MIDDLE/S: zoom, RIGHT/D: pan</span>
             <br>
             <h3>NOTES:</h3>
-            <b>Just for visualization's purposes:</b>
+            <span style="color: #ffff00"><b>Just for visualization's purposes:</b></span>
             <br/>
-            1) The <u><i>Sun</i></u> and <u><i>Planets</i></u>' radius are using a scale of 10<sup>-3</sup> KMs
+            <span style="color: #ffff00">1) The <u><i>Sun</i></u> and <u><i>Planets</i></u>' radius are using a scale of 10<sup>-3</sup> kms</span>
             <br/>
-            2) The <u><i>Planets</i></u>' radius are using a scale of 10<sup>-4</sup> KMs
+            <span style="color: #ffff00">2) The <u><i>Planets</i></u>' radius are using a scale of 10<sup>-4</sup> kms</span>
 		</div>
         
         <div id="info">
             <span id="objectName"></span>
-            <br/>
-            <br/>
-            <span id="objectObservationDataTitle"></span>
-            <br/>
-            <textarea rows="8" cols="100" id="objectObservationDataContent" style="background: transparent; border: 0 none; resize: none; color: white"></textarea>
+            
+            <div id="objectDataInfo1">
+                <br/>
+                <br/>
+                <br/>
+                <span id="objectDataTitle1"></span>
+                <br/>
+                <span id="objectDataContent1"></span>
+            </div>
+            
+            <div id="objectDataInfo2">
+                <br/>
+                <br/>
+                <span id="objectDataTitle2"></span>
+                <br/>
+                <span id="objectDataContent2"></span>
+            </div>
+            
+            <div id="objectDataInfo3">
+                <br/>
+                <br/>
+                <span id="objectDataTitle3"></span>
+                <br/>
+                <span id="objectDataContent3"></span>
+            </div>
+            
+            <div id="objectDataInfo3">
+                <br/>
+                <br/>
+                <span id="objectDataTitle3"></span>
+                <br/>
+                <span id="objectDataContent3"></span>
+            </div>
+            
+            <div id="objectDataInfo4">
+                <br/>
+                <br/>
+                <span id="objectDataTitle4"></span>
+                <br/>
+                <span id="objectDataContent4"></span>
+            </div>
+            
+            <div id="objectDataInfo5">
+                <br/>
+                <br/>
+                <span id="objectDataTitle5"></span>
+                <br/>
+                <span id="objectDataContent5"></span>
+            </div>
+            
+            <div id="objectDataInfo6">
+                <br/>
+                <br/>
+                <span id="objectDataTitle6"></span>
+                <br/>
+                <span id="objectDataContent6"></span>
+            </div>
+            
+            <div id="objectDataInfo7">
+                <br/>
+                <br/>
+                <span id="objectDataTitle7"></span>
+                <br/>
+                <span id="objectDataContent7"></span>
+            </div>
+            
+            <div id="objectDataInfo8">
+                <br/>
+                <br/>
+                <span id="objectDataTitle8"></span>
+                <br/>
+                <span id="objectDataContent8"></span>
+            </div>
+            
+            <div id="objectDataInfo9">
+                <br/>
+                <br/>
+                <span id="objectDataTitle9"></span>
+                <br/>
+                <span id="objectDataContent9"></span>
+            </div>
+            
+            <div id="objectDataInfo10">
+                <br/>
+                <br/>
+                <span id="objectDataTitle10"></span>
+                <br/>
+                <span id="objectDataContent10"></span>
+            </div>
+            
+            <div id="objectDataInfo11">
+                <br/>
+                <br/>
+                <span id="objectDataTitle11"></span>
+                <br/>
+                <span id="objectDataContent11"></span>
+            </div>
+            
+            <div id="objectDataInfo12">
+                <br/>
+                <br/>
+                <span id="objectDataTitle12"></span>
+                <br/>
+                <span id="objectDataContent12"></span>
+            </div>
         </div>
 
 		<script src="../common/build/three.js"></script>
@@ -118,18 +225,32 @@
             
             const yAxis = new THREE.Vector3(0, 1, 0).normalize();
 
-            // Sun Element
-            var sunMesh;
+            // Sun's Element
+            var sunMesh, sunPropertyKeys, sunProperties;
             
             // Mercury's Elements
-            var mercuryOrbitMesh, mercuryPlanetMesh, mercuryPivot;
-
+            var mercuryOrbitMesh, mercuryPlanetMesh, mercuryPivot, mercuryDataJSON;
             
 			init();
 			animate();
 
-			function init() {
+            function loadJSON(callback) {   
 
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/sun_data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+			function init() {
 				camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 100000);
 				camera.position.y = 20;
                 camera.position.z = 40000;
@@ -191,10 +312,22 @@
 
                 sunMesh = new THREE.Mesh(sunGeometry, sunMaterial);
                 
-                sunMesh.textName = "Sun";
-                sunMesh.textObservationDataContent = {a: "- Mean distance from Earth: 1 au ≈ 1.496×108 km (8 min 19 s at light speed)", b: "- Visual brightness (V): −26.74", c: "- Absolute magnitude: 4.83", d: "- Spectral classification: G2V", e: "- Metallicity: Z = 0.0122", f: "- Angular size: 31.6–32.7 minutes of arc", g: "- Adjectives: Solar"};
+                loadJSON(function(response) {
+                    // Parse Sun's JSON string into object
+                    var sunDataJSON = JSON.parse(response);
                 
-                solarSystemScene.add(sunMesh);
+                    sunPropertyKeys = Object.keys(sunDataJSON);
+                   
+                    for(i = 0; i < sunPropertyKeys.length; i++)
+                        sunMesh[sunPropertyKeys[i]] = sunDataJSON[sunPropertyKeys[i]];
+                });
+                
+                
+                sunPivot = new THREE.Group();
+                
+                sunPivot.add(sunMesh);
+                
+                solarSystemScene.add(sunPivot);
                 
                 
                 // 2) MERCURY's setup
@@ -319,7 +452,7 @@
                 var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
 
                 // Create an array containing all objects in the scene with which the ray intersects
-                var intersects = ray.intersectObjects(solarSystemScene.children);
+                var intersects = ray.intersectObjects(sunPivot.children);
                 
                 // SUN_INTERSECTED = the object in the scene currently closest to the camera 
                 // and intersected by the Ray projected from the mouse position 	
@@ -335,10 +468,21 @@
                             
                             SUN_INTERSECTED.material.color.setHex(0xffffff);
                             SUN_INTERSECTED.material.map = SUN_INTERSECTED.mapTexture;
-                        
+                            
                             document.getElementById("objectName").textContent = "";
-                            document.getElementById("objectObservationDataTitle").textContent = "";
-                            document.getElementById("objectObservationDataContent").value = "";
+                            
+                            for(i = 1; i < sunPropertyKeys.length; i++) {
+                                var divDataInfoElemID = "objectDataInfo" + i;
+                                document.getElementById(divDataInfoElemID).style.display = "none";
+                                
+                                var spanDataTitleElemID = "objectDataTitle" + i;
+                                document.getElementById(spanDataTitleElemID).innerHTML = "";
+                                document.getElementById(spanDataTitleElemID).style.display = "none";
+                            
+                                var spanDataContentElemID = "objectDataContent" + i;
+                                document.getElementById(spanDataContentElemID).innerHTML = "";
+                                document.getElementById(spanDataContentElemID).style.display = "none";
+                            }
                         }
                         
                         // Store reference to closest object as current intersection object
@@ -353,12 +497,29 @@
                         
                         SUN_INTERSECTED.material.color.setHex(0xffff00);
                         
-                        document.getElementById("objectName").textContent = intersects[0].object.textName;
-                        document.getElementById("objectObservationDataTitle").textContent = "Observation Data:"; 
+                        document.getElementById("objectName").textContent = intersects[0].object[sunPropertyKeys[0]];
                         
-                        var sunObservationData = sunMesh.textObservationDataContent.a + "\n" + sunMesh.textObservationDataContent.b + "\n" + sunMesh.textObservationDataContent.c + "\n" + sunMesh.textObservationDataContent.d + "\n" + sunMesh.textObservationDataContent.e + "\n" + sunMesh.textObservationDataContent.f + "\n" + sunMesh.textObservationDataContent.g;
-                        
-                        document.getElementById("objectObservationDataContent").value = sunObservationData;
+                        for(i = 1; i < sunPropertyKeys.length; i++) {
+                            var divDataInfoElemID = "objectDataInfo" + i;
+                            document.getElementById(divDataInfoElemID).style.display = "inline";
+
+                            var spanDataTitleElemID = "objectDataTitle" + i;
+                            document.getElementById(spanDataTitleElemID).innerHTML = sunPropertyKeys[i];
+                            document.getElementById(spanDataTitleElemID).style.display = "inline";
+
+                            var someObjectDataInfo = (intersects[0].object[sunPropertyKeys[i]])[0];
+                            
+                            var someObjectDataInfoKeys = Object.keys(someObjectDataInfo);
+                   
+                            var currentObjectDataInfo = "";
+                            
+                            for(j = 0; j < someObjectDataInfoKeys.length; j++)
+                                currentObjectDataInfo += "- <b><u>" + someObjectDataInfoKeys[j] + "</u></b>: " + someObjectDataInfo[someObjectDataInfoKeys[j]] + "<br/>";
+                            
+                            var spanDataContentElemID = "objectDataContent" + i;
+                            document.getElementById(spanDataContentElemID).innerHTML = currentObjectDataInfo;
+                            document.getElementById(spanDataContentElemID).style.display = "inline";
+                        }
                     }
                 } 
                 else { // There are no intersections
@@ -370,9 +531,20 @@
                         SUN_INTERSECTED.material.color.setHex(0xffffff);
                         SUN_INTERSECTED.material.map = SUN_INTERSECTED.mapTexture;
                         
-                        document.getElementById("objectName").textContent = "";
-                        document.getElementById("objectObservationDataTitle").textContent = "";
-                        document.getElementById("objectObservationDataContent").value = "";
+                            document.getElementById("objectName").textContent = "";
+                            
+                            for(i = 1; i < sunPropertyKeys.length; i++) {
+                                var divDataInfoElemID = "objectDataInfo" + i;
+                                document.getElementById(divDataInfoElemID).style.display = "none";
+                                
+                                var spanDataTitleElemID = "objectDataTitle" + i;
+                                document.getElementById(spanDataTitleElemID).innerHTML = "";
+                                document.getElementById(spanDataTitleElemID).style.display = "none";
+                            
+                                var spanDataContentElemID = "objectDataContent" + i;
+                                document.getElementById(spanDataContentElemID).innerHTML = "";
+                                document.getElementById(spanDataContentElemID).style.display = "none";
+                            }
                     }
                     
                     // Remove previous intersection object reference
