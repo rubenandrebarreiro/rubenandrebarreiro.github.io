@@ -357,7 +357,7 @@
                 var gridXZ = new THREE.GridHelper(80000, 20, new THREE.Color(0xff0000), new THREE.Color(0xffffff));
                 solarSystemScene.add(gridXZ);
 				
-                backgroundTexture = loader.load("imgs/stars-milky-way.jpg",
+                backgroundTexture = loader.load("imgs/textures/background/stars-milky-way.jpg",
                     function (texture) {
                        var image = texture.image;
                        var backgroundWidth= image.width;
@@ -379,7 +379,7 @@
                 // The final size of each planet and their respective orbits will be rounded to the units or to the first decimal, since it's possible
                 
                 // A) SUN's setup
-                sunTexture = loader.load('imgs/sun-texture.jpg', function (texture) {});
+                sunTexture = loader.load('imgs/textures/sun/sun-texture.jpg', function (texture) {});
                 
                 // The radius of Sun is 695,508 kms (Resolution: [695,508 * 0.01] = 696)
                 var sunGeometry = new THREE.SphereGeometry(696, 40, 40);
@@ -426,7 +426,7 @@
                 mercuryOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                mercuryPlanetTexture = loader.load('imgs/mercury-planet-texture.jpg', function (texture) {});
+                mercuryPlanetTexture = loader.load('imgs/planets/mercury-planet-texture.jpg', function (texture) {});
                 
                 // The radius of Mercury is 2,440 kms (Resolution: [2,440 * 0.1] = 240)
                 var mercuryPlanetGeometry = new THREE.SphereGeometry(240, 40, 40);
