@@ -1,5 +1,8 @@
 {
     "Name": "Sun",
+    "Designations": [{
+        "Astrology Symbol": "☉"
+    }],
     "Observation Data": [{
         "Mean Distance from Earth": "1 au ≈ 1.496×10<sup>8</sup> kms (8 mins and 19 secs at light speed)",
         "Visual Brightness (V)": "−26.74",
@@ -15,11 +18,11 @@
     }],
     "Physical Characteristics": [{
         "Equatorial Radius": "695,700 kms | 696,392 kms | 109 x Earth",
-        "Equatorial Circumference": "4.379×10<sup>6</sup> kms | 1,000,000,000 x Earth",
+        "Equatorial Circumference": "4.379×10<sup>6</sup> kms | 109 x Earth",
         "Flattening": "9x10<sup>-6</sup>",
         "Surface Area": "6.09x10<sup>12</sup> | 12,000 x Earth",
         "Volume": "1.41x10<sup>18</sup> kms<sup>3</sup> | 1,300,000 x Earth",
-        "Mass": "1.9885×1030 kgs | 333,000 x Earth",
+        "Mass": "1.988,5×10<sup>30</sup> kgs | 333,000 x Earth",
         "Average Density": "1.408 g/cm<sup>3</sup> | 0.255 x Earth",
         "Center Density (Modeled)": "162.2 g/cm<sup>3</sup> | 12.4 x Earth",
         "Equatorial Surface Gravity": "274 m/s<sup>2</sup> | 28 x Earth",

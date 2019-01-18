@@ -249,6 +249,8 @@
                 <input type="radio" name="earthDaytime" value="day" checked> Day
                 &nbsp;&nbsp;
                 <input type="radio" name="earthDaytime" value="night"> Night
+                &nbsp;&nbsp;
+                <input type="radio" name="earthDaytime" value="clouds"> Clouds
                 <br/>
                 <span style="color: #ffffff">Show Fictional Planets</span>
                 <br/>
@@ -297,11 +299,14 @@
 			init();
 			animate();
 
+            // Load JSONs files:
+            
+            // A) SUN's JSON file
             function loadSunJSON(callback) {   
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/sun_data.json', true);
+                obj.open('GET', 'info/json/sun-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -313,11 +318,63 @@
                 obj.send(null);  
             }
             
+            // B) MERCURY's JSON file
             function loadMercuryJSON(callback) {   
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/mercury_data.json', true);
+                obj.open('GET', 'info/json/mercury-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // C) VENUS' JSON file
+            function loadVenusJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/venus-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // D) EARTH's JSON file
+            function loadEarthJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/earth-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // E) MARS' JSON file
+            function loadMarsJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/mars-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -357,7 +414,7 @@
                 var gridXZ = new THREE.GridHelper(80000, 20, new THREE.Color(0xff0000), new THREE.Color(0xffffff));
                 solarSystemScene.add(gridXZ);
 				
-                backgroundTexture = loader.load("imgs/textures/background/stars-milky-way.jpg",
+                backgroundTexture = loader.load("imgs/textures/background/stars-milky-way-texture.jpg",
                     function (texture) {
                        var image = texture.image;
                        var backgroundWidth= image.width;
@@ -426,7 +483,7 @@
                 mercuryOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                mercuryPlanetTexture = loader.load('imgs/planets/mercury-planet-texture.jpg', function (texture) {});
+                mercuryPlanetTexture = loader.load('imgs/textures/planets/mercury-planet-texture.jpg', function (texture) {});
                 
                 // The radius of Mercury is 2,440 kms (Resolution: [2,440 * 0.1] = 240)
                 var mercuryPlanetGeometry = new THREE.SphereGeometry(240, 40, 40);

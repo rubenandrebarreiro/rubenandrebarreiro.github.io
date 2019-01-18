@@ -1,6 +1,7 @@
 {
     "Name": "Mercury",
     "Designations": [{
+        "Astrology Symbol": "☿",
         "Adjectives": "Mercurian, Mercurial"
     }],
     "Orbital Characteristics": [{
@@ -18,7 +19,7 @@
         "Satellites": "None"
     }],
     "Physical Characteristics": [{
-        "Mean Radius": "2,439.7±1.0 km | 0.3829 Earths",
+        "Mean Radius": "2,439.7±1.0 km | 0.382,9 Earths",
         "Flattening": "0",
         "Surface Area": "7.48×10<sup>7</sup> km<sup>2</sup> | 0.147 Earths",
         "Volume": "6.083×10<sup>10</sup> km<sup>3</sup> | 0.056 Earths",
