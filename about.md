@@ -3979,7 +3979,7 @@ active: About Me
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My portfolio/personal blog</u></i> ✔️<font size="1">(in 2018)</font></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Computer programming</u></i> ✔️<font size="1">(in 2009)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My first computer program</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at High School of Monte de Caparica</u></i>)</font> ✔️<font size="1">(in 2009)</font></p>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-plane-departure faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Travel to</b></u></i>:</p>
 
