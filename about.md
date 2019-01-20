@@ -4026,7 +4026,7 @@ active: About Me
     <div class="content">
       <h4>July 2018</h4>
       <h5><b><i><u>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</b><u><i>After so much hardwork, effort and a ton of hours studying, I achieved one of my greatest ambitions of all time! I finally, finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Engineering of New University of Lisbon) with a final average grade of 15 of 20</i></u>. I finished this <i>Bachelor degree</i> with <i>180 ECTSs</i> completed, 1 <i>R&amp;D</i> project made and many other personal/professional achievements. 👨‍🎓</font></p>
+        <p align="justify"><font size="2"><b>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</b> <u><i>After so much hardwork, effort and a ton of hours studying, I achieved one of my greatest ambitions of all time! I finally, finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Engineering of New University of Lisbon) with a final average grade of 15 of 20</i></u>. I finished this <i>Bachelor degree</i> with <i>180 ECTSs</i> completed, 1 <i>R&amp;D</i> project made and many other personal/professional achievements. 👨‍🎓</font></p>
     </div>
   </div>
   <div class="container right">
