@@ -4146,7 +4146,7 @@ active: About Me
 </h3>
 
 <center>
-    <h2>My Timeline</h2>
+    <h2><b>My Timeline</b></h2>
 </center>
 
 <div class="timeline" id="goals-accomplishments-list">
