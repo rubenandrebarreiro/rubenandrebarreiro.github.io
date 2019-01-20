@@ -325,9 +325,9 @@ document.addEventListener("click", closeAllSelect);
 			}
 
 			var container, stats, clock;
-			var camera, pokedexScene, renderer, bulbasaur;
+			var camera, marioCharacterScene, renderer, marioCharacter;
 
-			var pokemonDemoPivot;
+			var marioCharacterDemoPivot;
 
 			var loader = new THREE.TextureLoader();
             loader.setCrossOrigin("");
@@ -342,7 +342,7 @@ document.addEventListener("click", closeAllSelect);
 				camera.position.set(1, 6, 15);
 				camera.lookAt(0, 4, 0);
 
-				pokedexScene = new THREE.Scene();
+				marioCharacterScene = new THREE.Scene();
 
 				backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
                     function(texture) {
@@ -354,13 +354,13 @@ document.addEventListener("click", closeAllSelect);
                     }
                 );
 
-                pokedexScene.background = backgroundTexture;
+                marioCharacterScene.background = backgroundTexture;
                 backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
                 backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
 
 				clock = new THREE.Clock();
 
-				pokemonDemoPivot = new THREE.Group();
+				marioCharacterDemoPivot = new THREE.Group();
 
 				grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
@@ -374,7 +374,7 @@ document.addEventListener("click", closeAllSelect);
 
 				var floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
 
-				pokemonDemoPivot.add(floorCircle);
+				marioCharacterDemoPivot.add(floorCircle);
 
 				floorCircle.rotation.x = -Math.PI / 2;
 				floorCircle.position.y = 0;
@@ -382,7 +382,7 @@ document.addEventListener("click", closeAllSelect);
 				// Loading manager
 				var loadingManager = new THREE.LoadingManager(
 					function() {
-						pokemonDemoPivot.add(bulbasaur);
+                        marioCharacterDemoPivot.add(marioCharacter);
 					}
 				);
 
@@ -390,19 +390,19 @@ document.addEventListener("click", closeAllSelect);
 				var colladaLoader = new THREE.ColladaLoader(loadingManager);
 				colladaLoader.load('models/collada/baby-mario/baby-mario.dae',
 					function(collada) {
-						bulbasaur = collada.scene;
+						marioCharacter = collada.scene;
 					}
 				);
                
-				pokedexScene.add(pokemonDemoPivot);
+				marioCharacterScene.add(marioCharacterDemoPivot);
 
 				//
 				var ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
-				pokedexScene.add(ambientLight);
+				marioCharacterScene.add(ambientLight);
 
 				var directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
 				directionalLight.position.set(1, 1, 0).normalize();
-				pokedexScene.add(directionalLight);
+				marioCharacterScene.add(directionalLight);
 
 				//
 				renderer = new THREE.WebGLRenderer();
@@ -435,11 +435,11 @@ document.addEventListener("click", closeAllSelect);
 			function render() {
 				var delta = clock.getDelta();
 
-				if(pokemonDemoPivot !== undefined) {
-					pokemonDemoPivot.rotation.y += delta * 0.5;
+				if(marioCharacterDemoPivot !== undefined) {
+					marioCharacterDemoPivot.rotation.y += delta * 0.5;
 				}
 
-				renderer.render(pokedexScene, camera);
+				renderer.render(marioCharacterScene, camera);
 			}
 		</script>
 	</body>
