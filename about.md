@@ -2288,7 +2288,7 @@ active: About Me
 						<u>Distributed systems</u>;
 					</li>
 					<li>
-						<u>Multi-threading</u>;
+						<u>Multi-threading systems</u>;
 					</li>
 					<li>
 						<u>Edge & Fog computing</u>;
