@@ -150,7 +150,7 @@ active: About Me
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-  left: 15px;
+  left: 14px;
   }
   
   /* Make all right containers behave like the left ones */
