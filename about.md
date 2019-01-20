@@ -3975,13 +3975,13 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Create</b></u></i>:</p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My own Business</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My own Business/Enterprise</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My personal Blog</u></i> ✔️</p>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-plane-departure faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Travel to</b></u></i>:</p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Switzerland</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Switzerland</u></i> ✔️</p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Porto</u></i> ✔️</p>
 
@@ -4001,7 +4001,7 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Others</b></u></i>:</p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Drive License</u></i> ✔️</p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Drive License</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Participate in a Research and Development Scientific Project</u></i> ✔️</p>
 
