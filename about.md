@@ -4001,7 +4001,7 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Others</b></u></i>:</p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Drive License</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get the Drive License</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Participate in a Research and Development Scientific Project</u></i> ✔️</p>
 
@@ -4044,8 +4044,9 @@ active: About Me
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2011</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h4>December 1993</h4>
+      <h5><b><i><u>I spoke my first word to the whole society and world listen!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I spoke my first word to the whole society and world</b> listen! The spoken word was <i>"Coca-Cola"</i> when I asking my mother for one obviously, while I was hitting the window of drinks and beverages of a local caffe, to getting her attention and, for her amazement and joy! 👩‍👦</font></p>
     </div>
   </div>
   <div class="container right">
