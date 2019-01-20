@@ -4046,7 +4046,7 @@ active: About Me
     <div class="content">
       <h4>December 1993</h4>
       <h5><b><i><u>I spoke my first word to the whole society and world listen!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I spoke my first word to the whole society and world listen!</b> The spoken word was <i>"Coca-Cola"</i> when I asking my mother for one obviously, while I was hitting the window of drinks and beverages of a local caffe, to getting her attention and, for her amazement and joy! 👩‍👦</font></p>
+      <p align="justify"><font size="2"><b>I spoke my first word to the whole society and world listen!</b> The spoken word was "<i><u>Coca-Cola</u></i>" when I asking my mother for one obviously, for her amazement and joy! This happened while I was hitting the window of drinks and beverages of a local caffe, to getting her attention. 👩‍👦</font></p>
     </div>
   </div>
   <div class="container right">
