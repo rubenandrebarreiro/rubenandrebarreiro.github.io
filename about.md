@@ -3973,14 +3973,16 @@ active: About Me
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>To Do List:</u></i></p>
 </h3>
 
-<br/>
-<br/>
-
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create my own Business</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Start a Research &amp; Development Scientific Project</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create a Personal/Blog ✔️</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Tattoo ✔️</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Travel to Switzerland ✔️</u></i></p>
+
+
+<br/>
+<br/>
+
 
 <h3 id="goals-accomplisments-done-list">
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>To Do List:</u></i></p>
