@@ -3949,9 +3949,85 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I love to <b>programming</b> and <b>coding</b>! I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>enterprise's management</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>.</p>
+<p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I consider myself a high-tech lover! 🤓</p>
 
-<p align="justify">In <b>Computer Science and Engineering</b>, <b>IT/IS</b> and <b>Informatics</b> area, I personally, have a huge interest in <b><i><u>Web &amp; Internet Applications' Design</u></i></b>, <b><i><u>2D/3D Graphics &amp; Interfaces</u></i></b>, <b><i><u>Computer Networks</u></i></b>, <b><i><u>Distributed Systems</u></i></b>, <b><i><u>Cloud Computing</u></i></b>, <b><i><u>Edge &amp; Fog Computing</u></i></b>, <b><i><u>Mobile &amp; Pervasive Computing</u></i></b>, <b><i><u>Internet &amp; Computer Network's Security</u></i></b>, <b><i><u>Artificial Intelligence</u></i></b>, <b><i><u>Machine Learning</u></i></b>, <b><i><u>Data Mining</u></i></b>, <b><i><u>Data Analytics &amp; Modelling</u></i></b>, <b><i><u>Computational Game Theory</u></i></b>, <b><i><u>Autonomous &amp; Intelligent Agents</u></i></b>, <b><i><u>Computer Vision</u></i></b>, <b><i><u>Robotics</u></i></b>, <b><i><u>Multi-threading Systems</u></i></b>, <b><i><u>Concurrency &amp; Paralelism</u></i></b>, <b><i><u>High Performance Computing</u></i></b>, <b><i><u>Quantum Computing</u></i></b>, <b><i><u>Games &amp; Simulation</u></i></b> and <b><i><u>Augmented &amp; Virtual Reality</u></i></b>.
+<p align="justify">I love to <b>programming</b> and <b>coding</b>! 👨‍💻</p>
+
+<p align="justify">In <b>Computer Science and Engineering</b>, <b>IT/IS</b> and <b>Informatics</b> area, I personally, have a huge interest in:</p>
+
+<ul>
+    <li>
+        <b><i><u>Web &amp; Internet Applications' Design</u></i></b>
+    </li>
+    <li>
+        <b><i><u>2D/3D Graphics &amp; Interfaces</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Computer Networks</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Distributed Systems</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Cloud Computing</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Edge &amp; Fog Computing</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Mobile &amp; Pervasive Computing</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Internet &amp; Computer Network's Security</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Artificial Intelligence</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Machine Learning</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Data Mining</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Data Analytics &amp; Modelling</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Computational Game Theory</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Autonomous &amp; Intelligent Agents</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Computer Vision</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Robotics</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Multi-threading Systems</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Concurrency &amp; Paralelism</u></i></b>
+    </li>
+    <li>
+        <b><i><u>High Performance Computing</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Quantum Computing</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Games &amp; Simulation</u></i></b>
+    </li>
+    <li>
+        <b><i><u>Augmented &amp; Virtual Reality</u></i></b>
+    </li>
+</ul>
+
+<p align="justify">I love to improve myself constantly. I love to study and learn more and more, everyday! I think it's never late to learn something new and I will always feel a little like a student! 😊</p>
+
+<p align="justify">I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>enterprise's management</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>. 😍</p>
+
 
 <br>
 <hr/>
