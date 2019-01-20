@@ -4022,21 +4022,23 @@ active: About Me
 <div class="timeline" id="goals-accomplishments-list">
   <div class="container left">
     <div class="content">
-      <h2>2017</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h4>July 2018</h4>
+      <h5><b><i><u>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</u></i></b></h5>
+        <p align="justify"><font size="2"><b>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</b><u><i>After so much hardwork, effort and a ton of hours studying, I achieved one of my greatest ambitions of all time! I finally, finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Engineering of New University of Lisbon) with a final average grade of 15 of 20</i></u>. I finished this <i>Bachelor degree</i> with <i>180 ECTSs</i> completed, 1 <i>R&amp;D</i> project made and many other personal/professional achievements. 👨‍🎓</font></p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2016</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h4>February 2017</h4>
+      <h5><b><i><u>I started my first Research and Development Scientific Project at NOVA LINCS (FCT NOVA), during my Bachelor degree!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I started my first Research and Development Scientific Project at NOVA LINCS (FCT NOVA), during my Bachelor degree!</b> In the <i>3rd year</i> of my <i>Bachelor degree</i>, it was proposed to work in a Department's Research and Development Scientific Project. I choosed to work in <i>R&amp;D</i> project called <i><u>Hyrax</u></i>, that was related with <i>Computer and Mobile (3G and 4G) Networks</i>, <i>Distributed Systems</i> and <i>Cloud Computing Systems</i>, most specifically in <i>Edge Computing</i>. This <i>R&amp;D</i> project, in addition to the participation of FCT NOVA, also had the main participations of FCUP (Faculty of Sciences of University of Porto) and CS-CMU (Carnegie Mellon University's School of Computer Science), among many other scientific/industrial collaborations. My project was a smaller part/section of the <i><u>Hyrax</u></i> project, called <i><u>DiCE (Distributed Computing at the Edge)</u></i>. My project was supervised by <i>Hervé Paulino</i> and I finished my participation on this <i>R&amp;D</i> project with a <i>17 of 20</i> final grade. 🔍</font></p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h4>September 2013</h4>
-      <h5><b><i><u>I entered to the college (FCT NOVA) to start my Bachelor degree!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I entered to the college (FCT NOVA) to start my Bachelor degree!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> and get a good final average grade that allows me to enter the <u><i>Academic World</i></u> for the first time, I did it, surprising and shocking everybody! 💪</font></p>
+      <h5><b><i><u>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> and get a good final average grade that allows me to enter the <u><i>Academic World</i></u> for the first time, I did it, surprising and shocking everybody! 💪</font></p>
     </div>
   </div>
   <div class="container right">
