@@ -67,7 +67,7 @@ active: About Me
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -14px;
+  right: -13px;
   background-color: #eee;
   border: 4px solid #FF9F55;
   top: 15px;
@@ -115,7 +115,7 @@ active: About Me
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  left: -13px;
 }
 
 /* The actual content */
