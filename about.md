@@ -4145,6 +4145,10 @@ active: About Me
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Goals/Accomplishments Done:</u></i></p>
 </h3>
 
+<center>
+    <h2>My Timeline</h2>
+</center>
+
 <div class="timeline" id="goals-accomplishments-list">
   <div class="container left">
     <div class="content">
