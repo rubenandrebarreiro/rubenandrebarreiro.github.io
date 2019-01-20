@@ -3960,8 +3960,8 @@ active: About Me
 <br>
 
 
-<h2 id="to-do-list-goals-accomplishments-title">
-    <i>To Do List and Goals/Accomplishments List</i>
+<h2 id="to-do-goals-accomplishments-done-title">
+    <i>To Do List and Goals/Accomplishments Done</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-check fa-stack-1x faa-horizontal animated"></i>
@@ -3979,6 +3979,9 @@ active: About Me
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Tattoo ✔️</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Travel to Switzerland ✔️</u></i></p>
 
+<h3 id="goals-accomplisments-done-list">
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>To Do List:</u></i></p>
+</h3>
 
 <div class="timeline" id="goals-accomplishments-list">
   <div class="container left">
