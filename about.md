@@ -3973,33 +3973,33 @@ active: About Me
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>To Do List:</u></i></p>
 </h3>
 
-<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-lightbulb faa-horizontal"></i>&nbsp;&nbsp;<i><u><b>Create</b></u></i>:</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Create</b></u></i>:</p>
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My own Business</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My personal Blog</u></i> ✔️</p>
 
-<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-plane-departure faa-horizontal"></i>&nbsp;&nbsp;<i><u><b>Travel to</b></u></i>:</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-plane-departure faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Travel to</b></u></i>:</p>
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Switzerland</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Porto</u></i> ✔️</p>
 
-<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-user-graduate"></i>&nbsp;&nbsp;<i><u><b>Complete the following degrees</b></u></i>:</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-user-graduate faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Complete the following degrees</b></u></i>:</p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a PhD (Doctor of Philosophy) in Computer Science and Engineering</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>PhD (Doctor of Philosophy) in Computer Science and Engineering</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a MBA (Master of Business Administration)</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>MBA (Master of Business Administration)</u></i></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a MSc. (Master) in Computer Science and Engineering</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>MSc. (Master) in Computer Science and Engineering</u></i></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a BSc. (Bachelor) in Computer Science and Engineering</u></i> ✔️</p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>BSc. (Bachelor) in Computer Science and Engineering</u></i> ✔️</p>
     
- <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-money-bill-alt"></i>&nbsp;&nbsp;<i><u><b>Buy</b></u></i>:</p>
+ <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-money-bill-alt faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Buy</b></u></i>:</p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Canon 1300D</u></i></p>   
 
-<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye"></i>&nbsp;&nbsp;<i><u><b>Others</b></u></i>:</p>
+<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Others</b></u></i>:</p>
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Drive License</u></i> ✔️</p>
     
