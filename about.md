@@ -4003,8 +4003,8 @@ active: About Me
   <div class="container right">
     <div class="content">
       <h2>November 1992</h2>
-      <h4><i>I was born</i></h4>
-        <p><font size="2"><b>I was born and presented to the whole world</b> at <i>9:10 am of November 19, 1992</i> in <i>Maternidade Alfredo da Costa</i> in <i>São Sebastião da Pedreira</i>, <i>Lisbon</i>, <i>Portugal</i>! 👶</font></p>
+      <h4><b><i><u>I was born!</u></i></b></h4>
+      <p><font size="2"><b>I was born and presented to the whole world</b> at <i>9:10 am of November 19, 1992</i> in <i>Maternidade Alfredo da Costa</i> in <i>São Sebastião da Pedreira</i>, <i>Lisbon</i>, <i>Portugal</i>! 👶</font></p>
     </div>
   </div>
 </div>
