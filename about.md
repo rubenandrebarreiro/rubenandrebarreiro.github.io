@@ -57,7 +57,7 @@ active: About Me
 .container {
   padding: 10px 40px;
   position: relative;
-  background-color: inherit;
+  background-color: #ffffff;
   width: 50%;
 }
 
@@ -68,7 +68,7 @@ active: About Me
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: #000000;
+  background-color: #eee;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
@@ -96,7 +96,7 @@ active: About Me
   right: 30px;
   border: medium solid white;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #eee;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -110,7 +110,7 @@ active: About Me
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent #eee transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -121,7 +121,7 @@ active: About Me
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: white;
+  background-color: #eee;
   position: relative;
   border-radius: 6px;
 }
