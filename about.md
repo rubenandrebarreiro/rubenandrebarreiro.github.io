@@ -3975,11 +3975,11 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Create/Start</b></u></i>:</p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My own Business/Enterprise</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My own business/enterprise</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My personal Blog</u></i> ✔️<font size="1">(in 2018)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My portfolio/personal blog</u></i> ✔️<font size="1">(in 2018)</font></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My first Coding Program</u></i> ✔️<font size="1">(in 2009)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Computer programming</u></i> ✔️<font size="1">(in 2009)</font></p>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-plane-departure faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Travel to</b></u></i>:</p>
 
@@ -3989,7 +3989,7 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-user-graduate faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Complete the following degrees</b></u></i>:</p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>PhD (Doctor of Philosophy) in Computer Science and Engineering</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>PhD. (Doctor of Philosophy) in Computer Science and Engineering</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>MBA (Master of Business Administration)</u></i></p>
 
@@ -4003,13 +4003,13 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Others</b></u></i>:</p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Do a college's semester/year in a foreign European country, using the ERASMUS' exchange program</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Do a college's semester/year in a foreign european country, using the ERASMUS' exchange program</u></i></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get the Drive License for Cars and Bikes</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get the drive license for cars and bikes</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Participate/Collaborate in a Research and Development Scientific Project</u></i> ✔️<font size="1">(in 2017)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Participate/collaborate in a Research and Development scientific project</u></i> ✔️<font size="1">(in 2017)</font></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Tattoo</u></i> ✔️<font size="1">(in 2014)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a tattoo</u></i> ✔️<font size="1">(in 2014)</font></p>
 
 
 <br/>
@@ -4017,7 +4017,7 @@ active: About Me
 <br/>
 
 
-<h3 id="goals-accomplisments-done-list">
+<h3 id="goals-accomplishments-done-list">
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Goals/Accomplishments Done:</u></i></p>
 </h3>
 
@@ -4061,7 +4061,7 @@ active: About Me
     <div class="content">
       <h4>November 1992</h4>
       <h5><b><i><u>I was born to be posteriorly, presented to the whole society and world!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I was born to be posteriorly, presented to the whole society and world</b> under the name <b><i><u>Rúben André Letra Barreiro</u></i></b> at <i><u>9:10 am of November 19, 1992</u></i> in <i><u>Maternidade Alfredo da Costa</u></i> in <i><u>São Sebastião da Pedreira</u></i>, <i><u>Lisbon</u></i>, <i><u>Portugal</u></i>! 👶</font></p>
+      <p align="justify"><font size="2"><b>I was born to be posteriorly, presented to the whole society and world</b> under the name <b><i><u>Rúben André Letra Barreiro</u></i></b> at <i><u>9:10 am of November 19, 1992</u></i> in <i><u>Maternidade Alfredo da Costa</u></i> in <i><u>São Sebastião da Pedreira</u></i> (<i><u>Avenidas Novas</u></i>, <i><u>Lisbon</u></i>, <i><u>Portugal)</u></i>! 👶</font></p>
     </div>
   </div>
 </div>
