@@ -4003,8 +4003,8 @@ active: About Me
   <div class="container right">
     <div class="content">
       <h2>November 1992</h2>
-      <h4><b><i><u>I was born and presented to the whole world!</u></i></b></h4>
-      <p align="justify"><font size="2"><b>I was born and presented to the whole world</b> at <i><u>9:10 am of November 19, 1992</u></i> in <i><u>Maternidade Alfredo da Costa</u></i> in <i><u>São Sebastião da Pedreira</u></i>, <i><u>Lisbon</u></i>, <i><u>Portugal</u></i>! 👶</font></p>
+      <h4><b><i><u>I was born and presented to the whole society and world!</u></i></b></h4>
+      <p align="justify"><font size="2"><b>I was born and presented to the whole society and world</b> under the name <b><i><u>Rúben André Letra Barreiro</u></i></b> at <i><u>9:10 am of November 19, 1992</u></i> in <i><u>Maternidade Alfredo da Costa</u></i> in <i><u>São Sebastião da Pedreira</u></i>, <i><u>Lisbon</u></i>, <i><u>Portugal</u></i>! 👶</font></p>
     </div>
   </div>
 </div>
