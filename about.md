@@ -4038,13 +4038,14 @@ active: About Me
   </div>
   <div class="container right">
     <div class="content">
-      <h2>2012</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
+      <h4>December 1993</h4>
+      <h5><b><i><u>I started to walk to the whole society and world watch!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I started to walk to the whole society and world watch!</b> After many tries and falls, I achieved what seemed impossible at the time, and started to walk alone without anyone's help, for my mother's shock again. 👏</font></p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
-      <h4>December 1993</h4>
+      <h4>October 1993</h4>
       <h5><b><i><u>I spoke my first word to the whole society and world listen!</u></i></b></h5>
       <p align="justify"><font size="2"><b>I spoke my first word to the whole society and world listen!</b> The spoken word was "<i><u>Coca-Cola</u></i>" when I asking my mother for one obviously, for her amazement and joy! This happened while I was hitting the window of drinks and beverages of a local caffe, to getting her attention. 👩‍👦</font></p>
     </div>
