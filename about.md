@@ -150,7 +150,7 @@ active: About Me
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-  left: 15px;
+  left: 12px;
   }
   
   /* Make all right containers behave like the left ones */
@@ -3995,7 +3995,7 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>MSc. (Master) in Computer Science and Engineering</u></i></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>BSc. (Bachelor) in Computer Science and Engineering</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>At FCT NOVA - Faculty of Sciences and Technology of New University of Lisbon</u></i>)</font> ✔️<font size="1">(in 2018)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>BSc. (Bachelor) in Computer Science and Engineering</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at FCT NOVA - Faculty of Sciences and Technology of New University of Lisbon</u></i>)</font> ✔️<font size="1">(in 2018)</font></p>
     
  <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-money-bill-alt faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Buy</b></u></i>:</p>
     
