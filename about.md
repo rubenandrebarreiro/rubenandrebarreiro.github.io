@@ -68,7 +68,7 @@ active: About Me
   width: 25px;
   height: 25px;
   right: -17px;
-  background-color: white;
+  background-color: #000000;
   border: 4px solid #FF9F55;
   top: 15px;
   border-radius: 50%;
