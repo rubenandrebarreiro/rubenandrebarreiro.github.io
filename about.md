@@ -4068,7 +4068,7 @@ active: About Me
     <div class="content">
       <h4>September 2013</h4>
       <h5><b><i><u>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> and get a good final average grade that allows me to enter the <u><i>Academic World</i></u> for the first time, I did it, surprising and shocking everybody! 💪</font></p>
+      <p align="justify"><font size="2"><b>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> (what was horrible for me at the time) and get a good final average grade that allows me to enter the <u><i>Academic World</i></u> for the first time, I did it, surprising and shocking everybody! 💪</font></p>
     </div>
   </div>
   <div class="container right">
