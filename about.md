@@ -3977,13 +3977,17 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My own business/enterprise</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My portfolio/personal blog</u></i> ✔️<font size="1">(in 2018)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My portfolio/personal blog</u></i> ✔️ <font size="1">(in 2018)</font></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Computer programming</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at High School of Monte de Caparica</u></i>)</font> ✔️<font size="1">(in 2009)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My first Research and Development scientific project</u></i> ✔️ <font size="1">(in 2017)</font></p>
+    
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Computer programming</u></i> ✔️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at High School of Monte de Caparica</u></i>)</font> <font size="1">(in 2009)</font></p>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-chalkboard-teacher faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Learn</b></u></i>:</p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>To play piano</u></i></p>
+    
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Japanese</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Spanish</u></i></p>
     
@@ -3991,7 +3995,7 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>French</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>English</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at Elementary/Preparatory School 2.3 of Comandante Conceição e Silva</u></i>)</font> ✔️ <font size="1">(in 2002)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>English</u></i> ✔️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at Elementary/Preparatory School 2.3 of Comandante Conceição e Silva</u></i>)</font> <font size="1">(in 2002)</font></p>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-plane-departure faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Travel to</b></u></i>:</p>
 
@@ -3999,7 +4003,7 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Austria</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Switzerland</u></i> <font size="2">(Visited <i><u>Zurich</u></i>, <i><u>Schwyz</u></i>, <i><u>Luzern</u></i> and <i><u>Basel</u></i>)</font> ✔️ <font size="1">(in 2009)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Switzerland</u></i> ✔️ <font size="2">(Visited <i><u>Zurich</u></i>, <i><u>Schwyz</u></i>, <i><u>Luzern</u></i> and <i><u>Basel</u></i>)</font> <font size="1">(in 2009)</font></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Italy</u></i></p>
     
@@ -4019,7 +4023,7 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>MSc. (Master) in Computer Science and Engineering</u></i></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>BSc. (Bachelor) in Computer Science and Engineering</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at FCT NOVA - Faculty of Sciences and Technology of New University of Lisbon</u></i>)</font> ✔️ <font size="1">(in 2018)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>BSc. (Bachelor) in Computer Science and Engineering</u></i> ✔️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at FCT NOVA - Faculty of Sciences and Technology of New University of Lisbon</u></i>)</font> <font size="1">(in 2018)</font></p>
     
  <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-money-bill-alt faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Buy</b></u></i>:</p>
     
@@ -4032,8 +4036,6 @@ active: About Me
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Do a college's semester/year in a foreign european country, using the ERASMUS' exchange program</u></i></p>
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get the drive license for cars and bikes</u></i></p>
-    
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Participate/collaborate in a Research and Development scientific project</u></i> ✔️ <font size="1">(in 2017)</font></p>
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a tattoo</u></i> ✔️ <font size="1">(in 2014)</font></p>
 
