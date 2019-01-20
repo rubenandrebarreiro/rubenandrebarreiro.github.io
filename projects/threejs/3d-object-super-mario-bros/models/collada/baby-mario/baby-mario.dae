@@ -103,10 +103,10 @@
   </library_lights>
   <library_images>
     <image id="BbMario_Alb_png" name="BbMario_Alb_png">
-      <init_from>images/BbMario_Alb.png</init_from>
+      <init_from>images/bbmario_alb.png</init_from>
     </image>
     <image id="BbMarioEye_Alb_0_png" name="BbMarioEye_Alb_0_png">
-      <init_from>images/BbMarioEye_Alb.0.png</init_from>
+      <init_from>images/bbmarioeye_alb.0.png</init_from>
     </image>
   </library_images>
   <library_effects>
