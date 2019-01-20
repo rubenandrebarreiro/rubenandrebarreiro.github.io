@@ -46,7 +46,7 @@ active: About Me
   content: '';
   position: absolute;
   width: 6px;
-  background-color: white;
+  background-color: #bbbbbb;
   top: 0;
   bottom: 0;
   left: 50%;
