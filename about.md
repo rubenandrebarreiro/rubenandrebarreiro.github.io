@@ -3975,6 +3975,14 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create my own Business</u></i></p>
 
+<p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a Phd. degree in Computer Science area</u></i></p>
+
+<p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a MBA degree</u></i></p>
+
+<p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a MSc. degree in Computer Science area</u></i></p>
+
+<p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a BSc. degree in Computer Science area ✔️</u></i></p>
+
 <p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Start a Research &amp; Development Scientific Project ✔️</u></i></p>
 
 <p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create a Personal/Blog ✔️</u></i></p>
