@@ -3949,7 +3949,7 @@ active: About Me
 </h2>
 <hr/>
 
-<p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I consider myself a high-tech lover! 🤓</p>
+<p align="justify">I'm addicted to <b>technologies</b> and <b>informatics</b>. I consider myself a <b>high-tech lover!</b> 🤓</p>
 
 <p align="justify">I love to <b>programming</b> and <b>coding</b>! 👨‍💻</p>
 
