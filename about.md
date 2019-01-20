@@ -4036,7 +4036,7 @@ active: About Me
     <div class="content">
       <h4>September 2013</h4>
       <h5><b><i><u>I entered to the college (FCT NOVA) to start my Bachelor degree!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I entered to the college (FCT NOVA) to start my Bachelor degree!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> and get the grade that allows me to enter the Academic World for the first time, I did it and surprised everybody! 💪</font></p>
+      <p align="justify"><font size="2"><b>I entered to the college (FCT NOVA) to start my Bachelor degree!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> and get a good final average grade that allows me to enter the <u><i>Academic World</i></u> for the first time, I did it and surprised everybody! 💪</font></p>
   </div>
   <div class="container right">
     <div class="content">
