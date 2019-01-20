@@ -4024,7 +4024,7 @@ active: About Me
     </li>
 </ul>
 
-<p align="justify"><u><i>I love to improve myself constantly. I love to study and learn more and more, everyday! I think it's never late to learn something new and I also think that, I will always feel a little like a student!</i></u> 😊</p>
+<p align="justify"><u><i>I love to <b>improve myself constantly</b>! I love to <b>study</b> and <b>learn</b> more and more, everyday! I think <b>it's never late to learn something</b> new and I also think that, <b>I will always feel a little like a student</b>, no matter how much time passes!</i></u> 😊</p>
 
 <p align="justify">I also have a big interest in <b>design</b>, <b>photography</b>, <b>multimedia</b>, <b>fashion</b>, <b>business</b>, <b>enterprise's management</b>, <b>marketing</b>, <b>drawing</b> and <b>poetry</b>. 😍</p>
 
