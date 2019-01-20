@@ -4034,9 +4034,9 @@ active: About Me
   </div>
   <div class="container left">
     <div class="content">
-      <h2>2015</h2>
-      <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim per, habeo iusto primis ea eam.</p>
-    </div>
+      <h4>September 2013</h4>
+      <h5><b><i><u>I entered to the college (FCT NOVA) to start my Bachelor degree!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I entered to the college (FCT NOVA) to start my Bachelor degree!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> and get the grade that allows me to enter the Academic World for the first time, I did it and surprised everybody! 💪</font></p>
   </div>
   <div class="container right">
     <div class="content">
