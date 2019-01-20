@@ -34,11 +34,6 @@ active: About Me
   box-sizing: border-box;
 }
 
-body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
-}
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;
@@ -4008,7 +4003,7 @@ body {
   <div class="container right">
     <div class="content">
       <h2>November 1992</h2>
-      <p>I was born!</p>
+      <p>I was born at 9:10 am! 😁</p>
     </div>
   </div>
 </div>
