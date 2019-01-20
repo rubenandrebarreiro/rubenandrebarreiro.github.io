@@ -103,10 +103,10 @@
   </library_lights>
   <library_images>
     <image id="BbLuigi_Alb_png" name="BbLuigi_Alb_png">
-      <init_from>images/BbLuigi_Alb.png</init_from>
+      <init_from>images/bbluigi_alb.png</init_from>
     </image>
     <image id="BbLuigiEye_Alb_0_png" name="BbLuigiEye_Alb_0_png">
-      <init_from>images/BbLuigiEye_Alb.0.png</init_from>
+      <init_from>images/bbLuigieye_alb.0.png</init_from>
     </image>
   </library_images>
   <library_effects>
