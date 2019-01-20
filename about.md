@@ -3985,7 +3985,7 @@ active: About Me
 
 
 <h3 id="goals-accomplisments-done-list">
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>To Do List:</u></i></p>
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>Goals/Accomplisments Done:</u></i></p>
 </h3>
 
 <div class="timeline" id="goals-accomplishments-list">
