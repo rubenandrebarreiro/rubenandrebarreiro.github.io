@@ -4031,7 +4031,7 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-bullseye faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Others</b></u></i>:</p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Do volunteer in Africa</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Do volunteering in Africa</u></i></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Do a college's semester/year in a foreign european country, using the ERASMUS' exchange program</u></i></p>
 
