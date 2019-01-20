@@ -4003,7 +4003,7 @@ active: About Me
   <div class="container right">
     <div class="content">
       <h2>November 1992</h2>
-      <p>I was born at 9:10 am! 😁</p>
+      <p>I was born and presented to the world at 9:10 am! 😁</p>
     </div>
   </div>
 </div>
