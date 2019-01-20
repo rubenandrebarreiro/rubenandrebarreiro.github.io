@@ -1836,14 +1836,14 @@ active: Projects
 
 
 <font size="5">
-    <i class="icon-javascript-alt" style="color:Gold" title="3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)"></i>
+    <i class="icon-javascript-alt" style="color:Gold" title="3D Object's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and Present)"></i>
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/threejs/3d-object-solar-system/3d-object-solar-system.html" title="3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)</a>
+    <a target="_blank" href="/projects/threejs/3d-object-solar-system/3d-object-solar-system.html" title="3D Object's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">3D Object's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and Present)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/threejs/3d-object-solar-system/3d-object-solar-system.html" title="3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">A self-made project, using Computer Graphics and 3D Modelling. This project was built using HTML, CSS, JavaScript, WebGL and Three.js. The application gives a vision of our Solar System and all its elements, all using 3D Modelling and 3D Objects. Each element presented (Sun, Planets and Moons) have its respectively information when the mouse hover above of each one!</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/threejs/3d-object-solar-system/3d-object-solar-system.html" title="3D Object's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and Present)">A self-made project, using Computer Graphics and 3D Modelling. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i>, <i>WebGL</i> and <i>Three.js</i>. The application gives a vision of our Solar System and all its elements, all using 3D Modelling and 3D Objects. Each element presented (Sun, Planets and Earth's Moon) have its respectively information when the mouse hover above of each one!</a></font></p>
 
 <br>
 
@@ -1861,7 +1861,31 @@ active: Projects
 <p align="justify">It's currently in development (not finished yet)...</p>
 
 [![3DObjectSolarSystem]({{ site.images | relative_url }}/projects/3d-object-solar-system-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-solar-system-01.jpg)
-<p style="font-size:11px"><i>3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)</i></p>
+<p style="font-size:11px"><i>3D Object's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and Present)</i></p>
+
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<font size="5">
+    <i class="icon-javascript-alt" style="color:Gold" title="3D Object Super Mario Bros. Characters' Demo, using Three.js and 3D Collada Models (Between January 2019 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/projects/threejs/3d-object-super-mario-bros/3d-object-super-mario-bros.html" title="3D Object Super Mario Bros. Characters' Demo, using Three.js and 3D Collada Models (Between January 2019 and Present)">3D Object Super Mario Bros. Characters' Demo, using Three.js and 3D Collada Models (Between January 2019 and Present)</a>
+</font>   
+
+<p align="justify"><font size="2"><a target="_blank" href="/projects/threejs/3d-object-super-mario-bros/3d-object-super-mario-bros.html" title="3D Object's Solar System with Sun, Planets, Moons, Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">A self-made project, using Computer Graphics and 3D Modelling. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i>, <i>WebGL</i>, <i>Three.js</i> and <i>3D Collada Models</i> from the <i>Mario Kart 8</i> videogame for <i>Nitendo Wii U</i>. The application allows to view all the characters present in this videogame from <i>Super Mario Bros.' Universe</i>.</a></font></p>
+
+<br>
+
+<p align="justify">It's currently in development (not finished yet)...</p>
+
+[![3DObjectSuperMarioBros]({{ site.images | relative_url }}/projects/3d-object-super-mario-bros-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-super-mario-bros-01.jpg)
+<p style="font-size:11px"><i>3D Object Super Mario Bros. Characters' Demo, using Three.js and 3D Collada Models (Between January 2019 and Present)</i></p>
 
 
 <br>
