@@ -47,7 +47,6 @@
 		<script src="../common/build/three.js"></script>
 
 		<script src="../common/js/loaders/ColladaLoader.js"></script>
-        <script src="../common/js/loaders/FBXLoader.js"></script>
 		<script src="../common/js/WebGL.js"></script>
 		<script src="../common/js/libs/stats.min.js"></script>
 
@@ -63,14 +62,14 @@
 			var pokemonDemoPivot;
 
 			var loader = new THREE.TextureLoader();
-      loader.setCrossOrigin("");
+            loader.setCrossOrigin("");
 
 			init();
 			animate();
 
 			function init() {
-				container = document.getElementById('container');
-
+                container = document.getElementById('container');
+                
 				camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 0.1, 2000);
 				camera.position.set(1, 6, 15);
 				camera.lookAt(0, 4, 0);
@@ -78,17 +77,18 @@
 				pokedexScene = new THREE.Scene();
 
 				backgroundTexture = loader.load("imgs/background.jpg",
-        	function (texture) {
-          	var image = texture.image;
-            var backgroundWidth= image.width;
-            var backgroundHeight = image.height;
-            onWindowResize();
-          }
-        );
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+            
+                        onWindowResize();
+                    }
+                );
 
-        pokedexScene.background = backgroundTexture;
-        backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
-        backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+                pokedexScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
 
 				clock = new THREE.Clock();
 
@@ -100,13 +100,11 @@
 				var floorCircleMaterial = new THREE.MeshBasicMaterial(
 					{
 						map: grassTexture2,
-            overdraw: 0.5
+                        overdraw: 0.5
 					}
 				);
 
 				var floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
-
-
 
 				pokemonDemoPivot.add(floorCircle);
 
@@ -122,36 +120,12 @@
 
 				// Collada loader
 				var colladaLoader = new THREE.ColladaLoader(loadingManager);
-				colladaLoader.load('models/collada/0025/pikachu-f.dae',
+				colladaLoader.load('models/collada/0025/pikachu-m.dae',
 					function(collada) {
 						bulbasaur = collada.scene;
 					}
 				);
-
-                /*var fbxLoader = new THREE.FBXLoader();
-				fbxLoader.load( 'models/fbx/0025/pikachu-m.fbx', function ( object ) {
-
-					mixer = new THREE.AnimationMixer( object );
-
-					var action = mixer.clipAction( object.animations[ 0 ] );
-					action.play();
-
-					object.traverse( function ( child ) {
-
-						if ( child.isMesh ) {
-
-							child.castShadow = true;
-							child.receiveShadow = true;
-
-						}
-
-					} );
-
-					pokemonDemoPivot.add( object );
-
-				} );*/
-
-                
+               
 				pokedexScene.add(pokemonDemoPivot);
 
 				//
