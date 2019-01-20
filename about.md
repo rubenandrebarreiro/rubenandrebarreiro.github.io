@@ -3974,7 +3974,7 @@ active: About Me
 </h3>
 
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create my own Business</u></i></p>
-&nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Start a Research &amp; Development Scientific Project</u></i></p>
+&nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Start a Research &amp; Development Scientific Project ✔️</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create a Personal/Blog ✔️</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Tattoo ✔️</u></i></p>
 &nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Travel to Switzerland ✔️</u></i></p>
