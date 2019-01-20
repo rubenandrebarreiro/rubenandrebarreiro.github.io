@@ -4007,7 +4007,7 @@ body {
   </div>
   <div class="container right">
     <div class="content">
-      <h2>1992</h2>
+      <h2>November 1992</h2>
       <p>I was born!</p>
     </div>
   </div>
