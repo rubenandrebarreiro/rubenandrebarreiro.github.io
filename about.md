@@ -4040,7 +4040,7 @@ active: About Me
     <i>To Do List and Goals/Accomplishments Done</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-check fa-stack-1x faa-horizontal animated"></i>
+        <i class="fa fa-check fa-stack-1x faa-tada animated"></i>
     </span>
 </h2>
 <hr/>
