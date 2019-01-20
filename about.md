@@ -4003,7 +4003,8 @@ active: About Me
   <div class="container right">
     <div class="content">
       <h2>November 1992</h2>
-      <p>I was born and presented to the world at 9:10 am! 😁</p>
+      <h4><i>I was born</i></h4>
+        <p><font size="2"><b>I was born and presented to the whole world</b> at 9:10 am of November 19, 1992! 😁</font></p>
     </div>
   </div>
 </div>
