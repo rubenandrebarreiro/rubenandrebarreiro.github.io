@@ -2416,7 +2416,7 @@ active: About Me
 						</ul>
 					</li>
                     <li>
-                        <i class="fas fa-chart-area faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm numerical computing environment</u>:
+                        <i class="fas fa-superscript faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm numerical computing environment</u>:
 						<ul>
 							<li>
 								<i>MATLAB (Matrix Laboratory)</i>
