@@ -3960,14 +3960,25 @@ active: About Me
 <br>
 
 
-<h2 id="goals-accomplishments-to-do-list-title">
-    <i>Goals/Accomplishments and To Do List</i>
+<h2 id="to-do-list-goals-accomplishments-title">
+    <i>To Do List and Goals/Accomplishments List</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
         <i class="fa fa-check fa-stack-1x faa-horizontal animated"></i>
     </span>
 </h2>
 <hr/>
+
+<h3 id="to-do-list">
+<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>To Do List:</u></i></p>
+</h3>
+
+&nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create my own Business</u></i></p>
+&nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Start a Research &amp; Development Scientific Project</u></i></p>
+&nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create a Personal/Blog ✔️</u></i></p>
+&nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a Tattoo ✔️</u></i></p>
+&nbsp;&nbsp;<p align="justify"><i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Travel to Switzerland ✔️</u></i></p>
+
 
 <div class="timeline" id="goals-accomplishments-list">
   <div class="container left">
@@ -4002,8 +4013,8 @@ active: About Me
   </div>
   <div class="container right">
     <div class="content">
-      <h2>November 1992</h2>
-      <h4><b><i><u>I was born to be posteriorly, presented to the whole society and world!</u></i></b></h4>
+      <h4>November 1992</h4>
+      <h5><b><i><u>I was born to be posteriorly, presented to the whole society and world!</u></i></b></h5>
       <p align="justify"><font size="2"><b>I was born to be posteriorly, presented to the whole society and world</b> under the name <b><i><u>Rúben André Letra Barreiro</u></i></b> at <i><u>9:10 am of November 19, 1992</u></i> in <i><u>Maternidade Alfredo da Costa</u></i> in <i><u>São Sebastião da Pedreira</u></i>, <i><u>Lisbon</u></i>, <i><u>Portugal</u></i>! 👶</font></p>
     </div>
   </div>
