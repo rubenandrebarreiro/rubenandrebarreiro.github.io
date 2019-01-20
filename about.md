@@ -67,7 +67,7 @@ active: About Me
   position: absolute;
   width: 25px;
   height: 25px;
-  right: -17px;
+  right: -13px;
   background-color: #eee;
   border: 4px solid #FF9F55;
   top: 15px;
@@ -150,7 +150,7 @@ active: About Me
 
   /* Make sure all circles are at the same spot */
   .left::after, .right::after {
-  left: 6px;
+  left: 15px;
   }
   
   /* Make all right containers behave like the left ones */
