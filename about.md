@@ -4134,9 +4134,11 @@ active: About Me
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a tattoo</u></i> ✔️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at Flavius Tattoos - Almada, Setúbal, Portugal</u></i>)</font> <font size="1">(in 2014)</font></p>
 
 
-<br/>
-<br/>
-<br/>
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
 
 
 <h3 id="goals-accomplishments-done-list">
