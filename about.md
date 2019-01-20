@@ -3973,9 +3973,11 @@ active: About Me
 <p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<i><u>To Do List:</u></i></p>
 </h3>
 
-<p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Create my own Business</u></i></p>
+<p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-lightbulb faa-horizontal"></i>&nbsp;&nbsp;<i><u><b>Create</b>:</u></i></p>
 
-<p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a Phd. degree in Computer Science area</u></i></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>My own Business</u></i></p>
+
+<p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u><b>Complete the following degrees</b></u></i>:</p>
 
 <p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Complete a MBA degree</u></i></p>
 
@@ -3992,6 +3994,7 @@ active: About Me
 <p align="justify">&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Travel to Switzerland ✔️</u></i></p>
 
 
+<br/>
 <br/>
 <br/>
 
