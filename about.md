@@ -3991,13 +3991,13 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>French</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>English</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at Elementary/Preparatory School 2.3 of Comandante Conceição e Silva</u></i>)</font> ✔️<font size="1">(in 2002)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>English</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at Elementary/Preparatory School 2.3 of Comandante Conceição e Silva</u></i>)</font> ✔️ <font size="1">(in 2002)</font></p>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-plane-departure faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Travel to</b></u></i>:</p>
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Brazil</u></i></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Switzerland</u></i> <font size="2">(Visited <i><u>Zurich</u></i>, <i><u>Schwyz</u></i>, <i><u>Luzern</u></i> and <i><u>Basel</u></i>)</font> ✔️<font size="1">(in 2009)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Switzerland</u></i> <font size="2">(Visited <i><u>Zurich</u></i>, <i><u>Schwyz</u></i>, <i><u>Luzern</u></i> and <i><u>Basel</u></i>)</font> ✔️ <font size="1">(in 2009)</font></p>
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Germany</u></i></p>
     
@@ -4007,7 +4007,7 @@ active: About Me
     
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Spain</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Porto</u></i> ✔️<font size="1">(in 2018)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Porto</u></i> ✔️ <font size="1">(in 2018)</font></p>
 
 <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-user-graduate faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Complete the following degrees</b></u></i>:</p>
     
@@ -4017,7 +4017,7 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>MSc. (Master) in Computer Science and Engineering</u></i></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>BSc. (Bachelor) in Computer Science and Engineering</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at FCT NOVA - Faculty of Sciences and Technology of New University of Lisbon</u></i>)</font> ✔️<font size="1">(in 2018)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>BSc. (Bachelor) in Computer Science and Engineering</u></i> <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at FCT NOVA - Faculty of Sciences and Technology of New University of Lisbon</u></i>)</font> ✔️ <font size="1">(in 2018)</font></p>
     
  <p align="justify">&nbsp;&nbsp;&nbsp;<i class="fa fa-money-bill-alt faa-horizontal animated"></i>&nbsp;&nbsp;<i><u><b>Buy</b></u></i>:</p>
     
@@ -4031,9 +4031,9 @@ active: About Me
 
     <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get the drive license for cars and bikes</u></i></p>
     
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Participate/collaborate in a Research and Development scientific project</u></i> ✔️<font size="1">(in 2017)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Participate/collaborate in a Research and Development scientific project</u></i> ✔️ <font size="1">(in 2017)</font></p>
 
-    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a tattoo</u></i> ✔️<font size="1">(in 2014)</font></p>
+    <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>Get a tattoo</u></i> ✔️ <font size="1">(in 2014)</font></p>
 
 
 <br/>
