@@ -30,7 +30,7 @@ active: About Me
     border-radius: 12px;
 }
 
-* {
+#goals-accomplishments-list {
   box-sizing: border-box;
 }
 
@@ -3960,7 +3960,7 @@ active: About Me
 <br>
 
 
-<h2 id="goals_accomplishments_title">
+<h2 id="goals-accomplishments-to-do-list-title">
     <i>Goals/Accomplishments and To Do List</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
@@ -3969,7 +3969,7 @@ active: About Me
 </h2>
 <hr/>
 
-<div class="timeline">
+<div class="timeline" id="goals-accomplishments-list">
   <div class="container left">
     <div class="content">
       <h2>2017</h2>
@@ -4003,7 +4003,7 @@ active: About Me
   <div class="container right">
     <div class="content">
       <h2>November 1992</h2>
-      <h4><b><i><u>I was born!</u></i></b></h4>
+      <h4><b><i><u>I was born and presented to the whole world!</u></i></b></h4>
       <p><font size="2"><b>I was born and presented to the whole world</b> at <i>9:10 am of November 19, 1992</i> in <i>Maternidade Alfredo da Costa</i> in <i>São Sebastião da Pedreira</i>, <i>Lisbon</i>, <i>Portugal</i>! 👶</font></p>
     </div>
   </div>
