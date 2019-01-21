@@ -4182,14 +4182,14 @@ active: About Me
     <div class="content">
       <h4>July 2012</h4>
       <h5><b><i><u>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> After 3 years, since I started computer programming for the first time in my life, I could say at the time, and thereafter, that I was officialy an IT/IS Programmer &amp; Technician! 🖱️</font></p>
+      <p align="justify"><font size="2"><b>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> After 3 years, since I started computer programming for the first time in my life, I could say at the time, and thereafter, that I was officialy an <u><i>IT/IS Programmer &amp; Technician</i></u>! 🖱️</font></p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h4>September 2009</h4>
       <h5><b><i><u>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> How I always had a huge interest in Informatics and IT/IS area. So, I decided to enter to this course to complete high school and, at the same time, start to learn about computer programming! 👨‍💻</font></p>
+      <p align="justify"><font size="2"><b>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> How I always had a huge interest in <u>Informatics</u> and <u>IT/IS</u> area. So, I decided to enter to this course to complete high school and, at the same time, start to learn about computer programming! 👨‍💻</font></p>
     </div>
   </div>
   <div class="container right">
