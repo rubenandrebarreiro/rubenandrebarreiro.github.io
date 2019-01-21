@@ -4150,6 +4150,13 @@ active: About Me
 </center>
 
 <div class="timeline" id="goals-accomplishments-list">
+  <div class="container left">
+    <div class="content">
+      <h4>January 2019</h4>
+      <h5><b><i><u>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</u></i></b></h5>
+        <p align="justify"><font size="2"><b>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</b> After a short time in <u><i>Porto</i></u>, I decided to return to <u>Lisbon</u> &amp; <u>Almada</u> to start the <u><i>Master degree</i></u> in <u><i>Computer Engineering</i></u>, to try to achieve another of my personal and academic goals. 🧒</font></p>
+    </div>
+  </div>
   <div class="container right">
     <div class="content">
       <h4>October 2018</h4>
