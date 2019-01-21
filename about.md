@@ -4150,6 +4150,13 @@ active: About Me
 </center>
 
 <div class="timeline" id="goals-accomplishments-list">
+  <div class="container right">
+    <div class="content">
+      <h4>October 2018</h4>
+      <h5><b><i><u>I started working as app designer and developer at U.Porto Media Innovation Labs!</u></i></b></h5>
+        <p align="justify"><font size="2"><b>I started working as app designer and developer at U.Porto Media Innovation Labs!</b> I worked in designing and development the interface of an app for mobile devices' <u><i>Android</i></u> and <u><i>iOS</i></u> operative systems called "<u><i>Everyone Is a Hero</i></u>". This mobile app was designed in <u><i>Adobe Illustrator</i></u> and <u><i>Adobe Photoshop</i></u>, and was developed in <u><i>Unity 3D</i></u>. The "<u><i>Everyone Is a Hero</i></u>" app was developed with the collaboration of <u><i>Faculty of Engineering of University of Porto (FEUP)</i></u>, <u><i>U.Porto Media Innovation Labs</i></u> and <u><i>Bright Digital</i></u>. This app aims to offer interactive and appellative support and information to families, educators and volunteers of children who suffer of cancer diseases. Other goal of this app, it's to, in a near future, be linked to the video game app for these same children, called <u><i>"Hope"</i></u>, that's being also developed by <u><i>Bright Digital</i></u>. 🧒</font></p>
+    </div>
+  </div>
   <div class="container left">
     <div class="content">
       <h4>July 2018</h4>
