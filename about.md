@@ -4181,7 +4181,7 @@ active: About Me
   <div class="container right">
     <div class="content">
       <h4>July 2012</h4>
-      <h5><b><i><u>I finished my Professional Course of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
+      <h5><b><i><u>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
       <p align="justify"><font size="2"><b>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> After 3 years, since I started computer programming for the first time in my life, I could say at the time and from then, that I was officialy an IT/IS Programmer &amp; Technician! 🖱️</font></p>
     </div>
   </div>
