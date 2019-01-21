@@ -4173,6 +4173,20 @@ active: About Me
   </div>
   <div class="container right">
     <div class="content">
+      <h4>July 2012</h4>
+      <h5><b><i><u>I finished my Professional Course of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> After 3 years, since I started computer programming for the first time in my life, I could say at the time and from then, that I was officialy an IT/IS Programmer &amp; Technician! 🖱️</font></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h4>September 2009</h4>
+      <h5><b><i><u>I started my Professional Course of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> How I always had a huge interest in Informatics and IT/IS area. So, I decided to enter to this course to complete high school, while that, at the same time, start to learn about computer programming! 👨‍💻</font></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
       <h4>December 1993</h4>
       <h5><b><i><u>I started to walk to the whole society and world watch!</u></i></b></h5>
       <p align="justify"><font size="2"><b>I started to walk to the whole society and world watch!</b> After many tries and falls, I achieved what seemed impossible at the time, and started to walk alone without anyone's help, for my mother's shock again. 👏</font></p>
