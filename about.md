@@ -4154,7 +4154,7 @@ active: About Me
     <div class="content">
       <h4>January 2019</h4>
       <h5><b><i><u>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</b> After a short time in <u><i>Porto</i></u>, I decided to return to <u>Lisbon</u> and <u>Almada</u> to start the <u><i>Master degree</i></u> in <u><i>Computer Engineering</i></u>, to try to achieve another of my personal and academic goals. 👨‍🎓</font></p>
+        <p align="justify"><font size="2"><b>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</b> After a short time in <u><i>Porto</i></u>, I decided to return to <u><i>Lisbon</i></u> and <u><i>Almada</i></u>, to start the <u><i>Master degree</i></u> in <u><i>Computer Engineering</i></u>, to try to achieve another of my personal and academic goals. 👨‍🎓</font></p>
     </div>
   </div>
   <div class="container right">
@@ -4168,63 +4168,63 @@ active: About Me
     <div class="content">
       <h4>July 2018</h4>
       <h5><b><i><u>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</b> <u><i>After so much hardwork, effort and a ton of hours studying, I achieved one of my greatest ambitions of all time! I finally, finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Engineering of New University of Lisbon) with a final average grade of 15 of 20</i></u>. I finished this <i>Bachelor degree</i> with <i>180 ECTSs completed</i>, <i>1 R&amp;D project</i> made and many other personal/professional achievements. 👨‍🎓</font></p>
+        <p align="justify"><font size="2"><b>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</b> <u><i>After so much hardwork, effort and a ton of hours studying, I achieved one of my greatest ambitions of all time! I finally, finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Engineering of New University of Lisbon) with a final average grade of 15 of 20</i></u>. I finished this <u><i>Bachelor degree</i></u> with <u><i>180 ECTSs completed</i></u>, <u><i>1 R&amp;D project</i></u> made and <u><i>many other personal/professional achievements</i></u>. 👨‍🎓</font></p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h4>February 2017</h4>
       <h5><b><i><u>I started my first Research and Development Scientific Project at NOVA LINCS (FCT NOVA), during my Bachelor degree!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I started my first Research and Development Scientific Project at NOVA LINCS (FCT NOVA), during my Bachelor degree!</b> In the <i>3rd year</i> of my <i>Bachelor degree</i>, it was proposed to work in a <i><u>Department's Research and Development Scientific Project</u></i>. I choosed to work in <i>R&amp;D</i> project called <i><u>Hyrax</u></i>, that was related with <i>Computer and Mobile (3G and 4G) Networks</i>, <i>Distributed Systems</i> and <i>Cloud Computing Systems</i>, most specifically in <i>Edge Computing</i>. This <i>R&amp;D</i> project, in addition to the participation of <i><u>FCT NOVA</u></i>, also had the main participations of <i><u>FCUP (Faculty of Sciences of University of Porto)</u></i> and <i><u>CS-CMU (Carnegie Mellon University's School of Computer Science)</u></i>, among many <i><u>other scientific/industrial collaborations</u></i>. My project was a smaller part/section of the <i><u>Hyrax</u></i> project, called <i><u>DiCE (Distributed Computing at the Edge)</u></i>. My project was supervised by <i><u>Hervé Paulino</u></i> and I finished my participation on this <i>R&amp;D</i> project with a <i>17 of 20</i> final grade. 🔍</font></p>
+        <p align="justify"><font size="2"><b>I started my first Research and Development Scientific Project at NOVA LINCS (FCT NOVA), during my Bachelor degree!</b> In the <u><i>3rd year</i></u> of my <u><i>Bachelor degree</i></u>, it was proposed to work in a <u><i>Department's Research and Development Scientific Project</i></u>. I choosed to work in <u><i>R&amp;D</i></u> project called <u><i>Hyrax</i></u>, that was related with <u><i>Computer and Mobile (3G and 4G) Networks</i></u>, <u><i>Distributed Systems</i></u> and <u><i>Cloud Computing Systems</i></u>, most specifically in <u><i>Edge Computing</i></u>. This <u><i>R&amp;D project</i></u>, in addition to the participation of <u><i>FCT NOVA</i></u>, also had the main participations of <u><i>FCUP (Faculty of Sciences of University of Porto)</i></u> and <u><i>CS-CMU (Carnegie Mellon University's School of Computer Science)</i></u>, among many <u><i>other scientific/industrial collaborations</i></u>. My project was a smaller part/section of the <u><i>Hyrax</i></u> project, called <u><i>DiCE (Distributed Computing at the Edge)</i></u>. My project was supervised by <u><i>Hervé Paulino</i></u> and I finished my participation on this <u><i>R&amp;D</i></u> project with a <u><i>17 of 20</i></u> final grade. 🔍</font></p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h4>September 2013</h4>
       <h5><b><i><u>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</b> After so much work and study to pass through the <u><i>Math's Exam</i></u> (what was horrible for me at the time) and get a good final average grade that allows me to enter the <u><i>Academic World</i></u> for the first time, I did it, surprising and shocking everybody! 💪</font></p>
+      <p align="justify"><font size="2"><b>I entered to the college (Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA) to start my Bachelor degree in Computer Sciences and Engineering!</b> <u><i>After so much work and study to pass through the Math's Exam</i></u> (what was horrible for me at the time) and get a good final average grade that allows me to enter the <u><i>Academic World</i></u> for the first time, I did it, surprising and shocking everybody! 💪</font></p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h4>July 2012</h4>
       <h5><b><i><u>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> After 3 years, since I started computer programming for the first time in my life, I could say at the time, and thereafter, that I was officialy an <u><i>IT/IS Programmer &amp; Technician</i></u>! 🖱️</font></p>
+      <p align="justify"><font size="2"><b>I finished my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> <u><i>After 3 years, since I started computer programming for the first time in my life</i></u>, I could say at the time, and thereafter, that I was officialy an <u><i>IT/IS Programmer &amp; Technician</i></u>! 🖱️</font></p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h4>September 2009</h4>
       <h5><b><i><u>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> How I always had a huge interest in <u>Informatics</u> and <u>IT/IS</u> area. So, I decided to enter to this course to complete high school and, at the same time, start to learn about computer programming! 👨‍💻</font></p>
+        <p align="justify"><font size="2"><b>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> How <u><i>I always had a huge interest</i></u> in <u>Informatics</u> and <u>IT/IS</u> area. So, I decided to enter to this course to <u><i>complete high school</i></u> and, at the same time, <u><i>start to learn about computer programming</i></u>! 👨‍💻</font></p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h4>March 1999</h4>
       <h5><b><i><u>I lost my first milk-tooth as happens to every child!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I lost my first milk-tooth as happens to every child!</b> When I was 6 year old, I started to say goodbye to my child dentition. I asked a wish to the tooth fairy and put my lost tooth under the cushion in my bed hoping she would make it come true but she never did, for my sadness at the time! 🧚</font></p>
+        <p align="justify"><font size="2"><b>I lost my first milk-tooth as happens to every child!</b> When <u><i>I was 6 year old, I started to say goodbye to my child dentition</i></u>. <u><i>I asked a wish to the tooth fairy</i></u> and put my lost tooth under the cushion in my bed <u><i>hoping she would make it come true but she never did</i></u>, for my sadness at the time! 🧚</font></p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h4>September 1998</h4>
       <h5><b><i><u>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</b> Was here, where I learn to count numbers and meet the alphabet, among other many basic things, for the first time in my life! 🧒</font></p>
+        <p align="justify"><font size="2"><b>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</b> Was here, where <u><i>I learn to count numbers</i></u> and <u><i>met the alphabet</i></u>, <u><i>among other many basic things</i></u>, for the first time in my life! 🧒</font></p>
     </div>
   </div>
   <div class="container right">
     <div class="content">
       <h4>December 1993</h4>
       <h5><b><i><u>I started to walk to the whole society and world watch!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I started to walk to the whole society and world watch!</b> After many tries and falls, I achieved what seemed impossible at the time, and started to walk alone without anyone's help, for my mother's shock again. 👏</font></p>
+        <p align="justify"><font size="2"><b>I started to walk to the whole society and world watch!</b> <u><i>After many tries and falls</i></u>, I achieved what seemed impossible at the time, and <u><i>started to walk alone without anyone's help</i></u>, for my mother's shock again. 👏</font></p>
     </div>
   </div>
   <div class="container left">
     <div class="content">
       <h4>October 1993</h4>
       <h5><b><i><u>I spoke my first word to the whole society and world listen!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I spoke my first word to the whole society and world listen!</b> The spoken word was "<i><u>Coca-Cola</u></i>" when I asking my mother for one obviously, for her amazement and joy! This happened while I was hitting the window of drinks and beverages of a local caffe, to getting her attention. 👩‍👦</font></p>
+        <p align="justify"><font size="2"><b>I spoke my first word to the whole society and world listen!</b> The spoken word was "<i><u>Coca-Cola</u></i>" when I asking my mother for one obviously, for her amazement and joy! This happened <u><i>while I was hitting the window of drinks and beverages of a local caffe, to getting her attention</i></u>. 👩‍👦</font></p>
     </div>
   </div>
   <div class="container right">
