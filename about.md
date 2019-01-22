@@ -4203,7 +4203,7 @@ active: About Me
     <div class="content">
       <h4>March 1999</h4>
       <h5><b><i><u>I lost my first milk-tooth as happens to every child!</u></i></b></h5>
-      <p align="justify"><font size="2"><b>I lost my first milk-tooth as happens to every child!</b> When I was 6 year old, I started to say goodbye to my child dentition, for my sadness at the time! 🦷</font></p>
+      <p align="justify"><font size="2"><b>I lost my first milk-tooth as happens to every child!</b> When I was 6 year old, I started to say goodbye to my child dentition. I asked a wish to the tooth fairy and put my lost tooth under the cushion in my bed hoping she would make it come true but she never did, for my sadness at the time! 🧚</font></p>
     </div>
   </div>
   <div class="container left">
