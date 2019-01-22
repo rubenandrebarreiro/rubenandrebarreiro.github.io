@@ -4077,7 +4077,7 @@ active: About Me
 
 <p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>French</u></i></p>
     
-<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>English</u></i> ✔️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at Elementary/Preparatory School 2.3 of Comandante Conceição e Silva</u></i>)</font> <font size="1">(in 2002)</font></p>
+<p align="justify">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-caret-right"></i>&nbsp;&nbsp;<i><u>English</u></i> ✔️ <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font size="2">(<i><u>at Middle/Preparatory School 2.3 of Comandante Conceição e Silva</u></i>)</font> <font size="1">(in 2002)</font></p>
 
 
 
@@ -4197,6 +4197,20 @@ active: About Me
       <h4>September 2009</h4>
       <h5><b><i><u>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</u></i></b></h5>
       <p align="justify"><font size="2"><b>I started my Professional Course of Technician of Programming and Management of Computer Systems in High School of Monte de Caparica!</b> How I always had a huge interest in <u>Informatics</u> and <u>IT/IS</u> area. So, I decided to enter to this course to complete high school and, at the same time, start to learn about computer programming! 👨‍💻</font></p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h4>March 1999</h4>
+      <h5><b><i><u>I lost my first milk-tooth as happens to every child!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I lost my first milk-tooth as happens to every child!</b> When I was 6 year old, I started to say goodbye to my child dentition, for my sadness at the time! 🦷</font></p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h4>September 1998</h4>
+      <h5><b><i><u>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</u></i></b></h5>
+      <p align="justify"><font size="2"><b>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</b> Was here, where I learn to count numbers and meet the alphabet, among other many basic things, for the first time in my life! 🧒</font></p>
     </div>
   </div>
   <div class="container right">
