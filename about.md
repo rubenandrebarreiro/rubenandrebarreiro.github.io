@@ -4210,7 +4210,7 @@ active: About Me
     <div class="content">
       <h4>September 1998</h4>
       <h5><b><i><u>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</b> Was here, where <u><i>I learn to count numbers</i></u> and <u><i>met the alphabet</i></u>, <u><i>among other many basic things</i></u>, for the first time in my life! 🧒</font></p>
+        <p align="justify"><font size="2"><b>I started my 1st grade at Elementary School Nº. 1 of Cova da Piedade!</b> Was here, where <u><i>I learn to count numbers</i></u> and <u><i>met the alphabet</i></u>, <u><i>among other many basic and elementary things</i></u>, for the first time in my life! 🧒</font></p>
     </div>
   </div>
   <div class="container right">
