@@ -4154,7 +4154,7 @@ active: About Me
     <div class="content">
       <h4>January 2019</h4>
       <h5><b><i><u>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</b> After a short time in <u><i>Porto</i></u>, I decided to return to <u>Lisbon</u> &amp; <u>Almada</u> to start the <u><i>Master degree</i></u> in <u><i>Computer Engineering</i></u>, to try to achieve another of my personal and academic goals. 🧒</font></p>
+        <p align="justify"><font size="2"><b>I started my Master degree in Computer Engineering at Faculty of Sciences and Technology of New University of Lisbon - FCT NOVA!</b> After a short time in <u><i>Porto</i></u>, I decided to return to <u>Lisbon</u> and <u>Almada</u> to start the <u><i>Master degree</i></u> in <u><i>Computer Engineering</i></u>, to try to achieve another of my personal and academic goals. 👨‍🎓</font></p>
     </div>
   </div>
   <div class="container right">
@@ -4168,7 +4168,7 @@ active: About Me
     <div class="content">
       <h4>July 2018</h4>
       <h5><b><i><u>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</b> <u><i>After so much hardwork, effort and a ton of hours studying, I achieved one of my greatest ambitions of all time! I finally, finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Engineering of New University of Lisbon) with a final average grade of 15 of 20</i></u>. I finished this <i>Bachelor degree</i> with <i>180 ECTSs</i> completed, 1 <i>R&amp;D</i> project made and many other personal/professional achievements. 👨‍🎓</font></p>
+        <p align="justify"><font size="2"><b>I finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)!</b> <u><i>After so much hardwork, effort and a ton of hours studying, I achieved one of my greatest ambitions of all time! I finally, finished my Bachelor degree in Computer Sciences and Engineering at FCT NOVA (Faculty of Sciences and Engineering of New University of Lisbon) with a final average grade of 15 of 20</i></u>. I finished this <i>Bachelor degree</i> with <i>180 ECTSs completed</i>, <i>1 R&amp;D project</i> made and many other personal/professional achievements. 👨‍🎓</font></p>
     </div>
   </div>
   <div class="container right">
