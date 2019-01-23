@@ -2996,7 +2996,7 @@ active: About Me
 				</ul>
 			</li>
 			<li>
-				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs & programming tools:</b></p>
+				<p align="justify"><i class="fas fa-toolbox faa-horizontal animated"></i>&nbsp;&nbsp;<b>IDEs &amp; programming tools:</b></p>
         			<ul>
 					<li>
 						<i class="fas fa-terminal faa-horizontal animated"></i>&nbsp;&nbsp;<i>Turbo Pascal</i>
@@ -3557,6 +3557,19 @@ active: About Me
                                     </li>
                                 </ul>
                             </li>
+                            <li>
+                            </li>
+                                <i class="fas fa-chart-pie faa-horizontal animated"></i>&nbsp;&nbsp;<u>Building of interactive diagrams and graphs on the Web</u>:
+                                <ul>
+                                    <li>
+                                        <i>GoJS</i>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                        <span class="fa fa-star"></span>
+                                    </li>
+                                </ul>
                             <li>
                                 <i class="fas fa-dice-d6 faa-horizontal animated"></i>&nbsp;&nbsp;<u>Web cross-browser creation and displaying of animated 3D computer graphics</u>:
                                 <ul>
