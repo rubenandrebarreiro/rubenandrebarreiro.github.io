@@ -2413,6 +2413,22 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
+                            <li>
+								<i>Lua</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+                            <li>
+								<i>Perl</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
 						</ul>
 					</li>
                     <li>
@@ -4202,8 +4218,8 @@ active: About Me
   <div class="container right">
     <div class="content">
       <h4>March 1999</h4>
-      <h5><b><i><u>I lost my first milk-tooth as happens to every child!</u></i></b></h5>
-        <p align="justify"><font size="2"><b>I lost my first milk-tooth as happens to every child!</b> When <u><i>I was 6 year old, I started to say goodbye to my child dentition</i></u>. <u><i>I asked a wish to the tooth fairy</i></u> and put my lost tooth under the cushion in my bed <u><i>hoping she would make it come true but she never did</i></u>, for my sadness at the time! 🧚</font></p>
+      <h5><b><i><u>I lost my first milk-tooth, as happens to every child!</u></i></b></h5>
+        <p align="justify"><font size="2"><b>I lost my first milk-tooth, as happens to every child!</b> When <u><i>I was 6 year old, I started to say goodbye to my child dentition</i></u>. <u><i>I asked a wish to the tooth fairy</i></u> and put my lost tooth under the cushion in my bed <u><i>hoping she would make it come true but she never did</i></u>, for my sadness at the time! 🧚</font></p>
     </div>
   </div>
   <div class="container left">
