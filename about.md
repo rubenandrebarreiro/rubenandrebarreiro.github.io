@@ -2959,6 +2959,19 @@ active: About Me
 							</li>
 						</ul>
 					</li>
+                    <li>
+						<i class="fas fa-atom faa-horizontal animated"></i>&nbsp;&nbsp;<u>Open-source framework for working with noisy quantum computers at the level of pulses, processors, circuits, and algorithms</u>:
+						<ul>
+                            <li>
+								<i>QISKit</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+						</ul>
+					</li>
 				</ul>
 			</li>
             <li>
@@ -3516,7 +3529,7 @@ active: About Me
                                 </ul>
                             </li>
                             <li>
-                                <i class="fas fa-atom faa-horizontal animated"></i>&nbsp;&nbsp;<u>Functional reactive programming</u>:
+                                <i class="fab fa-react faa-horizontal animated"></i>&nbsp;&nbsp;<u>Functional reactive programming</u>:
                                 <ul>
                                     <li>
                                         <i>Bacon.js</i>
