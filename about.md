@@ -4023,10 +4023,13 @@ active: About Me
         <b><i><u>Internet &amp; Computer Network's Security</u></i></b>
     </li>
     <li>
+        <b><i><u>Cybersecurity</u></i></b>
+    </li>
+    <li>
         <b><i><u>Artificial Intelligence</u></i></b>
     </li>
     <li>
-        <b><i><u>Machine Learning</u></i></b>
+        <b><i><u>Machine and Deep Learning</u></i></b>
     </li>
     <li>
         <b><i><u>Data Mining</u></i></b>
