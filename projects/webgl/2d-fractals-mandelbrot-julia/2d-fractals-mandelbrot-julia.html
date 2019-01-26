@@ -1,117 +1,261 @@
-<!-- Computer Graphics and Interfaces 2016-2017 -->
+<!-- FCT NOVA | FCT-UNL (Faculty of Sciences and Technology of New University of Lisbon) -->
+<!-- Integrated Master (BSc./MSc.) of Computer Engineering -->
 
-<!-- Lab Work 1 - Fractals - Sets of Mandelbrot and Julia -->
+<!-- Computer Graphics and Interfaces (2016-2017) -->
 
-<!-- 45404 Daniel Pimenta d.pimenta@campus.fct.unl.pt -->
-<!-- 42648 Ruben Barreiro r.barreiro@campus.fct.unl.pt -->
+<!-- Lab Work 1 - Fractals - Benoit Mandelbrot & Gaston Julia Sets -->
+
+<!-- Daniel Filipe Pimenta - no. 45404 - d.pimenta@campus.fct.unl.pt -->
+<!-- Ruben André Barreiro - no. 42648 - r.barreiro@campus.fct.unl.pt -->
 
 
 <!DOCTYPE html>
 <html>
 <head>
 
-<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"/>
-    
-<script id="vertex-shader" type="x-shader/x-vertex">
+  <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"/>
+
+  <script id="vertex-shader" type="x-shader/x-vertex">
         uniform float scale;
         uniform vec2 center;
-        
+
         attribute vec4 vPosition;
         varying vec2 fPosition;
-	
+
         void main() {
             gl_Position = vPosition;
             fPosition = vec2(center.x+vPosition.x/scale, center.y+vPosition.y/scale);
-        }   
-</script>
-    
-<script id="fragment-shader" type="x-shader/x-fragment">
+        }
+  </script>
+
+  <script id="fragment-shader" type="x-shader/x-fragment">
         precision mediump float;
-        
+
         uniform float factor;
         uniform vec2 c;
         uniform bool mandelbrot;
-	
-        const int maxiterations = 100; 
-        
+
+        const int maxiterations = 100;
+
         varying vec2 fPosition;
-        
+
         int fractal(vec2 z0, vec2 c) {
             vec2 z = z0;
             for (int i = 0; i < maxiterations; i++) {
-                z = vec2(z.x * z.x - z.y * z.y, z.x * z.y + z.x * z.y) + c; 
+                z = vec2(z.x * z.x - z.y * z.y, z.x * z.y + z.x * z.y) + c;
                 if (z.x * z.x + z.y * z.y > 4.0)
                     return i;
             }
             return -1;
         }
-        
+
         vec3 paletize(float v, float factor) {
-            if (v < 0.0) 
+            if (v < 0.0)
                 return vec3(0);
             float vv = v * factor;
             return vec3(sin(vv/3.0), cos(vv/6.0), cos(vv/(12.0+3.14/4.0)));
         }
-        
-        void main() { 
+
+        void main() {
             vec2 z0 = mandelbrot ? c : fPosition;
             vec2 c0 = mandelbrot ? fPosition : c;
 
             int color_index = fractal(z0, c0);
             vec3 color = paletize(float(color_index), factor);
-            
+
             gl_FragColor = vec4(color, 1.0);
         }
-</script>
-    
-<script type="text/javascript" src="2d-fractals-mandelbrot-julia.js"></script>
-<script type="text/javascript" src="../common/webgl-utils.js"></script>
-<script type="text/javascript" src="../common/initShaders.js"></script>
-<script type="text/javascript" src="../common/MV.js"></script>
-    
+  </script>
+
+  <script type="text/javascript" src="2d-fractals-mandelbrot-julia.js"></script>
+  <script type="text/javascript" src="../common/webgl-utils.js"></script>
+  <script type="text/javascript" src="../common/initShaders.js"></script>
+  <script type="text/javascript" src="../common/MV.js"></script>
+
+  <style>
+      body {
+        color: #000;
+        font-family:Tahoma;
+        font-size:13px;
+        font-weight: bold;
+        background-color: #000000;
+        background-image: url("imgs/background.jpg");
+      }
+
+      #container {
+        position: absolute;
+        border-radius: 5px;
+      }
+
+			#workDescription {
+				background:#eeeeee;
+        position: absolute;
+				left: 8px; top: 550px;
+        padding:0;
+				margin:0;
+				overflow:hidden;
+        width: 512px;
+        border-radius: 5px;
+        text-align: center;
+			}
+
+      #authorsInfo {
+				background:#eeeeee;
+        position: absolute;
+				left: 8px; top: 794px;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+        width: 512px;
+        border-radius: 5px;
+        text-align: center;
+			}
+
+      #instructions {
+				background:#eeeeee;
+        position: absolute;
+				left: 540px; top: 24px;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+        width: 600px;
+        border-radius: 5px;
+        text-align: center;
+			}
+
+      #settings {
+				background:#eeeeee;
+        position: absolute;
+				left: 540px; top: 176px;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+        width: 600px;
+        border-radius: 5px;
+        text-align: center;
+			}
+
+      #juliaSetInfo {
+				background:#eeeeee;
+        position: absolute;
+				left: 540px; top: 404px;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+        width: 600px;
+        border-radius: 5px;
+        text-align: justify;
+			}
+
+      #mandelbrotSetInfo {
+				background:#eeeeee;
+        position: absolute;
+				left: 1160px; top: 24px;
+				padding:0;
+				margin:0;
+				overflow:hidden;
+        width: 740px;
+        border-radius: 5px;
+        text-align: justify;
+			}
+
+			a {
+				color: #35b0ab;
+			}
+	</style>
+
 </head>
-    
+
 <body>
-    <title>Fractals - Benoit Mandelbrot & Gaston Julia</title>
-    
+    <title>Fractals - Benoit Mandelbrot &amp; Gaston Julia Sets</title>
+
     <br>
-    <div id="container" style="display: inline-block">
-    <canvas id="gl-canvas" width="512" height="512">
+    <div id="container" style="display: inline-block; vertical-align: top">
+      <canvas id="gl-canvas" width="512" height="512" style="border-radius: 5px;">
         Oops... your browser doesn't support the HTML5 canvas element"
-    </canvas>
-   
-    <h3>Computer Science and Engineering Integrated MSc. <i>(FCT NOVA | FCT/UNL)</i></h3>
-    <h4>Computer Graphics and Interfaces - Lab Work 1</h4>
+      </canvas>
     </div>
-        
-    <div id="authorsInstructionsFactorsAndSets" style="display: inline-block; vertical-align: top">    
-        <h2>Authors:
-            <br>
-            - <u><i>R&uacute;ben Andr&eacute; Barreiro</i></u> - no. 42648
-            <br>
-            - <u><i>Daniel Pimenta</i></u> - no. 45404
+
+    <br/>
+    <br/>
+
+    <div id="workDescription">
+      <h2>
+        <a href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science">
+          Computer Science and Engineering
+          <br/>
+          Integrated Master
+        </a>
+      </h2>
+      <h3>
+        @ <a href="https://www.fct.unl.pt/en"><i>FCT NOVA | FCT/UNL
+        <br/>
+        (Faculty of Sciences and Technology of New University of Lisbon)</i></a>
+      </h3>
+
+      <br/>
+
+      <h3>
+        <a href="http://www.unl.pt/guia/2018/fct/UNLGI_getUC?uc=8150">
+          Computer Graphics and Interfaces
+        </a>
+      </h3>
+      <h4>
+        Lab Work 1 (<a href="https://en.wikipedia.org/wiki/Fractal">Fractals</a> - <a href="https://en.wikipedia.org/wiki/Benoit_Mandelbrot">Benoit Mandelbrot</a> &amp; <a href="https://en.wikipedia.org/wiki/Gaston_Julia">Gaston Julia</a> Sets)
+      </h4>
+    </div>
+
+    <div id="authorsInfo">
+        <h2>
+          Authors/Contributors
         </h2>
-        
-        <b>Instructions:</b>
+        <h3>
+          <u><i>R&uacute;ben Andr&eacute; Barreiro</i></u>
+        </h3>
+        <h4>
+          no. 42648 (<a href="mailto:r.barreiro@campus.fct.unl.pt">r.barreiro@campus.fct.unl.pt</a>)
+        </h4>
+
+        <h3>
+          <u><i>Daniel Filipe Pimenta</i></u>
+        </h3>
+        <h4>
+          no. 45404 (<a href="mailto:d.pimenta@campus.fct.unl.pt">d.pimenta@campus.fct.unl.pt</a>)
+        </h4>
+    </div>
+
+    <div id="instructions">
+        <h2>
+          Instructions
+        </h2>
         <font size="2">
-            <br>
-                - Use <b><i>'Q'</i></b> and <b><i>'A'</i></b> keys dive/emerge. Use <b><i>click/drag/release</i></b> in the canvas to move center point;
-            <br>
-                - Choose the current <b><i>Fractal's Set</i></b> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
-            <br>
-                - Choose also the current <i>Factor</i> to the <i>Scale</i> of the current <b><i>Fractal</i></b> in use;
-            <br>
+              - Use <b><i>'Q'</i></b> and <b><i>'A'</i></b> keys dive/emerge;
+            <br/>
+              - Use <b><i>click/drag/release</i></b> in the canvas to move center point;
+            <br/>
+              - Choose the current <b><i>Fractal's Set</i></b> in use (<i>Benoit Mandelbrot</i> or <i>Gaston Julia</i>);
+            <br/>
+              - Choose also the current <i>Factor</i> to the <i>Scale</i> of the current <b><i>Fractal</i></b> in use;
+            <br/>
+            <br/>
         </font>
-        
-        <br>
-        <br>
-        
-        <b>Settings/Adjustments:</b>
-        <br>
-        <b>Factor:</b> <input id="factor" type="range" min="0.00" max="2.00" step="0.01" value="1.0">
-        <br>
-        <b>Fractal type:</b> 
-        <select id="fractal">
+    </div>
+
+    <div id="settings">
+        <h2>
+          Settings/Adjustments
+        </h2>
+        <b>Factor</b>
+        <br/>
+        <br/>
+        <input id="factor" type="range" min="0.00" max="2.00" step="0.01" value="1.0">
+        <br/>
+        <br/>
+        <br/>
+        <b>Fractal type</b>
+        <br/>
+        <br/>
+        &nbsp;&nbsp;<select id="fractal">
             <option>Mandelbrot</option>
             <option>Julia c=-0.4+0.6i</option>
             <option>Julia c=0.285+0i</option>
@@ -123,7 +267,73 @@
             <option>Julia c=-0.70176-0.3842i</option>
             <option>Julia c=-0.835-0.2321i</option>
         </select>
-    </div>    
-    
+        <br/>
+        <br/>
+    </div>
+
+    <div id="juliaSetInfo">
+        <h2 style="padding-left: 20px;">
+          Julia Set
+        </h2>
+
+        <img src="imgs/julia-set.jpg" alt="Julia Set" style="padding-left: 20px;padding-right: 20px;" height="200" width="200">
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          In the context of complex dynamics, a topic of mathematics, the <i>Julia</i> set and the <i>Fatou</i> set are two complementary sets (<i>Julia</i> "laces" and <i>Fatou</i> "dusts") defined from a function. Informally, the <i>Fatou</i> set of the function consists of values with the property that all nearby values behave similarly under repeated iteration of the function, and the <i>Julia</i> set consists of values such that an arbitrarily small perturbation can cause drastic changes in the sequence of iterated function values. Thus the behavior of the function on the <i>Fatou</i> set is "regular", while on the <i>Julia</i> set its behavior is "chaotic".
+        </p>
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          The <i>Julia</i> set of a function <i>f</i> is commonly denoted <i>J(f)</i>, and the <i>Fatou</i> set is denoted <i>F(f)</i>. These sets are named after the French mathematicians <i>Gaston Julia</i> and <i>Pierre Fatou</i> whose work began the study of complex dynamics during the early 20th century.
+        </p>
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          <font size="2"><i>Source: <a href="https://en.wikipedia.org/wiki/Julia_set">Wikipedia</a></i></font>
+        </p>
+    </div>
+
+    <div id="mandelbrotSetInfo">
+        <h2 style="padding-left: 20px;">
+          Mandelbrot Set
+        </h2>
+
+        <img src="imgs/mandelbrot-set.jpg" alt="Mandelbrot Set" style="padding-left: 20px;padding-right: 20px;" height="300" width="400">
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          The <i>Mandelbrot</i> set is the set of complex numbers <i>c</i> for which the function
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;<i>f<sub>c</sub>(z) = z<sup>2</sup> + c</i>
+          <br/>
+          doesn't diverge when iterated from <i>z = 0</i>, i.e., for which the sequence
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;<i>f<sub>c</sub>(0)</i>, <i>f<sub>c</sub>(f<sub>c</sub>(0))</i>, etc., remains bounded in absolute value.
+        </p>
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          Its definition and name are due to <i>Adrien Douady</i>, in tribute to the mathematician <i>Benoit Mandelbrot</i>. The set is connected to a <i>Julia</i> set, and related <i>Julia</i> sets produce similarly complex fractal shapes.
+        </p>
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          <i>Mandelbrot</i> set images may be created by sampling the complex numbers and testing, for each sample point <i>c</i>, whether the sequence
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;<i>f<sub>c</sub>(0), f<sub>c</sub>(f<sub>c</sub>(0))</i>, ... goes to infinity (in practice, whether it leaves some predetermined bounded neighborhood of 0 after a predetermined number of iterations).
+          <br/>
+          Treating the real and imaginary parts of <i>c</i> as image coordinates on the complex plane, pixels may then be coloured according to how soon the sequence
+          <br/>
+          &nbsp;&nbsp;&nbsp;&nbsp;<i>|f<sub>c</sub>(0)|</i>, <i>|f<sub>c</sub>(f<sub>c</sub>(0))|</i>, ... crosses an arbitrarily chosen threshold, with a special color (usually black) used for the values of <i>c</i> for which the sequence hasn't crossed the threshold after the predetermined number of iterations (this is necessary to clearly distinguish the <i>Mandelbrot</i> set image from the image of its complement). If <i>c</i> is held constant and the initial value of <i>z</i> (denoted by <i>z<sub>0</sub></i>) is variable instead, one obtains the corresponding <i>Julia</i> set for each point <i>c</i> in the parameter space of the simple function.
+        </p>
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          Images of the <i>Mandelbrot</i> set exhibit an elaborate and infinitely complicated boundary that reveals progressively ever-finer recursive detail at increasing magnifications. The "style" of this repeating detail depends on the region of the set being examined. The set's boundary also incorporates smaller versions of the main shape, so the fractal property of self-similarity applies to the entire set, and not just to its parts.
+        </p>
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          The <i>Mandelbrot</i> set has become popular outside mathematics both for its aesthetic appeal and as an example of a complex structure arising from the application of simple rules. It's one of the best-known examples of mathematical visualization and mathematical beauty.
+        </p>
+
+        <p style="padding-left: 20px;padding-right: 20px;">
+          <font size="2"><i>Source: <a href="https://en.wikipedia.org/wiki/Mandelbrot_set">Wikipedia</a></i></font>
+        </p>
+    </div>
+
 </body>
 </html>
