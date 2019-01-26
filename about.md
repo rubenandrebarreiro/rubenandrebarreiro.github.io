@@ -4029,7 +4029,7 @@ active: About Me
         <b><i><u>Artificial Intelligence</u></i></b>
     </li>
     <li>
-        <b><i><u>Machine and Deep Learning</u></i></b>
+        <b><i><u>Machine &amp; Deep Learning</u></i></b>
     </li>
     <li>
         <b><i><u>Data Mining</u></i></b>

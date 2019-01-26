@@ -1,15 +1,15 @@
 {
-    "Name": "Earth",
+    "Name": "Jupiter",
     "Designations": [{
-        "Astrology Symbol": "⊕",,
-        "Adjectives": "Terrestrial Planet, Blue Planet"
+        "Astrology Symbol": "♃",
+        "Adjectives": "Jovian"
     }],
     "Orbital Characteristics": [{
-        "Aphelion": "1.017 au | 152,100,000 km | 94,500,000 mi",
-        "Perihelion": "0.983,270 au | 147,095,000 km | 91,401,000 mi",
-        "Semi-major Axis": "1.000,001,020 au | 149,598,023 km | 92,955,902 mi",
-        "Eccentricity": "0.016,708,600",
-        "Orbital Period": "365.256,363,004 days | 1.000,017,420,960 years",
+        "Aphelion": "5.458,800 au | 816,620,000 km",
+        "Perihelion": "4.950,100 au | 740,520,000 km",
+        "Semi-major Axis": "5.204,400 au | 778,570,000 km",
+        "Eccentricity": "0.048,900",
+        "Orbital Period": "365.256,363,004 days | 11.862 years",
         "Average Orbital Speed": "29.78 km/s | 107,200 km/h | 66,000 mph",
         "Mean Anomaly": "358.617°",
         "Inclination": "0.000,05° to Ecliptic | 7.155° to Sun's Equator | 1.578,690° to Invariable Plane",
