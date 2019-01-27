@@ -2,28 +2,75 @@ html, body, #singlepagecontainer {
     width: 100%;
     min-height: 100%;
     height: 100%;
-	margin: 0px;
-	padding: 0px;
+	  margin: 0px;
+	  padding: 0px;
 }
 
-#viewarea
-{
+body {
+  color: #000;
+  font-family:Tahoma;
+  font-size:13px;
+  font-weight: bold;
+  overflow: hidden;
+  background-color: #000000;
+  background-image: url("imgs/background.jpg");
+}
+
+#viewarea {
 	width: 67%;
 	min-height: 100%; /* I had only this */
-	height: 100%;     /* Insted of this... oops */
+	height: 100%; /* Instead of this... oops */
 	background-color: yellow;
-    float: right;
+  float: right;
 }
 
-#gl-canvas
-{
+#gl-canvas {
     width: 100%;
     height: 100%;
 }
 
-#interfacearea
-{
+#interfacearea {
     width: 33%;
     height: 100%;
     float: left;
+}
+
+#workDescription {
+  background:#eeeeee;
+  position: absolute;
+  left: 20px; top: 8px;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  width: 31%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#authorsInfo {
+  background:#eeeeee;
+  position: absolute;
+  left: 20px; top: 128px;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  width: 31%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#settings {
+  background:#eeeeee;
+  position: absolute;
+  left: 20px; top: 240px;
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  width: 31%;
+  border-radius: 5px;
+  text-align: center;
+}
+
+a {
+  color: #35b0ab;
 }
