@@ -9,7 +9,7 @@ Brief description about important information which will be addressed in this po
 - Academic projects developed during my **_Integrated Master (BSc./MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/)_**;
 - Scientific research projects developed during my **_Integrated Master (BSc./MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/)_**;
 - Academic projects developed at **_[FEUP](https://www.fe.up.pt/)_**;
-- Personal projects developed, in my free times, as hobbies;
+- Personal projects developed, **_in my free times_**, as **_hobbies_**;
 - **_Hard skills_** and **_soft skills_** learned, as also, all the **_full competences_**, acquired during my academic process;
 - Personal **_photography's works_**;
 - Personal **_modeling photoshoot's works_**;
