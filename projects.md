@@ -1769,15 +1769,15 @@ active: Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
+            a) <i><b>Click</b></i> anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
         <br>
-            b) Choose the current Shape's color, by adjusting the colors' factors;
+            b) Choose the current <i><b>Shape's color</b></i>, by adjusting the <i><b>colors' factors</b></i>;
         <br/>
-            c) Choose also the current Geometric Shape in use;
+            c) Choose also the current <i><b>Geometric Shape</b></i> in use;
         <br/>
-            d) Choose the option to allow <i>Blur Edges</i>;
+            d) Choose the option to allow <i><b>Blur Edges</b></i>;
         <br/>
-            e) Choose the current direction (<i>Clock Direction</i> or the opposite) of the Geometric Shape;
+            e) Choose the current direction (<i><b>Clock Direction</b></i> or <i><b>the opposite</b></i>) of the <i><b>Geometric Shape</b></i>;
     </p>
 </font>    
 
