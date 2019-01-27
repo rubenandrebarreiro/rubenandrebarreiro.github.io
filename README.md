@@ -1,4 +1,4 @@
-# Rúben André Barreiro | My personal's web-based GitHub's portfolio/personal blog
+# Rúben André Barreiro | GitHub's portfolio/personal blog
 
 A **_web-based portfolio_** designed and developed to illustrate some of **_hard skills_**, **_soft skills_**, **_competences_**, **_hobbies_**, **_important documents_**, among many others.
 
