@@ -1,4 +1,4 @@
-# Rúben André Letra Barreiro | Portfolio
+# Rúben André Barreiro | Portfolio
 
 A **_web-based portfolio_** designed and developed to illustrate some of **_my academic and professional works_**.
 
@@ -24,6 +24,16 @@ _Thank you very much,_
 _Kind regards!_
 
 **_Rúben André Letra Barreiro_**
+
+## Screenshots
+
+![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/imgs/screenshot-1.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/imgs/screenshot-1.jpg)
+######  Rúben André Barreiro | Portfolio - Screenshot #1
+
+***
+
+![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/imgs/screenshot-2.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/imgs/screenshot-2.jpg)
+######  Rúben André Barreiro | Portfolio - Screenshot #2
 
 ## Contacts
 
