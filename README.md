@@ -1,8 +1,8 @@
 # Rúben André Barreiro | Portfolio
 
-A **_web-based portfolio_** designed and developed to illustrate some of **_my academic and professional works_**.
+A **_web-based portfolio_** designed and developed to illustrate some of **_hard skills_**, **_soft skills_**, **_competences_**, **_hobbies_**, **_important documents_**, among many others.
 
-Here will be shown some of **_my academic and professional works_**, as some of **_my photography and modeling photoshoot's works_**, among many others.
+Here will be shown some of **_my academic, professional and personal works_**, as some of **_my photography and modeling photoshoot's works_**, among many others.
 
 Brief description about important information which will be addressed in this portfolio:
 
