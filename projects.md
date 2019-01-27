@@ -1762,7 +1762,7 @@ active: Projects
     <a target="_blank" href="/projects/webgl/2d-rotative-shapes-dance/2d-rotative-shapes-dance.html" title="Rotative Shapes' Dance using WebGL (FCT NOVA - October 2017)">Rotative Shapes' Dance using WebGL (FCT NOVA - October 2017)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/2d-rotative-shapes-dance/2d-rotative-shapes-dance.html" title="Rotative Shapes' Dance using WebGL (FCT NOVA - October 2017)">A <i>3rd year's project</i>, of the <i>BSc. degree of Computer Sciences and Engineering</i> made in <i>FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the <i>Web Browser</i>! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/2d-rotative-shapes-dance/2d-rotative-shapes-dance.html" title="Rotative Shapes' Dance using WebGL (FCT NOVA - October 2017)">A <i>3rd year's project</i>, of the <i>BSc. degree of Computer Sciences and Engineering</i> made in <i>FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to create multiple geometric shapes, in permanent rotation, with different colors and sizes and, with blur effect or not, by clicking in the canvas of the <i>Web browser</i>! </a></font></p>
 
 <br>
 
@@ -1771,7 +1771,13 @@ active: Projects
     <p align="justify">
             a) Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
         <br>
-            b) Choose the current Shape's color, by adjusting the colors' factors. And choose also the current Geometric Shape in use, the option to allow <i>Blur Edges</i> or, even the current direction (<i>Clock Direction</i> or the opposite) of the Geometric Shape;
+            b) Choose the current Shape's color, by adjusting the colors' factors;
+        <br/>
+            c) Choose also the current Geometric Shape in use;
+        <br/>
+            d) Choose the option to allow <i>Blur Edges</i>;
+        <br/>
+            e) Choose the current direction (<i>Clock Direction</i> or the opposite) of the Geometric Shape;
     </p>
 </font>    
 
