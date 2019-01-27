@@ -1480,7 +1480,7 @@ active: Contacts
         
         <a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCiD"><i class="ai ai-orcid" title="Rúben André Barreiro on ORCiD" style="font-size:20px;color:Lime"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCiD">ORCiD</a></font>
         
-        <font size="1">&nbsp;|&nbsp;</font>
+        <br/>
         
         <a target="_blank" href="https://publons.com/researcher/1670842/ruben-andre-barreiro/" title="Rúben André Barreiro on Publons"><i class="ai ai-publons" title="Rúben André Barreiro on Publons" style="font-size:20px;color:Blue"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://publons.com/researcher/1670842/ruben-andre-barreiro/" title="Rúben André Barreiro on Publons">Publons</a></font>
         
