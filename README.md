@@ -1,4 +1,4 @@
-# Rúben André Barreiro | Portfolio
+# Rúben André Barreiro | GitHub's portfolio/personal blog
 
 A **_web-based portfolio_** designed and developed to illustrate some of **_hard skills_**, **_soft skills_**, **_competences_**, **_hobbies_**, **_important documents_**, among many others.
 
@@ -28,22 +28,34 @@ _Kind regards!_
 ## Screenshots
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-1.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-1.jpg)
-######  Rúben André Barreiro | Portfolio - Screenshot #1
+######  Rúben André Barreiro | GitHub's portfolio/personal blog - Screenshot #1
 
 ***
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-2.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-2.jpg)
-######  Rúben André Barreiro | Portfolio - Screenshot #2
+######  Rúben André Barreiro | GitHub's portfolio/personal blog - Screenshot #2
 
 ***
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-3.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-3.jpg)
-######  Rúben André Barreiro | Portfolio - Screenshot #3
+######  Rúben André Barreiro | GitHub's portfolio/personal blog - Screenshot #3
 
 ***
 
 ![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-4.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-4.jpg)
-######  Rúben André Barreiro | Portfolio - Screenshot #4
+######  Rúben André Barreiro | GitHub's portfolio/personal blog - Screenshot #4
+
+***
+
+![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-5.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-5.jpg)
+######  Rúben André Barreiro | GitHub's portfolio/personal blog - Screenshot #5
+
+***
+
+![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-6.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/screenshots/screenshot-6.jpg)
+######  Rúben André Barreiro | GitHub's portfolio/personal blog - Screenshot #6
+
+***
 
 ## Contacts
 
