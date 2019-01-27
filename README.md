@@ -52,6 +52,6 @@ _Kind regards!_
 * **Academic e-mails @ FEUP:** [up201808917@fe.up.pt](mailto:up201808917@fe.up.pt) | [up201808917@g.uporto.pt](mailto:up201808917@g.uporto.pt)
 * **Mobile phone:** +351 911 097 424
 
-###### Notes
+#### Notes
 
 - Inspired in a Jekyll theme. Demo: <http://redvi.github.io/voyager>
