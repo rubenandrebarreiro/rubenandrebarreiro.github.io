@@ -1868,7 +1868,7 @@ active: Projects
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
-<br>
+<br> 
 
 <font size="5">
     <i class="icon-javascript-alt" style="color:Gold" title="3D Object Super Mario Bros. Characters' Demo, using Three.js and 3D Collada Models (Between January 2019 and Present)"></i>
