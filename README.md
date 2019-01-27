@@ -17,7 +17,7 @@ Brief description about important information which will be addressed in this po
 Finally, will be described some of my personal story's background and some curiosities about it.
 I hope you enjoy it!
 
-You can view my portfolio online, [https://rubenandrebarreiro.github.io/](clicking here)!
+You can view my portfolio online, [clicking here](https://rubenandrebarreiro.github.io/)!
 
 _Thank you very much,_
 <br>
