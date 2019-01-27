@@ -1482,7 +1482,15 @@ active: Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
+        <a target="_blank" href="https://publons.com/researcher/1670842/ruben-andre-barreiro/" title="Rúben André Barreiro on Publons"><i class="ai ai-publons" title="Rúben André Barreiro on Publons" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://publons.com/researcher/1670842/ruben-andre-barreiro/" title="Rúben André Barreiro on Publons">Publons</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
         <a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate"><i class="ai ai-researchgate" title="Rúben André Barreiro on ResearchGate" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="https://www.researchgate.net/profile/Ruben_Barreiro" title="Rúben André Barreiro on ResearchGate">ResearchGate</a></font>
+        
+        <font size="1">&nbsp;|&nbsp;</font>
+        
+        <a target="_blank" href="http://www.researcherid.com/rid/A-6299-2019" title="Rúben André Barreiro on ResearcherID"><i class="ai ai-researcher-id" title="Rúben André Barreiro on ResearcherID" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="http://www.researcherid.com/rid/A-6299-2019" title="Rúben André Barreiro on ResearcherID">ResearcherID</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
