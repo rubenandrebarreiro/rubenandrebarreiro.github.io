@@ -29,7 +29,7 @@ _Kind regards!_
 
 * **Personal e-mails:** [ruben.barreiro.92@outlook.com](mailto:ruben.barreiro.92@outlook.com) | [ruben.barreiro.92@gmail.com](mailto:ruben.barreiro.92@gmail.com) | [rubenbarreiro92@yahoo.com](mailto:rubenbarreiro92@yahoo.com)
 * **Academic e-mails @ FCT NOVA:** [r.barreiro@campus.fct.unl.pt](mailto:r.barreiro@campus.fct.unl.pt)
-* **Academic e-mails @ FEUP:** [up201808917@fe.up.pt](mailto:up201808917@fe.up.pt) | [up201808917@g.uporto.pt](up201808917@g.uporto.pt)
+* **Academic e-mails @ FEUP:** [up201808917@fe.up.pt](mailto:up201808917@fe.up.pt) | [up201808917@g.uporto.pt](mailto:up201808917@g.uporto.pt)
 * **Mobile phone:** +351 911 097 424
 
 ###### Notes
