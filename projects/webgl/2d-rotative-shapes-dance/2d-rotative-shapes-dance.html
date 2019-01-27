@@ -317,10 +317,13 @@ vec4 frame(vec2 posToDraw, vec4 color, bool blur) {
 vec4 astroid(vec2 posToDraw, vec4 color) {
     float a = 1.0;
 
-    float astroidEq = (pow(posToDraw.x, (2.0/3.0))) + (pow(posToDraw.y, (2.0/3.0))) - (pow(a, (2.0/3.0)));
+    float astroidEq1 = (pow(posToDraw.x, (2.0/3.0))) + (pow(posToDraw.y, (2.0/3.0))) - (pow(a, (2.0/3.0)));
+    float astroidEq2 = (pow(-posToDraw.x, (2.0/3.0))) + (pow(posToDraw.y, (2.0/3.0))) - (pow(a, (2.0/3.0)));
+    float astroidEq3 = (pow(posToDraw.x, (2.0/3.0))) + (pow(-posToDraw.y, (2.0/3.0))) - (pow(a, (2.0/3.0)));
+    float astroidEq4 = (pow(-posToDraw.x, (2.0/3.0))) + (pow(-posToDraw.y, (2.0/3.0))) - (pow(a, (2.0/3.0)));
 
-    // Draw a Cross
-    if(astroidEq > 0.0) {
+    // Draw an Astroid
+    if(astroidEq1 > 0.0 || astroidEq2 > 0.0 || astroidEq3 > 0.0 || astroidEq4 > 0.0) {
         discard;
     }
 
