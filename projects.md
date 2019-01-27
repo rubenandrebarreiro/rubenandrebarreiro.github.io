@@ -1671,22 +1671,22 @@ active: Projects
     <a target="_blank" href="/projects/webgl/3d-object-viewer-geometric-solids/3d-object-viewer-geometric-solids.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)</a>
 </font>
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-viewer-geometric-solids/3d-object-viewer-geometric-solids.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree</i> made in <i>FCT NOVA</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to visualize multiple <i>3D Geometric Solids</i>, viewed by multiple projections and angles. The application allows also, see the <i>3D Geometric Solids</i> in multiple colors, drawed in white Wired lines and even, painted and iluminated by custom <i>Vertex/Fragment Shaders</i> that the user can upload to the application, all this in the canvas of the <i>Web Browser</i>! </a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-viewer-geometric-solids/3d-object-viewer-geometric-solids.html" title="3D Object Viewer for Geometric Solids, using WebGL (FCT NOVA - November 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree of Computer Sciences and Engineering</i> made in <i>FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to visualize <i>multiple 3D Geometric Solids</i>, viewed by <i>multiple projections</i> and <i>angles</i>. The application allows also, see the <i>3D Geometric Solids</i> in <i>multiple colors</i>, drawed in white <i>Wired lines</i> and even, <i>painted</i> and <i>iluminated</i> by custom <i>Vertex/Fragment Shaders</i> that the user can upload to the application, all this in the <i>canvas</i> of the <i>Web browser</i>! </a></font></p>
 
 <br>
 
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-        a) Choose the pretended <i>Visualization Options</i> (<i>Wired Draw</i>, or <i>Z-Buffer/Depth Test Method</i> and <i>Back Face Culling</i> for <i>Visibility Depth Control</i>) for the current <i><b>3D Geometric Solid</b></i> in use;
+        a) Choose the pretended <i><b>Visualization Options</b></i> (<i>Wired Draw</i>, or <i>Z-Buffer/Depth Test Method</i> and <i>Back Face Culling</i> for <i>Visibility Depth Control</i>) for the current <i><b>3D Geometric Solid</b></i> in use;
         <br>
         b) Choose the current <i><b>3D Geometric Solid</b></i> in use from the available (<i>Cube</i>, <i>Sphere</i>, <i>Quadrangular Pyramid</i>, <i>Torus</i>, <i>Cone</i> and <i>Cylinder</i>);
         <br>
-        c) Choose the current projection in use from the available (<i>Oblique</i>, <i>Axonometric</i> and <i>Perspective</i>) and their settings/adjustments;
+        c) Choose the current <i><b>3D Projection</b></i> in use from the available (<i>Oblique</i>, <i>Axonometric</i> and <i>Perspective</i>) and their <i>settings/adjustments</i>;
         <br>
-        d) Choose a custom color for the <i><b>3D Geometric Solid</b></i> in use, by adjusting the colors' factors;
+        d) Choose a <i><b>custom color</b></i> for the <i><b>3D Geometric Solid</b></i> in use, by adjusting the <i>colors' factors</i>;
         <br>
-        e) Upload custom <i>Vertex/Fragment Shaders</i>, to see the <i><b>3D Geometric Solid</b></i> in use, painted and iluminated, in other ways;
+        e) Upload <i><b>custom Vertex/Fragment Shaders</b></i>, to see the <i><b>3D Geometric Solid</b></i> in use, <i>painted</i> and <i>iluminated</i>, in other ways;
     </p>
 </font>
 
