@@ -1,21 +1,23 @@
 # Rúben André Letra Barreiro | Portfolio
 
-A **web-based portfolio** designed and developed to illustrate some of **my academic and professional works**.
+A **_web-based portfolio_** designed and developed to illustrate some of **_my academic and professional works_**.
 
-Here will be shown some of **my academic and professional works**, as some of **my photography and modeling photoshoot's works**, among many others.
+Here will be shown some of **_my academic and professional works_**, as some of **_my photography and modeling photoshoot's works_**, among many others.
 
 Brief description about important information which will be addressed in this portfolio:
 
-- Academic projects developed during my **Integrated Master (BSc./MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/)**;
-- Scientific research projects developed during my **Integrated Master (BSc./MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/)**;
-- Academic projects developed at **[FEUP](https://www.fe.up.pt/)**;
+- Academic projects developed during my **_Integrated Master (BSc./MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/)_**;
+- Scientific research projects developed during my **_Integrated Master (BSc./MSc.) degree at [FCT NOVA](https://www.fct.unl.pt/)_**;
+- Academic projects developed at **_[FEUP](https://www.fe.up.pt/)_**;
 - Personal projects developed, as hobbies and in my free times;
-- **Hard skills** and **soft skills** learned, as also, all the **full competences**, acquired during my academic process;
-- Personal **photography's works**;
-- Personal **modeling photoshoot's works**;
+- **_Hard skills_** and **_soft skills_** learned, as also, all the **_full competences_**, acquired during my academic process;
+- Personal **_photography's works_**;
+- Personal **_modeling photoshoot's works_**;
 
 Finally, will be described some of my personal story's background and some curiosities about it.
 I hope you enjoy it!
+
+You can view my **_web-based portfolio_** _online_, [clicking here](https://rubenandrebarreiro.github.io/)!
 
 _Thank you very much,_
 <br>
