@@ -1490,7 +1490,7 @@ active: Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="http://www.researcherid.com/rid/A-6299-2019" title="Rúben André Barreiro on ResearcherID"><i class="ai ai-researcher-id" title="Rúben André Barreiro on ResearcherID" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="http://www.researcherid.com/rid/A-6299-2019" title="Rúben André Barreiro on ResearcherID">ResearcherID</a></font>
+        <a target="_blank" href="http://www.researcherid.com/rid/A-6299-2019" title="Rúben André Barreiro on ResearcherID"><i class="ai ai-researcherid" title="Rúben André Barreiro on ResearcherID" style="font-size:20px;color:Teal"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="http://www.researcherid.com/rid/A-6299-2019" title="Rúben André Barreiro on ResearcherID">ResearcherID</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
