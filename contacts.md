@@ -1478,7 +1478,7 @@ active: Contacts
         
         <font size="1">&nbsp;|&nbsp;</font>
         
-        <a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCID"><i class="ai ai-orcid" title="Rúben André Barreiro on ORCID" style="font-size:20px;color:Lime"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCID">ORCID</a></font>
+        <a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCiD"><i class="ai ai-orcid" title="Rúben André Barreiro on ORCiD" style="font-size:20px;color:Lime"></i></a><font size="1">&nbsp;&nbsp;<a target="_blank" href="http://orcid.org/0000-0003-2572-8949/" title="Rúben André Barreiro on ORCiD">ORCiD</a></font>
         
         <font size="1">&nbsp;|&nbsp;</font>
         
