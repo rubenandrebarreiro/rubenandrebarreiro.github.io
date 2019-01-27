@@ -1,22 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+
 <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"/>
-    
+
 <style>
-.color {
-    display: inline-block;
-    zoom:1; *display: inline;
-    width: 200px;
-    height: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
-    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
-    background-color: rgba(0, 0, 0, 1.0);
-}
+    body {
+      color: #000;
+      font-family:Tahoma;
+      font-size:13px;
+      font-weight: bold;
+      background-color: #000000;
+      background-image: url("imgs/background.jpg");
+    }
+
+    #container {
+      position: absolute;
+      border-radius: 5px;
+    }
+
+    #workDescription {
+      background:#eeeeee;
+      position: absolute;
+      left: 8px; top: 550px;
+      padding:0;
+      margin:0;
+      overflow:hidden;
+      width: 800px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    #authorsInfo {
+      background:#eeeeee;
+      position: absolute;
+      left: 8px; top: 794px;
+      padding:0;
+      margin:0;
+      overflow:hidden;
+      width: 800px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    #instructions {
+      background:#eeeeee;
+      position: absolute;
+      left: 820px; top: 24px;
+      padding:0;
+      margin:0;
+      overflow:hidden;
+      width: 640px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    #settings {
+      background:#eeeeee;
+      position: absolute;
+      left: 820px; top: 190px;
+      padding:0;
+      margin:0;
+      overflow:hidden;
+      width: 640px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    a {
+      color: #35b0ab;
+    }
+
+    .color {
+      display: inline-block;
+      zoom:1; *display: inline;
+      width: 200px;
+      height: 40px;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      -webkit-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+      -moz-box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.3);
+      background-color: rgba(0, 0, 0, 1.0);
+  }
 </style>
+
 <script id="vertex-shader" type="x-shader/x-vertex">
 precision mediump float;
 
@@ -51,7 +118,7 @@ uniform float time;
 
 float getDist1D(float a, float b) {
     float dist = (a - b);
-    
+
     return dist > 0.0 ? dist : dist * -1.0;
 }
 
@@ -60,33 +127,33 @@ vec2 getPos(vec2 p) {
 }
 
 // FIGURE 1 - SQUARE
-vec4 square(vec2 posToDraw, vec4 color, bool blur) { 
+vec4 square(vec2 posToDraw, vec4 color, bool blur) {
     float a = sqrt(2.0)/2.0;
-    
+
     // Draw a Square
     if(posToDraw.x > a || posToDraw.x < -a || posToDraw.y > a || posToDraw.y < -a) {
         discard;
     }
-        
+
     // Option of blur effect
     if(blur) {
         if(posToDraw.x < 0.0) {
             posToDraw.x *= -1.0;
         }
-        
+
         if(posToDraw.y < 0.0) {
             posToDraw.y *= -1.0;
         }
-            
+
         float maxFromCoord;
-        
+
         if(posToDraw.x > posToDraw.y) {
             maxFromCoord = posToDraw.x;
         }
         else {
-            maxFromCoord = posToDraw.y; 
+            maxFromCoord = posToDraw.y;
         }
-                
+
         return vec4(color.xyz, 1.0 - smoothstep(0.6, a, maxFromCoord));
     }
     else {
@@ -118,19 +185,19 @@ vec4 circle(vec2 posToDraw, vec4 color, bool blur) {
 vec4 cross(vec2 posToDraw, vec4 color, bool blur) {
      float edgeToDiscard1 = 0.75;
      float edgeToDiscard2 = 0.25;
-     
-     bool xyEdgesCond1 = posToDraw.x > edgeToDiscard1 || posToDraw.x < -edgeToDiscard1 || 
+
+     bool xyEdgesCond1 = posToDraw.x > edgeToDiscard1 || posToDraw.x < -edgeToDiscard1 ||
                          posToDraw.y > edgeToDiscard1 || posToDraw.y < -edgeToDiscard1;
-     bool xyEdgesCond2 = posToDraw.x > edgeToDiscard2 && posToDraw.y > edgeToDiscard2;     
+     bool xyEdgesCond2 = posToDraw.x > edgeToDiscard2 && posToDraw.y > edgeToDiscard2;
      bool xyEdgesCond3 = posToDraw.x < -edgeToDiscard2 && posToDraw.y > edgeToDiscard2;
-     bool xyEdgesCond4 = posToDraw.x < -edgeToDiscard2 && posToDraw.y < -edgeToDiscard2;     
+     bool xyEdgesCond4 = posToDraw.x < -edgeToDiscard2 && posToDraw.y < -edgeToDiscard2;
      bool xyEdgesCond5 = posToDraw.x > edgeToDiscard2 && posToDraw.y < -edgeToDiscard2;
-     
-     // Draw a Cross            
+
+     // Draw a Cross
      if(xyEdgesCond1 || xyEdgesCond2 || xyEdgesCond3 || xyEdgesCond4 || xyEdgesCond5) {
          discard;
      }
-     
+
      // Option of blur effect
      if(blur) {
         float dist = distance(vec2(0.0, 0.0), posToDraw);
@@ -139,9 +206,9 @@ vec4 cross(vec2 posToDraw, vec4 color, bool blur) {
         bool softEdge2 = posToDraw.x < -0.15 && posToDraw.y > 0.15;// && posToDraw.x > -0.5 && posToDraw.y < 0.5;
         bool softEdge3 = posToDraw.x < -0.15 && posToDraw.y < -0.15;// && posToDraw.x > -0.5 && posToDraw.y > -0.5;
         bool softEdge4 = posToDraw.x > 0.15 && posToDraw.y < -0.15;// && posToDraw.x < 0.5 && posToDraw.y > -0.5;
-        
+
         bool softEdge5 = posToDraw.x > 0.745 || posToDraw.x < -0.745 || posToDraw.y > 0.745 || posToDraw.y < -0.745;
-        
+
         float absX = (posToDraw.x > 0.0) ? posToDraw.x : posToDraw.x * (-1.0);
         float absY = (posToDraw.y > 0.0) ? posToDraw.y : posToDraw.y * (-1.0);
 
@@ -155,7 +222,7 @@ vec4 cross(vec2 posToDraw, vec4 color, bool blur) {
             return vec4(color.xyz, 1.0 - smoothstep(0.745, 0.75, maxFromCoord));
         }
         else {
-            return color;   
+            return color;
         }
      }
      else {
@@ -166,14 +233,14 @@ vec4 cross(vec2 posToDraw, vec4 color, bool blur) {
 // FIGURE 4 - DONUT/TORUS (NORMAL)
 vec4 donut1(vec2 posToDraw, vec4 color, bool blur) {
     float dist = distance(vec2(0.0, 0.0), getPos(gl_PointCoord));
-        
+
     // Draw a Donut/Torus (Excluding the interior radio)
     if(dist > 1.0 || dist < 0.5) {
         discard;
     }
-        
+
     bool firstEdgeOfRadio = getDist1D(0.5, dist) < getDist1D(1.0, dist);
-    
+
     // Option of blur effect
     if(blur) {
         if(firstEdgeOfRadio) {
@@ -185,9 +252,9 @@ vec4 donut1(vec2 posToDraw, vec4 color, bool blur) {
     }
     else {
         return color;
-    }  
+    }
 }
-    
+
 // FIGURE 5 - HEART
 vec4 heart(vec2 posToDraw, vec4 color, bool blur) {
     float radio = pow(posToDraw.x, 2.0) + pow((5.0 * (posToDraw.y + 0.25)/4.0 - sqrt(abs(posToDraw.x))), 2.0);
@@ -195,11 +262,11 @@ vec4 heart(vec2 posToDraw, vec4 color, bool blur) {
     if(0.5 < radio) {
         discard;
     }
-    
+
     // Option of blur effect
     if(blur) {
         bool drawBlur = (0.25 < radio);
-                
+
         if(drawBlur) {
             return vec4(color.xyz, 1.0 - smoothstep(0.25, 0.5, radio));
         }
@@ -213,27 +280,27 @@ vec4 heart(vec2 posToDraw, vec4 color, bool blur) {
 }
 
 // FIGURE 6 - FRAME
-vec4 frame(vec2 posToDraw, vec4 color, bool blur) { 
+vec4 frame(vec2 posToDraw, vec4 color, bool blur) {
     float a = sqrt(2.0)/2.0;
     float b = 0.5 * a;
     float c = 0.75 * a;
-        
+
     // Draw a Square
     if(posToDraw.x > a || posToDraw.x < -a || posToDraw.y > a || posToDraw.y < -a) {
         discard;
     }
-    
+
     if(posToDraw.x < b && posToDraw.x > -b && posToDraw.y < b && posToDraw.y > -b) {
         discard;
     }
-        
+
     // Option of blur effect
     if(blur) {
         float absX = abs(posToDraw.x);
         float absY = abs(posToDraw.y);
-        
+
         float maxFromCoord = (absX > absY)? absX : absY;
-    
+
         if(maxFromCoord > c) {
             return vec4(color.xyz, 1.0 - smoothstep(c, a, maxFromCoord));
         }
@@ -247,40 +314,40 @@ vec4 frame(vec2 posToDraw, vec4 color, bool blur) {
 }
 
 // FIGURE 7 - ASTROID
-vec4 astroid(vec2 posToDraw, vec4 color) { 
+vec4 astroid(vec2 posToDraw, vec4 color) {
     float a = 1.0;
-    
+
     float astroidEq = (pow(posToDraw.x, (2.0/3.0))) + (pow(posToDraw.y, (2.0/3.0))) - (pow(a, (2.0/3.0)));
-    
-    // Draw a Cross            
+
+    // Draw a Cross
     if(astroidEq > 0.0) {
         discard;
     }
-    
+
     return color;
 }
 
 // FIGURE 8 - PAC-MAN
 vec4 pacman(vec2 posToDraw, vec4 color) {
     float dist = distance(vec2(0.0), posToDraw);
-    
+
     float theta = acos(posToDraw.x / dist);
-    
+
     float pi = 3.1415926535;
     float angle1 = pi/4.0;
     float angle2 = -pi/4.0;
-    
+
     if(dist > 1.0 || ((theta > -pi/6.0) && (theta < pi/6.0))) {
         discard;
     }
-    
-    return color;    
+
+    return color;
 }
 
 // FIGURE 9 - THREE LEAVED CLOVER
 vec4 threeLeavedClover(vec2 posToDraw, vec4 color) {
     float extRadio = 100.0 * (pow(posToDraw.x, 4.0) + (2.0 * pow(posToDraw.x, 2.0) * pow(posToDraw.y, 2.0)) + pow(posToDraw.y, 4.0) - pow(posToDraw.x, 3.0) + 3.0 * posToDraw.x * pow(posToDraw.y, 2.0));
-    
+
     if(0.0 < extRadio) {
         discard;
     }
@@ -292,47 +359,47 @@ vec4 threeLeavedClover(vec2 posToDraw, vec4 color) {
 // FIGURE 10 - DONUT/TORUS (WITHOUT SOME EDGES)
 vec4 donut2(vec2 posToDraw, vec4 color) {
     float dist = distance(vec2(0.0, 0.0), posToDraw);
-    
+
     float theta = acos(posToDraw.x/dist);
 
     float phi = 3.1415926/20.0;
-    
+
     float firstFactor = 0.0;
     float secondFactor = 1.0;
-    
+
     for(int i = 0; i < 23; i++) {
-        
+
         if(secondFactor < 21.0 && secondFactor < 22.0) {
             vec2 coodinatesInterval = vec2((firstFactor * phi), (secondFactor * phi));
-            
-            // Excluding some angles using a theta = (PI/20)           
+
+            // Excluding some angles using a theta = (PI/20)
             if(dist > 1.0 || dist < 0.5 || (theta > coodinatesInterval.x && theta < coodinatesInterval.y && posToDraw.y > 0.0)) {
                 discard;
             }
         }
-        
+
         firstFactor += 2.0;
         secondFactor += 2.0;
     }
-    
+
     firstFactor = 1.0;
     secondFactor = 2.0;
-    
+
     for(int i = 0; i < 23; i++) {
-        
+
         if(secondFactor < 21.0 && secondFactor < 22.0) {
             vec2 coodinatesInterval = vec2((firstFactor * phi), (secondFactor * phi));
-            
-            // Excluding some angles using a theta = (PI/20)           
+
+            // Excluding some angles using a theta = (PI/20)
             if(dist > 1.0 || dist < 0.5 || (theta > coodinatesInterval.x && theta < coodinatesInterval.y && posToDraw.y < 0.0)) {
                 discard;
             }
         }
-        
+
         firstFactor += 2.0;
         secondFactor += 2.0;
     }
-    
+
     return color;
 }
 
@@ -343,40 +410,40 @@ mat2 rotate2d(float _angle) {
 void main() {
     float theta = time * fBlurDirection.y * fSizeFigureSpeed.z;
     vec2 rotatedPoint = rotate2d(theta) * getPos(gl_PointCoord);
-        
+
     bool blur = (fBlurDirection.x == 1.0) ? true : false;
-    
+
     // FIGURES WITH BLUR EFFECT
     // Square
     if(fSizeFigureSpeed.y <= 0.1) {
         gl_FragColor = square(rotatedPoint, fColor, blur);
     }
-    
+
     // Circle
-    else if(fSizeFigureSpeed.y <= 1.1) {    
+    else if(fSizeFigureSpeed.y <= 1.1) {
         gl_FragColor = circle(rotatedPoint, fColor, blur);
     }
-    
+
     // Cross
     else if(fSizeFigureSpeed.y <= 2.1) {
         gl_FragColor = cross(rotatedPoint, fColor, blur);
     }
-    
+
     // Donut/Torus (Normal)
     else if(fSizeFigureSpeed.y <= 3.1) {
         gl_FragColor = donut1(rotatedPoint, fColor, blur);
     }
-    
+
     // Heart
     else if (fSizeFigureSpeed.y <= 4.1) {
         gl_FragColor = heart(rotatedPoint, fColor, blur);
     }
-    
+
     // Frame
     else if (fSizeFigureSpeed.y <= 5.1) {
         gl_FragColor = frame(rotatedPoint, fColor, blur);
     }
-    
+
     // FIGURES WITHOUT BLUR EFFECT
     // Astroid
     else if (fSizeFigureSpeed.y <= 6.1) {
@@ -387,103 +454,158 @@ void main() {
     else if (fSizeFigureSpeed.y <= 7.1) {
         gl_FragColor = pacman(rotatedPoint, fColor);
     }
-    
+
     // Three Leaved Clover
     else if (fSizeFigureSpeed.y <= 8.1) {
         gl_FragColor = threeLeavedClover(rotatedPoint, fColor);
     }
-    
+
     // Donut/Torus (Without some Edges)
     else if (fSizeFigureSpeed.y <= 9.1) {
         gl_FragColor = donut2(rotatedPoint, fColor);
     }
-    
+
 }
 </script>
-    
-    
+
+
 <script type="text/javascript" src="../common/webgl-utils.js"></script>
 <script type="text/javascript" src="../common/initShaders.js"></script>
 <script type="text/javascript" src="../common/MV.js"></script>
-<script type="text/javascript" src="2d-rotative-shapes-dance.js"></script>    
+<script type="text/javascript" src="2d-rotative-shapes-dance.js"></script>
 </head>
 
 <body>
     <title>The Rotative Shapes' Dance</title>
-    <div id="container" style="display: inline-block">
-    <canvas id="gl-canvas" width="800" height="480">
+
+    <br>
+    <div id="container" style="display: inline-block; vertical-align: top">
+      <canvas id="gl-canvas" width="800" height="512" style="border-radius: 5px;">
         Oops... your browser doesn't support the HTML5 canvas element"
-    </canvas>
-    
-    <h2>Author: <u><i>R&uacute;ben Andr&eacute; Barreiro</i></u> - no. 42648</h2>
-    <h3>Computer Science and Engineering Integrated MSc. <i>(FCT NOVA | FCT/UNL)</i></h3>
-    <h4>Computer Graphics and Interfaces - Lab Work 1</h4>
-    
-    <b>Instructions:</b>
-    <font size="1.5">
-        <br>
-            - Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
-        <br>
-            - Choose the current Shape's color, by adjusting the colors' factors. And choose also the current geometric Shape in use, the option to allow Blur Edges or, even the current direction (Clock Direction or the opposite) of the Shape;
-        <br>
-    </font>    
-    
+      </canvas>
     </div>
-    <div id="instructionsColorsAndShapes" style="display: inline-block; vertical-align: top">
-    
-    <b>Colors' Factors Available:</b>
-    <br>
-        <dt><font color="red"><b>Red</b></font></dt><b>0%</b> <input id="redFactor" type="range" min="0.00" max="1.00" step="0.01" value="0.00"> <b>100%</b>
-    <br>
-        <dt><font color="green"><b>Green</b></font></dt><b>0%</b> <input id="greenFactor" type="range" min="0.00" max="1.00" step="0.01" value="0.00"> <b>100%</b>
-    <br>
-        <dt><font color="blue"><b>Blue</b></font> </dt><b>0%</b> <input id="blueFactor" type="range" min="0.00" max="1.00" step="0.01" value="0.00"> <b>100%</b>
-    <br>
-        <dt><b>Alpha</b>&nbsp; </dt><b>0%</b> <input id="alphaFactor" type="range" min="0.00" max="1.00" step="0.01" value="1.00"> <b>100%</b>
-    <br>
-    <br>
-    <b>Color Preview:</b>
-    <br>
-    <div id="colorPreview" class="color">
-        <!-- Color Preview Panel -->
+
+    <br/>
+    <br/>
+
+    <div id="workDescription">
+      <h2>
+        <a href="https://www.fct.unl.pt/en/education/course/integrated-master-computer-science">
+          Computer Science and Engineering
+          <br/>
+          Integrated Master
+        </a>
+      </h2>
+      <h3>
+        @ <a href="https://www.fct.unl.pt/en"><i>FCT NOVA | FCT/UNL
+        <br/>
+        (Faculty of Sciences and Technology of New University of Lisbon)</i></a>
+      </h3>
+
+      <br/>
+
+      <h3>
+        <a href="http://www.unl.pt/guia/2018/fct/UNLGI_getUC?uc=8150">
+          Computer Graphics and Interfaces
+        </a>
+        <br/>
+        (2017/2018)
+      </h3>
+      <h4>
+        Lab Work 1 (Rotative Shapes' Dance)
+      </h4>
     </div>
-    <br>
-    <br>
-    <b>Geometric Figures/Shapes Available:</b>
-    <br>
-    <select id="figureInUse">
-        <option value = 0> Square </option>
-        <option value = 1> Circle </option>
-        <option value = 2> Cross </option>
-        <option value = 3> Donut/Torus </option>
-        <option value = 4> Heart </option>
-        <option value = 5> Frame </option>
-        <option value = 6> Astroid (No Blur Effect) </option>
-        <option value = 7> Pac-Man (No Blur Effect) </option>
-        <option value = 8> Three Leaved Clover (No Blur Effect) </option>
-        <option value = 9> Donut/Torus without some Edges (No Blur Effect) </option>
-    </select>
-    <br>
-    <br>
-    <b>Auto Generation of Points:</b>
-    <br>
-    <input type="button" id="autoButtonClick" value="Off">
-    <br>
-    <br>
-    <div id="blurOption">
-    <b>Blur Effect Option:</b>
-    <br>
-    <input type="radio" name="blurEffectRadios" value="true"> Yes
-    <br>
-    <input type="radio" name="blurEffectRadios" value="false" checked="checked"> No
-    <br>
-    <br>
+
+    <div id="authorsInfo">
+        <h2>
+          Authors/Contributors
+        </h2>
+        <h3>
+          <u><i>R&uacute;ben Andr&eacute; Barreiro</i></u>
+        </h3>
+        <h4>
+          no. 42648 (<a href="mailto:r.barreiro@campus.fct.unl.pt">r.barreiro@campus.fct.unl.pt</a>)
+        </h4>
     </div>
-    <b>Rotation Direction:</b>
-    <br>
-    <input type="radio" name="rotationDirectionsRadios" value="clockDirection" checked="checked"> Clock Direction
-    <br>
-    <input type="radio" name="rotationDirectionsRadios" value="inverseClockDirection"> Inverse Clock Direction
+
+    <div id="instructions">
+        <h2>
+          Instructions
+        </h2>
+        <font size="2">
+              - Click anywhere in the canvas to create a <i><b>Rotative Shape</b></i>;
+            <br/>
+              - Choose the current <i>Shape's color</i>, by adjusting the <i>colors' factors</i>;
+            <br/>
+              - Choose the current <i>Geometric Shape</i> in use;
+            <br/>
+              - Choose the option to allow <i>Blur Edges</i>;
+            <br/>
+              - Choose the current direction (<i>Clock Direction</i> or the <i>opposite</i>) of the <i>Geometric Shape</i>;
+            <br/>
+            <br/>
+        </font>
+    </div>
+
+    <div id="settings">
+      <h2>
+        Settings/Adjustments
+      </h2>
+      <b>Colors' Factors Available:</b>
+      <br>
+          <dt><font color="red"><b>Red</b></font></dt><b>0%</b> <input id="redFactor" type="range" min="0.00" max="1.00" step="0.01" value="0.00"> <b>100%</b>
+      <br>
+          <dt><font color="green"><b>Green</b></font></dt><b>0%</b> <input id="greenFactor" type="range" min="0.00" max="1.00" step="0.01" value="0.00"> <b>100%</b>
+      <br>
+          <dt><font color="blue"><b>Blue</b></font> </dt><b>0%</b> <input id="blueFactor" type="range" min="0.00" max="1.00" step="0.01" value="0.00"> <b>100%</b>
+      <br>
+          <dt><b>Alpha</b>&nbsp; </dt><b>0%</b> <input id="alphaFactor" type="range" min="0.00" max="1.00" step="0.01" value="1.00"> <b>100%</b>
+      <br>
+      <br>
+      <b>Color Preview:</b>
+      <br>
+      <div id="colorPreview" class="color">
+          <!-- Color Preview Panel -->
+      </div>
+      <br>
+      <br>
+      <b>Geometric Figures/Shapes Available:</b>
+      <br>
+      &nbsp;&nbsp;<select id="figureInUse">
+          <option value = 0> Square </option>
+          <option value = 1> Circle </option>
+          <option value = 2> Cross </option>
+          <option value = 3> Donut/Torus </option>
+          <option value = 4> Heart </option>
+          <option value = 5> Frame </option>
+          <option value = 6> Astroid (No Blur Effect) </option>
+          <option value = 7> Pac-Man (No Blur Effect) </option>
+          <option value = 8> Three Leaved Clover (No Blur Effect) </option>
+          <option value = 9> Donut/Torus without some Edges (No Blur Effect) </option>
+      </select>
+      <br>
+      <br>
+      <b>Auto Generation of Points:</b>
+      <br>
+      <input type="button" id="autoButtonClick" value="Off">
+      <br>
+      <br>
+      <div id="blurOption">
+      <b>Blur Effect Option:</b>
+      <br>
+      <input type="radio" name="blurEffectRadios" value="true"> Yes
+      <br>
+      <input type="radio" name="blurEffectRadios" value="false" checked="checked"> No
+      <br>
+      <br>
+      </div>
+      <b>Rotation Direction:</b>
+      <br>
+      <input type="radio" name="rotationDirectionsRadios" value="clockDirection" checked="checked"> Clock Direction
+      <br>
+      <input type="radio" name="rotationDirectionsRadios" value="inverseClockDirection"> Inverse Clock Direction
+      <br/>
+      <br/>
     </div>
 </body>
 </html>
