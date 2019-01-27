@@ -1629,7 +1629,7 @@ active: Projects
     <a target="_blank" href="/projects/webgl/2d-fractals-mandelbrot-julia/2d-fractals-mandelbrot-julia.html" title="Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/2d-fractals-mandelbrot-julia/2d-fractals-mandelbrot-julia.html" title="Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree of Computer Sciences and Engineering</i> made in <i>FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to see <i>Fractals</i>' structures with <i>multiple scales</i> and, using some of the both <i>Benoit Mandelbrot</i> and <i>Gaston Julia</i>'s sets, in the <i>canvas</i>!</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/2d-fractals-mandelbrot-julia/2d-fractals-mandelbrot-julia.html" title="Fractals with Mandelbrot and Julia sets, using WebGL (FCT NOVA - October 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree of Computer Sciences and Engineering</i> made in <i>FCT NOVA (Faculty of Sciences and Technology of New University of Lisbon)</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to see <i>Fractals</i>' structures with <i>multiple scales</i> and, using some of the both <i>Benoit Mandelbrot</i> and <i>Gaston Julia</i>'s sets, in the <i>canvas</i>!</a></font></p>
 
 <br>
 
@@ -1701,45 +1701,45 @@ active: Projects
 
 
 <font size="5">
-    <span class="icon-new-university-lisbon" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">
+    <span class="icon-new-university-lisbon" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">
         <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span><span class="path21"></span><span class="path22"></span><span class="path23"></span><span class="path24"></span><span class="path25"></span><span class="path26"></span><span class="path27"></span><span class="path28"></span><span class="path29"></span><span class="path30"></span><span class="path31"></span><span class="path32"></span><span class="path33"></span><span class="path34"></span><span class="path35"></span><span class="path36"></span><span class="path37"></span><span class="path38"></span><span class="path39"></span><span class="path40"></span><span class="path41"></span><span class="path42"></span><span class="path43"></span><span class="path44"></span><span class="path45"></span><span class="path46"></span><span class="path47"></span><span class="path48"></span><span class="path49"></span><span class="path50"></span><span class="path51"></span><span class="path52"></span><span class="path53"></span><span class="path54"></span><span class="path55"></span><span class="path56"></span><span class="path57"></span><span class="path58"></span><span class="path59"></span><span class="path60"></span><span class="path61"></span><span class="path62"></span><span class="path63"></span><span class="path64"></span><span class="path65"></span><span class="path66"></span><span class="path67"></span><span class="path68"></span><span class="path69"></span><span class="path70"></span><span class="path71"></span><span class="path72"></span><span class="path73"></span><span class="path74"></span><span class="path75"></span><span class="path76"></span><span class="path77"></span><span class="path78"></span><span class="path79"></span><span class="path80"></span><span class="path81"></span><span class="path82"></span><span class="path83"></span><span class="path84"></span><span class="path85"></span><span class="path86"></span><span class="path87"></span><span class="path88"></span>
     </span>
-    <span class="icon-fct-unl" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">
+    <span class="icon-fct-unl" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">
 	        		<span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4">
 				</span>
 	    		</span>
-    <i class="icon-javascript-alt" style="color:Gold" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)"></i>
+    <i class="icon-javascript-alt" style="color:Gold" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)"></i>
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</a>
+    <a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree</i> made in <i>FCT NOVA</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to move and manipulate an <i>Industrial Automated Robot</i>, all using <i>3D Modelling and 3D Objects</i>. The <i>Robot</i> can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the <i>Robot</i> are always performed using the keyboard and you can see all the action of multiple angles, using an <i>Axonometric Projection</i>!</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree</i> made in <i>FCT NOVA</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to move and manipulate an <i>Industrial Automated Robotic Hand</i>, all using <i>3D Modelling and 3D Objects</i>. The <i>Robotic Hand</i> can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the <i>Robotic Hand</i> are always performed using the keyboard and you can see all the action of multiple angles, using an <i>Axonometric Projection</i>!</a></font></p>
 
 <br>
 
 <b>Instructions:</b>
 <font size="2">
     <p align="justify"> 
-            a) <b><i>'Q'</i></b> and <b><i>'W'</i></b> keys to rotate the <b>Robot's</b> arm;
+            a) <b><i>'Q'</i></b> and <b><i>'W'</i></b> keys to rotate the <b>Robotic Hand's</b> arm;
         <br>
-            b) <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b>Robot's</b> upper joint. And <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b>Robot's</b> lower joint;
+            b) <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b>Robotic Hand's</b> upper joint. And <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b>Robotic Hand's</b> lower joint;
         <br>
-            c) <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b>Robot's</b> claws;
+            c) <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b>Robotic Hand's</b> claws;
         <br>
-            d) <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b>Robot's</b> hand;
+            d) <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b>Robotic Hand's</b> hand;
         <br>
-            e) <b><i>Left Arrow (←)</i></b> key to move the <b>Robot</b> to the left. And <b><i>Right Arrow (→)</i></b> key to move the <b>Robot</b> to the right;
+            e) <b><i>Left Arrow (←)</i></b> key to move the <b>Robotic Hand</b> to the left. And <b><i>Right Arrow (→)</i></b> key to move the <b>Robotic Hand</b> to the right;
         <br>
-            f) <b><i>Up Arrow (↑)</i></b> key to move the <b>Robot</b> forward. And <b><i>Down Arrow (↓)</i></b> key to move <b>Robot</b> backward;
+            f) <b><i>Up Arrow (↑)</i></b> key to move the <b>Robotic Hand</b> forward. And <b><i>Down Arrow (↓)</i></b> key to move <b>Robotic Hand</b> backward;
         <br>
             g) Choose the pretended <b>Angles Factors</b> (<b><i>Theta</i></b> and <b><i>Gamma</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
     </p>
 </font>    
 
-[![3DObjectModellingRobotHand]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-modelling-robot-hand-01.jpg)
-<p style="font-size:11px"><i>3D Object Modelling Demo for an Industrial Automated Robot, using WebGL (FCT NOVA - December 2016)</i></p>
+[![3DObjectModellingRoboticHand]({{ site.images | relative_url }}/projects/3d-object-modelling-robotic-hand-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-modelling-robotic-hand-01.jpg)
+<p style="font-size:11px"><i>3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)</i></p>
 
 <br>
 <hr/>
