@@ -3,7 +3,7 @@
 
 // Computer Graphics and Interfaces (2016-2017)
 
-// Lab Work 3 - 3D Modelling - Industrial Automated Robotic Hand
+// Lab Work 3 - 3D Object Modelling - Industrial Automated Robotic Hand
 
 // Daniel Filipe Pimenta - no. 45404 - d.pimenta@campus.fct.unl.pt
 // Ruben André Barreiro - no. 42648 - r.barreiro@campus.fct.unl.pt
