@@ -1818,13 +1818,13 @@ active: Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) <b>Up arrow (↑)</b> key to move up the <b>Flying Helicopter</b>;
+            a) <b><i>Up arrow (↑)</i></b> key to move up the <b><i>Flying Helicopter</i></b>;
         <br>
-            b) <b>Down arrow (↓)</b> key to move down the <b>Flying Helicopter</b>;
+            b) <b><i>Down arrow (↓)</i></b> key to move down the <b><i>Flying Helicopter</i></b>;
         <br>
-            c) <b>Left arrow (←)</b> key to make a circular move for the <b>Flying Helicopter</b>;
+            c) <b><i>Left arrow (←)</i></b> key to make a circular move for the <b><i>Flying Helicopter</i></b>;
         <br>
-            d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <b><i>Axonometric Projection</i></b>;
+            d) Choose the pretended <b><i>Angles Factors</i></b> (<b><i>&theta;</i></b> and <b><i>&gamma; Angles</i></b>) for adjust the settings for the <b><i>Axonometric Projection</i></b>;
     </p>
 </font>    
 
