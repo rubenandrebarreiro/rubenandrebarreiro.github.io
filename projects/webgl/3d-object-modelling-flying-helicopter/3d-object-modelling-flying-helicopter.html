@@ -32,13 +32,13 @@ varying vec3 fLight;
 varying vec3 fViewer;
 
 void main(){
-    // compute position in camera frame
+    // Compute position in camera frame
     vec3 posC = (mModelView * vPosition).xyz;
     
-    // compute normal in camera frame
+    // Compute normal in camera frame
     fNormal = (mNormals * vNormal).xyz;
 
-    // compute light vector in camera frame
+    // Compute light vector in camera frame
     if(lightPosition.w == 0.0) 
         fLight = normalize((mNormals * lightPosition).xyz);
     else 
@@ -51,7 +51,7 @@ void main(){
     // Compute vertex position in clip coordinates (as usual)
     gl_Position = mProjection * mModelView * vPosition;
 
-    // make correction for left handed system of clip space
+    // Make correction for left handed system of clip space
     //gl_Position.z = -gl_Position.z;
 }
 </script>
