@@ -1712,29 +1712,35 @@ active: Projects
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)</a>
+    <a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robotic-hand.html" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)</a>
 </font>   
 
-<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robot-hand-demo.html" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree</i> made in <i>FCT NOVA</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to move and manipulate an <i>Industrial Automated Robotic Hand</i>, all using <i>3D Modelling and 3D Objects</i>. The <i>Robotic Hand</i> can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the <i>Robotic Hand</i> are always performed using the keyboard and you can see all the action of multiple angles, using an <i>Axonometric Projection</i>!</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/projects/webgl/3d-object-modelling-robot-hand/3d-object-modelling-robotic-hand.html" title="3D Object Modelling Demo for an Industrial Automated Robotic Hand, using WebGL (FCT NOVA - December 2016)">A <i>3rd year's project</i>, of the <i>BSc. degree</i> made in <i>FCT NOVA</i>, in the subject of <i>Computer Graphics and Interfaces</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i> and <i>WebGL</i>. The application allows to move and manipulate an <i>Industrial Automated Robotic Hand</i>, all using <i>3D Modelling and 3D Objects</i>. The <i>Robotic Hand</i> can be moved along the floor, do grab movements and rotate some of its own components. The movements and actions of the <i>Robotic Hand</i> are always performed using the keyboard and you can see all the action of multiple angles, using an <i>Axonometric Projection</i>!</a></font></p>
 
 <br>
 
 <b>Instructions:</b>
 <font size="2">
     <p align="justify"> 
-            a) <b><i>'Q'</i></b> and <b><i>'W'</i></b> keys to rotate the <b>Robotic Hand's</b> arm;
+            a) Use <b><i>'Q'</i></b> and <b><i>'W'</i></b> keys to rotate the <b><i>Robotic Hand</i></b>'s arm;
         <br>
-            b) <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b>Robotic Hand's</b> upper joint. And <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b>Robotic Hand's</b> lower joint;
+            b) Use <b><i>'A'</i></b> and <b><i>'S'</i></b> keys to rotate the <b><i>Robotic Hand</i></b>'s upper joint;
         <br>
-            c) <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b>Robotic Hand's</b> claws;
+            c) Use <b><i>'Z'</i></b> and <b><i>'X'</i></b> keys to rotate the <b><i>Robotic Hand</i></b>'s lower joint;
         <br>
-            d) <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b>Robotic Hand's</b> hand;
+            d) Use <b><i>'O'</i></b> and <b><i>'P'</i></b> keys to move the <b><i>Robotic Hand</i></b>'s claws;
         <br>
-            e) <b><i>Left Arrow (←)</i></b> key to move the <b>Robotic Hand</b> to the left. And <b><i>Right Arrow (→)</i></b> key to move the <b>Robotic Hand</b> to the right;
+            e) Use <b><i>'K'</i></b> and <b><i>'L'</i></b> keys to rotate the <b><i>Robotic Hand</i></b>'s hand;
         <br>
-            f) <b><i>Up Arrow (↑)</i></b> key to move the <b>Robotic Hand</b> forward. And <b><i>Down Arrow (↓)</i></b> key to move <b>Robotic Hand</b> backward;
+            f) Use <b><i>Left Arrow (←)</i></b> key to move the <b><i>Robotic Hand</i></b>'s base to the left;
         <br>
-            g) Choose the pretended <b>Angles Factors</b> (<b><i>Theta</i></b> and <b><i>Gamma</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
+            g) Use <b><i>Right Arrow (→)</i></b> key to move the <b><i>Robotic Hand</i></b>'s base to the right;
+        <br>
+            h) Use <b><i>Up Arrow (↑)</i></b> key to move the <b><i>Robotic Hand</i></b>'s base forward;
+        <br>
+            i) Use <b><i>Down Arrow (↓)</i></b> key to move <b><i>Robotic Hand</i></b>'s base backward;
+        <br>
+            j) Choose the pretended <b><i>Angles Factors</i></b> (<b><i>Theta</i></b> and <b><i>Gamma Angles</i></b>) for adjust the settings for the <b><i>Axonometric Projection</i></b>;
     </p>
 </font>    
 
