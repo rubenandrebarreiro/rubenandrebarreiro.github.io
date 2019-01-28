@@ -6,7 +6,7 @@
 // Lab Work 1 - Fractals - Benoit Mandelbrot & Gaston Julia Sets
 
 // Daniel Filipe Pimenta - no. 45404 - d.pimenta@campus.fct.unl.pt
-// Ruben André Barreiro - no. 42648 - r.barreiro@campus.fct.unl.pt
+// Rúben André Barreiro - no. 42648 - r.barreiro@campus.fct.unl.pt
 
 var canvas = null;
 var gl = null;

@@ -1,3 +1,12 @@
+// FCT NOVA | FCT-UNL (Faculty of Sciences and Technology of New University of Lisbon)
+// Integrated Master (BSc./MSc.) of Computer Engineering
+
+// Computer Graphics and Interfaces (2017-2018)
+
+// Lab Work 1 - 2D Rotative Shapes' Dance
+
+// Rúben André Barreiro - no. 42648 - r.barreiro@campus.fct.unl.pt 
+
 // WebGL Global Variables
 var gl, canvas, program, autoInterval;
 

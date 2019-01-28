@@ -6,7 +6,7 @@
 // Lab Work 2 - 3D Object Viewer - Geometric Solids
 
 // Daniel Filipe Pimenta - no. 45404 - d.pimenta@campus.fct.unl.pt
-// Ruben André Barreiro - no. 42648 - r.barreiro@campus.fct.unl.pt
+// Rúben André Barreiro - no. 42648 - r.barreiro@campus.fct.unl.pt
 
 var canvas;
 var program;
