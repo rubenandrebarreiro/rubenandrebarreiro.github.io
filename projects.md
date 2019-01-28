@@ -1824,7 +1824,7 @@ active: Projects
         <br>
             c) <b>Left arrow (←)</b> key to make a circular move for the <b>Flying Helicopter</b>;
         <br>
-            d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <i>Axonometric Projection</i>;
+            d) Choose the pretended <b>Angles Factors</b> (<b><i>&theta;</i></b> and <b><i>&gamma;</i> Angles</b>) for adjust the settings for the <b><i>Axonometric Projection</i></b>;
     </p>
 </font>    
 
