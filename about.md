@@ -4050,6 +4050,9 @@ active: About Me
         <b><i><u>Robotics</u></i></b>
     </li>
     <li>
+        <b><i>Cybernetics</i></b>
+    </li>
+    <li>
         <b><i><u>Multi-threading Systems</u></i></b>
     </li>
     <li>
