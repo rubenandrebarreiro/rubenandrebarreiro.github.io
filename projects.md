@@ -1854,7 +1854,7 @@ active: Projects
 </font>
 
 <font size="4">
-    <a target="_blank" href="/projects/threejs/3d-object-modelling-solar-system/3d-object-modelling-solar-system.html" title="3D Object Modelling's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">3D Object's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)</a>
+    <a target="_blank" href="/projects/threejs/3d-object-modelling-solar-system/3d-object-modelling-solar-system.html" title="3D Object Modelling's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">3D Object Modelling's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)</a>
 </font>   
 
 <p align="justify"><font size="2"><a target="_blank" href="/projects/threejs/3d-object-modelling-solar-system/3d-object-modelling-solar-system.html" title="3D Object Modelling's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)">A <i>self-made project</i>, using <i>Computer Graphics and 3D Modelling</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i>, <i>WebGL</i> and <i>Three.js</i>. The application gives a vision of our <i>Solar System</i> and all its elements, all using <i>3D Modelling and 3D Objects</i>. Each element presented (<i>Sun</i>, <i>Planets</i> and <i>Earth's Moon</i>) have its respectively information when the mouse hover above of each one!</a></font></p>
