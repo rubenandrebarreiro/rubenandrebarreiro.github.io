@@ -1874,8 +1874,8 @@ active: Projects
 
 <p align="justify">It's currently in development (not finished yet)...</p>
 
-[![3DObjectSolarSystem]({{ site.images | relative_url }}/projects/3d-object-solar-system-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-solar-system-01.jpg)
-<p style="font-size:11px"><i>3D Object's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and Present)</i></p>
+[![3DObjectModellingSolarSystem]({{ site.images | relative_url }}/projects/3d-object-modelling-solar-system-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-modelling-solar-system-01.jpg)
+<p style="font-size:11px"><i>3D Object Modelling's Solar System with Sun, Planets, Earth's Moon, Planets' Orbits and Trackball Controls, using Three.js (Between January 2019 and March 2019)</i></p>
 
 
 <br>
