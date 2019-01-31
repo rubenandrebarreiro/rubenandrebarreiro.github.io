@@ -1,15 +1,17 @@
 {
-    "Name": "Neptune",
+    "Name": "Ceres",
     "Designations": [{
-        "Astrology Symbol": "♆",
-        "Adjectives": "Neptunian"
+        "Astrology Symbol": "⚳",
+        "Alternative Designations": "A899 OF; 1943 XB",
+        "Minor Planet Category": "Dwarf Planet, Asteroid Belt",
+        "Adjectives": "Cererian, Cererean"
     }],
     "Orbital Characteristics": [{
-        "Aphelion": "30.33 au | 4,540,000 km",
-        "Perihelion": "29.81 au | 4,460,000 km",
-        "Semi-major Axis": "30.11 au | 4,500,000 km",
-        "Eccentricity": "0.009,456",
-        "Orbital Period": "60,182 days | 164.800 years | 89,666 Neptunian Solar Days",
+        "Aphelion": "2.977,300 au | 445,410,000 km",
+        "Perihelion": "2.557,700 au | 382,620,000 km",
+        "Semi-major Axis": "2.767,750 au | 414,010,000 km",
+        "Eccentricity": "0.075,823",
+        "Orbital Period": "1.681.630 days | 4.600 years",
         "Synodic Period": "367.49 days",
         "Average Orbital Speed": "5.43 km/s",
         "Mean Anomaly": "256.228°",
