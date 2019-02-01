@@ -13,7 +13,7 @@
         "Synodic Period": "583.92 days",
         "Average Orbital Speed": "35.02 km/s",
         "Mean Anomaly": "50.115°",
-        "Inclination": "3.394,58° to Ecliptic | 3.86° to Sun's Equator | 2.19° to Invariable Plane",
+        "Inclination": "3.394,58° to Ecliptic | 3.86° to Sun's Equator |<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.19° to Invariable Plane",
         "Longitude of Ascending Node": "76.680°",
         "Argument of Perihelion": "54.884°",
         "Satellites": "None"
@@ -50,6 +50,6 @@
         "Carbon Monoxide": "0.0017%",
         "Helium": "0.0012%",
         "Neon": "0.0007%",
-        "Others": "Trace amounts of carbonyl sulfide, hydrogen chloride, hydrogen fluoride"
+        "Others": "Trace amounts of carbonyl sulfide, hydrogen chloride, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;hydrogen fluoride"
     }] 
 }
