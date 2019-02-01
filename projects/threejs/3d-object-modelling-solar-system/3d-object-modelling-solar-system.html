@@ -359,7 +359,7 @@
                 obj.send(null);  
             }
             
-            // E) MARS' JSON file
+            // F) MARS' JSON file
             function loadMarsJSON(callback) {   
 
                 var obj = new XMLHttpRequest();
@@ -376,7 +376,7 @@
                 obj.send(null);  
             }
             
-            // F) CERES' JSON file
+            // G) CERES' JSON file
             function loadCeresFictionalJSON(callback) {   
 
                 var obj = new XMLHttpRequest();
@@ -393,7 +393,7 @@
                 obj.send(null);  
             }
             
-            // G) JUPITER's JSON file
+            // H) JUPITER's JSON file
             function loadJupiterJSON(callback) {   
 
                 var obj = new XMLHttpRequest();
@@ -409,6 +409,126 @@
                 
                 obj.send(null);  
             }
+            
+            // I) SATURN's JSON file
+            function loadSaturnJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/saturn-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // J) URANUS' JSON file
+            function loadUranusJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/uranus-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // K) NEPTUNE's JSON file
+            function loadNeptuneJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/neptune-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // L) PLUTO's JSON file
+            function loadPlutoJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/pluto-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // M) HAUMEA's JSON file
+            function loadHaumeaJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/haumea-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // N) MAKEMAKE's JSON file
+            function loadMakemakeJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/makemake-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
+            // O) ERIS' JSON file
+            function loadErisJSON(callback) {   
+
+                var obj = new XMLHttpRequest();
+                obj.overrideMimeType("application/json");
+                obj.open('GET', 'info/json/eris-data.json', true);
+                
+                obj.onreadystatechange = function () {
+                    if (obj.readyState == 4 && obj.status == "200") {
+                        // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+                        callback(obj.responseText);
+                    }
+                };
+                
+                obj.send(null);  
+            }
+            
             
 			function init() {
 				camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 1, 600000);
