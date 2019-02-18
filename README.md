@@ -24,8 +24,6 @@
 
 [![star this repository](http://githubbadges.com/star.svg?user=rubenandrebarreiro&repo=rubenandrebarreiro.github.io&style=flat)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/stargazers)
 [![fork this repository](http://githubbadges.com/fork.svg?user=rubenandrebarreiro&repo=rubenandrebarreiro.github.io&style=flat)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/fork)
-[![downloads of this repository](https://img.shields.io/github/downloads/rubenandrebarreiro/rubenandrebarreiro.github.io/total.svg)](https://github.com/rubenandrebarreiro/3d-object-modelling-flying-helicopter/archive/master.zip)
-[![price of this project](https://img.shields.io/badge/price-free-success.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/archive/master.zip)
 
 ## Description
 A **_web-based portfolio/personal blog_** designed and developed to illustrate some of **_hard skills_**, **_soft skills_**, **_competences_**, **_hobbies_**, **_important documents_**, among many others.
