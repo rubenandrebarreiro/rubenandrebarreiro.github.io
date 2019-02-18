@@ -1,6 +1,34 @@
 # Rúben André Barreiro | GitHub's portfolio/personal blog
 
-A **_web-based portfolio_** designed and developed to illustrate some of **_hard skills_**, **_soft skills_**, **_competences_**, **_hobbies_**, **_important documents_**, among many others.
+![https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/imgs/JPGs/banner-1.jpg](https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/imgs/JPGs/banner-1.jpg)
+######  Rúben André Barreiro (GitHub's portfolio/personal blog) - Banner #1
+
+***
+
+
+## Current Status
+[![contributor for this repository](https://img.shields.io/badge/contributor-rubenandrebarreiro-blue.svg)](https://github.com/rubenandrebarreiro/) 
+
+[![status of this version no. 1](https://img.shields.io/badge/status-ongoing-orange.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/)
+[![status of this version no. 2](https://img.shields.io/badge/status-stable-orange.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/)
+[![status of this version no. 3](https://img.shields.io/badge/status-documented-orange.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/)
+
+[![keyword of this version no. 1](https://img.shields.io/badge/keyword-web-brown.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/)
+[![keyword of this version no. 2](https://img.shields.io/badge/keyword-github-brown.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/)
+[![keyword of this version no. 3](https://img.shields.io/badge/keyword-portfolio-brown.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/)
+[![keyword of this version no. 4](https://img.shields.io/badge/keyword-blog-brown.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/)
+
+[![technology used no. 1](https://img.shields.io/badge/built&nbsp;with-html-red.svg)](https://www.w3schools.com/html/) [![technology used no. 2](https://img.shields.io/badge/built&nbsp;with-css-red.svg)](https://www.w3schools.com/css/) [![technology used no. 3](https://img.shields.io/badge/built&nbsp;with-javascript-red.svg)](https://www.w3schools.com/js/) 
+[![software used no. 1](https://img.shields.io/badge/software-atom-gold.svg)](http://atom.io/) 
+[![software used no. 2](https://img.shields.io/badge/software-brackets-gold.svg)](http://brackets.io/) 
+
+[![star this repository](http://githubbadges.com/star.svg?user=rubenandrebarreiro&repo=rubenandrebarreiro.github.io&style=flat)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/stargazers)
+[![fork this repository](http://githubbadges.com/fork.svg?user=rubenandrebarreiro&repo=rubenandrebarreiro.github.io&style=flat)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/fork)
+[![downloads of this repository](https://img.shields.io/github/downloads/rubenandrebarreiro/rubenandrebarreiro.github.io/total.svg)](https://github.com/rubenandrebarreiro/3d-object-modelling-flying-helicopter/archive/master.zip)
+[![price of this project](https://img.shields.io/badge/price-free-success.svg)](https://github.com/rubenandrebarreiro/rubenandrebarreiro.github.io/archive/master.zip)
+
+## Description
+A **_web-based portfolio/personal blog_** designed and developed to illustrate some of **_hard skills_**, **_soft skills_**, **_competences_**, **_hobbies_**, **_important documents_**, among many others.
 
 Here will be shown some of **_my academic, professional and personal works_**, as some of **_my photography and modeling photoshoot's works_**, among many others.
 
@@ -17,7 +45,7 @@ Brief description about important information which will be addressed in this po
 Finally, will be described some of my personal story's background and some curiosities about it.
 I hope you enjoy it!
 
-You can view my **_web-based portfolio_** _online_, [clicking here](https://rubenandrebarreiro.github.io/)!
+You can view my **_web-based portfolio/personal blog_** _online_, [clicking here](https://rubenandrebarreiro.github.io/)!
 
 _Thank you very much,_
 <br>
