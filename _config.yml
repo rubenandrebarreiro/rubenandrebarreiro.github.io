@@ -2,14 +2,16 @@
 title: Rúben André Barreiro
 email: ruben.barreiro.92@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  A web-based portfolio/personal blog designed and developed to illustrate some of hard skills,
+  soft skills, competences, hobbies, important documents, among many others.
+  
+  Here will be shown some of my academic, professional and personal works, as some of my photography and
+  modeling photoshoot's works, among many others.
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: "en"
 url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: ruben_badnewz
-github_username:  rubenandrebarreiro
+github_username: rubenandrebarreiro
 disqus_username:
 
 # Build settings
@@ -18,7 +20,7 @@ permalink: /:categories/:title/
 
 # Posts settings
 future: true
-safe: false
+safe: true
 lsi: false
 excerpt_separator: "\n\n"
 
