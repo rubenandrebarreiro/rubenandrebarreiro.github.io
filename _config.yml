@@ -4,7 +4,6 @@ email: ruben.barreiro.92@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A web-based portfolio/personal blog designed and developed to illustrate some of hard skills,
   soft skills, competences, hobbies, important documents, among many others.
-  
   Here will be shown some of my academic, professional and personal works, as some of my photography and
   modeling photoshoot's works, among many others.
 baseurl: "" # the subpath of your site, e.g. /blog
