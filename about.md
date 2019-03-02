@@ -2238,63 +2238,177 @@ active: About Me
 				<p align="justify"><i class="fas fa-lightbulb faa-horizontal animated"></i>&nbsp;&nbsp;<b>Subjects and areas domained:</b></p>
         			<ul>
 					<li>
-						<u>Imperative programming</u>;
+						<u>Imperative programming</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Object-oriented programming</u>;
+						<u>Object-oriented programming</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+					</li>
+                        <u>Functional Programming</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                    <li>
+                    </li>
+					<li>
+						<u>Operative systems & architectures</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Operative systems & architectures</u>;
+						<u>Data structures</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Data structures</u>;
+						<u>Object-relational databases</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Object-relational databases</u>;
+						<u>Logic programming</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Logic programming</u>;
+						<u>Computer networks</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Computer networks</u>;
+						<u>Computer graphics &amp; 2D/3D interfaces</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Computer graphics & 2D/3D interfaces</u>;
+						<u>Artificial intelligence</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Artificial intelligence</u>;
+						<u>Searching algorithms</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Searching algorithms</u>;
+						<u>Genetic algorithms</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
-					<li>
-						<u>Genetic algorithms</u>;
+                    <li>
+						<u>Neural networks</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
 						<u>Autonomous problem solvers</u>:
 						<ul>
 							<li>
-								<u><i>STRIPS</i></u>;
+								<u><i>STRIPS</i></u>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
 							</li>
 						</ul>
 					</li>
 					<li>
-						<u>Modelling and design of software</u>;
+						<u>Modelling and design of software</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Graphs algorithms</u>;
+						<u>Graphs algorithms</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Distributed systems</u>;
+						<u>Distributed systems</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+					</li>
+                    <li>
+						<u>Basic notions of Internet security</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Multi-threading systems</u>;
+						<u>Multi-threading</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Edge & Fog computing</u>;
+						<u>Edge &amp; Fog computing</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 					<li>
-						<u>Intelligent multi-agent systems</u>;
+						<u>Intelligent multi-agent systems</u>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
 					</li>
 				</ul>
 			</li>
