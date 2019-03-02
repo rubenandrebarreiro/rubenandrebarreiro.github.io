@@ -2543,8 +2543,29 @@ active: About Me
                                 <span class="fa fa-star"></span>
                                 <span class="fa fa-star"></span>
 							</li>
+                            <li>
+								<i>Julia</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
 						</ul>
 					</li>
+                    <li>
+                        <i class="fas fa-hammer faa-horizontal animated"></i>&nbsp;&nbsp;<u>Statically typed languages</u>:
+						<ul>
+							<li>
+								<i>Kotlin</i>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+							</li>
+						</ul>
+                    </li>
                     <li>
                         <i class="fas fa-superscript faa-horizontal animated"></i>&nbsp;&nbsp;<u>Multi-paradigm numerical computing environment</u>:
 						<ul>
