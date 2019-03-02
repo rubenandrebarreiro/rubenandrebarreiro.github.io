@@ -2189,9 +2189,9 @@ active: About Me
 <a target="_blank" title="Download Rúben André Barreiro's Résumé #1 made in NovoResumé" href="/docs/ruben-andre-barreiro-resume-1.pdf"><button class="button buttonDocument"><b>Résumé #1 📝</b></button></a>
 <a target="_blank" title="Download Rúben André Barreiro's Résumé #2 made in Microsoft Word" href="/docs/ruben-andre-barreiro-resume-2.pdf"><button class="button buttonDocument"><b>Résumé #2 📝</b></button></a>
 <br>
-<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in LaTeX" href="/docs/ruben-andre-barreiro-CV-1.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #1 📋</b></button></a>
-<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #2 made in NovoResumé" href="/docs/ruben-andre-barreiro-CV-2.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #2 📋</b></button></a>
-<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #3 made in EuroPass" href="/docs/ruben-andre-barreiro-CV-3.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #3 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #1 made in LaTeX" href="/docs/ruben-andre-barreiro-cv-1.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #1 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #2 made in NovoResumé" href="/docs/ruben-andre-barreiro-cv-2.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #2 📋</b></button></a>
+<a target="_blank" title="Download Rúben André Barreiro's Curriculum Vitae #3 made in EuroPass" href="/docs/ruben-andre-barreiro-cv-3.pdf"><button class="button buttonDocument"><b>Curriculum Vitae #3 📋</b></button></a>
 
 <br>
 <hr/>
