@@ -1899,9 +1899,9 @@ active: Projects
 <b>Instructions:</b>
 <font size="2">
     <p align="justify">
-            a) Select a character; 
+        a) <b>Select a character</b>; 
         <br>
-            b) Select the version for the character you choose, if available more than one;
+        b) <b>Select the version for the character</b> you choose, if available more than one;
     </p>
 </font>  
 
