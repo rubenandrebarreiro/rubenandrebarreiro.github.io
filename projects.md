@@ -1890,7 +1890,7 @@ active: Projects
 
 <font size="4">
     <a target="_blank" href="/projects/threejs/3d-object-viewer-super-mario-bros/3d-object-viewer-super-mario-bros.html" title="3D Object Viewer Demo for Super Mario Bros. Characters, using Three.js and 3D COLLADA (COLLAborative Design Activity) Models (Between January 2019 and July 2019)">3D Object Demo for Super Mario Bros. Characters, using Three.js and 3D COLLADA (COLLAborative Design Activity) Models (Between January 2019 and July 2019)</a>
-</font>   
+</font>
 
 <p align="justify"><font size="2"><a target="_blank" href="/projects/threejs/3d-object-super-mario-bros/3d-object-super-mario-bros.html" title="3D Object Viewer Demo for Super Mario Bros. Characters, using Three.js and 3D COLLADA (COLLAborative Design Activity) Models (Between January 2019 and July 2019)">A <i>self-made project</i>, using <i>Computer Graphics and 3D Modelling</i>. This project was built using <i>HTML</i>, <i>CSS</i>, <i>JavaScript</i>, <i>WebGL</i>, <i>Three.js</i> and <i>3D COLLADA (COLLAborative Design Activity) Models</i> from the <i>Mario Kart 8</i> videogame for <i>Nitendo Wii U</i>. The application allows to view all the characters present in this videogame from <i>Super Mario Bros.' Universe</i>.</a></font></p>
 
