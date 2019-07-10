@@ -140,8 +140,8 @@
         <div id="characters-selection">
             <span style="background-color: #0a0d; color: #ffff00; padding: 4px 8px; border-radius: 6px;"><b>Choose a character:</b></span>
             <br/>
-            <div class="custom-select" id="character-selection">
-              <select id="character-selection">
+            <div class="custom-select" id="character-select">
+              <select id="character-select-options">
                 <option value="default">Select an option</option>
                 <option value="bowser">Bowser</option>
                 <option value="daisy">Daisy</option>
@@ -172,7 +172,7 @@
             <span style="background-color: #0a0d; color: #ffff00; padding: 4px 8px; border-radius: 6px;"><b>Choose a version:</b></span>
             <br/>
             <div class="custom-select" id="mario-version-select">
-              <select id="mario-version-select">
+              <select id="mario-version-select-options">
                 <option value="default">Select an option</option>
                 <option value="baby-mario" selected="selected">Baby</option>
                 <option value="normal-mario">Adult (Normal)</option>
@@ -181,14 +181,14 @@
               </select>
             </div>
             <div class="custom-select" id="luigi-version-select" hidden>
-              <select id="luigi-version-select">
+              <select id="luigi-version-select-options">
                 <option value="default">Select an option</option>
                 <option value="baby-luigi" selected="selected">Baby</option>
                 <option value="normal-luigi">Adult (Normal)</option>
               </select>
             </div>
             <div class="custom-select" id="peach-version-select" hidden>
-              <select id="peach-version-select">
+              <select id="peach-version-select-options">
                 <option value="default">Select an option</option>
                 <option value="baby-peach" selected="selected">Baby</option>
                 <option value="normal-peach">Adult (Normal)</option>
@@ -199,7 +199,7 @@
               </select>
             </div>
             <div class="custom-select" id="daisy-version-select" hidden>
-              <select id="daisy-version-select">
+              <select id="daisy-version-select-options">
                 <option value="default">Select an option</option>
                 <option value="baby-daisy" selected="selected">Baby</option>
                 <option value="normal-daisy">Adult (Normal)</option>
@@ -207,7 +207,7 @@
               </select>
             </div>
             <div class="custom-select" id="rosalina-version-select" hidden>
-              <select id="rosalina-version-select">
+              <select id="rosalina-version-select-options">
                 <option value="default">Select an option</option>
                 <option value="baby-rosalina" selected="selected">Baby</option>
                 <option value="normal-rosalina">Adult (Normal)</option>
@@ -215,14 +215,14 @@
               </select>
             </div>
             <div class="custom-select" id="bowser-version-select" hidden>
-              <select id="bowser-version-select">
+              <select id="bowser-version-select-options">
                 <option value="default">Select an option</option>
                 <option value="normal-bowser" selected="selected">Normal</option>
                 <option value="dry-bowser">Dry</option>
               </select>
             </div>
             <div class="custom-select" id="koopalings-brothers-select" hidden>
-              <select id="koopalings-brothers-select">
+              <select id="koopalings-brothers-select-options">
                 <option value="default">Select an option</option>
                 <option value="iggy-koopa" selected="selected">Iggy Koopa</option>
                 <option value="koopa-troopa">Koopa Troopa</option>
@@ -325,31 +325,153 @@ document.addEventListener("click", closeAllSelect);
 			}
 
 			var container, stats, clock;
-			var camera, marioCharacterScene, renderer, marioCharacter;
+            var loadingManager, colladaLoader;
+            
+            var floorCircleGeometry, floorCircleMaterial, floorCircle;
+			
+            var lastCharacterSelectedIndex = 8;
+            var lastSubCharacterSelectedIndex = 1;
+            
+            var camera, marioCharacterScene, renderer, marioCharacter;
 
 			var marioCharacterDemoPivot;
+            
+            var ambientLight, directionalLight;
 
 			var loader = new THREE.TextureLoader();
             loader.setCrossOrigin("");
 
 			init();
 			animate();
+            
+            // 
+            function showSelectListBowser() {
+                document.getElementById("versions-selection").hidden = false;
+                document.getElementById("mario-version-select").hidden = true;
+                document.getElementById("luigi-version-select").hidden = true;
+                document.getElementById("peach-version-select").hidden = true;
+                document.getElementById("daisy-version-select").hidden = true;
+                document.getElementById("rosalina-version-select").hidden = true;
+                document.getElementById("bowser-version-select").hidden = false;
+                document.getElementById("koopalings-brothers-select").hidden = true;
+            }
+            
+            function showSelectListDaisy() {
+                document.getElementById("versions-selection").hidden = false;
+                document.getElementById("mario-version-select").hidden = true;
+                document.getElementById("luigi-version-select").hidden = true;
+                document.getElementById("peach-version-select").hidden = true;
+                document.getElementById("daisy-version-select").hidden = false;
+                document.getElementById("rosalina-version-select").hidden = true;
+                document.getElementById("bowser-version-select").hidden = true;
+                document.getElementById("koopalings-brothers-select").hidden = true;
+            }
+            
+            function showSelectListDonkeyKong() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListIsabelle() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListKoopalingsBrothers() {
+                document.getElementById("versions-selection").hidden = false;
+                document.getElementById("mario-version-select").hidden = true;
+                document.getElementById("luigi-version-select").hidden = true;
+                document.getElementById("peach-version-select").hidden = true;
+                document.getElementById("daisy-version-select").hidden = true;
+                document.getElementById("rosalina-version-select").hidden = true;
+                document.getElementById("bowser-version-select").hidden = true;
+                document.getElementById("koopalings-brothers-select").hidden = false;
+            }
+            
+            function showSelectListLakitu() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+        
+            function showSelectListLuigi() {
+                document.getElementById("versions-selection").hidden = false;
+                document.getElementById("mario-version-select").hidden = true;
+                document.getElementById("luigi-version-select").hidden = false;
+                document.getElementById("peach-version-select").hidden = true;
+                document.getElementById("daisy-version-select").hidden = true;
+                document.getElementById("rosalina-version-select").hidden = true;
+                document.getElementById("bowser-version-select").hidden = true;
+                document.getElementById("koopalings-brothers-select").hidden = true;
+            }
 
-			function init() {
-                container = document.getElementById('container');
-                
-				camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 0.1, 2000);
-				camera.position.set(1, 6, 15);
-				camera.lookAt(0, 4, 0);
+            function showSelectListMario() {
+                document.getElementById("versions-selection").hidden = false;
+                document.getElementById("mario-version-select").hidden = false;
+                document.getElementById("luigi-version-select").hidden = true;
+                document.getElementById("peach-version-select").hidden = true;
+                document.getElementById("daisy-version-select").hidden = true;
+                document.getElementById("rosalina-version-select").hidden = true;
+                document.getElementById("bowser-version-select").hidden = true;
+                document.getElementById("koopalings-brothers-select").hidden = true;
+            }
 
-				marioCharacterScene = new THREE.Scene();
+            function showSelectListPeach() {
+                document.getElementById("versions-selection").hidden = false;
+                document.getElementById("mario-version-select").hidden = true;
+                document.getElementById("luigi-version-select").hidden = true;
+                document.getElementById("peach-version-select").hidden = false;
+                document.getElementById("daisy-version-select").hidden = true;
+                document.getElementById("rosalina-version-select").hidden = true;
+                document.getElementById("bowser-version-select").hidden = true;
+                document.getElementById("koopalings-brothers-select").hidden = true;
+            }
 
-				backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+            function showSelectListRosalina() {
+                document.getElementById("versions-selection").hidden = false;
+                document.getElementById("mario-version-select").hidden = true;
+                document.getElementById("luigi-version-select").hidden = true;
+                document.getElementById("peach-version-select").hidden = true;
+                document.getElementById("daisy-version-select").hidden = true;
+                document.getElementById("rosalina-version-select").hidden = false;
+                document.getElementById("bowser-version-select").hidden = true;
+                document.getElementById("koopalings-brothers-select").hidden = true;
+            }
+            
+            function showSelectListShyGuy() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListToad() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListToadette() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListVillager() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListWaluigi() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListWario() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            function showSelectListYoshi() {
+                document.getElementById("versions-selection").hidden = true;   
+            }
+            
+            //
+            function loadNormalBowser() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
                         var backgroundHeight = image.height;
-            
+
                         onWindowResize();
                     }
                 );
@@ -358,51 +480,2355 @@ document.addEventListener("click", closeAllSelect);
                 backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
                 backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
 
-				clock = new THREE.Clock();
+                marioCharacterDemoPivot = new THREE.Group();
 
-				marioCharacterDemoPivot = new THREE.Group();
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
-				grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
-
-				var floorCircleGeometry = new THREE.CircleGeometry(4, 200);
-				var floorCircleMaterial = new THREE.MeshBasicMaterial(
-					{
-						map: grassTexture2,
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
                         overdraw: 0.5
-					}
-				);
+                    }
+                );
 
-				var floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
 
-				marioCharacterDemoPivot.add(floorCircle);
+                marioCharacterDemoPivot.add(floorCircle);
 
-				floorCircle.rotation.x = -Math.PI / 2;
-				floorCircle.position.y = 0;
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
 
-				// Loading manager
-				var loadingManager = new THREE.LoadingManager(
-					function() {
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
                         marioCharacterDemoPivot.add(marioCharacter);
-					}
-				);
+                    }
+                );
 
-				// Collada loader
-				var colladaLoader = new THREE.ColladaLoader(loadingManager);
-				colladaLoader.load('models/collada/baby-mario/baby-mario.dae',
-					function(collada) {
-						marioCharacter = collada.scene;
-					}
-				);
-               
-				marioCharacterScene.add(marioCharacterDemoPivot);
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/bowser/bowser.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
 
-				//
-				var ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
-				marioCharacterScene.add(ambientLight);
+                marioCharacterScene.add(marioCharacterDemoPivot);
 
-				var directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-				directionalLight.position.set(1, 1, 0).normalize();
-				marioCharacterScene.add(directionalLight);
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadDryBowser() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/dry-bowser/dry-bowser.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadBabyDaisy() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/baby-daisy/baby-daisy.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);   
+            }
+            
+            function loadNormalDaisy() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/daisy/daisy.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadSuitDaisy() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/suit-daisy/suit-daisy.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadDonkeyKong() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/donkey-kong/donkey-kong.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadIsabelle() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/isabelle/isabelle.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadIggyKoopa() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/iggy-koopa/iggy-koopa.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadKoopaTroopa() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/koopa-troopa/koopa-troopa.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadLarryKoopa() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/larry-koopa/larry-koopa.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadLemmyKoopa() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/lemmy-koopa/lemmy-koopa.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadLudwigVonKoopa() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/ludwig-von-koopa/ludwig-von-koopa.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadMortonKoopaJR() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/morton-koopa-jr/morton-koopa-jr.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadRoyKoopa() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/roy-koopa/roy-koopa.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadWendyOKoopa() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/wendy-o-koopa/wendy-o-koopa.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadLakitu() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/lakitu/lakitu.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadBabyLuigi() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/baby-luigi/baby-luigi.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadNormalLuigi() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/luigi/luigi.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadBabyMario() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/baby-mario/baby-mario.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadNormalMario() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/mario/mario.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadTanookiMario() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/tanooki-mario/tanooki-mario.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadMetalMario() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/metal-mario/metal-mario.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadBabyPeach() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/baby-peach/baby-peach.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadNormalPeach() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/peach/peach.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadCatPeach() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/cat-peach/cat-peach.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadSuitPeach() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/suit-peach/suit-peach.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadPinkGoldPeach() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/pink-gold-peach/pink-gold-peach.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadPinkGoldSuitPeach() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/pink-gold-suit-peach/pink-gold-suit-peach.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadBabyRosalina() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/baby-rosalina/baby-rosalina.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadNormalRosalina() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/rosalina/rosalina.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadSuitRosalina() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/suit-rosalina/suit-rosalina.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadShyGuy() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/shy-guy/shy-guy.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadToad() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/toad/toad.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadToadette() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/toadette/toadette.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadVillager() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/villager/villager.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadWaluigi() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/waluigi/waluigi.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadWario() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/wario/wario.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function loadYoshi() {
+                marioCharacterScene = new THREE.Scene();
+
+                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                    function(texture) {
+                        var image = texture.image;
+                        var backgroundWidth= image.width;
+                        var backgroundHeight = image.height;
+
+                        onWindowResize();
+                    }
+                );
+
+                marioCharacterScene.background = backgroundTexture;
+                backgroundTexture.wrapS = THREE.MirroredRepeatWrapping;
+                backgroundTexture.wrapT = THREE.MirroredRepeatWrapping;
+
+                marioCharacterDemoPivot = new THREE.Group();
+
+                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+
+                floorCircleGeometry = new THREE.CircleGeometry(4, 200);
+                floorCircleMaterial = new THREE.MeshBasicMaterial(
+                    {
+                        map: grassTexture2,
+                        overdraw: 0.5
+                    }
+                );
+
+                floorCircle = new THREE.Mesh(floorCircleGeometry, floorCircleMaterial);
+
+                marioCharacterDemoPivot.add(floorCircle);
+
+                floorCircle.rotation.x = -Math.PI / 2;
+                floorCircle.position.y = 0;
+
+                // Loading manager
+                loadingManager = new THREE.LoadingManager(
+                    function() {
+                        marioCharacterDemoPivot.add(marioCharacter);
+                    }
+                );
+
+                // Collada loader
+                colladaLoader = new THREE.ColladaLoader(loadingManager);
+                colladaLoader.load('models/collada/yoshi/yoshi.dae',
+                    function(collada) {
+                        marioCharacter = collada.scene;
+                    }
+                );
+
+                marioCharacterScene.add(marioCharacterDemoPivot);
+
+                //
+                ambientLight = new THREE.AmbientLight(0xcccccc, 0.4);
+                marioCharacterScene.add(ambientLight);
+
+                directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
+                directionalLight.position.set(1, 1, 0).normalize();
+                marioCharacterScene.add(directionalLight);
+            }
+            
+            function init() {
+                container = document.getElementById('container');
+                
+				camera = new THREE.PerspectiveCamera(45, window.innerWidth/window.innerHeight, 0.1, 2000);
+				camera.position.set(1, 6, 15);
+				camera.lookAt(0, 4, 0);
+
+                loadBabyMario();
+                
+				clock = new THREE.Clock();
 
 				//
 				renderer = new THREE.WebGLRenderer();
@@ -434,13 +2860,397 @@ document.addEventListener("click", closeAllSelect);
 
 			function render() {
 				var delta = clock.getDelta();
-
+                
 				if(marioCharacterDemoPivot !== undefined) {
 					marioCharacterDemoPivot.rotation.y += delta * 0.5;
 				}
 
 				renderer.render(marioCharacterScene, camera);
-			}
+                
+                var boolCondition1 = (document.getElementById("character-select-options").selectedIndex != lastCharacterSelectedIndex);
+                
+                if(boolCondition1) {
+                    lastCharacterSelectedIndex = document.getElementById("character-select-options").selectedIndex;
+                    
+                    switch(document.getElementById("character-select-options").selectedIndex) {
+                        case 0:
+                            break;
+                        // Bowser
+                        case 1:
+                            showSelectListBowser();
+                            loadNormalBowser();
+                            break;
+                        // Daisy
+                        case 2:
+                            showSelectListDaisy();
+                            loadBabyDaisy();
+                            break;
+                        // Donkey Kong
+                        case 3:
+                            showSelectListDonkeyKong();
+                            loadDonkeyKong();
+                            break;
+                        // Isabelle
+                        case 4:
+                            showSelectListIsabelle();
+                            loadIsabelle();
+                            break;
+                        // Koopalings' Brothers
+                        case 5:
+                            showSelectListKoopalingsBrothers();
+                            loadIggyKoopa();
+                            break;
+                        // Lakitu
+                        case 6:
+                            showSelectListLakitu();
+                            loadLakitu();
+                            break;
+                        // Luigi
+                        case 7:
+                            showSelectListLuigi();
+                            loadBabyLuigi();
+                            break;
+                        // Mario
+                        case 8:
+                            showSelectListMario();
+                            loadBabyMario();
+                            break;
+                        // Peach
+                        case 9:
+                            showSelectListPeach();
+                            loadBabyPeach();
+                            break;
+                        // Rosalina
+                        case 10:
+                            showSelectListRosalina();
+                            loadBabyRosalina();
+                            break;
+                        // Shy Guy
+                        case 11:
+                            showSelectListShyGuy();
+                            loadShyGuy();
+                            break;
+                        // Toad
+                        case 12:
+                            showSelectListToad();
+                            loadToad();
+                            break;
+                        // Toadette
+                        case 13:
+                            showSelectListToadette();
+                            loadToadette();
+                            break;
+                        // Villager
+                        case 14:
+                            showSelectListVillager();
+                            loadVillager();
+                            break;
+                        // Waluigi
+                        case 15:
+                            showSelectListWaluigi();
+                            loadWaluigi();
+                            break;
+                        // Wario
+                        case 16:
+                            showSelectListWario();
+                            loadWario();
+                            break;
+                        // Yoshi
+                        case 17:
+                            showSelectListYoshi();
+                            loadYoshi();
+                            break;
+                        default:
+                            break;
+                    }   
+                }
+                else {
+                    switch(document.getElementById("character-select-options").selectedIndex) {
+                        case 0:
+                            break;
+                        // Bowser
+                        case 1:
+                            showSelectListBowser();
+                            
+                            var boolCondition2 = (document.getElementById("bowser-version-select-options").selectedIndex != lastSubCharacterSelectedIndex);
+                            
+                            if(boolCondition2) {
+                                
+                                lastSubCharacterSelectedIndex = document.getElementById("bowser-version-select-options").selectedIndex;
+                                
+                                switch(document.getElementById("bowser-version-select-options").selectedIndex) {
+                                    case 0:
+                                        break;
+                                    // Normal Bowser
+                                    case 1:
+                                        loadNormalBowser();
+                                        break;
+                                    // Dry Bowser
+                                    case 2:
+                                        loadDryBowser();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            
+                            break;
+                        // Daisy
+                        case 2:
+                            showSelectListDaisy();
+                            
+                            var boolCondition2 = (document.getElementById("daisy-version-select-options").selectedIndex != lastSubCharacterSelectedIndex);
+                            
+                            if(boolCondition2) {
+                                
+                                lastSubCharacterSelectedIndex = document.getElementById("daisy-version-select-options").selectedIndex;
+                                
+                                switch(document.getElementById("daisy-version-select-options").selectedIndex) {
+                                    case 0:
+                                        break;
+                                    // Baby Daisy
+                                    case 1:
+                                        loadBabyDaisy();
+                                        break;
+                                    // Adult Normal Daisy
+                                    case 2:
+                                        loadNormalDaisy();
+                                        break;
+                                    // Adult Suit Daisy
+                                    case 3:
+                                        loadSuitDaisy();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            
+                            break;
+                        // Donkey Kong
+                        case 3:
+                            showSelectListDonkeyKong();
+                            break;
+                        // Isabelle
+                        case 4:
+                            showSelectListIsabelle();
+                            break;
+                        // Koopalings' Brothers
+                        case 5:
+                            var boolCondition2 = (document.getElementById("koopalings-brothers-select-options").selectedIndex != lastSubCharacterSelectedIndex);
+                            
+                            if(boolCondition2) {
+                                
+                                lastSubCharacterSelectedIndex = document.getElementById("koopalings-brothers-select-options").selectedIndex;
+                                
+                                switch(document.getElementById("koopalings-brothers-select-options").selectedIndex) {
+                                    case 0:
+                                        break;
+                                    // Iggy Koopa
+                                    case 1:
+                                        loadIggyKoopa();
+                                        break;
+                                    // Koopa Troopa
+                                    case 2:
+                                        loadKoopaTroopa();
+                                        break;
+                                    // Larry Koopa
+                                    case 3:
+                                        loadLarryKoopa();
+                                        break;
+                                    // Lemmy Koopa
+                                    case 4:
+                                        loadLemmyKoopa();
+                                        break;
+                                    // Ludwig von Koopa
+                                    case 5:
+                                        loadLudwigVonKoopa();
+                                        break;
+                                    // Morton Koopa Jr.
+                                    case 6:
+                                        loadMortonKoopaJR();
+                                        break;
+                                    // Roy Koopa
+                                    case 7:
+                                        loadRoyKoopa();
+                                        break;
+                                    // Wendy O. Koopa
+                                    case 8:
+                                        loadWendyOKoopa();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            break;
+                        // Lakitu
+                        case 6:
+                            showSelectListLakitu();
+                            break;
+                        // Luigi
+                        case 7:
+                            showSelectListLuigi();
+                            
+                            var boolCondition2 = (document.getElementById("luigi-version-select-options").selectedIndex != lastSubCharacterSelectedIndex);
+                            
+                            if(boolCondition2) {
+                                
+                                lastSubCharacterSelectedIndex = document.getElementById("luigi-version-select-options").selectedIndex;
+                                
+                                switch(document.getElementById("luigi-version-select-options").selectedIndex) {
+                                    case 0:
+                                        break;
+                                    // Baby Luigi
+                                    case 1:
+                                        loadBabyLuigi();
+                                        break;
+                                    // Adult Normal Luigi
+                                    case 2:
+                                        loadNormalLuigi();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            break;
+                        // Mario
+                        case 8:
+                            showSelectListMario();
+                            
+                            var boolCondition2 = (document.getElementById("mario-version-select-options").selectedIndex != lastSubCharacterSelectedIndex);
+                            
+                            if(boolCondition2) {
+                                
+                                lastSubCharacterSelectedIndex = document.getElementById("mario-version-select-options").selectedIndex;
+                                
+                                switch(document.getElementById("mario-version-select-options").selectedIndex) {
+                                    case 0:
+                                        break;
+                                    // Baby Mario
+                                    case 1:
+                                        loadBabyMario();
+                                        break;
+                                    // Adult Normal Mario
+                                    case 2:
+                                        loadNormalMario();
+                                        break;
+                                    // Adult Tanooki Mario
+                                    case 3:
+                                        loadTanookiMario();
+                                        break;
+                                    // Adult Metal Mario
+                                    case 4:
+                                        loadMetalMario();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            break;
+                        // Peach
+                        case 9:
+                            showSelectListPeach();
+                            
+                            var boolCondition2 = (document.getElementById("peach-version-select-options").selectedIndex != lastSubCharacterSelectedIndex);
+                            
+                            if(boolCondition2) {
+                                
+                                lastSubCharacterSelectedIndex = document.getElementById("peach-version-select-options").selectedIndex;
+                                
+                                switch(document.getElementById("peach-version-select-options").selectedIndex) {
+                                    case 0:
+                                        break;
+                                    // Baby Peach
+                                    case 1:
+                                        loadBabyPeach();
+                                        break;
+                                    // Adult Normal Peach
+                                    case 2:
+                                        loadNormalPeach();
+                                        break;
+                                    // Adult Cat Peach
+                                    case 3:
+                                        loadCatPeach();
+                                        break;
+                                    // Adult Suit Peach
+                                    case 4:
+                                        loadSuitPeach();
+                                        break;
+                                    // Adult Pink Gold Peach
+                                    case 5:
+                                        loadPinkGoldPeach();
+                                        break;
+                                    // Adult Pink Gold & Suit Peach
+                                    case 6:
+                                        loadPinkGoldSuitPeach();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            break;
+                        // Rosalina
+                        case 10:
+                            showSelectListRosalina();
+                            
+                            var boolCondition2 = (document.getElementById("rosalina-version-select-options").selectedIndex != lastSubCharacterSelectedIndex);
+                            
+                            if(boolCondition2) {
+                                
+                                lastSubCharacterSelectedIndex = document.getElementById("rosalina-version-select-options").selectedIndex;
+                                
+                                switch(document.getElementById("rosalina-version-select-options").selectedIndex) {
+                                    case 0:
+                                        break;
+                                    // Baby Rosalina
+                                    case 1:
+                                        loadBabyRosalina();
+                                        break;
+                                    // Adult Normal Rosalina
+                                    case 2:
+                                        loadNormalRosalina();
+                                        break;
+                                    // Adult Suit Rosalina
+                                    case 3:
+                                        loadSuitRosalina();
+                                        break;
+                                    default:
+                                        break;
+                                }
+                            }
+                            break;
+                        // Shy Guy
+                        case 11:
+                            showSelectListShyGuy();
+                            break;
+                        // Toad
+                        case 12:
+                            showSelectListToad();
+                            break;
+                        // Toadette
+                        case 13:
+                            showSelectListToadette();
+                            break;
+                        // Villager
+                        case 14:
+                            showSelectListVillager();
+                            break;
+                        // Waluigi
+                        case 15:
+                            showSelectListWaluigi();
+                            break;
+                        // Wario
+                        case 16:
+                            showSelectListWario();
+                            break;
+                        // Yoshi
+                        case 17:
+                            showSelectListYoshi();
+                            break;
+                        default:
+                            break;
+                    }   
+                }
+            }
 		</script>
 	</body>
 </html>
