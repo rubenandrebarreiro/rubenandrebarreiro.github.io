@@ -1896,6 +1896,15 @@ active: Projects
 
 <br>
 
+<b>Instructions:</b>
+<font size="2">
+    <p align="justify">
+            a) Select a character; 
+        <br>
+            b) Select the version for the character you choose, if available more than one;
+    </p>
+</font>  
+
 [![3DObjectViewerSuperMarioBros]({{ site.images | relative_url }}/projects/3d-object-viewer-super-mario-bros-01.jpg)]({{ site.images | relative_url }}/projects/3d-object-viewer-super-mario-bros-01.jpg)
 <p style="font-size:11px"><i>3D Object Viewer Demo for Super Mario Bros. Characters, using Three.js and 3D COLLADA (COLLAborative Design Activity) Models (Between January 2019 and July 2019)</i></p>
 
