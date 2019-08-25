@@ -168,7 +168,7 @@ br {
             
             <br/>
             
-            <iframe src="musics/silence.mp3" allow="autoplay" style="display:none"></iframe>
+            <iframe id="musicplayersilencepreloadsource" src=" " allow="autoplay" style="display:none"></iframe>
             <audio id="musicplayersource" controls preload="auto">
                 <source src=" " type="audio/mpeg">
             </audio>
@@ -184,19 +184,23 @@ br {
                     isMainTab = false;
                 }
 
+                var silencePreloadPathSrc = '';
                 var musicPathSrc = '';
 
                 if(isMainTab) {
+                    silencePreloadPathSrc = '../musics/silence.mp3';
                     musicPathSrc = '../musics/Travis Scott feat. Kendrick Lamar - Goosebumps.mp3';    
                 }
                 else {
+                    silencePreloadPathSrc = '../musics/silence.mp3';
                     musicPathSrc = '../../musics/Travis Scott feat. Kendrick Lamar - Goosebumps.mp3';
                 }
 
+                var silencePreloadSrcElem = document.getElementById("musicplayersilencepreloadsource");
                 var musicPlayerSrcElem = document.getElementById("musicplayersource");
 
+                silencePreloadSrcElem.src = silencePreloadPathSrc;
                 musicPlayerSrcElem.src = musicPathSrc;
-                console.log(musicPlayerSrcElem.src)
               </script>
         </center>
       </div>
