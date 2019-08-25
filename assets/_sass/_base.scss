@@ -49,7 +49,17 @@ h6 { font-size: .6em; }
   }
 }
 
-.shortbio, .musicplayer {
+.shortbio {
+  font-size: .6em;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  margin: .67em 0;
+  a:link, a:hover, a:focus, a:visited {
+    color: #fff;
+  }
+}
+
+.musicplayer {
   font-size: .6em;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
