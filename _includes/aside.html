@@ -171,7 +171,7 @@ br {
             
             <iframe src="musics/silence.mp3" allow="autoplay" style="display:none"></iframe>
             <audio controls autoplay>
-                <source id="musicplayer" src=" " type="audio/mpeg">
+                <source id="musicplayersource" src=" " type="audio/mpeg">
             </audio>
 
               <script>
@@ -194,10 +194,10 @@ br {
                     musicPathSrc = '../../musics/Travis Scott feat. Kendrick Lamar - Goosebumps.mp3';
                 }
 
-                var musicPlayerElem = document.getElementById("musicplayer");
+                var musicPlayerSrcElem = document.getElementById("musicplayersource");
 
-                musicPlayerElem.src = musicPathSrc;
-                console.log(musicPlayerElem.src)
+                musicPlayerSrcElem.src = musicPathSrc;
+                console.log(musicPlayerSrcElem.src)
               </script>
         </center>
       </div>
