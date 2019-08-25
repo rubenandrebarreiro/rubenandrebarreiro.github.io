@@ -151,13 +151,40 @@
       </div>
       <hr/>
       
-      <center>
-        Travis Scott feat. Kendrick Lamar - Goosebumps
-        <audio controls autoplay>
-            <source src="musics/Travis Scott feat. Kendrick Lamar - Goosebumps.mp3" type="audio/mpeg">
-          </audio>
-      </center>
-    
+      <div class="musicplayer">
+        <center>
+            Travis Scott feat. Kendrick Lamar - Goosebumps
+            <audio controls autoplay>
+                <source id="musicplayer" src="musics/Travis Scott feat. Kendrick Lamar - Goosebumps.mp3" type="audio/mpeg">
+              </audio>
+
+              <script>
+                var path = document.location.pathname;
+                var directory = path.substring(path.indexOf('/'), path.lastIndexOf('/'));  
+
+                var directories = directory.split('/');
+                var isMainTab = true;
+
+                if(directories.length == 3) {
+                    isMainTab = false;
+                }
+
+                var musicPathSrc = '';
+
+                if(isMainTab) {
+                    musicPathSrc = 'musics/images/protrait-2d-1.png';    
+                }
+                else {
+                    musicPathSrc = '../musics/Travis Scott feat. Kendrick Lamar - Goosebumps.mp3';
+                }
+
+                var musicPlayerElem = document.getElementById("musicplayer");
+
+                musicPlayerElem.src = musicPathSrc;
+              </script>
+        </center>
+      </div>
+          
       <center>
           <div class="sidebarinfoinstructions">
             *** Click in the right side of this tab, to open/close it ***
