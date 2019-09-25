@@ -2132,7 +2132,7 @@ active: About Me
 			<font size="2"><b>Final Global Points Average:</b></font>
             <ul>
                 <li>
-                    <i class="fas fa-certificate faa-horizontal animated"></i>&nbsp;&nbsp;10 of 20
+                    <i class="fas fa-certificate faa-horizontal animated"></i>&nbsp;&nbsp;16 of 20
                 </li>
             </ul>
 		</li>
