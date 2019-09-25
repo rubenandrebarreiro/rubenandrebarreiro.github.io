@@ -1855,19 +1855,20 @@ active: Projects
 
 <br>
 
-<!--
-<p align="justify"><font size="2">Documents of the <b><i>Everyone is a Hero - Mobile App</i></b>, in 2018:</font></p>:
-<font size="2">
-    <p align="justify">
-        <ul>
-            <li><p align="justify"><font size="2"><a target="_blank" href="/projects/unity3d/everyone-is-a-hero/presentation/everyone-is-a-hero-talk-a-bit-2019-presentation.pdf"> Final Presentation at the <i>Talk a Bit 2019</i> - Annual Tech Conference in <i>FEUP</i>, <i>Porto</i></a>;</font></p></li>
-        </ul>
-    </p>
-</font>   --> 
-<!--
+<b>Documents of the <i>Everyone is a Hero - Mobile App</i>, in 2018:</b>
+<ul>
+    <font size="2">
+        <p align="justify">
+            <li>
+                <a target="_blank" href="/projects/unity3d/everyone-is-a-hero/presentation/everyone-is-a-hero-talk-a-bit-2019-presentation.pdf"> Final Presentation at the <i>Talk a Bit 2019</i> - Annual Tech Conference in <i>FEUP</i>, <i>Porto</i></a>;
+            </li>
+        </p>
+    </font> 
+</ul>
+
 [![EveryoneIsAHeroMobileApp]({{ site.images | relative_url }}/projects/everyone-is-a-hero-mobile-app-01.jpg)]({{ site.images | relative_url }}/projects/everyone-is-a-hero-mobile-app-01.jpg)
 <p style="font-size:11px"><i>Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)</i></p>
--->
+
 
 <br>
 <hr/>
