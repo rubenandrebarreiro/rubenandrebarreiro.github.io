@@ -1855,6 +1855,8 @@ active: Projects
 
 <p align="justify"><font size="2"><a target="_blank" href="/projects/unity3d/everyone-is-a-hero/everyone-is-a-hero-talk-a-bit-presentation.pdf" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)">A <i>1st year's project</i>, of the <i>MSc. degree of Informatics and Computing Engineering</i>, in <i>FEUP (Faculty of Engineering of University of Porto)</i>, in the subject of <i>Software Development</i>. This project was designed in <i>Adobe Illustrator</i> and <i>Adobe Photoshop</i>, and was developed in <i>Unity3D</i>. This project was developed with the collaboration of <i>U.Porto Media Innovation Labs</i>, <i>Bright Digital</i> an <i>IPO-Porto (Instituto Português de Oncologia do Porto)</i>. This project aims to offer <i>interactive and appellative support and information to families, educators and volunteers of children who suffer of cancer diseases</i>. Other goal of this app, it's to, in a near future, be linked to the video game app for these same children, called "<i>Hope</i>", that's being also developed by <i>Bright Digital</i>! </a></font></p>
 
+<p align="justify"><font size="2">This <i>Software &amp; Development</i> was supervised by <a target="_blank" href="https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=450994">Prof. Hugo Sereno Ferreira</a>, <a target="_blank" href="https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=618567">Prof. José Vilaça da Silva</a> and <a target="_blank" href="https://sigarra.up.pt/feup/pt/fest_geral.cursos_list?pv_num_unico=200603285">Hernâni Zão Oliveria</a>. </font></p>
+
 <br>
 
 <b>Mobile Apps of the <i>Everyone is a Hero - Mobile App</i>, in 2018:</b>
