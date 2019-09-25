@@ -1859,7 +1859,7 @@ active: Projects
 
 <br>
 
-<b>Mobile Application of the <i>Everyone is a Hero - Mobile App</i>, in 2018:</b>
+<b>Mobile Application's Version of the <i>Everyone is a Hero - Mobile App</i>, in 2018:</b>
 <ul>
     <font size="2">
         <p align="justify">
