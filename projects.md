@@ -1,4 +1,3 @@
-
 ---
 bg: "photo-44.jpg"
 layout: default
