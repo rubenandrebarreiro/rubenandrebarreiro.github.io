@@ -1857,6 +1857,17 @@ active: Projects
 
 <br>
 
+<b>Mobile Apps of the <i>Everyone is a Hero - Mobile App</i>, in 2018:</b>
+<ul>
+    <font size="2">
+        <p align="justify">
+            <li>
+                <a target="_blank" href="/projects/unity3d/everyone-is-a-hero/mobile-app/android/everyone-is-a-hero-mobile-app-android.apk"> <i>Android</i> version of the <i>Mobile App</i></a>;
+            </li>
+        </p>
+    </font> 
+</ul>
+
 <b>Documents of the <i>Everyone is a Hero - Mobile App</i>, in 2018:</b>
 <ul>
     <font size="2">
