@@ -1839,12 +1839,12 @@ active: Projects
 <br>
 
 <font size="5">
-     <span class="icon-university-porto" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)">
-    </span>
     <font size="1">
+    <span class="icon-university-porto" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)">
+    </span>
     <span class="icon-feup" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)"></span>
-    <i class="icon-javascript-alt" style="color:Gold" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)"></i>
     </font>
+    <i class="icon-javascript-alt" style="color:Gold" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)"></i>
 </font>
 
 <font size="4">
