@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
         <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"/>
-		<title>3D Object Modelling's Solar System with Sun, Planets, Earth's Moon, Orbits and Trackball Controls</title>
+		<title>3D Object Modelling - Solar System with Sun, Planets, Earth's Moon, Orbits and Trackball Controls</title>
 		<meta charset="utf-8">
         <meta name="author" content="Rúben André Barreiro" />
 		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
@@ -85,7 +85,7 @@
 
 	<body>
 		<div id="intro">
-            <h1>3D Object Modelling's Solar System</h1>
+            <h1>3D Object Modelling - Solar System</h1>
             <h3>with Sun, Planets, Earth's Moon, Orbits and Trackball Controls</h3>
             <br/>
             <span style="color: #ffff00"> Made with <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a> by <a href="https://rubenandrebarreiro.github.io/" target="_blank" rel="noopener"> Rúben André Barreiro</a></span>
@@ -296,7 +296,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/sun-data.json', true);
+                obj.open('GET', 'assets/info/json/sun-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -313,7 +313,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/mercury-data.json', true);
+                obj.open('GET', 'assets/info/json/mercury-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -330,7 +330,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/venus-data.json', true);
+                obj.open('GET', 'assets/info/json/venus-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -347,7 +347,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/earth-data.json', true);
+                obj.open('GET', 'assets/info/json/earth-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -364,7 +364,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/mars-data.json', true);
+                obj.open('GET', 'assets/info/json/mars-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -381,7 +381,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/ceres-data.json', true);
+                obj.open('GET', 'assets/info/json/ceres-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -398,7 +398,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/jupiter-data.json', true);
+                obj.open('GET', 'assets/info/json/jupiter-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -415,7 +415,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/saturn-data.json', true);
+                obj.open('GET', 'assets/info/json/saturn-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -432,7 +432,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/uranus-data.json', true);
+                obj.open('GET', 'assets/info/json/uranus-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -449,7 +449,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/neptune-data.json', true);
+                obj.open('GET', 'assets/info/json/neptune-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -466,7 +466,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/pluto-data.json', true);
+                obj.open('GET', 'assets/info/json/pluto-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -483,7 +483,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/haumea-data.json', true);
+                obj.open('GET', 'assets/info/json/haumea-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -500,7 +500,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/makemake-data.json', true);
+                obj.open('GET', 'assets/info/json/makemake-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -517,7 +517,7 @@
 
                 var obj = new XMLHttpRequest();
                 obj.overrideMimeType("application/json");
-                obj.open('GET', 'info/json/eris-data.json', true);
+                obj.open('GET', 'assets/info/json/eris-data.json', true);
                 
                 obj.onreadystatechange = function () {
                     if (obj.readyState == 4 && obj.status == "200") {
@@ -558,7 +558,7 @@
                 var gridXZ = new THREE.GridHelper(400000, 20, new THREE.Color(0xff0000), new THREE.Color(0xffffff));
                 solarSystemScene.add(gridXZ);
 				
-                backgroundTexture = loader.load("imgs/textures/background/stars-milky-way-texture.jpg",
+                backgroundTexture = loader.load("assets/imgs/textures/background/stars-milky-way-texture.jpg",
                     function (texture) {
                        var image = texture.image;
                        var backgroundWidth= image.width;
@@ -580,7 +580,7 @@
                 // The final size of each planet and their respective orbits will be rounded to the units or to the first decimal, since it's possible
                 
                 // A) SUN's setup
-                sunTexture = loader.load('imgs/textures/sun/sun-texture.jpg', function (texture) {});
+                sunTexture = loader.load('assets/imgs/textures/sun/sun-texture.jpg', function (texture) {});
                 
                 // The radius of Sun is 695,508 kms (Resolution: [695,508 * 0.0025] = 1739)
                 var sunGeometry = new THREE.SphereGeometry(1739, 40, 40);
@@ -627,7 +627,7 @@
                 mercuryOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                mercuryPlanetTexture = loader.load('imgs/textures/planets/mercury-planet-texture.jpg', function (mercuryPlanetTexture) {});
+                mercuryPlanetTexture = loader.load('assets/imgs/textures/planets/mercury-planet-texture.jpg', function (mercuryPlanetTexture) {});
                 
                 // The radius of Mercury is 2,440 kms (Resolution: [2,440 * 0.05] = 122)
                 var mercuryPlanetGeometry = new THREE.SphereGeometry(122, 40, 40);
@@ -680,7 +680,7 @@
                 venusOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                venusPlanetTexture = loader.load('imgs/textures/planets/venus-planet-texture.jpg', function (venusPlanetTexture) {});
+                venusPlanetTexture = loader.load('assets/imgs/textures/planets/venus-planet-texture.jpg', function (venusPlanetTexture) {});
                 
                 // The radius of Venus is 6,052 kms (Resolution: [6,052 * 0.05] = 303)
                 var venusPlanetGeometry = new THREE.SphereGeometry(303, 40, 40);
@@ -733,7 +733,7 @@
                 earthOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                earthPlanetTexture = loader.load('imgs/textures/planets/earth-planet-day-texture.jpg', function (earthPlanetTexture) {});
+                earthPlanetTexture = loader.load('assets/imgs/textures/planets/earth-planet-day-texture.jpg', function (earthPlanetTexture) {});
                 
                 // The radius of Earth is 6,371 kms (Resolution: [6,371 * 0.05] = 303)
                 var earthPlanetGeometry = new THREE.SphereGeometry(319, 40, 40);
@@ -786,7 +786,7 @@
                 marsOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                marsPlanetTexture = loader.load('imgs/textures/planets/mars-planet-texture.jpg', function (marsPlanetTexture) {});
+                marsPlanetTexture = loader.load('assets/imgs/textures/planets/mars-planet-texture.jpg', function (marsPlanetTexture) {});
                 
                 // The radius of Mars is 3,390 kms (Resolution: [3,390 * 0.05] = 170)
                 var marsPlanetGeometry = new THREE.SphereGeometry(170, 40, 40);
@@ -839,7 +839,7 @@
                 ceresFictionalOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                ceresFictionalPlanetTexture = loader.load('imgs/textures/fictional-planets/ceres-fictional-planet-texture.jpg', function (ceresFictionalPlanetTexture) {});
+                ceresFictionalPlanetTexture = loader.load('assets/imgs/textures/fictional-planets/ceres-fictional-planet-texture.jpg', function (ceresFictionalPlanetTexture) {});
                 
                 // The radius of Ceres is 490 kms (Resolution: [490 * 0.05] = 170)
                 var ceresFictionalPlanetGeometry = new THREE.SphereGeometry(25, 40, 40);
@@ -892,7 +892,7 @@
                 jupiterOrbitMesh.rotation.x = Math.PI / 2;
                 
                 
-                jupiterPlanetTexture = loader.load('imgs/textures/planets/jupiter-planet-texture.jpg', function (jupiterPlanetTexture) {});
+                jupiterPlanetTexture = loader.load('assets/imgs/textures/planets/jupiter-planet-texture.jpg', function (jupiterPlanetTexture) {});
                 
                 // The radius of Jupiter is 69,911 kms (Resolution: [69,911 * 0.0125] = 170)
                 var jupiterPlanetGeometry = new THREE.SphereGeometry(874, 40, 40);

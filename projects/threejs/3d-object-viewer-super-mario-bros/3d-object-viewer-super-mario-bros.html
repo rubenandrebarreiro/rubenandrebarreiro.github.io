@@ -122,10 +122,10 @@
 		</style>
 	</head>
 	<body>
-		<iframe src="audio/silence.mp3" allow="autoplay" style="display:none"></iframe>
+		<iframe src="assets/audio/silence.mp3" allow="autoplay" style="display:none"></iframe>
 
 		<audio controls autoplay loop hidden>
-  		<source src="audio/super-mario-bros-game-theme-music.mp3" type="audio/mpeg">
+  		<source src="assets/audio/super-mario-bros-game-theme-music.mp3" type="assets/audio/mpeg">
 		</audio>
 
 		<div id="container"></div>
@@ -466,7 +466,7 @@ document.addEventListener("click", closeAllSelect);
             function loadNormalBowser() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -482,7 +482,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -508,7 +508,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/bowser/bowser.dae',
+                colladaLoader.load('assets/models/collada/bowser/bowser.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -528,7 +528,7 @@ document.addEventListener("click", closeAllSelect);
             function loadDryBowser() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -544,7 +544,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -570,7 +570,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/dry-bowser/dry-bowser.dae',
+                colladaLoader.load('assets/models/collada/dry-bowser/dry-bowser.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -590,7 +590,7 @@ document.addEventListener("click", closeAllSelect);
             function loadBabyDaisy() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -606,7 +606,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -632,7 +632,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/baby-daisy/baby-daisy.dae',
+                colladaLoader.load('assets/models/collada/baby-daisy/baby-daisy.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -652,7 +652,7 @@ document.addEventListener("click", closeAllSelect);
             function loadNormalDaisy() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -668,7 +668,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -694,7 +694,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/daisy/daisy.dae',
+                colladaLoader.load('assets/models/collada/daisy/daisy.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -714,7 +714,7 @@ document.addEventListener("click", closeAllSelect);
             function loadSuitDaisy() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -730,7 +730,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -756,7 +756,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/suit-daisy/suit-daisy.dae',
+                colladaLoader.load('assets/models/collada/suit-daisy/suit-daisy.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -776,7 +776,7 @@ document.addEventListener("click", closeAllSelect);
             function loadDonkeyKong() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -792,7 +792,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -818,7 +818,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/donkey-kong/donkey-kong.dae',
+                colladaLoader.load('assets/models/collada/donkey-kong/donkey-kong.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -838,7 +838,7 @@ document.addEventListener("click", closeAllSelect);
             function loadIsabelle() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -854,7 +854,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -880,7 +880,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/isabelle/isabelle.dae',
+                colladaLoader.load('assets/models/collada/isabelle/isabelle.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -900,7 +900,7 @@ document.addEventListener("click", closeAllSelect);
             function loadIggyKoopa() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -916,7 +916,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -942,7 +942,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/iggy-koopa/iggy-koopa.dae',
+                colladaLoader.load('assets/models/collada/iggy-koopa/iggy-koopa.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -962,7 +962,7 @@ document.addEventListener("click", closeAllSelect);
             function loadKoopaTroopa() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -978,7 +978,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1004,7 +1004,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/koopa-troopa/koopa-troopa.dae',
+                colladaLoader.load('assets/models/collada/koopa-troopa/koopa-troopa.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1024,7 +1024,7 @@ document.addEventListener("click", closeAllSelect);
             function loadLarryKoopa() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1040,7 +1040,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1066,7 +1066,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/larry-koopa/larry-koopa.dae',
+                colladaLoader.load('assets/models/collada/larry-koopa/larry-koopa.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1086,7 +1086,7 @@ document.addEventListener("click", closeAllSelect);
             function loadLemmyKoopa() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1102,7 +1102,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1128,7 +1128,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/lemmy-koopa/lemmy-koopa.dae',
+                colladaLoader.load('assets/models/collada/lemmy-koopa/lemmy-koopa.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1148,7 +1148,7 @@ document.addEventListener("click", closeAllSelect);
             function loadLudwigVonKoopa() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1164,7 +1164,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1190,7 +1190,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/ludwig-von-koopa/ludwig-von-koopa.dae',
+                colladaLoader.load('assets/models/collada/ludwig-von-koopa/ludwig-von-koopa.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1210,7 +1210,7 @@ document.addEventListener("click", closeAllSelect);
             function loadMortonKoopaJR() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1226,7 +1226,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1252,7 +1252,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/morton-koopa-jr/morton-koopa-jr.dae',
+                colladaLoader.load('assets/models/collada/morton-koopa-jr/morton-koopa-jr.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1272,7 +1272,7 @@ document.addEventListener("click", closeAllSelect);
             function loadRoyKoopa() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1288,7 +1288,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1314,7 +1314,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/roy-koopa/roy-koopa.dae',
+                colladaLoader.load('assets/models/collada/roy-koopa/roy-koopa.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1334,7 +1334,7 @@ document.addEventListener("click", closeAllSelect);
             function loadWendyOKoopa() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1350,7 +1350,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1376,7 +1376,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/wendy-o-koopa/wendy-o-koopa.dae',
+                colladaLoader.load('assets/models/collada/wendy-o-koopa/wendy-o-koopa.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1396,7 +1396,7 @@ document.addEventListener("click", closeAllSelect);
             function loadLakitu() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1412,7 +1412,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1438,7 +1438,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/lakitu/lakitu.dae',
+                colladaLoader.load('assets/models/collada/lakitu/lakitu.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1458,7 +1458,7 @@ document.addEventListener("click", closeAllSelect);
             function loadBabyLuigi() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1474,7 +1474,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1500,7 +1500,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/baby-luigi/baby-luigi.dae',
+                colladaLoader.load('assets/models/collada/baby-luigi/baby-luigi.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1520,7 +1520,7 @@ document.addEventListener("click", closeAllSelect);
             function loadNormalLuigi() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1536,7 +1536,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1562,7 +1562,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/luigi/luigi.dae',
+                colladaLoader.load('assets/models/collada/luigi/luigi.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1582,7 +1582,7 @@ document.addEventListener("click", closeAllSelect);
             function loadBabyMario() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1598,7 +1598,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1624,7 +1624,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/baby-mario/baby-mario.dae',
+                colladaLoader.load('assets/models/collada/baby-mario/baby-mario.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1644,7 +1644,7 @@ document.addEventListener("click", closeAllSelect);
             function loadNormalMario() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1660,7 +1660,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1686,7 +1686,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/mario/mario.dae',
+                colladaLoader.load('assets/models/collada/mario/mario.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1706,7 +1706,7 @@ document.addEventListener("click", closeAllSelect);
             function loadTanookiMario() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1722,7 +1722,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1748,7 +1748,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/tanooki-mario/tanooki-mario.dae',
+                colladaLoader.load('assets/models/collada/tanooki-mario/tanooki-mario.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1768,7 +1768,7 @@ document.addEventListener("click", closeAllSelect);
             function loadMetalMario() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1784,7 +1784,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1810,7 +1810,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/metal-mario/metal-mario.dae',
+                colladaLoader.load('assets/models/collada/metal-mario/metal-mario.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1830,7 +1830,7 @@ document.addEventListener("click", closeAllSelect);
             function loadBabyPeach() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1846,7 +1846,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1872,7 +1872,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/baby-peach/baby-peach.dae',
+                colladaLoader.load('assets/models/collada/baby-peach/baby-peach.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1892,7 +1892,7 @@ document.addEventListener("click", closeAllSelect);
             function loadNormalPeach() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1908,7 +1908,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1934,7 +1934,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/peach/peach.dae',
+                colladaLoader.load('assets/models/collada/peach/peach.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -1954,7 +1954,7 @@ document.addEventListener("click", closeAllSelect);
             function loadCatPeach() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -1970,7 +1970,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -1996,7 +1996,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/cat-peach/cat-peach.dae',
+                colladaLoader.load('assets/models/collada/cat-peach/cat-peach.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2016,7 +2016,7 @@ document.addEventListener("click", closeAllSelect);
             function loadSuitPeach() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2032,7 +2032,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2058,7 +2058,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/suit-peach/suit-peach.dae',
+                colladaLoader.load('assets/models/collada/suit-peach/suit-peach.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2078,7 +2078,7 @@ document.addEventListener("click", closeAllSelect);
             function loadPinkGoldPeach() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2094,7 +2094,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2120,7 +2120,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/pink-gold-peach/pink-gold-peach.dae',
+                colladaLoader.load('assets/models/collada/pink-gold-peach/pink-gold-peach.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2140,7 +2140,7 @@ document.addEventListener("click", closeAllSelect);
             function loadPinkGoldSuitPeach() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2156,7 +2156,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2182,7 +2182,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/pink-gold-suit-peach/pink-gold-suit-peach.dae',
+                colladaLoader.load('assets/models/collada/pink-gold-suit-peach/pink-gold-suit-peach.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2202,7 +2202,7 @@ document.addEventListener("click", closeAllSelect);
             function loadBabyRosalina() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2218,7 +2218,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2244,7 +2244,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/baby-rosalina/baby-rosalina.dae',
+                colladaLoader.load('assets/models/collada/baby-rosalina/baby-rosalina.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2264,7 +2264,7 @@ document.addEventListener("click", closeAllSelect);
             function loadNormalRosalina() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2280,7 +2280,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2306,7 +2306,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/rosalina/rosalina.dae',
+                colladaLoader.load('assets/models/collada/rosalina/rosalina.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2326,7 +2326,7 @@ document.addEventListener("click", closeAllSelect);
             function loadSuitRosalina() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2342,7 +2342,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2368,7 +2368,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/suit-rosalina/suit-rosalina.dae',
+                colladaLoader.load('assets/models/collada/suit-rosalina/suit-rosalina.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2388,7 +2388,7 @@ document.addEventListener("click", closeAllSelect);
             function loadShyGuy() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2404,7 +2404,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2430,7 +2430,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/shy-guy/shy-guy.dae',
+                colladaLoader.load('assets/models/collada/shy-guy/shy-guy.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2450,7 +2450,7 @@ document.addEventListener("click", closeAllSelect);
             function loadToad() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2466,7 +2466,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2492,7 +2492,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/toad/toad.dae',
+                colladaLoader.load('assets/models/collada/toad/toad.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2512,7 +2512,7 @@ document.addEventListener("click", closeAllSelect);
             function loadToadette() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2528,7 +2528,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2554,7 +2554,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/toadette/toadette.dae',
+                colladaLoader.load('assets/models/collada/toadette/toadette.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2574,7 +2574,7 @@ document.addEventListener("click", closeAllSelect);
             function loadVillager() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2590,7 +2590,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2616,7 +2616,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/villager/villager.dae',
+                colladaLoader.load('assets/models/collada/villager/villager.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2636,7 +2636,7 @@ document.addEventListener("click", closeAllSelect);
             function loadWaluigi() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2652,7 +2652,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2678,7 +2678,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/waluigi/waluigi.dae',
+                colladaLoader.load('assets/models/collada/waluigi/waluigi.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2698,7 +2698,7 @@ document.addEventListener("click", closeAllSelect);
             function loadWario() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2714,7 +2714,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2740,7 +2740,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/wario/wario.dae',
+                colladaLoader.load('assets/models/collada/wario/wario.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
@@ -2760,7 +2760,7 @@ document.addEventListener("click", closeAllSelect);
             function loadYoshi() {
                 marioCharacterScene = new THREE.Scene();
 
-                backgroundTexture = loader.load("imgs/background-pattern-2.jpg",
+                backgroundTexture = loader.load("assets/imgs/background-pattern-2.jpg",
                     function(texture) {
                         var image = texture.image;
                         var backgroundWidth= image.width;
@@ -2776,7 +2776,7 @@ document.addEventListener("click", closeAllSelect);
 
                 marioCharacterDemoPivot = new THREE.Group();
 
-                grassTexture2 = loader.load('imgs/textures/mario-bricks-texture-1.png', function (texture) {});
+                grassTexture2 = loader.load('assets/imgs/textures/mario-bricks-texture-1.png', function (texture) {});
 
                 floorCircleGeometry = new THREE.CircleGeometry(4, 200);
                 floorCircleMaterial = new THREE.MeshBasicMaterial(
@@ -2802,7 +2802,7 @@ document.addEventListener("click", closeAllSelect);
 
                 // Collada loader
                 colladaLoader = new THREE.ColladaLoader(loadingManager);
-                colladaLoader.load('models/collada/yoshi/yoshi.dae',
+                colladaLoader.load('assets/models/collada/yoshi/yoshi.dae',
                     function(collada) {
                         marioCharacter = collada.scene;
                     }
