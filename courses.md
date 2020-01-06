@@ -1624,6 +1624,9 @@ active: Courses
 
 <p align="justify"><font size="2"><a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">An <b><i>Online Web Course</i></b> focused in learning some of the basic and fundamental concepts of <b><i>Quantum Computing</i></b>, discoveroing and exploring such topics as <b><i>Quantum Technologies</i></b>, <b><i>Quantum Information</i></b>, <b><i>Quantum Internet/Networks</i></b>, <b><i>Quantum Communications</i></b>, <b><i>Quantum Cryptography</i></b>, among many others, with several <i>examples</i>, <i>tutorials</i> and <i>exercises</i>. This course it's designed and presented in <b><i>HTML (HyperText Markup Language)</i></b>, <b><i>CSS (Cascading Style Sheets)</i></b>, <b><i>Javascript</i></b> and <b><i>Markdown</i></b>. It's mostly developed using <b><i>Data Science Frameworks/Tools</i></b>, such as <b><i>Jupyter Notebook</i></b> and <b><i>Python</i></b>, or even, <b><i>Quantum Frameworks/Tools</i></b>, such as <b><i>QisKit (IBM Q Experience)</i></b>, <b><i>Google Cirq</i></b>, <b><i>Microsoft Q# (Microsoft QDK)</i></b>, <b><i>PyQuil (Rigetti Forest SDK)</i></b>, among many others.</a></font></p>
 
+[![3DObjectModellingIndustrialAutomatedRoboticHand]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)
+<p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
+
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
