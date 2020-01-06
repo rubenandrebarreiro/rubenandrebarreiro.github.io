@@ -1665,6 +1665,8 @@ active: Courses
     </p>
 </font>    
 
+<br>
+
 [![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-02.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-02.jpg)
 <p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
  
