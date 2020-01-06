@@ -1626,7 +1626,7 @@ active: Courses
 
 [![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)
 <p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
-
+ 
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
