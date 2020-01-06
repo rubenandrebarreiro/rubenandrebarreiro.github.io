@@ -1613,6 +1613,16 @@ active: Courses
 </h2>
 <hr/>
 
+<font size="5">
+    <i class="icon-html-alt" style="color:Purple" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">Learning Quantum Computing (Between January 2020 and Present)</a>
+</font>
+
+<p align="justify"><font size="2"><a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">A course focused in learning the fundamental concepts of <b><i>Quantum Computing</i></b>.</a></font></p>
+
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
