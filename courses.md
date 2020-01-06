@@ -1631,6 +1631,23 @@ active: Courses
 
 <br>
 
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/">https://rubenandrebarreiro.github.io/learning-quantum-computing/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<a href="https://github.com/rubenandrebarreiro/learning-quantum-computing-course/">https://github.com/rubenandrebarreiro/learning-quantum-computing-course/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<a href="https://github.com/rubenandrebarreiro/learning-quantum-computing/">https://github.com/rubenandrebarreiro/learning-quantum-computing/</a>
+    </p>
+</font>
+
+<br>
+
 <b>Cores/Topics:</b>
 <font size="2">
     <p align="justify"> 
