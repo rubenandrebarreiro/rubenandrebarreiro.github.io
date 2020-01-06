@@ -1626,11 +1626,6 @@ active: Courses
 
 <br>
 
-[![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)
-<p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
-
-<br>
-
 <b>Useful Links:</b>
 <font size="2">
     <p align="justify"> 
@@ -1645,6 +1640,10 @@ active: Courses
         &#9679;&nbsp;&nbsp;<a href="https://github.com/rubenandrebarreiro/learning-quantum-computing/">https://github.com/rubenandrebarreiro/learning-quantum-computing/</a>
     </p>
 </font>
+<br>
+
+[![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)
+<p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
 
 <br>
 
