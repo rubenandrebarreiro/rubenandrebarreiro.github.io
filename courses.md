@@ -1614,7 +1614,7 @@ active: Courses
 <hr/>
 
 <font size="5">
-    <i class="icon-html-alt" style="color:Purple" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
+    <i class="icon-html5-alt" style="color:Orange" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
 </font>
 
 <font size="4">
