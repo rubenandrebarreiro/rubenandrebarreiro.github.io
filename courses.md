@@ -1622,9 +1622,33 @@ active: Courses
     <a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">Learning Quantum Computing (Between January 2020 and Present)</a>
 </font>
 
-<p align="justify"><font size="2"><a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">An <b><i>Online Web Course</i></b> focused in learning some of the basic and fundamental concepts of <b><i>Quantum Computing</i></b>, discoveroing and exploring such topics as <b><i>Quantum Technologies</i></b>, <b><i>Quantum Information</i></b>, <b><i>Quantum Internet/Networks</i></b>, <b><i>Quantum Communications</i></b>, <b><i>Quantum Cryptography</i></b>, among many others, with several <i>examples</i>, <i>tutorials</i> and <i>exercises</i>. This course it's designed and presented in <b><i>HTML (HyperText Markup Language)</i></b>, <b><i>CSS (Cascading Style Sheets)</i></b>, <b><i>Javascript</i></b> and <b><i>Markdown</i></b>. It's mostly developed using <b><i>Data Science Frameworks/Tools</i></b>, such as <b><i>Jupyter Notebook</i></b> and <b><i>Python</i></b>, or even, <b><i>Quantum Frameworks/Tools</i></b>, such as <b><i>QisKit (IBM Q Experience)</i></b>, <b><i>Google Cirq</i></b>, <b><i>Microsoft Q# (Microsoft QDK)</i></b>, <b><i>PyQuil (Rigetti Forest SDK)</i></b>, among many others.</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">An <b><i>Online Web Course</i></b> focused in learning some of the basic and fundamental concepts of <b><i>Quantum Computing</i></b>, discoveroing and exploring such topics as <b><i>Quantum Technologies</i></b>, <b><i>Quantum Information</i></b>, <b><i>Quantum Internet/Networks</i></b>, <b><i>Quantum Communications</i></b>, <b><i>Quantum Cryptography</i></b>, among many others, with several <i>examples</i>, <i>tutorials</i> and <i>exercises</i>. This course it's designed and presented in <b><i>HTML (HyperText Markup Language)</i></b>, <b><i>CSS (Cascading Style Sheets)</i></b>, <b><i>Javascript</i></b> and <b><i>Markdown</i></b>. It's mostly developed using <b><i>Data Science Frameworks/Tools</i></b>, such as <b><i>Jupyter Notebook</i></b> and <b><i>Python</i></b>, or even, <b><i>Quantum Frameworks/Tools</i></b>, such as <b><i>QisKit (IBM Q Experience)</i></b>, <b><i>Google Cirq</i></b>, <b><i>Microsoft Q# (Microsoft QDK)</i></b>, <b><i>PyQuil (Rigetti Forest SDK)</i></b>, among many others!</a></font></p>
+
+<br>
 
 [![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)
+<p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
+
+<br>
+
+<b>Cores/Topics:</b>
+<font size="2">
+    <p align="justify"> 
+            1) <a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/#/2020/01/30/core-1-introduction-to-quantum"><b><i>Introduction to Quantum</i></b></a>;
+        <br>
+            2) <a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/#/2020/02/28/core-2-introduction-to-quantum-computing"><b><i>Introduction to Quantum Computing</i></b></a>;
+        <br>
+            3) <a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/#/2020/03/30/core-3-discovering-the-quantum-computing"><b><i>Discovering the Quantum Computing</i></b></a>;
+        <br>
+            4) <a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/#/2020/04/30/core-4-practing-the-quantum-computing"><b><i>Practicing the Quantum Computing</i></b></a>;
+        <br>
+            5) <a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/#/2020/05/30/core-5-solving-with-the-quantum-computing"><b><i>Solving with the Quantum Computing</i></b>;</a>
+        <br>
+            6) <a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/#/2020/06/30/core-6-exploring-the-quantum-computing"><b><i>Exploring the Quantum Computing</i></b>;</a>
+    </p>
+</font>    
+
+[![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-02.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-02.jpg)
 <p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
  
 <br>
