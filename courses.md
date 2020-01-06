@@ -1621,7 +1621,7 @@ active: Courses
     <a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">Learning Quantum Computing (Between January 2020 and Present)</a>
 </font>
 
-<p align="justify"><font size="2"><a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">A course focused in learning the fundamental concepts of <b><i>Quantum Computing</i></b>.</a></font></p>
+<p align="justify"><font size="2"><a target="_blank" href="/learning-quantum-computing" title="Learning Quantum Computing (Between January 2020 and Present)">A course focused in learning some of the basic and fundamental concepts of <b><i>Quantum Computing</i></b>.</a></font></p>
 
 <br>
 <hr/>
