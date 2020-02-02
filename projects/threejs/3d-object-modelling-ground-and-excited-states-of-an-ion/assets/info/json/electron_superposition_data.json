@@ -1,0 +1,18 @@
+{
+  "Name": "Electron",
+  "Basic Data Information": [{
+      "Atom Type": "Hydrogen Atom (1&times;e<sup>+</sup> and 1&times;e<sup>-</sup>)",
+      "Constitution": "1 Electron (e<sup>-</sup>)"
+  }],
+  "State's Information": [{
+      "No. Possible States/Outcomes": "2 (Quantum State)",
+      "Current State": "Quantum Superposition State",
+      "Probabilities for States/Outcomes": "{ |0⟩ = 50.00 (50&#37;), { |1⟩ = 50.00 (50&#37;) }",
+      "Quantum Number/Energy Level": "<sup>1</sup>&frasl;<sub>&#8730;2</sub>|0⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|1⟩",
+      "Ket's Notation": "<sup>1</sup>&frasl;<sub>&#8730;2</sub>|0⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|1⟩",
+  }],
+  "Spin's Information": [{
+      "Spin Direction": "Right (&#8594;)",
+      "Spin's Orientation": "Uncertain Spin's Orientation (Horizontal)"
+  }]
+}
