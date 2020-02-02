@@ -70,22 +70,14 @@
       #objectDataInfo1,
       #objectDataInfo2,
       #objectDataInfo3,
-      #objectDataInfo4,
-      #objectDataInfo5,
-      #objectDataInfo6,
-      #objectDataInfo7,
-      #objectDataInfo8 {
+      #objectDataInfo4 {
         display: none;
       }
 
       #objectDataTitle1,
       #objectDataTitle2,
       #objectDataTitle3,
-      #objectDataTitle4,
-      #objectDataTitle5,
-      #objectDataTitle6,
-      #objectDataTitle7,
-      #objectDataTitle8 {
+      #objectDataTitle4 {
         font-weight: bold;
         font-size: 20px;
         display: none;
@@ -94,11 +86,7 @@
       #objectDataContent1,
       #objectDataContent2,
       #objectDataContent3,
-      #objectDataContent4,
-      #objectDataContent5,
-      #objectDataContent6,
-      #objectDataContent7,
-      #objectDataContent8 {
+      #objectDataContent4 {
         color: #ff0060;
         font-size: 10px;
         display: none;
@@ -187,46 +175,6 @@
         <span id="objectDataTitle4"></span>
         <br />
         <span id="objectDataContent4"></span>
-      </div>
-
-      <div id="objectDataInfo5">
-        <br />
-        <br />
-        <span id="objectDataTitle5"></span>
-        <br />
-        <span id="objectDataContent5"></span>
-      </div>
-
-      <div id="objectDataInfo6">
-        <br />
-        <br />
-        <span id="objectDataTitle6"></span>
-        <br />
-        <span id="objectDataContent6"></span>
-      </div>
-
-      <div id="objectDataInfo7">
-        <br />
-        <br />
-        <span id="objectDataTitle7"></span>
-        <br />
-        <span id="objectDataContent7"></span>
-      </div>
-
-      <div id="objectDataInfo8">
-        <br />
-        <br />
-        <span id="objectDataTitle8"></span>
-        <br />
-        <span id="objectDataContent8"></span>
-      </div>
-
-      <div id="objectDataInfo9">
-        <br />
-        <br />
-        <span id="objectDataTitle9"></span>
-        <br />
-        <span id="objectDataContent9"></span>
       </div>
     </div>
 
@@ -1030,10 +978,10 @@
             // Unprojects the Ray's vector previously created
             projector.unprojectVector(vector, camera);
 
-            // Creates the 
+            // Creates the Raycaster from the Camera's Position and its respectively normalized vector
             var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
 
-            // Create an array containing all objects in the scene with which the ray intersects
+            // Creates an array containing all objects in the scene with which the ray intersects
             var intersects = ray.intersectObjects(nucleus_proton_pivot.children);
 
             // NUCLEUS_PROTON_INTERSECTED = the object in the scene currently closest to the camera 
@@ -1045,15 +993,21 @@
                 // If the closest object intersected is not the currently stored intersection object
                 if(intersects[0].object != NUCLEUS_PROTON_INTERSECTED) {
                     
-                    // Restore previous intersection object (if it exists) to its original map's texture
+                    // Restores previous intersection object (if it exists) to its original map's texture
                     if(NUCLEUS_PROTON_INTERSECTED) {
                     
+                        // The Nucleus'/Proton's Material needs to be updated
                         NUCLEUS_PROTON_INTERSECTED.material.needsUpdate = true;
 
-                        NUCLEUS_PROTON_INTERSECTED.material.color.setHex(0xdda0dd);
+                        // Sets the Nucleus'/Proton's Material Color to Yellow
+                        NUCLEUS_PROTON_INTERSECTED.material.color.setHex(0xffff00);
 
+                        // Clears the Object's Name for the Nucleus/Proton displayed in
+                        // the left side of the Scene (Bohr's Atom Model)
                         document.getElementById("objectName").textContent = "";
 
+                        // Clears all the Nucleus'/Proton's Property Keys displayed in
+                        // the left side of the Scene (Bohr's Atom Model)
                         for(i = 1; i < nucleus_proton_property_keys.length; i++) {
                         
                             var divDataInfoElemID = "objectDataInfo" + i;
@@ -1070,20 +1024,17 @@
                         }
                     }
 
-                    // Store reference to closest object as current intersection object
+                    // Stores the reference to closest object as current intersection object
                     NUCLEUS_PROTON_INTERSECTED = intersects[0].object;
 
-                    // Store color and map's texture of closest object (for later restoration)
-                    NUCLEUS_PROTON_INTERSECTED.mapTexture = NUCLEUS_PROTON_INTERSECTED.material.map;
-
-                    // Set a new color for closest object
-                    NUCLEUS_PROTON_INTERSECTED.material.map = null;
-                    NUCLEUS_PROTON_INTERSECTED.material.needsUpdate = true;
-
+                    // Sets a new color for closest object
                     NUCLEUS_PROTON_INTERSECTED.material.color.setHex(0xffff00);
 
+                    // Sets the Object's Name for the Nucleus/Proton displayed in
+                    // the left side of the Scene (Bohr's Atom Model)
                     document.getElementById("objectName").textContent = intersects[0].object[nucleus_proton_property_keys[0]];
 
+                    // Sets all the Nucleus'/Proton's Property Keys
                     for(i = 1; i < nucleus_proton_property_keys.length; i++) {
                         
                         var divDataInfoElemID = "objectDataInfo" + i;
@@ -1098,10 +1049,13 @@
                         var someObjectDataInfoKeys = Object.keys(someObjectDataInfo);
 
                         var currentObjectDataInfo = "";
-
+                        
+                        // Sets all the current Nucleus'/Proton's Sub-Property Keys
                         for(j = 0; j < someObjectDataInfoKeys.length; j++)
                             currentObjectDataInfo += "- <b><u>" + someObjectDataInfoKeys[j] + "</u></b>: " + someObjectDataInfo[someObjectDataInfoKeys[j]] + "<br/>";
 
+                        // Displays the final data/information in
+                        // the left side of the Scene (Bohr's Atom Model)
                         var spanDataContentElemID = "objectDataContent" + i;
                         document.getElementById(spanDataContentElemID).innerHTML = currentObjectDataInfo;
                         document.getElementById(spanDataContentElemID).style.display = "inline";
@@ -1111,15 +1065,21 @@
             } 
             else { // There are no intersections
 
-                // Restore previous intersection object (if it exists) to its original map's texture
+                // Restores previous intersection object (if it exists) to its original color
                 if(NUCLEUS_PROTON_INTERSECTED) {
                     
+                    // The Nucleus'/Proton's Material needs to be updated
                     NUCLEUS_PROTON_INTERSECTED.material.needsUpdate = true;
 
+                    // Sets the Nucleus'/Proton's Material Color to its default
                     NUCLEUS_PROTON_INTERSECTED.material.color.setHex(0xdda0dd);
 
+                    // Clears the Object's Name for the Nucleus/Proton displayed in
+                    // the left side of the Scene (Bohr's Atom Model)
                     document.getElementById("objectName").textContent = "";
 
+                    // Clears all the Nucleus'/Proton's Property Keys displayed in
+                    // the left side of the Scene (Bohr's Atom Model)
                     for(i = 1; i < nucleus_proton_property_keys.length; i++) {
                         var divDataInfoElemID = "objectDataInfo" + i;
                         document.getElementById(divDataInfoElemID).style.display = "none";
@@ -1141,7 +1101,7 @@
             }
         }
 
-        function findIntersectionsMercury() {
+        function find_intersections_electron_ground_state() {
             // Create a Ray with origin at the mouse position
             // and direction into the scene (camera direction)
             var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
@@ -1164,8 +1124,7 @@
                     if(ELECTRON_GROUND_STATE_INTERSECTED) {
                         ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
 
-                        ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xffffff);
-                        ELECTRON_GROUND_STATE_INTERSECTED.material.map = ELECTRON_GROUND_STATE_INTERSECTED.mapTexture;
+                        ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xff2200);
 
                         document.getElementById("objectName").textContent = "";
 
@@ -1190,7 +1149,6 @@
                     ELECTRON_GROUND_STATE_INTERSECTED.mapTexture = ELECTRON_GROUND_STATE_INTERSECTED.material.map;
 
                     // Set a new color for closest object
-                    ELECTRON_GROUND_STATE_INTERSECTED.material.map = null;
                     ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
 
                     ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xffff00);
@@ -1226,8 +1184,7 @@
                 if(ELECTRON_GROUND_STATE_INTERSECTED) {
                     ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
 
-                    ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xffffff);
-                    ELECTRON_GROUND_STATE_INTERSECTED.material.map = ELECTRON_GROUND_STATE_INTERSECTED.mapTexture;
+                    ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xff2200);
 
                     document.getElementById("objectName").textContent = "";
 
@@ -1251,7 +1208,7 @@
             }
         }
 
-        function findIntersectionsVenus() {
+        function find_intersections_electron_excited_state() {
             // Create a Ray with origin at the mouse position
             // and direction into the scene (camera direction)
             var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
