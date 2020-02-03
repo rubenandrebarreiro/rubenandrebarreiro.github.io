@@ -944,6 +944,7 @@
                         electron_excited_state_material.opacity = 0.0;
                         electron_excited_state_material.depthTest = false;
                     
+                        is_in_quantum_superposition_of_states = false;
                     }
                     
                     // The Electron it's in Excited State
@@ -955,6 +956,7 @@
                         electron_excited_state_material.opacity = 1.0;
                         electron_excited_state_material.depthTest = true;
                     
+                        is_in_quantum_superposition_of_states = false;
                     }
                     
                     // The Electron it's in a Quantum Superposition of States
@@ -970,6 +972,8 @@
                         electron_excited_state_material.opacity = 0.5;
                         electron_excited_state_material.depthTest = false;
                     
+                        is_in_quantum_superposition_of_states = true;
+                        
                     }
                 }
             }
