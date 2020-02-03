@@ -933,14 +933,14 @@
                         // the left side of the Scene (Bohr's Atom Model)
                         for(i = 1; i < nucleus_proton_property_keys.length; i++) {
                         
-                            var div_data_info_elem_id = "object_data_info" + i;
+                            var div_data_info_elem_id = "object_data_info_" + i;
                             document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                            var span_data_title_elem_id = "object_data_title" + i;
+                            var span_data_title_elem_id = "object_data_title_" + i;
                             document.getElementById(span_data_title_elem_id).innerHTML = "";
                             document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                            var span_data_content_elem_id = "object_data_content" + i;
+                            var span_data_content_elem_id = "object_data_content_" + i;
                             document.getElementById(span_data_content_elem_id).innerHTML = "";
                             document.getElementById(span_data_content_elem_id).style.display = "none";
                         
@@ -961,7 +961,6 @@
                     for(i = 1; i < nucleus_proton_property_keys.length; i++) {
                         
                         var div_data_info_elem_id = "object_data_info_" + i;
-                        alert(div_data_info_elem_id);
                         document.getElementById(div_data_info_elem_id).style.display = "inline";
 
                         var span_data_title_elem_id = "object_data_title_" + i;
@@ -1124,14 +1123,14 @@
 
                     for(i = 1; i < electron_ground_state_property_keys.length; i++) {
                         
-                        var div_data_info_elem_id = "object_data_info" + i;
+                        var div_data_info_elem_id = "object_data_info_" + i;
                         document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                        var span_data_title_elem_id = "object_data_title" + i;
+                        var span_data_title_elem_id = "object_data_title_" + i;
                         document.getElementById(span_data_title_elem_id).innerHTML = "";
                         document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                        var span_data_content_elem_id = "object_data_content" + i;
+                        var span_data_content_elem_id = "object_data_content_" + i;
                         document.getElementById(span_data_content_elem_id).innerHTML = "";
                         document.getElementById(span_data_content_elem_id).style.display = "none";
                     
