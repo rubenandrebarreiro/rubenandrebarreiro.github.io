@@ -73,7 +73,7 @@ animate();
 
 // The callbacks for load JSONs files:
 
-// The Nucleus/Proton's JSON file
+// Loads the Nucleus/Proton's JSON file
 function load_nucleus_proton_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -95,7 +95,7 @@ function load_nucleus_proton_json(callback) {
     obj.send(null);  
 }
 
-// The Electron's Ground State's JSON file
+// Loads the Electron's Ground State's JSON file
 function load_electron_ground_state_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -117,7 +117,7 @@ function load_electron_ground_state_json(callback) {
     obj.send(null);  
 }
 
-// The Electron's Excited State's JSON file
+// Loads the Electron's Excited State's JSON file
 function load_electron_excited_state_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -139,7 +139,7 @@ function load_electron_excited_state_json(callback) {
     obj.send(null);  
 }
 
-// The Electron's Quantum Superposition of States' JSON file
+// Loads the Electron's Quantum Superposition of States' JSON file
 function load_electron_superposition_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -215,16 +215,19 @@ function init() {
 
 }
 
+// Resets the Camera
 function reset_camera() {
     camera = new THREE.PerspectiveCamera( 80, window.innerWidth / window.innerHeight, 1, 1000 );
 }
 
+// Makes the transformations for the Camera's Top View
 function camera_top_view() {
     camera.rotation.x += Math.PI/2;
     camera.position.y = 6;
     camera.lookAt(new THREE.Vector3(0,0,0));
 }
 
+// Makes the transformations for the Camera's Perspective View
 function camera_perspective_view() {
     camera.rotation.x += Math.PI/4;
     camera.position.z = 6;
@@ -232,6 +235,7 @@ function camera_perspective_view() {
     camera.lookAt(new THREE.Vector3(0,0,0))
 }
 
+// Starts the Trackball Controls
 function start_trackball_controls() {
 
     controls = new THREE.TrackballControls(camera);
@@ -250,6 +254,7 @@ function start_trackball_controls() {
 
 }
 
+// Sets the Event Listeners
 function set_event_listeners() {
 
     // Gets the Motions' Radio options
@@ -282,6 +287,8 @@ function set_event_listeners() {
 
 }
 
+// Adds the Elements (Nucleus/Proton and the Electron's Ground/Excited State) to
+// the Scene (Bohr's Atom Model Scene)
 function add_elements_to_scene() {
 
     add_nucleus_proton_to_scene();
@@ -290,6 +297,7 @@ function add_elements_to_scene() {
 
 }
 
+// Adds the Nucleus/Proton to the Scene (Bohr's Atom Model Scene)
 function add_nucleus_proton_to_scene() {
 
     // Creates the Geometry of the Sphere representing
@@ -337,6 +345,7 @@ function add_nucleus_proton_to_scene() {
 
 }
 
+// Adds the Electron's Ground State to the Scene (Bohr's Atom Model Scene)
 function add_electron_ground_state_to_scene() {
 
     // Creates the Electron's Ground State's Orbit
@@ -400,6 +409,7 @@ function add_electron_ground_state_to_scene() {
 
 }
 
+// Creates the Electron's Ground State's Orbit
 function create_electron_ground_state_orbit() {
 
     // Creates the Geometry of the Ring representing
@@ -426,6 +436,7 @@ function create_electron_ground_state_orbit() {
 
 }
 
+// Creates the Electron's Ground State
 function create_electron_ground_state() {
 
     // Creates the Geometry of the Sphere representing
@@ -459,6 +470,7 @@ function create_electron_ground_state() {
 
 }
 
+// Adds the Electron's Excited State to the Scene (Bohr's Atom Model Scene)
 function add_electron_excited_state_to_scene() {
 
     // Creates the Electron's Excited State's Orbit
@@ -523,6 +535,7 @@ function add_electron_excited_state_to_scene() {
 
 }
 
+// Creates the Electron's Excited State's Orbit
 function create_electron_excited_state_orbit() {
 
     // Creates the Geometry of the Ring representing
@@ -549,6 +562,7 @@ function create_electron_excited_state_orbit() {
 
 }
 
+// Creates the Electron's Excited State
 function create_electron_excited_state() {
 
     // Creates the Geometry of the Sphere representing
@@ -582,6 +596,8 @@ function create_electron_excited_state() {
 
 }
 
+// Adds the Lights (Directional and Ambient Lights) to
+// the Scene (Bohr's Atom Model Scene)
 function add_lights_to_scene() {
 
     // Creates a white directional light
@@ -617,6 +633,7 @@ function add_lights_to_scene() {
 
 }
 
+// Creates the Renderer for the Scene (Bohr's Atom Model Scene)
 function create_renderer_of_scene() {
 
     renderer = new THREE.WebGLRenderer(
@@ -632,6 +649,8 @@ function create_renderer_of_scene() {
 
 }
 
+// Adds the Stats (Statistics for the Rendering Process) to
+// the Scene (Bohr's Atom Model Scene)
 function add_stats() {
 
     // Creates the Stats Object
@@ -675,6 +694,8 @@ function trigger_event_listeners() {
 
 }
 
+
+// Calls a given function, when the window is resized
 function on_window_resize() {
 
     camera.aspect = window.innerWidth / window.innerHeight;
@@ -688,6 +709,7 @@ function on_window_resize() {
 
 }
 
+// Calls a given function, the mouse moves
 function on_document_mouse_move(event) {
 
     // The following line would stop any other event handler from firing
@@ -700,6 +722,7 @@ function on_document_mouse_move(event) {
 
 }
 
+// Calls a given function, when the Motions' Radio change
 function on_change_motions() {
 
     for(var i = 0, length = motions_radios.length; i < length; i++) {
@@ -719,6 +742,7 @@ function on_change_motions() {
 
 }
 
+// Calls a given function, when the Camera View's Radio change
 function on_change_camera_view() {
 
     for(var i = 0, length = camera_view_radios.length; i < length; i++) {
@@ -742,6 +766,7 @@ function on_change_camera_view() {
 
 }
 
+// Calls a given function, when the XZ Grid's Checkbox change
 function on_check_xz_grid() {
 
     var show_xz_grid = document.getElementById("show_xz_grid");
@@ -756,6 +781,7 @@ function on_check_xz_grid() {
     }
 }
 
+// Calls a given function, when the Atomic Orbit's Checkbox change
 function on_check_atomic_orbits() {
 
     var show_atomic_orbits = document.getElementById("show_atomic_orbits");
@@ -772,7 +798,7 @@ function on_check_atomic_orbits() {
     }
 }
 
-// The Electron had its state changed, during an Event
+// Calls a given function, when the Electron State's Radio change
 function on_change_electron_states() {
 
     // Verifies all the Possible States for the Electron
@@ -827,7 +853,8 @@ function on_change_electron_states() {
 
 }
 
-// The Animation Method
+
+// The Animation Process Method
 function animate() {
 
     // Calls the Animation Method again
@@ -849,6 +876,7 @@ function animate() {
     stats.update();
 
 }
+
 
 // Finds intersections between the Mouse's Pointer and the Nucleus/Proton
 function find_intersections_nucleus_proton() {
@@ -1357,6 +1385,7 @@ function find_intersections_electron_excited_state() {
 
 // The Nucleus/Proton and Electron's States' rotation movements
 function particles_rotation_rovements() {
+    
     var nucleus_proton_rotation_speed = ( motions_factor * 0.0001 * 28 );
     var electron_ground_state_rotation_speed = ( motions_factor * 0.01 * 28 );
     var electron_excited_state_rotation_speed = ( motions_factor * 0.01 * 28 );
@@ -1365,6 +1394,7 @@ function particles_rotation_rovements() {
 
     electron_ground_state_mesh.rotation.y += electron_ground_state_rotation_speed; 
     electron_excited_state_mesh.rotation.y += electron_excited_state_rotation_speed; 
+    
 }
 
 // The Electron's States' translaction movements around the Nucleus/Proton
@@ -1382,7 +1412,8 @@ function particles_translaction_movements() {
 
     // Setting and applying the quarternion's Y Axis for the Electron's Excited State
     quaternion_for_electron_excited_state.setFromAxisAngle( y_axis, ( motions_factor * -0.02 ) );
-    electron_excited_state_mesh.position.applyQuaternion(quaternion_for_electron_excited_state);   
+    electron_excited_state_mesh.position.applyQuaternion(quaternion_for_electron_excited_state); 
+    
 }
 
 // The Rendering Process Method

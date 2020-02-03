@@ -99,10 +99,10 @@ body {
     color: #ff0060;
     position: fixed;
     bottom: 5px;
-    left: 45%;
+    left: 35%;
     padding: 5px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: center; 
 }
 
 a {
