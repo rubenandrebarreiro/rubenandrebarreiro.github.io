@@ -82,7 +82,7 @@ body {
 #options_and_settings {
     color: #ffffff;
     position: fixed;
-    bottom: 5px;
+    bottom: 10px;
     right: 0px;
     padding: 5px;
     box-sizing: border-box;
