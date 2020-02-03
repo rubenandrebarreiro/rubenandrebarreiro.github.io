@@ -1177,14 +1177,14 @@
 
                         for(i = 1; i < electron_excited_state_property_keys.length; i++) {
                             
-                            var div_data_info_elem_id = "object_data_info" + i;
+                            var div_data_info_elem_id = "object_data_info_" + i;
                             document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                            var span_data_title_elem_id = "object_data_title" + i;
+                            var span_data_title_elem_id = "object_data_title_" + i;
                             document.getElementById(span_data_title_elem_id).innerHTML = "";
                             document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                            var span_data_content_elem_id = "object_data_content" + i;
+                            var span_data_content_elem_id = "object_data_content_" + i;
                             document.getElementById(span_data_content_elem_id).innerHTML = "";
                             document.getElementById(span_data_content_elem_id).style.display = "none";
                             
@@ -1203,10 +1203,10 @@
 
                     for(i = 1; i < electron_excited_state_property_keys.length; i++) {
                         
-                        var div_data_info_elem_id = "object_data_info" + i;
+                        var div_data_info_elem_id = "object_data_info_" + i;
                         document.getElementById(div_data_info_elem_id).style.display = "inline";
 
-                        var span_data_title_elem_id = "object_data_title" + i;
+                        var span_data_title_elem_id = "object_data_title_" + i;
                         document.getElementById(span_data_title_elem_id).innerHTML = electron_excited_state_property_keys[i];
                         document.getElementById(span_data_title_elem_id).style.display = "inline";
 
@@ -1219,7 +1219,7 @@
                         for(j = 0; j < some_object_data_info_keys.length; j++)
                             current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
 
-                        var span_data_content_elem_id = "object_data_content" + i;
+                        var span_data_content_elem_id = "object_data_content_" + i;
                         document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
                         document.getElementById(span_data_content_elem_id).style.display = "inline";
                         
@@ -1241,14 +1241,14 @@
 
                     for(i = 1; i < electron_excited_state_property_keys.length; i++) {
                         
-                        var div_data_info_elem_id = "object_data_info" + i;
+                        var div_data_info_elem_id = "object_data_info_" + i;
                         document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                        var span_data_title_elem_id = "object_data_title" + i;
+                        var span_data_title_elem_id = "object_data_title_" + i;
                         document.getElementById(span_data_title_elem_id).innerHTML = "";
                         document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                        var span_data_content_elem_id = "object_data_content" + i;
+                        var span_data_content_elem_id = "object_data_content_" + i;
                         document.getElementById(span_data_content_elem_id).innerHTML = "";
                         document.getElementById(span_data_content_elem_id).style.display = "none";
                         
