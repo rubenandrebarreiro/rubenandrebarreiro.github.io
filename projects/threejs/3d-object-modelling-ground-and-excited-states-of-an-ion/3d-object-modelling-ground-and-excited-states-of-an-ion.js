@@ -176,7 +176,7 @@ function init() {
     reset_camera();
 
     // Starts the Camera in the From Up's view
-    camera_from_up_view();
+    camera_top_view();
 
     // Starts the Trackball Controls
     start_trackball_controls();
@@ -219,7 +219,7 @@ function reset_camera() {
     camera = new THREE.PerspectiveCamera( 80, window.innerWidth / window.innerHeight, 1, 1000 );
 }
 
-function camera_from_up_view() {
+function camera_top_view() {
     camera.rotation.x += Math.PI/2;
     camera.position.y = 6;
     camera.lookAt(new THREE.Vector3(0,0,0));
@@ -727,7 +727,7 @@ function on_change_camera_view() {
             if(camera_view_radios[0].checked) {
                 reset_camera();
 
-                camera_from_up_view();
+                camera_top_view();
             }
             else {
                 reset_camera();
