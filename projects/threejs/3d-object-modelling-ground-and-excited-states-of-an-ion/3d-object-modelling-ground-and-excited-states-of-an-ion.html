@@ -14,6 +14,7 @@
       type="image/x-icon"
       href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"
     />
+    <link rel="stylesheet" type="text/css" href="3d-object-modelling-ground-and-excited-states-of-an-ion.css">
     <title>3D Object Modelling - Ground and Excited States of an Ion</title>
     <meta charset="utf-8" />
     <meta name="author" content="Rúben André Barreiro" />
@@ -21,96 +22,6 @@
       name="viewport"
       content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
-      
-    <style>
-      html,
-      body {
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-      }
-
-      body {
-        color: #000;
-        font-family: Monospace;
-        font-size: 13px;
-        text-align: center;
-        font-weight: bold;
-
-        background-color: #000000;
-        margin: 0px;
-      }
-
-      #intro {
-        color: #ffffff;
-        position: absolute;
-        top: 0px;
-        width: 100%;
-        padding: 5px;
-        box-sizing: border-box;
-      }
-
-      #info {
-        color: #ffffff;
-        position: fixed;
-        bottom: 80px;
-        left: 0px;
-        padding: 5px;
-        box-sizing: border-box;
-        text-align: left;
-      }
-
-      #objectName {
-        text-decoration: underline;
-        font-style: italic;
-        font-weight: bold;
-        font-size: 40px;
-      }
-
-      #objectDataInfo1,
-      #objectDataInfo2,
-      #objectDataInfo3,
-      #objectDataInfo4 {
-        display: none;
-      }
-
-      #objectDataTitle1,
-      #objectDataTitle2,
-      #objectDataTitle3,
-      #objectDataTitle4 {
-        font-weight: bold;
-        font-size: 20px;
-        display: none;
-      }
-
-      #objectDataContent1,
-      #objectDataContent2,
-      #objectDataContent3,
-      #objectDataContent4 {
-        color: #ff0060;
-        font-size: 14px;
-        display: none;
-      }
-
-      #optionsAndSettings {
-        color: #ffffff;
-        position: fixed;
-        bottom: 5px;
-        right: 0px;
-        padding: 5px;
-        box-sizing: border-box;
-        text-align: right;
-      }
-
-      #showAndDisplaySettings,
-      #specificOptions {
-        color: #ff0060;
-      }
-
-      a {
-        color: darkorange;
-      }
-    </style>
   </head>
 
   <body>
@@ -134,55 +45,47 @@
     </div>
 
     <div id="info"> 
-      <span id="objectName"></span>
+      <span id="object_name"></span>
 
-      <div id="objectDataInfo1">
+      <div id="object_data_info_1">
         <br />
         <br />
         <br />
-        <span id="objectDataTitle1"></span>
+        <span id="object_data_title_1"></span>
         <br />
-        <span id="objectDataContent1"></span>
+        <span id="object_data_content_1"></span>
       </div>
 
-      <div id="objectDataInfo2">
+      <div id="object_data_info_2">
         <br />
         <br />
-        <span id="objectDataTitle2"></span>
+        <span id="object_data_title_2"></span>
         <br />
-        <span id="objectDataContent2"></span>
+        <span id="object_data_content_2"></span>
       </div>
 
-      <div id="objectDataInfo3">
+      <div id="object_data_info_3">
         <br />
         <br />
-        <span id="objectDataTitle3"></span>
+        <span id="object_data_title_3"></span>
         <br />
-        <span id="objectDataContent3"></span>
+        <span id="object_data_content_3"></span>
       </div>
 
-      <div id="objectDataInfo3">
+      <div id="object_data_info_4">
         <br />
         <br />
-        <span id="objectDataTitle3"></span>
+        <span id="object_data_title_4"></span>
         <br />
-        <span id="objectDataContent3"></span>
-      </div>
-
-      <div id="objectDataInfo4">
-        <br />
-        <br />
-        <span id="objectDataTitle4"></span>
-        <br />
-        <span id="objectDataContent4"></span>
+        <span id="object_data_content_4"></span>
       </div>
     </div>
 
-    <div id="optionsAndSettings">
+    <div id="options_and_settings">
       <h2>Options/Settings:</h2>
       
       <h3>Show and display:</h3>
-      <div id="showAndDisplaySettings">
+      <div id="show_and_display_settings">
                 
         <span style="color: #ffffff">Camera View</span>
         
@@ -220,7 +123,7 @@
       <br />
 
       <h3>Specific options:</h3>
-      <div id="specificOptions">
+      <div id="specific_options">
                 
         <span style="color: #ffffff">Quantum States of the Electron</span>
 
@@ -913,11 +816,17 @@
             }
         }
         
+        // The Electron had its state changed, during an Event
         function on_change_electron_states() {
             
+            // Verifies all the Possible States for the Electron
+            // - Ground State;
+            // - Excited State;
+            // - Quantum Superposition of both Ground and Excited States;
             for(var i = 0, length = electron_states_radios.length; i < length; i++) {
                 electron_states_radios[i].onchange = function() {    
                     
+                    // The Electron it's in Ground State
                     if(electron_states_radios[0].checked) {
                         
                         electron_ground_state_material.opacity = 1.0;
@@ -928,6 +837,7 @@
                     
                     }
                     
+                    // The Electron it's in Excited State
                     if(electron_states_radios[1].checked) {
                     
                         electron_ground_state_material.opacity = 0.0;
@@ -938,11 +848,16 @@
                     
                     }
                     
+                    // The Electron it's in a Quantum Superposition of States
                     if(electron_states_radios[2].checked) {
-                    
+                        
+                        // The 0.5 opacity it's to represent the Quantum Superposition of States,
+                        // regarding the Electron's Ground State
                         electron_ground_state_material.opacity = 0.5;
                         electron_ground_state_material.depthTest = false;
                         
+                        // The 0.5 opacity it's to represent the Quantum Superposition of States,
+                        // regarding the Electron's Excited State
                         electron_excited_state_material.opacity = 0.5;
                         electron_excited_state_material.depthTest = false;
                     
@@ -952,22 +867,30 @@
             
         }
         
+        // The Animation Method
         function animate() {
             
+            // Calls the Animation Method again
             requestAnimationFrame(animate);
 
+            // Finds intersections between the Mouse's Pointer and the Nucleus/Proton
             find_intersections_nucleus_proton();
 
+            // Finds intersections between the Mouse's Pointer and the Electron's Ground State
             find_intersections_electron_ground_state();
 
+            // Finds intersections between the Mouse's Pointer and the Electron's Excited State
             find_intersections_electron_excited_state();
 
+            // Updates the Trackball Controls
             controls.update();
 
+            // Updates the Stats (Statistics for the Rendering Process)
             stats.update();
             
         }
 
+        // Finds intersections between the Mouse's Pointer and the Nucleus/Proton
         function find_intersections_nucleus_proton() {
             
             // Creates a Ray with origin at the Mouse's Pointer Position
@@ -1004,22 +927,22 @@
 
                         // Clears the Object's Name for the Nucleus/Proton displayed in
                         // the left side of the Scene (Bohr's Atom Model)
-                        document.getElementById("objectName").textContent = "";
+                        document.getElementById("object_name").textContent = "";
 
                         // Clears all the Nucleus'/Proton's Property Keys displayed in
                         // the left side of the Scene (Bohr's Atom Model)
                         for(i = 1; i < nucleus_proton_property_keys.length; i++) {
                         
-                            var divDataInfoElemID = "objectDataInfo" + i;
-                            document.getElementById(divDataInfoElemID).style.display = "none";
+                            var div_data_info_elem_id = "object_data_info" + i;
+                            document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                            var spanDataTitleElemID = "objectDataTitle" + i;
-                            document.getElementById(spanDataTitleElemID).innerHTML = "";
-                            document.getElementById(spanDataTitleElemID).style.display = "none";
+                            var span_data_title_elem_id = "object_data_title" + i;
+                            document.getElementById(span_data_title_elem_id).innerHTML = "";
+                            document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                            var spanDataContentElemID = "objectDataContent" + i;
-                            document.getElementById(spanDataContentElemID).innerHTML = "";
-                            document.getElementById(spanDataContentElemID).style.display = "none";
+                            var span_data_content_elem_id = "object_data_content" + i;
+                            document.getElementById(span_data_content_elem_id).innerHTML = "";
+                            document.getElementById(span_data_content_elem_id).style.display = "none";
                         
                         }
                     }
@@ -1032,33 +955,33 @@
 
                     // Sets the Object's Name for the Nucleus/Proton displayed in
                     // the left side of the Scene (Bohr's Atom Model)
-                    document.getElementById("objectName").textContent = intersects[0].object[nucleus_proton_property_keys[0]];
+                    document.getElementById("object_name").textContent = intersects[0].object[nucleus_proton_property_keys[0]];
 
                     // Sets all the Nucleus'/Proton's Property Keys
                     for(i = 1; i < nucleus_proton_property_keys.length; i++) {
                         
-                        var divDataInfoElemID = "objectDataInfo" + i;
-                        document.getElementById(divDataInfoElemID).style.display = "inline";
+                        var div_data_info_elem_id = "object_data_info" + i;
+                        document.getElementById(div_data_info_elem_id).style.display = "inline";
 
-                        var spanDataTitleElemID = "objectDataTitle" + i;
-                        document.getElementById(spanDataTitleElemID).innerHTML = nucleus_proton_property_keys[i];
-                        document.getElementById(spanDataTitleElemID).style.display = "inline";
+                        var span_data_title_elem_id = "object_data_title" + i;
+                        document.getElementById(span_data_title_elem_id).innerHTML = nucleus_proton_property_keys[i];
+                        document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                        var someObjectDataInfo = (intersects[0].object[nucleus_proton_property_keys[i]])[0];
+                        var some_object_data_info = (intersects[0].object[nucleus_proton_property_keys[i]])[0];
 
-                        var someObjectDataInfoKeys = Object.keys(someObjectDataInfo);
+                        var some_object_data_info_keys = Object.keys(some_object_data_info);
 
-                        var currentObjectDataInfo = "";
+                        var current_object_data_info = "";
                         
                         // Sets all the current Nucleus'/Proton's Sub-Property Keys
-                        for(j = 0; j < someObjectDataInfoKeys.length; j++)
-                            currentObjectDataInfo += "- <b><u>" + someObjectDataInfoKeys[j] + "</u></b>: " + someObjectDataInfo[someObjectDataInfoKeys[j]] + "<br/>";
+                        for(j = 0; j < some_object_data_info_keys.length; j++)
+                            current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
 
                         // Displays the final data/information in
                         // the left side of the Scene (Bohr's Atom Model)
-                        var spanDataContentElemID = "objectDataContent" + i;
-                        document.getElementById(spanDataContentElemID).innerHTML = currentObjectDataInfo;
-                        document.getElementById(spanDataContentElemID).style.display = "inline";
+                        var span_data_content_elem_id = "object_data_content" + i;
+                        document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
+                        document.getElementById(span_data_content_elem_id).style.display = "inline";
                     
                     }
                 }
@@ -1076,21 +999,22 @@
 
                     // Clears the Object's Name for the Nucleus/Proton displayed in
                     // the left side of the Scene (Bohr's Atom Model)
-                    document.getElementById("objectName").textContent = "";
+                    document.getElementById("object_name").textContent = "";
 
                     // Clears all the Nucleus'/Proton's Property Keys displayed in
                     // the left side of the Scene (Bohr's Atom Model)
                     for(i = 1; i < nucleus_proton_property_keys.length; i++) {
-                        var divDataInfoElemID = "objectDataInfo" + i;
-                        document.getElementById(divDataInfoElemID).style.display = "none";
+                        
+                        var div_data_info_elem_id = "object_data_info" + i;
+                        document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                        var spanDataTitleElemID = "objectDataTitle" + i;
-                        document.getElementById(spanDataTitleElemID).innerHTML = "";
-                        document.getElementById(spanDataTitleElemID).style.display = "none";
+                        var span_data_title_elem_id = "object_data_title" + i;
+                        document.getElementById(span_data_title_elem_id).innerHTML = "";
+                        document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                        var spanDataContentElemID = "objectDataContent" + i;
-                        document.getElementById(spanDataContentElemID).innerHTML = "";
-                        document.getElementById(spanDataContentElemID).style.display = "none";
+                        var span_data_content_elem_id = "object_data_content" + i;
+                        document.getElementById(span_data_content_elem_id).innerHTML = "";
+                        document.getElementById(span_data_content_elem_id).style.display = "none";
                     
                     }
                 }
@@ -1098,10 +1022,14 @@
                 // Remove previous intersection object reference
                 // by setting current intersection object to "nothing"
                 NUCLEUS_PROTON_INTERSECTED = null;
+                
             }
+            
         }
 
+        // Finds intersections between the Mouse's Pointer and the Electron's Ground State
         function find_intersections_electron_ground_state() {
+            
             // Create a Ray with origin at the mouse position
             // and direction into the scene (camera direction)
             var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
@@ -1120,61 +1048,65 @@
 
                 // If the closest object intersected is not the currently stored intersection object
                 if(intersects[0].object != ELECTRON_GROUND_STATE_INTERSECTED) {
+                    
                     // Restore previous intersection object (if it exists) to its original map's texture
                     if(ELECTRON_GROUND_STATE_INTERSECTED) {
+                        
                         ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
 
                         ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xff2200);
 
-                        document.getElementById("objectName").textContent = "";
+                        document.getElementById("object_name").textContent = "";
 
                         for(i = 1; i < electron_ground_state_property_keys.length; i++) {
-                            var divDataInfoElemID = "objectDataInfo" + i;
-                            document.getElementById(divDataInfoElemID).style.display = "none";
+                           
+                            var div_data_info_elem_id = "object_data_info" + i;
+                            document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                            var spanDataTitleElemID = "objectDataTitle" + i;
-                            document.getElementById(spanDataTitleElemID).innerHTML = "";
-                            document.getElementById(spanDataTitleElemID).style.display = "none";
+                            var span_data_title_elem_id = "object_data_title" + i;
+                            document.getElementById(span_data_title_elem_id).innerHTML = "";
+                            document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                            var spanDataContentElemID = "objectDataContent" + i;
-                            document.getElementById(spanDataContentElemID).innerHTML = "";
-                            document.getElementById(spanDataContentElemID).style.display = "none";
+                            var span_data_content_elem_id = "object_data_content" + i;
+                            document.getElementById(span_data_content_elem_id).innerHTML = "";
+                            document.getElementById(span_data_content_elem_id).style.display = "none";
+                            
                         }
+                   
                     }
 
                     // Store reference to closest object as current intersection object
                     ELECTRON_GROUND_STATE_INTERSECTED = intersects[0].object;
-
-                    // Store color and map's texture of closest object (for later restoration)
-                    ELECTRON_GROUND_STATE_INTERSECTED.mapTexture = ELECTRON_GROUND_STATE_INTERSECTED.material.map;
-
+                    
                     // Set a new color for closest object
                     ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
 
                     ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xffff00);
 
-                    document.getElementById("objectName").textContent = intersects[0].object[electron_ground_state_property_keys[0]];
+                    document.getElementById("object_name").textContent = intersects[0].object[electron_ground_state_property_keys[0]];
 
                     for(i = 1; i < electron_ground_state_property_keys.length; i++) {
-                        var divDataInfoElemID = "objectDataInfo" + i;
-                        document.getElementById(divDataInfoElemID).style.display = "inline";
+                        
+                        var div_data_info_elem_id = "object_data_info" + i;
+                        document.getElementById(div_data_info_elem_id).style.display = "inline";
 
-                        var spanDataTitleElemID = "objectDataTitle" + i;
-                        document.getElementById(spanDataTitleElemID).innerHTML = electron_ground_state_property_keys[i];
-                        document.getElementById(spanDataTitleElemID).style.display = "inline";
+                        var span_data_title_elem_id = "object_data_title" + i;
+                        document.getElementById(span_data_title_elem_id).innerHTML = electron_ground_state_property_keys[i];
+                        document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                        var someObjectDataInfo = (intersects[0].object[electron_ground_state_property_keys[i]])[0];
+                        var some_object_data_info = (intersects[0].object[electron_ground_state_property_keys[i]])[0];
 
-                        var someObjectDataInfoKeys = Object.keys(someObjectDataInfo);
+                        var some_object_data_info_keys = Object.keys(some_object_data_info);
 
-                        var currentObjectDataInfo = "";
+                        var current_object_data_info = "";
 
-                        for(j = 0; j < someObjectDataInfoKeys.length; j++)
-                            currentObjectDataInfo += "- <b><u>" + someObjectDataInfoKeys[j] + "</u></b>: " + someObjectDataInfo[someObjectDataInfoKeys[j]] + "<br/>";
+                        for(j = 0; j < some_object_data_info_keys.length; j++)
+                            current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
 
-                        var spanDataContentElemID = "objectDataContent" + i;
-                        document.getElementById(spanDataContentElemID).innerHTML = currentObjectDataInfo;
-                        document.getElementById(spanDataContentElemID).style.display = "inline";
+                        var span_data_content_elem_id = "object_data_content" + i;
+                        document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
+                        document.getElementById(span_data_content_elem_id).style.display = "inline";
+                   
                     }
                 }
             } 
@@ -1182,33 +1114,41 @@
 
                 // Restore previous intersection object (if it exists) to its original map's texture
                 if(ELECTRON_GROUND_STATE_INTERSECTED) {
+                    
                     ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
 
                     ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xff2200);
 
-                    document.getElementById("objectName").textContent = "";
+                    document.getElementById("object_name").textContent = "";
 
                     for(i = 1; i < electron_ground_state_property_keys.length; i++) {
-                        var divDataInfoElemID = "objectDataInfo" + i;
-                        document.getElementById(divDataInfoElemID).style.display = "none";
+                        
+                        var div_data_info_elem_id = "object_data_info" + i;
+                        document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                        var spanDataTitleElemID = "objectDataTitle" + i;
-                        document.getElementById(spanDataTitleElemID).innerHTML = "";
-                        document.getElementById(spanDataTitleElemID).style.display = "none";
+                        var span_data_title_elem_id = "object_data_title" + i;
+                        document.getElementById(span_data_title_elem_id).innerHTML = "";
+                        document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                        var spanDataContentElemID = "objectDataContent" + i;
-                        document.getElementById(spanDataContentElemID).innerHTML = "";
-                        document.getElementById(spanDataContentElemID).style.display = "none";
+                        var span_data_content_elem_id = "object_data_content" + i;
+                        document.getElementById(span_data_content_elem_id).innerHTML = "";
+                        document.getElementById(span_data_content_elem_id).style.display = "none";
+                    
                     }
+                    
                 }
 
                 // Remove previous intersection object reference
                 // by setting current intersection object to "nothing"
                 ELECTRON_GROUND_STATE_INTERSECTED = null;
+                
             }
+            
         }
 
+        // Finds intersections between the Mouse's Pointer and the Electron's Excited State
         function find_intersections_electron_excited_state() {
+            
             // Create a Ray with origin at the mouse position
             // and direction into the scene (camera direction)
             var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
@@ -1231,91 +1171,97 @@
                     if(ELECTRON_EXCITED_STATE_INTERSECTED) {
                         ELECTRON_EXCITED_STATE_INTERSECTED.material.needsUpdate = true;
 
-                        ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xffffff);
-                        ELECTRON_EXCITED_STATE_INTERSECTED.material.map = ELECTRON_EXCITED_STATE_INTERSECTED.mapTexture;
+                        ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xffff00);
 
-                        document.getElementById("objectName").textContent = "";
+                        document.getElementById("object_name").textContent = "";
 
                         for(i = 1; i < electron_excited_state_property_keys.length; i++) {
-                            var divDataInfoElemID = "objectDataInfo" + i;
-                            document.getElementById(divDataInfoElemID).style.display = "none";
+                            
+                            var div_data_info_elem_id = "object_data_info" + i;
+                            document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                            var spanDataTitleElemID = "objectDataTitle" + i;
-                            document.getElementById(spanDataTitleElemID).innerHTML = "";
-                            document.getElementById(spanDataTitleElemID).style.display = "none";
+                            var span_data_title_elem_id = "object_data_title" + i;
+                            document.getElementById(span_data_title_elem_id).innerHTML = "";
+                            document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                            var spanDataContentElemID = "objectDataContent" + i;
-                            document.getElementById(spanDataContentElemID).innerHTML = "";
-                            document.getElementById(spanDataContentElemID).style.display = "none";
+                            var span_data_content_elem_id = "object_data_content" + i;
+                            document.getElementById(span_data_content_elem_id).innerHTML = "";
+                            document.getElementById(span_data_content_elem_id).style.display = "none";
+                            
                         }
                     }
 
                     // Store reference to closest object as current intersection object
                     ELECTRON_EXCITED_STATE_INTERSECTED = intersects[0].object;
-
-                    // Store color and map's texture of closest object (for later restoration)
-                    ELECTRON_EXCITED_STATE_INTERSECTED.mapTexture = ELECTRON_EXCITED_STATE_INTERSECTED.material.map;
-
+                    
                     // Set a new color for closest object
-                    ELECTRON_EXCITED_STATE_INTERSECTED.material.map = null;
                     ELECTRON_EXCITED_STATE_INTERSECTED.material.needsUpdate = true;
 
                     ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xffff00);
 
-                    document.getElementById("objectName").textContent = intersects[0].object[electron_excited_state_property_keys[0]];
+                    document.getElementById("object_name").textContent = intersects[0].object[electron_excited_state_property_keys[0]];
 
                     for(i = 1; i < electron_excited_state_property_keys.length; i++) {
-                        var divDataInfoElemID = "objectDataInfo" + i;
-                        document.getElementById(divDataInfoElemID).style.display = "inline";
+                        
+                        var div_data_info_elem_id = "object_data_info" + i;
+                        document.getElementById(div_data_info_elem_id).style.display = "inline";
 
-                        var spanDataTitleElemID = "objectDataTitle" + i;
-                        document.getElementById(spanDataTitleElemID).innerHTML = electron_excited_state_property_keys[i];
-                        document.getElementById(spanDataTitleElemID).style.display = "inline";
+                        var span_data_title_elem_id = "object_data_title" + i;
+                        document.getElementById(span_data_title_elem_id).innerHTML = electron_excited_state_property_keys[i];
+                        document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                        var someObjectDataInfo = (intersects[0].object[electron_excited_state_property_keys[i]])[0];
+                        var some_object_data_info = (intersects[0].object[electron_excited_state_property_keys[i]])[0];
 
-                        var someObjectDataInfoKeys = Object.keys(someObjectDataInfo);
+                        var some_object_data_info_keys = Object.keys(some_object_data_info);
 
-                        var currentObjectDataInfo = "";
+                        var current_object_data_info = "";
 
-                        for(j = 0; j < someObjectDataInfoKeys.length; j++)
-                            currentObjectDataInfo += "- <b><u>" + someObjectDataInfoKeys[j] + "</u></b>: " + someObjectDataInfo[someObjectDataInfoKeys[j]] + "<br/>";
+                        for(j = 0; j < some_object_data_info_keys.length; j++)
+                            current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
 
-                        var spanDataContentElemID = "objectDataContent" + i;
-                        document.getElementById(spanDataContentElemID).innerHTML = currentObjectDataInfo;
-                        document.getElementById(spanDataContentElemID).style.display = "inline";
+                        var span_data_content_elem_id = "object_data_content" + i;
+                        document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
+                        document.getElementById(span_data_content_elem_id).style.display = "inline";
+                        
                     }
+                    
                 }
+                
             } 
             else { // There are no intersections
 
                 // Restore previous intersection object (if it exists) to its original map's texture
                 if(ELECTRON_EXCITED_STATE_INTERSECTED) {
+                    
                     ELECTRON_EXCITED_STATE_INTERSECTED.material.needsUpdate = true;
 
-                    ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xffffff);
-                    ELECTRON_EXCITED_STATE_INTERSECTED.material.map = ELECTRON_EXCITED_STATE_INTERSECTED.mapTexture;
+                    ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xff2200);
 
-                    document.getElementById("objectName").textContent = "";
+                    document.getElementById("object_name").textContent = "";
 
                     for(i = 1; i < electron_excited_state_property_keys.length; i++) {
-                        var divDataInfoElemID = "objectDataInfo" + i;
-                        document.getElementById(divDataInfoElemID).style.display = "none";
+                        
+                        var div_data_info_elem_id = "object_data_info" + i;
+                        document.getElementById(div_data_info_elem_id).style.display = "none";
 
-                        var spanDataTitleElemID = "objectDataTitle" + i;
-                        document.getElementById(spanDataTitleElemID).innerHTML = "";
-                        document.getElementById(spanDataTitleElemID).style.display = "none";
+                        var span_data_title_elem_id = "object_data_title" + i;
+                        document.getElementById(span_data_title_elem_id).innerHTML = "";
+                        document.getElementById(span_data_title_elem_id).style.display = "none";
 
-                        var spanDataContentElemID = "objectDataContent" + i;
-                        document.getElementById(spanDataContentElemID).innerHTML = "";
-                        document.getElementById(spanDataContentElemID).style.display = "none";
+                        var span_data_content_elem_id = "object_data_content" + i;
+                        document.getElementById(span_data_content_elem_id).innerHTML = "";
+                        document.getElementById(span_data_content_elem_id).style.display = "none";
+                        
                     }
+                    
                 }
 
                 // Remove previous intersection object reference
                 // by setting current intersection object to "nothing"
                 ELECTRON_EXCITED_STATE_INTERSECTED = null;
+                
             }
+            
         }
 
         // The Nucleus/Proton and Electron's States' rotation movements
