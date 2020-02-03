@@ -7,7 +7,7 @@
   "State's Information": [{
       "No. Possible States/Outcomes": "1 (Classical State)",
       "Current State": "Ground State",
-      "Probabilities for States/Outcomes": "\{ |0⟩ = 1.00 (0&#37;), |1⟩ = 0.00 (100&#37;) \}",
+      "Probabilities for States/Outcomes": "&#123; |0⟩ = 1.00 (0&#37;), |1⟩ = 0.00 (100&#37;) &#125;",
       "Quantum Number/Energy Level": "0",
       "Ket's Notation": "|0⟩",
   }],

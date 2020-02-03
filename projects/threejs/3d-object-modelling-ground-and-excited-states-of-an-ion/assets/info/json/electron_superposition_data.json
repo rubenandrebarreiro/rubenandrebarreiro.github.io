@@ -7,12 +7,12 @@
   "State's Information": [{
       "No. Possible States/Outcomes": "2 (Quantum State)",
       "Current State": "Quantum Superposition State",
-      "Probabilities for States/Outcomes": "\{ |0⟩ = 50.00 (50&#37;), |1⟩ = 50.00 (50&#37;) \}",
+      "Probabilities for States/Outcomes": "&#123; |0⟩ = 50.00 (50&#37;), |1⟩ = 50.00 (50&#37;) &#125;",
       "Quantum Number/Energy Level": "<sup>1</sup>&frasl;<sub>&#8730;2</sub>|0⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|1⟩",
       "Ket's Notation": "<sup>1</sup>&frasl;<sub>&#8730;2</sub>|0⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|1⟩",
   }],
   "Spin's Information": [{
-      "Spin Direction": "Both Up and Down (&#8593; &amp; &#8593;;)",
+      "Spin Direction": "Both Up and Down (&#8593; &amp; &#8593;)",
       "Spin's Orientation": "Uncertain Spin's Orientation"
   }]
 }
