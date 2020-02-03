@@ -519,6 +519,7 @@
             // Creates the Electron's Ground State
             create_electron_ground_state();
             
+            
             // Loads the JSON data file of the Electron's Ground State Element
             load_electron_ground_state_json(function(response) {
                 
@@ -534,6 +535,26 @@
                 // the Mesh of the Electron's Ground State
                 for(i = 0; i < electron_ground_state_property_keys.length; i++)
                     electron_ground_state_mesh[electron_ground_state_property_keys[i]] = electron_ground_state_data_json[electron_ground_state_property_keys[i]];
+                
+            });
+            
+            
+            // Loads the JSON data file of the Electron's Quantum Superposition of States Element
+            load_electron_superposition_json(function(response) {
+                
+                // Parses Electron's Quantum Superposition of States' JSON string into object
+                var electron_ground_superposition_data_json = JSON.parse(response);
+
+                // Loads the Property Keys' data of
+                // the JSON data file of the Electron's Quantum Superposition of States Element
+                electron_ground_superposition_property_keys = Object.keys(electron_ground_superposition_data_json);
+
+                // Binds the Property Keys' data of
+                // the JSON data file of the Electron's Quantum Superposition of States Element to
+                // the Mesh of the Electron's Ground State
+                for(i = 0; i < electron_ground_superposition_property_keys.length; i++)
+                    electron_ground_state_mesh[electron_ground_superposition_property_keys[i]] = electron_ground_superposition_data_json[electron_ground_superposition_property_keys[i]];
+                
             });
             
             // Creates the group for the Electron's Ground State's Pivot
@@ -1185,6 +1206,21 @@
                             document.getElementById(span_data_content_elem_id).style.display = "none";
                             
                         }
+                    
+                        for(i = 1; i < electron_ground_superposition_property_keys.length; i++) {
+
+                            var div_data_info_elem_id = "object_data_info_" + i;
+                            document.getElementById(div_data_info_elem_id).style.display = "none";
+
+                            var span_data_title_elem_id = "object_data_title_" + i;
+                            document.getElementById(span_data_title_elem_id).innerHTML = "";
+                            document.getElementById(span_data_title_elem_id).style.display = "none";
+
+                            var span_data_content_elem_id = "object_data_content_" + i;
+                            document.getElementById(span_data_content_elem_id).innerHTML = "";
+                            document.getElementById(span_data_content_elem_id).style.display = "none";
+
+                        }
                    
                     }
 
@@ -1196,31 +1232,65 @@
 
                     ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xffff00);
 
-                    document.getElementById("object_name").textContent = intersects[0].object[electron_ground_state_property_keys[0]];
-
-                    for(i = 1; i < electron_ground_state_property_keys.length; i++) {
+                    if(is_in_quantum_superposition_of_states) {
                         
-                        var div_data_info_elem_id = "object_data_info_" + i;
-                        document.getElementById(div_data_info_elem_id).style.display = "inline";
+                        document.getElementById("object_name").textContent = intersects[0].object[electron_ground_superposition_property_keys[0]];
 
-                        var span_data_title_elem_id = "object_data_title_" + i;
-                        document.getElementById(span_data_title_elem_id).innerHTML = electron_ground_state_property_keys[i];
-                        document.getElementById(span_data_title_elem_id).style.display = "inline";
+                        for(i = 1; i < electron_ground_superposition_property_keys.length; i++) {
 
-                        var some_object_data_info = (intersects[0].object[electron_ground_state_property_keys[i]])[0];
+                            var div_data_info_elem_id = "object_data_info_" + i;
+                            document.getElementById(div_data_info_elem_id).style.display = "inline";
 
-                        var some_object_data_info_keys = Object.keys(some_object_data_info);
+                            var span_data_title_elem_id = "object_data_title_" + i;
+                            document.getElementById(span_data_title_elem_id).innerHTML = electron_ground_superposition_property_keys[i];
+                            document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                        var current_object_data_info = "";
+                            var some_object_data_info = (intersects[0].object[electron_ground_superposition_property_keys[i]])[0];
 
-                        for(j = 0; j < some_object_data_info_keys.length; j++)
-                            current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
+                            var some_object_data_info_keys = Object.keys(some_object_data_info);
 
-                        var span_data_content_elem_id = "object_data_content_" + i;
-                        document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
-                        document.getElementById(span_data_content_elem_id).style.display = "inline";
-                   
+                            var current_object_data_info = "";
+
+                            for(j = 0; j < some_object_data_info_keys.length; j++)
+                                current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
+
+                            var span_data_content_elem_id = "object_data_content_" + i;
+                            document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
+                            document.getElementById(span_data_content_elem_id).style.display = "inline";
+
+                        }
+                        
                     }
+                    else {
+                    
+                        document.getElementById("object_name").textContent = intersects[0].object[electron_ground_state_property_keys[0]];
+
+                        for(i = 1; i < electron_ground_state_property_keys.length; i++) {
+
+                            var div_data_info_elem_id = "object_data_info_" + i;
+                            document.getElementById(div_data_info_elem_id).style.display = "inline";
+
+                            var span_data_title_elem_id = "object_data_title_" + i;
+                            document.getElementById(span_data_title_elem_id).innerHTML = electron_ground_state_property_keys[i];
+                            document.getElementById(span_data_title_elem_id).style.display = "inline";
+
+                            var some_object_data_info = (intersects[0].object[electron_ground_state_property_keys[i]])[0];
+
+                            var some_object_data_info_keys = Object.keys(some_object_data_info);
+
+                            var current_object_data_info = "";
+
+                            for(j = 0; j < some_object_data_info_keys.length; j++)
+                                current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
+
+                            var span_data_content_elem_id = "object_data_content_" + i;
+                            document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
+                            document.getElementById(span_data_content_elem_id).style.display = "inline";
+
+                        }
+                        
+                    }
+                    
                 }
             } 
             else { // There are no intersections
@@ -1247,6 +1317,21 @@
                         document.getElementById(span_data_content_elem_id).innerHTML = "";
                         document.getElementById(span_data_content_elem_id).style.display = "none";
                     
+                    }
+                    
+                    for(i = 1; i < electron_ground_superposition_property_keys.length; i++) {
+                        
+                        var div_data_info_elem_id = "object_data_info_" + i;
+                        document.getElementById(div_data_info_elem_id).style.display = "none";
+
+                        var span_data_title_elem_id = "object_data_title_" + i;
+                        document.getElementById(span_data_title_elem_id).innerHTML = "";
+                        document.getElementById(span_data_title_elem_id).style.display = "none";
+
+                        var span_data_content_elem_id = "object_data_content_" + i;
+                        document.getElementById(span_data_content_elem_id).innerHTML = "";
+                        document.getElementById(span_data_content_elem_id).style.display = "none";
+                        
                     }
                     
                 }
