@@ -557,7 +557,7 @@
             create_electron_excited_state();
             
             // Loads the JSON data file of the Electron's Excited State Element
-            load_electron_excited_state_json(function(response) {
+            /*load_electron_excited_state_json(function(response) {
                 
                 // Parses Electron's Excited State's JSON string into object
                 var electron_excited_state_data_json = JSON.parse(response);
@@ -571,7 +571,7 @@
                 // the Mesh of the Electron's Excited State
                 for(i = 0; i < electron_excited_state_property_keys.length; i++)
                     electron_excited_state_mesh[electron_excited_state_property_keys[i]] = electron_excited_state_data_json[electron_excited_state_property_keys[i]];
-            });
+            });*/
             
             // Creates the group for the Electron's Excited State's Pivot
             electron_excited_state_pivot = new THREE.Group();
