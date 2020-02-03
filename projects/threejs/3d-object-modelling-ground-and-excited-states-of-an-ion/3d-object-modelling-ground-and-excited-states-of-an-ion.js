@@ -379,7 +379,7 @@ function add_electron_ground_state_to_scene() {
         // the JSON data file of the Electron's Quantum Superposition of States Element to
         // the Mesh of the Electron's Ground State
         for(i = 0; i < electron_ground_superposition_property_keys.length; i++)
-            electron_ground_state_mesh[electron_ground_superposition_property_keys[i]] = electron_ground_superposition_data_json[electron_ground_superposition_property_keys[i]];
+            electron_ground_state_mesh[ (electron_ground_state_property_keys.length + electron_ground_superposition_property_keys)[i] ] = electron_ground_superposition_data_json[electron_ground_superposition_property_keys[i]];
 
     });
 
@@ -1073,7 +1073,7 @@ function find_intersections_electron_ground_state() {
                     document.getElementById(span_data_title_elem_id).innerHTML = electron_ground_superposition_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                    var some_object_data_info = (intersects[0].object[electron_ground_superposition_property_keys[i]])[0];
+                    var some_object_data_info = (intersects[0].object[ (electron_ground_state_property_keys.length + electron_ground_superposition_property_keys)[i] ])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
 
