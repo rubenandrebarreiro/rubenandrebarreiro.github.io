@@ -76,6 +76,7 @@ body {
     text-align: right;
 }
 
+#motion_settings,
 #show_and_display_settings,
 #specific_options {
     color: #ff0060;

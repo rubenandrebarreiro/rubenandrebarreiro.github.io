@@ -84,6 +84,24 @@
     <div id="options_and_settings">
       <h2>Options/Settings:</h2>
       
+      <h3>Motion:</h3>
+      <div id="motion_settings">
+                
+      <span style="color: #ffffff">Rotations'/Translations' Movements</span>
+
+      <br/>
+
+      <input type="radio" name="motions_radios" value="play_motions" checked='true'>
+      Play &nbsp;&nbsp;
+      <input
+        type="radio"
+        name="motions_radios"
+        value="stop_motions"
+      />
+      Stop
+      
+      <br/>
+        
       <h3>Show and display:</h3>
       <div id="show_and_display_settings">
                 
@@ -208,8 +226,11 @@
         
         // The Form's Controls/Elements - Radios and Checkboxes for
         // controlling some aspects of the Scene (Bohr's Atom Model)
-        var camera_view_radios, xz_grid_checked, atomic_orbits_checked, electron_states_radios;
+        var motions_radios, camera_view_radios, xz_grid_checked, atomic_orbits_checked, electron_states_radios;
         
+        // The Motions' Factor for the Nucleus/Proton and Electron's States'
+        // rotations' and translactions' movements
+        var motions_factor;
         
         
         // The Calls for Initiation and Animation Methods
@@ -285,8 +306,12 @@
             obj.send(null);  
         }
 
-        // The Initiation Method
+        // The Initiation Process Method
         function init() {
+            
+            // The Motions' Factor for the Nucleus/Proton and Electron's States'
+            // rotations' and translactions' movements
+            motions_factor = 1.0;
             
             // Resets the Camera
             reset_camera();
@@ -368,11 +393,17 @@
         
         function set_event_listeners() {
             
+            // Gets the Motions' Radio options
+            motions_radios = document.getElementsByName("motions_radios");
+            
             // Gets the Camera View's Radio options
             camera_view_radios = document.getElementsByName("camera_view_radios");
             
             // Gets the Electron State's Radio options
             electron_states_radios = document.getElementsByName("electron_states_radios");
+            
+            // When the Motions' Radio change, calls the given function
+            document.addEventListener('onchange', on_change_motions);
             
             // When the Camera View's Radio change, calls the given function
             document.addEventListener('onchange', on_change_camera_view);
@@ -721,6 +752,10 @@
         function trigger_event_listeners() {
             
             // Handles/Triggers the Function for
+            // changes in the Motions' Radio
+            on_change_motions();
+            
+            // Handles/Triggers the Function for
             // changes in the Camera View's Radio
             on_change_camera_view();
             
@@ -761,6 +796,25 @@
             mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
             mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
         
+        }
+        
+        function on_change_motions() {
+            
+            for(var i = 0, length = motions_radios.length; i < length; i++) {
+                motions_radios[i].onchange = function() {    
+
+                    if(motions_radios[0].checked) {
+                        motions_factor = 1.0;
+                    }
+                    else {
+                        motions_factor = 0.0;    
+                    }
+                    
+                    start_trackball_controls();
+                    
+                }
+            }
+            
         }
         
         function on_change_camera_view() {
@@ -1266,9 +1320,9 @@
 
         // The Nucleus/Proton and Electron's States' rotation movements
         function particles_rotation_rovements() {
-            var nucleus_proton_rotation_speed = 0.0001 * 28;
-            var electron_ground_state_rotation_speed = 0.01 * 28;
-            var electron_excited_state_rotation_speed = 0.01 * 28;
+            var nucleus_proton_rotation_speed = ( motions_factor * 0.0001 * 28 );
+            var electron_ground_state_rotation_speed = ( motions_factor * 0.01 * 28 );
+            var electron_excited_state_rotation_speed = ( motions_factor * 0.01 * 28 );
             
             nucleus_proton_mesh.rotation.y += nucleus_proton_rotation_speed;
 
@@ -1283,14 +1337,14 @@
             var quaternion_for_electron_ground_state = new THREE.Quaternion();
 
             // Setting and applying the quarternion's Y Axis for the Electron's Ground State
-            quaternion_for_electron_ground_state.setFromAxisAngle(y_axis, 0.02);
+            quaternion_for_electron_ground_state.setFromAxisAngle( y_axis, ( motions_factor * 0.02 ) );
             electron_ground_state_mesh.position.applyQuaternion(quaternion_for_electron_ground_state);
 
             // Creating the quarternion for the Electron's Excited State
             var quaternion_for_electron_excited_state = new THREE.Quaternion();
 
             // Setting and applying the quarternion's Y Axis for the Electron's Excited State
-            quaternion_for_electron_excited_state.setFromAxisAngle(y_axis, -0.02);
+            quaternion_for_electron_excited_state.setFromAxisAngle( y_axis, ( motions_factor * -0.02 ) );
             electron_excited_state_mesh.position.applyQuaternion(quaternion_for_electron_excited_state);   
         }
 
