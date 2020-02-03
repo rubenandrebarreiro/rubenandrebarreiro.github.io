@@ -7,7 +7,7 @@
   "State's Information": [{
       "No. Possible States/Outcomes": "2 (Quantum State)",
       "Current State": "Quantum Superposition State",
-      "Probabilities for States/Outcomes": "{ |0⟩ = 50.00 (50&#37;), { |1⟩ = 50.00 (50&#37;) }",
+      "Probabilities for States/Outcomes": "\{ |0⟩ = 50.00 (50&#37;), |1⟩ = 50.00 (50&#37;) \}",
       "Quantum Number/Energy Level": "<sup>1</sup>&frasl;<sub>&#8730;2</sub>|0⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|1⟩",
       "Ket's Notation": "<sup>1</sup>&frasl;<sub>&#8730;2</sub>|0⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|1⟩",
   }],
