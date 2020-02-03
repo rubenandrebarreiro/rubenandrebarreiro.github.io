@@ -1057,8 +1057,7 @@ function find_intersections_electron_ground_state() {
             ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
 
             ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xffff00);
-
-            alert(is_in_quantum_superposition_of_states);
+            
             
             if(is_in_quantum_superposition_of_states) {
 
@@ -1242,6 +1241,7 @@ function find_intersections_electron_excited_state() {
 
             ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xffff00);
 
+            
             if(is_in_quantum_superposition_of_states) {
 
                 document.getElementById("object_name").textContent = intersects[0].object[electron_excited_superposition_property_keys[0]];
