@@ -1448,7 +1448,8 @@ function find_intersections_spin_down() {
 
                     console.log(intersects[0].object[particle_spin_down_property_keys[i]]);
                     console.log("AAAAA" + intersects[0].object.parent[particle_spin_down_property_keys[i]]);
-                    console.log(intersects[0].object.parent);
+                    console.log("SSSSS");
+                    console.log((intersects[0].object.parent[particle_spin_down_property_keys[i]])[0];
                     console.log(particle_spin_down_property_keys[i]);
                     
                     
