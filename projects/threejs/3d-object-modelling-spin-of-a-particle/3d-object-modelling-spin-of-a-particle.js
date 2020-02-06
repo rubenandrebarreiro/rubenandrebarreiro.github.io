@@ -136,7 +136,7 @@ function load_particle_spin_down_json(callback) {
     var obj = new XMLHttpRequest();
 
     obj.overrideMimeType("application/json");
-    obj.open('GET', 'assets/info/json/particle_spin_up_data.json', true);
+    obj.open('GET', 'assets/info/json/particle_spin_down_data.json', true);
 
     obj.onreadystatechange = function () {
 
