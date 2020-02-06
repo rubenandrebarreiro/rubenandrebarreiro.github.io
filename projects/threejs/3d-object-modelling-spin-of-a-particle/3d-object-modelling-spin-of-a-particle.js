@@ -1447,7 +1447,8 @@ function find_intersections_spin_down() {
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
                     console.log(intersects[0].object[particle_spin_down_property_keys[i]]);
-                    console.log(intersects[0]);
+                    console.log(intersects[0].object);
+                    console.log(particle_spin_down_property_keys[i]);
                     
                     
                     var some_object_data_info = (intersects[0].object[particle_spin_down_property_keys[i]])[0];
