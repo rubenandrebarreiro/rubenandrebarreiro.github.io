@@ -39,7 +39,7 @@ var projector, mouse = { x: window.innerHeight, y: window.innerWidth };
 
 // The Intersection of Elements of the Scene (Bohr's Atom Model)
 // (The Particles, i.e., the Nucleus/Proton and the Electron in Ground/Excited States)
-var NUCLEUS_PROTON_INTERSECTED, ELECTRON_GROUND_STATE_INTERSECTED, ELECTRON_EXCITED_STATE_INTERSECTED;
+var PARTICLE_INTERSECTED, SPIN_DOWN_INTERSECTED, SPIN_UP_INTERSECTED;
 
 // Nucleus/Proton's Elements
 // (The Particle, i.e., the Proton)
@@ -1166,7 +1166,7 @@ function animate() {
     requestAnimationFrame(animate);
 
     // Finds intersections between the Mouse's Pointer and the Nucleus/Proton
-    //find_intersections_nucleus_proton();
+    find_intersections_particle();
 
     // Finds intersections between the Mouse's Pointer and the Electron's Ground State
     //find_intersections_electron_ground_state();
@@ -1184,7 +1184,7 @@ function animate() {
 
 
 // Finds intersections between the Mouse's Pointer and the Nucleus/Proton
-function find_intersections_nucleus_proton() {
+function find_intersections_particle() {
 
     // Creates a Ray with origin at the Mouse's Pointer Position
     // and direction into the Scene (Bohr's Atom Model),
@@ -1200,23 +1200,23 @@ function find_intersections_nucleus_proton() {
     // Creates an array containing all objects in the scene with which the ray intersects
     var intersects = ray.intersectObjects(particle_pivot.children);
 
-    // NUCLEUS_PROTON_INTERSECTED = the object in the scene currently closest to the camera 
+    // PARTICLE_INTERSECTED = the object in the scene currently closest to the camera 
     // and intersected by the Ray projected from the mouse position 	
 
     // If there is one (or more) intersections
     if(intersects.length > 0) {
 
         // If the closest object intersected is not the currently stored intersection object
-        if(intersects[0].object != NUCLEUS_PROTON_INTERSECTED) {
+        if(intersects[0].object != PARTICLE_INTERSECTED) {
 
             // Restores previous intersection object (if it exists) to its original map's texture
-            if(NUCLEUS_PROTON_INTERSECTED) {
+            if(PARTICLE_INTERSECTED) {
 
                 // The Nucleus'/Proton's Material needs to be updated
-                NUCLEUS_PROTON_INTERSECTED.material.needsUpdate = true;
+                PARTICLE_INTERSECTED.material.needsUpdate = true;
 
                 // Sets the Nucleus'/Proton's Material Color to Yellow
-                NUCLEUS_PROTON_INTERSECTED.material.color.setHex(0xffff00);
+                PARTICLE_INTERSECTED.material.color.setHex(0xffff00);
 
                 // Clears the Object's Name for the Nucleus/Proton displayed in
                 // the left side of the Scene (Bohr's Atom Model)
@@ -1241,10 +1241,10 @@ function find_intersections_nucleus_proton() {
             }
 
             // Stores the reference to closest object as current intersection object
-            NUCLEUS_PROTON_INTERSECTED = intersects[0].object;
+            PARTICLE_INTERSECTED = intersects[0].object;
 
             // Sets a new color for closest object
-            NUCLEUS_PROTON_INTERSECTED.material.color.setHex(0xffff00);
+            PARTICLE_INTERSECTED.material.color.setHex(0xffff00);
 
             // Sets the Object's Name for the Nucleus/Proton displayed in
             // the left side of the Scene (Bohr's Atom Model)
@@ -1282,13 +1282,13 @@ function find_intersections_nucleus_proton() {
     else { // There are no intersections
 
         // Restores previous intersection object (if it exists) to its original color
-        if(NUCLEUS_PROTON_INTERSECTED) {
+        if(PARTICLE_INTERSECTED) {
 
             // The Nucleus'/Proton's Material needs to be updated
-            NUCLEUS_PROTON_INTERSECTED.material.needsUpdate = true;
+            PARTICLE_INTERSECTED.material.needsUpdate = true;
 
             // Sets the Nucleus'/Proton's Material Color to its default
-            NUCLEUS_PROTON_INTERSECTED.material.color.setHex(0xdda0dd);
+            PARTICLE_INTERSECTED.material.color.setHex(0xdda0dd);
 
             // Clears the Object's Name for the Nucleus/Proton displayed in
             // the left side of the Scene (Bohr's Atom Model)
@@ -1314,7 +1314,7 @@ function find_intersections_nucleus_proton() {
 
         // Remove previous intersection object reference
         // by setting current intersection object to "nothing"
-        NUCLEUS_PROTON_INTERSECTED = null;
+        PARTICLE_INTERSECTED = null;
 
     }
 
@@ -1333,21 +1333,21 @@ function find_intersections_electron_ground_state() {
     // Create an array containing all objects in the scene with which the ray intersects
     var intersects = ray.intersectObjects(particle_spin_up_motion_pivot.children);
 
-    // ELECTRON_GROUND_STATE_INTERSECTED = the object in the scene currently closest to the camera 
+    // SPIN_DOWN_INTERSECTED = the object in the scene currently closest to the camera 
     // and intersected by the Ray projected from the mouse position 	
 
     // If there is one (or more) intersections
     if(intersects.length > 0) {
 
         // If the closest object intersected is not the currently stored intersection object
-        if(intersects[0].object != ELECTRON_GROUND_STATE_INTERSECTED) {
+        if(intersects[0].object != SPIN_DOWN_INTERSECTED) {
 
             // Restore previous intersection object (if it exists) to its original map's texture
-            if(ELECTRON_GROUND_STATE_INTERSECTED) {
+            if(SPIN_DOWN_INTERSECTED) {
 
-                ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
+                SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
 
-                ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xff2200);
+                SPIN_DOWN_INTERSECTED.material.color.setHex(0xff2200);
 
                 document.getElementById("object_name").textContent = "";
 
@@ -1384,12 +1384,12 @@ function find_intersections_electron_ground_state() {
             }
 
             // Store reference to closest object as current intersection object
-            ELECTRON_GROUND_STATE_INTERSECTED = intersects[0].object;
+            SPIN_DOWN_INTERSECTED = intersects[0].object;
 
             // Set a new color for closest object
-            ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
+            SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
 
-            ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xffff00);
+            SPIN_DOWN_INTERSECTED.material.color.setHex(0xffff00);
             
             
             if(quantum_state_of_spins) {
@@ -1456,11 +1456,11 @@ function find_intersections_electron_ground_state() {
     else { // There are no intersections
 
         // Restore previous intersection object (if it exists) to its original map's texture
-        if(ELECTRON_GROUND_STATE_INTERSECTED) {
+        if(SPIN_DOWN_INTERSECTED) {
 
-            ELECTRON_GROUND_STATE_INTERSECTED.material.needsUpdate = true;
+            SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
 
-            ELECTRON_GROUND_STATE_INTERSECTED.material.color.setHex(0xff2200);
+            SPIN_DOWN_INTERSECTED.material.color.setHex(0xff2200);
 
             document.getElementById("object_name").textContent = "";
 
@@ -1498,7 +1498,7 @@ function find_intersections_electron_ground_state() {
 
         // Remove previous intersection object reference
         // by setting current intersection object to "nothing"
-        ELECTRON_GROUND_STATE_INTERSECTED = null;
+        SPIN_DOWN_INTERSECTED = null;
 
     }
 
@@ -1517,21 +1517,21 @@ function find_intersections_electron_excited_state() {
     // Create an array containing all objects in the scene with which the ray intersects
     var intersects = ray.intersectObjects(electron_excited_state_particle_pivot.children);
 
-    // ELECTRON_EXCITED_STATE_INTERSECTED = the object in the scene currently closest to the camera 
+    // SPIN_UP_INTERSECTED = the object in the scene currently closest to the camera 
     // and intersected by the Ray projected from the mouse position 	
 
     // If there is one (or more) intersections
     if(intersects.length > 0) {
 
         // If the closest object intersected is not the currently stored intersection object
-        if(intersects[0].object != ELECTRON_EXCITED_STATE_INTERSECTED) {
+        if(intersects[0].object != SPIN_UP_INTERSECTED) {
 
             // Restores previous intersection object (if it exists) to its original color
-            if(ELECTRON_EXCITED_STATE_INTERSECTED) {
+            if(SPIN_UP_INTERSECTED) {
 
-                ELECTRON_EXCITED_STATE_INTERSECTED.material.needsUpdate = true;
+                SPIN_UP_INTERSECTED.material.needsUpdate = true;
 
-                ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xffff00);
+                SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
 
                 document.getElementById("object_name").textContent = "";
 
@@ -1567,12 +1567,12 @@ function find_intersections_electron_excited_state() {
             }
 
             // Store reference to closest object as current intersection object
-            ELECTRON_EXCITED_STATE_INTERSECTED = intersects[0].object;
+            SPIN_UP_INTERSECTED = intersects[0].object;
 
             // Set a new color for closest object
-            ELECTRON_EXCITED_STATE_INTERSECTED.material.needsUpdate = true;
+            SPIN_UP_INTERSECTED.material.needsUpdate = true;
 
-            ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xffff00);
+            SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
 
             
             if(quantum_state_of_spins) {
@@ -1640,11 +1640,11 @@ function find_intersections_electron_excited_state() {
     else { // There are no intersections
 
         // Restore previous intersection object (if it exists) to its original map's texture
-        if(ELECTRON_EXCITED_STATE_INTERSECTED) {
+        if(SPIN_UP_INTERSECTED) {
 
-            ELECTRON_EXCITED_STATE_INTERSECTED.material.needsUpdate = true;
+            SPIN_UP_INTERSECTED.material.needsUpdate = true;
 
-            ELECTRON_EXCITED_STATE_INTERSECTED.material.color.setHex(0xff2200);
+            SPIN_UP_INTERSECTED.material.color.setHex(0xff2200);
 
             document.getElementById("object_name").textContent = "";
 
@@ -1682,7 +1682,7 @@ function find_intersections_electron_excited_state() {
 
         // Remove previous intersection object reference
         // by setting current intersection object to "nothing"
-        ELECTRON_EXCITED_STATE_INTERSECTED = null;
+        SPIN_UP_INTERSECTED = null;
 
     }
 
