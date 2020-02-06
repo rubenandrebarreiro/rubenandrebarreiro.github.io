@@ -1339,8 +1339,6 @@ function find_intersections_spin_down() {
     // If there is one (or more) intersections
     if(intersects.length > 0) {
         
-        alert("AAAAA");
-
         // If the closest object intersected is not the currently stored intersection object
         if(intersects[0].object != SPIN_DOWN_INTERSECTED) {
 
