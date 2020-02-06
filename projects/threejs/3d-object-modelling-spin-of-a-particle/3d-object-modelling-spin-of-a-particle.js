@@ -1169,10 +1169,10 @@ function animate() {
     find_intersections_particle();
 
     // Finds intersections between the Mouse's Pointer and the Electron's Ground State
-    //find_intersections_electron_ground_state();
+    find_intersections_spin_down();
 
     // Finds intersections between the Mouse's Pointer and the Electron's Excited State
-    //find_intersections_electron_excited_state();
+    //find_intersections_spin_up();
 
     // Updates the Trackball Controls
     controls.update();
@@ -1321,7 +1321,7 @@ function find_intersections_particle() {
 }
 
 // Finds intersections between the Mouse's Pointer and the Electron's Ground State
-function find_intersections_electron_ground_state() {
+function find_intersections_spin_down() {
 
     // Create a Ray with origin at the mouse position
     // and direction into the scene (camera direction)
@@ -1331,7 +1331,7 @@ function find_intersections_electron_ground_state() {
     var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
 
     // Create an array containing all objects in the scene with which the ray intersects
-    var intersects = ray.intersectObjects(particle_spin_up_motion_pivot.children);
+    var intersects = ray.intersectObjects(particle_spin_down_motion_pivot.children);
 
     // SPIN_DOWN_INTERSECTED = the object in the scene currently closest to the camera 
     // and intersected by the Ray projected from the mouse position 	
@@ -1348,6 +1348,190 @@ function find_intersections_electron_ground_state() {
                 SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
 
                 SPIN_DOWN_INTERSECTED.material.color.setHex(0xff2200);
+
+                document.getElementById("object_name").textContent = "";
+
+                for(i = 1; i < particle_spin_down_property_keys.length; i++) {
+
+                    var div_data_info_elem_id = "object_data_info_" + i;
+                    document.getElementById(div_data_info_elem_id).style.display = "none";
+
+                    var span_data_title_elem_id = "object_data_title_" + i;
+                    document.getElementById(span_data_title_elem_id).innerHTML = "";
+                    document.getElementById(span_data_title_elem_id).style.display = "none";
+
+                    var span_data_content_elem_id = "object_data_content_" + i;
+                    document.getElementById(span_data_content_elem_id).innerHTML = "";
+                    document.getElementById(span_data_content_elem_id).style.display = "none";
+
+                }
+
+                for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
+
+                    var div_data_info_elem_id = "object_data_info_" + i;
+                    document.getElementById(div_data_info_elem_id).style.display = "none";
+
+                    var span_data_title_elem_id = "object_data_title_" + i;
+                    document.getElementById(span_data_title_elem_id).innerHTML = "";
+                    document.getElementById(span_data_title_elem_id).style.display = "none";
+
+                    var span_data_content_elem_id = "object_data_content_" + i;
+                    document.getElementById(span_data_content_elem_id).innerHTML = "";
+                    document.getElementById(span_data_content_elem_id).style.display = "none";
+
+                }
+
+            }
+
+            // Store reference to closest object as current intersection object
+            SPIN_DOWN_INTERSECTED = intersects[0].object;
+
+            // Set a new color for closest object
+            SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
+
+            SPIN_DOWN_INTERSECTED.material.color.setHex(0xffff00);
+            
+            
+            if(quantum_state_of_spins == 2) {
+
+                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_down_superposition_property_keys[0]];
+
+                for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
+
+                    var div_data_info_elem_id = "object_data_info_" + i;
+                    document.getElementById(div_data_info_elem_id).style.display = "inline";
+
+                    var span_data_title_elem_id = "object_data_title_" + i;
+                    document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_up_superposition_property_keys[i];
+                    document.getElementById(span_data_title_elem_id).style.display = "inline";
+
+                    var some_object_data_info = (intersects[0].object[ (particle_spin_down_property_keys.length + particle_spin_down_superposition_property_keys)[i] ])[0];
+
+                    var some_object_data_info_keys = Object.keys(some_object_data_info);
+
+                    var current_object_data_info = "";
+
+                    for(j = 0; j < some_object_data_info_keys.length; j++)
+                        current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
+
+                    var span_data_content_elem_id = "object_data_content_" + i;
+                    document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
+                    document.getElementById(span_data_content_elem_id).style.display = "inline";
+
+                }
+
+            }
+            else {
+
+                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_down_property_keys[0]];
+
+                for(i = 1; i < particle_spin_down_property_keys.length; i++) {
+
+                    var div_data_info_elem_id = "object_data_info_" + i;
+                    document.getElementById(div_data_info_elem_id).style.display = "inline";
+
+                    var span_data_title_elem_id = "object_data_title_" + i;
+                    document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_down_property_keys[i];
+                    document.getElementById(span_data_title_elem_id).style.display = "inline";
+
+                    var some_object_data_info = (intersects[0].object[particle_spin_down_property_keys[i]])[0];
+
+                    var some_object_data_info_keys = Object.keys(some_object_data_info);
+
+                    var current_object_data_info = "";
+
+                    for(j = 0; j < some_object_data_info_keys.length; j++)
+                        current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
+
+                    var span_data_content_elem_id = "object_data_content_" + i;
+                    document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
+                    document.getElementById(span_data_content_elem_id).style.display = "inline";
+
+                }
+
+            }
+
+        }
+    } 
+    else { // There are no intersections
+
+        // Restore previous intersection object (if it exists) to its original map's texture
+        if(SPIN_DOWN_INTERSECTED) {
+
+            SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
+
+            SPIN_DOWN_INTERSECTED.material.color.setHex(0xff2200);
+
+            document.getElementById("object_name").textContent = "";
+
+            for(i = 1; i < particle_spin_down_property_keys.length; i++) {
+
+                var div_data_info_elem_id = "object_data_info_" + i;
+                document.getElementById(div_data_info_elem_id).style.display = "none";
+
+                var span_data_title_elem_id = "object_data_title_" + i;
+                document.getElementById(span_data_title_elem_id).innerHTML = "";
+                document.getElementById(span_data_title_elem_id).style.display = "none";
+
+                var span_data_content_elem_id = "object_data_content_" + i;
+                document.getElementById(span_data_content_elem_id).innerHTML = "";
+                document.getElementById(span_data_content_elem_id).style.display = "none";
+
+            }
+
+            for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
+
+                var div_data_info_elem_id = "object_data_info_" + i;
+                document.getElementById(div_data_info_elem_id).style.display = "none";
+
+                var span_data_title_elem_id = "object_data_title_" + i;
+                document.getElementById(span_data_title_elem_id).innerHTML = "";
+                document.getElementById(span_data_title_elem_id).style.display = "none";
+
+                var span_data_content_elem_id = "object_data_content_" + i;
+                document.getElementById(span_data_content_elem_id).innerHTML = "";
+                document.getElementById(span_data_content_elem_id).style.display = "none";
+
+            }
+
+        }
+
+        // Remove previous intersection object reference
+        // by setting current intersection object to "nothing"
+        SPIN_DOWN_INTERSECTED = null;
+
+    }
+
+}
+
+// Finds intersections between the Mouse's Pointer and the Electron's Excited State
+function find_intersections_spin_up() {
+
+    // Create a Ray with origin at the mouse position
+    // and direction into the scene (camera direction)
+    var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
+    projector.unprojectVector(vector, camera);
+
+    var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
+
+    // Create an array containing all objects in the scene with which the ray intersects
+    var intersects = ray.intersectObjects(particle_spin_up_pivot.children);
+
+    // SPIN_UP_INTERSECTED = the object in the scene currently closest to the camera 
+    // and intersected by the Ray projected from the mouse position 	
+
+    // If there is one (or more) intersections
+    if(intersects.length > 0) {
+
+        // If the closest object intersected is not the currently stored intersection object
+        if(intersects[0].object != SPIN_UP_INTERSECTED) {
+
+            // Restores previous intersection object (if it exists) to its original color
+            if(SPIN_UP_INTERSECTED) {
+
+                SPIN_UP_INTERSECTED.material.needsUpdate = true;
+
+                SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
 
                 document.getElementById("object_name").textContent = "";
 
@@ -1380,19 +1564,18 @@ function find_intersections_electron_ground_state() {
                     document.getElementById(span_data_content_elem_id).style.display = "none";
 
                 }
-
             }
 
             // Store reference to closest object as current intersection object
-            SPIN_DOWN_INTERSECTED = intersects[0].object;
+            SPIN_UP_INTERSECTED = intersects[0].object;
 
             // Set a new color for closest object
-            SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
+            SPIN_UP_INTERSECTED.material.needsUpdate = true;
 
-            SPIN_DOWN_INTERSECTED.material.color.setHex(0xffff00);
+            SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
+
             
-            
-            if(quantum_state_of_spins) {
+            if(quantum_state_of_spins == 2) {
 
                 document.getElementById("object_name").textContent = intersects[0].object[particle_spin_up_superposition_property_keys[0]];
 
@@ -1405,7 +1588,7 @@ function find_intersections_electron_ground_state() {
                     document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_up_superposition_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                    var some_object_data_info = (intersects[0].object[ (particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i] ])[0];
+                    var some_object_data_info = (intersects[0].object[(particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i]])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
 
@@ -1452,15 +1635,16 @@ function find_intersections_electron_ground_state() {
             }
 
         }
+
     } 
     else { // There are no intersections
 
         // Restore previous intersection object (if it exists) to its original map's texture
-        if(SPIN_DOWN_INTERSECTED) {
+        if(SPIN_UP_INTERSECTED) {
 
-            SPIN_DOWN_INTERSECTED.material.needsUpdate = true;
+            SPIN_UP_INTERSECTED.material.needsUpdate = true;
 
-            SPIN_DOWN_INTERSECTED.material.color.setHex(0xff2200);
+            SPIN_UP_INTERSECTED.material.color.setHex(0xff2200);
 
             document.getElementById("object_name").textContent = "";
 
@@ -1498,190 +1682,6 @@ function find_intersections_electron_ground_state() {
 
         // Remove previous intersection object reference
         // by setting current intersection object to "nothing"
-        SPIN_DOWN_INTERSECTED = null;
-
-    }
-
-}
-
-// Finds intersections between the Mouse's Pointer and the Electron's Excited State
-function find_intersections_electron_excited_state() {
-
-    // Create a Ray with origin at the mouse position
-    // and direction into the scene (camera direction)
-    var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
-    projector.unprojectVector(vector, camera);
-
-    var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
-
-    // Create an array containing all objects in the scene with which the ray intersects
-    var intersects = ray.intersectObjects(electron_excited_state_particle_pivot.children);
-
-    // SPIN_UP_INTERSECTED = the object in the scene currently closest to the camera 
-    // and intersected by the Ray projected from the mouse position 	
-
-    // If there is one (or more) intersections
-    if(intersects.length > 0) {
-
-        // If the closest object intersected is not the currently stored intersection object
-        if(intersects[0].object != SPIN_UP_INTERSECTED) {
-
-            // Restores previous intersection object (if it exists) to its original color
-            if(SPIN_UP_INTERSECTED) {
-
-                SPIN_UP_INTERSECTED.material.needsUpdate = true;
-
-                SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
-
-                document.getElementById("object_name").textContent = "";
-
-                for(i = 1; i < electron_excited_state_property_keys.length; i++) {
-
-                    var div_data_info_elem_id = "object_data_info_" + i;
-                    document.getElementById(div_data_info_elem_id).style.display = "none";
-
-                    var span_data_title_elem_id = "object_data_title_" + i;
-                    document.getElementById(span_data_title_elem_id).innerHTML = "";
-                    document.getElementById(span_data_title_elem_id).style.display = "none";
-
-                    var span_data_content_elem_id = "object_data_content_" + i;
-                    document.getElementById(span_data_content_elem_id).innerHTML = "";
-                    document.getElementById(span_data_content_elem_id).style.display = "none";
-
-                }
-
-                for(i = 1; i < electron_excited_superposition_property_keys.length; i++) {
-
-                    var div_data_info_elem_id = "object_data_info_" + i;
-                    document.getElementById(div_data_info_elem_id).style.display = "none";
-
-                    var span_data_title_elem_id = "object_data_title_" + i;
-                    document.getElementById(span_data_title_elem_id).innerHTML = "";
-                    document.getElementById(span_data_title_elem_id).style.display = "none";
-
-                    var span_data_content_elem_id = "object_data_content_" + i;
-                    document.getElementById(span_data_content_elem_id).innerHTML = "";
-                    document.getElementById(span_data_content_elem_id).style.display = "none";
-
-                }
-            }
-
-            // Store reference to closest object as current intersection object
-            SPIN_UP_INTERSECTED = intersects[0].object;
-
-            // Set a new color for closest object
-            SPIN_UP_INTERSECTED.material.needsUpdate = true;
-
-            SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
-
-            
-            if(quantum_state_of_spins) {
-
-                document.getElementById("object_name").textContent = intersects[0].object[electron_excited_superposition_property_keys[0]];
-
-                for(i = 1; i < electron_excited_superposition_property_keys.length; i++) {
-
-                    var div_data_info_elem_id = "object_data_info_" + i;
-                    document.getElementById(div_data_info_elem_id).style.display = "inline";
-
-                    var span_data_title_elem_id = "object_data_title_" + i;
-                    document.getElementById(span_data_title_elem_id).innerHTML = electron_excited_superposition_property_keys[i];
-                    document.getElementById(span_data_title_elem_id).style.display = "inline";
-
-                    var some_object_data_info = (intersects[0].object[(electron_excited_state_property_keys.length + electron_excited_superposition_property_keys)[i]])[0];
-
-                    var some_object_data_info_keys = Object.keys(some_object_data_info);
-
-                    var current_object_data_info = "";
-
-                    for(j = 0; j < some_object_data_info_keys.length; j++)
-                        current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
-
-                    var span_data_content_elem_id = "object_data_content_" + i;
-                    document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
-                    document.getElementById(span_data_content_elem_id).style.display = "inline";
-
-                }
-
-            }
-            else {
-
-                document.getElementById("object_name").textContent = intersects[0].object[electron_excited_state_property_keys[0]];
-
-                for(i = 1; i < electron_excited_state_property_keys.length; i++) {
-
-                    var div_data_info_elem_id = "object_data_info_" + i;
-                    document.getElementById(div_data_info_elem_id).style.display = "inline";
-
-                    var span_data_title_elem_id = "object_data_title_" + i;
-                    document.getElementById(span_data_title_elem_id).innerHTML = electron_excited_state_property_keys[i];
-                    document.getElementById(span_data_title_elem_id).style.display = "inline";
-
-                    var some_object_data_info = (intersects[0].object[electron_excited_state_property_keys[i]])[0];
-
-                    var some_object_data_info_keys = Object.keys(some_object_data_info);
-
-                    var current_object_data_info = "";
-
-                    for(j = 0; j < some_object_data_info_keys.length; j++)
-                        current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
-
-                    var span_data_content_elem_id = "object_data_content_" + i;
-                    document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
-                    document.getElementById(span_data_content_elem_id).style.display = "inline";
-
-                }
-
-            }
-
-        }
-
-    } 
-    else { // There are no intersections
-
-        // Restore previous intersection object (if it exists) to its original map's texture
-        if(SPIN_UP_INTERSECTED) {
-
-            SPIN_UP_INTERSECTED.material.needsUpdate = true;
-
-            SPIN_UP_INTERSECTED.material.color.setHex(0xff2200);
-
-            document.getElementById("object_name").textContent = "";
-
-            for(i = 1; i < electron_excited_state_property_keys.length; i++) {
-
-                var div_data_info_elem_id = "object_data_info_" + i;
-                document.getElementById(div_data_info_elem_id).style.display = "none";
-
-                var span_data_title_elem_id = "object_data_title_" + i;
-                document.getElementById(span_data_title_elem_id).innerHTML = "";
-                document.getElementById(span_data_title_elem_id).style.display = "none";
-
-                var span_data_content_elem_id = "object_data_content_" + i;
-                document.getElementById(span_data_content_elem_id).innerHTML = "";
-                document.getElementById(span_data_content_elem_id).style.display = "none";
-
-            }
-
-            for(i = 1; i < electron_excited_superposition_property_keys.length; i++) {
-
-                var div_data_info_elem_id = "object_data_info_" + i;
-                document.getElementById(div_data_info_elem_id).style.display = "none";
-
-                var span_data_title_elem_id = "object_data_title_" + i;
-                document.getElementById(span_data_title_elem_id).innerHTML = "";
-                document.getElementById(span_data_title_elem_id).style.display = "none";
-
-                var span_data_content_elem_id = "object_data_content_" + i;
-                document.getElementById(span_data_content_elem_id).innerHTML = "";
-                document.getElementById(span_data_content_elem_id).style.display = "none";
-
-            }
-
-        }
-
-        // Remove previous intersection object reference
-        // by setting current intersection object to "nothing"
         SPIN_UP_INTERSECTED = null;
 
     }
@@ -1689,36 +1689,31 @@ function find_intersections_electron_excited_state() {
 }
 
 // The Nucleus/Proton and Electron's States' rotation movements
-function particles_rotation_rovements() {
+function particle_rotation_movement() {
     
-    /*var nucleus_proton_rotation_speed = ( motions_factor * 0.0001 * 28 );
-    var particle_spin_up_rotation_speed = ( motions_factor * -0.0002 * 28 );
-    var electron_excited_state_rotation_speed = ( motions_factor * 0.01 * 28 );
-
-    particle_mesh.rotation.y += nucleus_proton_rotation_speed;
-
-    particle_spin_up_arrow_mesh.rotation.y += particle_spin_up_rotation_speed;*/ 
-    //electron_excited_state_mesh.rotation.y += electron_excited_state_rotation_speed; 
+    var particle_rotation_speed = ( motions_factor * 0.0001 * 28 );
+    
+    particle_mesh.rotation.y += particle_rotation_speed;
     
 }
 
 // The Electron's States' translaction movements around the Nucleus/Proton
-function particles_translaction_movements() {
+function particle_spins_translaction_movements() {
 
-    // Creating the quarternion for the Electron's Ground State
-    var quaternion_for_particle_spin_up = new THREE.Quaternion();
-
-    // Setting and applying the quarternion's Y Axis for the Electron's Ground State
-    quaternion_for_particle_spin_up.setFromAxisAngle( y_axis, ( motions_factor * -0.02 ) );
-    particle_spin_up_pivot.applyQuaternion(quaternion_for_particle_spin_up);
-    
-    
     // Creating the quarternion for the Electron's Ground State
     var quaternion_for_particle_spin_down = new THREE.Quaternion();
 
     // Setting and applying the quarternion's Y Axis for the Electron's Ground State
     quaternion_for_particle_spin_down.setFromAxisAngle( y_axis, ( motions_factor * 0.02 ) );
     particle_spin_down_pivot.applyQuaternion(quaternion_for_particle_spin_down);
+    
+    
+    // Creating the quarternion for the Electron's Ground State
+    var quaternion_for_particle_spin_up = new THREE.Quaternion();
+
+    // Setting and applying the quarternion's Y Axis for the Electron's Ground State
+    quaternion_for_particle_spin_up.setFromAxisAngle( y_axis, ( motions_factor * -0.02 ) );
+    particle_spin_up_pivot.applyQuaternion(quaternion_for_particle_spin_up);
     
 }
 
@@ -1729,10 +1724,10 @@ function render() {
     requestAnimationFrame(render);
 
     // The Nucleus/Proton and Electron's States' rotation movements
-    //particles_rotation_rovements();
+    particle_rotation_movement();
 
     // The Electron's States' translaction movements around the Nucleus/Proton
-    particles_translaction_movements();
+    particle_spins_translaction_movements();
 
     // The Rendering Process, in sucessive repeated calls, in loop
     renderer.render(spin_particle_scene, camera);
