@@ -1331,7 +1331,7 @@ function find_intersections_spin_down() {
     var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
 
     // Create an array containing all objects in the scene with which the ray intersects
-    var intersects = ray.intersectObjects(particle_spin_down_arrow_pivot);
+    var intersects = ray.intersectObjects(particle_spin_down_arrow_pivot.children);
     
     // SPIN_DOWN_INTERSECTED = the object in the scene currently closest to the camera 
     // and intersected by the Ray projected from the mouse position 	
@@ -1446,6 +1446,10 @@ function find_intersections_spin_down() {
                     document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_down_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
+                    console.log(intersects[0].object[particle_spin_down_property_keys[i]]);
+                    console.log(intersects[0]);
+                    
+                    
                     var some_object_data_info = (intersects[0].object[particle_spin_down_property_keys[i]])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
