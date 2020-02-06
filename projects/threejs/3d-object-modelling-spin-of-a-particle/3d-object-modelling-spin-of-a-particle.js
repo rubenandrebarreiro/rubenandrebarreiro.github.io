@@ -1406,7 +1406,7 @@ function find_intersections_spin_down() {
             
             if(quantum_state_of_spins == 2) {
 
-                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_down_superposition_property_keys[0]];
+                document.getElementById("object_name").textContent = intersects[0].parent.object[particle_spin_down_superposition_property_keys[0]];
 
                 for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
 
@@ -1417,7 +1417,7 @@ function find_intersections_spin_down() {
                     document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_down_superposition_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                    var some_object_data_info = (intersects[0].object[ (particle_spin_down_property_keys.length + particle_spin_down_superposition_property_keys)[i] ])[0];
+                    var some_object_data_info = (intersects[0].parent.object[ (particle_spin_down_property_keys.length + particle_spin_down_superposition_property_keys)[i] ])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
 
@@ -1435,7 +1435,7 @@ function find_intersections_spin_down() {
             }
             else {
 
-                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_down_property_keys[0]];
+                document.getElementById("object_name").textContent = intersects[0].parent.object[particle_spin_down_property_keys[0]];
 
                 for(i = 1; i < particle_spin_down_property_keys.length; i++) {
 
@@ -1451,7 +1451,7 @@ function find_intersections_spin_down() {
                     console.log(particle_spin_down_property_keys[i]);
                     
                     
-                    var some_object_data_info = (intersects[0].object[particle_spin_down_property_keys[i]])[0];
+                    var some_object_data_info = (intersects[0].parent.object[particle_spin_down_property_keys[i]])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
 
