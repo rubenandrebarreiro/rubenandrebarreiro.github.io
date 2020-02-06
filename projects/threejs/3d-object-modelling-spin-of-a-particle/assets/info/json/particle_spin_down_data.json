@@ -1,0 +1,13 @@
+{
+  "Name": "Spin Down (&#8595;)",
+  "State's Information": [{
+      "No. Possible States/Outcomes": "1 (Classical State)",
+      "Probabilities for States/Outcomes": "{ |&#8595;⟩ = 1.00 (100&#37;) , |&#8593;⟩ = 0.00 (0&#37;) }",
+      "Quantum Number/Energy Level": "0",
+      "Ket's Notation": "|&#8595;⟩"
+  }],
+  "Spin's Information": [{
+      "Spin Direction": "Down (&#8595;)",
+      "Spin's Orientation": "Counter Clockwise (C.C.W.)"
+  }]
+}

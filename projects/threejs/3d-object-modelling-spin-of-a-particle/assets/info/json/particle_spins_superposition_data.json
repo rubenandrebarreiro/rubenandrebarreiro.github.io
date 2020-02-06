@@ -1,0 +1,13 @@
+{
+  "Name": "Quantum Superposition of Spins (&#8597;)",
+  "State's Information": [{
+      "No. Possible States/Outcomes": "2 (Quantum State)",
+      "Probabilities for States/Outcomes": "{ |&#8595;⟩ = 0.50 (50&#37;) , |&#8593;⟩ = 0.50 (50&#37;) }",
+      "Quantum Number/Energy Level": "<sup>1</sup>&frasl;<sub>&#8730;2</sub>|&#8595;⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|&#8593;⟩",
+      "Ket's Notation": "|&#8597;⟩ = <sup>1</sup>&frasl;<sub>&#8730;2</sub>|&#8595;⟩ + <sup>1</sup>&frasl;<sub>&#8730;2</sub>|&#8593;⟩"
+  }],
+  "Spin's Information": [{
+      "Spin Direction": "Both Up and Down (&#8593; and &#8595;)",
+      "Spin's Orientation": "Uncertain Spin's Orientation - Horizontal Basis ( Hadamard - |+i⟩ )"
+  }]
+}

@@ -1,0 +1,197 @@
+<!-- LEARNING QUANTUM COMPUTING (ONLINE WEB COURSE) -->
+<!-- SPIN OF A PARTICLE -->
+
+<!-- AUTHOR: -->
+<!-- - RUBEN ANDRE BARREIRO -->
+
+<!-- © COPYRIGHTS - ALL RIGHTS RESERVED -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"
+    />
+    <link rel="stylesheet" type="text/css" href="3d-object-modelling-spin-of-a-particle.css">
+    <title>3D Object Modelling - Spin of a Particle</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Rúben André Barreiro" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
+    />
+  </head>
+
+  <body>
+      
+    <div id="intro">
+      <h1>3D Object Modelling - Spin of a Particle</h1>
+      <h4><span style="color: #ff0060">with</span> <span style="color: darkorange">Trackball Controls</span></h4>
+      <br />
+      <span style="color: #ff0060">
+        Made with
+        <a href="http://threejs.org" target="_blank" rel="noopener">three.js</a>
+        by
+        <a
+          href="https://rubenandrebarreiro.github.io/"
+          target="_blank"
+          rel="noopener"
+        >
+          Rúben André Barreiro</a
+        ></span
+      >
+    </div>
+
+    <div id="info"> 
+      <span id="object_name"></span>
+
+      <div id="object_data_info_1">
+        <br />
+        <br />
+        <br />
+        <span id="object_data_title_1"></span>
+        <br />
+        <span id="object_data_content_1"></span>
+      </div>
+
+      <div id="object_data_info_2">
+        <br />
+        <br />
+        <span id="object_data_title_2"></span>
+        <br />
+        <span id="object_data_content_2"></span>
+      </div>
+
+      <div id="object_data_info_3">
+        <br />
+        <br />
+        <span id="object_data_title_3"></span>
+        <br />
+        <span id="object_data_content_3"></span>
+      </div>
+
+      <div id="object_data_info_4">
+        <br />
+        <br />
+        <span id="object_data_title_4"></span>
+        <br />
+        <span id="object_data_content_4"></span>
+      </div>
+    </div>
+
+    <div id="options_and_settings">
+      <h2>Options/Settings:</h2>
+      
+      <h3>Motions:</h3>
+      <div id="motions_settings">
+                
+          <span style="color: #ffffff">Rotations'/Translations' Movements</span>
+
+          <br/>
+
+          <input type="radio" name="motions_radios" value="play_motions" checked='true'>
+          Play &nbsp;&nbsp;
+          <input
+            type="radio"
+            name="motions_radios"
+            value="stop_motions"
+          />
+          Stop
+          
+      </div>
+      
+      <br />
+        
+      <h3>Show and display:</h3>
+      <div id="show_and_display_settings">
+                
+        <span style="color: #ffffff">Camera View</span>
+
+        <br/>
+
+        <input type="radio" name="camera_view_radios" value="top_view" checked='true'>
+        Top &nbsp;&nbsp;
+        <input
+          type="radio"
+          name="camera_view_radios"
+          value="perspective_view"
+        />
+        Perspective
+
+        <br />
+        <br />
+
+        <span style="color: #ffffff">Show</span>
+
+        <br/>
+
+        <input
+          type="checkbox"
+          id="show_xz_grid"
+        />
+        XZ Grid &nbsp;&nbsp;
+        <input
+          type="checkbox"
+          id="show_particle_spins_motions"
+          checked
+        />
+        Particle's Spins' Motions
+          
+      </div>
+
+      <br />
+
+      <h3>Specific options:</h3>
+      <div id="specific_options">
+                
+        <span style="color: #ffffff">Quantum States of the Particle's Spin</span>
+
+        <hr style="height:1pt; visibility:hidden;" />  
+        
+        <input type="radio" name="particle_spins_radios" value="spin_down" />
+        Spin Down (&#8595;) &nbsp;&nbsp;
+        <input
+          type="radio"
+          name="particle_spins_radios"
+          value="spin_up"
+          checked = true
+        />
+        Spin Up (&#8593;)
+        <br />
+        <input
+          type="radio"
+          name="particle_spins_radios"
+          value="superposition"
+        />
+        Quantum Superposition of Spins
+        <br />
+        &nbsp;&nbsp;&nbsp;[ <sup>1</sup>&frasl;<sub>&#8730;2</sub>|&#8595;⟩ +
+        <sup>1</sup>&frasl;<sub>&#8730;2</sub>|&#8593;⟩ ]
+        <br/>
+        <br/>
+      </div>
+    </div>
+      
+    <div id="copyrights">
+      <h3>Copyrights:</h3>
+        
+        <span style="color: darkorange">Learning Quantum Computing (Online Web Course)</span>
+        <br />
+        <span style="color: #ffffff">&#x24B8; R&uacute;ben Andr&eacute; Barreiro - All Rights Reserved</span>
+    </div>
+
+    <script src="../common/build/three.js"></script>
+    <script src="../common/js/controls/TrackballControls.js"></script>
+    <script src="../common/js/WebGL.js"></script>
+    <script src="../common/js/Detector.js"></script>
+    <script src="../common/js/renderers/Projector.js"></script>
+    <script src="../common/js/libs/stats.min.js"></script>
+
+    <hr style="height:30pt; visibility:hidden;" />
+
+    <script src="3d-object-modelling-spin-of-a-particle.js"></script>
+      
+  </body>
+</html>
