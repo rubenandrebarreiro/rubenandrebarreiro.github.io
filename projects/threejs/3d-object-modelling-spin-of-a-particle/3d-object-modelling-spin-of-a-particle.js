@@ -1546,10 +1546,12 @@ function find_intersections_spin_up() {
 
             // Restores previous intersection object (if it exists) to its original color
             if(SPIN_UP_INTERSECTED) {
+                
+                particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
+                particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
 
-                SPIN_UP_INTERSECTED.material.needsUpdate = true;
-
-                SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
+                particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xffff00);
+                particle_spin_down_arrow_cone_mesh.material.color.setHex(0xffff00);
 
                 document.getElementById("object_name").innerHTML = "";
 
@@ -1588,9 +1590,11 @@ function find_intersections_spin_up() {
             SPIN_UP_INTERSECTED = intersects[0].object;
 
             // Set a new color for closest object
-            SPIN_UP_INTERSECTED.material.needsUpdate = true;
-
-            SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
+            particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
+            particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
+            
+            particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xffff00);
+            particle_spin_down_arrow_cone_mesh.material.color.setHex(0xffff00);
 
             
             if(quantum_state_of_spins == 2) {
@@ -1659,10 +1663,12 @@ function find_intersections_spin_up() {
 
         // Restore previous intersection object (if it exists) to its original map's texture
         if(SPIN_UP_INTERSECTED) {
-
-            SPIN_UP_INTERSECTED.material.needsUpdate = true;
-
-            SPIN_UP_INTERSECTED.material.color.setHex(0xff2200);
+            
+            particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
+            particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
+            
+            particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
+            particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
 
             document.getElementById("object_name").innerHTML = "";
 
