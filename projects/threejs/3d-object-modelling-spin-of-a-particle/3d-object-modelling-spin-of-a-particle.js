@@ -1168,12 +1168,30 @@ function animate() {
     // Finds intersections between the Mouse's Pointer and the Nucleus/Proton
     find_intersections_particle();
 
-    // Finds intersections between the Mouse's Pointer and the Electron's Ground State
-    find_intersections_spin_down();
+    if(quantum_state_of_spins == 0) {
+        
+        // Finds intersections between the Mouse's Pointer and the Electron's Ground State
+        find_intersections_spin_down();
+    
+    }
+    
+    if(quantum_state_of_spins == 1) {
+        
+        // Finds intersections between the Mouse's Pointer and the Electron's Excited State
+        //find_intersections_spin_up();
+        
+    }
+    
+    if(quantum_state_of_spins == 2) {
+        
+        // Finds intersections between the Mouse's Pointer and the Electron's Excited State
+        //find_intersections_spin_down();
+        
+        // Finds intersections between the Mouse's Pointer and the Electron's Excited State
+        //find_intersections_spin_up();
 
-    // Finds intersections between the Mouse's Pointer and the Electron's Excited State
-    //find_intersections_spin_up();
-
+    }
+    
     // Updates the Trackball Controls
     controls.update();
 
