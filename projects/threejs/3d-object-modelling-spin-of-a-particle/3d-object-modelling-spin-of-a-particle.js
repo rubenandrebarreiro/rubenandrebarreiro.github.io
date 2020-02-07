@@ -512,9 +512,6 @@ function create_particle_spin_down_motion() {
     // Adds the Mesh of the Electron's Ground State
     // the group for the Electron's Ground State Particle's Pivot
     particle_spin_down_motion_pivot.add(particle_spin_down_orbit_cone_mesh);
-    
-    
-    //particle_spin_down_motion_pivot.position.y = -0.25;
 
 }
 
@@ -707,9 +704,6 @@ function create_particle_spin_up_motion() {
     // Adds the Mesh of the Electron's Ground State
     // the group for the Electron's Ground State Particle's Pivot
     particle_spin_up_motion_pivot.add(particle_spin_up_orbit_cone_mesh);
-    
-    
-    //particle_spin_up_motion_pivot.position.y = 0.25;
 
 }
 
@@ -1178,17 +1172,17 @@ function animate() {
     if(quantum_state_of_spins == 1) {
         
         // Finds intersections between the Mouse's Pointer and the Electron's Excited State
-        //find_intersections_spin_up();
+        find_intersections_spin_up();
         
     }
     
     if(quantum_state_of_spins == 2) {
         
         // Finds intersections between the Mouse's Pointer and the Electron's Excited State
-        //find_intersections_spin_down();
+        find_intersections_spin_down();
         
         // Finds intersections between the Mouse's Pointer and the Electron's Excited State
-        //find_intersections_spin_up();
+        find_intersections_spin_up();
 
     }
     
@@ -1416,7 +1410,7 @@ function find_intersections_spin_down() {
             
             if(quantum_state_of_spins == 2) {
 
-                document.getElementById("object_name").innerHTML = intersects[0].object[particle_spin_down_superposition_property_keys[0]];
+                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_down_superposition_property_keys[0]];
 
                 for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
 
@@ -1427,7 +1421,7 @@ function find_intersections_spin_down() {
                     document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_down_superposition_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                    var some_object_data_info = (intersects[0].object[ (particle_spin_down_property_keys.length + particle_spin_down_superposition_property_keys)[i] ])[0];
+                    var some_object_data_info = (intersects[0].object.parent[ (particle_spin_down_property_keys.length + particle_spin_down_superposition_property_keys)[i] ])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
 
@@ -1539,7 +1533,7 @@ function find_intersections_spin_up() {
     var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
 
     // Create an array containing all objects in the scene with which the ray intersects
-    var intersects = ray.intersectObjects(particle_spin_up_pivot.children);
+    var intersects = ray.intersectObjects(particle_spin_up_pivot_arrow.children);
 
     // SPIN_UP_INTERSECTED = the object in the scene currently closest to the camera 
     // and intersected by the Ray projected from the mouse position 	
@@ -1557,7 +1551,7 @@ function find_intersections_spin_up() {
 
                 SPIN_UP_INTERSECTED.material.color.setHex(0xffff00);
 
-                document.getElementById("object_name").textContent = "";
+                document.getElementById("object_name").innerHTML = "";
 
                 for(i = 1; i < particle_spin_up_property_keys.length; i++) {
 
@@ -1601,7 +1595,7 @@ function find_intersections_spin_up() {
             
             if(quantum_state_of_spins == 2) {
 
-                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_up_superposition_property_keys[0]];
+                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_up_superposition_property_keys[0]];
 
                 for(i = 1; i < particle_spin_up_superposition_property_keys.length; i++) {
 
@@ -1612,7 +1606,7 @@ function find_intersections_spin_up() {
                     document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_up_superposition_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                    var some_object_data_info = (intersects[0].object[(particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i]])[0];
+                    var some_object_data_info = (intersects[0].object.parent[(particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i]])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
 
@@ -1630,7 +1624,7 @@ function find_intersections_spin_up() {
             }
             else {
 
-                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_up_property_keys[0]];
+                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_up_property_keys[0]];
 
                 for(i = 1; i < particle_spin_up_property_keys.length; i++) {
 
@@ -1641,7 +1635,7 @@ function find_intersections_spin_up() {
                     document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_up_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
 
-                    var some_object_data_info = (intersects[0].object[particle_spin_up_property_keys[i]])[0];
+                    var some_object_data_info = (intersects[0].object.parent[particle_spin_up_property_keys[i]])[0];
 
                     var some_object_data_info_keys = Object.keys(some_object_data_info);
 
@@ -1670,7 +1664,7 @@ function find_intersections_spin_up() {
 
             SPIN_UP_INTERSECTED.material.color.setHex(0xff2200);
 
-            document.getElementById("object_name").textContent = "";
+            document.getElementById("object_name").innerHTML = "";
 
             for(i = 1; i < particle_spin_up_property_keys.length; i++) {
 
