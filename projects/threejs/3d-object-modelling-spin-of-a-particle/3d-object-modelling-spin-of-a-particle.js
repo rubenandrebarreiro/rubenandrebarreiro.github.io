@@ -1410,7 +1410,7 @@ function find_intersections_spin_down() {
             
             if(quantum_state_of_spins == 2) {
 
-                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_down_property_keys.length[0]];
+                document.getElementById("object_name").innerHTML = intersects[0].object.parent[(particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[0]])[0];
 
                 for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
 
@@ -1599,7 +1599,11 @@ function find_intersections_spin_up() {
             
             if(quantum_state_of_spins == 2) {
 
-                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_up_property_keys.length[0]];
+                console.log(particle_spin_up_property_keys);
+                console.log(particle_spin_up_property_keys.length);
+                console.log(intersects[0].object.parent);
+                
+                document.getElementById("object_name").innerHTML = intersects[0].object.parent[(particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[0]])[0];
 
                 for(i = 1; i < particle_spin_up_superposition_property_keys.length; i++) {
 
