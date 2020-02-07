@@ -1533,7 +1533,7 @@ function find_intersections_spin_up() {
     var ray = new THREE.Raycaster(camera.position, vector.sub(camera.position).normalize());
 
     // Create an array containing all objects in the scene with which the ray intersects
-    var intersects = ray.intersectObjects(particle_spin_up_pivot_arrow.children);
+    var intersects = ray.intersectObjects(particle_spin_up_arrow_pivot.children);
 
     // SPIN_UP_INTERSECTED = the object in the scene currently closest to the camera 
     // and intersected by the Ray projected from the mouse position 	
