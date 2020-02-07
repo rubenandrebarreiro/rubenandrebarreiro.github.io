@@ -29,7 +29,7 @@ const xz_grid = new THREE.GridHelper(8, 8, new THREE.Color(0xff0000), new THREE.
 // Global Instance Variables:
 
 // The Camera, the Trackball Controls (Mouse's/TouchPad's Pointer Controls),
-// the Scene (Bohr's Atom Model),
+// the Scene (Spin of a Particle),
 // the Renderer of the Scene and
 // the Stats (Statistics of the Rendering Process)
 var camera, controls, spin_particle_scene, renderer, stats;
@@ -37,62 +37,57 @@ var camera, controls, spin_particle_scene, renderer, stats;
 // The Coordinates of the Projector and Mouse's/TouchPad's Pointer
 var projector, mouse = { x: window.innerHeight, y: window.innerWidth };
 
-// The Intersection of Elements of the Scene (Bohr's Atom Model)
-// (The Particles, i.e., the Nucleus/Proton and the Electron in Ground/Excited States)
+// The Intersection of Elements of the Scene (Spin of a Particle Scene)
+// (The Particle and its Spins, i.e., the Particle's Spin Down/Up)
 var PARTICLE_INTERSECTED, SPIN_DOWN_INTERSECTED, SPIN_UP_INTERSECTED;
 
-// Nucleus/Proton's Elements
-// (The Particle, i.e., the Proton)
+// The Particle's Elements
 var particle_geometry, particle_material, particle_mesh, particle_property_keys, particle_pivot;
 
 
-// The Electron's Ground State's Elements
-// (The Particle, i.e., the Electron's Ground State and its Orbit)
-var particle_spin_up_orbit_ring_geometry, particle_spin_up_orbit_ring_material, particle_spin_up_orbit_ring_mesh;
-
-
-var particle_spin_up_orbit_cone_geometry, particle_spin_up_orbit_cone_material, particle_spin_up_orbit_cone_mesh;
-
-
-var particle_spin_up_arrow_cylinder_geometry, particle_spin_up_arrow_cylinder_material, particle_spin_up_arrow_cylinder_mesh;
-
-
-var particle_spin_up_arrow_cone_geometry, particle_spin_up_arrow_cone_material, particle_spin_up_arrow_cone_mesh;
-
-
-var particle_spin_up_property_keys, particle_spin_up_superposition_property_keys, particle_spin_up_pivot;
-
-
-var particle_spin_up_motion_pivot, particle_spin_up_arrow_pivot, particle_spin_up_pivot;
-
-
-
-// The Electron's Ground State's Elements
-// (The Particle, i.e., the Electron's Ground State and its Orbit)
+// The Particle's Spin Down's Orbit's Ring Elements
 var particle_spin_down_orbit_ring_geometry, particle_spin_down_orbit_ring_material, particle_spin_down_orbit_ring_mesh;
 
-
+// The Particle's Spin Down's Orbit's Cone Elements
 var particle_spin_down_orbit_cone_geometry, particle_spin_down_orbit_cone_material, particle_spin_down_orbit_cone_mesh;
 
-
+// The Particle's Spin Down's Arrow's Cylinder Elements
 var particle_spin_down_arrow_cylinder_geometry, particle_spin_down_arrow_cylinder_material, particle_spin_down_arrow_cylinder_mesh;
 
-
+// The Particle's Spin Down's Arrow's Cone Elements
 var particle_spin_down_arrow_cone_geometry, particle_spin_down_arrow_cone_material, particle_spin_down_arrow_cone_mesh;
 
-
+// The Particle's Spin Down's Property Keys
 var particle_spin_down_property_keys, particle_spin_down_superposition_property_keys, particle_spin_down_pivot;
 
-
+// The Particle's Spin Down's Pivots
 var particle_spin_down_motion_pivot, particle_spin_down_arrow_pivot, particle_spin_down_pivot;
 
 
+// The Particle's Spin Up's Orbit's Ring Elements
+var particle_spin_up_orbit_ring_geometry, particle_spin_up_orbit_ring_material, particle_spin_up_orbit_ring_mesh;
+
+// The Particle's Spin Up's Orbit's Cone Elements
+var particle_spin_up_orbit_cone_geometry, particle_spin_up_orbit_cone_material, particle_spin_up_orbit_cone_mesh;
+
+// The Particle's Spin Up's Arrow's Cylinder Elements
+var particle_spin_up_arrow_cylinder_geometry, particle_spin_up_arrow_cylinder_material, particle_spin_up_arrow_cylinder_mesh;
+
+// The Particle's Spin Up's Arrow's Cone Elements
+var particle_spin_up_arrow_cone_geometry, particle_spin_up_arrow_cone_material, particle_spin_up_arrow_cone_mesh;
+
+// The Particle's Spin Up's Property Keys
+var particle_spin_up_property_keys, particle_spin_up_superposition_property_keys, particle_spin_up_pivot;
+
+// The Particle's Spin Up's Pivots
+var particle_spin_up_motion_pivot, particle_spin_up_arrow_pivot, particle_spin_up_pivot;
+
 
 // The Form's Controls/Elements - Radios and Checkboxes for
-// controlling some aspects of the Scene (Bohr's Atom Model)
+// controlling some aspects of the Scene (Spin of a Particle Scene)
 var motions_radios, camera_view_radios, xz_grid_checked, spins_motions_checked, particle_spins_radios;
 
-// The Motions' Factor for the Nucleus/Proton and Electron's States'
+// The Motions' Factor for the Particle and Spin's States'
 // rotations' and translactions' movements
 var motions_factor;
 
@@ -100,8 +95,8 @@ var motions_factor;
 // the Particle's Spins' Motions are displaying or not
 var is_showing_particle_spins_motions;
 
-// The boolean value to keep the information about if
-// the Electron is in a Quantum Superposition of States
+// The integer value to keep the information about
+// the Quantum State of the Particle and its current Spin
 var quantum_state_of_spins;
 
 
@@ -112,7 +107,7 @@ animate();
 
 // The callbacks for load JSONs files:
 
-// Loads the Nucleus/Proton's JSON file
+// Loads the Particle's JSON file
 function load_particle_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -134,7 +129,7 @@ function load_particle_json(callback) {
     obj.send(null);  
 }
 
-// Loads the Electron's Ground State's JSON file
+// Loads the Particle's Spin Down's JSON file
 function load_particle_spin_down_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -156,7 +151,7 @@ function load_particle_spin_down_json(callback) {
     obj.send(null);  
 }
 
-// Loads the Electron's Excited State's JSON file
+// Loads the Particle's Spin Up's JSON file
 function load_particle_spin_up_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -178,7 +173,7 @@ function load_particle_spin_up_json(callback) {
     obj.send(null);  
 }
 
-// Loads the Electron's Quantum Superposition of States' JSON file
+// Loads the Particle's Quantum Superposition of Spins' JSON file
 function load_particle_spins_superposition_json(callback) {   
 
     var obj = new XMLHttpRequest();
@@ -203,7 +198,7 @@ function load_particle_spins_superposition_json(callback) {
 // The Initiation Process Method
 function init() {
 
-    // The Motions' Factor for the Nucleus/Proton and Electron's States'
+    // The Motions' Factor for the Particle and its Spins' States'
     // rotations' and translactions' movements
     motions_factor = 1.0;
     
@@ -230,21 +225,21 @@ function init() {
     // Sets the Events' Listeners
     set_event_listeners();
 
-    // Creates the Scene (Bohr's Atom Model)
+    // Creates the Scene (Spin of a Particle Scene)
     spin_particle_scene = new THREE.Scene();
 
 
-    // Adds the Elements of the Scene (Bohr's Atom Model):
-    // - The Nucleus/Proton;
-    // - The Electron's Ground State and its Orbit;
-    // - The Electron's Excited State and its Orbit;
+    // Adds the Elements of the Scene (Spin of a Particle):
+    // - The Particle;
+    // - The Spin Down and its orbit;
+    // - The Spin Up and its orbit;
     add_elements_to_scene();
 
     // Adds the Lights (Directional and Ambient Lights) to
-    // the Scene (Bohr's Atom Model)
+    // the Scene (Spin of a Particle Scene)
     add_lights_to_scene();
 
-    // Creates the renderer for the Scene (Bohr's Atom Model)
+    // Creates the renderer for the Scene (Spin of a Particle Scene)
     create_renderer_of_scene();
 
     // Adds the Stats (Statistics for the Rendering Process)
@@ -309,7 +304,7 @@ function set_event_listeners() {
     // Gets the Camera View's Radio options
     camera_view_radios = document.getElementsByName("camera_view_radios");
 
-    // Gets the Electron State's Radio options
+    // Gets the Particle's Spins State's Radio options
     particle_spins_radios = document.getElementsByName("particle_spins_radios");
 
     // When the Motions' Radio change, calls the given function
@@ -318,10 +313,10 @@ function set_event_listeners() {
     // When the Camera View's Radio change, calls the given function
     document.addEventListener('onchange', on_change_camera_view);
 
-    // When the Electron State's Radio change, calls the given function
+    // When the Particle's Spins State's Radio change, calls the given function
     document.addEventListener('onchange', on_change_particle_spins);
 
-    // When any change occurs in the Scene (Bohr's Atom Model),
+    // When any change occurs in the Scene (Spin of a Particle Scene),
     // calls the given function
     controls.addEventListener('change', render);
 
@@ -333,8 +328,8 @@ function set_event_listeners() {
 
 }
 
-// Adds the Elements (Nucleus/Proton and the Electron's Ground/Excited State) to
-// the Scene (Bohr's Atom Model Scene)
+// Adds the Elements (Particle and the Spin Down/Up State) to
+// the Scene (Spin of a Particle Scene)
 function add_elements_to_scene() {
     
     add_particle_to_scene();
@@ -343,128 +338,128 @@ function add_elements_to_scene() {
     
 }
 
-// Adds the Nucleus/Proton to the Scene (Bohr's Atom Model Scene)
+// Adds the Particle to the Scene (Spin of a Particle Scene)
 function add_particle_to_scene() {
 
     // Creates the Geometry of the Sphere representing
-    // the Nucleus/Proton
+    // the Particle
     particle_geometry = new THREE.SphereGeometry(0.6, 40, 40);
 
     // Creates the Material of the Sphere representing
-    // the Nucleus/Proton
+    // the Particle
     particle_material = new THREE.MeshBasicMaterial(
         {
             color: 0xdda0dd
         }
     );
 
-    // Creates the Mesh of the Nucleus/Proton
+    // Creates the Mesh of the Particle
     particle_mesh = new THREE.Mesh(particle_geometry, particle_material);
 
-    // Loads the JSON data file of the Nucleus/Proton Element
+    // Loads the JSON data file of the Particle Element
     load_particle_json(function(response) {
 
-        // Parses Nucleus'/Proton's JSON string into object
+        // Parses Particle's JSON string into object
         var particle_data_json = JSON.parse(response);
 
         // Loads the Property Keys' data of
-        // the JSON data file of the Nucleus/Proton Element
+        // the JSON data file of the Particle Element
         particle_property_keys = Object.keys(particle_data_json);
 
         // Binds the Property Keys' data of
-        // the JSON data file of the Nucleus/Proton Element to
-        // the Mesh of the Nucleus/Proton
+        // the JSON data file of the Particle Element to
+        // the Mesh of the Particle
         for(i = 0; i < particle_property_keys.length; i++)
             particle_mesh[particle_property_keys[i]] = particle_data_json[particle_property_keys[i]];
     });
 
-    // Creates the group for the Nucleus'/Proton's Pivot
+    // Creates the group for the Particle's Pivot
     particle_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Nucleus/Proton
-    // the group for the Nucleus'/Proton' Pivot
+    // Adds the Mesh of the Particle
+    // the group for the Particle's Pivot
     particle_pivot.add(particle_mesh);
 
-    // Adds the group for the Nucleus'/Proton' Pivot to
-    // the Scene (Bohr's Atom Model) 
+    // Adds the group for the Particle's Pivot to
+    // the Scene (Spin of a Particle Scene) 
     spin_particle_scene.add(particle_pivot);
 
 }
 
 
-// Adds the Electron's Ground State to the Scene (Bohr's Atom Model Scene)
+// Adds the Particle's Spin Down to the Scene (Spin of a Particle Scene)
 function add_particle_spin_down_to_scene() {
 
-    // Creates the Electron's Ground State's Orbit
+    // Creates the Particle's Spin Down State's Motion
     create_particle_spin_down_motion();
 
-    // Creates the Electron's Ground State
+    // Creates the Particle's Spin Down State's Arrow
     create_particle_spin_down_arrow();
 
 
-    // Loads the JSON data file of the Electron's Ground State Element
+    // Loads the JSON data file of the Particle's Spin Down State Element
     load_particle_spin_down_json(function(response) {
 
-        // Parses Electron's Ground State's JSON string into object
+        // Parses Particle's Spin Down State's JSON string into object
         var particle_spin_down_data_json = JSON.parse(response);
 
         // Loads the Property Keys' data of
-        // the JSON data file of the Electron's Ground State Element
+        // the JSON data file of the Particle's Spin Down State's Element
         particle_spin_down_property_keys = Object.keys(particle_spin_down_data_json);
 
         // Binds the Property Keys' data of
-        // the JSON data file of the Electron's Ground State Element to
-        // the Mesh of the Electron's Ground State
+        // the JSON data file of the Particle's Spin Down State's Element to
+        // the Mesh of the Particle's Spin Down State
         for(i = 0; i < particle_spin_down_property_keys.length; i++)
             particle_spin_down_arrow_pivot[particle_spin_down_property_keys[i]] = particle_spin_down_data_json[particle_spin_down_property_keys[i]];
 
     });
 
 
-    // Loads the JSON data file of the Electron's Quantum Superposition of States Element
+    // Loads the JSON data file of the Particle's Quantum Superposition of Spins' States' Element
     load_particle_spins_superposition_json(function(response) {
 
-        // Parses Electron's Quantum Superposition of States' JSON string into object
+        // Parses Particle's Quantum Superposition of Spins' States' JSON string into object
         var particle_spin_down_superposition_data_json = JSON.parse(response);
 
         // Loads the Property Keys' data of
-        // the JSON data file of the Electron's Quantum Superposition of States Element
+        // the JSON data file of the Particle's Quantum Superposition of Spins' States' Element
         particle_spin_down_superposition_property_keys = Object.keys(particle_spin_down_superposition_data_json);
 
         // Binds the Property Keys' data of
-        // the JSON data file of the Electron's Quantum Superposition of States Element to
-        // the Mesh of the Electron's Ground State
+        // the JSON data file of the Particle's Quantum Superposition of Spins' States' Element to
+        // the Mesh of the Particle's Spin Down State
         for(i = 0; i < particle_spin_down_superposition_property_keys.length; i++)
             particle_spin_down_arrow_pivot[ (particle_spin_down_property_keys.length + particle_spin_down_superposition_property_keys)[i] ] = particle_spin_down_superposition_data_json[particle_spin_down_superposition_property_keys[i]];
 
     });
 
-    // Creates the group for the Electron's Ground State's Pivot
+    // Creates the group for the Particle's Spin Down State's Pivot
     particle_spin_down_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Electron's Ground State to
-    // the group for the Electron's Ground State's Pivot
+    // Adds the Mesh of the Particle's Spin Down State's Motion's Pivot to
+    // the group for the Particle's Spin Down State's Pivot
     particle_spin_down_pivot.add(particle_spin_down_motion_pivot);
 
-    // Adds the Mesh of the Electron's Ground State Particle's Pivot to
-    // the group for the Electron's Ground State's Pivot
+    // Adds the Mesh of the Particle's Spin Down State's Arrow's Pivot to
+    // the group for the Particle's Spin Down State's Pivot
     particle_spin_down_pivot.add(particle_spin_down_arrow_pivot);
     
-    // Adds the group for the Electron's Ground State Pivot to
-    // the Scene (Bohr's Atom Model) 
+    // Adds the group for the Particle's Spin Down State's Pivot to
+    // the Scene (Spin of a Particle Scene) 
     spin_particle_scene.add(particle_spin_down_pivot);
 
 }
 
-// Creates the Electron's Ground State's Orbit
+// Creates the Particle's Spin Down State's Orbit
 function create_particle_spin_down_motion() {
 
     // Creates the Geometry of the Ring representing
-    // the Electron's Ground State's Orbit
-    particle_spin_down_orbit_ring_geometry = new THREE.RingGeometry(2.5, 2.52, 60);
+    // the Particle's Spin Down State's Orbit
+    particle_spin_down_orbit_ring_geometry = new THREE.RingGeometry(1.5, 2.52, 60);
 
     // Creates the Material of the Ring representing
-    // the Electron's Ground State's Orbit
+    // the Particle's Spin Down State's Orbit
     particle_spin_down_orbit_ring_material = new THREE.MeshBasicMaterial(
         {
             color: 0xffffff,
@@ -475,20 +470,20 @@ function create_particle_spin_down_motion() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State's Orbit
+    // Creates the Mesh of the Particle's Spin Down State's Orbit's Ring
     particle_spin_down_orbit_ring_mesh = new THREE.Mesh(particle_spin_down_orbit_ring_geometry, particle_spin_down_orbit_ring_material);
 
-    // Rotates the Electron's Ground State's Orbit PI/2
+    // Rotates the Particle's Spin Down State's Orbit PI/2
     // (i.e., 90º degrees), regarding the X Axis
     particle_spin_down_orbit_ring_mesh.rotation.x = Math.PI / 2;
     
     
-    // Creates the Geometry of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Geometry of the Cone representing
+    // the Particle's Spin Down State's Orbit
     particle_spin_down_orbit_cone_geometry = new THREE.ConeGeometry( 0.2, 0.2, 40 );
 
-    // Creates the Material of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Material of the Cone representing
+    // the Particle's Spin Down State's orbit
     particle_spin_down_orbit_cone_material = new THREE.MeshBasicMaterial(
         {
             color: 0xffffff,
@@ -498,40 +493,40 @@ function create_particle_spin_down_motion() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State
+    // Creates the Mesh of the Particle's Spin Down State's Orbit's Cone
     particle_spin_down_orbit_cone_mesh = new THREE.Mesh(particle_spin_down_orbit_cone_geometry, particle_spin_down_orbit_cone_material);            
     
-    // Translates/Moves the Electron's Ground State
-    // -2.51 units, regarding the Z Axis
+    // Rotates the Particle's Spin Down State's Orbit PI/2
+    // (i.e., 90º degrees), regarding the Z Axis
     particle_spin_down_orbit_cone_mesh.rotation.z += Math.PI / 2;
     
-    // Translates/Moves the Electron's Ground State
-    // -2.51 units, regarding the Z Axis
-    particle_spin_down_orbit_cone_mesh.position.z = -2.51;
+    // Translates/Moves the Particle's Spin Down State's Orbit
+    // -1.51 units, regarding the Z Axis
+    particle_spin_down_orbit_cone_mesh.position.z = -1.51;
     
     
-    // Creates the group for the Electron's Ground State Particle's Pivot
+    // Creates the group for the Particle's Spin Down State's Motion Pivot
     particle_spin_down_motion_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Down State
+    // the group for the Particle's Spin Down State's Orbit Pivot
     particle_spin_down_motion_pivot.add(particle_spin_down_orbit_ring_mesh);
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Down State
+    // the group for the Particle's Spin Down State's Orbit Pivot
     particle_spin_down_motion_pivot.add(particle_spin_down_orbit_cone_mesh);
 
 }
 
-// Creates the Electron's Ground State
+// Creates the Particle's Spin Down State's Arrow
 function create_particle_spin_down_arrow() {
 
-    // Creates the Geometry of the Ring representing
-    // the Electron's Ground State's Orbit
+    // Creates the Geometry of the Cylinder representing
+    // the Particle's Spin Down State's Arrow
     particle_spin_down_arrow_cylinder_geometry = new THREE.CylinderGeometry( 0.2, 0.2, 3.5, 32 );
 
-    // Creates the Material of the Ring representing
-    // the Electron's Ground State's Orbit
+    // Creates the Material of the Cylinder representing
+    // the Particle's Spin Down State's Arrow
     particle_spin_down_arrow_cylinder_material = new THREE.MeshBasicMaterial(
         {
             color: 0xf88000,
@@ -541,16 +536,16 @@ function create_particle_spin_down_arrow() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State's Orbit
+    // Creates the Mesh of the Particle's Spin Down State's Arrow's Cylinder
     particle_spin_down_arrow_cylinder_mesh = new THREE.Mesh(particle_spin_down_arrow_cylinder_geometry, particle_spin_down_arrow_cylinder_material);
     
     
-    // Creates the Geometry of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Geometry of the Cone representing
+    // the Particle's Spin Down State
     particle_spin_down_arrow_cone_geometry = new THREE.ConeGeometry( 0.4, 0.4, 40 );
 
-    // Creates the Material of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Material of the Cone representing
+    // the Particle's Spin Down State
     particle_spin_down_arrow_cone_material = new THREE.MeshBasicMaterial(
         {
             color: 0xf22000,
@@ -560,103 +555,103 @@ function create_particle_spin_down_arrow() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State
+    // Creates the Mesh of the Particle's Spin Down State
     particle_spin_down_arrow_cone_mesh = new THREE.Mesh(particle_spin_down_arrow_cone_geometry, particle_spin_down_arrow_cone_material);
     
     particle_spin_down_arrow_cone_mesh.rotation.x += Math.PI;
     
-    // Translates/Moves the Electron's Ground State
-    // 2 units, regarding the Y Axis
+    // Translates/Moves the Particle's Spin Down State
+    // -1.85 units, regarding the Y Axis
     particle_spin_down_arrow_cone_mesh.position.y = -1.85;
     
 
-    // Creates the group for the Electron's Ground State Particle's Pivot
+    // Creates the group for the Particle's Spin Down State's Arrow Pivot
     particle_spin_down_arrow_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Down State
+    // the group for the Particle's Spin Down State's Pivot
     particle_spin_down_arrow_pivot.add(particle_spin_down_arrow_cylinder_mesh);
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Down State
+    // the group for the Particle's Spin Down State's Pivot
     particle_spin_down_arrow_pivot.add(particle_spin_down_arrow_cone_mesh);
 
 }
 
 
-// Adds the Electron's Ground State to the Scene (Bohr's Atom Model Scene)
+// Adds the Particle's Spin Up State to the Scene (Spin of a Particle Scene)
 function add_particle_spin_up_to_scene() {
 
-    // Creates the Electron's Ground State's Orbit
+    // Creates the Particle's Spin Up State's Motion
     create_particle_spin_up_motion();
 
-    // Creates the Electron's Ground State
+    // Creates the Particle's Spin Up State's Arrow
     create_particle_spin_up_arrow();
 
 
-    // Loads the JSON data file of the Electron's Ground State Element
+    // Loads the JSON data file of the Particle's Spin Up State's Element
     load_particle_spin_up_json(function(response) {
 
-        // Parses Electron's Ground State's JSON string into object
+        // Parses Particle's Spin Down State's JSON string into object
         var particle_spin_up_data_json = JSON.parse(response);
 
         // Loads the Property Keys' data of
-        // the JSON data file of the Electron's Ground State Element
+        // the JSON data file of the Particle's Spin Up State's Element
         particle_spin_up_property_keys = Object.keys(particle_spin_up_data_json);
 
         // Binds the Property Keys' data of
-        // the JSON data file of the Electron's Ground State Element to
-        // the Mesh of the Electron's Ground State
+        // the JSON data file of the Particle's Spin Up State's Element to
+        // the Mesh of the Particle's Spin Up State
         for(i = 0; i < particle_spin_up_property_keys.length; i++)
             particle_spin_up_arrow_pivot[particle_spin_up_property_keys[i]] = particle_spin_up_data_json[particle_spin_up_property_keys[i]];
 
     });
 
 
-    // Loads the JSON data file of the Electron's Quantum Superposition of States Element
+    // Loads the JSON data file of the Particle's Quantum Superposition of Spins' States' Element
     load_particle_spins_superposition_json(function(response) {
 
-        // Parses Electron's Quantum Superposition of States' JSON string into object
+        // Parses Particle's Quantum Superposition of Spins' States' JSON string into object
         var particle_spin_up_superposition_data_json = JSON.parse(response);
 
         // Loads the Property Keys' data of
-        // the JSON data file of the Electron's Quantum Superposition of States Element
+        // the JSON data file of the Particle's Quantum Superposition of Spins' States' Element
         particle_spin_up_superposition_property_keys = Object.keys(particle_spin_up_superposition_data_json);
 
         // Binds the Property Keys' data of
-        // the JSON data file of the Electron's Quantum Superposition of States Element to
-        // the Mesh of the Electron's Ground State
+        // the JSON data file of the Particle's Quantum Superposition of Spins' States' Element to
+        // the Mesh of the Particle's Spin Up State
         for(i = 0; i < particle_spin_up_superposition_property_keys.length; i++)
             particle_spin_up_arrow_pivot[ (particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i] ] = particle_spin_up_superposition_data_json[particle_spin_up_superposition_property_keys[i]];
 
     });
 
-    // Creates the group for the Electron's Ground State's Pivot
+    // Creates the group for the Particle's Spin Up State's Pivot
     particle_spin_up_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Electron's Ground State to
-    // the group for the Electron's Ground State's Pivot
+    // Adds the Mesh of the Particle's Spin Up State's Motion's Pivot to
+    // the group for the Particle's Spin Up State's Pivot
     particle_spin_up_pivot.add(particle_spin_up_motion_pivot);
 
-    // Adds the Mesh of the Electron's Ground State Particle's Pivot to
-    // the group for the Electron's Ground State's Pivot
+    // Adds the Mesh of the Particle's Spin Up State's Arrow's Pivot to
+    // the group for the Particle's Spin Up State's Pivot
     particle_spin_up_pivot.add(particle_spin_up_arrow_pivot);
     
-    // Adds the group for the Electron's Ground State Pivot to
-    // the Scene (Bohr's Atom Model) 
+    // Adds the group for the Particle's Spin Up State's Pivot to
+    // the Scene (Particle of a Spin Scene) 
     spin_particle_scene.add(particle_spin_up_pivot);
 
 }
 
-// Creates the Electron's Ground State's Orbit
+// Creates the Particle's Spin Up State's Motion
 function create_particle_spin_up_motion() {
 
     // Creates the Geometry of the Ring representing
-    // the Electron's Ground State's Orbit
+    // the Particle's Spin Up State's Orbit
     particle_spin_up_orbit_ring_geometry = new THREE.RingGeometry(2.5, 2.52, 60);
 
     // Creates the Material of the Ring representing
-    // the Electron's Ground State's Orbit
+    // the Particle's Spin Up State's Orbit
     particle_spin_up_orbit_ring_material = new THREE.MeshBasicMaterial(
         {
             color: 0xffffff,
@@ -667,20 +662,20 @@ function create_particle_spin_up_motion() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State's Orbit
+    // Creates the Mesh of the Particle's Spin Up State's Orbit
     particle_spin_up_orbit_ring_mesh = new THREE.Mesh(particle_spin_up_orbit_ring_geometry, particle_spin_up_orbit_ring_material);
 
-    // Rotates the Electron's Ground State's Orbit PI/2
+    // Rotates the Particle's Spin Up State's Orbit PI/2
     // (i.e., 90º degrees), regarding the X Axis
     particle_spin_up_orbit_ring_mesh.rotation.x = Math.PI / 2;
     
     
-    // Creates the Geometry of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Geometry of the Cone representing
+    // the Particle's Spin Up State's Orbit
     particle_spin_up_orbit_cone_geometry = new THREE.ConeGeometry( 0.2, 0.2, 40 );
 
-    // Creates the Material of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Material of the Cone representing
+    // the Particle's Spin Up State's Orbit
     particle_spin_up_orbit_cone_material = new THREE.MeshBasicMaterial(
         {
             color: 0xffffff,
@@ -690,40 +685,40 @@ function create_particle_spin_up_motion() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State
+    // Creates the Mesh of the Particle's Up State's Orbit
     particle_spin_up_orbit_cone_mesh = new THREE.Mesh(particle_spin_up_orbit_cone_geometry, particle_spin_up_orbit_cone_material);            
     
-    // Translates/Moves the Electron's Ground State
-    // -2.51 units, regarding the Z Axis
+    // Rotates the Particle's Spin Up State's Cone PI/2
+    // (i.e., 90º degrees), regarding the Z Axis
     particle_spin_up_orbit_cone_mesh.rotation.z -= Math.PI / 2;
     
-    // Translates/Moves the Electron's Ground State
+    // Translates/Moves the Particle's Spin Up State's Cone
     // -2.51 units, regarding the Z Axis
     particle_spin_up_orbit_cone_mesh.position.z = -2.51;
     
     
-    // Creates the group for the Electron's Ground State Particle's Pivot
+    // Creates the group for the Particle's Spin Up State's Motion's Pivot
     particle_spin_up_motion_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Up State's Orbit's Ring to
+    // the group for the Particle's Spin Up State's Motion's Pivot
     particle_spin_up_motion_pivot.add(particle_spin_up_orbit_ring_mesh);
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Up State's Orbit's Cone to
+    // the group for the Particle's Spin Up State's Motion's Pivot
     particle_spin_up_motion_pivot.add(particle_spin_up_orbit_cone_mesh);
 
 }
 
-// Creates the Electron's Ground State
+// Creates the Particle's Spin Up State's Arrow
 function create_particle_spin_up_arrow() {
 
-    // Creates the Geometry of the Ring representing
-    // the Electron's Ground State's Orbit
+    // Creates the Geometry of the Cylinder representing
+    // the Particle's Spin Up State's Arrow
     particle_spin_up_arrow_cylinder_geometry = new THREE.CylinderGeometry( 0.2, 0.2, 3.5, 32 );
 
-    // Creates the Material of the Ring representing
-    // the Electron's Ground State's Orbit
+    // Creates the Material of the Cylinder representing
+    // the Particle's Spin Up State's Arrow
     particle_spin_up_arrow_cylinder_material = new THREE.MeshBasicMaterial(
         {
             color: 0xf88000,
@@ -733,16 +728,16 @@ function create_particle_spin_up_arrow() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State's Orbit
+    // Creates the Mesh of the Particle's Spin Up State's Arrow's Cylinder
     particle_spin_up_arrow_cylinder_mesh = new THREE.Mesh(particle_spin_up_arrow_cylinder_geometry, particle_spin_up_arrow_cylinder_material);
     
     
-    // Creates the Geometry of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Geometry of the Cone representing
+    // the Particle's Spin Up State's Arrow
     particle_spin_up_arrow_cone_geometry = new THREE.ConeGeometry( 0.4, 0.4, 40 );
 
-    // Creates the Material of the Sphere representing
-    // the Electron's Ground State
+    // Creates the Material of the Cone representing
+    // the Particle's Spin Up State's Arrow
     particle_spin_up_arrow_cone_material = new THREE.MeshBasicMaterial(
         {
             color: 0xf22000,
@@ -752,30 +747,30 @@ function create_particle_spin_up_arrow() {
         }
     );
 
-    // Creates the Mesh of the Electron's Ground State
+    // Creates the Mesh of the Particle's Spin Up State's Arrow's Cone
     particle_spin_up_arrow_cone_mesh = new THREE.Mesh(particle_spin_up_arrow_cone_geometry, particle_spin_up_arrow_cone_material);
     
-    // Translates/Moves the Electron's Ground State
-    // 2 units, regarding the Y Axis
+    // Translates/Moves the Particle's Spin Up State's Arrow's Cone
+    // 1.85 units, regarding the Y Axis
     particle_spin_up_arrow_cone_mesh.position.y = 1.85;
     
 
-    // Creates the group for the Electron's Ground State Particle's Pivot
+    // Creates the group for the Particle's Spin Up State's Arrow's Pivot
     particle_spin_up_arrow_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Up State's Arrow's Cylinder
+    // the group for the Particle's Spin Up State Arrow's Pivot
     particle_spin_up_arrow_pivot.add(particle_spin_up_arrow_cylinder_mesh);
 
-    // Adds the Mesh of the Electron's Ground State
-    // the group for the Electron's Ground State Particle's Pivot
+    // Adds the Mesh of the Particle's Spin Up State's Arrow's Cone
+    // the group for the Particle's Spin Up State's Pivot
     particle_spin_up_arrow_pivot.add(particle_spin_up_arrow_cone_mesh);
 
 }
 
 
 // Adds the Lights (Directional and Ambient Lights) to
-// the Scene (Bohr's Atom Model Scene)
+// the Scene (Spin of a Particle Scene)
 function add_lights_to_scene() {
 
     // Creates a white directional light
@@ -786,7 +781,7 @@ function add_lights_to_scene() {
     directional_light_1.position.set(1, 1, 1);
 
     // Adds the previously created directional light to
-    // Scene (Bohr's Atom Model)
+    // Scene (Spin of a Particle Scene)
     spin_particle_scene.add(directional_light_1);
 
 
@@ -798,7 +793,7 @@ function add_lights_to_scene() {
     directional_light_2.position.set(- 1, - 1, - 1);
 
     // Adds the previously created directional light to
-    // Scene (Bohr's Atom Model)
+    // Scene (Spin of a Particle Scene)
     spin_particle_scene.add(directional_light_2);
 
 
@@ -806,12 +801,12 @@ function add_lights_to_scene() {
     var ambient_light = new THREE.AmbientLight(0x222222);
 
     // Adds the previously created ambient light to
-    // Scene (Bohr's Atom Model)
+    // Scene (Spin of a Particle Scene)
     spin_particle_scene.add(ambient_light);
 
 }
 
-// Creates the Renderer for the Scene (Bohr's Atom Model Scene)
+// Creates the Renderer for the Scene (Spin of a Particle Scene)
 function create_renderer_of_scene() {
 
     renderer = new THREE.WebGLRenderer(
@@ -828,7 +823,7 @@ function create_renderer_of_scene() {
 }
 
 // Adds the Stats (Statistics for the Rendering Process) to
-// the Scene (Bohr's Atom Model Scene)
+// the Scene (Spin of a Particle Scene)
 function add_stats() {
 
     // Creates the Stats Object
@@ -863,11 +858,11 @@ function trigger_event_listeners() {
     on_check_xz_grid();
 
     // Handles/Triggers the Function for
-    // changes in the Atomic Orbit's Checkbox
+    // changes in the Particle's Spins' Orbit's Checkbox
     on_check_particle_spins_motions();
 
     // Handles/Triggers the Function for
-    // changes in the Electron States' Radio
+    // changes in the Particle's Spins' States' Radio
     on_change_particle_spins();
 
 }
@@ -891,7 +886,7 @@ function on_window_resize() {
 function on_document_mouse_move(event) {
 
     // The following line would stop any other event handler from firing
-    // (such as the mouse's TrackballControls)
+    // (such as the mouse's Trackball Controls)
     event.preventDefault();
 
     // Update the mouse variable
@@ -959,7 +954,7 @@ function on_check_xz_grid() {
     }
 }
 
-// Calls a given function, when the Atomic Orbit's Checkbox change
+// Calls a given function, when the Particle's Spins' Motions' Checkbox change
 function on_check_particle_spins_motions() {
 
     var show_particle_spins_motions = document.getElementById("show_particle_spins_motions");
@@ -1030,25 +1025,22 @@ function on_check_particle_spins_motions() {
     }
 }
 
-// Calls a given function, when the Electron State's Radio change
+// Calls a given function, when the Particle's Spins' State's Radio change
 function on_change_particle_spins() {
 
-    // Verifies all the Possible States for the Electron
-    // - Ground State;
-    // - Excited State;
-    // - Quantum Superposition of both Ground and Excited States;
+    // Verifies all the Possible States for the Particle's Spin
+    // - Spin Down State;
+    // - Spin Up State;
+    // - Quantum Superposition of both Spin Down and Spin Up States;
     for(var i = 0, length = particle_spins_radios.length; i < length; i++) {
         particle_spins_radios[i].onchange = function() {    
 
-            // The Electron it's in Ground State
+            // The Particle have a Spin Down State
             if(particle_spins_radios[0].checked) {
 
                 particle_material.opacity = 1.0;
                 particle_material.depthTest = true;
                 
-                
-                particle_spin_down_motion_pivot.position.y = 0;
-                particle_spin_up_motion_pivot.position.y = 0;
                 
                 if( is_showing_particle_spins_motions ) {
                 
@@ -1093,7 +1085,7 @@ function on_change_particle_spins() {
                 quantum_state_of_spins = 0;
             }
 
-            // The Electron it's in Excited State
+            // The Particle have a Spin Up State
             if(particle_spins_radios[1].checked) {
 
                 particle_material.opacity = 1.0;
@@ -1144,15 +1136,12 @@ function on_change_particle_spins() {
                 quantum_state_of_spins = 1;
             }
 
-            // The Electron it's in a Quantum Superposition of States
+            // The Particle have a Quantum Superposition of Spin States
             if(particle_spins_radios[2].checked) {
 
                 particle_material.opacity = 0.5;
                 particle_material.depthTest = false;
                 
-                
-                particle_spin_down_motion_pivot.position.y = -0.25;
-                particle_spin_up_motion_pivot.position.y = 0.25;
                 
                 if( is_showing_particle_spins_motions ) {
                     
@@ -1221,29 +1210,29 @@ function animate() {
     // Calls the Animation Method again
     requestAnimationFrame(animate);
 
-    // Finds intersections between the Mouse's Pointer and the Nucleus/Proton
+    // Finds intersections between the Mouse's Pointer and the Particle
     find_intersections_particle();
 
     if(quantum_state_of_spins == 0) {
         
-        // Finds intersections between the Mouse's Pointer and the Electron's Ground State
+        // Finds intersections between the Mouse's Pointer and the Particle's Spin Down State
         find_intersections_spin_down();
     
     }
     
     if(quantum_state_of_spins == 1) {
         
-        // Finds intersections between the Mouse's Pointer and the Electron's Excited State
+        // Finds intersections between the Mouse's Pointer and the Particle's Spin Up State
         find_intersections_spin_up();
         
     }
     
     if(quantum_state_of_spins == 2) {
         
-        // Finds intersections between the Mouse's Pointer and the Electron's Excited State
+        // Finds intersections between the Mouse's Pointer and the Particle's Spin Down State
         find_intersections_spin_down();
         
-        // Finds intersections between the Mouse's Pointer and the Electron's Excited State
+        // Finds intersections between the Mouse's Pointer and the Particle's Spin Up State
         find_intersections_spin_up();
 
     }
@@ -1257,11 +1246,11 @@ function animate() {
 }
 
 
-// Finds intersections between the Mouse's Pointer and the Nucleus/Proton
+// Finds intersections between the Mouse's Pointer and the Particle
 function find_intersections_particle() {
 
     // Creates a Ray with origin at the Mouse's Pointer Position
-    // and direction into the Scene (Bohr's Atom Model),
+    // and direction into the Scene (Spin of a Particle Scene),
     // i.e., the Camera Position/Direction
     var vector = new THREE.Vector3(mouse.x, mouse.y, 1);
 
@@ -1286,18 +1275,18 @@ function find_intersections_particle() {
             // Restores previous intersection object (if it exists) to its original map's texture
             if(PARTICLE_INTERSECTED) {
 
-                // The Nucleus'/Proton's Material needs to be updated
+                // The Particle's Material needs to be updated
                 PARTICLE_INTERSECTED.material.needsUpdate = true;
 
-                // Sets the Nucleus'/Proton's Material Color to Yellow
+                // Sets the Particle's Material Color to Yellow
                 PARTICLE_INTERSECTED.material.color.setHex(0xffff00);
 
-                // Clears the Object's Name for the Nucleus/Proton displayed in
-                // the left side of the Scene (Bohr's Atom Model)
+                // Clears the Object's Name for the Particle displayed in
+                // the left side of the Scene (Spin of a Particle Scene)
                 document.getElementById("object_name").innerHTML = "";
 
-                // Clears all the Nucleus'/Proton's Property Keys displayed in
-                // the left side of the Scene (Bohr's Atom Model)
+                // Clears all the Particle's Property Keys displayed in
+                // the left side of the Scene (Spin of a Particle Scene)
                 for(i = 1; i < particle_property_keys.length; i++) {
 
                     var div_data_info_elem_id = "object_data_info_" + i;
@@ -1320,11 +1309,11 @@ function find_intersections_particle() {
             // Sets a new color for closest object
             PARTICLE_INTERSECTED.material.color.setHex(0xffff00);
 
-            // Sets the Object's Name for the Nucleus/Proton displayed in
-            // the left side of the Scene (Bohr's Atom Model)
+            // Sets the Object's Name for the Particle displayed in
+            // the left side of the Scene (Spin of a Particle Scene)
             document.getElementById("object_name").innerHTML = intersects[0].object[particle_property_keys[0]];
 
-            // Sets all the Nucleus'/Proton's Property Keys
+            // Sets all the Particle's Property Keys
             for(i = 1; i < particle_property_keys.length; i++) {
 
                 var div_data_info_elem_id = "object_data_info_" + i;
@@ -1340,12 +1329,12 @@ function find_intersections_particle() {
 
                 var current_object_data_info = "";
 
-                // Sets all the current Nucleus'/Proton's Sub-Property Keys
+                // Sets all the current Particle's Sub-Property Keys
                 for(j = 0; j < some_object_data_info_keys.length; j++)
                     current_object_data_info += "- <b><u>" + some_object_data_info_keys[j] + "</u></b>: " + some_object_data_info[some_object_data_info_keys[j]] + "<br/>";
 
                 // Displays the final data/information in
-                // the left side of the Scene (Bohr's Atom Model)
+                // the left side of the Scene (Spin of a Particle Scene)
                 var span_data_content_elem_id = "object_data_content_" + i;
                 document.getElementById(span_data_content_elem_id).innerHTML = current_object_data_info;
                 document.getElementById(span_data_content_elem_id).style.display = "inline";
@@ -1358,18 +1347,18 @@ function find_intersections_particle() {
         // Restores previous intersection object (if it exists) to its original color
         if(PARTICLE_INTERSECTED) {
 
-            // The Nucleus'/Proton's Material needs to be updated
+            // The Particle's Material needs to be updated
             PARTICLE_INTERSECTED.material.needsUpdate = true;
 
-            // Sets the Nucleus'/Proton's Material Color to its default
+            // Sets the Particle's Material Color to its default
             PARTICLE_INTERSECTED.material.color.setHex(0xdda0dd);
 
-            // Clears the Object's Name for the Nucleus/Proton displayed in
-            // the left side of the Scene (Bohr's Atom Model)
+            // Clears the Object's Name for the Particle displayed in
+            // the left side of the Scene (Spin of a Particle Scene)
             document.getElementById("object_name").innerHTML = "";
 
-            // Clears all the Nucleus'/Proton's Property Keys displayed in
-            // the left side of the Scene (Bohr's Atom Model)
+            // Clears all the Particle's Property Keys displayed in
+            // the left side of the Scene (Spin of a Particle Scene)
             for(i = 1; i < particle_property_keys.length; i++) {
 
                 var div_data_info_elem_id = "object_data_info_" + i;
@@ -1394,7 +1383,7 @@ function find_intersections_particle() {
 
 }
 
-// Finds intersections between the Mouse's Pointer and the Electron's Ground State
+// Finds intersections between the Mouse's Pointer and the Particle's Spin Down State
 function find_intersections_spin_down() {
 
     // Create a Ray with origin at the mouse position
@@ -1603,7 +1592,7 @@ function find_intersections_spin_down() {
 
 }
 
-// Finds intersections between the Mouse's Pointer and the Electron's Excited State
+// Finds intersections between the Mouse's Pointer and the Particle's Spin Up State
 function find_intersections_spin_up() {
 
     // Create a Ray with origin at the mouse position
@@ -1812,7 +1801,7 @@ function find_intersections_spin_up() {
 
 }
 
-// The Nucleus/Proton and Electron's States' rotation movements
+// The Particle's rotation movements
 function particle_rotation_movement() {
     
     var particle_rotation_speed = ( motions_factor * 0.0001 * 28 );
@@ -1821,21 +1810,21 @@ function particle_rotation_movement() {
     
 }
 
-// The Electron's States' translaction movements around the Nucleus/Proton
+// The Particle's Spins' translaction movements around the Particle
 function particle_spins_translaction_movements() {
 
-    // Creating the quarternion for the Electron's Ground State
+    // Creating the quarternion for the Particle's Spin Down State
     var quaternion_for_particle_spin_down = new THREE.Quaternion();
 
-    // Setting and applying the quarternion's Y Axis for the Electron's Ground State
+    // Setting and applying the quarternion's Y Axis for the Particle's Spin Down State
     quaternion_for_particle_spin_down.setFromAxisAngle( y_axis, ( motions_factor * 0.02 ) );
     particle_spin_down_pivot.applyQuaternion(quaternion_for_particle_spin_down);
     
     
-    // Creating the quarternion for the Electron's Ground State
+    // Creating the quarternion for the Particle's Spin Up State
     var quaternion_for_particle_spin_up = new THREE.Quaternion();
 
-    // Setting and applying the quarternion's Y Axis for the Electron's Ground State
+    // Setting and applying the quarternion's Y Axis for the Particle's Spin Up State
     quaternion_for_particle_spin_up.setFromAxisAngle( y_axis, ( motions_factor * -0.02 ) );
     particle_spin_up_pivot.applyQuaternion(quaternion_for_particle_spin_up);
     
@@ -1847,10 +1836,10 @@ function render() {
     // The Animation Frame Request Process
     requestAnimationFrame(render);
 
-    // The Nucleus/Proton and Electron's States' rotation movements
+    // The Particle's rotation movements
     particle_rotation_movement();
 
-    // The Electron's States' translaction movements around the Nucleus/Proton
+    // The Particle's Spin States' translaction movements around the Particle
     particle_spins_translaction_movements();
 
     // The Rendering Process, in sucessive repeated calls, in loop
