@@ -456,7 +456,7 @@ function create_particle_spin_down_motion() {
 
     // Creates the Geometry of the Ring representing
     // the Particle's Spin Down State's Orbit
-    particle_spin_down_orbit_ring_geometry = new THREE.RingGeometry(1.5, 2.52, 60);
+    particle_spin_down_orbit_ring_geometry = new THREE.RingGeometry(1.5, 1.52, 60);
 
     // Creates the Material of the Ring representing
     // the Particle's Spin Down State's Orbit
