@@ -1435,7 +1435,7 @@ function find_intersections_spin_down() {
             }
             else {
 
-                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_down_property_keys[0]];
+                document.getElementById("object_name").textContent = intersects[0].object.parent[particle_spin_down_property_keys[0]];
 
                 for(i = 1; i < particle_spin_down_property_keys.length; i++) {
 
