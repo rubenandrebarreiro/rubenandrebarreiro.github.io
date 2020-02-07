@@ -606,7 +606,7 @@ function add_particle_spin_up_to_scene() {
 
 
     // Loads the JSON data file of the Electron's Quantum Superposition of States Element
-    load_particle_superposition_json(function(response) {
+    load_particle_spins_superposition_json(function(response) {
 
         // Parses Electron's Quantum Superposition of States' JSON string into object
         var particle_spin_up_superposition_data_json = JSON.parse(response);
