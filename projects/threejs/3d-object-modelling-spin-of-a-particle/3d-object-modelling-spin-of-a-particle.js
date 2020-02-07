@@ -1623,10 +1623,6 @@ function find_intersections_spin_up() {
 
             
             if(quantum_state_of_spins == 2) {
-
-                console.log(particle_spin_up_property_keys);
-                console.log(particle_spin_up_property_keys.length);
-                console.log(intersects[0].object.parent);
                 
                 // Set a new color for closest object
                 particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
