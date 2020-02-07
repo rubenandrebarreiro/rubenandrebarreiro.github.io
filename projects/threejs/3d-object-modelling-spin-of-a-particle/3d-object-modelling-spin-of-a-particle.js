@@ -1599,7 +1599,7 @@ function find_intersections_spin_up() {
             
             if(quantum_state_of_spins == 2) {
 
-                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_up_superposition_property_keys[0]];
+                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_up_property_keys.length[0]];
 
                 for(i = 1; i < particle_spin_up_superposition_property_keys.length; i++) {
 
