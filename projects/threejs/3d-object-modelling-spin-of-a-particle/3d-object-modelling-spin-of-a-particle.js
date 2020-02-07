@@ -1248,7 +1248,7 @@ function find_intersections_particle() {
 
             // Sets the Object's Name for the Nucleus/Proton displayed in
             // the left side of the Scene (Bohr's Atom Model)
-            document.getElementById("object_name").textContent = intersects[0].object[particle_property_keys[0]];
+            document.getElementById("object_name").innerHTML = intersects[0].object[particle_property_keys[0]];
 
             // Sets all the Nucleus'/Proton's Property Keys
             for(i = 1; i < particle_property_keys.length; i++) {
