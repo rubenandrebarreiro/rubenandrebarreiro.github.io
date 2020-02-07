@@ -1476,14 +1476,10 @@ function find_intersections_spin_down() {
 
         // Restore previous intersection object (if it exists) to its original map's texture
         if(SPIN_DOWN_INTERSECTED) {
-
-            particle_spin_down_orbit_ring_mesh.material.needsUpdate = true;
-            particle_spin_down_orbit_cone_mesh.material.needsUpdate = true;
+            
             particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
             particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
-
-            particle_spin_down_orbit_ring_mesh.material.color.setHex(0xffffff);
-            particle_spin_down_orbit_cone_mesh.material.color.setHex(0xffffff);
+            
             particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
             particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
 
