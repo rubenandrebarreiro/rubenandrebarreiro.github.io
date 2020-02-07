@@ -1362,6 +1362,12 @@ function find_intersections_spin_down() {
                              
                 particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
                 particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
+
+                particle_spin_up_arrow_cylinder_mesh.material.needsUpdate = true;
+                particle_spin_up_arrow_cone_mesh.material.needsUpdate = true;
+                             
+                particle_spin_up_arrow_cylinder_mesh.material.color.setHex(0xf88000);
+                particle_spin_up_arrow_cone_mesh.material.color.setHex(0xf22000);
                 
                 document.getElementById("object_name").innerHTML = "";
 
@@ -1410,6 +1416,13 @@ function find_intersections_spin_down() {
             
             if(quantum_state_of_spins == 2) {
 
+                // Set a new color for closest object
+                particle_spin_up_arrow_cylinder_mesh.material.needsUpdate = true;
+                particle_spin_up_arrow_cone_mesh.material.needsUpdate = true;
+
+                particle_spin_up_arrow_cylinder_mesh.material.color.setHex(0xffff00);
+                particle_spin_up_arrow_cone_mesh.material.color.setHex(0xffff00);
+                
                 document.getElementById("object_name").innerHTML = (intersects[0].object.parent[ (particle_spin_down_property_keys.length + particle_spin_down_superposition_property_keys)[0] ]);
 
                 for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
@@ -1479,6 +1492,12 @@ function find_intersections_spin_down() {
             
             particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
             particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
+            
+            particle_spin_up_arrow_cylinder_mesh.material.needsUpdate = true;
+            particle_spin_up_arrow_cone_mesh.material.needsUpdate = true;
+            
+            particle_spin_up_arrow_cylinder_mesh.material.color.setHex(0xf88000);
+            particle_spin_up_arrow_cone_mesh.material.color.setHex(0xf22000);
 
             document.getElementById("object_name").innerHTML = "";
 
@@ -1547,6 +1566,12 @@ function find_intersections_spin_up() {
             // Restores previous intersection object (if it exists) to its original color
             if(SPIN_UP_INTERSECTED) {
                 
+                particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
+                particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
+
+                particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
+                particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
+
                 particle_spin_up_arrow_cylinder_mesh.material.needsUpdate = true;
                 particle_spin_up_arrow_cone_mesh.material.needsUpdate = true;
 
@@ -1602,6 +1627,13 @@ function find_intersections_spin_up() {
                 console.log(particle_spin_up_property_keys);
                 console.log(particle_spin_up_property_keys.length);
                 console.log(intersects[0].object.parent);
+                
+                // Set a new color for closest object
+                particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
+                particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
+
+                particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xffff00);
+                particle_spin_down_arrow_cone_mesh.material.color.setHex(0xffff00);
                 
                 document.getElementById("object_name").innerHTML = (intersects[0].object.parent[ (particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[0] ]);
 
@@ -1667,6 +1699,12 @@ function find_intersections_spin_up() {
 
         // Restore previous intersection object (if it exists) to its original map's texture
         if(SPIN_UP_INTERSECTED) {
+            
+            particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
+            particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
+            
+            particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
+            particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
             
             particle_spin_up_arrow_cylinder_mesh.material.needsUpdate = true;
             particle_spin_up_arrow_cone_mesh.material.needsUpdate = true;
