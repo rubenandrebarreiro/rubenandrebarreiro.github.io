@@ -96,7 +96,7 @@ var motions_factor;
 var is_showing_particle_spins_motions;
 
 // The integer value to keep the information about
-// the Quantum State of the Particle and its current Spin
+// the Quantum State of the Particle and its current Spin Motion
 var quantum_state_of_spins;
 
 
@@ -387,7 +387,7 @@ function add_particle_to_scene() {
 }
 
 
-// Adds the Particle's Spin Down to the Scene (Spin of a Particle Scene)
+// Adds the Particle's Spin Down State to the Scene (Spin of a Particle Scene)
 function add_particle_spin_down_to_scene() {
 
     // Creates the Particle's Spin Down State's Motion
@@ -451,15 +451,15 @@ function add_particle_spin_down_to_scene() {
 
 }
 
-// Creates the Particle's Spin Down State's Orbit
+// Creates the Particle's Spin Down State's Orbit Motion
 function create_particle_spin_down_motion() {
 
     // Creates the Geometry of the Ring representing
-    // the Particle's Spin Down State's Orbit
+    // the Particle's Spin Down State's Orbit Motion
     particle_spin_down_orbit_ring_geometry = new THREE.RingGeometry(1.5, 1.52, 60);
 
     // Creates the Material of the Ring representing
-    // the Particle's Spin Down State's Orbit
+    // the Particle's Spin Down State's Orbit Motion
     particle_spin_down_orbit_ring_material = new THREE.MeshBasicMaterial(
         {
             color: 0xffffff,
@@ -470,20 +470,20 @@ function create_particle_spin_down_motion() {
         }
     );
 
-    // Creates the Mesh of the Particle's Spin Down State's Orbit's Ring
+    // Creates the Mesh of the Particle's Spin Down State's Orbit Motion's Ring
     particle_spin_down_orbit_ring_mesh = new THREE.Mesh(particle_spin_down_orbit_ring_geometry, particle_spin_down_orbit_ring_material);
 
-    // Rotates the Particle's Spin Down State's Orbit PI/2
+    // Rotates the Particle's Spin Down State's Orbit Motion PI/2
     // (i.e., 90º degrees), regarding the X Axis
     particle_spin_down_orbit_ring_mesh.rotation.x = Math.PI / 2;
     
     
     // Creates the Geometry of the Cone representing
-    // the Particle's Spin Down State's Orbit
+    // the Particle's Spin Down State's Orbit Motion
     particle_spin_down_orbit_cone_geometry = new THREE.ConeGeometry( 0.2, 0.2, 40 );
 
     // Creates the Material of the Cone representing
-    // the Particle's Spin Down State's orbit
+    // the Particle's Spin Down State's Orbit Motion
     particle_spin_down_orbit_cone_material = new THREE.MeshBasicMaterial(
         {
             color: 0xffffff,
@@ -493,10 +493,10 @@ function create_particle_spin_down_motion() {
         }
     );
 
-    // Creates the Mesh of the Particle's Spin Down State's Orbit's Cone
+    // Creates the Mesh of the Particle's Spin Down State's Orbit Motion's Cone
     particle_spin_down_orbit_cone_mesh = new THREE.Mesh(particle_spin_down_orbit_cone_geometry, particle_spin_down_orbit_cone_material);            
     
-    // Rotates the Particle's Spin Down State's Orbit PI/2
+    // Rotates the Particle's Spin Down State's Orbit Motion PI/2
     // (i.e., 90º degrees), regarding the Z Axis
     particle_spin_down_orbit_cone_mesh.rotation.z += Math.PI / 2;
     
@@ -508,12 +508,12 @@ function create_particle_spin_down_motion() {
     // Creates the group for the Particle's Spin Down State's Motion Pivot
     particle_spin_down_motion_pivot = new THREE.Group();
 
-    // Adds the Mesh of the Particle's Spin Down State
-    // the group for the Particle's Spin Down State's Orbit Pivot
+    // Adds the Mesh of the Particle's Spin Down State's Orbit Motion
+    // the group for the Particle's Spin Down State's Motion Pivot
     particle_spin_down_motion_pivot.add(particle_spin_down_orbit_ring_mesh);
 
-    // Adds the Mesh of the Particle's Spin Down State
-    // the group for the Particle's Spin Down State's Orbit Pivot
+    // Adds the Mesh of the Particle's Spin Down State's Orbit Motion
+    // the group for the Particle's Spin Down State's Motion Pivot
     particle_spin_down_motion_pivot.add(particle_spin_down_orbit_cone_mesh);
 
 }
@@ -541,11 +541,11 @@ function create_particle_spin_down_arrow() {
     
     
     // Creates the Geometry of the Cone representing
-    // the Particle's Spin Down State
+    // the Particle's Spin Down State's Arrow
     particle_spin_down_arrow_cone_geometry = new THREE.ConeGeometry( 0.4, 0.4, 40 );
 
     // Creates the Material of the Cone representing
-    // the Particle's Spin Down State
+    // the Particle's Spin Down State's Arrow
     particle_spin_down_arrow_cone_material = new THREE.MeshBasicMaterial(
         {
             color: 0xf22000,
@@ -555,12 +555,14 @@ function create_particle_spin_down_arrow() {
         }
     );
 
-    // Creates the Mesh of the Particle's Spin Down State
+    // Creates the Mesh of the Particle's Spin Down State's Arrow's Cone
     particle_spin_down_arrow_cone_mesh = new THREE.Mesh(particle_spin_down_arrow_cone_geometry, particle_spin_down_arrow_cone_material);
     
+    // Rotates the Particle's Spin Down State's Arrow's Cone PI
+    // (i.e., 180º degrees), regarding the X Axis
     particle_spin_down_arrow_cone_mesh.rotation.x += Math.PI;
     
-    // Translates/Moves the Particle's Spin Down State
+    // Translates/Moves the Particle's Spin Down State's Arrow's Cone
     // -1.85 units, regarding the Y Axis
     particle_spin_down_arrow_cone_mesh.position.y = -1.85;
     
@@ -569,11 +571,11 @@ function create_particle_spin_down_arrow() {
     particle_spin_down_arrow_pivot = new THREE.Group();
 
     // Adds the Mesh of the Particle's Spin Down State
-    // the group for the Particle's Spin Down State's Pivot
+    // the group for the Particle's Spin Down State's Arrow Pivot
     particle_spin_down_arrow_pivot.add(particle_spin_down_arrow_cylinder_mesh);
 
     // Adds the Mesh of the Particle's Spin Down State
-    // the group for the Particle's Spin Down State's Pivot
+    // the group for the Particle's Spin Down State's Arrow Pivot
     particle_spin_down_arrow_pivot.add(particle_spin_down_arrow_cone_mesh);
 
 }
@@ -592,7 +594,7 @@ function add_particle_spin_up_to_scene() {
     // Loads the JSON data file of the Particle's Spin Up State's Element
     load_particle_spin_up_json(function(response) {
 
-        // Parses Particle's Spin Down State's JSON string into object
+        // Parses Particle's Spin Up State's JSON string into object
         var particle_spin_up_data_json = JSON.parse(response);
 
         // Loads the Property Keys' data of
@@ -643,7 +645,7 @@ function add_particle_spin_up_to_scene() {
 
 }
 
-// Creates the Particle's Spin Up State's Motion
+// Creates the Particle's Spin Up State's Orbit Motion
 function create_particle_spin_up_motion() {
 
     // Creates the Geometry of the Ring representing
@@ -1213,6 +1215,7 @@ function animate() {
     // Finds intersections between the Mouse's Pointer and the Particle
     find_intersections_particle();
 
+    // The Particle it's currently Spinning Down
     if(quantum_state_of_spins == 0) {
         
         // Finds intersections between the Mouse's Pointer and the Particle's Spin Down State
@@ -1220,6 +1223,7 @@ function animate() {
     
     }
     
+    // The Particle it's currently Spinning Up
     if(quantum_state_of_spins == 1) {
         
         // Finds intersections between the Mouse's Pointer and the Particle's Spin Up State
@@ -1227,6 +1231,7 @@ function animate() {
         
     }
     
+    // The Particle it's currently in a Quantum Superposition of Spins' States
     if(quantum_state_of_spins == 2) {
         
         // Finds intersections between the Mouse's Pointer and the Particle's Spin Down State
@@ -1465,6 +1470,7 @@ function find_intersections_spin_down() {
             particle_spin_down_arrow_cone_mesh.material.color.setHex(0xffff00);
             
             
+            // The Particle it's currently in a Quantum Superposition of Spins' States
             if(quantum_state_of_spins == 2) {
 
                 // Set a new color for closest object
@@ -1672,7 +1678,8 @@ function find_intersections_spin_up() {
             particle_spin_up_arrow_cylinder_mesh.material.color.setHex(0xffff00);
             particle_spin_up_arrow_cone_mesh.material.color.setHex(0xffff00);
 
-            
+
+            // The Particle it's currently in a Quantum Superposition of Spins' States
             if(quantum_state_of_spins == 2) {
                 
                 // Set a new color for closest object
