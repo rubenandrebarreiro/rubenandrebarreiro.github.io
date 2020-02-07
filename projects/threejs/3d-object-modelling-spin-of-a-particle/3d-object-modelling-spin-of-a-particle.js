@@ -619,7 +619,7 @@ function add_particle_spin_up_to_scene() {
         // the JSON data file of the Electron's Quantum Superposition of States Element to
         // the Mesh of the Electron's Ground State
         for(i = 0; i < particle_spin_up_superposition_property_keys.length; i++)
-            particle_spin_up_arrow_mesh[ (particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i] ] = particle_spin_up_superposition_data_json[particle_spin_up_superposition_property_keys[i]];
+            particle_spin_up_arrow_pivot[ (particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i] ] = particle_spin_up_superposition_data_json[particle_spin_up_superposition_property_keys[i]];
 
     });
 
