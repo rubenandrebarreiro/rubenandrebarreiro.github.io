@@ -1220,7 +1220,7 @@ function find_intersections_particle() {
 
                 // Clears the Object's Name for the Nucleus/Proton displayed in
                 // the left side of the Scene (Bohr's Atom Model)
-                document.getElementById("object_name").textContent = "";
+                document.getElementById("object_name").innerHTML = "";
 
                 // Clears all the Nucleus'/Proton's Property Keys displayed in
                 // the left side of the Scene (Bohr's Atom Model)
@@ -1292,7 +1292,7 @@ function find_intersections_particle() {
 
             // Clears the Object's Name for the Nucleus/Proton displayed in
             // the left side of the Scene (Bohr's Atom Model)
-            document.getElementById("object_name").textContent = "";
+            document.getElementById("object_name").innerHTML = "";
 
             // Clears all the Nucleus'/Proton's Property Keys displayed in
             // the left side of the Scene (Bohr's Atom Model)
@@ -1355,7 +1355,7 @@ function find_intersections_spin_down() {
                 particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
                 particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
                 
-                document.getElementById("object_name").textContent = "";
+                document.getElementById("object_name").innerHTML = "";
 
                 for(i = 1; i < particle_spin_down_property_keys.length; i++) {
 
@@ -1406,7 +1406,7 @@ function find_intersections_spin_down() {
             
             if(quantum_state_of_spins == 2) {
 
-                document.getElementById("object_name").textContent = intersects[0].object[particle_spin_down_superposition_property_keys[0]];
+                document.getElementById("object_name").innerHTML = intersects[0].object[particle_spin_down_superposition_property_keys[0]];
 
                 for(i = 1; i < particle_spin_down_superposition_property_keys.length; i++) {
 
@@ -1435,7 +1435,7 @@ function find_intersections_spin_down() {
             }
             else {
 
-                document.getElementById("object_name").textContent = intersects[0].object.parent[particle_spin_down_property_keys[0]];
+                document.getElementById("object_name").innerHTML = intersects[0].object.parent[particle_spin_down_property_keys[0]];
 
                 for(i = 1; i < particle_spin_down_property_keys.length; i++) {
 
@@ -1487,7 +1487,7 @@ function find_intersections_spin_down() {
             particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
             particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
 
-            document.getElementById("object_name").textContent = "";
+            document.getElementById("object_name").innerHTML = "";
 
             for(i = 1; i < particle_spin_down_property_keys.length; i++) {
 
