@@ -966,9 +966,9 @@ function on_check_particle_spins_motions() {
 
     show_particle_spins_motions.onchange = function() {
         
-        if(show_particle_spins_motions.checked) {
+        is_showing_particle_spins_motions = !is_showing_particle_spins_motions;
         
-            is_showing_particle_spins_motions = !is_showing_particle_spins_motions;
+        if(show_particle_spins_motions.checked) {
             
             if(quantum_state_of_spins == 0) {
 
