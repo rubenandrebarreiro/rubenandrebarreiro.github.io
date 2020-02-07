@@ -1345,13 +1345,9 @@ function find_intersections_spin_down() {
             // Restore previous intersection object (if it exists) to its original map's texture
             if(SPIN_DOWN_INTERSECTED) {
 
-                particle_spin_down_orbit_ring_mesh.material.needsUpdate = true;
-                particle_spin_down_orbit_cone_mesh.material.needsUpdate = true;
                 particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
                 particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
                              
-                particle_spin_down_orbit_ring_mesh.material.color.setHex(0xffffff);
-                particle_spin_down_orbit_cone_mesh.material.color.setHex(0xffffff);
                 particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xf88000);
                 particle_spin_down_arrow_cone_mesh.material.color.setHex(0xf22000);
                 
@@ -1393,13 +1389,9 @@ function find_intersections_spin_down() {
             SPIN_DOWN_INTERSECTED = intersects[0].object;
 
             // Set a new color for closest object
-            particle_spin_down_orbit_ring_mesh.material.needsUpdate = true;
-            particle_spin_down_orbit_cone_mesh.material.needsUpdate = true;
             particle_spin_down_arrow_cylinder_mesh.material.needsUpdate = true;
             particle_spin_down_arrow_cone_mesh.material.needsUpdate = true;
 
-            particle_spin_down_orbit_ring_mesh.material.color.setHex(0xffff00);
-            particle_spin_down_orbit_cone_mesh.material.color.setHex(0xffff00);
             particle_spin_down_arrow_cylinder_mesh.material.color.setHex(0xffff00);
             particle_spin_down_arrow_cone_mesh.material.color.setHex(0xffff00);
             
@@ -1445,13 +1437,6 @@ function find_intersections_spin_down() {
                     var span_data_title_elem_id = "object_data_title_" + i;
                     document.getElementById(span_data_title_elem_id).innerHTML = particle_spin_down_property_keys[i];
                     document.getElementById(span_data_title_elem_id).style.display = "inline";
-
-                    /*console.log(intersects[0].object[particle_spin_down_property_keys[i]]);
-                    console.log("AAAAA" + intersects[0].object.parent[particle_spin_down_property_keys[i]]);
-                    console.log("SSSSS");
-                    console.log((intersects[0].object.parent[particle_spin_down_property_keys[i]])[0]);
-                    console.log(particle_spin_down_property_keys[i]);
-                    */
                     
                     var some_object_data_info = (intersects[0].object.parent[particle_spin_down_property_keys[i]])[0];
 
