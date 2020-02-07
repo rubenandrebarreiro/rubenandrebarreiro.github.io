@@ -97,6 +97,10 @@ var motions_radios, camera_view_radios, xz_grid_checked, spins_motions_checked, 
 var motions_factor;
 
 // The boolean value to keep the information about if
+// the Particle's Spins' Motions are displaying or not
+var is_showing_particle_spins_motions;
+
+// The boolean value to keep the information about if
 // the Electron is in a Quantum Superposition of States
 var quantum_state_of_spins;
 
@@ -202,6 +206,10 @@ function init() {
     // The Motions' Factor for the Nucleus/Proton and Electron's States'
     // rotations' and translactions' movements
     motions_factor = 1.0;
+    
+    // The boolean value to keep the information about if
+    // the Particle's Spins' Motions are displaying or not
+    is_showing_particle_spins_motions = true;
 
     // The integer value to keep the information about if
     // the Particle's Spin it's currently:
@@ -960,6 +968,8 @@ function on_check_particle_spins_motions() {
         
         if(show_particle_spins_motions.checked) {
         
+            is_showing_particle_spins_motions = !is_showing_particle_spins_motions;
+            
             if(quantum_state_of_spins == 0) {
 
                 particle_spin_down_orbit_ring_mesh.material.opacity = 1.0;           
@@ -1040,11 +1050,25 @@ function on_change_particle_spins() {
                 particle_spin_down_motion_pivot.position.y = 0;
                 particle_spin_up_motion_pivot.position.y = 0;
                 
-                particle_spin_down_orbit_ring_material.opacity = 1.0;
-                particle_spin_down_orbit_ring_material.depthTest = true;
+                if( is_showing_particle_spins_motions ) {
                 
-                particle_spin_down_orbit_cone_material.opacity = 1.0;
-                particle_spin_down_orbit_cone_material.depthTest = true;
+                    particle_spin_down_orbit_ring_material.opacity = 1.0;
+                    particle_spin_down_orbit_ring_material.depthTest = true;
+                
+                    particle_spin_down_orbit_cone_material.opacity = 1.0;
+                    particle_spin_down_orbit_cone_material.depthTest = true;
+                    
+                }
+                else {
+                    
+                    particle_spin_down_orbit_ring_material.opacity = 0.0;
+                    particle_spin_down_orbit_ring_material.depthTest = false;
+
+                    particle_spin_down_orbit_cone_material.opacity = 0.0;
+                    particle_spin_down_orbit_cone_material.depthTest = false;
+                    
+                }
+                
                 
                 particle_spin_down_arrow_cylinder_material.opacity = 1.0;
                 particle_spin_down_arrow_cylinder_material.depthTest = true;
@@ -1091,12 +1115,24 @@ function on_change_particle_spins() {
                 particle_spin_down_arrow_cone_material.opacity = 0.0;
                 particle_spin_down_arrow_cone_material.depthTest = false;
                 
+                if( is_showing_particle_spins_motions ) {
                 
-                particle_spin_up_orbit_ring_material.opacity = 1.0;
-                particle_spin_up_orbit_ring_material.depthTest = true;
+                    particle_spin_up_orbit_ring_material.opacity = 1.0;
+                    particle_spin_up_orbit_ring_material.depthTest = true;
                 
-                particle_spin_up_orbit_cone_material.opacity = 1.0;
-                particle_spin_up_orbit_cone_material.depthTest = true;
+                    particle_spin_up_orbit_cone_material.opacity = 1.0;
+                    particle_spin_up_orbit_cone_material.depthTest = true;
+                    
+                }
+                else {
+                    
+                    particle_spin_up_orbit_ring_material.opacity = 0.0;
+                    particle_spin_up_orbit_ring_material.depthTest = false;
+
+                    particle_spin_up_orbit_cone_material.opacity = 0.0;
+                    particle_spin_up_orbit_cone_material.depthTest = false;
+
+                }
                 
                 particle_spin_up_arrow_cylinder_material.opacity = 1.0;
                 particle_spin_up_arrow_cylinder_material.depthTest = true;
@@ -1118,11 +1154,24 @@ function on_change_particle_spins() {
                 particle_spin_down_motion_pivot.position.y = -0.25;
                 particle_spin_up_motion_pivot.position.y = 0.25;
                 
-                particle_spin_down_orbit_ring_material.opacity = 0.5;
-                particle_spin_down_orbit_ring_material.depthTest = false;
-                
-                particle_spin_down_orbit_cone_material.opacity = 0.5;
-                particle_spin_down_orbit_cone_material.depthTest = false;
+                if( is_showing_particle_spins_motions ) {
+                    
+                    particle_spin_down_orbit_ring_material.opacity = 0.5;
+                    particle_spin_down_orbit_ring_material.depthTest = false;
+
+                    particle_spin_down_orbit_cone_material.opacity = 0.5;
+                    particle_spin_down_orbit_cone_material.depthTest = false;
+                    
+                }
+                else {
+                    
+                    particle_spin_down_orbit_ring_material.opacity = 0.0;
+                    particle_spin_down_orbit_ring_material.depthTest = false;
+
+                    particle_spin_down_orbit_cone_material.opacity = 0.0;
+                    particle_spin_down_orbit_cone_material.depthTest = false;
+
+                }
                 
                 particle_spin_down_arrow_cylinder_material.opacity = 0.5;
                 particle_spin_down_arrow_cylinder_material.depthTest = false;
@@ -1131,11 +1180,24 @@ function on_change_particle_spins() {
                 particle_spin_down_arrow_cone_material.depthTest = false;
                 
                 
-                particle_spin_up_orbit_ring_material.opacity = 0.5;
-                particle_spin_up_orbit_ring_material.depthTest = false;
-                
-                particle_spin_up_orbit_cone_material.opacity = 0.5;
-                particle_spin_up_orbit_cone_material.depthTest = false;
+                if( is_showing_particle_spins_motions ) {
+                    
+                    particle_spin_up_orbit_ring_material.opacity = 0.5;
+                    particle_spin_up_orbit_ring_material.depthTest = false;
+
+                    particle_spin_up_orbit_cone_material.opacity = 0.5;
+                    particle_spin_up_orbit_cone_material.depthTest = false;
+                    
+                }
+                else {
+                    
+                    particle_spin_up_orbit_ring_material.opacity = 0.0;
+                    particle_spin_up_orbit_ring_material.depthTest = false;
+
+                    particle_spin_up_orbit_cone_material.opacity = 0.0;
+                    particle_spin_up_orbit_cone_material.depthTest = false;
+
+                }
                 
                 particle_spin_up_arrow_cylinder_material.opacity = 0.5;
                 particle_spin_up_arrow_cylinder_material.depthTest = false;
