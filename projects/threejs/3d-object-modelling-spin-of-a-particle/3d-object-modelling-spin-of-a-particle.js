@@ -587,7 +587,7 @@ function add_particle_spin_up_to_scene() {
 
 
     // Loads the JSON data file of the Electron's Ground State Element
-    /*load_particle_spin_up_json(function(response) {
+    load_particle_spin_up_json(function(response) {
 
         // Parses Electron's Ground State's JSON string into object
         var particle_spin_up_data_json = JSON.parse(response);
@@ -602,11 +602,11 @@ function add_particle_spin_up_to_scene() {
         for(i = 0; i < particle_spin_up_property_keys.length; i++)
             particle_spin_up_arrow_mesh[particle_spin_up_property_keys[i]] = particle_spin_up_data_json[particle_spin_up_property_keys[i]];
 
-    });*/
+    });
 
 
     // Loads the JSON data file of the Electron's Quantum Superposition of States Element
-    /*load_particle_superposition_json(function(response) {
+    load_particle_superposition_json(function(response) {
 
         // Parses Electron's Quantum Superposition of States' JSON string into object
         var particle_spin_up_superposition_data_json = JSON.parse(response);
@@ -621,7 +621,7 @@ function add_particle_spin_up_to_scene() {
         for(i = 0; i < particle_spin_up_superposition_property_keys.length; i++)
             particle_spin_up_arrow_mesh[ (particle_spin_up_property_keys.length + particle_spin_up_superposition_property_keys)[i] ] = particle_spin_up_superposition_data_json[particle_spin_up_superposition_property_keys[i]];
 
-    });*/
+    });
 
     // Creates the group for the Electron's Ground State's Pivot
     particle_spin_up_pivot = new THREE.Group();
