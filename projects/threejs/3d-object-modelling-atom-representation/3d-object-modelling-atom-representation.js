@@ -857,6 +857,8 @@ function on_check_atomic_orbits() {
                 atom_orbit_mesh_4.material.depthTest = true;
             }
             
+            atomic_orbits_checked = true;
+            
 		}
         else {
            
@@ -872,6 +874,8 @@ function on_check_atomic_orbits() {
 			atom_orbit_mesh_4.material.opacity = 0.0;
         	atom_orbit_mesh_4.material.depthTest = false;
 			
+            atomic_orbits_checked = false;
+            
         }
     }
 }
