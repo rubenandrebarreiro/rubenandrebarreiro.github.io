@@ -70,7 +70,7 @@ var atom_orbit_geometry_4, atom_orbit_material_4, atom_orbit_mesh_4, atom_partic
 
 // The Form's Controls/Elements - Radios and Checkboxes for
 // controlling some aspects of the Scene (Atom Representation Scene)
-var motions_radios, camera_view_radios, atom_particle_state_checked_1, atom_particle_state_checked_2, atom_particle_state_checked_3, atom_particle_state_checked_4;
+var motions_radios, camera_view_radios, atomic_orbits_checked, atom_particle_state_checked_1, atom_particle_state_checked_2, atom_particle_state_checked_3, atom_particle_state_checked_4;
 
 
 // The Motions' Factor for the Atom Nucleus and its Particles' States'
@@ -89,6 +89,10 @@ function init() {
     // rotations' and translactions' movements
     motions_factor = 1.0;
 
+    // The Boolean value to keep the information about if
+    // the Atomic Orbits are checked and, currently showing, or not
+    atomic_orbits_checked = true;
+    
     // The Boolean values to keep the information about if
     // the Atom's Particles' States are checked and, currently showing, or not
     atom_particle_state_checked_1 = true;
@@ -881,8 +885,10 @@ function on_check_atom_particle_state_1() {
     show_atom_particle_state_1.onchange = function() {
         if(show_atom_particle_state_1.checked) {
             
-            atom_orbit_mesh_1.material.opacity = 1.0;
-            atom_orbit_mesh_1.material.depthTest = true;
+            if(atomic_orbits_checked) {
+                atom_orbit_mesh_1.material.opacity = 1.0;
+                atom_orbit_mesh_1.material.depthTest = true;
+            }
             
             atom_particle_mesh_1.material.opacity = 1.0;
             atom_particle_mesh_1.material.depthTest = true;
@@ -912,8 +918,10 @@ function on_check_atom_particle_state_2() {
     show_atom_particle_state_2.onchange = function() {
         if(show_atom_particle_state_2.checked) {
             
-            atom_orbit_mesh_2.material.opacity = 1.0;
-            atom_orbit_mesh_2.material.depthTest = true;
+            if(atomic_orbits_checked) {
+                atom_orbit_mesh_2.material.opacity = 1.0;
+                atom_orbit_mesh_2.material.depthTest = true;
+            }
             
             atom_particle_mesh_2.material.opacity = 1.0;
             atom_particle_mesh_2.material.depthTest = true;
@@ -943,8 +951,10 @@ function on_check_atom_particle_state_3() {
     show_atom_particle_state_3.onchange = function() {
         if(show_atom_particle_state_3.checked) {
             
-            atom_orbit_mesh_3.material.opacity = 1.0;
-            atom_orbit_mesh_3.material.depthTest = true;
+            if(atomic_orbits_checked) {
+                atom_orbit_mesh_3.material.opacity = 1.0;
+                atom_orbit_mesh_3.material.depthTest = true;
+            }
             
             atom_particle_mesh_3.material.opacity = 1.0;
             atom_particle_mesh_3.material.depthTest = true;
@@ -974,8 +984,10 @@ function on_check_atom_particle_state_4() {
     show_atom_particle_state_4.onchange = function() {
         if(show_atom_particle_state_4.checked) {
             
-            atom_orbit_mesh_4.material.opacity = 1.0;
-            atom_orbit_mesh_4.material.depthTest = true;
+            if(atomic_orbits_checked) {
+                atom_orbit_mesh_4.material.opacity = 1.0;
+                atom_orbit_mesh_4.material.depthTest = true;
+            }
             
             atom_particle_mesh_4.material.opacity = 1.0;
             atom_particle_mesh_4.material.depthTest = true;
