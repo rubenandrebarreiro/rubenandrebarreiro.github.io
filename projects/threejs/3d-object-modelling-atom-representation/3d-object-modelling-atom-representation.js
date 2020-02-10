@@ -818,19 +818,33 @@ function on_check_xz_grid() {
     }
 }
 
-// Calls a given function, when the Atomic Orbit's Checkbox change
+// Calls a given function, when the Atomic Orbits' Checkbox change
 function on_check_atomic_orbits() {
 
     var show_atomic_orbits = document.getElementById("show_atomic_orbits");
 
     show_atomic_orbits.onchange = function() {
         if(show_atomic_orbits.checked) {
+			
             atom_orbit_mesh_1.material.opacity = 1.0;
-            electron_excited_state_orbit_mesh.material.opacity = 1.0;
-        }
+        	
+			atom_orbit_mesh_2.material.opacity = 1.0;
+        	
+			atom_orbit_mesh_3.material.opacity = 1.0;
+        
+			atom_orbit_mesh_4.material.opacity = 1.0;
+        
+		}
         else {
-            atom_orbit_mesh_1.material.opacity = 0.0;
-            electron_excited_state_orbit_mesh.material.opacity = 0.0;
+           
+			atom_orbit_mesh_1.material.opacity = 0.0;
+        	
+			atom_orbit_mesh_2.material.opacity = 0.0;
+        	
+			atom_orbit_mesh_3.material.opacity = 0.0;
+        
+			atom_orbit_mesh_4.material.opacity = 0.0;
+			
         }
     }
 }
