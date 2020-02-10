@@ -1,0 +1,67 @@
+/*
+
+    LEARNING QUANTUM COMPUTING (ONLINE WEB COURSE)
+    ATOM REPRESENTATION
+
+    AUTHOR:
+    - RUBEN ANDRE BARREIRO
+
+    © COPYRIGHTS - ALL RIGHTS RESERVED
+
+*/
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    color: #000;
+    font-family: Monospace;
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #000000;
+    margin: 0px;
+}
+
+#intro {
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#options_and_settings {
+    color: #ffffff;
+    position: fixed;
+    bottom: 50px;
+    right: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+#motions_settings,
+#show_and_display_settings,
+#specific_options {
+    color: #ff0060;
+}
+
+#copyrights {
+    color: #ff0060;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+a {
+    color: darkorange;
+}
