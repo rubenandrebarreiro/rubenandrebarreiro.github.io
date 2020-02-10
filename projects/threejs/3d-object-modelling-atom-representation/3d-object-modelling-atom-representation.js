@@ -827,23 +827,31 @@ function on_check_atomic_orbits() {
         if(show_atomic_orbits.checked) {
 			
             atom_orbit_mesh_1.material.opacity = 1.0;
-        	
+        	atom_orbit_mesh_1.material.depthTest = true;
+			
 			atom_orbit_mesh_2.material.opacity = 1.0;
+        	atom_orbit_mesh_2.material.depthTest = true;
         	
 			atom_orbit_mesh_3.material.opacity = 1.0;
+        	atom_orbit_mesh_3.material.depthTest = true;
         
 			atom_orbit_mesh_4.material.opacity = 1.0;
+        	atom_orbit_mesh_4.material.depthTest = true;
         
 		}
         else {
            
 			atom_orbit_mesh_1.material.opacity = 0.0;
+        	atom_orbit_mesh_1.material.depthTest = false;
         	
 			atom_orbit_mesh_2.material.opacity = 0.0;
+        	atom_orbit_mesh_2.material.depthTest = false;
         	
 			atom_orbit_mesh_3.material.opacity = 0.0;
-        
+        	atom_orbit_mesh_3.material.depthTest = false;
+       
 			atom_orbit_mesh_4.material.opacity = 0.0;
+        	atom_orbit_mesh_4.material.depthTest = false;
 			
         }
     }
