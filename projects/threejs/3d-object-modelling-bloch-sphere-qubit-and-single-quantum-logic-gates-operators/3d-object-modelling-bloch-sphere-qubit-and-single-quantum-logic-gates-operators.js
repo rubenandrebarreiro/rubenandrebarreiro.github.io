@@ -70,6 +70,9 @@ var qubit_state_result_pos_x_1, qubit_state_result_pos_x_2, qubit_state_result_p
 // The Qubit's State's Amplitudes (Alpha and Beta Values)
 var qubit_state_amplitude_alpha, qubit_state_amplitude_beta;
 
+// The Qubit's States' (States |0⟩ and |1⟩) Probability Values
+var qubit_state_0_probability_value, qubit_state_1_probability_value;
+
 // The XY Axis Grid Helper
 var xy_grid = new THREE.GridHelper(3, 3, new THREE.Color(0xff0000), new THREE.Color(0xffff00));
 
@@ -1325,17 +1328,37 @@ function on_reset() {
     qubit_state_amplitude_alpha = 1.0;
     qubit_state_amplitude_beta = 0.0;
     
+    // The Qubit's States' (States |0⟩ and |1⟩) Probability Values
+    qubit_state_0_probability_value = 1.0;
+    qubit_state_1_probability_value = 0.0;
+    
 }
 
 
 function on_measurement() {
     
-    ( Math.sqrt( Math.pow(qubit_state_mesh.position.x, 2.0) + Math.pow(qubit_state_mesh.position.y, 2.0) ) / qubit_state_mesh.position.z );
+    qubit_state_inclination = Math.atan( Math.sqrt( Math.pow(qubit_state_mesh.position.x, 2.0) + Math.pow(qubit_state_mesh.position.y, 2.0) ) / qubit_state_mesh.position.z );
+    
+    qubit_state_azimuth = Math.atan( qubit_state_mesh.position.y / qubit_state_mesh.position.x );
     
     // The Qubit's State's Amplitudes (Alpha and Beta Values)
-    qubit_state_amplitude_alpha = 1.0;
-    qubit_state_amplitude_beta = 0.0;
+    qubit_state_amplitude_alpha = Math.cos( qubit_state_inclination / 2 );
     
+    import { Complex } from './math.js';
+    
+    var complex_i = new Complex('i');
+    
+    alert(Math.pow(complex_i, 2.0));
+    
+    qubit_state_amplitude_beta = Math.pow(Math.E, (math.i * qubit_state_azimuth) ) * Math.sin( qubit_state_inclination / 2 );
+    
+    // The Qubit's States' (States |0⟩ and |1⟩) Probability Values
+    qubit_state_0_probability_value = Math.pow( Math.abs(qubit_state_amplitude_alpha), 2.0 );
+    qubit_state_1_probability_value = Math.pow( Math.abs(qubit_state_amplitude_beta), 2.0 );
+    
+    var measurement_result_string = "Measurement of the Qubit Performed!!!\n\nResult of the Measurement:\n- |0⟩ (" + qubit_state_0_probability_value + " | " + qubit_state_0_probability_value * 100 + "%)\n- |1⟩ (" + qubit_state_1_probability_value + " | " + qubit_state_1_probability_value * 100 + "%)";
+    
+    alert(measurement_result_string);
 }
 
 // The Animation Process Method
