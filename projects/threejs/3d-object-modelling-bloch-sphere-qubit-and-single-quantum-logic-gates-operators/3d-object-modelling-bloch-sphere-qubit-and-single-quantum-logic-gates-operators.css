@@ -1,7 +1,7 @@
 /*
 
     LEARNING QUANTUM COMPUTING (ONLINE WEB COURSE)
-    BLOCH SPHERE/QUBIT AND SINGLE QUANTUM LOGIC GATES/OPERATORS
+    BLOCH SPHERE (QUBIT) AND SINGLE QUANTUM LOGIC GATES/OPERATORS
 
     AUTHOR:
     - RUBEN ANDRE BARREIRO
@@ -47,6 +47,16 @@ body {
     text-align: left;
 }
 
+#initial_final_operators {
+    color: #ffffff;
+    position: fixed;
+    top: 400px;
+    left: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
 #options_and_settings {
     color: #ffffff;
     position: fixed;
@@ -58,8 +68,7 @@ body {
 }
 
 #motions_settings,
-#show_and_display_settings,
-#specific_options {
+#show_and_display_settings {
     color: #ff0060;
 }
 
@@ -87,11 +96,30 @@ body {
 	text-decoration:none;
 	text-shadow:50px 50px 50px #ffffff;
 }
+.initial_final_operators_button {
+	background:linear-gradient(to bottom, #ff00ee 5%, #0009ff 100%);
+	background-color:#ee00ff;
+	border-radius:10px;
+	border:5px solid #c4c4c4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:monospace;
+	font-size:10px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:50px 50px 50px #ffffff;
+}
 .quantum_logic_gate_operator_button:hover {
 	background:linear-gradient(to bottom, #ff0900 5%, #ff00ee 100%);
 	background-color:#ff0900;
 }
-.quantum_logic_gate_operator_button:active {
+.initial_final_operators_button:hover {
+	background:linear-gradient(to bottom, #0009ff 5%, #ff00ee 100%);
+	background-color:#0009ff;
+}
+.quantum_logic_gate_operator_button, .initial_final_operators_button:active {
 	position:relative;
 	top:1px;
 }

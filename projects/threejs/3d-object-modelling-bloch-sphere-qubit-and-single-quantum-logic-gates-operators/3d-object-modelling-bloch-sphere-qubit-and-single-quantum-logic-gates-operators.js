@@ -1,7 +1,7 @@
 /*
 
     LEARNING QUANTUM COMPUTING (ONLINE WEB COURSE)
-    BLOCH SPHERE/QUBIT AND SINGLE QUANTUM LOGIC GATES/OPERATORS
+    BLOCH SPHERE (QUBIT) AND SINGLE QUANTUM LOGIC GATES/OPERATORS
 
     AUTHOR:
     - RUBEN ANDRE BARREIRO
@@ -28,49 +28,64 @@ const y_axis = new THREE.Vector3(0, 1, 0).normalize();
 // The Z Axis Normalized
 const z_axis = new THREE.Vector3(0, 0, 1).normalize();
 
+// The step of the Quantum Logic Gates/Operators, on the current Bit's state
 const quantum_operator_step = Math.PI / 40;
 
-var qubit_state_result_pos_x_1, qubit_state_result_pos_x_2, qubit_state_result_pos_y_1, qubit_state_result_pos_y_2, qubit_state_result_pos_z_1, qubit_state_result_pos_z_2;
-
-var qubit_state_azimuth, qubit_state_inclination;
-
-
-// The XZ Axis Grid Helper
-var xz_grid = new THREE.GridHelper(3, 3, new THREE.Color(0xff0000), new THREE.Color(0xffff00));        
-xz_grid.rotation.x += (Math.PI / 2);
 
 // Global Instance Variables:
 
 // The Camera, the Trackball Controls (Mouse's/TouchPad's Pointer Controls),
-// the Scene (Atom Representation Scene),
+// the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators),
 // the Renderer of the Scene and
 // the Stats (Statistics of the Rendering Process)
-var camera, controls, atom_representation_scene, renderer, stats;
+var camera, controls, bloch_sphere_qubit_scene, renderer, stats;
 
 // The Coordinates of the Projector and Mouse's/TouchPad's Pointer
 var projector, mouse = { x: window.innerHeight, y: window.innerWidth };
 
-// The Atom Nucleus' Elements
-var atom_nucleus_geometry, atom_nucleus_material, atom_nucleus_mesh, atom_nucleus_pivot;
+// The Bloch Sphere's (Qubit's) Elements
+var bloch_sphere_qubit_geometry, bloch_sphere_qubit_material, bloch_sphere_qubit_mesh, bloch_sphere_qubit_pivot;
+
+// The Bloch Sphere's (Qubit's) Axis' Arrows' Helpers
+var bloch_sphere_axis_arrow_helper_x, bloch_sphere_axis_arrow_helper_y, bloch_sphere_axis_arrow_helper_z;
+
+// The Bloch Sphere's (Qubit's) XY Plane Circumference's Elements
+var bloch_sphere_qubit_xy_plane_circumference_geometry, bloch_sphere_qubit_xy_plane_circumference_material, bloch_sphere_qubit_xy_plane_circumference_mesh;
+
+// The Bloch Sphere's (Qubit's) XZ Plane Circumference's Elements
+var bloch_sphere_qubit_xz_plane_circumference_geometry, bloch_sphere_qubit_xz_plane_circumference_material, bloch_sphere_qubit_xz_plane_circumference_mesh;
+
+// The Bloch Sphere's (Qubit's) YZ Plane Circumference's Elements
+var bloch_sphere_qubit_yz_plane_circumference_geometry, bloch_sphere_qubit_yz_plane_circumference_material, bloch_sphere_qubit_yz_plane_circumference_mesh;
 
 // The Qubit's State's Elements
-var qubit_state_geometry, qubit_state_material, qubit_state_mesh, qubit_state_pivot;
+var qubit_state_geometry, qubit_state_material, qubit_state_mesh;
 
+// The Azimuth and Inclination Angles of the Qubit's State
+var qubit_state_azimuth, qubit_state_inclination;
+
+// The position (x, y, z) of the Qubit's State, after performing a Quantum Logic Gate/Operation
+var qubit_state_result_pos_x_1, qubit_state_result_pos_x_2, qubit_state_result_pos_y_1, qubit_state_result_pos_y_2, qubit_state_result_pos_z_1, qubit_state_result_pos_z_2;
+
+// The Qubit's State's Amplitudes (Alpha and Beta Values)
+var qubit_state_amplitude_alpha, qubit_state_amplitude_beta;
+
+// The XY Axis Grid Helper
+var xy_grid = new THREE.GridHelper(3, 3, new THREE.Color(0xff0000), new THREE.Color(0xffff00));
 
 // The Form's Controls/Elements - Radios and Checkboxes for
-// controlling some aspects of the Scene (Atom Representation Scene)
-var motions_radios, camera_view_radios, atomic_orbits_checked, atom_particle_state_checked_1, atom_particle_state_checked_2, atom_particle_state_checked_3, atom_particle_state_checked_4;
+// controlling some aspects of the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene)
+var bloch_sphere_qubit_motions_radios, quantum_operations_bit_motions_radios, camera_view_radios, bloch_sphere_qubit_wireframe_radios;
 
+// The Motion's Factor for the Bloch Sphere (Qubit) rotation's movements
+var bloch_sphere_qubit_motion_factor;
 
-// The Motions' Factor for the Atom Nucleus and its Particles' States'
-// rotations' and translactions' movements
-var motions_factor;
+// The Motion's Factor for the Bloch Sphere's State (Qubit's State) translactions' movements
+var quantum_operations_bit_motion_factor;
 
-var hadamard_operator_motion_factor_1, hadamard_operator_motion_factor_2, pauli_x_operator_motion_factor, pauli_y_operator_motion_factor, pauli_z_operator_motion_factor;
+// The Motions' Factors for the Quantum Logic Gates/Operators
+var hadamard_operator_motion_factor_1, hadamard_operator_motion_factor_2, pauli_x_operator_motion_factor, pauli_y_operator_motion_factor, pauli_z_operator_motion_factor, phase_pi_2_operator_motion_factor, phase_pi_4_operator_motion_factor;
 
-var current_step;
-
-THREE.Object3D.DefaultUp = new THREE.Vector3(0,0,1);
 
 
 // The Calls for Initiation and Animation Methods
@@ -81,26 +96,18 @@ animate();
 // The Initiation Process Method
 function init() {
 
-    // The Motions' Factor for the Atom's Nucleus and Particles' States'
-    // rotations' and translactions' movements
-    motions_factor = 0.0;
+    // The definition of the Default Up Vector as the Z axis
+    THREE.Object3D.DefaultUp = new THREE.Vector3(0,0,1);
     
-    hadamard_operator_motion_factor_1 = hadamard_operator_motion_factor_2 = pauli_x_operator_motion_factor = pauli_y_operator_motion_factor = pauli_z_operator_motion_factor = 0.0;
+    // The rotation of the XY Grid by PI/2 (i.e., 90 degrees), in X axis
+    xy_grid.rotation.x += (Math.PI / 2);
     
-    qubit_state_result_pos_x_1 = qubit_state_result_pos_x_2 = qubit_state_result_pos_y_1 = qubit_state_result_pos_y_2 = qubit_state_result_pos_z_1 = qubit_state_result_pos_z_2 = 0.0;
+    // The Motion's Factor for the Bloch Sphere's (Qubit's) rotation's movements
+    bloch_sphere_qubit_motion_factor = 0.0;
     
-    qubit_state_azimuth = qubit_state_inclination = 0.0;
-
-    // The Boolean value to keep the information about if
-    // the Atomic Orbits are checked and, currently showing, or not
-    atomic_orbits_checked = true;
+    // The Motion's Factor for the Bloch Sphere's (Qubit's) State's translactions' movements
+    quantum_operations_bit_motion_factor = 1.0;
     
-    // The Boolean values to keep the information about if
-    // the Atom's Particles' States are checked and, currently showing, or not
-    atom_particle_state_checked_1 = true;
-    atom_particle_state_checked_2 = true;
-    atom_particle_state_checked_3 = true;
-    atom_particle_state_checked_4 = true;
     
     // Resets the Camera
     reset_camera();
@@ -114,34 +121,31 @@ function init() {
     // Sets the Events' Listeners
     set_event_listeners();
 
-    // Creates the Scene (Atom Representation Scene)
-    atom_representation_scene = new THREE.Scene();
+    // Creates the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene)
+    bloch_sphere_qubit_scene = new THREE.Scene();
 
 
-    // Adds the Elements of the Scene (Atom Representation Scene):
-    // - The Atom's Nucleus;
-    // - The Atom's Particle's State and its Orbit #1;
-    // - The Atom's Particle's State and its Orbit #2;
-    // - The Atom's Particle's State and its Orbit #3;
-    // - The Atom's Particle's State and its Orbit #4;
+    // Adds the Elements of the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene):
+    // - The Bloch Sphere (Qubit);
+    // - The Bloch Sphere's (Qubit's) State;
     add_elements_to_scene();
 
     // Adds the Lights (Directional and Ambient Lights) to
-    // the Scene (Atom Representation Scene)
+    // the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene)
     add_lights_to_scene();
 
-    // Creates the renderer for the Scene (Atom Representation Scene)
+    // Creates the renderer for the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene)
     create_renderer_of_scene();
-
+    
     // Adds the Stats (Statistics for the Rendering Process)
     add_stats();
 
-    // Handles/Triggers the cunctions for the Events
+    // Handles/Triggers the functions for the Event's Listeners
     trigger_event_listeners();
 
-    // Starts object to perform world/screen calculations
-    projector = new THREE.Projector();
-
+    // Resets the Bloch Sphere's (Qubit's) State
+    on_reset();
+    
     // Starts the Rendering Process
     render();
 
@@ -156,6 +160,13 @@ function reset_camera() {
 function camera_top_view() {
     camera.rotation.x += Math.PI/2;
     camera.position.z = 2.6;
+    camera.lookAt(new THREE.Vector3(0,0,0));
+}
+
+// Makes the transformations for the Camera's Front View
+function camera_front_view() {
+    camera.position.x = 2.6;
+    camera.position.z = 0.4;
     camera.lookAt(new THREE.Vector3(0,0,0));
 }
 
@@ -190,19 +201,32 @@ function start_trackball_controls() {
 // Sets the Event Listeners
 function set_event_listeners() {
 
-    // Gets the Motions' Radio options
-    motions_radios = document.getElementsByName("motions_radios");
+    // Gets the Bloch Sphere's (Qubit's) Motions' Radio options
+    bloch_sphere_qubit_motions_radios = document.getElementsByName("bloch_sphere_qubit_motions_radios");
+
+    // Gets the Quantum Operations' (Bit's) Motions' Radio options
+    quantum_operations_bit_motions_radios = document.getElementsByName("quantum_operations_bit_motions_radios");
 
     // Gets the Camera View's Radio options
     camera_view_radios = document.getElementsByName("camera_view_radios");
 
-    // When the Motions' Radio change, calls the given function
-    document.addEventListener('onchange', on_change_motions);
+    // Gets the Bloch Sphere's (Qubit's) Wireframe's Radio options
+    bloch_sphere_qubit_wireframe_radios = document.getElementsByName("bloch_sphere_qubit_wireframe_radios");
+
+    
+    // When the Bloch Sphere's (Qubit's) Motions' Radio change, calls the given function
+    document.addEventListener('onchange', on_change_bloch_sphere_qubit_motions);
+    
+    // When the Quantum Operations' (Bit's) Motions' Radio change, calls the given function
+    document.addEventListener('onchange', on_change_quantum_operations_bit_motions);
 
     // When the Camera View's Radio change, calls the given function
     document.addEventListener('onchange', on_change_camera_view);
 
-    // When any change occurs in the Scene (Atom Representation Scene),
+    // When the Bloch Sphere's (Qubit's) Wireframe's Radio change, calls the given function
+    document.addEventListener('onchange', on_change_bloch_sphere_qubit_motions);
+    
+    // When any change occurs in the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene),
     // calls the given function
     controls.addEventListener('change', render);
 
@@ -214,123 +238,143 @@ function set_event_listeners() {
 
 }
 
-// Adds the Elements (Atom's Nucleus and, its Particles' States and Orbits) to
-// the Scene (Atom Representation Scene)
+// Adds the Elements (Bloch Sphere (Qubit) and Bloch Sphere's (Qubit's) State) to
+// the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene)
 function add_elements_to_scene() {
 
-    // Adds the Atom's Nucleus
-    add_atom_nucleus_to_scene();
+    // Adds Bloch Sphere (Qubit)
+    add_bloch_sphere_qubit();
     
-    add_qubit_state_to_scene();
+    // Adds Bloch Sphere's (Qubit's) Plane Circumferences
+    add_bloch_sphere_qubit_plane_circumferences();
+    
+    // Adds Bloch Sphere's (Qubit's) Axis' Arrows' Helpers
+    add_bloch_sphere_qubit_axis_arrows_helpers();
+    
+    // Adds Bloch Sphere's (Qubit's) State 
+    add_qubit_state();
+    
+    // Adds the group for the Bloch Sphere's (Qubit's) Pivot to
+    // the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene) 
+    bloch_sphere_qubit_scene.add(bloch_sphere_qubit_pivot);
     
 }
 
-// Adds the Atom's Nucleus to the Scene (Atom Representation Scene)
-function add_atom_nucleus_to_scene() {
+// Adds the Bloch Sphere (Qubit) to the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene)
+function add_bloch_sphere_qubit() {
 
     // Creates the Geometry of the Sphere representing
-    // the Atom's Nucleus
-    atom_nucleus_geometry = new THREE.SphereBufferGeometry(1, 80, 80);
-    atom_nucleus_geometry.computeBoundingBox();
+    // the Bloch Sphere (Qubit)
+    bloch_sphere_qubit_geometry = new THREE.SphereBufferGeometry(1, 80, 80);
+    bloch_sphere_qubit_geometry.computeBoundingBox();
     
     // Creates the Material of the Sphere representing
-    // the Atom's Nucleus
-
-    var atom_nucleus_material = new THREE.ShaderMaterial({
-  uniforms: {
-    color1: {
-      value: new THREE.Color("red")
-    },
-    color2: {
-      value: new THREE.Color("purple")
-    },
-    bboxMin: {
-      value: atom_nucleus_geometry.boundingBox.min
-    },
-    bboxMax: {
-      value: atom_nucleus_geometry.boundingBox.max
-    }
-  },
-  vertexShader: `
-    uniform vec3 bboxMin;
-    uniform vec3 bboxMax;
+    // the Bloch Sphere (Qubit)
+    bloch_sphere_qubit_material = new THREE.ShaderMaterial({
+        uniforms: {
+            color_1: {
+                value: new THREE.Color("red")
+            },
+            color_2: {
+                value: new THREE.Color("purple")
+            },
+            b_box_min: {
+                value: bloch_sphere_qubit_geometry.boundingBox.min
+            },
+            b_box_max: {
+              value: bloch_sphere_qubit_geometry.boundingBox.max
+            }
+        },
+        vertexShader: `
+            uniform vec3 b_box_min;
+            uniform vec3 b_box_max;
   
-    varying vec2 vUv;
+            varying vec2 v_u_v;
 
-    void main() {
-      vUv.y = (position.y - bboxMin.y) / (bboxMax.y - bboxMin.y);
-      gl_Position = projectionMatrix * modelViewMatrix * vec4(position,1.0);
-    }
-  `,
-  fragmentShader: `
-    uniform vec3 color1;
-    uniform vec3 color2;
+            void main() {
+                v_u_v.y = (position.y - b_box_min.y) / (b_box_max.y - b_box_min.y);
+                gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0);
+            }
+        `,
+        fragmentShader: `
+            uniform vec3 color_1;
+            uniform vec3 color_2;
   
-    varying vec2 vUv;
+            varying vec2 v_u_v;
     
-    void main() {
-      
-      gl_FragColor = vec4(mix(color1, color2, vUv.y), 0.5);
-    }
-  `,
-  wireframe: false,
-  transparent: true,
-  opacity: 0.5
-});
+            void main() {
+                gl_FragColor = vec4(mix(color_1, color_2, v_u_v.y), 0.5);
+            }
+        `,
+        wireframe: false,
+        transparent: true,
+        opacity: 0.5
+    });
     
 
-    // Creates the Mesh of the Atom's Nucleus
-    atom_nucleus_mesh = new THREE.Mesh(atom_nucleus_geometry, atom_nucleus_material);
+    // Creates the Mesh of Bloch Sphere (Qubit)
+    bloch_sphere_qubit_mesh = new THREE.Mesh(bloch_sphere_qubit_geometry, bloch_sphere_qubit_material);
+    
+    // Creates the group for the Atom's Nucleus' Pivot
+    bloch_sphere_qubit_pivot = new THREE.Group();
 
-    var ring_geometry_1 = new THREE.RingGeometry( 0.995, 1.0, 80 );
-    var ring_material_1 = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
-    var ring_mesh_1 = new THREE.Mesh( ring_geometry_1, ring_material_1 );
+    // Adds the Mesh of the Atom's Nucleus to
+    // the group for the Atom's Nucleus' Pivot
+    bloch_sphere_qubit_pivot.add(bloch_sphere_qubit_mesh);
     
-    var ring_geometry_2 = new THREE.RingGeometry( 0.995, 1.0, 80 );
-    var ring_material_2 = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
-    var ring_mesh_2 = new THREE.Mesh( ring_geometry_2, ring_material_2 );
+}
+
+// Adds Bloch Sphere's (Qubit's) Plane Circumferences
+function add_bloch_sphere_qubit_plane_circumferences() {
     
-    ring_mesh_2.rotation.x += Math.PI / 2;
+    // The Bloch Sphere's (Qubit's) Plane XY Circumference
+    bloch_sphere_qubit_xy_plane_circumference_geometry = new THREE.RingGeometry( 0.995, 1.0, 80 );
+    bloch_sphere_qubit_xy_plane_circumference_material = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide, transparent: false, opacity: 1.0 } );
+    bloch_sphere_qubit_xy_plane_circumference_mesh = new THREE.Mesh( bloch_sphere_qubit_xy_plane_circumference_geometry, bloch_sphere_qubit_xy_plane_circumference_material );
     
-    var ring_geometry_3 = new THREE.RingGeometry( 0.995, 1.0, 80 );
-    var ring_material_3 = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide } );
-    var ring_mesh_3 = new THREE.Mesh( ring_geometry_3, ring_material_3 );
     
-    ring_mesh_3.rotation.y += Math.PI / 2;
+    // The Bloch Sphere's (Qubit's) Plane XZ Circumference
+    bloch_sphere_qubit_xz_plane_circumference_geometry = new THREE.RingGeometry( 0.995, 1.0, 80 );
+    bloch_sphere_qubit_xz_plane_circumference_material = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide, transparent: false, opacity: 1.0 } );
+    bloch_sphere_qubit_xz_plane_circumference_mesh = new THREE.Mesh( bloch_sphere_qubit_xz_plane_circumference_geometry, bloch_sphere_qubit_xz_plane_circumference_material );
+    
+    bloch_sphere_qubit_xz_plane_circumference_mesh.rotation.x += Math.PI / 2;
+    
+    
+    // The Bloch Sphere's (Qubit's) Plane YZ Circumference
+    bloch_sphere_qubit_yz_plane_circumference_geometry = new THREE.RingGeometry( 0.995, 1.0, 80 );
+    bloch_sphere_qubit_yz_plane_circumference_material = new THREE.MeshBasicMaterial( { color: 0xffffff, side: THREE.DoubleSide, transparent: false, opacity: 1.0 } );
+    bloch_sphere_qubit_yz_plane_circumference_mesh = new THREE.Mesh( bloch_sphere_qubit_yz_plane_circumference_geometry, bloch_sphere_qubit_yz_plane_circumference_material );
+    
+    bloch_sphere_qubit_yz_plane_circumference_mesh.rotation.y += Math.PI / 2;
+    
+    // Adds the Bloch Sphere's (Qubit's) Plane Circumferences to
+    // the Mesh of the Bloch Sphere (Qubit)
+    bloch_sphere_qubit_mesh.add(bloch_sphere_qubit_xy_plane_circumference_mesh);
+    bloch_sphere_qubit_mesh.add(bloch_sphere_qubit_xz_plane_circumference_mesh);
+    bloch_sphere_qubit_mesh.add(bloch_sphere_qubit_yz_plane_circumference_mesh);
+
+}
+
+// Adds Bloch Sphere's (Qubit's) Axis' Arrows' Helpers
+function add_bloch_sphere_qubit_axis_arrows_helpers() {
     
     var origin = new THREE.Vector3( 0, 0, 0 );
     var length = 1.4;
     var hex = 0xffff00;
 
-    var bloch_sphere_axis_arrow_helper_x = new THREE.ArrowHelper( x_axis, origin, length, hex );
-    var bloch_sphere_axis_arrow_helper_y = new THREE.ArrowHelper( y_axis, origin, length, hex );
-    var bloch_sphere_axis_arrow_helper_z = new THREE.ArrowHelper( z_axis, origin, length, hex );
+    bloch_sphere_axis_arrow_helper_x = new THREE.ArrowHelper( x_axis, origin, length, hex );
+    bloch_sphere_axis_arrow_helper_y = new THREE.ArrowHelper( y_axis, origin, length, hex );
+    bloch_sphere_axis_arrow_helper_z = new THREE.ArrowHelper( z_axis, origin, length, hex );
     
-    atom_nucleus_mesh.add( bloch_sphere_axis_arrow_helper_x );
-    atom_nucleus_mesh.add( bloch_sphere_axis_arrow_helper_y );
-    atom_nucleus_mesh.add( bloch_sphere_axis_arrow_helper_z );
+    bloch_sphere_qubit_mesh.add( bloch_sphere_axis_arrow_helper_x );
+    bloch_sphere_qubit_mesh.add( bloch_sphere_axis_arrow_helper_y );
+    bloch_sphere_qubit_mesh.add( bloch_sphere_axis_arrow_helper_z );
     
-    
-    // Creates the group for the Atom's Nucleus' Pivot
-    atom_nucleus_pivot = new THREE.Group();
-
-    // Adds the Mesh of the Atom's Nucleus to
-    // the group for the Atom's Nucleus' Pivot
-    atom_nucleus_pivot.add(atom_nucleus_mesh);
-
-    atom_nucleus_pivot.add(ring_mesh_1);
-    atom_nucleus_pivot.add(ring_mesh_2);
-    atom_nucleus_pivot.add(ring_mesh_3);
-    
-    
-    // Adds the group for the Atom's Nucleus' Pivot to
-    // the Scene (Atom Representation Scene) 
-    atom_representation_scene.add(atom_nucleus_pivot);
-
 }
 
 // Adds the Atom's Nucleus to the Scene (Atom Representation Scene)
-function add_qubit_state_to_scene() {
+function add_qubit_state() {
 
     // Creates the Geometry of the Sphere representing
     // the Atom's Nucleus
@@ -344,19 +388,10 @@ function add_qubit_state_to_scene() {
 
     // Creates the Mesh of the Atom's Nucleus
     qubit_state_mesh = new THREE.Mesh(qubit_state_geometry, qubit_state_material);
-
-    qubit_state_mesh.position.z = 1;
     
-    // Creates the group for the Atom's Nucleus' Pivot
-    qubit_state_pivot = new THREE.Group();
-
     // Adds the Mesh of the Atom's Nucleus to
     // the group for the Atom's Nucleus' Pivot
-    qubit_state_pivot.add(qubit_state_mesh);
-
-    // Adds the group for the Atom's Nucleus' Pivot to
-    // the Scene (Atom Representation Scene) 
-    atom_representation_scene.add(qubit_state_pivot);
+    bloch_sphere_qubit_mesh.add(qubit_state_mesh);
 
 }
 
@@ -373,7 +408,7 @@ function add_lights_to_scene() {
 
     // Adds the previously created directional light to
     // Scene (Atom Representation Scene)
-    atom_representation_scene.add(directional_light_1);
+    bloch_sphere_qubit_scene.add(directional_light_1);
 
 
     // Creates a blue directional light
@@ -385,7 +420,7 @@ function add_lights_to_scene() {
 
     // Adds the previously created directional light to
     // Scene (Atom Representation Scene)
-    atom_representation_scene.add(directional_light_2);
+    bloch_sphere_qubit_scene.add(directional_light_2);
 
 
     // Creates a gray ambient light
@@ -393,7 +428,7 @@ function add_lights_to_scene() {
 
     // Adds the previously created ambient light to
     // Scene (Atom Representation Scene)
-    atom_representation_scene.add(ambient_light);
+    bloch_sphere_qubit_scene.add(ambient_light);
 
 }
 
@@ -437,16 +472,40 @@ function add_stats() {
 function trigger_event_listeners() {
 
     // Handles/Triggers the Function for
-    // changes in the Motions' Radio
-    on_change_motions();
+    // changes in the Bloch Sphere's (Qubit's) Motions' Radio
+    on_change_bloch_sphere_qubit_motions();
 
+    // Handles/Triggers the Function for
+    // changes in the Quantum Operations' (Bit's) Motions' Radio
+    on_change_quantum_operations_bit_motions();
+    
     // Handles/Triggers the Function for
     // changes in the Camera View's Radio
     on_change_camera_view();
 
     // Handles/Triggers the Function for
-    // changes in the XZ Grid's Checkbox
-    on_check_xz_grid();
+    // changes in the Bloch Sphere's (Qubit's) Wireframe's Radio
+    on_change_bloch_sphere_qubit_wireframe();
+    
+    // Handles/Triggers the Function for
+    // changes in the XY Grid's Checkbox
+    on_check_xy_grid();
+    
+    // Handles/Triggers the Function for
+    // changes in the Axis' Arrows' Helpers' Checkbox
+    on_check_axis_arrows_helpers();
+    
+    // Handles/Triggers the Function for
+    // changes in the XY Plane Circumference's Checkbox
+    on_check_xy_plane_circumference();
+    
+    // Handles/Triggers the Function for
+    // changes in the XZ Plane Circumference's Checkbox
+    on_check_xz_plane_circumference();
+    
+    // Handles/Triggers the Function for
+    // changes in the YZ Plane Circumference's Checkbox
+    on_check_yz_plane_circumference();
     
 }
 
@@ -478,17 +537,37 @@ function on_document_mouse_move(event) {
 
 }
 
-// Calls a given function, when the Motions' Radio change
-function on_change_motions() {
+// Calls a given function, when the Bloch Sphere's (Qubit's) Motions' Radio change
+function on_change_bloch_sphere_qubit_motions() {
 
-    for(var i = 0, length = motions_radios.length; i < length; i++) {
-        motions_radios[i].onchange = function() {    
+    for(var i = 0, length = bloch_sphere_qubit_motions_radios.length; i < length; i++) {
+        bloch_sphere_qubit_motions_radios[i].onchange = function() {    
 
-            if(motions_radios[0].checked) {
-                motions_factor = 1.0;
+            if(bloch_sphere_qubit_motions_radios[0].checked) {
+                bloch_sphere_qubit_motion_factor = 1.0;
             }
             else {
-                motions_factor = 0.0;    
+                bloch_sphere_qubit_motion_factor = 0.0;    
+            }
+
+            start_trackball_controls();
+
+        }
+    }
+
+}
+
+// Calls a given function, when the Quantum Operations' (Qubit's) Motions' Radio change
+function on_change_quantum_operations_bit_motions() {
+
+    for(var i = 0, length = quantum_operations_bit_motions_radios.length; i < length; i++) {
+        quantum_operations_bit_motions_radios[i].onchange = function() {    
+
+            if(quantum_operations_bit_motions_radios[0].checked) {
+                quantum_operations_bit_motion_factor = 1.0;
+            }
+            else {
+                quantum_operations_bit_motion_factor = 0.0;    
             }
 
             start_trackball_controls();
@@ -509,6 +588,11 @@ function on_change_camera_view() {
 
                 camera_top_view();
             }
+            else if(camera_view_radios[1].checked) {
+                reset_camera();
+
+                camera_front_view();    
+            }
             else {
                 reset_camera();
 
@@ -522,23 +606,113 @@ function on_change_camera_view() {
 
 }
 
+// Calls a given function, when the Bloch Sphere's (Qubit's) Wireframe's Radio change
+function on_change_bloch_sphere_qubit_wireframe() {
+
+    for(var i = 0, length = bloch_sphere_qubit_wireframe_radios.length; i < length; i++) {
+        bloch_sphere_qubit_wireframe_radios[i].onchange = function() {    
+
+            if(bloch_sphere_qubit_wireframe_radios[0].checked) {
+                bloch_sphere_qubit_mesh.material.wireframe = true;
+            }
+            else {
+                bloch_sphere_qubit_mesh.material.wireframe = false;
+            }
+
+            start_trackball_controls();
+
+        }
+    }
+
+}
+
 // Calls a given function, when the XZ Grid's Checkbox change
-function on_check_xz_grid() {
+function on_check_xy_grid() {
 
-    var show_xz_grid = document.getElementById("show_xz_grid");
+    var show_xy_grid = document.getElementById("show_xy_grid");
 
-    show_xz_grid.onchange = function() {
-        if(show_xz_grid.checked) {
-            atom_representation_scene.add(xz_grid);
+    show_xy_grid.onchange = function() {
+        if(show_xy_grid.checked) {
+            bloch_sphere_qubit_scene.add(xy_grid);
         }
         else {
-            atom_representation_scene.remove(xz_grid);
+            bloch_sphere_qubit_scene.remove(xy_grid);
+        }
+    }
+}
+
+// Calls a given function, when the Axis' Arrows' Helpers' Checkbox change
+function on_check_axis_arrows_helpers() {
+
+    var show_axis_arrows_helpers = document.getElementById("show_axis_arrows_helpers");
+
+    show_axis_arrows_helpers.onchange = function() {
+        if(show_axis_arrows_helpers.checked) {
+            bloch_sphere_qubit_mesh.add( bloch_sphere_axis_arrow_helper_x );
+            bloch_sphere_qubit_mesh.add( bloch_sphere_axis_arrow_helper_y );
+            bloch_sphere_qubit_mesh.add( bloch_sphere_axis_arrow_helper_z );
+        }
+        else {
+            bloch_sphere_qubit_mesh.remove( bloch_sphere_axis_arrow_helper_x );
+            bloch_sphere_qubit_mesh.remove( bloch_sphere_axis_arrow_helper_y );
+            bloch_sphere_qubit_mesh.remove( bloch_sphere_axis_arrow_helper_z );
+        }
+    }
+}
+
+// Calls a given function, when the XY Plane Circumference's Checkbox change
+function on_check_xy_plane_circumference() {
+
+    var show_xy_plane_circumference = document.getElementById("show_xy_plane_circumference");
+
+    show_xy_plane_circumference.onchange = function() {
+        if(show_xy_plane_circumference.checked) {
+            bloch_sphere_qubit_xy_plane_circumference_mesh.material.transparent = false;
+            bloch_sphere_qubit_xy_plane_circumference_mesh.material.opacity = 1.0;
+        }
+        else {
+            bloch_sphere_qubit_xy_plane_circumference_mesh.material.transparent = true;
+            bloch_sphere_qubit_xy_plane_circumference_mesh.material.opacity = 0.0;
+        }
+    }
+}
+
+// Calls a given function, when the XZ Plane Circumference's Checkbox change
+function on_check_xz_plane_circumference() {
+
+    var show_xz_plane_circumference = document.getElementById("show_xz_plane_circumference");
+
+    show_xz_plane_circumference.onchange = function() {
+        if(show_xz_plane_circumference.checked) {
+            bloch_sphere_qubit_xz_plane_circumference_mesh.material.transparent = false;
+            bloch_sphere_qubit_xz_plane_circumference_mesh.material.opacity = 1.0;
+        }
+        else {
+            bloch_sphere_qubit_xz_plane_circumference_mesh.material.transparent = true;
+            bloch_sphere_qubit_xz_plane_circumference_mesh.material.opacity = 0.0;
+        }
+    }
+}
+
+// Calls a given function, when the YZ Plane Circumference's Checkbox change
+function on_check_yz_plane_circumference() {
+
+    var show_yz_plane_circumference = document.getElementById("show_yz_plane_circumference");
+
+    show_yz_plane_circumference.onchange = function() {
+        if(show_yz_plane_circumference.checked) {
+            bloch_sphere_qubit_yz_plane_circumference_mesh.material.transparent = false;
+            bloch_sphere_qubit_yz_plane_circumference_mesh.material.opacity = 1.0;
+        }
+        else {
+            bloch_sphere_qubit_yz_plane_circumference_mesh.material.transparent = true;
+            bloch_sphere_qubit_yz_plane_circumference_mesh.material.opacity = 0.0;
         }
     }
 }
 
 
-function on_idle_operator() {
+function on_pauli_i_operator() {
 
     setTimeout(function() {
         // "Dummy" operation,
@@ -797,14 +971,14 @@ function check_hadamard_operator() {
 function do_hadamard_operation() {
     
     var quaternion_for_hadamard_operator_1 = new THREE.Quaternion();
-    quaternion_for_hadamard_operator_1.setFromAxisAngle( z_axis, ( hadamard_operator_motion_factor_1 * quantum_operator_step * 0.08 ) );
+    quaternion_for_hadamard_operator_1.setFromAxisAngle( z_axis, ( quantum_operations_bit_motion_factor * hadamard_operator_motion_factor_1 * quantum_operator_step * 0.08 ) );
         
     // Setting and applying the quarternion's Y Axis for the Atom's State #1
     qubit_state_mesh.position.applyQuaternion(quaternion_for_hadamard_operator_1);
     
     
     var quaternion_for_hadamard_operator_2 = new THREE.Quaternion();
-    quaternion_for_hadamard_operator_2.setFromAxisAngle( y_axis, ( hadamard_operator_motion_factor_2 * quantum_operator_step * 0.08 ) );
+    quaternion_for_hadamard_operator_2.setFromAxisAngle( y_axis, ( quantum_operations_bit_motion_factor * hadamard_operator_motion_factor_2 * quantum_operator_step * 0.08 ) );
         
     // Setting and applying the quarternion's Y Axis for the Atom's State #1
     qubit_state_mesh.position.applyQuaternion(quaternion_for_hadamard_operator_2);
@@ -868,7 +1042,7 @@ function check_pauli_x_operator() {
 function do_pauli_x_operation() {
     
     var quaternion_for_pauli_x_operator = new THREE.Quaternion();
-    quaternion_for_pauli_x_operator.setFromAxisAngle( x_axis, ( pauli_x_operator_motion_factor * quantum_operator_step * 0.08 ) );
+    quaternion_for_pauli_x_operator.setFromAxisAngle( x_axis, ( quantum_operations_bit_motion_factor * pauli_x_operator_motion_factor * quantum_operator_step * 0.08 ) );
         
     // Setting and applying the quarternion's Y Axis for the Atom's State #1
     qubit_state_mesh.position.applyQuaternion(quaternion_for_pauli_x_operator);
@@ -932,7 +1106,7 @@ function check_pauli_y_operator() {
 function do_pauli_y_operation() {
     
     var quaternion_for_pauli_y_operator = new THREE.Quaternion();
-    quaternion_for_pauli_y_operator.setFromAxisAngle( y_axis, ( pauli_y_operator_motion_factor * quantum_operator_step * 0.08 ) );
+    quaternion_for_pauli_y_operator.setFromAxisAngle( y_axis, ( quantum_operations_bit_motion_factor * pauli_y_operator_motion_factor * quantum_operator_step * 0.08 ) );
         
     // Setting and applying the quarternion's Y Axis for the Atom's State #1
     qubit_state_mesh.position.applyQuaternion(quaternion_for_pauli_y_operator);
@@ -996,13 +1170,173 @@ function check_pauli_z_operator() {
 function do_pauli_z_operation() {
     
     var quaternion_for_pauli_z_operator = new THREE.Quaternion();
-    quaternion_for_pauli_z_operator.setFromAxisAngle( z_axis, ( pauli_z_operator_motion_factor * quantum_operator_step * 0.08 ) );
+    quaternion_for_pauli_z_operator.setFromAxisAngle( z_axis, ( quantum_operations_bit_motion_factor * pauli_z_operator_motion_factor * quantum_operator_step * 0.08 ) );
         
     // Setting and applying the quarternion's Y Axis for the Atom's State #1
     qubit_state_mesh.position.applyQuaternion(quaternion_for_pauli_z_operator);
     
 }
 
+
+var check_phase_pi_2_operator = setInterval(check_phase_pi_2_operator, 1);
+
+function on_phase_pi_2_operator() {
+    
+    phase_pi_2_operator_motion_factor = 1.0;
+    
+    qubit_state_azimuth += ( Math.PI/2 );
+    qubit_state_inclination += 0;
+    
+    
+    qubit_state_result_pos_x_1 = Math.sin(qubit_state_inclination) * Math.cos(qubit_state_azimuth);
+    qubit_state_result_pos_y_1 = Math.sin(qubit_state_inclination) * Math.sin(qubit_state_azimuth);
+    qubit_state_result_pos_z_1 = Math.cos(qubit_state_inclination);
+    
+    qubit_state_result_pos_x_1 = qubit_state_result_pos_x_1.toFixed(8);
+    qubit_state_result_pos_y_1 = qubit_state_result_pos_y_1.toFixed(8);
+    qubit_state_result_pos_z_1 = qubit_state_result_pos_z_1.toFixed(8);
+    
+}
+
+function check_phase_pi_2_operator() {
+    
+    if(phase_pi_2_operator_motion_factor == 1.0) {
+        
+        if( qubit_state_mesh.position.x.toFixed(8) == -0 ) {
+            qubit_state_mesh.position.x = 0;
+        }
+        
+        if( qubit_state_mesh.position.y.toFixed(8) == -0 ) {
+            qubit_state_mesh.position.y = 0;
+        }
+        
+        if( qubit_state_mesh.position.z.toFixed(8) == -0 ) {
+            qubit_state_mesh.position.z = 0;
+        }
+        
+        
+        var is_qubit_state_pos_x_correct = ( parseFloat(qubit_state_mesh.position.x.toFixed(8)) == parseFloat(qubit_state_result_pos_x_1) );
+        
+        var is_qubit_state_pos_y_correct = ( parseFloat(qubit_state_mesh.position.y.toFixed(8)) == parseFloat(qubit_state_result_pos_y_1) );
+        
+        var is_qubit_state_pos_z_correct = ( parseFloat(qubit_state_mesh.position.z.toFixed(8)) == parseFloat(qubit_state_result_pos_z_1) );
+        
+        
+        if( is_qubit_state_pos_x_correct && is_qubit_state_pos_y_correct && is_qubit_state_pos_z_correct ) {
+            
+            phase_pi_2_operator_motion_factor = 0.0;
+            
+        }
+    }
+    
+}
+
+function do_phase_pi_2_operation() {
+    
+    var quaternion_for_phase_pi_2_operator = new THREE.Quaternion();
+    quaternion_for_phase_pi_2_operator.setFromAxisAngle( z_axis, ( quantum_operations_bit_motion_factor * phase_pi_2_operator_motion_factor * quantum_operator_step * 0.08 ) );
+        
+    // Setting and applying the quarternion's Y Axis for the Atom's State #1
+    qubit_state_mesh.position.applyQuaternion(quaternion_for_phase_pi_2_operator);
+    
+}
+
+
+var check_phase_pi_4_operator = setInterval(check_phase_pi_4_operator, 1);
+
+function on_phase_pi_4_operator() {
+    
+    phase_pi_4_operator_motion_factor = 1.0;
+    
+    qubit_state_azimuth += ( Math.PI/4 );
+    qubit_state_inclination += 0;
+    
+    
+    qubit_state_result_pos_x_1 = Math.sin(qubit_state_inclination) * Math.cos(qubit_state_azimuth);
+    qubit_state_result_pos_y_1 = Math.sin(qubit_state_inclination) * Math.sin(qubit_state_azimuth);
+    qubit_state_result_pos_z_1 = Math.cos(qubit_state_inclination);
+    
+    qubit_state_result_pos_x_1 = qubit_state_result_pos_x_1.toFixed(8);
+    qubit_state_result_pos_y_1 = qubit_state_result_pos_y_1.toFixed(8);
+    qubit_state_result_pos_z_1 = qubit_state_result_pos_z_1.toFixed(8);
+    
+}
+
+function check_phase_pi_4_operator() {
+    
+    if(phase_pi_4_operator_motion_factor == 1.0) {
+        
+        if( qubit_state_mesh.position.x.toFixed(8) == -0 ) {
+            qubit_state_mesh.position.x = 0;
+        }
+        
+        if( qubit_state_mesh.position.y.toFixed(8) == -0 ) {
+            qubit_state_mesh.position.y = 0;
+        }
+        
+        if( qubit_state_mesh.position.z.toFixed(8) == -0 ) {
+            qubit_state_mesh.position.z = 0;
+        }
+        
+        
+        var is_qubit_state_pos_x_correct = ( parseFloat(qubit_state_mesh.position.x.toFixed(8)) == parseFloat(qubit_state_result_pos_x_1) );
+        
+        var is_qubit_state_pos_y_correct = ( parseFloat(qubit_state_mesh.position.y.toFixed(8)) == parseFloat(qubit_state_result_pos_y_1) );
+        
+        var is_qubit_state_pos_z_correct = ( parseFloat(qubit_state_mesh.position.z.toFixed(8)) == parseFloat(qubit_state_result_pos_z_1) );
+        
+        
+        if( is_qubit_state_pos_x_correct && is_qubit_state_pos_y_correct && is_qubit_state_pos_z_correct ) {
+            
+            phase_pi_4_operator_motion_factor = 0.0;
+            
+        }
+    }
+    
+}
+
+function do_phase_pi_4_operation() {
+    
+    var quaternion_for_phase_pi_4_operator = new THREE.Quaternion();
+    quaternion_for_phase_pi_4_operator.setFromAxisAngle( z_axis, ( quantum_operations_bit_motion_factor * phase_pi_4_operator_motion_factor * quantum_operator_step * 0.08 ) );
+        
+    // Setting and applying the quarternion's Y Axis for the Atom's State #1
+    qubit_state_mesh.position.applyQuaternion(quaternion_for_phase_pi_4_operator);
+    
+}
+
+
+function on_reset() {
+    
+    // The initial position of the Qubit's State (x = 0, y = 0, z = 1)
+    qubit_state_mesh.position.x = qubit_state_mesh.position.y = 0.0;
+    qubit_state_mesh.position.z = 1.0;
+    
+    // The Motions' Factors for the Quantum Login Gates/Operators
+    hadamard_operator_motion_factor_1 = hadamard_operator_motion_factor_2 = pauli_x_operator_motion_factor = pauli_y_operator_motion_factor = pauli_z_operator_motion_factor = phase_pi_2_operator_motion_factor = phase_pi_4_operator_motion_factor = 0.0;
+
+    // The Azimuth and Inclination Angles of the Qubit's State    
+    qubit_state_azimuth = qubit_state_inclination = 0.0;
+
+    // The position (x, y, z) of the Qubit's State, after performing a Quantum Logic Gate/Operation    
+    qubit_state_result_pos_x_1 = qubit_state_result_pos_x_2 = qubit_state_result_pos_y_1 = qubit_state_result_pos_y_2 = qubit_state_result_pos_z_1 = qubit_state_result_pos_z_2 = 0.0;
+    
+    // The Qubit's State's Amplitudes (Alpha and Beta Values)
+    qubit_state_amplitude_alpha = 1.0;
+    qubit_state_amplitude_beta = 0.0;
+    
+}
+
+
+function on_measurement() {
+    
+    ( Math.sqrt( Math.pow(qubit_state_mesh.position.x, 2.0) + Math.pow(qubit_state_mesh.position.y, 2.0) ) / qubit_state_mesh.position.z );
+    
+    // The Qubit's State's Amplitudes (Alpha and Beta Values)
+    qubit_state_amplitude_alpha = 1.0;
+    qubit_state_amplitude_beta = 0.0;
+    
+}
 
 // The Animation Process Method
 function animate() {
@@ -1022,48 +1356,12 @@ function animate() {
 // The Atom's Nucleus and Particle's States' rotation movements
 function atom_nucleus_and_particles_rotation_movements() {
     
-    var atom_nucleus_rotation_speed = ( motions_factor * 0.0001 * 28 );
-    var atom_particles_rotation_speed = ( motions_factor * 0.01 * 28 );
+    var atom_nucleus_rotation_speed = ( bloch_sphere_qubit_motion_factor * 0.0001 * 28 );
     
-    atom_nucleus_mesh.rotation.z += atom_nucleus_rotation_speed;
+    bloch_sphere_qubit_mesh.rotation.z += atom_nucleus_rotation_speed;
     
 }
 
-// The Atom's Particles' States' translaction movements around the Atom's Nucleus
-function particles_translaction_movements() {
-
-    // Creating the quarternion for the Atom's State #1
-    /*var quaternion_for_atom_state_1 = new THREE.Quaternion();
-
-    // Setting and applying the quarternion's Y Axis for the Atom's State #1
-    quaternion_for_atom_state_1.setFromAxisAngle( y_axis, ( motions_factor * 0.02 ) );
-    atom_particle_mesh_1.position.applyQuaternion(quaternion_for_atom_state_1);
-    
-    
-    // Creating the quarternion for the Atom's State #2
-    var quaternion_for_atom_state_2 = new THREE.Quaternion();
-
-    // Setting and applying the quarternion's X Axis for the Atom's State #2
-    quaternion_for_atom_state_2.setFromAxisAngle( x_axis, ( motions_factor * 0.02 ) );
-    atom_particle_mesh_2.position.applyQuaternion(quaternion_for_atom_state_2);
-    
-    
-    // Creating the quarternion for the Atom's State #3
-    var quaternion_for_atom_state_3 = new THREE.Quaternion();
-
-    // Setting and applying the quarternion's XY Axis for the Atom's State #3
-    quaternion_for_atom_state_3.setFromAxisAngle( xy_axis_1, ( motions_factor * 0.02 ) );
-    atom_particle_mesh_3.position.applyQuaternion(quaternion_for_atom_state_3);
-    
-    
-    // Creating the quarternion for the Atom's State #4
-    var quaternion_for_atom_state_4 = new THREE.Quaternion();
-
-    // Setting and applying the quarternion's XY Axis for the Atom's State #4
-    quaternion_for_atom_state_4.setFromAxisAngle( xy_axis_2, ( motions_factor * 0.02 ) );
-    atom_particle_mesh_4.position.applyQuaternion(quaternion_for_atom_state_4);
-    */
-}
 
 // The Rendering Process Method
 function render() {
@@ -1073,17 +1371,19 @@ function render() {
 
     // The Atom's Nucleus' and Particles' States' rotation movements
     atom_nucleus_and_particles_rotation_movements();
-
-    // The Atom's Particles' States' translaction movements around the Atom's Nucleus
-    particles_translaction_movements();
-
+    
+    
     do_hadamard_operation();
     
     do_pauli_x_operation();
     do_pauli_y_operation();
     do_pauli_z_operation();
     
+    do_phase_pi_2_operation();
+    do_phase_pi_4_operation();
+    
+    
     // The Rendering Process, in sucessive repeated calls, in loop
-    renderer.render(atom_representation_scene, camera);
+    renderer.render(bloch_sphere_qubit_scene, camera);
 
 }

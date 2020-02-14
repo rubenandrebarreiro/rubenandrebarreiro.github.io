@@ -1,5 +1,5 @@
 <!-- LEARNING QUANTUM COMPUTING (ONLINE WEB COURSE) -->
-<!-- BLOCH SPHERE/QUBIT AND SINGLE QUANTUM LOGIC GATES/OPERATORS -->
+<!-- BLOCH SPHERE (QUBIT) AND SINGLE QUANTUM LOGIC GATES/OPERATORS -->
 
 <!-- AUTHOR: -->
 <!-- - RUBEN ANDRE BARREIRO -->
@@ -46,23 +46,33 @@
     </div>
     
     <div id="single_quantum_logic_gates_operators">
+      
         <h2>Single Quantum Logic<br>Gates/Operators:</h2>
         
-        <a class="quantum_logic_gate_operator_button" onclick="on_idle_operator();"><center>Idle Gate<br>(I, Identity)</center></a>
+        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_i_operator();"><center>Pauli-I Gate<br>(I, Idle, Identity)</center></a>
         <a class="quantum_logic_gate_operator_button" onclick="on_hadamard_operator();"><center>Hadamard Gate<br>(H)</center></a>
         
         <br />
         <br />
         
-        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_x_operator();"><center>Pauli-X Gate<br>(X)</center></a>
+        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_x_operator();"><center>Pauli-X Gate<br>(X, NOT, Bit Flip)</center></a>
         <a class="quantum_logic_gate_operator_button" onclick="on_pauli_y_operator();"><center>Pauli-Y Gate<br>(Y)</center></a>
-        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_z_operator();"><center>Pauli-Z Gate<br>(Z)</center></a>
+        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_z_operator();"><center>Pauli-Z Gate<br>(Z, R<sub>&pi;</sub>, Phase Flip)</center></a>
         
         <br />
         <br />
         
-        <a class="quantum_logic_gate_operator_button" onclick="on_phase_operator();"><center>Phase Gate<br>(S, P)</center></a>
-        <a class="quantum_logic_gate_operator_button" onclick="on_pi_8_operator();"><center><sup>&pi;</sup>&frasl;<sub>8</sub> Gate<br>(T)</center></a>
+        <a class="quantum_logic_gate_operator_button" onclick="on_phase_pi_2_operator();"><center>Phase Gate<br>(R<sub><sub><sup>&pi;</sup>&frasl;<sub>2</sub></sub></sub>, S, P)</center></a>
+        <a class="quantum_logic_gate_operator_button" onclick="on_phase_pi_4_operator();"><center><sup>&pi;</sup>&frasl;<sub>8</sub> Gate<br>(R<sub><sub><sup>&pi;</sup>&frasl;<sub>4</sub></sub></sub>, T)</center></a>
+      
+      </div>
+      
+    <div id="initial_final_operators">
+        
+        <h2>Initial/Final Operators:</h2>
+        
+        <a class="initial_final_operators_button" onclick="on_reset();"><center>Reset</center></a>    
+        <a class="initial_final_operators_button" onclick="on_measurement();"><center>Measurement</center></a>    
         
     </div>
       
@@ -72,15 +82,32 @@
       <h3>Motions:</h3>
       <div id="motions_settings">
                 
-          <span style="color: #ffffff">Rotations'/Translations' Movements</span>
+          <span style="color: #ffffff">Bloch Sphere's (Qubit's)<br>Rotation Movement</span>
 
           <br/>
 
-          <input type="radio" name="motions_radios" value="play_motions" checked='true'>
+          <input type="radio" name="bloch_sphere_qubit_motions_radios" value="play_motions">
           Play &nbsp;&nbsp;
           <input
             type="radio"
-            name="motions_radios"
+            name="bloch_sphere_qubit_motions_radios"
+            value="stop_motions"
+            checked='true'
+          />
+          Stop
+          
+          <br />
+          <br />
+          
+          <span style="color: #ffffff">Quantum Operation's (Bit's)<br>Rotation Movement</span>
+
+          <br/>
+
+          <input type="radio" name="quantum_operations_bit_motions_radios" value="play_motions" checked='true'>
+          Play &nbsp;&nbsp;
+          <input
+            type="radio"
+            name="quantum_operations_bit_motions_radios"
             value="stop_motions"
           />
           Stop
@@ -98,6 +125,8 @@
 
         <input type="radio" name="camera_view_radios" value="top_view">
         Top &nbsp;&nbsp;
+        <input type="radio" name="camera_view_radios" value="front_view">
+        Front &nbsp;&nbsp;
         <input
           type="radio"
           name="camera_view_radios"
@@ -109,48 +138,68 @@
         <br />
         <br />
 
-        <span style="color: #ffffff">Show</span>
+        <span style="color: #ffffff">Show Wireframe</span>
+
+        <br/>
+
+        <input type="radio" name="bloch_sphere_qubit_wireframe_radios" value="show_wireframe">
+        Yes &nbsp;&nbsp;
+        <input type="radio" name="bloch_sphere_qubit_wireframe_radios" value="not_show_wireframe" checked="true">
+        No
+          
+        <br />
+        <br />
+
+        <span style="color: #ffffff">Show Grid/Helpers</span>
 
         <br/>
 
         <input
           type="checkbox"
-          id="show_xz_grid"
+          id="show_xy_grid"
         />
-        XZ Grid &nbsp;&nbsp;
+        XY Grid &nbsp;&nbsp;
         <input
           type="checkbox"
-          id="show_atomic_orbits"
+          id="show_axis_arrows_helpers"
           checked
         />
-        Atomic Orbits
+        Axis' Arrows' Helpers
+        
+        <br />
+        <br />
+        
+        <span style="color: #ffffff">Show Planes' Circumferences</span>
+        
+        <br/>
+          
+        <input
+          type="checkbox"
+          id="show_xy_plane_circumference"
+          checked
+        />
+        XY Plane Circumference
+        <br />
+        <input
+          type="checkbox"
+          id="show_xz_plane_circumference"
+          checked
+        />
+        XZ Plane Circumference
+        <br />
+        <input
+          type="checkbox"
+          id="show_yz_plane_circumference"
+          checked
+        />
+        YZ Plane Circumference
           
       </div>
 
       <br />
-
-      <h3>Specific options:</h3>
-      <div id="specific_options">
-                
-        <span style="color: #ffffff">Quantum States of the Atom's Particles</span>
-
-        <hr style="height:1pt; visibility:hidden;" />  
-        
-        <input type="checkbox" id="show_atom_particle_state_1" checked />
-        Atom's Particle's State #1 (&#8596;)&nbsp;&nbsp;
-        <br />
-        <input type="checkbox" id="show_atom_particle_state_2" checked />
-        Atom's Particle's State #2 (&#8597;)&nbsp;&nbsp;
-        <br />
-        <input type="checkbox" id="show_atom_particle_state_3" checked />
-        Atom's Particle's State #3 (&#10529;)&nbsp;&nbsp;
-        <br />
-        <input type="checkbox" id="show_atom_particle_state_4" checked />
-        Atom's Particle's State #4 (&#10530;)&nbsp;&nbsp;
-        <br/>
-        <br/>
-        <br/>
-      </div>
+      <br />
+      <br />
+     
     </div>
       
     <div id="copyrights">
