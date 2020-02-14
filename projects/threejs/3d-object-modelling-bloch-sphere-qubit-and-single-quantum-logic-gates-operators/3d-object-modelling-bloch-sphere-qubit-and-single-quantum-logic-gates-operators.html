@@ -15,6 +15,7 @@
       href="https://raw.githubusercontent.com/rubenandrebarreiro/rubenandrebarreiro.github.io/master/assets/images/javascript-logo-1.png"
     />
     <link rel="stylesheet" type="text/css" href="3d-object-modelling-bloch-sphere-qubit-and-single-quantum-logic-gates-operators.css">
+    <script src="libs/math.js"></script>
     <title>3D Object Modelling - Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators</title>
     <meta charset="utf-8" />
     <meta name="author" content="Rúben André Barreiro" />
@@ -49,21 +50,21 @@
       
         <h2>Single Quantum Logic<br>Gates/Operators:</h2>
         
-        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_i_operator();"><center>Pauli-I Gate<br>(I, Idle, Identity)</center></a>
-        <a class="quantum_logic_gate_operator_button" onclick="on_hadamard_operator();"><center>Hadamard Gate<br>(H)</center></a>
+        <a id="pauli_i_operator" class="quantum_logic_gate_operator_button" onclick="on_pauli_i_operator();"><center>Pauli-I Gate<br>(I, Idle, Identity)</center></a>
+        <a id="hadamard_operator" class="quantum_logic_gate_operator_button" onclick="on_hadamard_operator();"><center>Hadamard Gate<br>(H)</center></a>
         
         <br />
         <br />
         
-        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_x_operator();"><center>Pauli-X Gate<br>(X, NOT, Bit Flip)</center></a>
-        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_y_operator();"><center>Pauli-Y Gate<br>(Y)</center></a>
-        <a class="quantum_logic_gate_operator_button" onclick="on_pauli_z_operator();"><center>Pauli-Z Gate<br>(Z, R<sub>&pi;</sub>, Phase Flip)</center></a>
+        <a id="pauli_x_operator" class="quantum_logic_gate_operator_button" onclick="on_pauli_x_operator();"><center>Pauli-X Gate<br>(X, NOT, Bit Flip)</center></a>
+        <a id="pauli_y_operator" class="quantum_logic_gate_operator_button" onclick="on_pauli_y_operator();"><center>Pauli-Y Gate<br>(Y)</center></a>
+        <a id="pauli_z_operator" class="quantum_logic_gate_operator_button" onclick="on_pauli_z_operator();"><center>Pauli-Z Gate<br>(Z, R<sub>&pi;</sub>, Phase Flip)</center></a>
         
         <br />
         <br />
         
-        <a class="quantum_logic_gate_operator_button" onclick="on_phase_pi_2_operator();"><center>Phase Gate<br>(R<sub><sub><sup>&pi;</sup>&frasl;<sub>2</sub></sub></sub>, S, P)</center></a>
-        <a class="quantum_logic_gate_operator_button" onclick="on_phase_pi_4_operator();"><center><sup>&pi;</sup>&frasl;<sub>8</sub> Gate<br>(R<sub><sub><sup>&pi;</sup>&frasl;<sub>4</sub></sub></sub>, T)</center></a>
+        <a id="phase_pi_2_operator" class="quantum_logic_gate_operator_button" onclick="on_phase_pi_2_operator();"><center>Phase Gate<br>(R<sub><sub><sup>&pi;</sup>&frasl;<sub>2</sub></sub></sub>, S, P)</center></a>
+        <a id="phase_pi_4_operator" class="quantum_logic_gate_operator_button" onclick="on_phase_pi_4_operator();"><center><sup>&pi;</sup>&frasl;<sub>8</sub> Gate<br>(R<sub><sub><sup>&pi;</sup>&frasl;<sub>4</sub></sub></sub>, T)</center></a>
       
       </div>
       
@@ -71,8 +72,8 @@
         
         <h2>Initial/Final Operators:</h2>
         
-        <a class="initial_final_operators_button" onclick="on_reset();"><center>Reset</center></a>    
-        <a class="initial_final_operators_button" onclick="on_measurement();"><center>Measurement</center></a>    
+        <a id="reset" class="initial_final_operators_button" onclick="on_reset();"><center>Reset</center></a>    
+        <a id="measurement" class="initial_final_operators_button" onclick="on_measurement();"><center>Measurement</center></a>    
         
     </div>
       
@@ -218,7 +219,6 @@
     <hr style="height:30pt; visibility:hidden;" />
 
     <script src="3d-object-modelling-bloch-sphere-qubit-and-single-quantum-logic-gates-operators.js"></script>
-    <script type="module" src="math.js"></script>      
       
   </body>
 </html>

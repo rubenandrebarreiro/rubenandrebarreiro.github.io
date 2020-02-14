@@ -1311,6 +1311,14 @@ function do_phase_pi_4_operation() {
 
 function on_reset() {
     
+    document.getElementById("single_quantum_logic_gates_operators").style.display = "inline-block";
+    document.getElementById("initial_final_operators").style.display = "inline-block";
+    
+    document.getElementById("single_quantum_logic_gates_operators").style.top = "100px";
+    document.getElementById("initial_final_operators").style.top = "400px";
+    
+    document.getElementById("measurement").style.display = "inline-block";
+    
     // The initial position of the Qubit's State (x = 0, y = 0, z = 1)
     qubit_state_mesh.position.x = qubit_state_mesh.position.y = 0.0;
     qubit_state_mesh.position.z = 1.0;
@@ -1337,32 +1345,55 @@ function on_reset() {
 
 function on_measurement() {
     
-    qubit_state_inclination = Math.atan( Math.sqrt( Math.pow(qubit_state_mesh.position.x, 2.0) + Math.pow(qubit_state_mesh.position.y, 2.0) ) / qubit_state_mesh.position.z );
+    var epsilon_error = 0.000000000001;
     
-    qubit_state_azimuth = Math.atan( qubit_state_mesh.position.y / qubit_state_mesh.position.x );
+    if(qubit_state_mesh.position.z == 0) {
+        qubit_state_inclination = Math.atan( Math.sqrt( Math.pow(qubit_state_mesh.position.x, 2.0) + Math.pow(qubit_state_mesh.position.y, 2.0) ) / epsilon_error );
+    }
+    else if(parseFloat(qubit_state_mesh.position.z.toFixed(8)) == 1) {
+        qubit_state_inclination = 0;
+    }
+    else if(parseFloat(qubit_state_mesh.position.z.toFixed(8)) == -1) {
+        qubit_state_inclination = Math.PI;
+    }
+    else {
+        qubit_state_inclination = Math.atan( Math.sqrt( Math.pow(qubit_state_mesh.position.x, 2.0) + Math.pow(qubit_state_mesh.position.y, 2.0) ) / qubit_state_mesh.position.z );    
+    }
+    
+    if(qubit_state_mesh.position.x == 0) {
+        qubit_state_azimuth = math.atan( qubit_state_mesh.position.y / epsilon_error );    
+    }
+    else {
+        qubit_state_azimuth = math.atan( qubit_state_mesh.position.y / qubit_state_mesh.position.x );
+    }
     
     // The Qubit's State's Amplitudes (Alpha and Beta Values)
     qubit_state_amplitude_alpha = Math.cos( qubit_state_inclination / 2 );
     
-    import { Complex } from './math.js';
+    var complex_i = new math.Complex('i');
     
-    var complex_i = new Complex('i');
-    
-    alert(Math.pow(complex_i, 2.0));
-    
-    qubit_state_amplitude_beta = Math.pow(Math.E, (math.i * qubit_state_azimuth) ) * Math.sin( qubit_state_inclination / 2 );
+    qubit_state_amplitude_beta = math.pow(math.e, ( math.evaluate(complex_i + '*' + qubit_state_azimuth) ) ) * math.sin( qubit_state_inclination / 2 );
     
     // The Qubit's States' (States |0⟩ and |1⟩) Probability Values
     qubit_state_0_probability_value = Math.pow( Math.abs(qubit_state_amplitude_alpha), 2.0 );
     qubit_state_1_probability_value = Math.pow( Math.abs(qubit_state_amplitude_beta), 2.0 );
     
-    var measurement_result_string = "Measurement of the Qubit Performed!!!\n\nResult of the Measurement:\n- |0⟩ (" + qubit_state_0_probability_value + " | " + qubit_state_0_probability_value * 100 + "%)\n- |1⟩ (" + qubit_state_1_probability_value + " | " + qubit_state_1_probability_value * 100 + "%)";
+    var measurement_result_message_string = "Measurement of the Qubit (Quantum Bit) Performed!!!\n\nResult of the Measurement:\n- |0⟩ (" + parseFloat(qubit_state_0_probability_value.toFixed(4)) + " | " + parseFloat(qubit_state_0_probability_value.toFixed(4)) * 100 + "%)\n- |1⟩ (" + parseFloat(qubit_state_1_probability_value.toFixed(4)) + " | " + parseFloat(qubit_state_1_probability_value.toFixed(4)) * 100 + "%)";
     
-    alert(measurement_result_string);
+    alert(measurement_result_message_string);
     
     var measurement_final_message_string = "After a Measurement, the Quantum State of the Qubit (Quantum Bit)\ncollapses in a irreversible way!!!\n\nThe Quantum System for the Qubit (Quantum Bit) needs to be reseted!!!";
     
-    on_reset();
+    alert(measurement_final_message_string);
+    
+    document.getElementById("single_quantum_logic_gates_operators").style.display = "none";
+    document.getElementById("initial_final_operators").style.display = "inline-block";
+    
+    document.getElementById("single_quantum_logic_gates_operators").style.top = "0px";
+    document.getElementById("initial_final_operators").style.top = "100px";
+    
+    document.getElementById("measurement").style.display = "none";
+    
 }
 
 // The Animation Process Method
