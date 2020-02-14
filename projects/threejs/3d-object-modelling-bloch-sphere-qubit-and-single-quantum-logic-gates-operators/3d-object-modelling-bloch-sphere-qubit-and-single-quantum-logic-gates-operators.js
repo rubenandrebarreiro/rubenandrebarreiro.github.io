@@ -1359,6 +1359,10 @@ function on_measurement() {
     var measurement_result_string = "Measurement of the Qubit Performed!!!\n\nResult of the Measurement:\n- |0⟩ (" + qubit_state_0_probability_value + " | " + qubit_state_0_probability_value * 100 + "%)\n- |1⟩ (" + qubit_state_1_probability_value + " | " + qubit_state_1_probability_value * 100 + "%)";
     
     alert(measurement_result_string);
+    
+    var measurement_final_message_string = "After a Measurement, the Quantum State of the Qubit (Quantum Bit)\ncollapses in a irreversible way!!!\n\nThe Quantum System for the Qubit (Quantum Bit) needs to be reseted!!!";
+    
+    on_reset();
 }
 
 // The Animation Process Method
