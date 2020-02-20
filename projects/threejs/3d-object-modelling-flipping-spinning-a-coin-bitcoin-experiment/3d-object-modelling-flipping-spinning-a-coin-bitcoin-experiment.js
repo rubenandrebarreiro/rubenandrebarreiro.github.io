@@ -42,10 +42,15 @@ var xz_grid = new THREE.GridHelper(4, 4, new THREE.Color(0xff0000), new THREE.Co
 
 // The Form's Controls/Elements - Radios and Checkboxes for
 // controlling some aspects of the Scene (Flipping/Spinning a Coin's (Bitcoin's) Experiment Scene)
-var flipping_spinning_bitcoin_motions_radios, camera_view_radios;
+var flipping_spinning_bitcoin_motions_radios, camera_view_radios, bitcoin_state_radios;
 
 // The Motion's Factor for the Flipping/Spinning a Coin's (Bitcoin's) Experiment rotation's movements
 var flipping_spinning_bitcoin_motion_factor;
+
+
+var is_bitcoin_flipping, is_bitcoin_spinning;
+
+var bitcoin_flipping_factor_counter, bitcoin_spinning_factor_counter;
 
 
 // The Calls for Initiation and Animation Methods
@@ -57,8 +62,10 @@ animate();
 function init() {
 
     // The Motion's Factor for the Flipping/Spinning a Coin's (Bitcoin's) Experiment rotation's movements
-    flipping_spinning_bitcoin_motion_factor = 0.0;
+    flipping_spinning_bitcoin_motion_factor = 1.0;
     
+    bitcoin_flipping_factor_counter = 0.0;
+    bitcoin_spinning_factor_counter = 0.0;
     
     // Resets the Camera
     reset_camera();
@@ -145,21 +152,25 @@ function start_trackball_controls() {
 // Sets the Event Listeners
 function set_event_listeners() {
 
-    // Gets the Bloch Sphere's (Qubit's) Motions' Radio options
+    // Gets the Flipping/Spinning Coin's (Bitcoin's) Motions' Radio options
     flipping_spinning_bitcoin_motions_radios = document.getElementsByName("flipping_spinning_bitcoin_motions_radios");
-
-    // Gets the Quantum Operations' (Bit's) Motions' Radio options
-    quantum_operations_bit_motions_radios = document.getElementsByName("quantum_operations_bit_motions_radios");
 
     // Gets the Camera View's Radio options
     camera_view_radios = document.getElementsByName("camera_view_radios");
-
-    // Gets the Bloch Sphere's (Qubit's) Wireframe's Radio options
-    bloch_sphere_qubit_wireframe_radios = document.getElementsByName("bloch_sphere_qubit_wireframe_radios");
-
     
-    // When the Bloch Sphere's (Qubit's) Motions' Radio change, calls the given function
+    // Gets the Coin's (Bitcoin's) State's Radio options
+    bitcoin_state_radios = document.getElementsByName("bitcoin_state_radios");
+    
+    
+    // When the Flipping/Spinning Coin's (Bitcoin's) Motions' Radio change, calls the given function
     document.addEventListener('onchange', on_change_flipping_spinning_bitcoin_motions);
+    
+    // When the Camera View's Radio change, calls the given function
+    document.addEventListener('onchange', on_change_camera_view);
+    
+    // When the Coin's (Bitcoin's) State's Radio change, calls the given function
+    document.addEventListener('onchange', on_change_bitcoin_state);
+    
     
     // When any change occurs in the Scene (Bloch Sphere (Qubit) and Single Quantum Logic Gates/Operators Scene),
     // calls the given function
@@ -193,8 +204,6 @@ function add_flipping_spinning_bitcoin_to_scene() {
         }
     );
  
-    //flipping_spinning_bitcoin_pivot.rotation.y += Math.PI/2;
-    
     flipping_spinning_bitcoin_experiment_scene.add(flipping_spinning_bitcoin_pivot);
     
 }
@@ -276,7 +285,7 @@ function add_stats() {
 function trigger_event_listeners() {
 
     // Handles/Triggers the Function for
-    // changes in the Bloch Sphere's (Qubit's) Motions' Radio
+    // changes in the Coin's (Bitcoin's) Motions' Radio
     on_change_flipping_spinning_bitcoin_motions();
     
     // Handles/Triggers the Function for
@@ -286,6 +295,10 @@ function trigger_event_listeners() {
     // Handles/Triggers the Function for
     // changes in the XY Grid's Checkbox
     on_check_xz_grid();
+    
+    // Handles/Triggers the Function for
+    // changes in the Coin's (Bitcoin's) State's Radio
+    on_change_bitcoin_state();
        
 }
 
@@ -366,6 +379,52 @@ function on_change_camera_view() {
 
 }
 
+// Calls a given function, when the Camera View's Radio change
+function on_change_bitcoin_state() {
+
+    for(var i = 0, length = bitcoin_state_radios.length; i < length; i++) {
+        bitcoin_state_radios[i].onchange = function() {
+            
+            flipping_spinning_bitcoin_collada.rotation.x -= bitcoin_flipping_factor_counter;
+            flipping_spinning_bitcoin_collada.rotation.z -= bitcoin_spinning_factor_counter;
+            
+            if(bitcoin_state_radios[0].checked) {
+                
+                is_bitcoin_flipping = false;
+                is_bitcoin_spinning = false;
+                
+                flipping_spinning_bitcoin_collada.rotation.z = 0;
+                
+            }
+            else if(bitcoin_state_radios[1].checked) {
+                
+                is_bitcoin_flipping = false;
+                is_bitcoin_spinning = false;
+                
+                flipping_spinning_bitcoin_collada.rotation.z = 0;
+                flipping_spinning_bitcoin_collada.rotation.z += Math.PI;
+            
+            }
+            else if(bitcoin_state_radios[2].checked) {
+            
+                is_bitcoin_flipping = true;
+                is_bitcoin_spinning = false;
+                
+            }
+            else {
+                
+                is_bitcoin_flipping = false;
+                is_bitcoin_spinning = true;
+                    
+            }  
+                
+            bitcoin_flipping_factor_counter = 0;
+            bitcoin_spinning_factor_counter = 0;
+        }
+    }
+
+}
+
 // Calls a given function, when the XZ Grid's Checkbox change
 function on_check_xz_grid() {
 
@@ -400,9 +459,21 @@ function animate() {
 // The Atom's Nucleus and Particle's States' rotation movements
 function flipping_spinning_bitcoin_rotation_movements() {
     
-    var flipping_spinning_bitcoin_rotation_speed = ( flipping_spinning_bitcoin_motion_factor * 0.0001 * 28 );
+    var flipping_spinning_bitcoin_rotation_speed = ( flipping_spinning_bitcoin_motion_factor * 1 * 28 );
     
-    flipping_spinning_bitcoin_collada.rotation.z += flipping_spinning_bitcoin_rotation_speed;
+    if(is_bitcoin_flipping) {
+        
+        bitcoin_flipping_factor_counter += flipping_spinning_bitcoin_rotation_speed;
+        flipping_spinning_bitcoin_collada.rotation.x += flipping_spinning_bitcoin_rotation_speed;
+        
+    }
+    
+    if(is_bitcoin_spinning) {
+        
+        bitcoin_spinning_factor_counter += flipping_spinning_bitcoin_rotation_speed;
+        flipping_spinning_bitcoin_collada.rotation.z += flipping_spinning_bitcoin_rotation_speed;
+        
+    }
     
 }
 
