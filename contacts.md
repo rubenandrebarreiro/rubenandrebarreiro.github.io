@@ -1756,9 +1756,3 @@ active: Contacts
         </form>
     </center>
 </div>
-
-<br>
-<hr/>
-<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
-<hr/>
-<br>
