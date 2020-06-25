@@ -1724,18 +1724,18 @@ active: Contacts
 <hr/>
 <br>
 
-<h2 id="emails-title">
+<h2 id="contact-me-title">
     <i>Contact Me</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-at fa-stack-1x faa-pulse animated"></i>
+        <i class="fa fa-envelope fa-stack-1x faa-bounce animated"></i>
     </span>
 </h2>
 <hr/>
 
-<div id="emails-content" class="w3-container w3-xlarge w3-padding">
+<div id="contact-me-content" class="w3-container w3-xlarge w3-padding">
     <center>
-        <form action="https://formspree.io/rubenandrebarreiro" method="POST">
+        <form action="https://formspree.io/mgenlold" method="POST">
             <label>
                 Your First Name:
                 <input type="text" name="first_name">
