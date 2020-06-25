@@ -1717,3 +1717,48 @@ active: Contacts
         <a target="_blank" href="mailto:badnewz.lifestyle@yahoo.com" title="badnewz.lifestyle on Yahoo"><i class="fa fa-yahoo" title="badnewz.lifestyle on Yahoo" style="font-size:20px;color:Purple"></i></a><font size = "1">&nbsp;&nbsp;<a target="_blank" href="mailto:badnewz.lifestyle@yahoo.com" title="badnewz.lifestyle on Yahoo">badnewz.lifestyle@yahoo.com</a></font>
     </center>
 </div>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<h2 id="emails-title">
+    <i>Contact Me</i>
+    <span class="fa-stack">
+        <i class="fa fa-circle-thin fa-stack-2x"></i>
+        <i class="fa fa-at fa-stack-1x faa-pulse animated"></i>
+    </span>
+</h2>
+<hr/>
+
+<div id="emails-content" class="w3-container w3-xlarge w3-padding">
+    <center>
+        <form action="https://formspree.io/rubenandrebarreiro" method="POST">
+            <label>
+                Your First Name:
+                <input type="text" name="first_name">
+            </label>
+            <label>
+                Your Last Name:
+                <input type="text" name="last_name">
+            </label>
+            <label>
+                Your E-mail:
+                <input type="text" name="_replyto">
+            </label>
+            <label>
+                Your Message:
+                <textarea name="message"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+    </center>
+</div>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
