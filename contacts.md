@@ -1371,6 +1371,11 @@ active: Contacts
 .icon-vsco:before {
   content: "\e901";
 }
+
+textarea {
+  resize: none;
+}
+
 </style>
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
