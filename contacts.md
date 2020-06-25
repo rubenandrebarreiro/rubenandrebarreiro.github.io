@@ -1768,7 +1768,7 @@ textarea {
             </label>
             <br />
             <br />
-            <button type="submit"><p style="font-size:12px;">Send Message</p></button>
+            <button type="submit"><p style="font-size:12px;"><b>Send Message</b></p></button>
         </form>
     </center>
 </div>
