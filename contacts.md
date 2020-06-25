@@ -1761,11 +1761,11 @@ textarea {
             <br />
             <label>
                 <p style="font-size:12px;">Your Message:</p>
-                <textarea name="message"></textarea>
+                <textarea name="message" rows="8" cols="80"></textarea>
             </label>
             <br />
             <br />
-            <button type="submit"><p style="font-size:12px;">Send</p></button>
+            <button type="submit"><p style="font-size:12px;">Send Message</p></button>
         </form>
     </center>
 </div>
