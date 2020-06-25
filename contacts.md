@@ -1742,30 +1742,30 @@ textarea {
     <center>
         <form action="https://formspree.io/mgenlold" method="POST">
             <label>
-                Your First Name:
-                <input type="text" name="first_name">
+                <p style="font-size:12px;">Your First Name:</p>
+                <input style="font-size:12px;" type="text" name="first_name">
             </label>
             <br />
             <br />
             <label>
-                Your Last Name:
-                <input type="text" name="last_name">
+                <p style="font-size:12px;">Your Last Name:</p>
+                <input style="font-size:12px;" type="text" name="last_name">
             </label>
             <br />
             <br />
             <label>
-                Your E-mail:
-                <input type="text" name="_replyto">
+                <p style="font-size:12px;">Your E-mail:</p>
+                <input style="font-size:12px;" type="text" name="_replyto">
             </label>
             <br />
             <br />
             <label>
-                Your Message:
+                <p style="font-size:12px;">Your Message:</p>
                 <textarea name="message"></textarea>
             </label>
             <br />
             <br />
-            <button type="submit">Send</button>
+            <button type="submit"><p style="font-size:12px;">Send</p></button>
         </form>
     </center>
 </div>
