@@ -1740,27 +1740,30 @@ textarea {
 
 <div id="contact-me-content" class="w3-container w3-xlarge w3-padding">
     <center>
+        <p>
+            <b>Send me a Message</b>, fulfilling the following <b>Form</b>:
+        </p>
         <form action="https://formspree.io/mgenlold" method="POST">
             <label>
-                <p style="font-size:12px;">Your First Name:</p>
+                <p style="font-size:12px;"><b>Your First Name:</b></p>
                 <input style="font-size:12px;" type="text" name="first_name">
             </label>
             <br />
             <br />
             <label>
-                <p style="font-size:12px;">Your Last Name:</p>
+                <p style="font-size:12px;"><b>Your Last Name:</b></p>
                 <input style="font-size:12px;" type="text" name="last_name">
             </label>
             <br />
             <br />
             <label>
-                <p style="font-size:12px;">Your E-mail:</p>
+                <p style="font-size:12px;"><b>Your E-mail:</b></p>
                 <input style="font-size:12px;" type="text" name="_replyto">
             </label>
             <br />
             <br />
             <label>
-                <p style="font-size:12px;">Your Message:</p>
+                <p style="font-size:12px;"><b>Your Message:</b></p>
                 <textarea name="message" rows="8" cols="80"></textarea>
             </label>
             <br />
