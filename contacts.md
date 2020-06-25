@@ -1746,20 +1746,24 @@ textarea {
                 <input type="text" name="first_name">
             </label>
             <br />
+            <br />
             <label>
                 Your Last Name:
                 <input type="text" name="last_name">
             </label>
+            <br />
             <br />
             <label>
                 Your E-mail:
                 <input type="text" name="_replyto">
             </label>
             <br />
+            <br />
             <label>
                 Your Message:
                 <textarea name="message"></textarea>
             </label>
+            <br />
             <br />
             <button type="submit">Send</button>
         </form>
