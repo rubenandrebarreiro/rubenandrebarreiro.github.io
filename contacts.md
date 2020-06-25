@@ -1740,7 +1740,7 @@ textarea {
 
 <div id="contact-me-content" class="w3-container w3-xlarge w3-padding">
     <center>
-        <p>
+        <p style="font-size:20px;">
             <b>Send me a Message</b>, fulfilling the following <b>Form</b>:
         </p>
         <form action="https://formspree.io/mgenlold" method="POST">
