@@ -1629,15 +1629,15 @@ active: Courses
 <b>Useful Links:</b>
 <font size="2">
     <p align="justify"> 
-        &#9679;&nbsp;&nbsp;<a href="https://rubenandrebarreiro.github.io/learning-quantum-computing/">https://rubenandrebarreiro.github.io/learning-quantum-computing/</a>
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-quantum-computing.github.io/">https://learning-quantum-computing.github.io/</a>
         
         <br>
         
-        &#9679;&nbsp;&nbsp;<a href="https://github.com/rubenandrebarreiro/learning-quantum-computing-course/">https://github.com/rubenandrebarreiro/learning-quantum-computing-course/</a>
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Contents</b></i></u>:&nbsp;<a href="https://github.com/learning-quantum-computing/learning-quantum-computing-course/">https://github.com/learning-quantum-computing/learning-quantum-computing-course/</a>
         
         <br>
         
-        &#9679;&nbsp;&nbsp;<a href="https://github.com/rubenandrebarreiro/learning-quantum-computing/">https://github.com/rubenandrebarreiro/learning-quantum-computing/</a>
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-quantum-computing/learning-quantum-computing-book/">https://github.com/learning-quantum-computing/learning-quantum-computing-book/</a>
     </p>
 </font>
 <br>
