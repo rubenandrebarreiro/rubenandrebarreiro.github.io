@@ -1608,7 +1608,7 @@ active: Software
     <i>My Software</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fas fa-compact-disc fa-stack-1x faa-spin animated"></i>
+        <i class="fas fa-compact-disc fa-stack-1x faa-spin animated"></i> 
     </span>
 </h2>
 <hr/>
