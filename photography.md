@@ -1,11 +1,11 @@
 ---
 bg: "photo-37.jpg"
 layout: default
-title: "Photoshoots"
-crawlertitle: "Rúben André Barreiro's Portfolio/Blog - My Photoshoot's Works"
-permalink: /photoshoots/
-summary: "My Photoshoot's Works"
-active: Photoshoots
+title: "Photography"
+crawlertitle: "Rúben André Barreiro's Portfolio/Blog - My Photography's Works"
+permalink: /photography/
+summary: "My Photography's Works"
+active: Photography
 ---
 
 <style>
