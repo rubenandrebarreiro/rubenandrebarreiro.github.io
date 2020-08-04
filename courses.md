@@ -1642,7 +1642,7 @@ active: Courses
 </font>
 <br>
 
-[![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-01.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-logo-1.jpg)
+[![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-logo-1.png)]({{ site.images | relative_url }}/courses/learning-quantum-computing-logo-1.png)
 <p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
 
 <br>
@@ -1666,7 +1666,7 @@ active: Courses
 
 <br>
 
-[![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-02.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-screenshot-1.jpg)
+[![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-screenshot-1.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-screenshot-1.jpg)
 <p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
  
 <br>
