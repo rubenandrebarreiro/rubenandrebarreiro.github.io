@@ -1,14 +1,27 @@
 ---
 bg: "photo-41.jpg"
 layout: default
-title: "Photography"
-crawlertitle: "Rúben André Barreiro's Portfolio/Blog - My Photography's Works"
-permalink: /photography/
-summary: "My Photography's Works"
-active: Photography
+title: "Software"
+crawlertitle: "Rúben André Barreiro's Portfolio/Blog - Software"
+permalink: /Software/
+summary: "Software Developed by Myself"
+active: Software
 ---
 
 <style>
+.button {
+    background-color: #CCCCCC; /* Medium Grey */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 .button {
     background-color: #CCCCCC; /* Medium Grey */
     border: none;
@@ -1111,246 +1124,6 @@ active: Photography
   animation: burst 3s infinite linear;
 }
 
-.androidHead {
-  position: relative;
-  height: 40px;
-  width: 80px;
-  background: #a4c639;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
-}
-
-.androidHead div:first-child, .androidHead div:nth-child(2) {
-  position: absolute;
-  height: 3.5px;
-  width: 15px;
-  border-radius: 10px;
-  background: #a4c639;
-}
-    
-.androidHead div:first-child {
-  left: 7.5px;
-  transform: rotate(50deg);
-}
-    
-.androidHead div:nth-child(2) {
-  transform: rotate(-50deg);
-  left: 58px;
-}
-    
-.androidHead div:nth-child(3) {
-  position: relative;
-}
-    
-.androidHead div:nth-child(3) div {
-  position: absolute;
-  height: 7.5px;
-  width: 7.5px;
-  background: #FFF;
-  border-radius: 50%;
-  top: 17.5px;
-}
-    
-.androidHead div:nth-child(3) div:first-child {
-  left: 20px;
-}
-    
-.androidHead div:nth-child(3) div:nth-child(2) {
-  left: 53.5px;
-}
-
-.androidBody {
-  position: relative;
-  width: 80px;
-  height: 65px;
-  background: #a4c639;
-  margin-top: 2.5px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-    
-.androidBody div {
-  position: absolute;
-  width: 17.5px;
-  height: 55px;
-  border-radius: 15px;
-  background: #a4c639;
-}
-    
-.androidBody div:first-child {
-  left: -20px;
-  transform-origin: top;
-  animation: arm-l 0.9s infinite;
-  animation-delay: 0.45s;
-}
-    
-.androidBody div:nth-child(2) {
-  left: 82.5px;
-  transform-origin: top;
-  animation: arm-r 0.9s infinite;
-}
-    
-.androidBody div:nth-child(3), .androidBody div:nth-child(4) {
-  top: 32.5px;
-}
-    
-.androidBody div:nth-child(3) {
-  animation: legup-l 0.9s infinite;
-  animation-delay: 0.45s;
-  left: 16px;
-}
-    
-.androidBody div:nth-child(4) {
-  animation: legup-r 0.9s infinite;
-  left: 48px;
-}
-
-.androidShadow {
-  margin-top: -36px;
-  z-index: -2;
-  height: 15px;
-  width: 80px;
-  background: #eee;
-  border-radius: 50%;
-  animation: androidShadow 0.45s infinite;
-  display: flex;
-  justify-content: space-between;
-}
-    
-.androidShadow div {
-  height: 7.5px;
-  width: 20px;
-  background: #eee;
-  border-radius: 50%;
-}
-    
-.androidShadow div:first-child {
-  margin: 4px -12.5px;
-}
-    
-.androidShadow div:last-child {
-  margin: 4px -12.5px;
-}
-
-.androidFootsteps {
-  display: flex;
-}
-    
-.androidFootsteps div {
-  height: 7.5px;
-  width: 15px;
-  background: gainsboro;
-  border-radius: 50%;
-  margin: 25.5px 10px;
-  z-index: -1;
-}
-    
-.androidFootsteps div:first-child {
-  animation: footsteps-l 0.9s infinite;
-  animation-delay: 0.45s;
-}
-    
-.androidFootsteps div:last-child {
-  animation: footsteps-r 0.9s infinite;
-}
-
-.androidLogo {
-  animation: bobble 0.45s infinite;
-}
-
-@keyframes androidShadow {
-  50% {
-    transform: scale(0.96);
-  }
-}
-    
-@keyframes footsteps-l {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translate(3px, -2.5px);
-  }
-}
-    
-@keyframes footsteps-r {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    transform: translate(-3px, -2.5px);
-  }
-}
-    
-@keyframes bobble {
-  0% {
-    transform: translateY(-1px);
-  }
-  70% {
-    transform: translateY(1px);
-  }
-  100% {
-    transform: translateY(-1px);
-  }
-}
-    
-@keyframes legup-l {
-  0% {
-    transform: translate(2px, -2.5px);
-  }
-  30% {
-    transform: translate(-2px, 3.5px);
-  }
-  100% {
-    transform: translate(2px, -2.5px);
-  }
-}
-    
-@keyframes legup-r {
-  0% {
-    transform: translate(-2px, -2.5px);
-  }
-  30% {
-    transform: translate(2px, 3.5px);
-  }
-  100% {
-    transform: translate(-2px, -2.5px);
-  }
-}
-    
-@keyframes arm-l {
-  0% {
-    transform: rotate(7deg);
-  }
-  60% {
-    transform: rotate(-5deg);
-  }
-  100% {
-    transform: rotate(7deg);
-  }
-}
-    
-@keyframes arm-r {
-  0% {
-    transform: rotate(-7deg);
-  }
-  60% {
-    transform: rotate(5deg);
-  }
-  100% {
-    transform: rotate(-7deg);
-  }
-}
- 
-
 .icon-new-university-lisbon .path1:before {
   content: "\e900";
   color: #308041;
@@ -1811,13 +1584,13 @@ active: Photography
   margin-left: -1em;
 }
 
-.icon-university-porto:before {
-  content: "\e95d";
+.icon-discord:before {
+  content: "\e900";
+  color: #7289da;
 }
 
-.icon-feup:before {
-  content: "\e95e";
-  color: #a73621;
+.icon-vsco:before {
+  content: "\e95c";
 }
 
 </style>
@@ -1827,35 +1600,22 @@ active: Photography
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/v4-shims.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="/font-mfizz/font-mfizz.css">
+<link rel="stylesheet" href="/apps-brands-social-icons/style.css">
 
-<h2 id="photography_title">
-    <i>Personal Photography Works</i>
+<h2 id="my-software-title">
+    <i>My Software</i>
     <span class="fa-stack">
         <i class="fa fa-circle-thin fa-stack-2x"></i>
-        <i class="fa fa-camera-retro fa-stack-1x faa-flash animated"></i>
+        <i class="fas fa-hammer fa-stack-1x faa-ring animated"></i>
     </span>
 </h2>
-
 <hr/>
 
-<h4 id="photoshoot_year_title">
-    <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;2018
-</h4>
-
-<hr/>
-
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<!--<a href="">-->Coming soon...<!--</a>-->;</p>
-
+ 
 <br>
 <hr/>
 <center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
 <hr/>
 <br>
-
-<h4 id="photography_year_title">
-    <i class="fas fa-calendar-alt"></i>&nbsp;&nbsp;2019
-</h4>
-
-<hr/>
-
-<p align="justify"><i class="fa fa-caret-right faa-horizontal animated"></i>&nbsp;&nbsp;<!--<a href="">-->Coming soon...<!--</a>-->;</p>
