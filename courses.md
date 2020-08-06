@@ -1616,7 +1616,7 @@ active: Courses
 <font size="5">
     <i class="icon-html5-alt" style="color:Orange" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
     <i class="icon-python" style="color:DodgerBlue" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
-    <i class="icon-windows" style="color:Cyan" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
+    <i class="fab fa-microsoft" style="color:Cyan" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
     <i class="icon-java" style="color:Red" title="Learning Quantum Computing (Between January 2020 and Present)"></i>
 </font>
 
