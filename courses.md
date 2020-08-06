@@ -1701,6 +1701,7 @@ active: Courses
     <i class="icon-html5-alt" style="color:Orange" title="Learning Artificial Intelligence (Between January 2021 and Present)"></i>
     <i class="icon-java" style="color:Red" title="Learning Artificial Intelligence (Between January 2021 and Present)"></i>
     <i class="icon-python" style="color:DodgerBlue" title="Learning Artificial Intelligence (Between January 2021 and Present)"></i>
+    <i class="icon-microsoft" style="color:Cyan" title="Learning Artificial Intelligence (Between January 2021 and Present)"></i>
 </font>
 
 <font size="4">
