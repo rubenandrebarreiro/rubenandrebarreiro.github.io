@@ -1667,7 +1667,7 @@ active: Courses
 <br>
 
 [![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-screenshot-1.jpg)]({{ site.images | relative_url }}/courses/learning-quantum-computing-screenshot-1.jpg)
-<p style="font-size:11px"><i>Learning Cybersecurity and Cryptography (Between January 2020 and Present)</i></p>
+<p style="font-size:11px"><i>Learning Quantum Computing (Between January 2020 and Present)</i></p>
  
 <br>
 <hr/>
@@ -1688,3 +1688,44 @@ active: Courses
 
 [![LearningCybersecurityAndCryptography]({{ site.images | relative_url }}/courses/learning-cybersecurity-and-cryptography-logo-1.png)]({{ site.images | relative_url }}/courses/learning-cybersecurity-and-cryptography-logo-1.png)
 <p style="font-size:11px"><i>Learning Cybersecurity and Cryptography (Between January 2021 and Present)</i></p>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<font size="5">
+    <i class="icon-html5-alt" style="color:Orange" title="Learning Artificial Intelligence (Between January 2021 and Present)"></i>
+    <i class="icon-java" style="color:Red" title="Learning Artificial Intelligence (Between January 2021 and Present)"></i>
+    <i class="icon-python" style="color:DodgerBlue" title="Learning Artificial Intelligence (Between January 2021 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-artificial-intelligence" title="Learning Artificial Intelligence (Between January 2021 and Present)">Learning Artificial Intelligence (Between January 2021 and Present)</a>
+</font>
+
+[![LearningArtificialIntelligence]({{ site.images | relative_url }}/courses/learning-artificial-intelligence-logo-1.png)]({{ site.images | relative_url }}/courses/learning-artificial-intelligence-logo-1.png)
+<p style="font-size:11px"><i>Learning Artificial Intelligence (Between January 2021 and Present)</i></p>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<font size="5">
+    <i class="icon-html5-alt" style="color:Orange" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)"></i>
+    <i class="icon-java" style="color:Red" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)"></i>
+    <i class="icon-php" style="color:Indigo" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)"></i>
+    <i class="icon-python" style="color:DodgerBlue" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-web-technologies-frameworks" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)">Learning Web Technologies/Frameworks (Between January 2021 and Present)</a>
+</font>
+
+[![LearningCybersecurityAndCryptography]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)
+<p style="font-size:11px"><i>Learning Web Technologies/Frameworks (Between January 2021 and Present)</i></p>
+
+
