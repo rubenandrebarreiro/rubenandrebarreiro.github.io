@@ -1846,7 +1846,7 @@ active: Projects
     <font size="1">
     <span class="icon-feup" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)"></span>
     </font>
-    <i class="icon-javascript-alt" style="color:Gold" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)"></i>
+    <i class="fa fa-android" style="color:Chartreuse" title="Everyone is a Hero - Mobile App, using Adobe Illustrator, Adobe Photoshop and Unity3D (FEUP - between September 2018 and December 2018)"></i>
 </font>
 
 <font size="4">
