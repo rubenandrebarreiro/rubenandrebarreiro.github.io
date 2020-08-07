@@ -1761,6 +1761,26 @@ active: Courses
 <br>
 
 <font size="5">
+    <i class="icon-html5-alt" style="color:Orange" title="Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)"></i>
+    <i class="icon-java" style="color:Red" title="Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)"></i>
+    <i class="icon-python" style="color:DodgerBlue" title="Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)"></i>
+    <i class="fab fa-microsoft" style="color:Turquoise" title="Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-3d-web-graphics-and-multimedia" title="Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)">Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)</a>
+</font>
+
+[![Learning3DWebGraphicsAndMultimedia]({{ site.images | relative_url }}/courses/learning-3d-web-graphics-and-multimedia-logo-1.png)]({{ site.images | relative_url }}/courses/learning-3d-web-graphics-and-multimedia-logo-1.png)
+<p style="font-size:11px"><i>Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)</i></p>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<font size="5">
     <i class="icon-html5-alt" style="color:Orange" title="Learning Computer Architectures (Between January 2021 and Present)"></i>
     <i class="icon-java" style="color:Red" title="Learning Computer Architectures (Between January 2021 and Present)"></i>
     <i class="fab fa-linux" style="color:Black" title="Learning Computer Architectures (Between January 2021 and Present)"></i>
