@@ -1728,7 +1728,44 @@ active: Courses
     <a target="_blank" href="/learning-web-technologies-frameworks" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)">Learning Web Technologies/Frameworks (Between January 2021 and Present)</a>
 </font>
 
-[![LearningCybersecurityAndCryptography]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)
+[![LearningWebTechnologiesFrameworks]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)
 <p style="font-size:11px"><i>Learning Web Technologies/Frameworks (Between January 2021 and Present)</i></p>
 
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<font size="5">
+    <i class="icon-html5-alt" style="color:Orange" title="Learning Internet and Computer Networks (Between January 2021 and Present)"></i>
+    <i class="icon-java" style="color:Red" title="Learning Internet and Computer Networks (Between January 2021 and Present)"></i>
+    <i class="icon-php" style="color:Indigo" title="Learning Internet and Computer Networks (Between January 2021 and Present)"></i>
+    <i class="icon-python" style="color:DodgerBlue" title="Learning Internet and Computer Networks (Between January 2021 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-internet-and-computer-networks" title="Learning Internet and Computer Networks (Between January 2021 and Present)">Learning Internet and Computer Networks (Between January 2021 and Present)</a>
+</font>
+
+[![LearningInternetAndComputerNetworks]({{ site.images | relative_url }}/courses/learning-internet-and-computer-networks-logo-1.png)]({{ site.images | relative_url }}/courses/learning-internet-and-computer-networks-logo-1.png)
+<p style="font-size:11px"><i>Learning Internet and Computer Networks (Between January 2021 and Present)</i></p>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<font size="5">
+    <i class="icon-html5-alt" style="color:Orange" title="Learning Control Version Systems (Between January 2021 and Present)"></i>
+    <i class="icon-git" style="color:Black" title="Learning Control Version Systems (Between January 2021 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-control-version-systems" title="Learning Control Version Systems (Between January 2021 and Present)">Learning Control Version Systems (Between January 2021 and Present)</a>
+</font>
+
+[![LearningControlVersionSystems]({{ site.images | relative_url }}/courses/learning-control-version-systems-logo-1.png)]({{ site.images | relative_url }}/courses/learning-control-version-systems-logo-1.png)
+<p style="font-size:11px"><i>Learning Control Version Systems (Between January 2021 and Present)</i></p>
 
