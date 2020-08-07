@@ -1759,7 +1759,7 @@ active: Courses
 
 <font size="5">
     <i class="icon-html5-alt" style="color:Orange" title="Learning Control Version Systems (Between January 2021 and Present)"></i>
-    <i class="icon-git" style="color:Black" title="Learning Control Version Systems (Between January 2021 and Present)"></i>
+    <i class="icon-git" style="color:Gray" title="Learning Control Version Systems (Between January 2021 and Present)"></i>
 </font>
 
 <font size="4">
