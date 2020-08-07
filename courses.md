@@ -1604,6 +1604,9 @@ active: Courses
 <link rel="stylesheet" href="/font-mfizz/font-mfizz.css">
 <link rel="stylesheet" href="/apps-brands-social-icons/style.css">
 
+<br>
+<br>
+
 <h2 id="my-courses-title">
     <i>My Courses</i>
     <span class="fa-stack">
