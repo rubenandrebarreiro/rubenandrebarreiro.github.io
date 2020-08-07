@@ -1761,6 +1761,26 @@ active: Courses
 <br>
 
 <font size="5">
+    <i class="icon-html5-alt" style="color:Orange" title="Learning Computer Architectures (Between January 2021 and Present)"></i>
+    <i class="icon-java" style="color:Red" title="Learning Computer Architectures (Between January 2021 and Present)"></i>
+    <i class="fab fa-linux" style="color:Black" title="Learning Computer Architectures (Between January 2021 and Present)"></i>
+    <i class="fab fa-microsoft" style="color:Turquoise" title="Learning Computer Architectures (Between January 2021 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-computer-architectures" title="Learning Computer Architectures (Between January 2021 and Present)">Learning Computer Architectures (Between January 2021 and Present)</a>
+</font>
+
+[![LearningComputerArchitectures]({{ site.images | relative_url }}/courses/learning-computer-architectures-logo-1.png)]({{ site.images | relative_url }}/courses/learning-computer-architectures-logo-1.png)
+<p style="font-size:11px"><i>Learning Computer Architectures (Between January 2021 and Present)</i></p>
+
+<br>
+<hr/>
+<center><font size="1">*** © Rúben André Barreiro - GitHub's Portfolio/Personal Blog - All rights reserved ***</font></center>
+<hr/>
+<br>
+
+<font size="5">
     <i class="icon-html5-alt" style="color:Orange" title="Learning Control Version Systems (Between January 2021 and Present)"></i>
     <i class="icon-git" style="color:DarkGray" title="Learning Control Version Systems (Between January 2021 and Present)"></i>
 </font>
