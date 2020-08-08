@@ -1613,6 +1613,18 @@ active: Software
 </h2>
 <hr/>
 
+<font size="5">
+    <i class="icon-java" style="color:Red" title="QuISL - Quantum Information Science Library (Between July 2020 and Present)"></i>
+    <i class="icon-python" style="color:DodgerBlue" title="QuISL - Quantum Information Science Library (Between July 2020 and Present)"></i>
+</font>
+
+<font size="4">
+    <a target="_blank" href="/learning-web-technologies-frameworks" title="QuISL - Quantum Information Science Library (Between July 2020 and Present)">QuISL - Quantum Information Science Library (Between July 2020 and Present)</a>
+</font>
+
+[![QuantumInformationScienceLibrary]({{ site.images | relative_url }}/software/quisl-logo-1.png)]({{ site.images | relative_url }}/software/quisl-logo-1.png)
+<p style="font-size:11px"><i>QuISL - Quantum Information Science Library (Between January 2020 and Present)</i></p>
+
  
 <br>
 <hr/>
