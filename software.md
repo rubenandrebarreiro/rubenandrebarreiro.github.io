@@ -1623,7 +1623,7 @@ active: Software
 </font>
 
 [![QuantumInformationScienceLibrary]({{ site.images | relative_url }}/software/quisl-logo-1.png)]({{ site.images | relative_url }}/software/quisl-logo-1.png)
-<p style="font-size:11px"><i>QuISL - Quantum Information Science Library (Between January 2020 and Present)</i></p>
+<p style="font-size:11px"><i>QuISL - Quantum Information Science Library (Between July 2020 and Present)</i></p>
 
  
 <br>
