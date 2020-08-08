@@ -1642,6 +1642,7 @@ active: Courses
         &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-quantum-computing/learning-quantum-computing-book/">https://github.com/learning-quantum-computing/learning-quantum-computing-book/</a>
     </p>
 </font>
+
 <br>
 
 [![LearningQuantumComputing]({{ site.images | relative_url }}/courses/learning-quantum-computing-logo-1.png)]({{ site.images | relative_url }}/courses/learning-quantum-computing-logo-1.png)
@@ -1685,11 +1686,30 @@ active: Courses
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-cybersecurity-and-cryptography" title="Learning Cybersecurity and Cryptography (Between January 2021 and Present)">Learning Cybersecurity and Cryptography (Between January 2021 and Present)</a>
+    <a target="_blank" href="https://learning-cybersecurity-and-cryptography.github.io/" title="Learning Cybersecurity and Cryptography (Between January 2021 and Present)">Learning Cybersecurity and Cryptography (Between January 2021 and Present)</a>
 </font>
 
 [![LearningCybersecurityAndCryptography]({{ site.images | relative_url }}/courses/learning-cybersecurity-and-cryptography-logo-1.png)]({{ site.images | relative_url }}/courses/learning-cybersecurity-and-cryptography-logo-1.png)
 <p style="font-size:11px"><i>Learning Cybersecurity and Cryptography (Between January 2021 and Present)</i></p>
+
+<br>
+
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-cybersecurity-and-cryptography.github.io/">https://learning-cybersecurity-and-cryptography.github.io/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Contents</b></i></u>:&nbsp;<a href="https://github.com/learning-cybersecurity-and-cryptography/learning-cybersecurity-and-cryptography-course/">https://github.com/learning-cybersecurity-and-cryptography/learning-cybersecurity-and-cryptography-course/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-cybersecurity-and-cryptography/learning-cybersecurity-and-cryptography-book/">https://github.com/learning-cybersecurity-and-cryptography/learning-cybersecurity-and-cryptography-book/</a>
+    </p>
+</font>
+
+<br>
 
 <br>
 <hr/>
@@ -1705,11 +1725,30 @@ active: Courses
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-artificial-intelligence" title="Learning Artificial Intelligence (Between January 2021 and Present)">Learning Artificial Intelligence (Between January 2021 and Present)</a>
+    <a target="_blank" href="https://learning-artificial-intelligence.github.io/" title="Learning Artificial Intelligence (Between January 2021 and Present)">Learning Artificial Intelligence (Between January 2021 and Present)</a>
 </font>
 
 [![LearningArtificialIntelligence]({{ site.images | relative_url }}/courses/learning-artificial-intelligence-logo-1.png)]({{ site.images | relative_url }}/courses/learning-artificial-intelligence-logo-1.png)
 <p style="font-size:11px"><i>Learning Artificial Intelligence (Between January 2021 and Present)</i></p>
+
+<br>
+
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-articial-intelligence.github.io/">https://learning-articial-intelligence.github.io/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Contents</b></i></u>:&nbsp;<a href="https://github.com/learning-artificial-intelligence/learning-artificial-intelligence-course/">https://github.com/learning-artificial-intelligence/learning-artificial-intelligence-course/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-artificial-intelligence/learning-artificial-intelligence-book/">https://github.com/learning-artificial-intelligence/learning-artificial-intelligence-book/</a>
+    </p>
+</font>
+
+<br>
 
 <br>
 <hr/>
@@ -1725,11 +1764,30 @@ active: Courses
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-web-technologies-frameworks" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)">Learning Web Technologies/Frameworks (Between January 2021 and Present)</a>
+    <a target="_blank" href="https://learning-web-technologies-frameworks.github.io/" title="Learning Web Technologies/Frameworks (Between January 2021 and Present)">Learning Web Technologies/Frameworks (Between January 2021 and Present)</a>
 </font>
 
 [![LearningWebTechnologiesFrameworks]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)]({{ site.images | relative_url }}/courses/learning-web-technologies-frameworks-logo-1.png)
 <p style="font-size:11px"><i>Learning Web Technologies/Frameworks (Between January 2021 and Present)</i></p>
+
+<br>
+
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-web-technologies-frameworks.github.io/">https://learning-web-technologies-frameworks.github.io/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Contents</b></i></u>:&nbsp;<a href="https://github.com/learning-web-technologies-frameworks/learning-web-technologies-frameworks-course/">https://github.com/learning-web-technologies-frameworks/learning-web-technologies-frameworks-course/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-web-technologies-frameworks/learning-web-technologies-frameworks-book/">https://github.com/learning-web-technologies-frameworks/learning-web-technologies-frameworks-book/</a>
+    </p>
+</font>
+
+<br>
 
 <br>
 <hr/>
@@ -1745,11 +1803,30 @@ active: Courses
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-internet-and-computer-networks" title="Learning Internet and Computer Networks (Between January 2021 and Present)">Learning Internet and Computer Networks (Between January 2021 and Present)</a>
+    <a target="_blank" href="https://learning-internet-and-computer-networks.github.io/" title="Learning Internet and Computer Networks (Between January 2021 and Present)">Learning Internet and Computer Networks (Between January 2021 and Present)</a>
 </font>
 
 [![LearningInternetAndComputerNetworks]({{ site.images | relative_url }}/courses/learning-internet-and-computer-networks-logo-1.png)]({{ site.images | relative_url }}/courses/learning-internet-and-computer-networks-logo-1.png)
 <p style="font-size:11px"><i>Learning Internet and Computer Networks (Between January 2021 and Present)</i></p>
+
+<br>
+
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-internet-and-computer-networks.github.io/">https://learning-internet-and-computer-networks.github.io/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Contents</b></i></u>:&nbsp;<a href="https://github.com/learning-internet-and-computer-networks/learning-internet-and-computer-networks-course/">https://github.com/learning-internet-and-computer-networks/learning-internet-and-computer-networks-course/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-internet-and-computer-networks/learning-internet-and-computer-networks-book/">https://github.com/learning-internet-and-computer-networks/learning-internet-and-computer-networks-book/</a>
+    </p>
+</font>
+
+<br>
 
 <br>
 <hr/>
@@ -1765,11 +1842,30 @@ active: Courses
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-3d-web-graphics-and-multimedia" title="Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)">Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)</a>
+    <a target="_blank" href="https://learning-3d-web-graphics-and-multimedia.github.io/" title="Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)">Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)</a>
 </font>
 
 [![Learning3DWebGraphicsAndMultimedia]({{ site.images | relative_url }}/courses/learning-3d-web-graphics-and-multimedia-logo-1.png)]({{ site.images | relative_url }}/courses/learning-3d-web-graphics-and-multimedia-logo-1.png)
 <p style="font-size:11px"><i>Learning 3D/Web Graphics and Multimedia (Between January 2021 and Present)</i></p>
+
+<br>
+
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-3d-web-graphics-and-multimedia.github.io/">https://learning-3d-web-graphics-and-multimedia.github.io/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Contents</b></i></u>:&nbsp;<a href="https://github.com/learning-3d-web-graphics-and-multimedia/learning-3d-web-graphics-and-multimedia-course/">https://github.com/learning-3d-web-graphics-and-multimedia/learning-3d-web-graphics-and-multimedia-course/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-3d-web-graphics-and-multimedia/learning-3d-web-graphics-and-multimedia-book/">https://github.com/learning-3d-web-graphics-and-multimedia/learning-3d-web-graphics-and-multimedia-book/</a>
+    </p>
+</font>
+
+<br>
 
 <br>
 <hr/>
@@ -1785,11 +1881,30 @@ active: Courses
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-computer-architectures" title="Learning Computer Architectures (Between January 2021 and Present)">Learning Computer Architectures (Between January 2021 and Present)</a>
+    <a target="_blank" href="https://learning-computer-architectures.github.io/" title="Learning Computer Architectures (Between January 2021 and Present)">Learning Computer Architectures (Between January 2021 and Present)</a>
 </font>
 
 [![LearningComputerArchitectures]({{ site.images | relative_url }}/courses/learning-computer-architectures-logo-1.png)]({{ site.images | relative_url }}/courses/learning-computer-architectures-logo-1.png)
 <p style="font-size:11px"><i>Learning Computer Architectures (Between January 2021 and Present)</i></p>
+
+<br>
+
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-computer-architectures.github.io/">https://learning-computer-architectures.github.io/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Contents</b></i></u>:&nbsp;<a href="https://github.com/learning-computer-architectures/learning-computer-architectures-course/">https://github.com/learning-computer-architectures/learning-computer-architectures-course/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-computer-architectures/learning-computer-architectures-book/">https://github.com/learning-computer-architectures/learning-computer-architectures-book/</a>
+    </p>
+</font>
+
+<br>
 
 <br>
 <hr/>
@@ -1803,9 +1918,24 @@ active: Courses
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-control-version-systems" title="Learning Control Version Systems (Between January 2021 and Present)">Learning Control Version Systems (Between January 2021 and Present)</a>
+    <a target="_blank" href="https://learning-control-version-systems.github.io/" title="Learning Control Version Systems (Between January 2021 and Present)">Learning Control Version Systems (Between January 2021 and Present)</a>
 </font>
 
 [![LearningControlVersionSystems]({{ site.images | relative_url }}/courses/learning-control-version-systems-logo-1.png)]({{ site.images | relative_url }}/courses/learning-control-version-systems-logo-1.png)
 <p style="font-size:11px"><i>Learning Control Version Systems (Between January 2021 and Present)</i></p>
+
+<br>
+
+<b>Useful Links:</b>
+<font size="2">
+    <p align="justify"> 
+        &#9679;&nbsp;&nbsp;<u><i><b>Online Web Course</b></i></u>:&nbsp;<a href="https://learning-control-version-systems.github.io/">https://learning-control-version-systems.github.io/</a>
+        
+        <br>
+        
+        &#9679;&nbsp;&nbsp;<u><i><b>Course's Book</b></i></u>:&nbsp;<a href="https://github.com/learning-control-version-systems/learning-control-version-systems-book/">https://github.com/learning-control-version-systems/learning-control-version-systems-book/</a>
+    </p>
+</font>
+
+<br>
 

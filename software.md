@@ -1619,7 +1619,7 @@ active: Software
 </font>
 
 <font size="4">
-    <a target="_blank" href="/learning-web-technologies-frameworks" title="QuISL - Quantum Information Science Library (Between July 2020 and Present)">QuISL - Quantum Information Science Library (Between July 2020 and Present)</a>
+    <a target="_blank" href="https://quisl-framework.github.io/" title="QuISL - Quantum Information Science Library (Between July 2020 and Present)">QuISL - Quantum Information Science Library (Between July 2020 and Present)</a>
 </font>
 
 [![QuantumInformationScienceLibrary]({{ site.images | relative_url }}/software/quisl-logo-1.png)]({{ site.images | relative_url }}/software/quisl-logo-1.png)
